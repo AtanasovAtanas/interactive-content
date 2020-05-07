@@ -26,6 +26,9 @@ In Python, **strings** can be formatted with **placeholders**. There are differe
  print(interpolated_string)
  ```
 
+[/slide]
+
+[slide]
  # Number Formatting
  There are also different ways to **format a number**:
  ```python live
