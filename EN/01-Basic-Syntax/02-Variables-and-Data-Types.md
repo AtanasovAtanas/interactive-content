@@ -1,3 +1,70 @@
-[slide]
 # Variables and Data Types
+
+[slide]
+# Variables
+In Python, we can use **variables** to **store data**, they are containers for storing data values.
+
+Declaring a **variable** looks like this:
+```python
+age = 21
+salary = 1500.99
+name = 'Stephen'
+```
+On the **left** is the **variable name** and on the **right** - its **value**.
+
+# Variable Names
+There are several rules for Python variables names:
+ - **must start** with a **letter** or an **underscore** (`_`)
+ - **cannot start with a number**
+ - can contain **only alpha-numeric characters** and **underscores** (`A-z, 0-9, _`)
+ - are **case-sensitive**, meaning `name`, `Name` and `NAME` would be **3 different variables**
+
+[/slide]
+
+[slide]
+# Data Types
+Python has very few but robust data types:
+ - `int` - integer (whole) numbers
+ ```python
+ age = 6
+ ```
+ - `float` - floating point numbers
+ ```python
+ pi = 3.14159265
+ ```
+ - `bool` - boolean logical value (`True`/`False`)
+ ```python
+ is_alive = False
+ ```
+ - `str` - string (character sequence)
+ ```python
+ name = 'John Smith'
+ ```
+ - `None` - used to define a **null value**, meaning **no value**; equivalent to `null` in other languages
+ ```python
+ to_be_set_later = None
+ ```
+
+**Note:** Unlike other programming languages, in Python the variable's **data type** is **not** declared before its name.
+
+# Data Type Checking
+A variable's data type can be checked by using `type()`:
+```python live
+name = 'Mark'
+print(type(name)) # output: <class 'str'>
+price = 10.33
+print(type(price)) # output: <class 'float'>
+```
+
+# Data Type Conversion
+A `str` can be converted to an `int`:
+```python live
+num_as_str = '10'
+num = int(num_as_str)
+float_num = float('3.33')
+print(typeof(num_as_str)) # output: <class 'str'>
+print(typeof(num)) # output: <class 'int'>
+print(typeof(float_num)) # output: <class 'float'>
+```
+
 [/slide]
