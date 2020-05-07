@@ -62,9 +62,9 @@ A `str` can be converted to an `int`:
 num_as_str = '10'
 num = int(num_as_str)
 float_num = float('3.33')
-print(typeof(num_as_str)) # output: <class 'str'>
-print(typeof(num)) # output: <class 'int'>
-print(typeof(float_num)) # output: <class 'float'>
+print(type(num_as_str)) # output: <class 'str'>
+print(type(num)) # output: <class 'int'>
+print(type(float_num)) # output: <class 'float'>
 ```
 
 [/slide]
