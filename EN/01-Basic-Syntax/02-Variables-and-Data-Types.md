@@ -4,15 +4,27 @@
 # Variables
 In Python, we can use **variables** to **store data**, they are containers for storing data values.
 
+[image assetsSrc="boxes-with-variables.png" /]
+
 Declaring a **variable** looks like this:
 ```python
-age = 21
-salary = 1500.99
-name = 'Stephen'
+name = 'Bob'
+is_employed = True
+age = 35
 ```
 On the **left** is the **variable name** and on the **right** - its **value**.
 
 # Variable Names
+In Python, variable names follow the **snake-case** naming convention, which separates words with:
+ - one underscore character (`_`)
+ - no spaces
+ - each element's initial letter usually lowercased within the compound
+ - the first letter either upper or lowercase
+```python
+users_count
+first_name
+```
+
 There are several rules for Python variables names:
  - **must start** with a **letter** or an **underscore** (`_`)
  - **cannot start with a number**

@@ -1,4 +1,4 @@
-# String Formatting
+# Formatting
 
 [slide]
 # String Formatting
@@ -29,16 +29,22 @@ In Python, **strings** can be formatted with **placeholders**. There are differe
 [/slide]
 
 [slide]
- # Number Formatting
- There are also different ways to **format a number**:
+# Number Formatting
+There are also different ways to **format a number**:
+
+The default way is to format up to the 15th decimal place, shown below:
  ```python live
  pi = 3.141592653589793238462643383279
  default_format = '{}'.format(pi)
- formatted = '{:.3f}'.format(pi)
 
  print(default_format) # output: 3.141592653589793
- print(formatted) # output: 3.142
  ```
 
-**Note:** The default format is up to the 15th decimal point.
+There is also a custom formatting, where you can say to which decimal place the number to be formatted:
+ ```python live
+ pi = 3.141592653589793238462643383279
+ formatted = '{:.3f}'.format(pi)
+
+ print(formatted) # output: 3.142
+ ```
 [/slide]

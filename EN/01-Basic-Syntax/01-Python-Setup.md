@@ -42,7 +42,9 @@ You can follow the steps below to install PyCharm:
 
 [slide]
 # Creating a Console App
-You will have to set an interpreter. To do that, create a new project and choose an existing interpreter, as shown on the pictures below.
+You will have to set an interpreter. This is a computer program that executes instructions written in a programming language (like Python), without requiring them previously to have been compiled into a machine language program.
+
+Now, create a new project and choose an existing interpreter, as shown on the pictures below.
 
 [image assetsSrc="pycharm-new-project.png" /]
 [image assetsSrc="pycharm-add-local-interpreter.png" /]
@@ -56,7 +58,7 @@ First, you need to create a new **Python File** in the **root directory**.
 [image assetsSrc="pycharm-new-python-file.png" /]
 [image assetsSrc="pycharm-new-python-file-pop-up.png" /]
 
-Then, type in the following code:
+Then, type in the following code in your newly created project in PyCharm:
 ```python live
 print('Hello World!')
 ```

@@ -2,9 +2,10 @@
 
 [slide]
 # Printing on the Console
-Printing on the console is simple. Type `print()` and whatever you want to print between the braces.
+Printing on the console is simple. Type `print()` and whatever you want to print between the braces. Both `'` and `"` can be used to write a string.
 ```python live
 print('Hello from the console.')
+print("Hello from the console, again.")
 ```
 By default, after printing, the console goes to a new line. If you want to prevent this from happening, or print something else in the end, you have to use the `end` parameter:
 ```python live
@@ -35,7 +36,7 @@ number = int(input())
 print(type(number)) # output: <class 'int'>
 ```
 
-The `input()` function can print a prompt to the console:
+The `input()` function can print a string on the console before requiring the user to enter the input:
 ```python live
 name = input('enter your name: ')
 print('Hello, ' + name)
