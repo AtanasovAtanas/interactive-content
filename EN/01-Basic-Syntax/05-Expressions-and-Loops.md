@@ -83,19 +83,6 @@ print(a % b)
 print(3.5 % 1)
 ```
 
-Operators in Python work the same as other programming languages:
- - `+` stands for addition
- - `-` stands for subtraction
- - `*` stands for multiplication
- - `/` stands for division
- - `%` stands for modulus division
-```python live
-print(10 + 10)
-print(20 - 10)
-print(2 * 5)
-print(10 / 2)
-print(10 % 3)
-```
 It is useful if we want to check whether a number is **even** or **odd**.
 
 If the remainder when dividing by 2 is equal to 0, then the number is even, otherwise it is odd.
@@ -218,7 +205,7 @@ for i in iterable:
   print(i)
 ```
 The block of code can be explained with this use case diagram:
-[image assetsSrc="04-for-loop-use-case.png" /]
+[image assetsSrc="for-loop-range-use-case-example.png" /]
 
 Usually use the `range([start], end, [step])` function, where the `start` and `step` arguments are **optional**.
 

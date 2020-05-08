@@ -20,6 +20,8 @@ In Python, variable names follow the **snake-case** naming convention, which sep
  - no spaces
  - each element's initial letter usually lowercased within the compound
  - the first letter either upper or lowercase
+
+There are some examples for valid variable names in Python:
 ```python
 users_count
 first_name
