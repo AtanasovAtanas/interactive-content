@@ -258,12 +258,19 @@ for i in reversed(range(0, 10)):
 # While Loops
 
 The `while` loop executes the command(s) while the given condition is true.
+
+By "**condition**", we understand every expression that returns `True` or `False`. When the **condition** is **wrong**, the while loop is **interrupted**, the program **continues** to execute the remaining code after the loop.
+
+[image assetsSrc="05-use-case-while.png" /]
+
+## Example
 ```python live
 i = 1
 while i < 10:
     print(i)
     i += 1
 ```
+## Keywords
 There are two keywords that allow you to manipulate the loop:
  - `break` is used to end the loop
  - `continue` is used to skip an iteration
