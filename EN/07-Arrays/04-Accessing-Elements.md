@@ -1,3 +1,0 @@
-[slide]
-# Accessing Elements
-[/slide]

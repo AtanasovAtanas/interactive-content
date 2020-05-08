@@ -1,3 +1,0 @@
-[slide]
-# Creating Lists
-[/slide]
