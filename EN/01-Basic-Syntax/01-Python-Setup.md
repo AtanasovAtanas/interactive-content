@@ -25,17 +25,17 @@ To program in Python, an Integrated Development Environment (IDE) is recommended
 You can download PyCharm from [here](https://www.jetbrains.com/pycharm/download). The community edition is free.
 
 You can follow the steps below to install PyCharm:
-1. After downloading the installation file, run it. You'll see the following:
+ - After downloading the installation file, run it. You'll see the following:
 [image assetsSrc="installing-pycharm-1.png" /]
-2. Press the `Next >` button, then you'll see this:
+ - Press the `Next >` button, then you'll see this:
 [image assetsSrc="installing-pycharm-2.png" /]
-3. Now press again the `Next >` button. You will see this:
+ - Now press again the `Next >` button. You will see this:
 [image assetsSrc="installing-pycharm-3.png" /]
-4. Check the boxes as in the screenshot above (`.py` and `Download and install JRE x86 by JetBrains`) and press `Next >`, you'll see this:
+ - Check the boxes as in the screenshot above (`.py` and `Download and install JRE x86 by JetBrains`) and press `Next >`, you'll see this:
 [image assetsSrc="installing-pycharm-4.png" /]
-5. Press the `Install` button. You will see this:
+ - Press the `Install` button. You will see this:
 [image assetsSrc="installing-pycharm-5.png" /]
-6. Press the button `Finish`. Then PyCharm will start and you'll see this on your screen:
+ - Press the button `Finish`. Then PyCharm will start and you'll see this on your screen:
 [image assetsSrc="installing-pycharm-6.png" /]
 
 [/slide]
