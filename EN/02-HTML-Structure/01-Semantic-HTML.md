@@ -1,4 +1,4 @@
-# HTML Structure
+# Semantic HTML
 
 [slide]
 # HTML Semantic Elements
