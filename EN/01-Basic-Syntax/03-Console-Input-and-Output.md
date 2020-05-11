@@ -2,12 +2,18 @@
 
 [slide]
 # Printing on the Console
-Printing on the console is simple. Type `print()` and whatever you want to print between the braces. Both `'` and `"` can be used to write a string.
+Printing on the console is simple. Type `print()` and whatever you want to print between the braces.
+
+Both `'` and `"` can be used to write a string.
+
 ```python live
 print('Hello from the console.')
 print("Hello from the console, again.")
 ```
-By default, after printing, the console goes to a new line. If you want to prevent this from happening, or print something else in the end, you have to use the `end` parameter:
+By default, after printing, the console goes to a new line.
+
+If you want to prevent this from happening, or print something else in the end, you have to use the `end` parameter:
+
 ```python live
 print('Hello from the console.')
 print('This line will be on a new line.')

@@ -14,7 +14,7 @@ After downloading the installation file, run it. You'll see the following on you
 **Note:** Make sure you checked both boxes.
 
 Now, wait until it is fully installed. That's it.
-[image assetsSrc="installing-pycharm-2.png" /]
+[image assetsSrc="installing-python-2.png" /]
 
 [/slide]
 
@@ -47,7 +47,6 @@ You will have to set an interpreter. This is a computer program that executes in
 Now, create a new project and choose an existing interpreter, as shown on the pictures below.
 
 [image assetsSrc="pycharm-new-project.png" /]
-[image assetsSrc="pycharm-add-local-interpreter.png" /]
 
 [/slide]
 
@@ -62,6 +61,9 @@ Then, type in the following code in your newly created project in PyCharm:
 ```python live
 print('Hello World!')
 ```
+
+[image assetsSrc="pycharm-hello-world.png" /]
+
 When you are ready, you can run the console app using:
  - `Right click` -> `Run "helloworld"`
  - `Ctrl + Shift + F10`

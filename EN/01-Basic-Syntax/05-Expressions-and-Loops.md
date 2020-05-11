@@ -204,19 +204,19 @@ In order to do that, the so-called loops are used.
 for i in iterable:
   print(i)
 ```
-The block of code can be explained with this use case diagram:
-[image assetsSrc="for-loop-range-use-case-example.png" /]
 
 Usually use the `range([start], end, [step])` function, where the `start` and `step` arguments are **optional**.
 
  - The `start` argument specifies at which position to start the iteration, its default value is 0.
  - The `end` argument specifies at which position to end the iteration. It has no default value and is required to be specified.
  - The `step` argument specifies the incrementation, its default value is 1.
+
 ```python live
 print('Numbers from 0 to 4:')
 for i in range(5):
     print(i)
 ```
+
 ```python live
 print('Numbers from 5 to 20 by threes:')
 for i in range(5, 20, 3):

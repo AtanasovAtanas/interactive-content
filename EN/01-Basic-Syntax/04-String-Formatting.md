@@ -5,20 +5,26 @@
 In Python, **strings** can be formatted with **placeholders**. There are different ways to **format a string**:
 
  - String formatting:
+
  ```python live
  animal = 'dog'
  age = 2
  formatted_string = 'This %s is %d years old.' % (animal, age)
  print(formatted_string)
  ```
+We use `%s` for strings and `%d` for numbers.
+
  - `format` function:
+
  ```python live
  animal = 'dog'
  age = 2
  formatted_string = 'This {0} is {1} years old.'.format(animal, age)
  print(formatted_string)
  ```
+
  - Interpolation:
+
  ```python live
  animal = 'dog'
  age = 2
