@@ -32,19 +32,17 @@ In HTML there are some semantic elements, that can be used to define different p
 The `<nav>` tag defines a set of navigation links.
 
 Example:
-```html
-<nav id="topmenu">
-  <ul>
-    <li><a href="/Home">Home</a></li>
-    <li><a href="/Menu">Menu</a></li>
-    <li><a href="/Courses">Courses</a></li>
-  </ul>
-</nav>
-```
-[/slide]
+	```html
+	<nav id="topmenu">
+	  <ul>
+		<li><a href="/Home">Home</a></li>
+		<li><a href="/Menu">Menu</a></li>
+		<li><a href="/Courses">Courses</a></li>
+	  </ul>
+	</nav>
+	```
 
-[slide]
-## HTML <header> Tag
+## HTML \<header\> Tag
 
 The `<header>` tag specifies a header for a document or section.
 This tag should be used as a **container for introductory content**.
@@ -56,9 +54,7 @@ Example
   <h1>Welcome to SoftUni!</h1>
 </header>
 ```
-[/slide]
 
-[slide]
 ## HTML \<main\> Tag
 
 The `<main>` tag specifies the main content of a document. It's content should be unique to the document. There must not be more than one `<main>` tag in a document. `<main>` tag wraps the most important information in the body.
@@ -80,9 +76,7 @@ Example
   </article>
 </main>
 ```
-[/slide]
 
-[slide]
 ## HTML \<footer\> Tag
 
 The `<footer>` tag represents a footer for a document or section.
@@ -97,9 +91,6 @@ Example
   <p>&copy;copyright</p>
 </footer>
 ```
-[/slide]
-
-[slide]
 ## HTML \<section\> Tag
 
 The HTML `<section>` tag represents a standalone section, which doesn't have a more specific semantic tag to represent it. Typically, but not mandatory, sections have a heading.
@@ -111,9 +102,7 @@ Example
   <img src="bird.jpg" />
 </section>
 ```
-[/slide]
 
-[slide]
 ## HTML \<aside\> Tag
 
 Тhe HTML `<aside>` tag defines some content aside from the content it is placed in. Asides are frequently presented as sidebars or call-out boxes.
