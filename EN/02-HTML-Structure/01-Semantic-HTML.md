@@ -44,7 +44,7 @@ Example:
 [/slide]
 
 [slide]
-## HTML \<header\> Tag
+## HTML <header> Tag
 
 The `<header>` tag specifies a header for a document or section.
 This tag should be used as a **container for introductory content**.
