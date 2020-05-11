@@ -38,6 +38,11 @@ print(my_list.index(2)) # 1
 
 If there is **no such element** in the list, an `ValueError` will be raised.
 
+```python live
+my_list = [1, 2, 3, 4]
+print(my_list.index(7)) # ValueError
+```
+
 [/slide]
 
 [slide]

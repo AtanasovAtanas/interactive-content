@@ -25,7 +25,9 @@ In the example above, we access the **last element at index 2**, because we **su
 [slide]
 # Negative Indices
 
-In Python, **negative indices** can be used to access elements. Using negative index, starts counting **from the end** of the list, for example the **-1 index** will give you the **last element**.
+In Python, **negative indices** can be used to access elements.
+
+Using negative index, starts **from the end** of the list, for example the **-1 index** will give you the **last element**.
 
 ```python live
 my_list = [3, 6, 9]

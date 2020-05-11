@@ -1,13 +1,16 @@
 # Creating Lists
 
 [slide]
+# Ways to Create a List
+
 There are two ways to create a list:
  - Initialize it with square brackets, if no elements are declared, the list will be empty
 ```python
 empty_list = []
 my_list = [1, 2, 3]
 ```
- - Initialize it with the `list([iterable])` function. The `[iterable]` argument is optional. If it isn't given, the list will be empty, otherwise - it will consist of the elements of the iterable.
+ - Initialize it with the `list([iterable])` function.
+ - The `[iterable]` argument is optional. If it isn't given, the list will be empty, otherwise - it will consist of the elements of the iterable.
 ```python
 empty_list = list()
 my_list = list('hey') # this is equal to my_list = ['h', 'e', 'y']
@@ -31,8 +34,8 @@ my_list = some_text.split("!") # ["a", "b", "c", "d"]
 In case you don't specify the separator, the function will try to split the string by spaces. See the example below:
 
 ```python
-some_text = "hello, my   name is  Stephen."
-my_list = some_text.split(" ") # ['hello,', 'my', 'name', 'is', 'Stephen.']
+some_text = "hello, my name is Stephen."
+my_list = some_text.split() # ['hello,', 'my', 'name', 'is', 'Stephen.']
 ```
 
 The separator can be a whole string, not only a single character.
