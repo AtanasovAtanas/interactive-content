@@ -38,7 +38,7 @@ print_name("Jason", "Oprah") # TypeError, more arguments
 [slide]
 # Optional Parameters
 
-Parameters can accept default values.
+Parameters can accept **default values**.
 
 ```python
 def print_numbers(start=0, end=100):
@@ -46,9 +46,9 @@ def print_numbers(start=0, end=100):
       print(i, end=' ')
 ```
 
-Giving an argument a default value, gives you the possibility to omit it when calling the function.
+Giving an argument a **default value**, gives you the possibility to **omit it when calling the function**.
 
-Doing this, the function will be executed with its default argument values.
+Doing this, the function will be executed with its **default argument values**.
 
 There are a few ways to call a function which has optional parameters:
 

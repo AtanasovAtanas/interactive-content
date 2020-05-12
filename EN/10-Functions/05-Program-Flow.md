@@ -3,7 +3,7 @@
 [slide]
 # Program Execution
 
-The program continues after a function execution completes, until it reaches the end.
+The program **continues** after a function execution **completes**, until it reaches the **end**.
 
 ```python live
 def print_logo():

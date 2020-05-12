@@ -3,7 +3,7 @@
 [slide]
 # The Return Keyword
 
-The `return` keyword immediately stops the function's execution.
+The `return` keyword **immediately stops** the function's execution.
 
 ```python live
 def print_numbers(start, end):
@@ -15,9 +15,9 @@ def print_numbers(start, end):
 print_numbers(1, 10) # 1 2 3 4
 ```
 
-In the example above, the printing stops at 4 because if the number is 5, the `return` keyword is used.
+In the example above, the printing **stops** at 4 because **if the number is 5**, the `return` keyword is used.
 
-This can be used to make the function return a value, which can be used somehow outside of the function.
+This can be used to make the **function return a value**, which can be used somehow **outside of the function**.
 
 ```python live
 def sum(number_one, number_two):
@@ -30,7 +30,7 @@ print(sum(3, 6))
 [slide]
 # Using the Return Values
 
-The returned values from functions can be used in many ways:
+The **returned values** from functions can be used in many ways:
  - Assigned to a variable
  ```python live
 def sum(number_one, number_two):

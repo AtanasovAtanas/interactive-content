@@ -3,7 +3,7 @@
 [slide]
 # Simple Functions
 
-In order to declare a function, use the `def` keyword:
+In order to **declare** a function, use the `def` keyword:
 
 ```python
 def print_greeting():
@@ -17,7 +17,7 @@ Notice there is a colon (`:`) after the braces.
 [slide]
 # Invoking Functions
 
-A function can be invoked from everywhere in the scope, where it is defined.
+A function can be invoked from **everywhere in the scope**, where it is defined.
 
 ```python live
 def print_greeting():
@@ -26,7 +26,7 @@ def print_greeting():
 print_greeting()
 ```
 
-It can be called from another function:
+It can be called from **another function**:
 
 ```python live
 def print_name():
@@ -39,7 +39,7 @@ def print_greeting():
 print_name()
 ```
 
-It can also be called in its own body:
+It can also be called **in its own body**:
 
 ```python
 def print_name():
@@ -47,6 +47,8 @@ def print_name():
   print_name()
 ```
 
-The example above will raise a `RecursionError` because there is no end condition.
+The example above will raise a `RecursionError` because there is **no end condition**.
+
+A recursion means that **a functions calls itself**.
 
 [/slide]
