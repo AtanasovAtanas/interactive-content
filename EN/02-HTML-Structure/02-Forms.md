@@ -18,9 +18,9 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="ZEbRVeG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ZEbRVeG">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/ZEbRVeG">
+  ZEbRVeG</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -33,7 +33,7 @@ Example
 ## Form Attributes
 
 The form attributes are optional, but it's standard practice to always set at least the **action** and **method** attributes.
-* The action attribute defines the URL, where the form's collected data should be sent, when it is submitted.
+* The action attribute defines the URL, where the form's collected data should be send, when it is submitted.
 * The method attribute defines which HTTP method to send the data with (GET/POST).
 
 Example
@@ -47,9 +47,9 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="wvKXRJR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="wvKXRJR">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/wvKXRJR">
+  wvKXRJR</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -80,8 +80,8 @@ Problem: Write a form.
 
 ### Input Validation
 
-* HTML input validation is done automatically by the browser based on special attributes;
-* The validation only occurs when attempting to submit the form;
+* HTML input validation is done automatically by the browser based on special attributes.
+* The validation only occurs when attempting to submit the form.
 * Inputs which are disabled or read-only will not trigger validation.
 
 ### Input Attributes
@@ -119,9 +119,9 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="vYNrvmd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNrvmd">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/vYNrvmd">
+  vYNrvmd</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -147,9 +147,9 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="bGVKOWz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="bGVKOWz">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/bGVKOWz">
+  bGVKOWz</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -172,9 +172,9 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="VwvdqWy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="VwvdqWy">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/VwvdqWy">
+  VwvdqWy</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -185,7 +185,8 @@ Example
 `<textarea>` – defines a multi-line input field. A text area can hold an unlimited number of characters. 
 The size of a text area can be specified by the cols and rows attributes or through CSS height and width properties.
 
-`rows` – specifies the visible number of lines in a text area;
+`rows` – specifies the visible number of lines in a text area
+
 `cols` – specifies the visible width of a text area.
 
 Example
@@ -202,7 +203,7 @@ Example
 Reset button – resets all form fields
 Example
 ```html
-input type="reset"/>
+<input type="reset"/>
 ```
 The `<button>` tag defines a clickable button
 Example
