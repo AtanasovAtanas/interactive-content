@@ -5,23 +5,25 @@
 
 HTML5 uses **semantic tags** for the document structure.
 Semantic element clearly describes its meaning to both the **browser** and the **developer**.
+
 Examples of **non-semantic elements** are \<div\>, \<span\> - they tell nothing about its content.
 Examples of **semantic elements** are \<section\>, \<header\>, \<article\> they define its content.
 
 In HTML there are some semantic elements, that can be used to define different parts of a web page:
-* \<article>
-* \<aside>
-* \<details>
-* \<figcaption>
-* \<figure>
-* \<footer>
-* \<header>
-* \<main>
-* \<mark>
-* \<nav>
-* \<section>
-* \<summary>
-* \<time>
+
+* `<article>`
+* `<aside>`
+* `<details>`
+* `<figcaption>`
+* `<figure>`
+* `<footer>`
+* `<header>`
+* `<main>`
+* `<mark>`
+* `<nav>`
+* `<section>`
+* `<summary>`
+* `<time>`
 
 [/slide]
 
@@ -32,7 +34,7 @@ In HTML there are some semantic elements, that can be used to define different p
 
 The `<nav>` tag defines a set of navigation links.
 
-Example:
+****Example****
 ```html
 <nav id="topmenu">
   <ul>
@@ -57,7 +59,7 @@ The `<header>` tag specifies a header for a document or section.
 This tag should be used as a **container for introductory content**.
 You can have several `<header>` tags in one document.
 
-Example
+****Example****
 ```html
 <header>
   <h1>Welcome to SoftUni!</h1>
@@ -74,9 +76,13 @@ Example
 
 ## HTML \<main\> Tag
 
-The `<main>` tag specifies the main content of a document. It's content should be unique to the document. There must not be more than one `<main>` tag in a document. `<main>` tag wraps the most important information in the body.
+The `<main>` tag specifies the main content of a document. It's content should be unique to the document.
 
-Example
+There must not be more than one `<main>` tag in a document.
+
+`<main>` tag wraps the most important information in the body.
+
+****Example****
 ```html
 <main>
   <h1>HTML and CSS</h1>
@@ -105,10 +111,12 @@ Example
 ## HTML \<footer\> Tag
 
 The `<footer>` tag represents a footer for a document or section.
+
 Usually a `<footer>` tag contains information about the author, copyright data or links to related documents.
+
 You may have several `<footer>` tags in one document.
 
-Example
+****Example****
 ```html
 <footer>
   <p>Posted by: Hege Refsnes</p>
@@ -127,9 +135,11 @@ Example
 
 ## HTML \<section\> Tag
 
-The HTML `<section>` tag represents a standalone section, which doesn't have a more specific semantic tag to represent it. Typically, but not mandatory, sections have a heading.
+The HTML `<section>` tag represents a standalone section, which doesn't have a more specific semantic tag to represent it.
 
-Example
+ Typically, but not mandatory, sections have a heading.
+
+****Example****
 ```html
 <section>
   <h2>First Section</h2>
@@ -157,7 +167,7 @@ Example
 
 Тhe HTML `<aside>` tag defines some content aside from the content it is placed in. Asides are frequently presented as sidebars or call-out boxes.
 
-Example
+****Example****
 ```html
 <aside>
   <h2>Blogroll</h2>
@@ -183,7 +193,7 @@ Problem: Simple Web Page
 
 The `<figure>` tag is used to mark up a photo in a document. The `<figcaption>` tag defines a caption for the photo:
 
-Example
+**Example**
 ```html
 <p>The Pulpit Rock …</p>
 <figure>
@@ -203,9 +213,13 @@ Example
 
 ## HTML \<details\> and \<summary\> Tags
 
-The `<details>` tag specifies additional details, that the user can view or hide on demand. A summary or label can be provided using the `<summary>` element. If the first child of the `<details>` element is a `<summary>`, the contents of the `<summary>` element are used as the label for the disclosure widget.
+The `<details>` tag specifies additional details, that the user can view or hide on demand. 
 
-Example
+A summary or label can be provided using the `<summary>` element.
+
+ If the first child of the `<details>` element is a `<summary>`, the contents of the `<summary>` element are used as the label for the disclosure widget.
+
+**Example**
 ```html
 <details>
   <summary>Some details</summary> 
@@ -226,7 +240,7 @@ Example
 * The `<time>` tag defines a human-readable date/time. It may include the datetime attribute to translate dates into machine-readable format.
 * The HTML `<address>` element indicates that the enclosed HTML provides contact information like email address, URL, physical address, phone number, social media handle, etc.
 
-Example
+**Example**
 ```html
 <div>
   <p>We open at <time>10:00</time> every morning.</p>

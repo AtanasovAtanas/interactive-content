@@ -7,9 +7,11 @@ HTML table allows web authors to arrange data into rows and columns.
 
 ## HTML `<table>` Tag
 
-`<table>` tag defines an HTML table. Each table row is defined with a `<tr>` tag. A table cell is defined with a `<td>` tag (td means table data). If the cell is in the header, it is defined with the `<th>` tag. By default, table headings are bold and centered. 
+`<table>` tag defines an HTML table. Each table row is defined with a `<tr>` tag. A table cell is defined with a `<td>` tag (td means table data).
 
-Example
+If the cell is in the header, it is defined with the `<th>` tag. By default, table headings are bold and centered. 
+
+**Example**
 ```html
 <table>
     <tr>
@@ -42,7 +44,7 @@ There are three specific parts in every table:
 
 These elements are used to specify each part of a table (header, body, footer). 
 
-Example
+**Example**
 ```html
 <table>
   <thead>
