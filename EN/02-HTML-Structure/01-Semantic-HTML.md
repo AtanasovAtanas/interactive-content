@@ -50,9 +50,6 @@ Example:
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
-[/slide]
-
-[slide]
 ## HTML \<header\> Tag
 
 The `<header>` tag specifies a header for a document or section.
@@ -74,9 +71,6 @@ Example
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
-[/slide]
-
-[slide]
 ## HTML \<main\> Tag
 
 The `<main>` tag specifies the main content of a document. It's content should be unique to the document. There must not be more than one `<main>` tag in a document. `<main>` tag wraps the most important information in the body.
@@ -107,9 +101,6 @@ Example
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
-[/slide]
-
-[slide]
 ## HTML \<footer\> Tag
 
 The `<footer>` tag represents a footer for a document or section.
@@ -133,9 +124,6 @@ Example
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
-[/slide]
-
-[slide]
 ## HTML \<section\> Tag
 
 The HTML `<section>` tag represents a standalone section, which doesn't have a more specific semantic tag to represent it. Typically, but not mandatory, sections have a heading.
@@ -156,9 +144,6 @@ Example
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
-[/slide]
-
-[slide]
 ## HTML \<aside\> Tag
 
 Тhe HTML `<aside>` tag defines some content aside from the content it is placed in. Asides are frequently presented as sidebars or call-out boxes.
@@ -184,9 +169,7 @@ Example
 [/html]
 
 Problem: Simple Web Page
-[/slide]
 
-[slide]
 ## HTML \<figure\> and \<figcaption\> Tags
 
 The `<figure>` tag is used to mark up a photo in a document. The `<figcaption>` tag defines a caption for the photo:
@@ -199,9 +182,7 @@ Example
   <figcaption>Fig.1 - A view …</figcaption>
 </figure>
 ```
-[/slide]
 
-[slide]
 ## HTML \<details\> and \<summary\> Tags
 
 The `<details>` tag specifies additional details, that the user can view or hide on demand. A summary or label can be provided using the `<summary>` element. If the first child of the `<details>` element is a `<summary>`, the contents of the `<summary>` element are used as the label for the disclosure widget.
@@ -222,9 +203,6 @@ Example
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
-[/slide]
-
-[slide]
 ## HTML \<time\> and \<address\> Tags
 
 * The `<time>` tag defines a human-readable date/time. It may include the datetime attribute to translate dates into machine-readable format.
