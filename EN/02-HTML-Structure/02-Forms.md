@@ -17,6 +17,15 @@ Example
   <input type="submit" value="Submit">
 </form>
 ```
+[html]
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
+  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+[/html]
+
 [/slide]
 
 [slide]
@@ -38,7 +47,11 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="RwWwpov" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="RwWwpov"></p>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
+  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -64,10 +77,6 @@ The `<input>` element is one of the most important form elements. This element c
 **Note**: If the type attribute is omitted, the input field gets the default type: "text".
 
 Problem: Write a form.
-[html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="RwWwpov" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="RwWwpov"></p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-[/html]
 
 ### Input Validation
 
@@ -93,10 +102,6 @@ Example
 <input type="url" required="true" />
 <input type="tel" required="true" />
 ```
-[html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="RwWwpov" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="RwWwpov"></p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-[/html]
 
 ### The `<label>` Element
 
@@ -114,7 +119,11 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="RwWwpov" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="RwWwpov"></p>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
+  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -138,7 +147,11 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="RwWwpov" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="RwWwpov"></p>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
+  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -159,7 +172,11 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="RwWwpov" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="RwWwpov"></p>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
+  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -175,10 +192,6 @@ Example
 ```html
 <textarea rows="10" cols="30">The cat was playing in the garden.</textarea>
 ```
-[html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="RwWwpov" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="RwWwpov"></p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-[/html]
 
 ### Buttons
 Submit button – sends the form data to the server
@@ -189,15 +202,11 @@ Example
 Reset button – resets all form fields
 Example
 ```html
-<input type="reset"/>
+input type="reset"/>
 ```
 The `<button>` tag defines a clickable button
 Example
 ```html
 <button type="button">Click Me!</button>
 ```
-[html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="RwWwpov" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="RwWwpov"></p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-[/html]
 [/slide]
