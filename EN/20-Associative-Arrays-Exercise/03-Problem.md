@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Legendary Farming
-[code-task title="Legendary Farming" taskId="python-fundamentals-assosiative-arrays-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Legendary Farming" taskId="f403b513-0610-4f22-8ef1-6d85ae6a6443" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

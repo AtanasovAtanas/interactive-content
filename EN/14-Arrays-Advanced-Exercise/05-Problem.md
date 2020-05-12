@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Bomb Numbers
-[code-task title="Bomb Numbers" taskId="python-fundamentals-lists-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Bomb Numbers" taskId="6b22805c-35cf-435c-ab31-b4259126e30f" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

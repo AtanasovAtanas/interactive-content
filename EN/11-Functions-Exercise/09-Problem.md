@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Palindrome Integers
-[code-task title="Palindrome Integers" taskId="python-fundamentals-methods-09" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Palindrome Integers" taskId="65fa51a2-a76f-4901-8170-6626a0d3740a" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python requiresInput]
 ```
 # Write your code here

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Valid Usernames
-[code-task title="Valid Usernames" taskId="python-fundamentals-text-processing-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Valid Usernames" taskId="7563ebfe-d422-49af-b8f3-b14e5b647202" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

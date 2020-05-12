@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Array Rotation
-[code-task title="Array Rotation" taskId="python-fundamentals-arrays-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Array Rotation" taskId="1883c872-d078-425c-92e9-dee24fb9932f" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

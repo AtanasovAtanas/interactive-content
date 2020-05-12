@@ -1,6 +1,6 @@
 [slide]
 # Registration
-[code-task title="Registration" taskId="python-fundamentals-final-exam-prep-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Registration" taskId="cb5d0e1c-4f17-430d-95a3-3e1322a13d0e" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

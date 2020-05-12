@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: House Party
-[code-task title="House Party" taskId="python-fundamentals-lists-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="House Party" taskId="a4b83b7d-756e-44c1-8a20-fe1404017754" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

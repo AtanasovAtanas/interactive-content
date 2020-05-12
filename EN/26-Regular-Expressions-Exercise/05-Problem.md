@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Nether Realms
-[code-task title="Nether Realms" taskId="python-fundamentals-regex-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Nether Realms" taskId="5266e623-a4c2-41b3-8fa5-fcc9e56672b5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

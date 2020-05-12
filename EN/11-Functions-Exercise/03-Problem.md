@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Characters in Range
-[code-task title="Characters in Range" taskId="python-fundamentals-methods-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Characters in Range" taskId="a852760f-9187-443d-9a31-ed73dbf62a8b" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python requiresInput]
 ```
 # Write your code here

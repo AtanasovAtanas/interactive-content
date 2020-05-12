@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Pokemon Don't Go
-[code-task title="Pokemon Don't Go" taskId="python-fundamentals-lists-08" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Pokemon Don't Go" taskId="50190191-ce7b-401c-a7bc-655f43ef08c3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

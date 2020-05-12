@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Courses
-[code-task title="Courses" taskId="python-fundamentals-assosiative-arrays-06" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Courses" taskId="138c75b1-4624-4927-84b2-7658d429d0b5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

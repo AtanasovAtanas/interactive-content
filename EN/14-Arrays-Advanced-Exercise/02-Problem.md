@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Change List
-[code-task title="Change List" taskId="python-fundamentals-lists-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Change List" taskId="a91cb070-8723-4c07-aed4-426b3c04224c" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

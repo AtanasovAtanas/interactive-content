@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: LadyBugs
-[code-task title="LadyBugs" taskId="python-fundamentals-arrays-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="LadyBugs" taskId="dabf4d37-8f05-43d0-8554-c760f612301d" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

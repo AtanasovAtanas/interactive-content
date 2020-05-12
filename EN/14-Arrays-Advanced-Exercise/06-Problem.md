@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Cards Game
-[code-task title="Cards Game" taskId="python-fundamentals-lists-06" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Cards Game" taskId="8060f0d3-0a17-43e0-ab4a-990b1f8ba58e" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Sum of Chars
-[code-task title="Sum of Chars" taskId="PF-02-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Sum of Chars" taskId="921478cf-1521-4bc1-8bb8-d7721b5adc27" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

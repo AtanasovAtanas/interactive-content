@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Count Chars in a String
-[code-task title="Count Chars in a String" taskId="python-fundamentals-assosiative-arrays-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Count Chars in a String" taskId="7dfefbd7-60f2-43c5-b426-badbc7fc6d0b" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

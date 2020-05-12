@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: ForceBook
-[code-task title="ForceBook" taskId="python-fundamentals-assosiative-arrays-09" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="ForceBook" taskId="60f54c1d-a90e-4a09-99e7-30252e90a1f8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

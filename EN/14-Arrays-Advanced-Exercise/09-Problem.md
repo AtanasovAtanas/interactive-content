@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: SoftUni Course Planning
-[code-task title="SoftUni Course Planning" taskId="python-fundamentals-lists-09" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="SoftUni Course Planning" taskId="78707142-0769-463e-8097-20e8b1ebbafa" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

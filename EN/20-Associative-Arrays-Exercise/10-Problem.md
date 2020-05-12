@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: SoftUni Course Planning
-[code-task title="SoftUni Course Planning" taskId="python-fundamentals-assosiative-arrays-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="SoftUni Course Planning" taskId="80451b23-e2af-4bb3-875a-0301908baf1d" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Vehicle Catalogue
-[code-task title="Vehicle Catalogue" taskId="python-fundamentals-objects-and-classes-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Vehicle Catalogue" taskId="bb505931-5b54-4025-8370-7be3385ff758" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

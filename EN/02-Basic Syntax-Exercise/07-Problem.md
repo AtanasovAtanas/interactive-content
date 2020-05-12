@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Vending Machine
-[code-task title="Vending Machine" taskId="JF-01-07" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Vending Machine" taskId="77b74a23-15c3-4449-aef3-9c42eb498e35" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Bar Income
-[code-task title="Bar Income" taskId="python-fundamentals-regex-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Bar Income" taskId="42aa1996-01af-429e-8e70-20a49734928a" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

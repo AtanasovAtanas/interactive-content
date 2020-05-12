@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Password Validator
-[code-task title="Password Validator" taskId="python-fundamentals-methods-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Password Validator" taskId="034536ee-bc04-4d39-b137-d5a4fac619e9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python requiresInput]
 ```
 # Write your code here

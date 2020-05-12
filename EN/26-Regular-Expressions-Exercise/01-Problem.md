@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Furniture
-[code-task title="Furniture" taskId="python-fundamentals-regex-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Furniture" taskId="a0a7d9e4-1ed9-4ef9-86ab-d6161baeadc8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

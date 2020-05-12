@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: A Miner Task
-[code-task title="A Miner Task" taskId="python-fundamentals-assosiative-arrays-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="A Miner Task" taskId="16d4b380-3a9c-49c0-8cb2-24ac4581a03a" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

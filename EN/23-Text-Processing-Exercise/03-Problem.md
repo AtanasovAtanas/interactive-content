@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Extract File
-[code-task title="Extract File" taskId="python-fundamentals-text-processing-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Extract File" taskId="007d1d57-6388-4ec3-b828-3c3f39fd8080" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Multiply Big Number
-[code-task title="Multiply Big Number" taskId="python-fundamentals-text-processing-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Multiply Big Number" taskId="344efb83-879e-4a49-9f9f-6c0cc3d3734e" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

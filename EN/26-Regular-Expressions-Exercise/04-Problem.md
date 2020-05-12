@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Star Enigma
-[code-task title="Star Enigma" taskId="python-fundamentals-regex-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Star Enigma" taskId="48722260-864d-4c1b-a419-389512e2926c" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

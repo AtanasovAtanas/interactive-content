@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Strong Number
-[code-task title="Strong Number" taskId="JF-01-06" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Strong Number" taskId="71b6599d-8652-4cca-bae9-94474b73f577" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Sum Digits
-[code-task title="Sum Digits" taskId="PF-02-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Sum Digits" taskId="967e0d6c-2989-44f9-a070-e57d027a7efa" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

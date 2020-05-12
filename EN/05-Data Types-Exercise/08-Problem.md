@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Beer Kegs
-[code-task title="Beer Kegs" taskId="PF-02-08" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Beer Kegs" taskId="9a72cebf-99b2-4de6-8d9c-08e06893241b" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Magic Sum
-[code-task title="Magic Sum" taskId="python-fundamentals-arrays-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Magic Sum" taskId="aa2a0a8f-06d7-478b-88ce-25e01b7c1595" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

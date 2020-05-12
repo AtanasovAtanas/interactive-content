@@ -1,6 +1,6 @@
 [slide]
 # Email Validator
-[code-task title="Email Validator" taskId="python-fundamentals-final-exam-prep-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Email Validator" taskId="3aa1cafd-96a8-47e0-8826-b35107f1de83" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

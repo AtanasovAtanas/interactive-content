@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Student Academy
-[code-task title="Student Academy" taskId="python-fundamentals-assosiative-arrays-07" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Student Academy" taskId="c3412463-4235-4d89-8cc9-6a371f873ae3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

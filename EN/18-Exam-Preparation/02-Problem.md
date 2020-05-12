@@ -1,6 +1,6 @@
 [slide]
 # Shopping List
-[code-task title="Shopping List" taskId="python-fundamentals-mid-exam-prep-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Shopping List" taskId="55b5df74-85b9-4a43-aa3f-de8c4ca1d264" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

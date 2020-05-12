@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Zig-Zag Arrays
-[code-task title="Zig-Zag Arrays" taskId="python-fundamentals-arrays-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Zig-Zag Arrays" taskId="96c99b8c-5053-4acd-8c00-57c2f5cbad40" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: String Explosion
-[code-task title="String Explosion" taskId="python-fundamentals-text-processing-07" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="String Explosion" taskId="e99f0061-ded9-4635-bdd9-e28aa0f12e9f" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
