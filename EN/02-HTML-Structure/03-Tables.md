@@ -36,8 +36,8 @@ Example
 ## Complete HTML Tables
 
 There are three specific parts in every table: 
-* `<thead>` - used to group header content in an HTML table
-* `<tbody>` - used to group the body content in an HTML table
+* `<thead>` - used to group header content in an HTML table;
+* `<tbody>` - used to group the body content in an HTML table;
 * `<tfoot>` - used to group footer content in an HTML table
 
 These elements are used to specify each part of a table (header, body, footer). 
