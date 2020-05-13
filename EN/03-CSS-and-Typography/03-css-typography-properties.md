@@ -208,8 +208,11 @@ text-align: center;
 The `text-decoration` property defines how the text content of the element is decorated: `overline`, `underline`, `line-through`.
 
 `none` – **removes** any text decoration;
+
 `line-through` – draws a line **across** the text;
+
 `underline` draws a line **under** the text;
+
 `overline` draws a line **over** the text.
 
 **Example:**
@@ -252,7 +255,9 @@ It can be `clipped`, display an `ellipsis` (...), or display a custom `string`.
 * `overflow: hidden`;
 
 `clip` -	The text is clipped and not accessible.It's the default value;
+
 `ellipsis` -	renders an **ellipsis** ("...") to represent the clipped text;
+
 `string` -	renders the **given string** to represent the clipped text.
 
 **Example:**
@@ -275,8 +280,11 @@ The `text-transform` property controls, how the text to be capitalized.
 
 The values are:
 `none` -	no capitalization. This is the default value;
+
 `capitalize`	- turns the **first character** of each word to uppercase;
+
 `uppercase`	- turns **all** characters to **uppercase**;
+
 `lowercase`	- turns **all** characters to **lowercase**.
 
 **Example:**
