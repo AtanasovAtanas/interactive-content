@@ -1,4 +1,4 @@
-# CSS and Typography
+# Principles Of Readability
 
 [slide]
 # Principles Of Readability
@@ -16,7 +16,5 @@ There are some **keys** of readable typography:
 * **White space** – scannable and consistent text;
 * **Emphasis** of important elements;
 * Good **margins** to avoid walls of text.
-
-Problem: My First CSS Document
 
 [/slide]
