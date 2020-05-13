@@ -7,9 +7,11 @@ HTML table allows web authors to arrange data into rows and columns.
 
 ## HTML `<table>` Tag
 
-`<table>` tag defines an HTML table. Each table row is defined with a `<tr>` tag. A table cell is defined with a `<td>` tag (td means table data). If the cell is in the header, it is defined with the `<th>` tag. By default, table headings are bold and centered. 
+`<table>` tag defines an HTML table. Each table row is defined with a `<tr>` tag. A table cell is defined with a `<td>` tag (td means table data).
 
-Example
+If the cell is in the header, it is defined with the `<th>` tag. By default, table headings are bold and centered. 
+
+**Example**
 ```html
 <table>
     <tr>
@@ -21,9 +23,9 @@ Example
 </table>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="JjYZwyN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JjYZwyN">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/JjYZwyN">
+  JjYZwyN</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -42,7 +44,7 @@ There are three specific parts in every table:
 
 These elements are used to specify each part of a table (header, body, footer). 
 
-Example
+**Example**
 ```html
 <table>
   <thead>
@@ -61,9 +63,9 @@ Example
 </table>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="ExVRGwN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ExVRGwN">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/ExVRGwN">
+  ExVRGwN</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>

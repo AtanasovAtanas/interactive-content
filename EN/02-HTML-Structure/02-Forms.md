@@ -3,13 +3,17 @@
 [slide]
 # HTML Form
 
-An HTML form is used to collect user input, which is generally sent to a web server for processing and storage. It can also be used on the client-side to immediately update the interface in some way (for example by adding another item to a list, or show or hide a UI feature).
+An HTML form is used to collect user input, which is generally sent to a web server for processing and storage.
+
+It can also be used on the client-side to immediately update the interface in some way (for example by adding another item to a list, or show or hide a UI feature).
 
 ## HTML `<form>` Tag
 
-The HTML `<form>` tag defines a form. It's a container element like `<main>` and `<section>`. The form contains interactive controls for submitting information. It takes input from the site visitor and posts it.
+The HTML `<form>` tag defines a form. It's a container element like `<main>` and `<section>`.
 
-Example
+The form contains interactive controls for submitting information. It takes input from the site visitor and posts it.
+
+**Example**
 ```html
 <form>
   <label for="fname">First name:</label><br>
@@ -18,9 +22,9 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="ZEbRVeG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ZEbRVeG">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/ZEbRVeG">
+  ZEbRVeG</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -33,10 +37,10 @@ Example
 ## Form Attributes
 
 The form attributes are optional, but it's standard practice to always set at least the **action** and **method** attributes.
-* The action attribute defines the URL, where the form's collected data should be sent, when it is submitted.
+* The action attribute defines the URL, where the form's collected data should be send, when it is submitted.
 * The method attribute defines which HTTP method to send the data with (GET/POST).
 
-Example
+**Example**
 ```html
 <form action="/action_my-page.php" method="get">
   <label for="fname">First name:</label><br>
@@ -47,9 +51,9 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="wvKXRJR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="wvKXRJR">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/wvKXRJR">
+  wvKXRJR</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -80,8 +84,8 @@ Problem: Write a form.
 
 ### Input Validation
 
-* HTML input validation is done automatically by the browser based on special attributes;
-* The validation only occurs when attempting to submit the form;
+* HTML input validation is done automatically by the browser based on special attributes.
+* The validation only occurs when attempting to submit the form.
 * Inputs which are disabled or read-only will not trigger validation.
 
 ### Input Attributes
@@ -96,7 +100,7 @@ Problem: Write a form.
 * `disabled` – specifies that the input field is disabled
 * `min` and `max` – specify the minimum and maximum values
 
-Example
+**Example**
 ```html
 <input type="email" required="true" />
 <input type="url" required="true" />
@@ -107,7 +111,7 @@ Example
 
 `<label>` - defines a label for the others forms elements. The for attribute should be equal to the id attribute of the related element to bind them together
 
-Example
+**Example**
 ```html
 <form>
     <label for="male">Male</label>
@@ -119,9 +123,9 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="vYNrvmd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNrvmd">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/vYNrvmd">
+  vYNrvmd</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -131,7 +135,7 @@ Example
 
 `<fieldset>` is used to group related data in a form and draws a box around the related elements.
 
-Example
+**Example**
 ```html
 <form>
   <fieldset>
@@ -147,9 +151,9 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="bGVKOWz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="bGVKOWz">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/bGVKOWz">
+  bGVKOWz</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -158,9 +162,10 @@ Example
 ### The `<select>` and  `<option>` Elements
 
 `<select>` creates a drop-down list. This element is a form control and can be used in a form to collect user input.
+
 `<option>` tags inside the `<select>` element define the available options in the list.
 
-Example
+**Example**
 ```html
 <form>
   <label for="colors">Choose a color:</label>
@@ -172,9 +177,9 @@ Example
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="abvKBMM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvKBMM">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvKBMM">
-  abvKBMM</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="VwvdqWy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="VwvdqWy">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/VwvdqWy">
+  VwvdqWy</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -182,30 +187,35 @@ Example
 
 ### The `<textarea>` Element
 
-`<textarea>` – defines a multi-line input field. A text area can hold an unlimited number of characters. 
+`<textarea>` – defines a multi-line input field. A text area can hold an unlimited number of characters.
+
 The size of a text area can be specified by the cols and rows attributes or through CSS height and width properties.
 
-`rows` – specifies the visible number of lines in a text area;
+`rows` – specifies the visible number of lines in a text area
+
 `cols` – specifies the visible width of a text area.
 
-Example
+**Example**
 ```html
 <textarea rows="10" cols="30">The cat was playing in the garden.</textarea>
 ```
 
 ### Buttons
 Submit button – sends the form data to the server
-Example
+
+**Example**
 ```html
 <input type="submit" value="Apply Now" />
 ```
 Reset button – resets all form fields
-Example
+
+**Example**
 ```html
-input type="reset"/>
+<input type="reset"/>
 ```
 The `<button>` tag defines a clickable button
-Example
+
+**Example**
 ```html
 <button type="button">Click Me!</button>
 ```
