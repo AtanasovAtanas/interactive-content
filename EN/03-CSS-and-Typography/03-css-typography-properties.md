@@ -1,4 +1,4 @@
-# CSS and Typography
+# CSS Typography Properties
 
 [slide]
 # CSS Typography Properties
@@ -128,8 +128,8 @@ The `font-weight` property defines the **weight** (or **boldness**) of the font.
 The weights available depend on the font-family you are using.
 
 The values of this property are:
-* **numeric** - from `100` to `900`;
-* **keyword values** - `thin`, `lighter`, `bold`, `bolder`.
+* **Numeric** - from `100` to `900`;
+* **Keyword values** - `thin`, `lighter`, `bold`, `bolder`.
 
 The `thin` property equals to `100`, and the `bolder` - to `900`.
 
@@ -254,11 +254,10 @@ It can be `clipped`, display an `ellipsis` (...), or display a custom `string`.
 * `white-space: nowrap`;
 * `overflow: hidden`;
 
-`clip` -	The text is clipped and not accessible.It's the default value;
-
-`ellipsis` -	renders an **ellipsis** ("...") to represent the clipped text;
-
-`string` -	renders the **given string** to represent the clipped text.
+`text-overflow` values can be:
+* `clip` -	The text is clipped and not accessible.It's the default value;
+* `ellipsis` -	renders an **ellipsis** ("...") to represent the clipped text;
+* `string` -	renders the **given string** to represent the clipped text.
 
 **Example:**
 
@@ -279,13 +278,10 @@ It can be `clipped`, display an `ellipsis` (...), or display a custom `string`.
 The `text-transform` property controls, how the text to be capitalized.
 
 The values are:
-`none` -	no capitalization. This is the default value;
-
-`capitalize`	- turns the **first character** of each word to uppercase;
-
-`uppercase`	- turns **all** characters to **uppercase**;
-
-`lowercase`	- turns **all** characters to **lowercase**.
+* `none` -	no capitalization. This is the default value;
+* `capitalize`	- turns the **first character** of each word to uppercase;
+* `uppercase`	- turns **all** characters to **uppercase**;
+* `lowercase`	- turns **all** characters to **lowercase**.
 
 **Example:**
 
@@ -355,5 +351,4 @@ background-color: #05ffb0;
 background-color: rgb(125, 125, 255);
 ```
 
-Problem: Styling Tables
 [/slide]
