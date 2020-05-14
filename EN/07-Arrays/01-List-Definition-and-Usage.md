@@ -25,6 +25,16 @@ my_list = ["string", 2, 3.33, 2]
 
 The values in a list are called **elements**.
 
+Imagine a **train** which has **wagons**, and each wagon - **passengers**.
+
+Now imagine this as a **list of integers**, **each element** represent a **wagon** and its **value** is the **passengers**.
+
+Take a look at this picture:
+
+[image assetsSrc="list-example.png" /]
+
+There are **7 wagons** (**elements**). Each has **passengers** (**a value**). `[3, 4, 10, 7, 5, 0, 6]`
+
 Lists are the **basis** for other abstract data types like **ques**, **stacks** and their variations.
 
 You are going to learn about these structures in the following courses.
