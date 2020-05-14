@@ -77,7 +77,7 @@ print(bool(numberTwo))
 ## Description
 A **number** is **special** when its **sum of digits is 5, 7 or 11**.
 
-Write a program to read an integer **n** and for all numbers in the range **1…n** to print the number and if it is special or not **\(True / False\)**.
+Write a program to read an integer **n** and for all numbers in the range **1…n** to print the number and if it is special or not **(True / False)**.
 
 ## Examples
 | **Input** | **Output** |
@@ -234,7 +234,6 @@ num = input()
 
 for n in range(1, int(num) + 1):
   total = sum(int(i) for i in str(n))
-
 if total in [5, 7, 11]:
   print(f "{n} -> True")
 else :
@@ -245,7 +244,7 @@ else :
 ## Description
 A **number** is **special** when its **sum of digits is 5, 7 or 11**.
 
-Write a program to read an integer **n** and for all numbers in the range **1…n** to print the number and if it is special or not **\(True / False\)**.
+Write a program to read an integer **n** and for all numbers in the range **1…n** to print the number and if it is special or not **(True / False)**.
 
 ## Examples
 | **Input** | **Output** |
