@@ -11,7 +11,7 @@ The first element is at `index 0`, the next at `index 1` and so on.
 The length of a String is the number of elements in it.
 
 ```python live
-name = 'Python'
+name ='Python'
 print(name[0])
 ```
 
@@ -24,7 +24,7 @@ String literals in python are surrounded by either single quotation marks, or do
 The `len()` method returns  the length of a string: 
 
 ```python live
-a = "Hello, World!"
+a ="Hello, World!"
 print(len(a))
 ```
 # Strings Are Immutable
@@ -32,7 +32,7 @@ print(len(a))
 Python strings are immutable, this means that once a string is created, it is not **possible** to modify it:
 
 ```python live
-name = 'Python'
+name ='Python'
 name[0] = 'G'
 print(name)
 ```
@@ -45,9 +45,9 @@ print(name)
 These are string literals that allow embedded expressions:
 
 ```python live
-name = 'Rick'
+name ='Rick'
 age = 18
-print(f'{name} = {age}') 
+print(f'{name} = {age}')
 ```
 In above example literal prefix `f` tells Python to restore the value of two string variable `name` and `age` inside braces `{}`.
 
@@ -230,16 +230,6 @@ Terry
 [/input]
 [output]
 Linda=\>Terry
-[/output]
-[/test]
-[test]
-[input]
-A
-B
--
-[/input]
-[output]
-A-B
 [/output]
 [/test]
 [test]
