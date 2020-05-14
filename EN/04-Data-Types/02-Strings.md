@@ -1,8 +1,7 @@
 # Strings
 
-
 [slide]
-# Strings
+# Strings explained
 
 A string is a sequence of characters ands it's used to represent textual data.
 
@@ -15,7 +14,7 @@ name ='Python'
 print(name[0])
 ```
 
-# String Literal
+## String Literal
 
 String literals in python are surrounded by either single quotation marks, or double quotation marks.
 
@@ -28,7 +27,7 @@ a ="Hello, World!"
 print(len(a))
 ```
 
-# Strings Are Immutable
+## Strings Are Immutable
 
 Python strings are immutable, this means that once a string is created, it is not **possible** to modify it:
 
@@ -38,9 +37,9 @@ name[0] ='G'
 print(name)
 ```
 
-- When you run the example here you'll see `'str' object does not support item assignment` exception, which means that you can not **modify** a string.
+- When you run the example here you'll see `str object does not support item assignment` exception, which means that you can not **modify** a string.
 
-# String Interpolation
+## String Interpolation
 
 **Python 3.6+** added new string interpolation method called **literal string interpolation** and introduced a new literal prefix `f`.
 
