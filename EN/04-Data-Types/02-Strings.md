@@ -37,7 +37,7 @@ name[0] ='G'
 print(name)
 ```
 
-- When you run the example here you'll see `str object does not support item assignment` exception, which means that you can not **modify** a string.
+* When you run the example here you'll see `str object does not support item assignment` exception, which means that you can not **modify** a string.
 
 ## String Interpolation
 
