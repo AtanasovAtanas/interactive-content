@@ -51,4 +51,20 @@ The example above will raise a `RecursionError` because there is **no end condit
 
 A recursion means that **a functions calls itself**.
 
+Take a look at the example below:
+
+```python live
+def increment(number):
+  if (number >= 10)
+    return
+
+  print(number, end=" ")
+  number += 1
+  increment(number)
+
+increment(1)
+```
+
+That's all you need to know about recursion for the moment.
+
 [/slide]

@@ -3,7 +3,7 @@
 [slide]
 # Function Parameters
 
-Data can be given to functions through **parameters**.
+Data can be given to functions through **parameters**, thus the **function will make use of it**.
 
 They are declared in the **braces after the function's name**.
 
