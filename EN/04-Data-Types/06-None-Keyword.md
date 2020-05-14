@@ -12,15 +12,18 @@ There are two ways to check if a variable is `None`
 - One way can be performed by using the is keyword
 
 ```python live
-if null_variable == None:
-print('null_variable is None')
+null_variable = None
+if null_variable is None:
+  print('null_variable is None')
 ```
 
 - Another is using the `==` syntax
 
 ```python live
-if null_variable is None:
-print('null_variable is None')
+null_variable = None
+if null_variable == None:
+  print('null_variable is None')
 ```
+
 
 [/slide]
