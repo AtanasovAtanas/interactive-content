@@ -33,7 +33,7 @@ Python strings are immutable, this means that once a string is created, it is no
 
 ```python live
 name ='Python'
-name[0] = 'G'
+name[0] ='G'
 print(name)
 ```
 [/slide]
