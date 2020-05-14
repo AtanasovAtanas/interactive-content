@@ -150,9 +150,9 @@ The `line-height` property defines the height of a single line of text.
 
 The `line-height` property is specified as any one of the following:
 
-* **\<number\>** (unitless) - The used value is the unitless \<number\> multiplied by the element's font size;
-* **\<length\>** - The specified \<length\> is used in the calculation of the line box height.
-* **\<percentage\>** - Relative to the font size of the element itself.
+* **\<number>** (unitless) - The used value is the unitless \<number\> multiplied by the element's font size;
+* **\<length>** - The specified \<length\> is used in the calculation of the line box height.
+* **\<percentage>** - Relative to the font size of the element itself.
 * the keyword `normal`- Depends on the user agent. It's the default value.
 
 **Example:**
@@ -170,7 +170,7 @@ line-height: normal;
 
 `letter-spacing` defines the spacing between the characters of a block of text.
 
-* **\<length\>** - Defines an extra space between characters (negative values are allowed).
+* **\<length>** - Defines an extra space between characters (negative values are allowed).
 * `normal` - the spacing between the characters is normal. This is the default value.
 
 **Example:**
@@ -232,7 +232,7 @@ The `text-decoration` property defines how the text content of the element is de
 
 The `text-indent` property specifies the **indentation of the first line** in a text-block.
 
-* **\<length\>** - defines a **fixed** indentation in px, pt, cm, em, etc. Default value is 0;
+* **\<length>** - defines a **fixed** indentation in px, pt, cm, em, etc. Default value is 0;
 * `%` - defines the indentation in **% of the width of the parent element**.
 
 **Example:**
