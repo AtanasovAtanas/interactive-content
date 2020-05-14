@@ -55,7 +55,7 @@ Take a look at the example below:
 
 ```python live
 def increment(number):
-  if (number >= 10)
+  if (number >= 10):
     return
 
   print(number, end=" ")
