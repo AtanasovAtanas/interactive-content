@@ -27,6 +27,7 @@ The `len()` method returns  the length of a string:
 a ="Hello, World!"
 print(len(a))
 ```
+
 # Strings Are Immutable
 
 Python strings are immutable, this means that once a string is created, it is not **possible** to modify it:
@@ -36,12 +37,12 @@ name ='Python'
 name[0] ='G'
 print(name)
 ```
-- When you run the example here you'll see `'str' object does not support item assignment` exception, which means that you can not **modify** a string.
-[/slide]
 
-[slide]
-# String Interpolation 
-**Python 3.6+** added new string interpolation method called **literal string interpolation** and introduced a new literal prefix `f`. 
+- When you run the example here you'll see `'str' object does not support item assignment` exception, which means that you can not **modify** a string.
+
+# String Interpolation
+
+**Python 3.6+** added new string interpolation method called **literal string interpolation** and introduced a new literal prefix `f`.
 
 These are string literals that allow embedded expressions:
 
@@ -50,6 +51,7 @@ name ='Rick'
 age = 18
 print(f'{name} = {age}')
 ```
+
 In above example literal prefix `f` tells Python to restore the value of two string variable `name` and `age` inside braces `{}`.
 
 So that when we `print` we get the above output.
