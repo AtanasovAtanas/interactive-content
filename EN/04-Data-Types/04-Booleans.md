@@ -25,9 +25,7 @@ print(10 < 9)
 | `<` | less than | `if (age < 18)` | 
 | `>=` | greater than or equal | `if (6 >= 6)` |
 | `!=` | not equal | `if (5 != 5)` |
-| `is` | Object identity | `n = 'a'` |
-|  |  |`m = 'a'` |
-|  |  | `n is m == True` |
+| `is` | Object identity | `n = 'a'` <br/> `m = 'a'` <br\> `n is m == True`|
 | `is not` | negated object identity | `n is not m == False` |
 
 [/slide]
@@ -52,18 +50,19 @@ y = ""
 print(bool(y))
 ```
 
-- Any number is `True`, **except 0**: 
+- Any number is `True`, **except 0**:
 
 ```python live
-number = 1
+numberOne = 1
 print(bool(numberOne))
 
-number = 0
+numberTwo = 0
 print(bool(numberTwo))
 
-number = None
+numberTwo = None
 print(bool(numberTwo))
 ```
+
 [/slide]
 
 [slide]
