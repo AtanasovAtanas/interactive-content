@@ -230,14 +230,15 @@ Write a program to read an integer **n** and for all numbers in the range **1…
 [code-task title="Problem: Special Numbers" taskId="aba46b3b-4052-4418-bf3e-3a9810509f61" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-n = int(input())
+num = input()
 
-for i in range(1, n + 1):
-  sum_digits = sum([int(k) for k in str(i)])
-if sum_digits == 5 or sum_digits == 7 or sum_digits == 11:
-  print(f '{i} -> True')
-else :
-  print(f '{i} -> False')
+for n in range(1, int(num)+1):
+    total = sum(int(i) for i in str(n))
+
+    if total in [5, 7, 11]:
+        print(f"{n} -> True")
+    else:
+        print(f"{n} -> False")
 ```
 [/code-editor]
 [task-description]
