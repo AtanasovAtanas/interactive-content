@@ -165,7 +165,7 @@ else:
 
 [slide]
 # Problem: Biggest Of Three Numbers
-[code-task title="Biggest Of Three Numbers" taskId="2e2348f0-a250-49ce-8e44-6cd410873e01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Biggest Of Three Numbers" taskId="python-fundamentals-Basic-Syntax-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -398,7 +398,7 @@ Write a program that receives three whole numbers and print the biggest one.
 
 [slide]
 # Problem: Number Definer
-[code-task title="Number Definer" taskId="633de16d-3fab-49da-8c47-6008dba08c5c" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Number Definer" taskId="python-fundamentals-Basic-Syntax-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -806,7 +806,7 @@ for i in reversed(range(0, 10)):
 
 [slide]
 # Problem: Word Reverse
-[code-task title="Word Reverse" taskId="b3bdc4ef-3e08-4396-8eec-96f6e6b6a1bc" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Word Reverse" taskId="python-fundamentals-Basic-Syntax-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -1013,7 +1013,7 @@ while True:
 
 [slide]
 # Problem: Number between 1 and 100
-[code-task title="Number between 1 and 100" taskId="30970d74-fc78-49ff-8b57-5508977cd269" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Number between 1 and 100" taskId="python-fundamentals-Basic-Syntax-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -1200,7 +1200,7 @@ The number 1.5 is between 1 and 100
 
 [slide]
 # Problem: Patterns
-[code-task title="Patterns" taskId="da379840-8f89-4209-bc98-fa1132f09920" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Patterns" taskId="python-fundamentals-Basic-Syntax-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
