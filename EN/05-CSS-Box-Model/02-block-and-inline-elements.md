@@ -7,7 +7,7 @@
 HTML is made up of various elements that act as the **building blocks** of web pages. 
 
 Every HTML element has a default **display value**:
-* Block Elements - `<address>` `<article>` `<aside>` `<blockquote>` `<div>` `<footer>` `<form>` `<h1>`-`<h6>` `<header>` `<li>` `<main>` `<nav>` `<ol>` `<p>` `<section>` `<table>` `<ul>`
+* Block Elements - `<address>` `<article>` `<aside>` `<blockquote>` `<div>` `<footer>` `<form>` `<h1>`-`<h6>` `<header>` `<li>` `<main>` `<nav>` `<ol>`
 * Inline Elements - `<a>` `<button>` `<i>` `<img>` `<input>` `<label>`  `<script>` `<select>`  `<span>` `<strong>` `<textarea>` `<time>`
 
 ### Block Elements
@@ -27,6 +27,7 @@ You can add margins and padding on all **four sides** of any block element.
 
 [/html]
 
+
 ### Inline Elements
 
 The inline element only takes up as much width as necessary and doesn't start on a new line.
@@ -45,6 +46,7 @@ You can add margins and paddings just on **right** and **left** sides of any inl
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 [/html]
+
 
 ### Inline-Block Elements
 

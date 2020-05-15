@@ -24,10 +24,10 @@ The following two examles make the same thing:
 **Example:**
 ```html
 div {
-margin-top: 50px;
-margin-right: 0;
-margin-bottom: 40px;
-margin-left: 10px;
+  margin-top: 50px;
+  margin-right: 0;
+  margin-bottom: 40px;
+  margin-left: 10px;
 }
 ```
 
@@ -53,7 +53,7 @@ It is a **short hand** property for the following properties:
 * `padding-right`
 
 The values of the padding property are:
-* \<length> - Specifies the padding in **px, pt, cm,** etc. Default value is 0.
+* **\<length>** - Specifies the padding in **px, pt, cm,** etc. Default value is 0.
 * `%` - Specifies the padding in **percent of the width** of the containing element
 
 The following two examles make the same thing:
@@ -61,10 +61,10 @@ The following two examles make the same thing:
 **Example:**
 ```html
 div {
-padding-top: 50px;
-padding-right: 0;
-padding-bottom: 50px;
-padding-left: 0px;
+  padding-top: 50px;
+  padding-right: 0;
+  padding-bottom: 50px;
+  padding-left: 0px;
 }
 ```
 

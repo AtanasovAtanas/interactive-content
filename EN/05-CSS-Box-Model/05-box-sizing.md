@@ -6,9 +6,7 @@
 
 `box-sizing` sets how the total width and height of an element is calculated or with other words: if the padding and border are included.
 
-
-* `content-box` is the **initial** and **default** value.
-The width and height properties include the content, but they **don't include** the padding, border and margin;
+* `content-box` is the **initial** and **default** value. The width and height properties include the content, but they **don't include** the padding, border and margin;
 * `border-box` The width and height properties **includes** content, padding and border.
 
 **Example:**
