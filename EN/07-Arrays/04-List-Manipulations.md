@@ -36,6 +36,243 @@ print(my_list)
 [/slide]
 
 [slide]
+# Problem: Courses
+[code-task title="Courses" taskId="python-fundamentals-Lists-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+You will receive a single number n.
+
+On the next n lines you will receive names of courses.
+
+You have to create a list of them and print it
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 2 | ['PB Python', 'PF Python'] |
+| PB Python |  |
+| PF Python |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 4 | ['Front-End', 'C# Web', 'JS Core', 'Programming Fundamentals'] |
+| Front-End |  |
+| C# Web |  |
+| JS Core |  |
+| Programming Fundamentals |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+2
+PB Python
+PF Python
+[/input]
+[output]
+\['PB Python', 'PF Python'\]
+[/output]
+[/test]
+[test open]
+[input]
+4
+Front-End
+C\# Web
+JS Core
+Programming Fundamentals
+[/input]
+[output]
+\['Front-End', 'C\# Web', 'JS Core', 'Programming Fundamentals'\]
+[/output]
+[/test]
+[test]
+[input]
+1
+Programming for Dummies
+[/input]
+[output]
+\['Programming for Dummies'\]
+[/output]
+[/test]
+[test]
+[input]
+3
+Web for Dummies
+Coding for Dummies
+Life for Dummies
+[/input]
+[output]
+\['Web for Dummies', 'Coding for Dummies', 'Life for Dummies'\]
+[/output]
+[/test]
+[test]
+[input]
+5
+A
+B
+C
+D
+E
+[/input]
+[output]
+\['A', 'B', 'C', 'D', 'E'\]
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+\[\]
+[/output]
+[/test]
+[test]
+[input]
+7
+hello
+its
+me
+from
+the
+other
+side
+[/input]
+[output]
+\['hello', 'its', 'me', 'from', 'the', 'other', 'side'\]
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Courses
+[code-task title="Courses" taskId="1491dd46-7858-4bcf-a938-840e31fc21d2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+n = int(input())
+courses = []
+for n in range(n):
+    current_course = input()
+    courses.append(current_course)
+print(courses)
+```
+[/code-editor]
+[task-description]
+## Description
+You will receive a single number n.
+
+On the next n lines you will receive names of courses.
+
+You have to create a list of them and print it
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 2 | ['PB Python', 'PF Python'] |
+| PB Python |  |
+| PF Python |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 4 | ['Front-End', 'C# Web', 'JS Core', 'Programming Fundamentals'] |
+| Front-End |  |
+| C# Web |  |
+| JS Core |  |
+| Programming Fundamentals |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+2
+PB Python
+PF Python
+[/input]
+[output]
+\['PB Python', 'PF Python'\]
+[/output]
+[/test]
+[test open]
+[input]
+4
+Front-End
+C\# Web
+JS Core
+Programming Fundamentals
+[/input]
+[output]
+\['Front-End', 'C\# Web', 'JS Core', 'Programming Fundamentals'\]
+[/output]
+[/test]
+[test]
+[input]
+1
+Programming for Dummies
+[/input]
+[output]
+\['Programming for Dummies'\]
+[/output]
+[/test]
+[test]
+[input]
+3
+Web for Dummies
+Coding for Dummies
+Life for Dummies
+[/input]
+[output]
+\['Web for Dummies', 'Coding for Dummies', 'Life for Dummies'\]
+[/output]
+[/test]
+[test]
+[input]
+5
+A
+B
+C
+D
+E
+[/input]
+[output]
+\['A', 'B', 'C', 'D', 'E'\]
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+\[\]
+[/output]
+[/test]
+[test]
+[input]
+7
+hello
+its
+me
+from
+the
+other
+side
+[/input]
+[output]
+\['hello', 'its', 'me', 'from', 'the', 'other', 'side'\]
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
 # Remove Elements
 
 To remove an element from a list, the function `remove(element)` can be used.

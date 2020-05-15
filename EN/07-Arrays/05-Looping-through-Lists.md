@@ -59,3 +59,270 @@ while index < len(my_list):
 ```
 
 [/slide]
+
+[slide]
+# Problem: List Statistics
+[code-task title="List Statistics" taskId="python-fundamentals-Lists-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+You will be given a number n.
+
+On the next n lines you will receive integers.
+
+You have to create and print two lists:
+
+ - One with all the positives (including 0)
+ - One with all the negatives
+
+Finally print the following message: "Count of positives: {count_positives}. Sum of negatives: {sum_of_negatives}"
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 5 | [10, 3, 2] |
+| 10 | [-15, -4] |
+| 3 | Count of positives: 3. Sum of negatives: -19 |
+| 2 |  |
+| -15 |  |
+| -4 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+5
+10
+3
+2
+-15
+-4
+[/input]
+[output]
+\[10, 3, 2\]
+\[-15, -4\]
+Count of positives: 3. Sum of negatives: -19
+[/output]
+[/test]
+[test]
+[input]
+5
+10
+45
+-5
+-10
+55
+[/input]
+[output]
+\[10, 45, 55\]
+\[-5, -10\]
+Count of positives: 3. Sum of negatives: -15
+[/output]
+[/test]
+[test]
+[input]
+10
+53
+985
+-188
+95
+-42
+-1
+41
+-9
+-11
+41
+[/input]
+[output]
+\[53, 985, 95, 41, 41\]
+\[-188, -42, -1, -9, -11\]
+Count of positives: 5. Sum of negatives: -251
+[/output]
+[/test]
+[test]
+[input]
+6
+11
+2
+35
+599
+31
+20
+[/input]
+[output]
+\[11, 2, 35, 599, 31, 20\]
+\[\]
+Count of positives: 6. Sum of negatives: 0
+[/output]
+[/test]
+[test]
+[input]
+4
+-16
+-99
+-51
+-88
+[/input]
+[output]
+\[\]
+\[-16, -99, -51, -88\]
+Count of positives: 0. Sum of negatives: -254
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+\[\]
+\[\]
+Count of positives: 0. Sum of negatives: 0
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: List Statistics
+[code-task title="List Statistics" taskId="9d753568-cd5e-46fa-8b1a-b01c1a0a8a8d" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+n = int(input())
+positives = []
+negatives = []
+for n in range(n):
+    current_number = int(input())
+    if current_number >= 0:
+        positives.append(current_number)
+    else:
+        negatives.append(current_number)
+print(positives)
+print(negatives)
+print(f"Count of positives: {len(positives)}. Sum of negatives: {sum(negatives)}")
+```
+[/code-editor]
+[task-description]
+## Description
+You will be given a number n.
+
+On the next n lines you will receive integers.
+
+You have to create and print two lists:
+
+ - One with all the positives (including 0)
+ - One with all the negatives
+
+Finally print the following message: "Count of positives: {count_positives}. Sum of negatives: {sum_of_negatives}"
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 5 | [10, 3, 2] |
+| 10 | [-15, -4] |
+| 3 | Count of positives: 3. Sum of negatives: -19 |
+| 2 |  |
+| -15 |  |
+| -4 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+5
+10
+3
+2
+-15
+-4
+[/input]
+[output]
+\[10, 3, 2\]
+\[-15, -4\]
+Count of positives: 3. Sum of negatives: -19
+[/output]
+[/test]
+[test]
+[input]
+5
+10
+45
+-5
+-10
+55
+[/input]
+[output]
+\[10, 45, 55\]
+\[-5, -10\]
+Count of positives: 3. Sum of negatives: -15
+[/output]
+[/test]
+[test]
+[input]
+10
+53
+985
+-188
+95
+-42
+-1
+41
+-9
+-11
+41
+[/input]
+[output]
+\[53, 985, 95, 41, 41\]
+\[-188, -42, -1, -9, -11\]
+Count of positives: 5. Sum of negatives: -251
+[/output]
+[/test]
+[test]
+[input]
+6
+11
+2
+35
+599
+31
+20
+[/input]
+[output]
+\[11, 2, 35, 599, 31, 20\]
+\[\]
+Count of positives: 6. Sum of negatives: 0
+[/output]
+[/test]
+[test]
+[input]
+4
+-16
+-99
+-51
+-88
+[/input]
+[output]
+\[\]
+\[-16, -99, -51, -88\]
+Count of positives: 0. Sum of negatives: -254
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+\[\]
+\[\]
+Count of positives: 0. Sum of negatives: 0
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
