@@ -164,6 +164,569 @@ else:
 [/slide]
 
 [slide]
+# Problem: Biggest Of Three Numbers
+[code-task title="Biggest Of Three Numbers" taskId="2e2348f0-a250-49ce-8e44-6cd410873e01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that receives three whole numbers and print the biggest one.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3 | 5 |
+| -1 |  |
+| 5 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 0 |  |
+| -1 |  |
+| -2 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3
+-1
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test open]
+[input]
+0
+-1
+-2
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+3
+-5
+-221
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+-42
+-104
+-552
+[/input]
+[output]
+-42
+[/output]
+[/test]
+[test]
+[input]
+123
+4882
+56
+[/input]
+[output]
+4882
+[/output]
+[/test]
+[test]
+[input]
+32
+33
+31
+[/input]
+[output]
+33
+[/output]
+[/test]
+[test]
+[input]
+134
+245
+590
+[/input]
+[output]
+590
+[/output]
+[/test]
+[test]
+[input]
+-45
+-32
+-1
+[/input]
+[output]
+-1
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Biggest Of Three Numbers
+[code-task title="Biggest Of Three Numbers" taskId="2e2348f0-a250-49ce-8e44-6cd410873e01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+first_num = int(input())
+second_num = int(input())
+third_num = int(input())
+
+if first_num > second_num and first_num > third_num:
+    print(first_num)
+elif second_num > first_num and second_num > third_num:
+    print(second_num)
+else:
+    print(third_num)
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that receives three whole numbers and print the biggest one.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3 | 5 |
+| -1 |  |
+| 5 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 0 |  |
+| -1 |  |
+| -2 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3
+-1
+5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test open]
+[input]
+0
+-1
+-2
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+3
+-5
+-221
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+-42
+-104
+-552
+[/input]
+[output]
+-42
+[/output]
+[/test]
+[test]
+[input]
+123
+4882
+56
+[/input]
+[output]
+4882
+[/output]
+[/test]
+[test]
+[input]
+32
+33
+31
+[/input]
+[output]
+33
+[/output]
+[/test]
+[test]
+[input]
+134
+245
+590
+[/input]
+[output]
+590
+[/output]
+[/test]
+[test]
+[input]
+-45
+-32
+-1
+[/input]
+[output]
+-1
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Problem: Number Definer
+[code-task title="Number Definer" taskId="633de16d-3fab-49da-8c47-6008dba08c5c" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that reads a floating-point number and prints "zero" if the number is zero.
+
+Otherwise, print "positive" or "negative".
+
+Add "small" if the absolute value of the number is less than 1, or "large" if it exceeds 1 000 000.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 25 | positive |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 0.7 | small positive |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 435247392.921 | large positive |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| -0.005 | small negative |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| -103.21 | negative |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| -358583355123.001 | large negative |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+25
+[/input]
+[output]
+positive
+[/output]
+[/test]
+[test open]
+[input]
+0.7
+[/input]
+[output]
+small positive
+[/output]
+[/test]
+[test open]
+[input]
+435247392.921
+[/input]
+[output]
+large positive
+[/output]
+[/test]
+[test open]
+[input]
+-0.005
+[/input]
+[output]
+small negative
+[/output]
+[/test]
+[test open]
+[input]
+-103.21
+[/input]
+[output]
+negative
+[/output]
+[/test]
+[test open]
+[input]
+-358583355123.001
+[/input]
+[output]
+large negative
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+zero
+[/output]
+[/test]
+[test]
+[input]
+0.999
+[/input]
+[output]
+small positive
+[/output]
+[/test]
+[test]
+[input]
+1000000.01
+[/input]
+[output]
+large positive
+[/output]
+[/test]
+[test]
+[input]
+1.001
+[/input]
+[output]
+positive
+[/output]
+[/test]
+[test]
+[input]
+-0.999
+[/input]
+[output]
+small negative
+[/output]
+[/test]
+[test]
+[input]
+-1000000.001
+[/input]
+[output]
+large negative
+[/output]
+[/test]
+[test]
+[input]
+-1.001
+[/input]
+[output]
+negative
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Number Definer
+[code-task title="Number Definer" taskId="633de16d-3fab-49da-8c47-6008dba08c5c" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+number = float(input())
+if number == 0:
+    print("zero")
+elif number > 0:
+    if number < 1:
+        print("small positive")
+    elif number > 1000000:
+        print("large positive")
+    else:
+        print("positive")
+else:
+    if abs(number) < 1:
+        print("small negative")
+    elif abs(number) > 1000000:
+        print("large negative")
+    else:
+        print("negative")
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that reads a floating-point number and prints "zero" if the number is zero.
+
+Otherwise, print "positive" or "negative".
+
+Add "small" if the absolute value of the number is less than 1, or "large" if it exceeds 1 000 000.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 25 | positive |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 0.7 | small positive |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 435247392.921 | large positive |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| -0.005 | small negative |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| -103.21 | negative |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| -358583355123.001 | large negative |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+25
+[/input]
+[output]
+positive
+[/output]
+[/test]
+[test open]
+[input]
+0.7
+[/input]
+[output]
+small positive
+[/output]
+[/test]
+[test open]
+[input]
+435247392.921
+[/input]
+[output]
+large positive
+[/output]
+[/test]
+[test open]
+[input]
+-0.005
+[/input]
+[output]
+small negative
+[/output]
+[/test]
+[test open]
+[input]
+-103.21
+[/input]
+[output]
+negative
+[/output]
+[/test]
+[test open]
+[input]
+-358583355123.001
+[/input]
+[output]
+large negative
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+zero
+[/output]
+[/test]
+[test]
+[input]
+0.999
+[/input]
+[output]
+small positive
+[/output]
+[/test]
+[test]
+[input]
+1000000.01
+[/input]
+[output]
+large positive
+[/output]
+[/test]
+[test]
+[input]
+1.001
+[/input]
+[output]
+positive
+[/output]
+[/test]
+[test]
+[input]
+-0.999
+[/input]
+[output]
+small negative
+[/output]
+[/test]
+[test]
+[input]
+-1000000.001
+[/input]
+[output]
+large negative
+[/output]
+[/test]
+[test]
+[input]
+-1.001
+[/input]
+[output]
+negative
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
 # Block of Code
 
 Unlike other programming languages, Python uses indentation to indicate the blocks of code and not only to make it readable and pretty.
@@ -242,6 +805,180 @@ for i in reversed(range(0, 10)):
 [/slide]
 
 [slide]
+# Problem: Word Reverse
+[code-task title="Word Reverse" taskId="b3bdc4ef-3e08-4396-8eec-96f6e6b6a1bc" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that receives a single word from the user, reverses it and prints it.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| Python | nohtyP |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| banana | ananab |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+Python
+[/input]
+[output]
+nohtyP
+[/output]
+[/test]
+[test open]
+[input]
+banana
+[/input]
+[output]
+ananab
+[/output]
+[/test]
+[test]
+[input]
+asdf
+[/input]
+[output]
+fdsa
+[/output]
+[/test]
+[test]
+[input]
+potato
+[/input]
+[output]
+otatop
+[/output]
+[/test]
+[test]
+[input]
+ppythhonN
+[/input]
+[output]
+Nnohhtypp
+[/output]
+[/test]
+[test]
+[input]
+aaaaa
+[/input]
+[output]
+aaaaa
+[/output]
+[/test]
+[test]
+[input]
+super test
+[/input]
+[output]
+tset repus
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Word Reverse
+[code-task title="Word Reverse" taskId="b3bdc4ef-3e08-4396-8eec-96f6e6b6a1bc" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+word = input()
+reversed_word = ""
+for i in range(len(word) - 1, -1, -1):
+    reversed_word += word[i]
+print(reversed_word)
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that receives a single word from the user, reverses it and prints it.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| Python | nohtyP |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| banana | ananab |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+Python
+[/input]
+[output]
+nohtyP
+[/output]
+[/test]
+[test open]
+[input]
+banana
+[/input]
+[output]
+ananab
+[/output]
+[/test]
+[test]
+[input]
+asdf
+[/input]
+[output]
+fdsa
+[/output]
+[/test]
+[test]
+[input]
+potato
+[/input]
+[output]
+otatop
+[/output]
+[/test]
+[test]
+[input]
+ppythhonN
+[/input]
+[output]
+Nnohhtypp
+[/output]
+[/test]
+[test]
+[input]
+aaaaa
+[/input]
+[output]
+aaaaa
+[/output]
+[/test]
+[test]
+[input]
+super test
+[/input]
+[output]
+tset repus
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
 # While Loops
 
 The `while` loop executes the command(s) while the given condition is true.
@@ -272,4 +1009,569 @@ while True:
     print(i)
 ```
 
+[/slide]
+
+[slide]
+# Problem: Number between 1 and 100
+[code-task title="Number between 1 and 100" taskId="30970d74-fc78-49ff-8b57-5508977cd269" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program which reads numbers from the console until it receives a number between 1 and 100 inclusive.
+
+When the correct number is received, stop reading and print "The number {number} is between 1 and 100".
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| -3 | The number 44.0 is between 1 and 100 |
+| 0.9 |  |
+| 44 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+-3
+0.9
+44
+[/input]
+[output]
+The number 44.0 is between 1 and 100
+[/output]
+[/test]
+[test]
+[input]
+0.5
+90
+-4
+101
+[/input]
+[output]
+The number 90.0 is between 1 and 100
+[/output]
+[/test]
+[test]
+[input]
+0.999
+1
+15
+7
+[/input]
+[output]
+The number 1.0 is between 1 and 100
+[/output]
+[/test]
+[test]
+[input]
+100.001
+99.999
+-0.487
+[/input]
+[output]
+The number 99.999 is between 1 and 100
+[/output]
+[/test]
+[test]
+[input]
+-1
+-42
+0.999
+1.4
+3
+19
+101
+[/input]
+[output]
+The number 1.4 is between 1 and 100
+[/output]
+[/test]
+[test]
+[input]
+1.5
+[/input]
+[output]
+The number 1.5 is between 1 and 100
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Number between 1 and 100
+[code-task title="Number between 1 and 100" taskId="30970d74-fc78-49ff-8b57-5508977cd269" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+number = float(input())
+while number < 1 or number > 100:
+    number = float(input())
+print(f'The number {number} is between 1 and 100')
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program which reads numbers from the console until it receives a number between 1 and 100 inclusive.
+
+When the correct number is received, stop reading and print "The number {number} is between 1 and 100".
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| -3 | The number 44.0 is between 1 and 100 |
+| 0.9 |  |
+| 44 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+-3
+0.9
+44
+[/input]
+[output]
+The number 44.0 is between 1 and 100
+[/output]
+[/test]
+[test]
+[input]
+0.5
+90
+-4
+101
+[/input]
+[output]
+The number 90.0 is between 1 and 100
+[/output]
+[/test]
+[test]
+[input]
+0.999
+1
+15
+7
+[/input]
+[output]
+The number 1.0 is between 1 and 100
+[/output]
+[/test]
+[test]
+[input]
+100.001
+99.999
+-0.487
+[/input]
+[output]
+The number 99.999 is between 1 and 100
+[/output]
+[/test]
+[test]
+[input]
+-1
+-42
+0.999
+1.4
+3
+19
+101
+[/input]
+[output]
+The number 1.4 is between 1 and 100
+[/output]
+[/test]
+[test]
+[input]
+1.5
+[/input]
+[output]
+The number 1.5 is between 1 and 100
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Problem: Patterns
+[code-task title="Patterns" taskId="da379840-8f89-4209-bc98-fa1132f09920" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program to create the following pattern:
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3 | * |
+|  | ** |
+|  | *** |
+|  | ** |
+|  | * |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 5 | * |
+|  | ** |
+|  | *** |
+|  | **** |
+|  | ***** |
+|  | **** |
+|  | *** |
+|  | ** |
+|  | * |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test open]
+[input]
+5
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test]
+[input]
+20
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+\*
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Patterns
+[code-task title="Patterns" taskId="da379840-8f89-4209-bc98-fa1132f09920" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+number = int(input())
+for i in range(1, number + 1):
+    for j in range(0, i):
+        print('*', end='')
+    print()
+for i in range(number - 1, 0, -1):
+    for j in range(0, i):
+        print('*', end='')
+    print()
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program to create the following pattern:
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3 | * |
+|  | ** |
+|  | *** |
+|  | ** |
+|  | * |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 5 | * |
+|  | ** |
+|  | *** |
+|  | **** |
+|  | ***** |
+|  | **** |
+|  | *** |
+|  | ** |
+|  | * |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test open]
+[input]
+5
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test]
+[input]
+4
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test]
+[input]
+10
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test]
+[input]
+20
+[/input]
+[output]
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*
+\*\*\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+\*
+[/output]
+[/test]
+[/tests]
+[/code-task]
 [/slide]
