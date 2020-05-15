@@ -81,7 +81,7 @@ my body seems on place
 my head is on the wrong end!
 [/input]
 [output]
-\['my head is on the wrong end!','my body seems on place','my tail'\]
+\['my head is on the wrong end!', 'my body seems on place', 'my tail'\]
 [/output]
 [/test]
 [test open]
@@ -192,7 +192,7 @@ my body seems on place
 my head is on the wrong end!
 [/input]
 [output]
-\['my head is on the wrong end!','my body seems on place','my tail'\]
+\['my head is on the wrong end!', 'my body seems on place', 'my tail'\]
 [/output]
 [/test]
 [test open]
