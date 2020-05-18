@@ -26,7 +26,7 @@ class Person:
 [slide]
 # The init function
 
-All classes create objects, and all objects contain **characteristics** called **attributes**.
+Classes are used to create objects, and all objects contain **characteristics** called **attributes**.
 
 When an object is being initialized, the `__init__()` method of the class is automatically invoked and sets the object's attributes to their default values.
 
