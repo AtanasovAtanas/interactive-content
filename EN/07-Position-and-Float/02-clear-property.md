@@ -2,7 +2,7 @@
 
 ## Clearing the Float
 
-Float’s sister property is `clear`.
+Float’s sister's property is `clear`.
 
 An element that has the `clear` property set on it will **not move up adjacent** to the float, like the float desires, but will move itself **down past the float**.
 

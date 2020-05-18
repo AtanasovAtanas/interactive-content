@@ -8,7 +8,7 @@ CSS `float` is a property that forces any element to **float** (right, left, non
 
 The element is **removed** from the **normal flow** of the page, though still remaining a part of the flow.
 
-Usually the float property is used to **wrap text around images**.
+Usually, the float property is used to **wrap text around images**.
 
 The values of float property are:
 * `float : right;` - floats the element to **right** of it's container;
