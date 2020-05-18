@@ -24,7 +24,7 @@ class Person:
 [/slide]
 
 [slide]
-# The \_\_init\_\_() function
+# The init function
 
 All classes create objects, and all objects contain **characteristics** called **attributes**.
 
