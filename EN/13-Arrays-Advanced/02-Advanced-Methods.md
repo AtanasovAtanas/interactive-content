@@ -10,7 +10,7 @@ An **anonymous function** is one that is defined **without a name**.
 Normal functions are defined with the `def` keyword, while the anonymous - with the `lambda` keyword.
 
 ```python
-lambda arguments: experssion
+lambda arguments: expression
 ```
 
 ```python
@@ -18,6 +18,15 @@ lambda x: x * 2
 ```
 
 The above lambda function accepts `x` parameter and return `x * 2`.
+
+Such functions can be saved in variables.
+
+Now let's see it in action:
+
+```python live
+multipication = lambda x: x * 2
+print(multipication(3)) # 6
+```
 
 [/slide]
 
