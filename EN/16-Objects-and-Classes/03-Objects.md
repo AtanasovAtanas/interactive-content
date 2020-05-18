@@ -1,7 +1,7 @@
 # Objects
 
 [slide]
-# Definitiom
+# Definition
 
 An **instance** (object) is a copy of the class with **actual** values.
 
