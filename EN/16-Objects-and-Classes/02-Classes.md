@@ -50,7 +50,7 @@ When defining an **instance** method, the **first parameter** of the method shou
 
 The `class` keyword is used to create a class.
 
-**Class attributes** are **same for all instances of the class**.
+**Class attributes** are **the same for all instances of the class**.
 
 **Instance attributes** are **unique to each instance of the class**.
 

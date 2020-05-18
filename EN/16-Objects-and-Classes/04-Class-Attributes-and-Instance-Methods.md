@@ -3,7 +3,7 @@
 [slide]
 # Class Attributes
 
-While instance attributes are sepcific to each object, class attributes are the same for all instances.
+While instance attributes are specific to each object, class attributes are the same for all instances.
 
 Having that in mind, you have to be careful and avoid situations like this example:
 

@@ -16,7 +16,7 @@ This is where we use the classes. Objects' **variables and methods are copied fr
 
 Now that we know how to create a class, we can make use of it.
 
-In order to do that, the `__init__()` method is used, **giving it parameters** if needed.
+To do that, the `__init__()` method is used, **giving it parameters** if needed.
 
 Just like normal functions, if a parameter is **optional**, we **don't** need to **pass** it when calling the function.
 
