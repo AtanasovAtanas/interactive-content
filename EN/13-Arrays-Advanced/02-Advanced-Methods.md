@@ -17,7 +17,7 @@ lambda arguments: expression
 lambda x: x * 2
 ```
 
-The above lambda function accepts `x` parameter and return `x * 2`.
+The above lambda function accepts `x` parameter and returns `x * 2`.
 
 Such functions can be saved in variables.
 
@@ -63,7 +63,7 @@ The example above takes each element of `numbers_list_one` and multiplies it wit
 
 The `filter(function, iterable)` method **filters elements**, in other words - **removes elements** that **don't fulfill a given condition**.
 
-The lambda function given **should return a boolean value**, so that it can filter the elements.
+The lambda function given **should return a boolean value** so that it can filter the elements.
 
 It returns an **iterator map object** so you need to **convert it into a list**.
 

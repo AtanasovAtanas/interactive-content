@@ -40,7 +40,7 @@ print(my_list)
 
 To remove an element from a list, the function `remove(element)` can be used.
 
-It removes the **first occurence** of the element given in the braces.
+It removes the **first occurrence** of the element given in the braces.
 
 If such element **doesn't exist** in the list, a `ValueError` will be raised.
 
@@ -76,7 +76,7 @@ print(my_list) # [1, 2, 4, 5]
 [slide]
 # More Methods
 
-The `count(element)` function is used to get the **number of occurences of an element**.
+The `count(element)` function is used to get the **number of occurrences of an element**.
 
 ```python live
 my_list = [1, 2, 3, 4, 4, 4]
@@ -91,14 +91,14 @@ my_list = [1, 2, 3, 4]
 print(my_list.index(2)) # 1
 ```
 
-If there is **no such element** in the list, an `ValueError` will be raised.
+If there is **no such element** in the list, a `ValueError` will be raised.
 
 ```python live
 my_list = [1, 2, 3, 4]
 print(my_list.index(7)) # ValueError
 ```
 
-The `reverse()` method reverses the elements of the list upon it is called.
+The `reverse()` method reverses the elements of the list upon which it is called.
 
 ```python live
 my_list = [1, 2, 3, 4, 5]
