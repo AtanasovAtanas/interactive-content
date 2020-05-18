@@ -22,7 +22,7 @@ Just like normal functions, if a parameter is **optional**, we **don't** need to
 
 To **initialize** an object of the class, type the **class name** and pass the **parameters** in the **braces** after it:
 
-```python live
+```python
 class Cat:
     owner = 'Feral'
 
