@@ -6,7 +6,7 @@
 
 It only works on **positioned** elements (anything apart from static).
 
-If element has **greater** stack order then it is always **in front** of an element with a lower stack order.
+If the element has **greater** stack order then it is always **in front** of an element with a lower stack order.
 
 The following values of `z-index` are possible:
 * `auto` - Sets the stack order **equal to its parents**. This is **default**;
@@ -31,7 +31,7 @@ The order is defined by the **order in the HTML** code:
 
 The `z-index` value is relative to the other ones.
 
-The target element is move in **front** of its siblings.
+The target element is moved in **front** of its siblings.
 
 **Example:**
 ```html
