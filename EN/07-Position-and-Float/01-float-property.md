@@ -70,7 +70,7 @@ When the `float: right;` is used, it defines that an image should **float to the
 
 ### Floating multiple Elements
 
-When multiple elements heve the same float property, they float one after another.
+When multiple elements have the same float property, they float adjacent one to another.
 
 **Example:**
 [html]
