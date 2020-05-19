@@ -68,9 +68,9 @@ The example above takes each element of `numbers_list_one` and multiplies it wit
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a single string with numbers separated by comma and space ", ".
+Write a program that reads **a single string** with **numbers** separated by comma and space ", ".
 
-Print the indices of all even numbers.
+Print the **indices** of **all even numbers**.
 
 ## Examples
 | **Input** | **Output** |
@@ -162,9 +162,9 @@ print(even_indices)
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a single string with numbers separated by comma and space ", ".
+Write a program that reads **a single string** with **numbers** separated by comma and space ", ".
 
-Print the indices of all even numbers.
+Print the **indices** of **all even numbers**.
 
 ## Examples
 | **Input** | **Output** |
@@ -267,13 +267,16 @@ print(even_numbers) # [2, 4, 6]
 [/code-editor]
 [task-description]
 ## Description
-You will receive two lines of input: a list of employee's happiness as string with numbers separated by a single space and a happiness improvement factor (single number).
+You will receive **two lines** of input: a **list** of employee's happiness as **string with numbers separated by a single space** and a **happiness improvement factor** (single **number**).
 
 Your task is to find out if the employees are generally happy in their office.
 
-To do that you have to increase their happiness by multiplying the all the employee's happiness (the numbers from the list) by the factor, filter the employees which happiness is greater than or equal to the average in the new list and print the result.
+To do that you have to increase their happiness by **multiplying** the all the **employee's happiness** (the numbers from the list) **by the factor**, **filter** the employees which **happiness** is **greater** than or **equal** to the **average** in the **new list** and **print** the result.
 
 There are two types of output:
+
+ - If the **half or more** of the employees have **happiness >= than the average**: "**Score: {happy_count}/{unhappy_count}. Employees are happy!**"
+ - Otherwise: "**Score: {happy_count}/{unhappy_count}. Employees are not happy!**"
 
 ## Examples
 | **Input** | **Output** | **Comments** |
@@ -389,13 +392,16 @@ else:
 [/code-editor]
 [task-description]
 ## Description
-You will receive two lines of input: a list of employee's happiness as string with numbers separated by a single space and a happiness improvement factor (single number).
+You will receive **two lines** of input: a **list** of employee's happiness as **string with numbers separated by a single space** and a **happiness improvement factor** (single **number**).
 
 Your task is to find out if the employees are generally happy in their office.
 
-To do that you have to increase their happiness by multiplying the all the employee's happiness (the numbers from the list) by the factor, filter the employees which happiness is greater than or equal to the average in the new list and print the result.
+To do that you have to increase their happiness by **multiplying** the all the **employee's happiness** (the numbers from the list) **by the factor**, **filter** the employees which **happiness** is **greater** than or **equal** to the **average** in the **new list** and **print** the result.
 
 There are two types of output:
+
+ - If the **half or more** of the employees have **happiness >= than the average**: "**Score: {happy_count}/{unhappy_count}. Employees are happy!**"
+ - Otherwise: "**Score: {happy_count}/{unhappy_count}. Employees are not happy!**"
 
 ## Examples
 | **Input** | **Output** | **Comments** |

@@ -83,17 +83,17 @@ print(my_list) # [1, 2, 4, 5]
 [/code-editor]
 [task-description]
 ## Description
-You will receive how many wagons the train has.
+You will receive how many **wagons** the train has.
 
-Create a list with that length with all zeros.
+Create a **list** with that length **with all zeros**.
 
-Until you receive the command "End", you get some of the following commands:
+Until you receive the command "**End**", you get some of the following commands:
 
- - add {people} -> adds the people in the last wagon
- - insert {index} {people} -> adds the people at the given wagon
- - leave {index} {people} -> removes the people from the wagon
+ - **add {people}** -> adds the people in the last wagon
+ - **insert {index} {people}** -> adds the people at the given wagon
+ - **leave {index} {people}** -> removes the people from the wagon
 
-After you receive the "End" command print the train.
+After you receive the "**End**" command print the train.
 
 ## Examples
 | **Input** | **Output** |
@@ -247,17 +247,17 @@ print(train)
 [/code-editor]
 [task-description]
 ## Description
-You will receive how many wagons the train has.
+You will receive how many **wagons** the train has.
 
-Create a list with that length with all zeros.
+Create a **list** with that length **with all zeros**.
 
-Until you receive the command "End", you get some of the following commands:
+Until you receive the command "**End**", you get some of the following commands:
 
- - add {people} -> adds the people in the last wagon
- - insert {index} {people} -> adds the people at the given wagon
- - leave {index} {people} -> removes the people from the wagon
+ - **add {people}** -> adds the people in the last wagon
+ - **insert {index} {people}** -> adds the people at the given wagon
+ - **leave {index} {people}** -> removes the people from the wagon
 
-After you receive the "End" command print the train.
+After you receive the "**End**" command print the train.
 
 ## Examples
 | **Input** | **Output** |
@@ -392,11 +392,11 @@ End
 [/code-editor]
 [task-description]
 ## Description
-You will receive a todo-notes until you get the command "End".
+You will receive a **todo-notes** until you get the command "**End**".
 
-The notes will be in the format: "{importance}-{value}".
+The notes will be in the format: "**{importance}-{value}**".
 
-Return the list of todo-notes sorted by importance.
+Return the list of **todo-notes** sorted by **importance**.
 
 ## Examples
 | **Input** | **Output** |
@@ -507,11 +507,11 @@ print(result)
 [/code-editor]
 [task-description]
 ## Description
-You will receive a todo-notes until you get the command "End".
+You will receive a **todo-notes** until you get the command "**End**".
 
-The notes will be in the format: "{importance}-{value}".
+The notes will be in the format: "**{importance}-{value}**".
 
-Return the list of todo-notes sorted by importance.
+Return the list of **todo-notes** sorted by **importance**.
 
 ## Examples
 | **Input** | **Output** |
@@ -610,11 +610,11 @@ End
 [/code-editor]
 [task-description]
 ## Description
-Write a program that receives on the first line words separated by a space and a searched palindrome on the second.
+Write a program that receives on the **first line** words separated by a **space** and a **searched palindrome** on the **second**.
 
-Print all the palindromes on the first line.
+Print **all the palindromes** on the first line.
 
-Print all the occurrences of the searched palindrome in the format: "Found palindrome {count} times".
+Print all the **occurrences** of the **searched** palindrome in the format: "**Found palindrome {count} times**".
 
 ## Examples
 | **Input** | **Output** |
@@ -724,11 +724,11 @@ print(f"Found palindrome {palindromes.count(searched_palindrome)} times")
 [/code-editor]
 [task-description]
 ## Description
-Write a program that receives on the first line words separated by a space and a searched palindrome on the second.
+Write a program that receives on the **first line** words separated by a **space** and a **searched palindrome** on the **second**.
 
-Print all the palindromes on the first line.
+Print **all the palindromes** on the first line.
 
-Print all the occurrences of the searched palindrome in the format: "Found palindrome {count} times".
+Print all the **occurrences** of the **searched** palindrome in the format: "**Found palindrome {count} times**".
 
 ## Examples
 | **Input** | **Output** |

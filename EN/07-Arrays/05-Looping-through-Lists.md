@@ -70,14 +70,14 @@ while index < len(my_list):
 [/code-editor]
 [task-description]
 ## Description
-You will be given a number n.
+You will be given a number **n**.
 
-On the next n lines you will receive integers.
+On the next **n lines** you will receive **integers**.
 
-You have to create and print two lists:
+You have to create and print **two lists**:
 
- - One with all the positives (including 0)
- - One with all the negatives
+ - One with all the **positives** (including 0)
+ - One with all the **negatives**
 
 Finally print the following message: "Count of positives: {count_positives}. Sum of negatives: {sum_of_negatives}"
 
@@ -209,14 +209,14 @@ print(f"Count of positives: {len(positives)}. Sum of negatives: {sum(negatives)}
 [/code-editor]
 [task-description]
 ## Description
-You will be given a number n.
+You will be given a number **n**.
 
-On the next n lines you will receive integers.
+On the next **n lines** you will receive **integers**.
 
-You have to create and print two lists:
+You have to create and print **two lists**:
 
- - One with all the positives (including 0)
- - One with all the negatives
+ - One with all the **positives** (including 0)
+ - One with all the **negatives**
 
 Finally print the following message: "Count of positives: {count_positives}. Sum of negatives: {sum_of_negatives}"
 

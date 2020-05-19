@@ -173,7 +173,7 @@ else:
 [/code-editor]
 [task-description]
 ## Description
-Write a program that receives three whole numbers and print the biggest one.
+Write a program that receives **three whole numbers** and print the **biggest one**.
 
 ## Examples
 | **Input** | **Output** |
@@ -294,7 +294,7 @@ else:
 [/code-editor]
 [task-description]
 ## Description
-Write a program that receives three whole numbers and print the biggest one.
+Write a program that receives **three whole numbers** and print the **biggest one**.
 
 ## Examples
 | **Input** | **Output** |
@@ -406,11 +406,11 @@ Write a program that receives three whole numbers and print the biggest one.
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a floating-point number and prints "zero" if the number is zero.
+Write a program that reads a **floating-point number** and prints "zero" if the **number is zero**.
 
 Otherwise, print "positive" or "negative".
 
-Add "small" if the absolute value of the number is less than 1, or "large" if it exceeds 1 000 000.
+Add "small" if the absolute value of the **number is less than 1**, or "large" if **it exceeds 1 000 000**.
 
 ## Examples
 | **Input** | **Output** |
@@ -579,11 +579,11 @@ else:
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a floating-point number and prints "zero" if the number is zero.
+Write a program that reads a **floating-point number** and prints "zero" if the **number is zero**.
 
 Otherwise, print "positive" or "negative".
 
-Add "small" if the absolute value of the number is less than 1, or "large" if it exceeds 1 000 000.
+Add "small" if the absolute value of the **number is less than 1**, or "large" if **it exceeds 1 000 000**.
 
 ## Examples
 | **Input** | **Output** |
@@ -814,7 +814,7 @@ for i in reversed(range(0, 10)):
 [/code-editor]
 [task-description]
 ## Description
-Write a program that receives a single word from the user, reverses it and prints it.
+Write a program that receives **a single word** from the user, **reverses** it and **prints** it.
 
 ## Examples
 | **Input** | **Output** |
@@ -903,7 +903,7 @@ print(reversed_word)
 [/code-editor]
 [task-description]
 ## Description
-Write a program that receives a single word from the user, reverses it and prints it.
+Write a program that receives **a single word** from the user, **reverses** it and **prints** it.
 
 ## Examples
 | **Input** | **Output** |
@@ -1021,9 +1021,9 @@ while True:
 [/code-editor]
 [task-description]
 ## Description
-Write a program which reads numbers from the console until it receives a number between 1 and 100 inclusive.
+Write a program which reads numbers from the console **until it receives a number between 1 and 100 inclusive**.
 
-When the correct number is received, stop reading and print "The number {number} is between 1 and 100".
+When the correct number is received, **stop reading** and **print** "The number {number} is between 1 and 100".
 
 ## Examples
 | **Input** | **Output** |
@@ -1116,9 +1116,9 @@ print(f'The number {number} is between 1 and 100')
 [/code-editor]
 [task-description]
 ## Description
-Write a program which reads numbers from the console until it receives a number between 1 and 100 inclusive.
+Write a program which reads numbers from the console **until it receives a number between 1 and 100 inclusive**.
 
-When the correct number is received, stop reading and print "The number {number} is between 1 and 100".
+When the correct number is received, **stop reading** and **print** "The number {number} is between 1 and 100".
 
 ## Examples
 | **Input** | **Output** |
@@ -1209,6 +1209,18 @@ The number 1.5 is between 1 and 100
 [task-description]
 ## Description
 Write a program to create the following pattern:
+
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+
+You will receive a **number** that represents the **highest number of stars**.
 
 ## Examples
 | **Input** | **Output** |
@@ -1402,6 +1414,18 @@ for i in range(number - 1, 0, -1):
 [task-description]
 ## Description
 Write a program to create the following pattern:
+
+\*
+\*\*
+\*\*\*
+\*\*\*\*
+\*\*\*\*\*
+\*\*\*\*
+\*\*\*
+\*\*
+\*
+
+You will receive a **number** that represents the **highest number of stars**.
 
 ## Examples
 | **Input** | **Output** |

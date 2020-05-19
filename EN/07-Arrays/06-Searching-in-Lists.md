@@ -36,13 +36,13 @@ if 5 not in my_list:
 [/code-editor]
 [task-description]
 ## Description
-You will receive a number n and a word.
+You will receive a number **n** and a **word**.
 
-On the next n lines you will be given some strings.
+On the next **n lines** you will be given some **strings**.
 
-You have to add them in a list and print them.
+You have to **add** them in a list and **print** them.
 
-After that you have to filter out only the strings that include the given word and print that list also.
+After that you have to **filter** out only the **strings that include the given word** and **print** that list also.
 
 ## Examples
 | **Input** | **Output** |
@@ -181,13 +181,13 @@ print(strings)
 [/code-editor]
 [task-description]
 ## Description
-You will receive a number n and a word.
+You will receive a number **n** and a **word**.
 
-On the next n lines you will be given some strings.
+On the next **n lines** you will be given some **strings**.
 
-You have to add them in a list and print them.
+You have to **add** them in a list and **print** them.
 
-After that you have to filter out only the strings that include the given word and print that list also.
+After that you have to **filter** out only the **strings that include the given word** and **print** that list also.
 
 ## Examples
 | **Input** | **Output** |
@@ -315,18 +315,18 @@ some stuff
 [/code-editor]
 [task-description]
 ## Description
-You will receive a single number n.
+You will receive a single number **n**.
 
-On the next n lines you will receive integers.
+On the next **n lines** you will receive **integers**.
 
-After that you will be given one of the following commands:
+After that you will be given one of the following **commands**:
 
- - even
- - odd
- - negative
- - positive
+ - **even**
+ - **odd**
+ - **negative**
+ - **positive**
 
-Filter all the numbers that fit in the category (0 counts as a positive). Finally, print the result.
+**Filter** all the numbers that **fit in the category** (0 counts as a positive). Finally, **print** the result.
 
 ## Examples
 | **Input** | **Output** |
@@ -486,18 +486,18 @@ print(filtered)
 [/code-editor]
 [task-description]
 ## Description
-You will receive a single number n.
+You will receive a single number **n**.
 
-On the next n lines you will receive integers.
+On the next **n lines** you will receive **integers**.
 
-After that you will be given one of the following commands:
+After that you will be given one of the following **commands**:
 
- - even
- - odd
- - negative
- - positive
+ - **even**
+ - **odd**
+ - **negative**
+ - **positive**
 
-Filter all the numbers that fit in the category (0 counts as a positive). Finally, print the result.
+**Filter** all the numbers that **fit in the category** (0 counts as a positive). Finally, **print** the result.
 
 ## Examples
 | **Input** | **Output** |

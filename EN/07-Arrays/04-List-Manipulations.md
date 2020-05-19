@@ -45,11 +45,11 @@ print(my_list)
 [/code-editor]
 [task-description]
 ## Description
-You will receive a single number n.
+You will receive a single number **n**.
 
-On the next n lines you will receive names of courses.
+On the next n lines you will receive **names** of courses.
 
-You have to create a list of them and print it
+You have to create a **list of them and print it**.
 
 ## Examples
 | **Input** | **Output** |
@@ -166,11 +166,11 @@ print(courses)
 [/code-editor]
 [task-description]
 ## Description
-You will receive a single number n.
+You will receive a single number **n**.
 
-On the next n lines you will receive names of courses.
+On the next n lines you will receive **names** of courses.
 
-You have to create a list of them and print it
+You have to create a **list of them and print it**.
 
 ## Examples
 | **Input** | **Output** |

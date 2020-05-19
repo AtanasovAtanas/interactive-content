@@ -52,11 +52,11 @@ print(my_list[-3]) # 3
 [/code-editor]
 [task-description]
 ## Description
-You are at the zoo and the meerkats look strange.
+You are at the zoo and the **meerkats** look strange.
 
-You will receive 3 strings: (tail, body, head).
+You will receive **3 strings**: (tail, body, head).
 
-You have to re-arrange the elements in a list, so that the animal looks normal again: (head, body, tail).
+You have to **re-arrange** the elements in a list, so that the animal looks normal again: (head, body, tail).
 
 ## Examples
 | **Input** | **Output** |
@@ -163,11 +163,11 @@ print(meerkat)
 [/code-editor]
 [task-description]
 ## Description
-You are at the zoo and the meerkats look strange.
+You are at the zoo and the **meerkats** look strange.
 
-You will receive 3 strings: (tail, body, head).
+You will receive **3 strings**: (tail, body, head).
 
-You have to re-arrange the elements in a list, so that the animal looks normal again: (head, body, tail).
+You have to **re-arrange** the elements in a list, so that the animal looks normal again: (head, body, tail).
 
 ## Examples
 | **Input** | **Output** |

@@ -70,11 +70,11 @@ print(multiplied) # 10
 [/code-editor]
 [task-description]
 ## Description
-Create a function that receives three parameters and calculates a result depending on operator.
+**Create a function** that receives **three parameters** and **calculates** a result depending on **operator**.
 
-The operator can be  'multiply', 'divide', 'add', 'subtract' .
+The operator can be  '**multiply**', '**divide**', '**add**', '**subtract**' .
 
-The input comes as three parameters – two integers and an operator as a string.
+The input comes as three parameters – **two integers** and an operator as **a string**.
 
 ## Examples
 | **Input** | **Output** |
@@ -192,11 +192,11 @@ print(solve(first_num, second_num, input_operator))
 [/code-editor]
 [task-description]
 ## Description
-Create a function that receives three parameters and calculates a result depending on operator.
+**Create a function** that receives **three parameters** and **calculates** a result depending on **operator**.
 
-The operator can be  'multiply', 'divide', 'add', 'subtract' .
+The operator can be  '**multiply**', '**divide**', '**add**', '**subtract**' .
 
-The input comes as three parameters – two integers and an operator as a string.
+The input comes as three parameters – **two integers** and an operator as **a string**.
 
 ## Examples
 | **Input** | **Output** |
@@ -298,9 +298,9 @@ divide
 [/code-editor]
 [task-description]
 ## Description
-Write a function that receives a string and a repeat count n.
+Write a function that receives a **string** and a **repeat count n**.
 
-The function should return a new string (the old one repeated n times).
+The function should return a new **string** (**the old one repeated n times**).
 
 ## Examples
 | **Input** | **Output** |
@@ -402,9 +402,9 @@ print(repeat_string(input_string, repeat_times))
 [/code-editor]
 [task-description]
 ## Description
-Write a function that receives a string and a repeat count n.
+Write a function that receives a **string** and a **repeat count n**.
 
-The function should return a new string (the old one repeated n times).
+The function should return a new **string** (**the old one repeated n times**).
 
 ## Examples
 | **Input** | **Output** |
@@ -497,11 +497,11 @@ popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopo
 [/code-editor]
 [task-description]
 ## Description
-Write a function that calculates the total price of an order and prints it on the console.
+Write a function that calculates the **total price** of an order and prints it on the console.
 
-The function should receive one of the following products: coffee, coke, water, snacks; and a quantity of the product.
+The function should receive one of the following products: **coffee**, **coke**, **water**, **snacks**; and a **quantity** of the product.
 
-The prices for a single piece of each product are:
+The **prices** for a **single piece** of each product are:
 
  - coffee - 1.50
  - water - 1.00
@@ -612,11 +612,11 @@ print(f'{(solve(input_product,input_quantity)):.2f}')
 [/code-editor]
 [task-description]
 ## Description
-Write a function that calculates the total price of an order and prints it on the console.
+Write a function that calculates the **total price** of an order and prints it on the console.
 
-The function should receive one of the following products: coffee, coke, water, snacks; and a quantity of the product.
+The function should receive one of the following products: **coffee**, **coke**, **water**, **snacks**; and a **quantity** of the product.
 
-The prices for a single piece of each product are:
+The **prices** for a **single piece** of each product are:
 
  - coffee - 1.50
  - water - 1.00
@@ -714,7 +714,7 @@ coffee
 [/code-editor]
 [task-description]
 ## Description
-Create a function that calculates and returns the area of a rectangle by given width and height:
+**Create a function** that **calculates** and **returns** the **area of a rectangle** by given **width** and **height**.
 
 ## Examples
 | **Input** | **Output** |
@@ -813,7 +813,7 @@ print(calculate_area(input_width,input_height))
 [/code-editor]
 [task-description]
 ## Description
-Create a function that calculates and returns the area of a rectangle by given width and height:
+**Create a function** that **calculates** and **returns** the **area of a rectangle** by given **width** and **height**.
 
 ## Examples
 | **Input** | **Output** |
