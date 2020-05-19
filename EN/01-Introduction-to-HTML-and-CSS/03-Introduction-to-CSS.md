@@ -151,9 +151,9 @@ Example:
 # Adding CSS to HTML Documents
 
 There are three ways of inserting a style sheet:
-- External style sheet
-- Internal style sheet
-- Inline style
+- External style sheet;
+- Internal style sheet;
+- Inline style.
 
 We already have covered the **Internal style sheet**. Now, let's see how we can add CSS to our HTML in other ways.
 
@@ -163,9 +163,9 @@ An external style sheet is a separate file linked to an HTML web page. All the s
 The most common way to add CSS, is to keep the styles in **separate CSS files**. 
 
 Benefits of the external style sheet:
-- Can be applied to an unlimited number of web pages.
-- An external style sheet can be applied instantly to apply the look to each and every web page.
-- Helps in bringing a uniform format to every page they are attached to.
+- It can be applied to an unlimited number of web pages;
+- An external style sheet can be applied instantly to apply the look to each and every web page;
+- It helps in bringing a uniform format to every page they are attached to.
 
 To link an external stylesheet, you'd include a `<link>` element inside your `<head>` like this:
 ```css
@@ -174,7 +174,7 @@ To link an external stylesheet, you'd include a `<link>` element inside your `<h
 </head>
 ```
 
-An external style sheet can be written in any text editor, and must be saved with a `.css` extension.
+An external style sheet can be written in any text editor and must be saved with a `.css` extension.
 
 The external `.css` file should not contain any HTML tags.
 
@@ -208,7 +208,7 @@ All the styles in a page will "cascade" into a new "virtual" style sheet by the 
 - External and internal style sheets
 - Browser default
 
-So, an `inline` style has the highest priority, and will override `external` and `internal` styles and browser defaults.
+So, an `inline` style has the highest priority and will override `external` and `internal` styles and browser defaults.
 
 Also, one HTML element can be targeted by multiple CSS rules. Let's use a simple heading for example:
 ```html

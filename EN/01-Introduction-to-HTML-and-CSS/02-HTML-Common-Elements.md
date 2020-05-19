@@ -42,7 +42,7 @@ Attributes usually come in **name/value pairs** like: `name="value"`.
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
-You will learn more about links and the `<a>` tag in next page.
+You will learn more about links and the `<a>` tag in the next page.
 [/slide]
 
 [slide]
@@ -78,9 +78,9 @@ See the <a href="#exercises"></a>
 The `target` attribute specifies where to open the linked document.
 
 The `target` attribute can have one of the following values:
-- `_blank` - Opens the linked document in a new window or tab
-- `_self` - Opens the linked document in the same tab (this is default)
-- `_top` - Opens the linked document in the full body of the window
+- `_blank` - Opens the linked document in a new window or tab;
+- `_self` - Opens the linked document in the same tab (this is the default);
+- `_top` - Opens the linked document in the full body of the window.
 
 This example will open the linked document in a new tab:
 [html]
@@ -106,14 +106,14 @@ The HTML `<img>` element embeds an image into the document.
 ```
 **NOTE**: `softuni.png` is a local file in the example.
 
-The above example shows usage of the `<img>` element:
+The above example shows the usage of the `<img>` element:
 - The `src` attribute is **required**, and contains the **path to the image**.
 - The `alt` attribute holds a text description of the image, which isn't mandatory but is incredibly useful since screen readers read this description out to their users so they know what the image means. 
 [/slide]
 
 [slide]
 # Lists
-HTML lists are used to present list of information in well formed and semantic way. 
+HTML lists are used to present a list of information in a well-formed and semantic way. 
 
 There are three different types of list in HTML and each one has a specific purpose and meaning:
 - Unordered HTML List
