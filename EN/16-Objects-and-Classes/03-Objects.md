@@ -63,6 +63,37 @@ print(cat_two.age)
 [/slide]
 
 [slide]
+# Problem: Comment
+[code-task title="Comment" taskId="f68ad2f4-5ea4-4e11-b30f-444dcb9bdb3f" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Create a class with name "Comment".
+
+The __init__ method should accept 3 parameters:
+
+ - **username**
+ - **content**
+ - **likes** (optional, 0 by default)
+
+**Note:** There is no input/output for this problem. Test the class yourself and submit only the class.
+
+## Examples
+| **Test Code** | **Output** |
+| --- | --- |
+| comment = Comment("user1", "I like this book") | user1 |
+| print(comment.username) | I like this book |
+| print(comment.content) | 0 |
+| print(comment.likes) |  |
+
+[/task-description]
+[/slide]
+
+[slide]
 # Modifying Attributes
 
 You can change the values of the attributes of an object after it's been initialized.
