@@ -737,7 +737,7 @@ Print the **result of each method formatted to the second decimal place** in the
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 10 | 15.70 |
+| 10 | 31.40 |
 | 5 | 78.50 |
 |  | 1.09 |
 
@@ -750,7 +750,7 @@ Print the **result of each method formatted to the second decimal place** in the
 5
 [/input]
 [output]
-15.70
+31.40
 78.50
 1.09
 [/output]
@@ -841,7 +841,7 @@ Print the **result of each method formatted to the second decimal place** in the
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 10 | 15.70 |
+| 10 | 31.40 |
 | 5 | 78.50 |
 |  | 1.09 |
 
@@ -854,7 +854,7 @@ Print the **result of each method formatted to the second decimal place** in the
 5
 [/input]
 [output]
-15.70
+31.40
 78.50
 1.09
 [/output]
