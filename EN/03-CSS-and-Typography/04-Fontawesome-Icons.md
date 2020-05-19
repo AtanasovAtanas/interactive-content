@@ -8,7 +8,7 @@
 Font awesome is **most popular icon toolkit** based on CSS.
 
 Icon fonts:
-* Fonts containing **symbols and glyphs** instead of letters / numbers;
+* Fonts containing **symbols and glyphs** instead of letters/numbers;
 * You can style them with **CSS** the same way as regular text.
 
 Font Awsome has:

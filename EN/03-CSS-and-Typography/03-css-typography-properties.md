@@ -62,7 +62,7 @@ The `@font-face` CSS at-rule specifies a **custom font** with which to display t
 
 The font can be loaded from either a remote server `url()` or a locally-installed font `local()`. 
 
-It's common to use both `url()` and `local()` together, so that the user's installed copy of the font is used if available or download a copy if it's not found on the user's device.
+It's common to use both `url()` and `local()` together so that the user's installed copy of the font is used if available or download a copy if it's not found on the user's device.
 
 **Example:**
 ```html
@@ -99,7 +99,7 @@ It's common to use both `url()` and `local()` together, so that the user's insta
 
 The `font-size` property sets the **size** of the font.
 
-This property is also used to **compute** the size of **em**, **ex**, and other relative `<length>` units.
+This property is also used to **compute** the size of **em**, **ex**, and another relative `<length>` units.
 
 The `font-size` value can be **absolute** or **relative**.
 
@@ -192,7 +192,7 @@ The values of this property are:
 * `center`	- **Centers** the text;
 * `justify`	- Stretches the lines so that each line has **equal width**.
 
-The default value depends on direction. It's left, if direction is ltr, and right if direction is rtl.
+The default value depends on the direction. It's left if the direction is ltr, and right if the direction is rtl.
 
 **Example:**
 ```html
@@ -295,7 +295,7 @@ text-transform: uppercase;
 [slide]
 ## Word Break
 
-`word-break` defines how words should break, when reaching the end of line.
+`word-break` defines how words should break when reaching the end of the line.
 
 The values of this property are:
 * `normal`– words with no space will not break;
