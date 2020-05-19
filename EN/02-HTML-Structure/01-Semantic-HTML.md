@@ -4,9 +4,11 @@
 # HTML Semantic Elements
 
 HTML5 uses **semantic tags** for the document structure.
-Semantic element clearly describes its meaning to both the **browser** and the **developer**.
+
+The semantic element clearly describes its meaning to both the **browser** and the **developer**.
 
 Examples of **non-semantic elements** are \<div\>, \<span\> - they tell nothing about its content.
+
 Examples of **semantic elements** are \<section\>, \<header\>, \<article\> they define its content.
 
 In HTML there are some semantic elements, that can be used to define different parts of a web page:
@@ -56,7 +58,9 @@ The `<nav>` tag defines a set of navigation links.
 ## HTML \<header\> Tag
 
 The `<header>` tag specifies a header for a document or section.
+
 This tag should be used as a **container for introductory content**.
+
 You can have several `<header>` tags in one document.
 
 ****Example****
@@ -76,7 +80,9 @@ You can have several `<header>` tags in one document.
 
 ## HTML \<main\> Tag
 
-The `<main>` tag specifies the main content of a document. It's content should be unique to the document.
+The `<main>` tag specifies the main content of a document.
+
+It's content should be unique to the document.
 
 There must not be more than one `<main>` tag in a document.
 
@@ -112,7 +118,7 @@ There must not be more than one `<main>` tag in a document.
 
 The `<footer>` tag represents a footer for a document or section.
 
-Usually a `<footer>` tag contains information about the author, copyright data or links to related documents.
+Usually, a `<footer>` tag contains information about the author, copyright data or links to related documents.
 
 You may have several `<footer>` tags in one document.
 
@@ -165,7 +171,9 @@ The HTML `<section>` tag represents a standalone section, which doesn't have a m
 
 ## HTML \<aside\> Tag
 
-Тhe HTML `<aside>` tag defines some content aside from the content it is placed in. Asides are frequently presented as sidebars or call-out boxes.
+Тhe HTML `<aside>` tag defines some content aside from the content it is placed in.
+
+Asides are frequently presented as sidebars or call-out boxes.
 
 ****Example****
 ```html
@@ -191,7 +199,9 @@ Problem: Simple Web Page
 
 ## HTML \<figure\> and \<figcaption\> Tags
 
-The `<figure>` tag is used to mark up a photo in a document. The `<figcaption>` tag defines a caption for the photo:
+The `<figure>` tag is used to mark up a photo in a document.
+
+The `<figcaption>` tag defines a caption for the photo:
 
 **Example**
 ```html
@@ -217,7 +227,7 @@ The `<details>` tag specifies additional details, that the user can view or hide
 
 A summary or label can be provided using the `<summary>` element.
 
- If the first child of the `<details>` element is a `<summary>`, the contents of the `<summary>` element are used as the label for the disclosure widget.
+If the first child of the `<details>` element is a `<summary>`, the contents of the `<summary>` element are used as the label for the disclosure widget.
 
 **Example**
 ```html
@@ -237,7 +247,7 @@ A summary or label can be provided using the `<summary>` element.
 
 ## HTML \<time\> and \<address\> Tags
 
-* The `<time>` tag defines a human-readable date/time. It may include the datetime attribute to translate dates into machine-readable format.
+* The `<time>` tag defines a human-readable date/time. It may include the datetime attribute to translate dates into a machine-readable format.
 * The HTML `<address>` element indicates that the enclosed HTML provides contact information like email address, URL, physical address, phone number, social media handle, etc.
 
 **Example**

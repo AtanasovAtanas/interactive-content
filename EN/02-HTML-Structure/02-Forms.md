@@ -5,7 +5,7 @@
 
 An HTML form is used to collect user input, which is generally sent to a web server for processing and storage.
 
-It can also be used on the client-side to immediately update the interface in some way (for example by adding another item to a list, or show or hide a UI feature).
+It can also be used on the client-side to immediately update the interface in some way (for example by adding another item to a list or show or hide a UI feature).
 
 ## HTML `<form>` Tag
 
@@ -37,7 +37,7 @@ The form contains interactive controls for submitting information. It takes inpu
 ## Form Attributes
 
 The form attributes are optional, but it's standard practice to always set at least the **action** and **method** attributes.
-* The action attribute defines the URL, where the form's collected data should be send, when it is submitted.
+* The action attribute defines the URL, where the form's collected data should be send when it is submitted.
 * The method attribute defines which HTTP method to send the data with (GET/POST).
 
 **Example**
@@ -84,9 +84,9 @@ Problem: Write a form.
 
 ### Input Validation
 
-* HTML input validation is done automatically by the browser based on special attributes.
+* HTML input validation is done automatically by the browser-based on special attributes.
 * The validation only occurs when attempting to submit the form.
-* Inputs which are disabled or read-only will not trigger validation.
+* Inputs that are disabled or read-only will not trigger validation.
 
 ### Input Attributes
 
@@ -161,7 +161,7 @@ Problem: Write a form.
 
 ### The `<select>` and  `<option>` Elements
 
-`<select>` creates a drop-down list. This element is a form control and can be used in a form to collect user input.
+`<select>` creates a drop-down list. This element is a form-control and can be used in a form to collect user input.
 
 `<option>` tags inside the `<select>` element define the available options in the list.
 
