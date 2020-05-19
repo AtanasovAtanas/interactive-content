@@ -85,8 +85,10 @@ The __init__ method should accept 3 parameters:
 ## Examples
 | **Test Code** | **Output** |
 | --- | --- |
-| comment = Comment("user1", "I like this book") | user1 |
-| print(comment.username) | I like this book |
+| comment = Comment("user1", "I like this book")
+
+print(comment.username) | user1 |
+|  | I like this book |
 | print(comment.content) | 0 |
 | print(comment.likes) |  |
 
