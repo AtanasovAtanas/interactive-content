@@ -63,39 +63,6 @@ print(cat_two.age)
 [/slide]
 
 [slide]
-# Problem: Comment
-[code-task title="Comment" taskId="f68ad2f4-5ea4-4e11-b30f-444dcb9bdb3f" executionType="tests-execution" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
-```
-# Write your code here
-```
-[/code-editor]
-[task-description]
-## Description
-Create a class with name "Comment".
-
-The __init__ method should accept 3 parameters:
-
- - **username**
- - **content**
- - **likes** (optional, 0 by default)
-
-**Note:** There is no input/output for this problem. Test the class yourself and submit only the class.
-
-## Examples
-| **Test Code** | **Output** |
-| --- | --- |
-| comment = Comment("user1", "I like this book")
-
-print(comment.username) | user1 |
-|  | I like this book |
-| print(comment.content) | 0 |
-| print(comment.likes) |  |
-
-[/task-description]
-[/slide]
-
-[slide]
 # Modifying Attributes
 
 You can change the values of the attributes of an object after it's been initialized.
@@ -116,4 +83,242 @@ cat_one.name = 'Shady'
 print(cat_one.name)
 ```
 
+[/slide]
+
+[slide]
+# Problem: Party
+[code-task title="Party" taskId="python-fundamentals-Objects-and-Classes-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Create a class **Party** that only has an attribute called **people**.
+
+The **\_\_init\_\_** method should **not accept** any **parameters**.
+
+You will be given **names** of people (on separate lines) until you receive the command "**End**".
+
+Use the created class to solve this problem.
+
+After you receive the end command print **2 lines**:
+
+ - "**Going: {people}**" - the people should be separated by comma and space ", "
+ - "**Total: {total_people_going}**"
+
+**Note:** Submit all of your code including the class.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| ter | Going: Peter, John, Katy |
+| John | Total: 3 |
+| Katy |  |
+| End |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+Peter
+John
+Katy
+End
+[/input]
+[output]
+Going: Peter, John, Katy
+Total: 3
+[/output]
+[/test]
+[test]
+[input]
+a
+b
+c
+d
+End
+[/input]
+[output]
+Going: a, b, c, d
+Total: 4
+[/output]
+[/test]
+[test]
+[input]
+End
+[/input]
+[output]
+Going:
+Total: 0
+[/output]
+[/test]
+[test]
+[input]
+w
+t
+e
+y
+u
+h
+n
+End
+[/input]
+[output]
+Going: w, t, e, y, u, h, n
+Total: 7
+[/output]
+[/test]
+[test]
+[input]
+abc
+def
+End
+[/input]
+[output]
+Going: abc, def
+Total: 2
+[/output]
+[/test]
+[test]
+[input]
+alabala
+portokala
+mortokala
+End
+[/input]
+[output]
+Going: alabala, portokala, mortokala
+Total: 3
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Party
+[code-task title="Party" taskId="f68ad2f4-5ea4-4e11-b30f-444dcb9bdb3f" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+class Party:
+    def __init__(self):
+        self.people = []
+
+line = input()
+party = Party()
+
+while line != "End":
+    party.people.append(line)
+    line = input()
+
+print(f"Going: {', '.join(party.people)}")
+print(f"Total: {len(party.people)}")
+```
+[/code-editor]
+[task-description]
+## Description
+Create a class **Party** that only has an attribute called **people**.
+
+The **\_\_init\_\_** method should **not accept** any **parameters**.
+
+You will be given **names** of people (on separate lines) until you receive the command "**End**".
+
+Use the created class to solve this problem.
+
+After you receive the end command print **2 lines**:
+
+ - "**Going: {people}**" - the people should be separated by comma and space ", "
+ - "**Total: {total_people_going}**"
+
+**Note:** Submit all of your code including the class.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| ter | Going: Peter, John, Katy |
+| John | Total: 3 |
+| Katy |  |
+| End |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+Peter
+John
+Katy
+End
+[/input]
+[output]
+Going: Peter, John, Katy
+Total: 3
+[/output]
+[/test]
+[test]
+[input]
+a
+b
+c
+d
+End
+[/input]
+[output]
+Going: a, b, c, d
+Total: 4
+[/output]
+[/test]
+[test]
+[input]
+End
+[/input]
+[output]
+Going:
+Total: 0
+[/output]
+[/test]
+[test]
+[input]
+w
+t
+e
+y
+u
+h
+n
+End
+[/input]
+[output]
+Going: w, t, e, y, u, h, n
+Total: 7
+[/output]
+[/test]
+[test]
+[input]
+abc
+def
+End
+[/input]
+[output]
+Going: abc, def
+Total: 2
+[/output]
+[/test]
+[test]
+[input]
+alabala
+portokala
+mortokala
+End
+[/input]
+[output]
+Going: alabala, portokala, mortokala
+Total: 3
+[/output]
+[/test]
+[/tests]
+[/code-task]
 [/slide]
