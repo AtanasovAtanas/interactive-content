@@ -38,6 +38,17 @@ div {
 }
 ```
 
+**Example:**
+[html]
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="vYNQbVR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="margin">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/vYNQbVR">
+  margin</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+[/html]
+
 [/slide]
 
 [slide]
@@ -61,9 +72,9 @@ The following two examles make the same thing:
 **Example:**
 ```html
 div {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-right: 0;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   padding-left: 0px;
 }
 ```
@@ -71,9 +82,20 @@ div {
 **Example:**
 ```html
 div {
-	padding: 50px 0;
+	padding: 30px 0;
 }
 ```
+
+**Example:**
+[html]
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="GRpwzwB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="padding">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/GRpwzwB">
+  padding</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+[/html]
 
 [/slide]
 
@@ -131,5 +153,16 @@ div {
   cursor: move;
 }
 ```
+
+**Example**
+[html]
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="mdeQvvj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="cursor">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/mdeQvvj">
+  cursor</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+[/html]
 
 [/slide]

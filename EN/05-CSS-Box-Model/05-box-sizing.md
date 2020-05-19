@@ -18,7 +18,7 @@ html {
 
 ## Universal Box-sizing
 
-The box-sizing **Reset** takes care of the box-sizing of every element by setting it to **border-box** using universal CSS selector.
+The box-sizing **Reset** takes care of the box-sizing of every element by setting it to **border-box** using a universal CSS selector.
 
 Save your **time** and don't write the same thing **again-and-again**.
 
@@ -33,5 +33,15 @@ html {
   box-sizing: inherit;
 }
 ```
+
+[html]
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="pojQGMJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="box-sizing">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/pojQGMJ">
+  box-sizing</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+[/html]
 
 [/slide]
