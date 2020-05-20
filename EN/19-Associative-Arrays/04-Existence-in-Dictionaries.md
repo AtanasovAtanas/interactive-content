@@ -465,9 +465,9 @@ statistics
 [/input]
 [output]
 Products in stock:
-- bread: 5
-- cheese: 2
-- ham: 1
+\- bread: 5
+\- cheese: 2
+\- ham: 1
 Total Products: 3
 Total Quantity: 8
 [/output]
@@ -482,10 +482,10 @@ statistics
 [/input]
 [output]
 Products in stock:
-- a: 10
-- b: 6
-- c: 8
-- d: 7
+\- a: 10
+\- b: 6
+\- c: 8
+\- d: 7
 Total Products: 4
 Total Quantity: 31
 [/output]
@@ -497,7 +497,7 @@ statistics
 [/input]
 [output]
 Products in stock:
-- i: 1
+\- i: 1
 Total Products: 1
 Total Quantity: 1
 [/output]
@@ -511,9 +511,9 @@ statistics
 [/input]
 [output]
 Products in stock:
-- n: 10
-- k: 0
-- o: 5
+\- n: 10
+\- k: 0
+\- o: 5
 Total Products: 3
 Total Quantity: 15
 [/output]
@@ -527,7 +527,7 @@ statistics
 [/input]
 [output]
 Products in stock:
-- a: 6
+\- a: 6
 Total Products: 1
 Total Quantity: 6
 [/output]
@@ -542,8 +542,8 @@ statistics
 [/input]
 [output]
 Products in stock:
-- a: 14
-- b: 21
+\- a: 14
+\- b: 21
 Total Products: 2
 Total Quantity: 35
 [/output]
