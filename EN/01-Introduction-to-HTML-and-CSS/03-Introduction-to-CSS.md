@@ -8,7 +8,7 @@ CSS describes how elements should be rendered on screen, on paper, in speech, or
 
 For example, change color text color in green for all paragraph elements:
 [html]
-<p class="codepen" data-height="240" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="vYNYqKm" style="height: 240px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNYqKm"></p>
+<p class="codepen" data-height="240" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="vYNYqKm" style="height: 240px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNYqKm"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -35,7 +35,7 @@ A CSS declaration always ends with a **semicolon**, and declaration blocks are *
 
 Example:
 [html]
-<p class="codepen" data-height="240" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="vYNYqKm" style="height: 240px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNYqKm"></p>
+<p class="codepen" data-height="240" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="vYNYqKm" style="height: 240px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNYqKm"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -48,7 +48,7 @@ The element selector selects all elements with the specified element name.
 
 Styling all headings of level 1 `<h1>`:
 [html]
-<p class="codepen" data-height="234" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="rNONEwN" style="height: 234px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="rNONEwN">
+<p class="codepen" data-height="234" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="rNONEwN" style="height: 234px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="rNONEwN">
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
@@ -64,7 +64,7 @@ The internal style is defined inside the `<style>` element, inside the `head` se
 
 Example:
 [html]
-<p class="codepen" data-height="454" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="vYNYqJJ" style="height: 454px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNYqJJ"></p>
+<p class="codepen" data-height="454" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="vYNYqJJ" style="height: 454px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNYqJJ"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -141,7 +141,7 @@ selector:pseudo-class {
 
 Example:
 [html]
-<p class="codepen" data-height="176" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="yLYLmee" style="height: 176px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="yLYLmee"></p>
+<p class="codepen" data-height="176" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="yLYLmee" style="height: 176px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="yLYLmee"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -197,7 +197,7 @@ To use inline styles, add the `style` attribute to the relevant element. The sty
 
 Example of Inlince CSS:
 [html]
-<p class="codepen" data-height="202" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="MWaWNEb" style="height: 202px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MWaWNEb">
+<p class="codepen" data-height="202" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="MWaWNEb" style="height: 202px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MWaWNEb">
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]

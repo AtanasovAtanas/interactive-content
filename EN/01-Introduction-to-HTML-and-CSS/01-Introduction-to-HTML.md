@@ -98,7 +98,7 @@ The HTML `<body></body>` element represents the content of an HTML document. The
 
 ## HTML Page - Example
 [html]
-<p class="codepen" data-height="276" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="oNjNxXr" style="height: 276px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="oNjNxXr"></p>
+<p class="codepen" data-height="276" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="oNjNxXr" style="height: 276px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="oNjNxXr"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 [/slide]
@@ -120,7 +120,7 @@ In the case of HTML, whitespace is largely **ignored** - whitespace in between w
 Let's look at this example:
 
 [html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="ExVxZeN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ExVxZeN">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="ExVxZeN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ExVxZeN">
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]

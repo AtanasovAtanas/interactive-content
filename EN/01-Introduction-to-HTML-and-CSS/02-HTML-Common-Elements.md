@@ -8,7 +8,7 @@ The HTML `<h1>...<h6>` elements represent six levels of section headings.
 `<h1>` is the highest section level and `<h6>` is the lowest.
 
 [html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="QWjWpEj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="QWjWpEj">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="QWjWpEj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="QWjWpEj">
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
@@ -23,7 +23,7 @@ The HTML `<p>` element represents a paragraph. Browsers automatically add some s
 HTML paragraphs can be used for **grouping related content**, such as images.
 
 [html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="RwWwpov" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="RwWwpov"></p>
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="RwWwpov" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="RwWwpov"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 [/slide]
@@ -38,7 +38,7 @@ Attributes are always specified in the st**art tag**.
 Attributes usually come in **name/value pairs** like: `name="value"`.
 
 [html]
-<p class="codepen" data-height="186" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="abvbJWq" style="height: 186px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvbJWq"></p>
+<p class="codepen" data-height="186" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="abvbJWq" style="height: 186px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvbJWq"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -56,7 +56,7 @@ Links allow users to click their way from **page to page**. When you move the mo
 External pages can be referenced with an URL to the web page.
 
 [html]
-<p class="codepen" data-height="186" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="abvbJWq" style="height: 186px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvbJWq"></p>
+<p class="codepen" data-height="186" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="abvbJWq" style="height: 186px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvbJWq"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -84,7 +84,7 @@ The `target` attribute can have one of the following values:
 
 This example will open the linked document in a new tab:
 [html]
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="abvbJRj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvbJRj">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="abvbJRj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="abvbJRj">
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
@@ -125,7 +125,7 @@ The HTML `<ol>` element represents an ordered list of items - typically rendered
 Each list item is represented by the `<li>` tag.
 
 [html]
-<p class="codepen" data-height="208" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="bGVGWgR" style="height: 208px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="bGVGWgR"></p>
+<p class="codepen" data-height="208" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="bGVGWgR" style="height: 208px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="bGVGWgR"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
@@ -134,7 +134,7 @@ The HTML `<ul>` element represents an unordered list of items. Each list item is
 
 The list items will be marked with **bullets** (small black circles) by default:
 [html]
-<p class="codepen" data-height="238" data-theme-id="dark" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="YzyzVpP" style="height: 238px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="YzyzVpP"></p>
+<p class="codepen" data-height="238" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="YzyzVpP" style="height: 238px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="YzyzVpP"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
