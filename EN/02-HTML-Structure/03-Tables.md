@@ -23,7 +23,7 @@ If the cell is in the header, it is defined with the `<th>` tag. By default, tab
 </table>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="JjYZwyN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JjYZwyN">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="JjYZwyN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JjYZwyN">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/JjYZwyN">
   JjYZwyN</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -63,7 +63,7 @@ These elements are used to specify each part of a table (header, body, footer).
 </table>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="ExVRGwN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ExVRGwN">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="ExVRGwN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ExVRGwN">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/ExVRGwN">
   ExVRGwN</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
