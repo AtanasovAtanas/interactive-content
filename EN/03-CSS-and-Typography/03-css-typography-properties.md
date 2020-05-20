@@ -84,9 +84,9 @@ It's common to use both `url()` and `local()` together so that the user's instal
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="wvKXNww" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="font-style">
+<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="wvKXNww" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="font-style">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/wvKXNww">
-  font-style</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  font-style</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
