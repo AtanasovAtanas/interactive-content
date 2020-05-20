@@ -2,8 +2,6 @@
 
 [slide]
 
-## Properties for the Parent
-
 ### `display: flex;`
 
 For start using the Flexbox model we need to turn the parent element into a **flexbox container**.
