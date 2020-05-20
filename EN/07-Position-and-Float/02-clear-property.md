@@ -1,3 +1,5 @@
+# Clearing the Float
+
 [slide]
 
 ## Clearing the Float
