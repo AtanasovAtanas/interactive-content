@@ -392,7 +392,7 @@ task
 assignment
 [/input]
 [output]
-task – problem, assignment
+task - problem, assignment
 [/output]
 [/test]
 [test]
@@ -609,7 +609,7 @@ task
 assignment
 [/input]
 [output]
-task – problem, assignment
+task - problem, assignment
 [/output]
 [/test]
 [test]
