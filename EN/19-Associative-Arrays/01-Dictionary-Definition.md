@@ -11,7 +11,7 @@ While other data types have only value as an element, a dictionary has **key-val
 
 Keys must be of **immutable type** (for example strings) and **must be unique**.
 
-You can imagine dictionary as **a list that has custom indices**.
+You can imagine a dictionary as **a list that has custom indices**.
 
 A **phonebook** would be a good **real-life** example:
 
