@@ -19,6 +19,7 @@ The order is defined by the **order in the HTML** code:
 * Last in the code goes in front.
 
 **Example:**
+
 [html]
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="eYpQvdL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-static">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/eYpQvdL">
