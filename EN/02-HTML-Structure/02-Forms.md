@@ -22,7 +22,7 @@ The form contains interactive controls for submitting information. It takes inpu
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="ZEbRVeG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ZEbRVeG">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="ZEbRVeG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ZEbRVeG">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/ZEbRVeG">
   ZEbRVeG</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -51,7 +51,7 @@ The form attributes are optional, but it's standard practice to always set at le
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="wvKXRJR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="wvKXRJR">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="wvKXRJR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="wvKXRJR">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/wvKXRJR">
   wvKXRJR</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -123,7 +123,7 @@ Problem: Write a form.
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="vYNrvmd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNrvmd">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="vYNrvmd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNrvmd">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/vYNrvmd">
   vYNrvmd</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -151,7 +151,7 @@ Problem: Write a form.
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="bGVKOWz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="bGVKOWz">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="bGVKOWz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="bGVKOWz">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/bGVKOWz">
   bGVKOWz</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -177,7 +177,7 @@ Problem: Write a form.
 </form>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="VwvdqWy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="VwvdqWy">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="VwvdqWy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="VwvdqWy">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/VwvdqWy">
   VwvdqWy</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

@@ -29,7 +29,7 @@ When the `float: none;` is used, the image is displayed where **it occurs** in t
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="XWmyKYE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="float-none">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="XWmyKYE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="float-none">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/XWmyKYE">
   float-none</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -44,7 +44,7 @@ When the `float: left;` is used, it defines that an image should **float to the 
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="ZEbmOqv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="float-left">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="ZEbmOqv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="float-left">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/ZEbmOqv">
   float-left</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -59,7 +59,7 @@ When the `float: right;` is used, it defines that an image should **float to the
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="vYNQKQo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="float-right">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="vYNQKQo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="float-right">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/vYNQKQo">
   float-right</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -74,7 +74,7 @@ When multiple elements have the same float property, they float adjacent one to 
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="xxwQOvM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="float-multiple-imgs">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="xxwQOvM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="float-multiple-imgs">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/xxwQOvM">
   float-multiple-imgs</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

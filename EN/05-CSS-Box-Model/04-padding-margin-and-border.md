@@ -40,7 +40,7 @@ div {
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="vYNQbVR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="margin">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="vYNQbVR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="margin">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/vYNQbVR">
   margin</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -88,7 +88,7 @@ div {
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="GRpwzwB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="padding">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="GRpwzwB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="padding">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/GRpwzwB">
   padding</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -122,7 +122,7 @@ div {
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="dyYqyBM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-color">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="dyYqyBM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-color">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/dyYqyBM">
   border-color</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -132,7 +132,7 @@ div {
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="jObvENv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-properties">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="jObvENv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="border-properties">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/jObvENv">
   border-properties</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -156,7 +156,7 @@ div {
 
 **Example**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="mdeQvvj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="cursor">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="mdeQvvj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="cursor">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/mdeQvvj">
   cursor</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

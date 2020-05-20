@@ -18,7 +18,7 @@ You can add margins and padding on all **four sides** of any block element.
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="GRpXKQa" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="block element">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="GRpXKQa" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="block element">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/GRpXKQa">
   block element</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -38,7 +38,7 @@ You can add margins and paddings just on **right** and **left** sides of any inl
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="BaoOBGN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="inline element">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="BaoOBGN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="inline element">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/BaoOBGN">
   inline element</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -60,7 +60,7 @@ One common use for using inline-block is for creating navigation links horizonta
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="softuni-inter" data-slug-hash="LYpJPqX" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="inline-block">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="LYpJPqX" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="inline-block">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/LYpJPqX">
   inline-block</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

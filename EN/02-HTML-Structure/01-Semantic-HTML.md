@@ -47,7 +47,7 @@ The `<nav>` tag defines a set of navigation links.
 </nav>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="ExVROJj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ExVROJj">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="ExVROJj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="ExVROJj">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/ExVROJj">
   ExVROJj</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -70,7 +70,7 @@ You can have several `<header>` tags in one document.
 </header>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="vYNrQwZ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNrQwZ">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="vYNrQwZ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNrQwZ">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/vYNrQwZ">
   vYNrQwZ</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -106,7 +106,7 @@ There must not be more than one `<main>` tag in a document.
 </main>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="MWaXzdd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MWaXzdd">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="MWaXzdd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MWaXzdd">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/MWaXzdd">
   MWaXzdd</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -131,7 +131,7 @@ You may have several `<footer>` tags in one document.
 </footer>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="PoPaxrR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="PoPaxrR">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="PoPaxrR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="PoPaxrR">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/PoPaxrR">
   PoPaxrR</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -161,7 +161,7 @@ The HTML `<section>` tag represents a standalone section, which doesn't have a m
 </section>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="OJyEaKZ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="OJyEaKZ">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="OJyEaKZ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="OJyEaKZ">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/OJyEaKZ">
   OJyEaKZ</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -187,7 +187,7 @@ Asides are frequently presented as sidebars or call-out boxes.
 </aside>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="wvKXRGY" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="wvKXRGY">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="wvKXRGY" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="wvKXRGY">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/wvKXRGY">
   wvKXRGY</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -213,7 +213,7 @@ The `<figcaption>` tag defines a caption for the photo:
 ```
 
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="rNOKoWO" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="rNOKoWO">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="rNOKoWO" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="rNOKoWO">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/rNOKoWO">
   rNOKoWO</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -237,7 +237,7 @@ If the first child of the `<details>` element is a `<summary>`, the contents of 
 </details>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="XWmYopd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="XWmYopd">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="XWmYopd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="XWmYopd">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/XWmYopd">
   XWmYopd</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -260,7 +260,7 @@ If the first child of the `<details>` element is a `<summary>`, the contents of 
 </div>
 ```
 [html]
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="LYprMxL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="LYprMxL">
+<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="LYprMxL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="LYprMxL">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/LYprMxL">
   LYprMxL</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
