@@ -1,8 +1,8 @@
-# Z-index
+# Z\-index
 
 [slide]
 
-## Z-index
+## Z\-index
 
 `z-index` defines the order of the elements on the **z-axis**. 
 
