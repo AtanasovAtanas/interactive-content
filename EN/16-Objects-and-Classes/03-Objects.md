@@ -101,7 +101,7 @@ print(cat_one.name)
 ## Description
 Create a class **Party** that only has an attribute called **people**.
 
-The **\_\_init\_\_** method should **not accept** any **parameters**.
+The \_\_init\_\_ method should **not accept** any **parameters**.
 
 You will be given **names** of people (on separate lines) until you receive the command "**End**".
 
@@ -109,8 +109,8 @@ Use the created class to solve this problem.
 
 After you receive the end command print **2 lines**:
 
- - "**Going: {people}**" - the people should be separated by comma and space ", "
- - "**Total: \{total_people_going\}**"
+ - "Going: \{people\}" - the people should be separated by comma and space ", "
+ - "Total: \{total_people_going\}"
 
 **Note:** Submit all of your code including the class.
 
@@ -226,7 +226,7 @@ print(f"Total: {len(party.people)}")
 ## Description
 Create a class **Party** that only has an attribute called **people**.
 
-The **\_\_init\_\_** method should **not accept** any **parameters**.
+The \_\_init\_\_ method should **not accept** any **parameters**.
 
 You will be given **names** of people (on separate lines) until you receive the command "**End**".
 
@@ -234,8 +234,8 @@ Use the created class to solve this problem.
 
 After you receive the end command print **2 lines**:
 
- - "**Going: {people}**" - the people should be separated by comma and space ", "
- - "**Total: {total_people_going}**"
+ - "Going: \{people\}" - the people should be separated by comma and space ", "
+ - "Total: \{total_people_going\}"
 
 **Note:** Submit all of your code including the class.
 
