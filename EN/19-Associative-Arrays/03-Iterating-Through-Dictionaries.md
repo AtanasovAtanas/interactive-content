@@ -49,7 +49,7 @@ Use the `values()` method to **get all the values**.
 grades = {"Stephen": 4.55, "Bellamy": 5.74, "Amy": 5.22}
 
 for value in grades.values():
-   print(value, end=", ")
+   print(value, end=" ")
 ```
 
 [/slide]

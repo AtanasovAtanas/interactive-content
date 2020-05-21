@@ -17,6 +17,12 @@ A **phonebook** would be a good **real-life** example:
 
 A **single person** (**string** for their **name**, which is the **key**) has **one or more phone numbers** (a **string** or **list of strings**, which is the **value**).
 
+| Key: Name | Value: Phone Number |
+|-----------|---------------------|
+| John      | +44 1632 960054     |
+| Elizabeth | +44 1632 960690     |
+|           |                     |
+
 Code example:
 
 ```python

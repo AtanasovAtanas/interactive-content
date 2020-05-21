@@ -161,30 +161,6 @@ Java C\# PHP PHP JAVA C java
 java c\# c
 [/output]
 [/test]
-[test open]
-[input]
-3 5 5 hi pi HO Hi 5 ho 3 hi pi
-[/input]
-[output]
-5 hi
-[/output]
-[/test]
-[test open]
-[input]
-a a A SQL xx a xx a A a XX c
-[/input]
-[output]
-a sql xx c
-[/output]
-[/test]
-[test]
-[input]
-Java C\# PHP PHP JAVA C java
-[/input]
-[output]
-java c\# c
-[/output]
-[/test]
 [test]
 [input]
 3 5 5 hi pi HO Hi 5 ho 3 hi pi
@@ -256,30 +232,6 @@ Write a program that extracts all elements from a given sequence of words that a
 [code-io /]
 [tests]
 [test open]
-[input]
-Java C\# PHP PHP JAVA C java
-[/input]
-[output]
-java c\# c
-[/output]
-[/test]
-[test open]
-[input]
-3 5 5 hi pi HO Hi 5 ho 3 hi pi
-[/input]
-[output]
-5 hi
-[/output]
-[/test]
-[test open]
-[input]
-a a A SQL xx a xx a A a XX c
-[/input]
-[output]
-a sql xx c
-[/output]
-[/test]
-[test]
 [input]
 Java C\# PHP PHP JAVA C java
 [/input]

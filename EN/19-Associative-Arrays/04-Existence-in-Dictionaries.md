@@ -66,8 +66,8 @@ On the next line you will be given products to **search** for.
 
 Check for each product, you have **2 possibilities**:
 
- - If you **have the product**, print "**We have {quantity} of {product} left**"
- - **Otherwise**, print "**Sorry, we don't have {product}**"
+ - If you **have the product**, print "We have \{quantity\} of \{product\} left"
+ - **Otherwise**, print "Sorry, we don't have \{product\}"
 
 ## Examples
 | **Input** | **Output** |
@@ -174,8 +174,8 @@ On the next line you will be given products to **search** for.
 
 Check for each product, you have **2 possibilities**:
 
- - If you **have the product**, print "**We have {quantity} of {product} left**"
- - **Otherwise**, print "**Sorry, we don't have {product}**"
+ - If you **have the product**, print "We have \{quantity\} of \{product\} left"
+ - **Otherwise**, print "Sorry, we don't have \{product\}"
 
 ## Examples
 | **Input** | **Output** |
@@ -272,17 +272,17 @@ In that case you have to **add** the **new quantity** to the existing one.
 
 When you receive the "**statistics**" command, print the following:
 
-"**Products in stock:**
+"Products in stock:
 
-**\- {product1}: {quantity1}**
+ - \{product1\}: \{quantity1\}
 
-**\- {product2}: {quantity2}**
+ - \{product2\}: \{quantity2\}
 
-**…**
+…
 
-**Total Products: {count_all_products}**
+Total Products: \{count_all_products\}
 
-**Total Quantity: {sum_all_quantities}**"
+Total Quantity: \{sum_all_quantities\}"
 
 
 ## Examples
@@ -429,18 +429,17 @@ In that case you have to **add** the **new quantity** to the existing one.
 
 When you receive the "**statistics**" command, print the following:
 
-"**Products in stock:**
+"Products in stock:
 
-**\- {product1}: {quantity1}**
+ - \{product1\}: \{quantity1\}
 
-**\- {product2}: {quantity2}**
+ - \{product2\}: \{quantity2\}
 
-**…**
+…
 
-**Total Products: {count_all_products}**
+Total Products: \{count_all_products\}
 
-**Total Quantity: {sum_all_quantities}**"
-
+Total Quantity: \{sum_all_quantities\}"
 
 ## Examples
 | **Input** | **Output** |
