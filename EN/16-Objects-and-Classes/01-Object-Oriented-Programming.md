@@ -11,8 +11,6 @@ Provides means of **structuring** programs so that **properties** and **behavior
 
 An **object-oriented** program consists of **objects** that **interact** with **each other**.
 
-[image assetsSrc="object-oriented-example.png" /]
-
 Most **modern** programming languages are **object-oriented**.
 
 You will learn more about this concept further in the lecture.

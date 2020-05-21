@@ -21,6 +21,14 @@ class Person:
         self.age = age
 ```
 
+A good real-life example are animals.
+
+Each animal has states like type, age, color, preferred food, etc. and behavior like eat, drink water, move, make sound, etc.
+
+But they all differ for each different animal type.
+
+[image assetsSrc="ObjectsAndClasses_RealLifeExample.png" /]
+
 [/slide]
 
 [slide]
@@ -28,9 +36,20 @@ class Person:
 
 Classes are used to create objects, and all objects contain **characteristics** called **attributes**.
 
-When an object is being initialized, the `__init__()` method of the class is automatically invoked and sets the object's attributes to their default values.
+When an object is being **initialized**, the `__init__()` method of the class is **automatically invoked** and **sets** the object's **attributes** to their **default values**.
+
+It can accept **parameters** which are **used upon the object creation**.
 
 The double leading and trailing underscore ( `__` ) is used for **special variables** or **methods**.
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+```
+
+You will learn about the `self` keyword in the next slide.
 
 [/slide]
 
@@ -42,6 +61,19 @@ The `self` parameter is a reference to the current **instance** of the class.
 It is used to access variables that belong to the class.
 
 When defining an **instance** method, the **first parameter** of the method should **always** be `self`.
+
+Now you should fully understand the example from the previous slide:
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+```
+
+The `Person`'s `__init__()` method accepts `name` and `age`.
+
+Upon creating an object of the class, it will have a custom `name` and `age` attribute values.
 
 [/slide]
 

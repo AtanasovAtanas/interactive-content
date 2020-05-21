@@ -9,6 +9,10 @@ Objects encapsulate variables and methods **into a single entity**.
 
 This is where we use the classes. Objects' **variables and methods are copied from the class**.
 
+For example we know the characteristics of book - it has covers, content, number of pages, genre, etc. This is like a **class Book**.
+
+But all books have different values of the above. Now this is like an **instance** of the **class Book**.
+
 [/slide]
 
 [slide]
@@ -106,7 +110,7 @@ Use the created class to solve this problem.
 After you receive the end command print **2 lines**:
 
  - "**Going: {people}**" - the people should be separated by comma and space ", "
- - "**Total: {total_people_going}**"
+ - "**Total: \{total_people_going\}**"
 
 **Note:** Submit all of your code including the class.
 
