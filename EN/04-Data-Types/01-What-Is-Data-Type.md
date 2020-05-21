@@ -23,11 +23,11 @@ is_true = True                         #Boolean
 list = [502, 'hello', 50.5, 'h']       #List
 dict = {'colour': 'red', 'age':15}     #Dictionary
 ```
-Python is dynamic programming language, that means you don't need to set a value type when you declare a varible.
+Python is a dynamic programming language, which means you don't need to set a value type when you declare a variable.
 
 Data type is set when you assign a value to a variable.
 
-Any variable can be assigned values of all types and later on you can re-assigned teh value:
+Any variable can be assigned values of all types and later on you can re-assigned the value:
 
 ```python live
 current = 11    

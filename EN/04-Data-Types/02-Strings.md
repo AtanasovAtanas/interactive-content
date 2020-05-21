@@ -3,27 +3,31 @@
 [slide]
 # Strings explained
 
-A string is a sequence of characters ands it's used to represent textual data.
+A string is a sequence of characters and it's used to represent textual data.
 
-The first element is at `index 0`, the next at `index 1` and so on.
+The first element is at `index 0`, the next at `index 1`, and so on.
 
-The length of a String is the number of elements in it.
+Using `length - 1` we can take the last element of a string.
+
 
 ```python live
 name ='Python'
 print(name[0])
+print(name[length - 1])
 ```
 
 ## String Literal
 
 String literals in python are surrounded by either single quotation marks, or double quotation marks.
 
-- `'hello'` is the same as `"hello"`.
+- `'hello'` is the same as `"hello"`
 
-The `len()` method returns  the length of a string: 
+The `len()` method returns the length of a string.
+
+The length of a String is the number of elements in it.
 
 ```python live
-a ="Hello, World!"
+a = "Hello, World!"
 print(len(a))
 ```
 
@@ -41,7 +45,7 @@ When you run the example here you'll see `str object does not support item assig
 
 ## String Interpolation
 
-**Python 3.6+** added new string interpolation method called **literal string interpolation** and introduced a new literal prefix `f`.
+**Python 3.6+** added a new string interpolation method called **literal string interpolation** and introduced a new literal prefix `f`.
 
 These are string literals that allow embedded expressions:
 
@@ -51,7 +55,7 @@ age = 18
 print(f'{name} = {age}')
 ```
 
-In above example literal prefix `f` tells Python to restore the value of two string variable `name` and `age` inside braces `{}`.
+In the above example literal prefix `f` tells Python to restore the value of two string variable `name` and `age` inside braces `{}`.
 
 So that when we `print` we get the above output.
 
@@ -59,7 +63,7 @@ So that when we `print` we get the above output.
 
 [slide]
 # Problem: Concatenate Names
-[code-task title="Problem: Concatenate Names" taskId="python-fundamentals-Data-Types-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Concatenate Names" taskId="26487ea5-3211-4751-b86c-63366828e230" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here
@@ -173,7 +177,7 @@ AB(=)CD
 
 [slide]
 # Solution: Concatenate Names
-[code-task title="Problem: Concatenate Names" taskId="829f528b-7b4a-4e3f-a01a-a1cc1fd94606" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Concatenate Names" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 first_name = input()

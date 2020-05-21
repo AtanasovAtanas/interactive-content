@@ -5,10 +5,10 @@
 [slide]
 # Numbers
 The numeric types in Python are:
-- `int`;
-- `float`;
+- `int`
+- `float`
 
-You can create а numeric types when you assign a number value to varible:
+You can create а numeric types when you assign a number value to a variable:
 
 ```Python
 x = 1    # int
@@ -17,7 +17,11 @@ y = 2.8  # float
 
 # Int
 
-Int, or integer, is a **whole** number, positive or negative, without decimals, of unlimited length.
+Int, or integeris is:
+- **whole** number
+- positive or negative
+- without decimals
+- with unlimited length, depends on the memory of your computer
 
 ```Python
 x = 1
@@ -26,7 +30,10 @@ z = -2312312
 ```
 
 # Float
-Float, or **floating point number** is a number, positive or negative, containing one decimal.
+Float, or **floating-point number** is:
+- number containing one decimal
+- positive or negative
+
 
 ```Python
 x = 2.10
@@ -37,7 +44,7 @@ z = -15.59
 
 [slide]
 # Problem: Centuries to Minutes
-[code-task title="Problem: Centuries to Minutes" taskId="python-fundamentals-Data-Types-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Centuries to Minutes" taskId="4f819eb2-ad84-4d98-84b6-305fdb9f349e" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here
@@ -121,14 +128,16 @@ Write program to enter an integer number of centuries and convert it to **years*
 
 [slide]
 # Solution: Centuries to Minutes
-[code-task title="Problem: Centuries to Minutes" taskId="a23024ae-246b-4455-9a4e-23f3173c659c" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Centuries to Minutes" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 centuries = int(input())
+
 years = centuries * 100
 days = int(years * 365.2422)
 hours = 24 * days
 minutes = 60 * hours
+
 print(f"{centuries} centuries = {years} years = {days} days = {hours} hours = {minutes} minutes")
 ```
 [/code-editor]
