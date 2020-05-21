@@ -2,9 +2,7 @@
 
 [slide]
 
-## Margin, Padding and Border
-
-### Margin
+# Margin
 
 `margin` defines the space outside the element.
 
@@ -53,7 +51,7 @@ div {
 
 [slide]
 
-### Padding
+# Padding
 
 `padding` defines the space between the content and the border.
 
@@ -101,7 +99,7 @@ div {
 
 [slide]
 
-### Border
+# Border
 
 `border` is a **short hand** property for the following properties:
 * `border-width`
@@ -140,7 +138,7 @@ div {
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
-### Cursor
+# Cursor
 
 `cursor` - Sets the mouse cursor when hovering the element.
 

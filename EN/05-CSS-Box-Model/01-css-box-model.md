@@ -2,7 +2,7 @@
 
 [slide]
 
-## What is CSS Box Model?
+# What is CSS Box Model?
 
 The **CSS box model** is essentially a **box that wraps** around every HTML element.
 

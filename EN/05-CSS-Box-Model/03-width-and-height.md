@@ -2,9 +2,7 @@
 
 [slide]
 
-## Width, Max-Width, Min-Width
-
-### Width
+## Width
 
 Block elements have **width / height**.
 
@@ -17,13 +15,13 @@ The values of this property are:
 * **\<length>** -	Defines the width in **px**, **cm**, etc.	
 * **%** - Defines the width in percent of the containing block.
 
-### Max-Width
+## Max-Width
 
 The `max-width` property defines the maximum width of an element.
 
 The default value of this property is `none`.
 
-### Min-Width
+## Min-Width
 
 The `min-width` property defines the minimum width of an element.
 
@@ -46,9 +44,9 @@ The default value of this property is `0`.
 
 [slide]
 
-## Height, Max-Height, Min-Height
+# Height, Max-Height, Min-Height
 
-### Height
+## Height
 
 The `height` property defines the height of an element.
 
@@ -59,7 +57,7 @@ The values of this property are:
 * **\<length>** -	Defines the height in **px**, **cm**, etc.	
 * **%** - Defines the height in percent of the containing block.
 
-### Max-Height
+## Max-Height
 
 The `max-height` property defines the maximum height of an element.
 
@@ -69,7 +67,7 @@ In the case of **larger content**, as the maximum height is, the content will **
 
 In the case of **smaller content**, as the maximum height is, the max-height property has **no effect**.
 
-### Min-Height
+## Min-Height
 
 The `min-height` property defines the minimum height of an element.
 
