@@ -21,7 +21,6 @@ A **single person** (**string** for their **name**, which is the **key**) has **
 |-----------|---------------------|
 | John      | +44 1632 960054     |
 | Elizabeth | +44 1632 960690     |
-|           |                     |
 
 Code example:
 
