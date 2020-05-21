@@ -25,8 +25,10 @@ print(10 < 9)
 | `<` | less than | `if (age < 18)` | 
 | `>=` | greater than or equal | `if (6 >= 6)` |
 | `!=` | not equal | `if (5 != 5)` |
-| `is` | Object identity | `n = 'a'`  `m = 'a'` `n is m == True`|
-| `is not` | negated object identity | `n is not m == False` |
+| `is` | Object identity | `n = 'a'`|
+| | `m = 'a'` |
+| | `n is m` `True` |
+| `is not` | negated object identity | `n is not m` `False` |
 
 [/slide]
 

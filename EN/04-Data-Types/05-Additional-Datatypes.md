@@ -6,65 +6,59 @@
 
 There are four collection data types in the Python programming language:
 
-- **List** is a collection which is ordered and changeable and allows duplicate members;
-- **Tuple** is a collection which is ordered and unchangeable and allows duplicate members;
-- **Set** is a collection which is unordered and unindexed and there are no duplicate members;
-- **Dictionary** is a collection which is unordered, changeable and indexed and there are no duplicate members;
+**List** and **Tuple** are a collection:
+- which are ordered 
+- changeable 
+- and allows duplicate members
+- lists are written with square brackets `[]`.
+
+```python live
+this_list = ["apple", "banana", "cherry"]
+print(this_list)
+```
+
+- tuples are written with round brackets `()`.
+
+```python live
+this_tuple = ("apple", "banana", "cherry")
+print(thistuple)
+```
+
+**Set** is a collection:
+- which is unordered
+- and unindexed
+- and there are no duplicate members
+- written with curly brackets `{}`:
+
+```python live
+this_set = {"apple", "banana", "cherry"}
+print(this_set)
+```
+
+**Dictionary** is a collection:
+- which is unordered
+- changeable 
+- indexed and there are no duplicate members
+- written with curly brackets `{}`, and they have keys and values:
+
+```python live
+this_dict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(this_dict)
+```
 
 When choosing a collection type, it is useful to understand the properties of that type.
 
 Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.
 
-# List
-A list is a collection which is ordered and changeable. 
-
-In Python lists are written with square brackets `[]`.
-
-```python live
-thislist = ["apple", "banana", "cherry"]
-print(thislist)
-```
-# Tuple
-A tuple is a collection which is ordered and unchangeable.
-
-In Python tuples are written with round brackets `()`.
-
-```python live
-thistuple = ("apple", "banana", "cherry")
-print(thistuple)
-```
-[/slide]
-
-[slide]
-# Set
-A set is a collection which is unordered and unindexed.
-
-In Python sets are written with curly brackets `{}`.
-
-```python live
-thisset = {"apple", "banana", "cherry"}
-print(thisset)
-```
-
-# Dictionary
-
-A dictionary is a collection which is unordered, changeable and indexed. 
-
-In Python dictionaries are written with curly brackets `{}`, and they have keys and values.
-
-```python live
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-print(thisdict)
-```
 [/slide]
 
 [slide]
 # Problem: Convert Meters to Kilometers
-[code-task title="Problem: Convert Meters to Kilometers" taskId="python-fundamentals-Data-Types-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Convert Meters to Kilometers" taskId="04e38a1f-bfba-473b-813d-f1569f5c30cd" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here
@@ -149,11 +143,13 @@ Write a program that converts **meters** to **kilometers** formatted to the **se
 
 [slide]
 # Solution: Convert Meters to Kilometers
-[code-task title="Problem: Convert Meters to Kilometers" taskId="f6eee421-3a69-4ca3-bda1-7d3f5319d538" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Convert Meters to Kilometers executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 meters = int(input())
+
 kilometers = meters / 1000
+
 print('{:.2f}'.format(kilometers))
 ```
 [/code-editor]
@@ -236,7 +232,7 @@ Write a program that converts **meters** to **kilometers** formatted to the **se
 
 [slide]
 # Problem: Pounds to Dollars
-[code-task title="Problem: Pounds to Dollars" taskId="python-fundamentals-Data-Types-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Pounds to Dollars" taskId="39784eb8-4c58-4703-bae2-a0d1d77e9d2a" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here
@@ -320,11 +316,13 @@ Write a program that converts British pounds to US dollars formatted to **3th de
 
 [slide]
 # Solution: Pounds to Dollars
-[code-task title="Problem: Pounds to Dollars" taskId="fd580c8e-8678-4301-a7c7-1e8f47d9c4fc" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Pounds to Dollars" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 pounds = int(input())
+
 dollars = pounds * 1.31
+
 print('{:.3f}'.format(dollars))
 ```
 [/code-editor]
