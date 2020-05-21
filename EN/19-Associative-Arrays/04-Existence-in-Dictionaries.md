@@ -274,9 +274,9 @@ When you receive the "**statistics**" command, print the following:
 
 "Products in stock:
 
- - \{product1\}: \{quantity1\}
+\- \{product1\}: \{quantity1\}
 
- - \{product2\}: \{quantity2\}
+\- \{product2\}: \{quantity2\}
 
 …
 
@@ -431,9 +431,9 @@ When you receive the "**statistics**" command, print the following:
 
 "Products in stock:
 
- - \{product1\}: \{quantity1\}
+\- \{product1\}: \{quantity1\}
 
- - \{product2\}: \{quantity2\}
+\- \{product2\}: \{quantity2\}
 
 …
 
