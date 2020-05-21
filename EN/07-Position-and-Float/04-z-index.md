@@ -4,7 +4,7 @@
 
 ## Z\-index
 
-`z-index` defines the order of the elements on the **z-axis**. 
+`z-index` defines the order of the elements on the **z-axis**.
 
 It only works on **positioned** elements (anything apart from static).
 
