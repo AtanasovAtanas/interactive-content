@@ -2,7 +2,7 @@
 
 [slide]
 
-## What is float?
+# What is float?
 
 CSS `float` is a property that forces any element to **float** (right, left, none, inherit) **inside its parent** body with the rest of the element to wrap around it.
 
@@ -21,9 +21,9 @@ The values of float property are:
 
 [slide]
 
-## Float examples
+# Float examples
 
-### `float: none;`
+## `float: none;`
 
 When the `float: none;` is used, the image is displayed where **it occurs** in the text.
 
@@ -38,7 +38,7 @@ When the `float: none;` is used, the image is displayed where **it occurs** in t
 
 [/html]
 
-### `float: left;`
+## `float: left;`
 
 When the `float: left;` is used, it defines that an image should **float to the left** in a text.
 
@@ -53,7 +53,7 @@ When the `float: left;` is used, it defines that an image should **float to the 
 
 [/html]
 
-### `float: right;`
+## `float: right;`
 
 When the `float: right;` is used, it defines that an image should **float to the right** in a text.
 
@@ -68,7 +68,7 @@ When the `float: right;` is used, it defines that an image should **float to the
 
 [/html]
 
-### Floating multiple Elements
+## Floating multiple Elements
 
 When multiple elements have the same float property, they float adjacent one to another.
 

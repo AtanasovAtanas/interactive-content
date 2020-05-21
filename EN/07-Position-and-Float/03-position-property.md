@@ -2,7 +2,7 @@
 
 [slide]
 
-## Position Property
+# Position Property
 
 The `position` property specifies the type of positioning method used for an element:
 * Static;
@@ -19,7 +19,7 @@ These properties also work differently **depending on the position value**.
 
 [slide]
 
-## Position Static
+# Position Static
 
 `position: static;` is the **default** state of every element.
 
@@ -42,7 +42,7 @@ It just means: 'put the element into its **normal position** in the document lay
 
 [slide]
 
-## Position Relative
+# Position Relative
 
 `position: relative;` is very similar to static positioning, **except** that once the positioned element has taken its place, you can then modify its final position with the **positional properties** – left, right, top, bottom, z-index.
 
@@ -96,7 +96,7 @@ p {
 
 [slide]
 
-## Position Absolute
+# Position Absolute
 
 `position: absolute;` - the element will **not remain** in the natural flow of the page, but it will **react** to the positional properties.
 
@@ -138,7 +138,7 @@ p {
 
 [slide]
 
-## Position Fixed
+# Position Fixed
 
 `position: fixed;` - the element will **not remain** in the natural flow of the page, but it will **react** to the positional properties.
 
@@ -172,7 +172,7 @@ div.fixed {
 
 [slide]
 
-## Position Sticky
+# Position Sticky
 
 `position: sticky;` - the element is positioned based on the user’s **scroll position**.
 

@@ -2,7 +2,7 @@
 
 [slide]
 
-## Clearing the Float
+# Clearing the Float
 
 Float’s sister's property is `clear`.
 
@@ -20,9 +20,9 @@ The `clear` property has the following values:
 [/slide]
 
 [slide]
-## Clear examples
+# Clear examples
 
-### `clear: none;`
+# `clear: none;`
 
 When `clear: none;` is used, the element is **not moved down** to clear past floating elements.
 
@@ -37,7 +37,7 @@ When `clear: none;` is used, the element is **not moved down** to clear past flo
 
 [/html]
 
-### `clear: left;`
+# `clear: left;`
 
 When `clear: left;` is used, the element is **moved down** to clear past **left** floats.
 
@@ -52,7 +52,7 @@ When `clear: left;` is used, the element is **moved down** to clear past **left*
 
 [/html]
 
-### `clear: right;`
+# `clear: right;`
 
 When `clear: right;` is used, the element is **moved down** to clear past **right** floats.
 
@@ -67,7 +67,7 @@ When `clear: right;` is used, the element is **moved down** to clear past **righ
 
 [/html]
 
-### `clear: both;`
+# `clear: both;`
 
 When `clear: both;` is used, the element is **moved down** to clear past **both** left and right floats.
 
