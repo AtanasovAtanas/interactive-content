@@ -4,7 +4,7 @@
 
 ## `display: flex;`
 
-For start using the Flexbox model we need to turn the parent element into a **flexbox container**.
+For start using the Flexbox model, we need to turn the parent element into a **flexbox container**.
 
 The child elements will be turned into flexbox **items**.
 
@@ -25,7 +25,7 @@ The child elements will be turned into flexbox **items**.
 
 ## `flex-direction` Property
 
-By working with flexbox we have two axis: 
+By working with flexbox we have two axes: 
 * the main axis;
 * the cross axis.
 
