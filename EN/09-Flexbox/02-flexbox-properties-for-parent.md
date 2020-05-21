@@ -1,22 +1,22 @@
-# Properties for the Parent
+# Flexbox
 
 [slide]
 
-## `display: flex;`
+## What is Flexbox?
 
-For start using the Flexbox model we need to turn the parent element into a **flexbox container**.
+The Flexible Box Module - **flexbox**, was designed as a one-dimensional layout model, and as a method that could offer **space distribution** between items in an interface and powerful alignment capabilities.
 
-The child elements will be turned into flexbox **items**.
+The Flexbox is the easiest way to make flexible responsive layout structure without using float or positioning.
 
-**Example:**
-[html]
-<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="XWmoWqz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="flex-container">
-  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/XWmoWqz">
-  flex-container</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+Flexbox is a method for laying out items in **rows** or **columns**.
 
-[/html]
+Items flex to **fill** additional space and **shrink** to fit into smaller spaces.
+
+## Why Flexbox?
+
+The following simple layout requirements are either **difficult** or **impossible** to achieve with float and positioning, in any kind of convenient, flexible way:
+* Vertically centering a block of content inside its parent;
+* Making all the children of a container take up an equal amount of the available width/height, regardless of how much width/height is available;
+* Making all columns in a multiple column layout adopt the same height even if they contain a different amount of content.
 
 [/slide]
