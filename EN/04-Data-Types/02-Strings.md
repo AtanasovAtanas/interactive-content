@@ -7,13 +7,13 @@ A string is a sequence of characters and it's used to represent textual data.
 
 The first element is at `index 0`, the next at `index 1`, and so on.
 
-Using `length - 1` we can take the last element of a string.
+Using `[-1]` we can take the last element of a string.
 
 
 ```python live
 name ='Python'
 print(name[0])
-print(name[length - 1])
+print(name[-1])
 ```
 
 ## String Literal
