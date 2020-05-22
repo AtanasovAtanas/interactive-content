@@ -49,6 +49,8 @@ The target element is moved in **front** of its siblings.
 ```
 
 **Example:**
+
+[html]
 <p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="bGVQLpx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="z-index:1">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/bGVQLpx">
   z-index:1</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
@@ -78,6 +80,8 @@ The target element is moved **behind** its siblings.
 ```
 
 **Example:**
+
+[html]
 <p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="jObQZMd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="z-index:-1">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/jObQZMd">
   z-index:-1</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
