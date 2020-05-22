@@ -58,7 +58,7 @@ Choosing the right type for a particular data set could mean retention of meanin
 
 [slide]
 # Problem: Convert Meters to Kilometers
-[code-task title="Problem: Convert Meters to Kilometers" taskId="04e38a1f-bfba-473b-813d-f1569f5c30cd" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Convert Meters to Kilometers" taskId="bfcc29e-073f-43dd-a5f1-e991cd1222" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here
@@ -75,8 +75,6 @@ Write a program that converts **meters** to **kilometers** formatted to the **se
 | --- | --- |
 | 1852 |1.85 |
 | 798 |0.80|
-
-
 
 [/task-description]
 [code-io /]
@@ -143,7 +141,7 @@ Write a program that converts **meters** to **kilometers** formatted to the **se
 
 [slide]
 # Solution: Convert Meters to Kilometers
-[code-task title="Problem: Convert Meters to Kilometers executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Convert Meters to Kilometers" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 meters = int(input())
@@ -164,8 +162,6 @@ Write a program that converts **meters** to **kilometers** formatted to the **se
 | --- | --- |
 | 1852 |1.85 |
 | 798 |0.80|
-
-
 
 [/task-description]
 [code-io /]
