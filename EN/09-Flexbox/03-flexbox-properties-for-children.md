@@ -11,6 +11,7 @@ The first flex item in the code does not have to appear as the first item in the
 * `order: 0;` - The order of the flexbox items is the one **defined in the HTML code**;
 
 **Example** for `order: 0;`
+
 [html]
 <p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="rNOPaQq" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:0">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/rNOPaQq">
@@ -26,6 +27,7 @@ The first flex item in the code does not have to appear as the first item in the
 The final order is defined when all individual flexbox item order values are taken into account;
 
 **Example** for `order: 1;`
+
 [html]
 <p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="GRpzgzq" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:1">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/GRpzgzq">
@@ -39,6 +41,7 @@ The final order is defined when all individual flexbox item order values are tak
 * `order: -1;` - Negative values are also possible. 
 
 **Example** for `order: -1;`
+
 [html]
 <p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="wvKNBOd" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:-1">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/wvKNBOd">
@@ -52,6 +55,7 @@ The final order is defined when all individual flexbox item order values are tak
 * `order: 9;` - Each item can have different order to appear on the needed place; 
 
 **Example** for `order: 9;`
+
 [html]
 <p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="pojGvBV" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:9">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/pojGvBV">
@@ -84,6 +88,8 @@ This property has two possible values:
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 [/html]
+
+[/slide]
 
 [slide]
 
