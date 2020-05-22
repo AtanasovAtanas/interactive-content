@@ -6,7 +6,7 @@
 
 There are four collection data types in the Python programming language:
 
-**List** and **Tuple** are a collection:
+**List** and **Tuple** are collections:
 - which are ordered 
 - changeable 
 - and allows duplicate members
@@ -21,7 +21,7 @@ print(this_list)
 
 ```python live
 this_tuple = ("apple", "banana", "cherry")
-print(thistuple)
+print(this_tuple)
 ```
 
 **Set** is a collection:
@@ -150,7 +150,7 @@ meters = int(input())
 
 kilometers = meters / 1000
 
-print('{:.2f}'.format(kilometers))
+print(f"{kilometers:.2f}")
 ```
 [/code-editor]
 [task-description]

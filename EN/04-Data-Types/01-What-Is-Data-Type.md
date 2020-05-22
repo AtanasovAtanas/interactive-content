@@ -27,7 +27,10 @@ Python is a dynamic programming language, which means you don't need to set a va
 
 Data type is set when you assign a value to a variable.
 
-Any variable can be assigned values of all types and later on you can re-assigned the value:
+If you have assigned a value to a variable you can later update it with a **new value** that can be of **another data type**.
+
+Here you can see an example:
+
 
 ```python live
 current = 11    

@@ -26,8 +26,8 @@ print(10 < 9)
 | `>=` | greater than or equal | `if (6 >= 6)` |
 | `!=` | not equal | `if (5 != 5)` |
 | `is` | Object identity | `n = 'a'`|
-| | `m = 'a'` |
-| | `n is m` `True` |
+|      |                | `m = 'a'` |
+|      |               |`n is m` `True` |
 | `is not` | negated object identity | `n is not m` `False` |
 
 [/slide]

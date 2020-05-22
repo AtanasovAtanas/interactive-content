@@ -17,7 +17,7 @@ y = 2.8  # float
 
 # Int
 
-Int, or integeris is:
+Int, or integer is:
 - **whole** number
 - positive or negative
 - without decimals
