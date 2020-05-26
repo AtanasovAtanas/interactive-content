@@ -5,11 +5,11 @@
 
 ## What is Media Query?
 
-Media Queries are a feature of CSS that enable webpage content to **adapt** to different screen sizes and resolutions.
+Media Queries are a feature of CSS that enables webpage content to **adapt** to different screen sizes and resolutions.
 
 They are a fundamental part of **responsive web design** and are used to customize the appearance of websites for multiple devices.
 
-The example bellow means, that if the browser window is 550px or smaller, the background color will be changed to blue, and the text-color will be red.
+The example bellow means, that if the browser window is 550px or smaller, the background color will be changed to blue, and the text color will be red.
 
 **Example:**
 ```html
@@ -52,11 +52,11 @@ A media query consists of a **media type** and can contain one or more **express
 
 The result of the query is **true** if the specified media type matches the type of device the document is being displayed on.
 
-Unless you use the **not** or **only** operators, the media type is **optional** and the all type will be implied.
+Unless you use the **not** or **only** operators, the media type is **optional** and all type will be implied.
 
 A **media type**, which tells the browser what kind of media this code is for (e.g. print, or screen).
 
-A **media feature rule** is test that must be passed for the contained CSS to be applied.
+A **media feature rule** is a test that must be passed for the contained CSS to be applied.
 
 A set of **CSS rules** that will be applied if the test passes and the media type is correct.
 
@@ -66,7 +66,7 @@ A set of **CSS rules** that will be applied if the test passes and the media typ
 
 ## Typical Device Breakpoints
 
-In our days, there are much types of screens and devices with different heights and widths.
+In our days, there are many types of screens and devices with different heights and widths.
 
 It is very hard (almost impossible) to create an exact breakpoint for each device.
 

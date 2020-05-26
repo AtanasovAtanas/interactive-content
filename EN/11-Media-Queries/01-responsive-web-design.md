@@ -13,7 +13,7 @@ The viewport varies and is smaller on a mobile phone than on a computer screen.
 
 ### Setting The Viewport
 
-Through the <meta> tag in HTML you can  take control over the viewport.
+Through the <meta> tag in HTML you can take control over the viewport.
 
 For using it, you should include the following `<meta>` **viewport** element in all your web pages:
 ```html
@@ -35,7 +35,7 @@ This will give the browser instructions on how to control the page’s **dimensi
 Responsive website design consists of the following three main components:
 * **Flexible layouts** – Using a flexible grid to create the website layout. That will dynamically resize to any width;
 * **Media queries** -  Allow designers to specify different styles for specific browser and device circumstances;
-* **Flexible Media** – Makes media (images, video and other format) scalable.
+* **Flexible Media** – Makes media (images, video, and other formats) scalable.
 
 Benefits of using a Responsive Website:
 * **Increased traffic** from mobile users;
