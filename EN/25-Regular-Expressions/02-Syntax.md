@@ -1,3 +1,0 @@
-[slide]
-# Syntax
-[/slide]

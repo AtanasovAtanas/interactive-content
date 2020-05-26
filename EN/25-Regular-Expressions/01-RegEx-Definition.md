@@ -1,3 +1,0 @@
-[slide]
-# RegEx Definition
-[/slide]
