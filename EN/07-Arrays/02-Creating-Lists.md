@@ -22,9 +22,9 @@ my_list = list('hey') # this is equal to my_list = ['h', 'e', 'y']
 
 A list can be created by splitting strings.
 
-Use the `split()` function over a string and it will create a list, consisting of each symbol of the string.
+Use the `split()` function over a string and it will create a list.
 
-The `split()` function accept a **parameter**, that defines by what it will split the string, a **separator**.
+The `split()` function accepts a **parameter**, that defines by what it will split the string, a **separator**.
 
 ```python
 some_text = "a!b!c!d"
