@@ -150,11 +150,11 @@ The `flex` Flex is the shorthand for:
 
 The default value is `flex: 0 1 auto;`, wich is equivalent to:
 
-.item {
-`flex-grow: 0;`
-`flex-shrink: 1;`
-`flex-basis: auto;`
-}
+`.item {
+ flex-grow: 0;
+ flex-shrink: 1;
+ flex-basis: auto;
+}`
 
 [/slide]
 
