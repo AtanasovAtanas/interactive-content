@@ -100,7 +100,7 @@ The `split()` function accepts a **parameter**, that defines by what it will spl
 ```python live
 some_text = "a!b!c!d"
 my_list = some_text.split("!")
-print(my_list) # ["a", "b", "c", "d"]
+print(my_list) # ['a', 'b', 'c', 'd']
 ```
 
 In case you don't specify the separator, the function will try to split the string by spaces. See the example below:
@@ -115,7 +115,7 @@ The separator can be a whole string, not only a single character.
 
 ```python live
 some_text = "How separate are separate you"
-my_list = some_text.split("separate"))
+my_list = some_text.split("separate")
 print(my_list) # ['How ', ' are ', ' you']
 ```
 

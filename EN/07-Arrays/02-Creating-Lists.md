@@ -42,7 +42,7 @@ The separator can be a whole string, not only a single character.
 
 ```python
 some_text = "How separate are separate you"
-my_list = some_text.split("separate")) # ['How ', ' are ', ' you']
+my_list = some_text.split("separate") # ['How ', ' are ', ' you']
 ```
 
 [/slide]
