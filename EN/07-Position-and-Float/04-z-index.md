@@ -1,8 +1,8 @@
-# Z\-index
+# Z index
 
 [slide]
 
-# Z\-index
+# Z index
 
 `z-index` defines the order of the elements on the **z-axis**.
 
@@ -30,7 +30,7 @@ The order is defined by the **order in the HTML** code:
 
 [/html]
 
-# Positive z-index
+## Positive Z index
 
 The `z-index` value is relative to the other ones.
 
@@ -60,7 +60,7 @@ The target element is moved in **front** of its siblings.
 
 [/html]
 
-# Negative z-index
+## Negative Z index
 
 For `z-index` you can use **negative** values.
 
