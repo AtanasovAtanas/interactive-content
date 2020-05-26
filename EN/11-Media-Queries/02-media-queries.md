@@ -61,3 +61,43 @@ A **media feature rule** is test that must be passed for the contained CSS to be
 A set of **CSS rules** that will be applied if the test passes and the media type is correct.
 
 [/slide]
+
+[slide]
+
+## Typical Device Breakpoints
+
+In our days, there are much types of screens and devices with different heights and widths.
+
+It is very hard (almost impossible) to create an exact breakpoint for each device.
+
+To keep things simple you could target five groups:
+
+**Example:**
+```html
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .body {background: yellow;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .body {background: red;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .body {background: orange;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .body {background: green;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .body {background: blue;}
+}
+```
+
+[/slide]
