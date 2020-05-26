@@ -2,7 +2,7 @@
 
 [slide]
 
-## `display: flex;`
+## Flexbox container
 
 For start using the Flexbox model, we need to turn the parent element into a **flexbox container**.
 
@@ -24,7 +24,7 @@ The child elements will be turned into flexbox **items**.
 
 [slide]
 
-## `flex-direction` Property
+## Flex-direction
 
 By working with flexbox we have two axes: 
 * the main axis;
@@ -94,7 +94,7 @@ The `flex-direction` property has the following values:
 
 [slide]
 
-## `flex-wrap` Property
+## Flex-wrap
 
 `flex-wrap` defines if flexbox items appear on a **single line** or on **multiple lines** within a flexbox container.
 
@@ -144,7 +144,7 @@ The `flex-direction` property has the following values:
 
 [slide]
 
-## `flex-flow` Shorthand Property
+## Flex-flow Shorthand
 
 `flex-flow` is a shorthand for the `flex-direction` and `flex-wrap` properties.
 
@@ -166,7 +166,7 @@ The default value is `row nowrap`.
 
 [slide]
 
-## `justify-content` Property
+## Justify-content
 
 `justify-content` defines how flexbox/grid items are aligned according to the **main axis**, within a flexbox container.
 
@@ -247,7 +247,7 @@ The default value is `row nowrap`.
 
 [slide]
 
-## `align-items` Property
+## Align-items
 
 `align-items` defines how flexbox items are aligned **according to the cross axis**, within a line of a flexbox container.
 
@@ -326,7 +326,7 @@ This is the **default** value.
 
 [slide]
 
-## `align-content` Property
+## Align-content
 
 `align-content` defines how each line is aligned within a flexbox container.
 
