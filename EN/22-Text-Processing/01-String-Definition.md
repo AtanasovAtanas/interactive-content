@@ -97,23 +97,26 @@ Use the `split()` function over a string and it will create a list.
 
 The `split()` function accepts a **parameter**, that defines by what it will split the string, a **separator**.
 
-```python
+```python live
 some_text = "a!b!c!d"
-my_list = some_text.split("!") # ["a", "b", "c", "d"]
+my_list = some_text.split("!")
+print(my_list) # ["a", "b", "c", "d"]
 ```
 
 In case you don't specify the separator, the function will try to split the string by spaces. See the example below:
 
-```python
+```python live
 some_text = "hello, my name is Stephen."
-my_list = some_text.split() # ['hello,', 'my', 'name', 'is', 'Stephen.']
+my_list = some_text.split()
+print(my_list) # ['hello,', 'my', 'name', 'is', 'Stephen.']
 ```
 
 The separator can be a whole string, not only a single character.
 
-```python
+```python live
 some_text = "How separate are separate you"
-my_list = some_text.split("separate")) # ['How ', ' are ', ' you']
+my_list = some_text.split("separate"))
+print(my_list) # ['How ', ' are ', ' you']
 ```
 
 [/slide]
