@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: NxN Matrix
-[code-task title="NxN Matrix" taskId="8809cc27-4ce1-4312-a456-0e029bd63f6d" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="NxN Matrix" taskId="python-fund-11-Functions-Exercise-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python requiresInput]
 ```
 # Write your code here

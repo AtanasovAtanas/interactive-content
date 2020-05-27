@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Middle Characters
-[code-task title="Middle Characters" taskId="6b4d9da3-ca17-4fcf-b6e9-266e75836ae7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Middle Characters" taskId="python-fund-11-Functions-Exercise-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python requiresInput]
 ```
 # Write your code here

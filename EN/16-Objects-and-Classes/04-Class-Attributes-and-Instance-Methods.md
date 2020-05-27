@@ -91,7 +91,7 @@ print(cat_one.owner)
 
 [slide]
 # Problem: Email
-[code-task title="Email" taskId="python-fundamentals-Objects-and-Classes-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Email" taskId="python-fund-16-Objects-and-Classes-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -224,7 +224,7 @@ o, says to p,: q. Sent: True
 
 [slide]
 # Solution: Email
-[code-task title="Email" taskId="7c4164f5-ef27-496a-9760-81330cb66ee4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Email" taskId="python-fund-16-Objects-and-Classes-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 class Email:
@@ -389,7 +389,7 @@ o, says to p,: q. Sent: True
 
 [slide]
 # Problem: Zoo
-[code-task title="Zoo" taskId="python-fundamentals-Objects-and-Classes-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Zoo" taskId="python-fund-16-Objects-and-Classes-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -526,7 +526,7 @@ Total animals: 5
 
 [slide]
 # Solution: Zoo
-[code-task title="Zoo" taskId="1f4c2321-ff1c-48ff-ae3d-d49d10811687" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Zoo" taskId="python-fund-16-Objects-and-Classes-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 class Zoo:
@@ -708,7 +708,7 @@ Total animals: 5
 
 [slide]
 # Problem: Circle
-[code-task title="Circle" taskId="python-fundamentals-Objects-and-Classes-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Circle" taskId="python-fund-16-Objects-and-Classes-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -794,7 +794,7 @@ Print the **result of each method formatted to the second decimal place** in the
 
 [slide]
 # Solution: Circle
-[code-task title="Circle" taskId="62971e4a-28ec-408a-9890-0acf3634f594" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Circle" taskId="python-fund-16-Objects-and-Classes-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 class Circle:

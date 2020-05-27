@@ -37,7 +37,7 @@ print(my_list)
 
 [slide]
 # Problem: Courses
-[code-task title="Courses" taskId="python-fundamentals-Lists-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Courses" taskId="python-fund-07-Arrays-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -153,7 +153,7 @@ side
 
 [slide]
 # Solution: Courses
-[code-task title="Courses" taskId="1491dd46-7858-4bcf-a938-840e31fc21d2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Courses" taskId="python-fund-07-Arrays-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 n = int(input())

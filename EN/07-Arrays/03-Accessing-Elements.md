@@ -44,7 +44,7 @@ print(my_list[-3]) # 3
 
 [slide]
 # Problem: Strange Zoo
-[code-task title="Strange Zoo" taskId="python-fundamentals-Lists-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Strange Zoo" taskId="python-fund-07-Arrays-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -150,7 +150,7 @@ tra
 
 [slide]
 # Solution: Strange Zoo
-[code-task title="Strange Zoo" taskId="ff2a3472-6aad-40a7-9b10-139f9713d870" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Strange Zoo" taskId="python-fund-07-Arrays-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 tail = input()

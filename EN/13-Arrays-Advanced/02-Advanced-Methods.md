@@ -60,7 +60,7 @@ The example above takes each element of `numbers_list_one` and multiplies it wit
 
 [slide]
 # Problem: Even Numbers
-[code-task title="Even Numbers" taskId="python-fundamentals-Lists-Advanced-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Even Numbers" taskId="python-fund-13-Arrays-Advanced-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -147,7 +147,7 @@ Print the **indices** of **all even numbers**.
 
 [slide]
 # Solution: Even Numbers
-[code-task title="Even Numbers" taskId="a04999af-fae7-4485-b3c4-5cc26148b677" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Even Numbers" taskId="python-fund-13-Arrays-Advanced-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 numbers = list(map(lambda x: int(x), input().split(", ")))
@@ -259,7 +259,7 @@ print(even_numbers) # [2, 4, 6]
 
 [slide]
 # Problem: The Office
-[code-task title="The Office" taskId="python-fundamentals-Lists-Advanced-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="The Office" taskId="python-fund-13-Arrays-Advanced-problem-9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -374,7 +374,7 @@ Score: 12/18. Employees are happy!
 
 [slide]
 # Solution: The Office
-[code-task title="The Office" taskId="67c3234e-4cde-4fa6-bf2a-be046f9e937c" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="The Office" taskId="python-fund-13-Arrays-Advanced-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 employees = input().split(" ")

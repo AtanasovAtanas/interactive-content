@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Common Elements
-[code-task title="Common Elements" taskId="b22a698f-9cb6-48f6-af10-594d68eae430" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Common Elements" taskId="python-fund-08-Arrays-Exercise-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

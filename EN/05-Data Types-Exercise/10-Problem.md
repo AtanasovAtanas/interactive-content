@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Poke Mon
-[code-task title="Poke Mon" taskId="a3feb7c7-eb18-443e-977f-56a4c7a59659" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Poke Mon" taskId="python-fund-05-Data Types-Exercise-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

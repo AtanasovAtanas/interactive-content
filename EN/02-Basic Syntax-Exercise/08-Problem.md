@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Triangle of Numbers
-[code-task title="Triangle of Numbers" taskId="3ebfa8bd-b827-472e-b713-117f5184bc55" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Triangle of Numbers" taskId="python-fund-02-Basic Syntax-Exercise-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

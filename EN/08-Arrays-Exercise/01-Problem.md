@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Train
-[code-task title="Train" taskId="a13895f7-ac14-42c6-ad36-274d573a18a3" executionType="tests-execution" executionStrategy="python-code" requiresInput requiresInput]
+[code-task title="Train" taskId="python-fund-08-Arrays-Exercise-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

@@ -69,7 +69,7 @@ print(bool(numberTwo))
 
 [slide]
 # Problem: Special Numbers
-[code-task title="Problem: Special Numbers" taskId="python-fundamentals-Data-Types-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Special Numbers" taskId="python-fund-04-Data-Types-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here
@@ -229,7 +229,7 @@ Write a program to read an integer **n** and for all numbers in the range **1…
 
 [slide]
 # Solution: Special Numbers
-[code-task title="Problem: Special Numbers" taskId="aba46b3b-4052-4418-bf3e-3a9810509f61" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Special Numbers" taskId="python-fund-04-Data-Types-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 num = input()

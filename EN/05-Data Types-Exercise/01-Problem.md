@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Integer Operations
-[code-task title="Integer Operations" taskId="1352e3a7-15dc-468e-866c-f5dbd9f43263" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Integer Operations" taskId="python-fund-05-Data Types-Exercise-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

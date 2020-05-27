@@ -75,7 +75,7 @@ print(my_list) # [1, 2, 4, 5]
 
 [slide]
 # Problem: Trains
-[code-task title="Trains" taskId="python-fundamentals-Lists-Advanced-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Trains" taskId="python-fund-13-Arrays-Advanced-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -220,7 +220,7 @@ End
 
 [slide]
 # Solution: Trains
-[code-task title="Trains" taskId="bca88243-e96e-4ff6-96b8-b0a62678cbda" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Trains" taskId="python-fund-13-Arrays-Advanced-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 train_length = int(input())
@@ -384,7 +384,7 @@ End
 
 [slide]
 # Problem: Todo List
-[code-task title="Todo List" taskId="python-fundamentals-Lists-Advanced-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Todo List" taskId="python-fund-13-Arrays-Advanced-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -487,7 +487,7 @@ End
 
 [slide]
 # Solution: Todo List
-[code-task title="Todo List" taskId="5cf70246-9af4-44c6-9ed3-e01904febd3b" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Todo List" taskId="python-fund-13-Arrays-Advanced-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 command = input()
@@ -602,7 +602,7 @@ End
 
 [slide]
 # Problem: Palindrome
-[code-task title="Palindrome" taskId="python-fundamentals-Lists-Advanced-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Palindrome" taskId="python-fund-13-Arrays-Advanced-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -707,7 +707,7 @@ Found palindrome 3 times
 
 [slide]
 # Solution: Palindrome
-[code-task title="Palindrome" taskId="e09fbe59-d85d-4f2a-b0e2-b11cbe43eb9b" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Palindrome" taskId="python-fund-13-Arrays-Advanced-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 strings = input().split(" ")

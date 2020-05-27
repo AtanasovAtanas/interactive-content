@@ -58,7 +58,7 @@ Choosing the right type for a particular data set could mean retention of meanin
 
 [slide]
 # Problem: Convert Meters to Kilometers
-[code-task title="Problem: Convert Meters to Kilometers" taskId="bfcc29e-073f-43dd-a5f1-e991cd1222" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Convert Meters to Kilometers" taskId="python-fund-04-Data-Types-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here
@@ -228,7 +228,7 @@ Write a program that converts **meters** to **kilometers** formatted to the **se
 
 [slide]
 # Problem: Pounds to Dollars
-[code-task title="Problem: Pounds to Dollars" taskId="39784eb8-4c58-4703-bae2-a0d1d77e9d2a" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Pounds to Dollars" taskId="python-fund-04-Data-Types-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here

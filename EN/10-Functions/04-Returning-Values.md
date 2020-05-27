@@ -62,7 +62,7 @@ print(multiplied) # 10
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" taskId="python-fundamentals-Functions-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Calculations" taskId="python-fund-10-Functions-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -168,7 +168,7 @@ divide
 
 [slide]
 # Solution: Calculations
-[code-task title="Calculations" taskId="a84e46f5-cab4-4b9c-be06-f59dfc8a48ef" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Calculations" taskId="python-fund-10-Functions-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 input_operator = input()
@@ -290,7 +290,7 @@ divide
 
 [slide]
 # Problem: Repeat String
-[code-task title="Repeat String" taskId="python-fundamentals-Functions-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Repeat String" taskId="python-fund-10-Functions-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -385,7 +385,7 @@ popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopo
 
 [slide]
 # Solution: Repeat String
-[code-task title="Repeat String" taskId="6c81338c-c359-446d-9f59-47678d8c447e" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Repeat String" taskId="python-fund-10-Functions-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 input_string = input()
@@ -489,7 +489,7 @@ popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopo
 
 [slide]
 # Problem: Orders
-[code-task title="Orders" taskId="python-fundamentals-Functions-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Orders" taskId="python-fund-10-Functions-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -591,7 +591,7 @@ coffee
 
 [slide]
 # Solution: Orders
-[code-task title="Orders" taskId="a3768e50-b1a6-48d9-af43-35eec1065293" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Orders" taskId="python-fund-10-Functions-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 input_product = input()
@@ -706,7 +706,7 @@ coffee
 
 [slide]
 # Problem: Calculate Rectangle Area
-[code-task title="Calculate Rectangle Area" taskId="python-fundamentals-Functions-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Calculate Rectangle Area" taskId="python-fund-10-Functions-problem-9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -799,7 +799,7 @@ coffee
 
 [slide]
 # Solution: Calculate Rectangle Area
-[code-task title="Calculate Rectangle Area" taskId="feb0f4cc-2dee-40d9-ac0c-d7bdbc72f5fd" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Calculate Rectangle Area" taskId="python-fund-10-Functions-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 input_width = int(input())

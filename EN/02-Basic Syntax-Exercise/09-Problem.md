@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Padawan Equipment
-[code-task title="Padawan Equipment" taskId="2d7f0ee3-2433-4128-86b1-b660c37c5109" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Padawan Equipment" taskId="python-fund-02-Basic Syntax-Exercise-problem-9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

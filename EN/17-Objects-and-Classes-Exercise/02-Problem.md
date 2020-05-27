@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Opinion Poll
-[code-task title="Opinion Poll" taskId="fd969fe3-3cb2-491c-9671-e48b2a0e1cfb" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Opinion Poll" taskId="python-fund-17-Objects-and-Classes-Exercise-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

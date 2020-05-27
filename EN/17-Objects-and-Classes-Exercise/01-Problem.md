@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Articles
-[code-task title="Articles" taskId="c18a345f-2ecb-429c-8ea1-702122ad097b" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Articles" taskId="python-fund-17-Objects-and-Classes-Exercise-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

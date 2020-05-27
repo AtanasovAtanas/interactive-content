@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Print and Sum
-[code-task title="Print and Sum" taskId="9b62fc7e-10e7-4c59-b1a9-b3734309171c" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Print and Sum" taskId="python-fund-02-Basic Syntax-Exercise-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

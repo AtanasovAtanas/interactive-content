@@ -62,7 +62,7 @@ while index < len(my_list):
 
 [slide]
 # Problem: List Statistics
-[code-task title="List Statistics" taskId="python-fundamentals-Lists-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="List Statistics" taskId="python-fund-07-Arrays-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -190,7 +190,7 @@ Count of positives: 0. Sum of negatives: 0
 
 [slide]
 # Solution: List Statistics
-[code-task title="List Statistics" taskId="9d753568-cd5e-46fa-8b1a-b01c1a0a8a8d" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="List Statistics" taskId="python-fund-07-Arrays-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 n = int(input())

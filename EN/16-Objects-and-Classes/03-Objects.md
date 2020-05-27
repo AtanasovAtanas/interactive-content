@@ -93,7 +93,7 @@ print(cat_one.name)
 
 [slide]
 # Problem: Party
-[code-task title="Party" taskId="python-fundamentals-Objects-and-Classes-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Party" taskId="python-fund-16-Objects-and-Classes-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -206,7 +206,7 @@ Total: 3
 
 [slide]
 # Solution: Party
-[code-task title="Party" taskId="f68ad2f4-5ea4-4e11-b30f-444dcb9bdb3f" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Party" taskId="python-fund-16-Objects-and-Classes-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 class Party:

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: List Operations
-[code-task title="List Operations" taskId="46248469-57ce-4021-8fee-b92f3a196ab4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="List Operations" taskId="python-fund-14-Arrays-Advanced-Exercise-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

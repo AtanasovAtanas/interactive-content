@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Elevator
-[code-task title="Elevator" taskId="44b704b3-69ed-4809-b3ba-5de97ba8fa1f" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Elevator" taskId="python-fund-05-Data Types-Exercise-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

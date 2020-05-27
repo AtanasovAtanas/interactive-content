@@ -37,7 +37,7 @@ print_name("Jason", "Oprah") # TypeError, more arguments
 
 [slide]
 # Problem: Grades
-[code-task title="Grades" taskId="python-fundamentals-Functions-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Grades" taskId="python-fund-10-Functions-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -132,7 +132,7 @@ Excellent
 
 [slide]
 # Solution: Grades
-[code-task title="Grades" taskId="804bc194-e7c1-4f08-bfc1-759df3495764" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Grades" taskId="python-fund-10-Functions-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 grade_data = float(input())

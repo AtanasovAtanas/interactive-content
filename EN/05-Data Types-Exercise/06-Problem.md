@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Triples of Latin Letters
-[code-task title="Triples of Latin Letters" taskId="77470525-cee0-42e0-95cd-b8a71c6d6a62" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Triples of Latin Letters" taskId="python-fund-05-Data Types-Exercise-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

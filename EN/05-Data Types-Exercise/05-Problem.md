@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Print Part of the ASCII Table
-[code-task title="Print Part of the ASCII Table" taskId="39eb3015-9479-4760-8b2d-4a77499fbf18" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Print Part of the ASCII Table" taskId="python-fund-05-Data Types-Exercise-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

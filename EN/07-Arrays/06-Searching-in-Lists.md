@@ -28,7 +28,7 @@ if 5 not in my_list:
 
 [slide]
 # Problem: Search
-[code-task title="Search" taskId="python-fundamentals-Lists-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Search" taskId="python-fund-07-Arrays-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -162,7 +162,7 @@ some stuff
 
 [slide]
 # Solution: Search
-[code-task title="Search" taskId="4241184c-c182-48a0-afaa-4d9b1be01415" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Search" taskId="python-fund-07-Arrays-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 n = int(input())
@@ -307,7 +307,7 @@ some stuff
 
 [slide]
 # Problem: Numbers Filter
-[code-task title="Numbers Filter" taskId="python-fundamentals-Lists-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Numbers Filter" taskId="python-fund-07-Arrays-problem-9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -455,7 +455,7 @@ positive
 
 [slide]
 # Solution: Numbers Filter
-[code-task title="Numbers Filter" taskId="cf27da68-2ab3-465d-a7a1-b16d7d03307d" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Numbers Filter" taskId="python-fund-07-Arrays-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 n = int(input())

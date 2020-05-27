@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Rage Expenses
-[code-task title="Rage Expenses" taskId="1ed86723-8539-410f-89ad-edf3617673b8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Rage Expenses" taskId="python-fund-02-Basic Syntax-Exercise-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

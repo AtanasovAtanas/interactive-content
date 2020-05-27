@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Equal Sums
-[code-task title="Equal Sums" taskId="770b8d19-6e1a-4d54-89a7-48a8b9e81ed5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Equal Sums" taskId="python-fund-08-Arrays-Exercise-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here

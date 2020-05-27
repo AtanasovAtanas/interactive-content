@@ -174,7 +174,7 @@ else:
 
 [slide]
 # Problem: Biggest Of Three Numbers
-[code-task title="Biggest Of Three Numbers" taskId="python-fundamentals-Basic-Syntax-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Biggest Of Three Numbers" taskId="python-fund-01-Basic-Syntax-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -286,7 +286,7 @@ Write a program that receives **three whole numbers** and print the **biggest on
 
 [slide]
 # Solution: Biggest Of Three Numbers
-[code-task title="Biggest Of Three Numbers" taskId="2e2348f0-a250-49ce-8e44-6cd410873e01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Biggest Of Three Numbers" taskId="python-fund-01-Basic-Syntax-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 first_num = int(input())
@@ -407,7 +407,7 @@ Write a program that receives **three whole numbers** and print the **biggest on
 
 [slide]
 # Problem: Number Definer
-[code-task title="Number Definer" taskId="python-fundamentals-Basic-Syntax-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Number Definer" taskId="python-fund-01-Basic-Syntax-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -564,7 +564,7 @@ negative
 
 [slide]
 # Solution: Number Definer
-[code-task title="Number Definer" taskId="633de16d-3fab-49da-8c47-6008dba08c5c" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Number Definer" taskId="python-fund-01-Basic-Syntax-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 number = float(input())
@@ -815,7 +815,7 @@ for i in reversed(range(0, 10)):
 
 [slide]
 # Problem: Word Reverse
-[code-task title="Word Reverse" taskId="python-fundamentals-Basic-Syntax-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Word Reverse" taskId="python-fund-01-Basic-Syntax-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -900,7 +900,7 @@ tset repus
 
 [slide]
 # Solution: Word Reverse
-[code-task title="Word Reverse" taskId="b3bdc4ef-3e08-4396-8eec-96f6e6b6a1bc" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Word Reverse" taskId="python-fund-01-Basic-Syntax-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 word = input()
@@ -1022,7 +1022,7 @@ while True:
 
 [slide]
 # Problem: Number between 1 and 100
-[code-task title="Number between 1 and 100" taskId="python-fundamentals-Basic-Syntax-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Number between 1 and 100" taskId="python-fund-01-Basic-Syntax-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -1114,7 +1114,7 @@ The number 1.5 is between 1 and 100
 
 [slide]
 # Solution: Number between 1 and 100
-[code-task title="Number between 1 and 100" taskId="30970d74-fc78-49ff-8b57-5508977cd269" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Number between 1 and 100" taskId="python-fund-01-Basic-Syntax-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 number = float(input())
@@ -1209,7 +1209,7 @@ The number 1.5 is between 1 and 100
 
 [slide]
 # Problem: Patterns
-[code-task title="Patterns" taskId="python-fundamentals-Basic-Syntax-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Patterns" taskId="python-fund-01-Basic-Syntax-problem-9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -1406,7 +1406,7 @@ You will receive a **number** that represents the **highest number of stars**.
 
 [slide]
 # Solution: Patterns
-[code-task title="Patterns" taskId="da379840-8f89-4209-bc98-fa1132f09920" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Patterns" taskId="python-fund-01-Basic-Syntax-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 number = int(input())
