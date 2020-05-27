@@ -1,7 +1,7 @@
 # RegEx Method
 
 [slide]
-# Method findall()
+# RegEx Method
 
 The `findall()` methid returns a list containing all matches in the order they are found:
 
@@ -94,17 +94,15 @@ A valid full name has the following characteristics:
 
 To help you out, we've outlined several steps:
 
-- Use the online regex tester [Pythex](https://pythex.org).
-- Check out how to use character sets denoted with square brackets - `[]`.
-- Specify that you want **two words** with a space between them the space character `' '`, and not any whitespace symbol.
-- For each word, specify that it should **begin** with an **uppercase letter** using a character set. 
+- Use the online regex tester [Pythex](https://pythex.org)
+- Check out how to use character sets denoted with square brackets - `[]`
+- Specify that you want **two words** with a space between them the space character `' '`, and not any whitespace symbol
+- For each word, specify that it should **begin** with an **uppercase letter** using a character set.
 The desired characters are in a range – from `A` to `Z`.
 
-- For each word, specify that what follows the first letter are only **lowercase letters**, one or more, use another character set and the correct quantifier.
-- To prevent capturing of letters across new lines, put `\b` at the **beginning** and at the end of your regex. 
-This will ensure that what precedes and what follows the match is a word boundary, like a new line.
-
-In order to check your RegEx, use these values for reference, paste all of them in the Test String field:
+- For each word, specify that what follows the first letter are only **lowercase letters**, one or more, use another character set and the correct quantifier
+- To prevent capturing of letters across new lines, put `\b` at the **beginning** and at the end of your regex.
+This will ensure that what precedes and what follows the match is a word boundary, like a new line
 
 
 [/task-description]
@@ -240,17 +238,15 @@ A valid full name has the following characteristics:
 
 To help you out, we've outlined several steps:
 
-- Use the online regex tester [Pythex](https://pythex.org).
-- Check out how to use character sets denoted with square brackets - `[]`.
-- Specify that you want **two words** with a space between them the space character `' '`, and not any whitespace symbol.
-- For each word, specify that it should **begin** with an **uppercase letter** using a character set. 
+- Use the online regex tester [Pythex](https://pythex.org)
+- Check out how to use character sets denoted with square brackets - `[]`
+- Specify that you want **two words** with a space between them the space character `' '`, and not any whitespace symbol
+- For each word, specify that it should **begin** with an **uppercase letter** using a character set.
 The desired characters are in a range – from `A` to `Z`.
 
-- For each word, specify that what follows the first letter are only **lowercase letters**, one or more, use another character set and the correct quantifier.
-- To prevent capturing of letters across new lines, put `\b` at the **beginning** and at the end of your regex. 
-This will ensure that what precedes and what follows the match is a word boundary, like a new line.
-
-In order to check your RegEx, use these values for reference, paste all of them in the Test String field:
+- For each word, specify that what follows the first letter are only **lowercase letters**, one or more, use another character set and the correct quantifier
+- To prevent capturing of letters across new lines, put `\b` at the **beginning** and at the end of your regex.
+This will ensure that what precedes and what follows the match is a word boundary, like a new line
 
 
 [/task-description]
@@ -375,7 +371,7 @@ A valid number has the following characteristics:
 - Then, it is followed by the area code (always 2)
 - After that, it's followed by the **number** itself:
  The number consists of **7 digits**, separated in two groups of 3 and 4 digits respectively
-- The different parts are **separated** by either a space or a hyphen ('-').
+- The different parts are **separated** by either a space or a hyphen `-`.
 
 You can use the following RegEx properties to help with the matching:
 - Use **quantifiers** to match a specific number of digits
@@ -513,7 +509,7 @@ A valid number has the following characteristics:
 - Then, it is followed by the area code (always 2)
 - After that, it's followed by the **number** itself:
  The number consists of **7 digits**, separated in two groups of 3 and 4 digits respectively
-- The different parts are **separated** by either a space or a hyphen ('-').
+- The different parts are **separated** by either a space or a hyphen `-`.
 
 You can use the following RegEx properties to help with the matching:
 - Use **quantifiers** to match a specific number of digits
@@ -1069,13 +1065,16 @@ s-1.1 2557.688 s-1.1 s-1.1 s-1.1 3984 -3203 -107.9807152415 -3733 s-1.1
 ```
 import re
 
-reg = r'(^|(?<=\s))-?\d+(\.\d+)?($|(?=\s))'
+pattern = r'(^|(?<=\s))-\d+\.*\d*($|(?=\s))|(^|(?<=\s))\d+\.*\d*($|(?=\s))'
 
-inputen = input()
-match = re.finditer(reg, inputen)
+text = input()
 
-for m in match:
-    print(m.group(0), end=' ')
+result = re.finditer(pattern, text)
+res = ''
+for item in result:
+    res += item.group(0) + ' '
+    
+print(res.strip(' '))
 ```
 [/code-editor]
 [task-description]
