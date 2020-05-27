@@ -968,7 +968,7 @@ The syntax for the end of the RegEx might look something like `($|(?=\s))`.
 [tests]
 [test open]
 [input]
-1 -1 1s 123 s-s -123 _55_ _f 123.456 -123.456 s-1.1 s2 -1- zs-2 s-3.5
+1 -1 1s 123 s-s -123 \_55_ \_f 123.456 -123.456 s-1.1 s2 -1- zs-2 s-3.5
 [/input]
 [output]
 1 -1 123 -123 123.456 -123.456
@@ -1104,7 +1104,7 @@ The syntax for the end of the RegEx might look something like `($|(?=\s))`.
 [tests]
 [test open]
 [input]
-1 -1 1s 123 s-s -123 _55_ _f 123.456 -123.456 s-1.1 s2 -1- zs-2 s-3.5
+1 -1 1s 123 s-s -123 \_55_ \_f 123.456 -123.456 s-1.1 s2 -1- zs-2 s-3.5
 [/input]
 [output]
 1 -1 123 -123 123.456 -123.456
