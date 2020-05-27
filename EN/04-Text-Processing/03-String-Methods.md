@@ -121,9 +121,9 @@ A **specified phrase** can be **replaced** with another **specified phrase** wit
 
 Its signature is:
 
-`replace(oldvalue, newvalue)`
+`replace(old_value, new_value)`
 
-Both `oldvalue` and `newvalue` are **required**.
+Both `old_value` and `new_value` are **required**.
 
 ```python live
 text = "Willow loves to code in Java."
@@ -132,9 +132,9 @@ print(text.replace("Java", "Python"))
 
 There is also one more thing in the signature of the `replace()` method - `count`:
 
-`replace(oldvalue, newvalue, [count])`
+`replace(old_value, new_value, [count])`
 
-It is **optional** and defines how many **occurrences** of `oldvalue` to be **replaced**, starting from the **beginning**.
+It is **optional** and defines how many **occurrences** of `old_value` to be **replaced**, starting from the **beginning**.
 
 By **default**, **all occurences** are replaced.
 
@@ -607,9 +607,11 @@ aa
 [code-editor language=python]
 ```
 line = input()
+
 digits = []
 letters = []
 others = []
+
 for ch in line:
     if ch.isdigit():
         digits.append(ch)
@@ -617,6 +619,7 @@ for ch in line:
         letters.append(ch)
     else:
         others.append(ch)
+
 print("".join(digits))
 print("".join(letters))
 print("".join(others))

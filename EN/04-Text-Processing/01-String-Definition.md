@@ -15,6 +15,8 @@ In Python a string is a sequence of **Unicode** characters.
 
 **Unicode** is a **standard** for **consistent** encoding, representation and handling of text.
 
+Learn more [here](https://home.unicode.org/).
+
 [/slide]
 
 [slide]
@@ -133,7 +135,9 @@ print(my_list) # ['How ', ' are ', ' you']
 ## Description
 You will be given series of strings until you receive an "**end**" command.
 
-Write a program that reverses strings and prints each pair on separate line in format "\{word\} = \{reversed word\}".
+Write a program that reverses strings and prints each pair on separate line in format:
+
+"\{word\} = \{reversed word\}".
 
 ## Examples
 | **Input** | **Output** |
@@ -278,7 +282,9 @@ while text != "end":
 ## Description
 You will be given series of strings until you receive an "**end**" command.
 
-Write a program that reverses strings and prints each pair on separate line in format "\{word\} = \{reversed word\}".
+Write a program that reverses strings and prints each pair on separate line in format:
+
+"\{word\} = \{reversed word\}".
 
 ## Examples
 | **Input** | **Output** |

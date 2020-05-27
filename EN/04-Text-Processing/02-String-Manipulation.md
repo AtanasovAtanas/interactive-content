@@ -39,7 +39,7 @@ str = "In the basket are %s and %s. It weights %d kilos." % (fruit, vegetable, k
 print(str)
 ```
 
-There are the **basic argument specifiers** you should know for the %-formatting:
+There are the **basic argument specifiers** you should know for the `%`-formatting:
 
  - `%s` - used for **strings**, or any **object** with a **string representation**
  - `%d` - used for **integer numbers**
