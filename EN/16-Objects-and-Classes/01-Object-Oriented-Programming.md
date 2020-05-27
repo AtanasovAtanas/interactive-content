@@ -15,4 +15,6 @@ Most **modern** programming languages are **object-oriented**.
 
 You will learn more about this concept further in the lecture.
 
+[image assetsSrc="object-oriented-example.png" /]
+
 [/slide]

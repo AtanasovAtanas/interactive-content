@@ -13,6 +13,8 @@ For example we know the characteristics of book - it has covers, content, number
 
 But all books have different values of the above. Now this is like an **instance** of the **class Book**.
 
+[image assetsSrc="books-example-picture.png" /]
+
 [/slide]
 
 [slide]
