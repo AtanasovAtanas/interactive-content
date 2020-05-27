@@ -81,7 +81,7 @@ public static void increment(int[] nums, int value) {
 
 [slide]
 # Problem: Math operations
-[code-task title="Problem: Math operations" taskId="4dad7f6-8952-45a0-a127-215e23bed3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Math operations" taskId="java-fund-10-Methods-problem-9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

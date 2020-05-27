@@ -71,7 +71,7 @@ public class MyClass {
 
 [slide]
 # Problem: Greater of Two Values
-[code-task title="Problem: Greater of Two Values" taskId="7b71f8cb-9452-4504-bfec-46e9d0798340" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Greater of Two Values" taskId="java-fund-10-Methods-problem-10" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -424,7 +424,7 @@ int
 
 [slide]
 # Problem: Multiply Evens by Odds
-[code-task title="Problem: Multiply Evens by Odds" taskId="085af835-e3fc-483b-b82e-0fa9a2eda267" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Multiply Evens by Odds" taskId="java-fund-10-Methods-problem-11" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

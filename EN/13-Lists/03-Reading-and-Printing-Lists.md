@@ -64,7 +64,7 @@ System.out.println(String.join(" ", list));
 
 [slide]
 # Problem: Sum Adjacent Equal Numbers
-[code-task title="Sum Adjacent Equal Numbers" taskId="java-fundamentals-lists" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Sum Adjacent Equal Numbers" taskId="java-fund-13-Lists-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -412,7 +412,7 @@ Write a program to **sum all adjacent equal numbers** in a list of decimal numbe
 
 [slide]
 # Problem: Gauss' Trick
-[code-task title="Gauss' Trick" taskId="2a5bbcd5-0335-4300-8580-27248e5ea712" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Gauss' Trick" taskId="java-fund-13-Lists-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -620,7 +620,7 @@ Write a program that sums all numbers in a list in the following order:
 
 [slide]
 # Problem: Merging Lists
-[code-task title="Merging Lists" taskId="9b55e6fe-1926-4cc7-8538-58c8a0db4635" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Merging Lists" taskId="java-fund-13-Lists-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

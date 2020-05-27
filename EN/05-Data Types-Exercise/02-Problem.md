@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Sum Digits
-[code-task title="Sum Digits" taskId="98275385-a7a3-4ea6-b282-8289cde51188" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Sum Digits" taskId="java-fund-05-Data Types-Exercise-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

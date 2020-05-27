@@ -92,7 +92,7 @@ System.out.println(String.join(" ", arr));
 
 [slide]
 # Problem: Print Numbers in Reverse Order
-[code-task title="Problem: Print Numbers in Reverse Order" taskId="java-fundamentals-Arrays-02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Print Numbers in Reverse Order" taskId="java-fund-07-Arrays-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -205,7 +205,7 @@ Read n numbers and print them in reverse order, separated by single space.
 
 [slide]
 # Solution: Print Numbers in Reverse Order
-[code-task title="Problem: Print Numbers in Reverse Order" taskId="0780f2a1-2454-4a9b-8f94-4f6e5dc06231" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Print Numbers in Reverse Order" taskId="java-fund-07-Arrays-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -331,7 +331,7 @@ Read n numbers and print them in reverse order, separated by single space.
 
 [slide]
 # Problem: Reverse an Array of Strings
-[code-task title="Problem: Reverse an Array of Strings" taskId="java-fundamentals-Arrays-03" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Reverse an Array of Strings" taskId="java-fund-07-Arrays-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -424,7 +424,7 @@ f60 e50 d40 c30 b20 a10
 
 [slide]
 # Solution: Reverse an Array of Strings
-[code-task title="Problem: Reverse an Array of Strings" taskId="1f2e5cb2-4ee7-4257-9977-4d7a9873d189" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Reverse an Array of Strings" taskId="java-fund-07-Arrays-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -528,7 +528,7 @@ f60 e50 d40 c30 b20 a10
 
 [slide]
 # Problem: Equal Arrays
-[code-task title="Problem: Equal Arrays" taskId="63b62d9d-129f-4373-a12b-258b526164e8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Equal Arrays" taskId="java-fund-07-Arrays-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

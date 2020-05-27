@@ -58,7 +58,7 @@ if (grade >= 3.00) {
 
 [slide hideTitle]
 # Problem: Back in 30 Minutes
-[code-task title="Back in 30 Minutes" taskId="3e9ed37a-03f8-4937-898a-3c9934c5e708" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Back in 30 Minutes" taskId="java-fund-01-Basic-Syntax-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -443,7 +443,7 @@ This is how it works:
 
 [slide hideTitle]
 # Problem: Month Printer
-[code-task title="Month Printer" taskId="3ebc49d6-fb7d-4831-987c-7b769fec0b0b" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Month Printer" taskId="java-fund-01-Basic-Syntax-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;
@@ -655,7 +655,7 @@ Error!
 
 [slide hideTitle]
 # Problem: Foreign Languages
-[code-task title="Foreign Languages" taskId="356d221e-3fe2-4479-842a-2499ab9f6443" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Foreign Languages" taskId="java-fund-01-Basic-Syntax-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```java
 import java.util.Scanner;

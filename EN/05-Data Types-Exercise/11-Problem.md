@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Snowballs
-[code-task title="Snowballs" taskId="1e238d51-ecd8-4f09-b027-134d72535246" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Snowballs" taskId="java-fund-05-Data Types-Exercise-problem-11" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

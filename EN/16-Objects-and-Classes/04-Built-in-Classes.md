@@ -158,7 +158,7 @@ System.out.println(isValid);
 
 [slide]
 # Problem: Randomize Words
-[code-task title="Randomize Words" taskId="edbcb9f1-7763-463c-8292-c065268b8432" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Randomize Words" taskId="java-fund-16-Objects-and-Classes-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -461,7 +461,7 @@ System.out.println(number);
 
 [slide]
 # Problem: Sum Big Numbers
-[code-task title="Sum Big Numbers" taskId="d8d55320-0574-4f45-bee9-7ff8ea252233" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Sum Big Numbers" taskId="java-fund-16-Objects-and-Classes-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -691,7 +691,7 @@ You will receive two numbers **(0 to 10 ^ 50)**, print their sum.
 
 [slide]
 # Problem: Big Factorial
-[code-task title="Big Factorial" taskId="186dab04-65ce-4a02-865a-f37bb6944b63" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Big Factorial" taskId="java-fund-16-Objects-and-Classes-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

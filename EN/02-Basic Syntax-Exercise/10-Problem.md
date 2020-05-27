@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Rage Expenses
-[code-task title="Rage Expenses" taskId="f666be38-a944-4e41-a5ae-5c1a12a70c95" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Rage Expenses" taskId="java-fund-02-Basic Syntax-Exercise-problem-10" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

@@ -48,7 +48,7 @@ int age = Integer.parseInt(sc.nextLine());
 
 [slide]
 # Problem: Calculate Rectangle Area
-[code-task title="Problem: Calculate Rectangle Area" taskId="96ad3aaf-4b65-4dd4-a468-3dba4ec78603" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Calculate Rectangle Area" taskId="java-fund-10-Methods-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -250,7 +250,7 @@ Create a method that calculates and returns the area of a triangle by given widt
 
 [slide]
 # Problem: Repeat String
-[code-task title="Problem: Repeat String" taskId="40dd972b-796d-420f-a0b3-21f1348725a5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Repeat String" taskId="java-fund-10-Methods-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -468,7 +468,7 @@ ivanivan
 
 [slide]
 # Problem: Math Power
-[code-task title="Problem: Math Power" taskId="6a679d8f-a917-4b11-a304-42d71ff86bda" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Math Power" taskId="java-fund-10-Methods-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -777,7 +777,7 @@ Create a method that calculates and returns the value of a number raised to a gi
 
 [slide]
 # Problem: Orders
-[code-task title="Problem: Orders" taskId="0a5a5249-7481-4ef1-bcaf-78da51614220" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Orders" taskId="java-fund-10-Methods-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

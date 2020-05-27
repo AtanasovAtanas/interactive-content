@@ -65,7 +65,7 @@ System.out.println(myNum);
 
 [slide]
 # Problem: Convert Meters to Kilometers
-[code-task title="Problem: Convert Meters to Kilometers" taskId="32c8792a-c3ee-4e9e-9cdf-319a9e092c2a" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Convert Meters to Kilometers" taskId="java-fund-04-Data-Types-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -156,7 +156,7 @@ Write a program that converts meters to kilometers formatted to the second decim
 
 [slide]
 # Solution: Convert Meters to Kilometers
-[code-task title="Problem: Convert Meters to Kilometers" taskId="32792a-c3ee-4e9e-9cdf-3e092c" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Convert Meters to Kilometers" taskId="java-fund-04-Data-Types-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

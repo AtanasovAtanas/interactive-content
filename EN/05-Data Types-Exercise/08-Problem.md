@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Beer Kegs
-[code-task title="Beer Kegs" taskId="a6fcda38-c9b7-478b-be26-846973b2cc52" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Beer Kegs" taskId="java-fund-05-Data Types-Exercise-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

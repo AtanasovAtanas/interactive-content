@@ -103,7 +103,7 @@ public class Animal {
 
 [slide]
 # Problem: Songs
-[code-task title="Songs" taskId="8e0847be-8955-427d-b47b-3a8a915cb610" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Songs" taskId="java-fund-16-Objects-and-Classes-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -485,7 +485,7 @@ Photoshop
 
 [slide]
 # Problem: Students
-[code-task title="Students" taskId="2a4c6916-905f-4143-b6e2-d275a309221b" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Students" taskId="java-fund-16-Objects-and-Classes-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -907,7 +907,7 @@ Port Lee is 14 years old
 
 [slide]
 # Problem: Students 2.0
-[code-task title="Students 2.0" taskId="a7df71f0-19c2-4666-a95d-70079df7f461" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Students 2.0" taskId="java-fund-16-Objects-and-Classes-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

@@ -65,7 +65,7 @@ method **doesn't work** with **primitive data types like int, double, char, bool
 
 [slide]
 # Problem: List of products
-[code-task title="List of products" taskId="3a288194-0a43-4869-89ff-b2167179ce8e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="List of products" taskId="java-fund-13-Lists-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -311,7 +311,7 @@ d
 
 [slide]
 # Problem: Remove Negatives and Reverse
-[code-task title="Remove Negatives and Reverse" taskId="ccec80bc-5d86-4c93-a09d-999d6d8ebb6b" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Remove Negatives and Reverse" taskId="java-fund-13-Lists-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

@@ -65,7 +65,7 @@ System.out.println("Double PI is: " + doublePI);
 
 [slide]
 # Problem: Pounds to Dollars
-[code-task title="Pounds to Dollars" taskId="java-fundamentals-Data-Types - 02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Pounds to Dollars" taskId="java-fund-04-Data-Types-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -159,7 +159,7 @@ Write a program that converts British pounds to US dollars formatted to 3rd deci
 
 [slide]
 # Solution: Pounds to Dollars
-[code-task title="Pounds to Dollars" taskId="22525714-e4ae-4c16-b1be-5b5c67d2aa46" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Pounds to Dollars" taskId="java-fund-04-Data-Types-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -351,7 +351,7 @@ System.out.println(bigDecimal1);
 
 [slide]
 # Problem: Exact Sum of Real Numbers
-[code-task title="Exact Sum of Real Numbers" taskId="java-fundamentals-Data-Types - 03" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Exact Sum of Real Numbers" taskId="java-fund-04-Data-Types-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -457,7 +457,7 @@ Write a program to enter n numbers and calculate and print their **exact sum** (
 
 [slide]
 # Solution: Exact Sum of Real Numbers
-[code-task title="Exact Sum of Real Numbers" taskId="de81bcb8-dd0c-4cc2-8721-064f2bbc774c" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Exact Sum of Real Numbers" taskId="java-fund-04-Data-Types-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.math.BigDecimal;
@@ -574,7 +574,7 @@ Write a program to enter n numbers and calculate and print their **exact sum** (
 
 [slide]
 # Problem: Town Info
-[code-task title="Town Info" taskId="77b5023f-ad6c-41e9-80e7-65d6596629bf" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Town Info" taskId="java-fund-04-Data-Types-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

@@ -66,7 +66,7 @@ If we try to access the element on an invalid index, we get an exception.
 
 [slide]
 # Problem: Day of Week
-[code-task title="Problem: Day of Week" taskId="71f48600-35f4-440c-a233-7710f5fe7a99" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Day of Week" taskId="java-fund-07-Arrays-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -219,7 +219,7 @@ Invalid day!
 
 [slide]
 # Solution: Day of Week
-[code-task title="Problem: Day of Week" taskId="9cfa4cb8-1354-4f90-8574-a82485f22fcb" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Day of Week" taskId="java-fund-07-Arrays-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -369,7 +369,7 @@ Invalid day!
 
 [slide]
 # Problem: Sum Even Numbers
-[code-task title="Problem: Sum Even Numbers" taskId="7b6be9b9-ac4f-423a-a0e5-12c4e7288835" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Sum Even Numbers" taskId="java-fund-07-Arrays-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

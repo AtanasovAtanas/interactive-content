@@ -53,7 +53,7 @@ public static void printStudent(String name, int age, double grade) {
 
 [slide]
 # Problem: Sign of Integer
-[code-task title="Sign of Integer" taskId="9aabcc93-1248-412f-ae2c-02386c9b669f" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Sign of Integer" taskId="java-fund-10-Methods-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -197,7 +197,7 @@ The number 0 is zero.
 
 [slide]
 # Problem: Grades
-[code-task title="Grades" taskId="cbd5b4a2-597f-4f1b-b1d6-7bae5e055a29" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Grades" taskId="java-fund-10-Methods-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -436,7 +436,7 @@ Fail
 
 [slide]
 # Problem: Printing Triangle
-[code-task title="Printing Triangle" taskId="ac93703d-752e-4fd7-bfb6-63cdb3f805c4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Printing Triangle" taskId="java-fund-10-Methods-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -818,7 +818,7 @@ Create a method for printing triangles as shown below:
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" taskId="ac6e4009-2cbc-42aa-938b-12254d45cb8b" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Calculations" taskId="java-fund-10-Methods-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

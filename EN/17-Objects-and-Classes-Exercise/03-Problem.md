@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Articles 2.0
-[code-task title="Articles 2.0" taskId="230822d3-fd00-4204-ae22-f67216602774" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Articles 2.0" taskId="java-fund-17-Objects-and-Classes-Exercise-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

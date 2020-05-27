@@ -49,7 +49,7 @@ If both conditions were false, then the result would be false.
 
 [slide hideTitle]
 # Problem Theatre Promotions
-[code-task title="Theatre Promotions" taskId="75681c49-470f-4a1f-808c-d3e26cfd3ef5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Theatre Promotions" taskId="java-fund-01-Basic-Syntax-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

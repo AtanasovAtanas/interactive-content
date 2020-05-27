@@ -39,7 +39,7 @@ Here the higher data types \(having larger size\) are converted into lower data 
 
 # Problem: Centuries to Minutes
 
-[code-task title="Problem: Centuries to Minutes" taskId="9e72d63-7fba-48e8-b7c3-fa121db7f79e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Centuries to Minutes" taskId="java-fund-04-Data-Types-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```
@@ -133,7 +133,7 @@ Write program to enter an integer number of **centuries** and convert it to **ye
 
 # Problem: Centuries to Minutes
 
-[code-task title="Problem: Centuries to Minutes" taskId="9e73-7fba-48e8-b7c3-fabf79" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Centuries to Minutes" taskId="java-fund-04-Data-Types-problem-9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```
@@ -235,7 +235,7 @@ Write program to enter an integer number of **centuries** and convert it to **ye
 
 # Chars to String
 
-[code-task title="Chars to String" taskId="d2c4406-9433-472d-85da-da54ffe1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Chars to String" taskId="java-fund-04-Data-Types-problem-10" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```
@@ -363,7 +363,7 @@ b
 
 [slide]
 # Lower or Upper
-[code-task title="Chars to String" taskId="ad206-9433-472d-85da-4da54ffe1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Chars to String" taskId="java-fund-04-Data-Types-problem-11" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Palindrome Integers
-[code-task title="Palindrome Integers" taskId="6de8a55b-f708-45f8-acfd-980c2d415315" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Palindrome Integers" taskId="java-fund-11-Methods-Exercise-problem-9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
