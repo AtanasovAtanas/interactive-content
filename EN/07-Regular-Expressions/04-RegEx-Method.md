@@ -1084,7 +1084,7 @@ Write a program, which finds all integer and **floating-point numbers** in a str
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| **1** **-1** 1s **123** s-s **-123** _55_ _f 123.456 **-123.456** s-1.1 s2 -1- zs-2 s-3.5 | 1 -1 123 -123 123.456 -123.456 |
+| **1** **-1** 1s **123** s-s **-123** \_55_ \_f 123.456 **-123.456** s-1.1 s2 -1- zs-2 s-3.5 | 1 -1 123 -123 123.456 -123.456 |
 |  |  |
 
 A number has the following characteristics:
