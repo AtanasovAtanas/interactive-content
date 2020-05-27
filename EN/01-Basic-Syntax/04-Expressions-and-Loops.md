@@ -1,4 +1,13 @@
-# Expressions & Loops
+# Expressions and Loops
+
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="4874" endTimeInSeconds="8932"]
+[stream language="EN" videoId="421699623" default /]
+[stream language="RO" videoId="422883581" /]
+[/video-vimeo]
+[/slide]
 
 [slide]
 # Operators

@@ -1,6 +1,15 @@
 # Python Setup
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="931" endTimeInSeconds="1469"]
+[stream language="EN" videoId="421699623" default /]
+[stream language="RO" videoId="422883581" /]
+[/video-vimeo]
+[/slide]
+
+[slide]
 # Installing Python
 In order to run Python code, you need to have Python installed on your computer.
 

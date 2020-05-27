@@ -1,6 +1,15 @@
 # Variables and Data Types
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="1470" endTimeInSeconds="2640"]
+[stream language="EN" videoId="421699623" default /]
+[stream language="RO" videoId="422883581" /]
+[/video-vimeo]
+[/slide]
+
+[slide]
 # Variables
 In Python, we can use **variables** to **store data**, they are containers for storing data values.
 
