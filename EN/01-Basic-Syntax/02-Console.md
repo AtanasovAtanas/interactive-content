@@ -34,8 +34,6 @@ As you know `scanner.nextLine()` returns a **String**.
 If we want **Integer** input we have to convert the string to a number by **parsing**.
 
 ```java live
-import java.util.Scanner;
-…
 Scanner sc = new Scanner(System.in);
 
 String name = sc.nextLine();
