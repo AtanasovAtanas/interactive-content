@@ -1,16 +1,6 @@
 # IntelliJ and JDK
 
 [slide]
-# Video
-
-[vimeo-video startTimeInSeconds="6481" endTimeInSeconds="7114"]
-[stream language="EN" videoId="384741142" default /]
-[stream language="RO" videoId="390421925"  /]
-[/video-vimeo]
-
-[/slide]
-
-[slide]
 # Installation Guidelines
 This guide contains guidelines for installing:
 - IntelliJ - https://www.jetbrains.com/idea/download/#section=windows
