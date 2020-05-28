@@ -1,13 +1,12 @@
 # Font Awesome Icons
 
 [slide]
-# Font Awesome Icons
 
 ## What is Font Awesome?
 
 Font awesome is **most popular icon toolkit** based on CSS.
 
-Icon fonts:
+Icon fonts has:
 * Fonts containing **symbols and glyphs** instead of letters/numbers;
 * You can style them with **CSS** the same way as regular text.
 
@@ -37,14 +36,13 @@ or Import Font Awesome in the **CSS file**:
 * Copy the `<i>` element;
 * Paste it in your HTML file.
 
-**Example:**
-```html
-<head>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
-</head>
-<body>
-	<i class="fas fa-star"></i>
-</body>
-```
+[html]
+<p class="codepen" data-height="239" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="qBOzqpJ" style="height: 239px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="fontawsome">
+  <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/qBOzqpJ">
+  fontawsome</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+[/html]
 
 [/slide]
