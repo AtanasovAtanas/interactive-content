@@ -4,11 +4,11 @@
 
 ## Width
 
-Block elements have **width / height**.
+Block elements have **width** and **height**.
 
 The `width` property defines the width of an element.
 
-The width of an element excludes **padding**, **borders**, or **margins**!
+The width of an element excludes **paddings**, **borders**, or **margins**!
 
 The values of this property are:
 * `auto` - The browser calculates the width. Default value.	
@@ -44,13 +44,11 @@ The default value of this property is `0`.
 
 [slide]
 
-# Height, Max-Height, Min-Height
-
 ## Height
 
 The `height` property defines the height of an element.
 
-The height of an element excludes **padding**, **borders**, or **margins**!
+The height of an element excludes **paddings**, **borders**, or **margins**!
 
 The values of this property are:
 * `auto` - The browser calculates the height. Default value.	
