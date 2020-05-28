@@ -31,9 +31,9 @@ Here is a list with properties of `<generic-name>`:
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="css,result" data-user="softuni-inter" data-slug-hash="eYpKxvG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="font-family">
+<p class="codepen" data-height="293" data-theme-id="39135" data-default-tab="css,result" data-user="softuni-inter" data-slug-hash="eYpKxvG" style="height: 293px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="font-family">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/eYpKxvG">
-  font-family</a> by Bozhidar (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
+  font-family</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -84,7 +84,7 @@ It's common to use both `url()` and `local()` together so that the user's instal
 
 **Example:**
 [html]
-<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="wvKXNww" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="font-style">
+<p class="codepen" data-height="213" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="wvKXNww" style="height: 213px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="font-style">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/wvKXNww">
   font-style</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -110,7 +110,7 @@ Relative:
 * `em` - the value is relative to the **parent element's** font-size;
 * `rem` - the value is relative to the **root's** font-size;
 
-The **default** font-size is `16px`.
+**Note**: The **default** font-size is `16px`.
 
 **Example:**
 ```html
@@ -128,10 +128,10 @@ The `font-weight` property defines the **weight** (or **boldness**) of the font.
 The weights available depend on the font-family you are using.
 
 The values of this property are:
-* **Numeric** - from `100` to `900`;
-* **Keyword values** - `thin`, `lighter`, `bold`, `bolder`.
+* **Numeric** - where are used numeric values from `100` to `900`;
+* **Keyword values** - such as `thin`, `lighter`, `bold`, `bolder`.
 
-The `thin` property equals to `100`, and the `bolder` - to `900`.
+For example the `thin` property equals to `100`, and the `bolder` equals to `900`.
 
 **Example:**
 ```html
@@ -151,8 +151,8 @@ The `line-height` property defines the height of a single line of text.
 The `line-height` property is specified as any one of the following:
 
 * **\<number>** (unitless) - The used value is the unitless \<number\> multiplied by the element's font size;
-* **\<length>** - The specified \<length\> is used in the calculation of the line box height.
-* **\<percentage>** - Relative to the font size of the element itself.
+* **\<length>** - The specified \<length\> is used in the calculation of the line box height;
+* **\<percentage>**- Percentage is relative to the font size of the element itself;
 * the keyword `normal`- Depends on the user agent. It's the default value.
 
 **Example:**
@@ -170,7 +170,7 @@ line-height: normal;
 
 `letter-spacing` defines the spacing between the characters of a block of text.
 
-* **\<length>** - Defines an extra space between characters (negative values are allowed).
+* **\<length>** - Defines an extra space between characters (negative values are allowed);
 * `normal` - the spacing between the characters is normal. This is the default value.
 
 **Example:**
@@ -205,19 +205,16 @@ text-align: center;
 [slide]
 ## Text Decoration
 
-The `text-decoration` property defines how the text content of the element is decorated: `overline`, `underline`, `line-through`.
+The `text-decoration` property defines how the text content of the element is decorated: 
 
 `none` – **removes** any text decoration;
-
 `line-through` – draws a line **across** the text;
-
 `underline` draws a line **under** the text;
-
 `overline` draws a line **over** the text.
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="YzyjNRp" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="text-decoration">
+<p class="codepen" data-height="301" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="YzyjNRp" style="height: 301px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="text-decoration">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/YzyjNRp">
   text-decoration</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -233,7 +230,7 @@ The `text-decoration` property defines how the text content of the element is de
 The `text-indent` property specifies the **indentation of the first line** in a text-block.
 
 * **\<length>** - defines a **fixed** indentation in px, pt, cm, em, etc. Default value is 0;
-* `%` - defines the indentation in **% of the width of the parent element**.
+* `%` - defines the indentation in **percentage of the width of the parent element**.
 
 **Example:**
 
@@ -244,7 +241,7 @@ text-indent: 40px;
 [/slide]
 
 [slide]
-## Text Indent
+## Text Overflow
 
 The `text-overflow` property defines how the hidden text content behaves if it’s overflowing.
 
@@ -255,7 +252,7 @@ It can be `clipped`, display an `ellipsis` (...), or display a custom `string`.
 * `overflow: hidden`;
 
 `text-overflow` values can be:
-* `clip` -	The text is clipped and not accessible.It's the default value;
+* `clip` -	The text is clipped and not accessible. It's the default value;
 * `ellipsis` -	renders an **ellipsis** ("...") to represent the clipped text;
 * `string` -	renders the **given string** to represent the clipped text.
 
@@ -278,7 +275,7 @@ It can be `clipped`, display an `ellipsis` (...), or display a custom `string`.
 The `text-transform` property controls, how the text to be capitalized.
 
 The values are:
-* `none` -	no capitalization. This is the default value;
+* `none` -	the text will have no capitalization. This is the default value;
 * `capitalize`	- turns the **first character** of each word to uppercase;
 * `uppercase`	- turns **all** characters to **uppercase**;
 * `lowercase`	- turns **all** characters to **lowercase**.
@@ -319,7 +316,7 @@ There are different ways to set the color of a text:
 * `color: red;` - You can use one of the 140+ **color names**;
 * `color: #05ffb0;` - You can use **hexadecimal** color codes;
 * `color: rgb(125, 125, 255);` - You can use `rgb()` color codes;
-* `color: rgba(255, 0, 0, 0.5);` - You can use `rgba()` color codes.
+* `color: rgba(255, 0, 0, 0.5);` - You can use `rgba()` color codes, where the last number defines the opacity. 0.0 is fully transparent and 1.0 is fully opaque.
 
 **Example:**
 
