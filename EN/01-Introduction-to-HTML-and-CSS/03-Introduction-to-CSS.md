@@ -6,7 +6,7 @@
 
 CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
 
-For example, change color text color in green for all paragraph elements:
+For example, change text color in green for all paragraph elements:
 [html]
 <p class="codepen" data-height="240" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="vYNYqKm" style="height: 240px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYNYqKm"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -215,7 +215,7 @@ Also, one HTML element can be targeted by multiple CSS rules. Let's use a simple
 <h1 class="heading-class" id="heading-id">Level 1 Heading</h1>
 ```
 
-Let's add and element selector by applying this CSS:
+Let's add an element selector by applying this CSS:
 ```css
 h1 {
     color: red;
