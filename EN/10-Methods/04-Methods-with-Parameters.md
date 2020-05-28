@@ -25,13 +25,13 @@ When the method is called, we pass along a first name, which is used inside the 
 ```java live no-template
 public class MyClass {
   static void myMethod(String firstName) {
-    System.out.println(firstName + " Refsnes");
+    System.out.printName(firstName + " Refsnes");
   }
 
   public static void main(String[] args) {
-    myMethod("Liam");
-    myMethod("Jenny");
-    myMethod("Anja");
+    printName("Liam");
+    printName("Jenny");
+    printName("Anja");
   }
 }
 ```
@@ -73,17 +73,17 @@ Create a method that prints the sign of an integer number.
 | **Input** | **Output** |
 | --- | --- |
 | 2 | The number 2 is positive. |
-|  |  |
+
 
 | **Input** | **Output** |
 | --- | --- |
 | -5 | The number -5 is negative. |
-|  |  |
+
 
 | **Input** | **Output** |
 | --- | --- |
 | 0 | The number 0 is zero. |
-|  |  |
+
 
 
 [/task-description]
@@ -124,7 +124,7 @@ The number 0 is zero.
 ```
 import java.util.Scanner;
 
-public class _01_SignOfIntegerNumbers {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int num = Integer.parseInt(scanner.nextLine());
@@ -151,17 +151,17 @@ Create a method that prints the sign of an integer number.
 | **Input** | **Output** |
 | --- | --- |
 | 2 | The number 2 is positive. |
-|  |  |
+
 
 | **Input** | **Output** |
 | --- | --- |
 | -5 | The number -5 is negative. |
-|  |  |
+
 
 | **Input** | **Output** |
 | --- | --- |
 | 0 | The number 0 is zero. |
-|  |  |
+
 
 
 [/task-description]
@@ -223,17 +223,17 @@ Write a method **that receives** a grade between **2.00** and **6.00** and **pri
 | **Input** | **Output** |
 | --- | --- |
 | 3.33 | Poor |
-|  |  |
+
 
 | **Input** | **Output** |
 | --- | --- |
 | 4.50 | Very good |
-|  |  |
+
 
 | **Input** | **Output** |
 | --- | --- |
 | 2.99 | Fail |
-|  |  |
+
 
 
 [/task-description]
@@ -350,17 +350,17 @@ Write a method **that receives** a grade between **2.00** and **6.00** and **pri
 | **Input** | **Output** |
 | --- | --- |
 | 3.33 | Poor |
-|  |  |
+
 
 | **Input** | **Output** |
 | --- | --- |
 | 4.50 | Very good |
-|  |  |
+
 
 | **Input** | **Output** |
 | --- | --- |
 | 2.99 | Fail |
-|  |  |
+
 
 
 [/task-description]
@@ -436,7 +436,7 @@ Fail
 
 [slide]
 # Problem: Printing Triangle
-[code-task title="Printing Triangle" taskId="java-fund-10-Methods-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Printing Triangle" taskId="7b6b0e00-c615-421d-b8f0-5c5d00ee8719" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -460,7 +460,6 @@ Create a method for printing triangles as shown below:
 |  | 1 2 3 |
 |  | 1 2 |
 |  | 1 |
-|  |  |
 
 | **Input** | **Output** |
 | --- | --- |
@@ -471,7 +470,6 @@ Create a method for printing triangles as shown below:
 |  | 1 2 3 |
 |  | 1 2 |
 |  | 1 |
-|  |  |
 
 
 [/task-description]
@@ -659,7 +657,6 @@ Create a method for printing triangles as shown below:
 |  | 1 2 3 |
 |  | 1 2 |
 |  | 1 |
-|  |  |
 
 | **Input** | **Output** |
 | --- | --- |
@@ -670,7 +667,6 @@ Create a method for printing triangles as shown below:
 |  | 1 2 3 |
 |  | 1 2 |
 |  | 1 |
-|  |  |
 
 
 [/task-description]
@@ -818,7 +814,7 @@ Create a method for printing triangles as shown below:
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" taskId="java-fund-10-Methods-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Calculations" taskId="j1ae45194-ff34-4701-82e0-f209e000ff62`" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -936,7 +932,7 @@ multiply
 ```
 import java.util.Scanner;
 
-public class Calculations {
+public class Main {
 
     static void add(int a, int b){
         System.out.println(a + b);
