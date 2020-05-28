@@ -54,7 +54,7 @@ You can add margins and paddings just on **right** and **left** sides of any inl
 
 [/slide]
 
-[/slide]
+[slide]
 ## Inline-Block Elements
 
 Inline-block elements are similar to inline elements.
