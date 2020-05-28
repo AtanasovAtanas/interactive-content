@@ -81,7 +81,7 @@ public static void increment(int[] nums, int value) {
 
 [slide]
 # Problem: Math operations
-[code-task title="Problem: Math operations" taskId="java-fund-10-Methods-problem-9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Math operations" taskId="4aa29fd8-46d3-4a80-9daa-b5376cfe10a6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -203,6 +203,7 @@ import java.util.Scanner;
 public class MathOperations {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
         double firstNumber = Double.valueOf(sc.nextLine());
         String operator = sc.nextLine();
         double secondNumber = Double.valueOf(sc.nextLine());

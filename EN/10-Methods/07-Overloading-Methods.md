@@ -71,7 +71,7 @@ public class MyClass {
 
 [slide]
 # Problem: Greater of Two Values
-[code-task title="Problem: Greater of Two Values" taskId="java-fund-10-Methods-problem-10" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Greater of Two Values" taskId="7922a26e-1814-4229-9172-5b3d809264c4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -237,19 +237,23 @@ import java.util.Scanner;
 public class GreaterOfTwoValues {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         String typeValues = scanner.nextLine();
 
         if (typeValues.equalsIgnoreCase("int")) {
             int a = Integer.parseInt(scanner.nextLine());
             int b = Integer.parseInt(scanner.nextLine());
+
             System.out.println(getMax(a, b));
         } else if (typeValues.equalsIgnoreCase("char")) {
             char a = scanner.nextLine().charAt(0);
             char b = scanner.nextLine().charAt(0);
+            
             System.out.println(getMax(a, b));
         } else if (typeValues.equalsIgnoreCase("String")) {
             String a = scanner.nextLine();
             String b = scanner.nextLine();
+
             System.out.println(getMax(a, b));
         }
     }
@@ -284,7 +288,7 @@ You are given two values of the same type as input.
 
 The values can be of type **int**, **char** of **String**.
 
-Create a method **getMax()** that returns the greater of the two values: 
+Create a method **getMax()** that returns the greater of the two values:
 
 ## Examples
 |**Input**|**Output**|
@@ -424,7 +428,7 @@ int
 
 [slide]
 # Problem: Multiply Evens by Odds
-[code-task title="Problem: Multiply Evens by Odds" taskId="java-fund-10-Methods-problem-11" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Multiply Evens by Odds" taskId="0421a3db-de4d-4534-aaeb-aa5cbaebec02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -580,7 +584,9 @@ public class MultiplyEvensByOdds {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         int n = Integer.parseInt(scanner.nextLine());
+
         System.out.println(evenSum(n) * oddSum(n));
     }
 }

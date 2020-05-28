@@ -11,7 +11,7 @@
 [slide]
 # The Return Statement
 
-The `return` keyword finished the execution of a method, and can be used to return a value from a method.
+The `return` keyword finishes the execution of a method, and can be used to return a value from a method.
 
 ```java live no-template
 public class MyClass {
@@ -48,7 +48,7 @@ int age = Integer.parseInt(sc.nextLine());
 
 [slide]
 # Problem: Calculate Rectangle Area
-[code-task title="Problem: Calculate Rectangle Area" taskId="java-fund-10-Methods-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Calculate Rectangle Area" taskId="318ace21-8a03-41a6-b537-8809e4aa23ac" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -250,7 +250,7 @@ Create a method that calculates and returns the area of a triangle by given widt
 
 [slide]
 # Problem: Repeat String
-[code-task title="Problem: Repeat String" taskId="java-fund-10-Methods-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Repeat String" taskId="e39e24a2-f942-4855-822d-1601ba84f8ce" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -468,7 +468,7 @@ ivanivan
 
 [slide]
 # Problem: Math Power
-[code-task title="Problem: Math Power" taskId="java-fund-10-Methods-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Math Power" taskId="856a60c4-b014-4717-80d8-fb79c0c2f82e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -777,7 +777,7 @@ Create a method that calculates and returns the value of a number raised to a gi
 
 [slide]
 # Problem: Orders
-[code-task title="Problem: Orders" taskId="java-fund-10-Methods-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Orders" taskId="dbdac507-68fa-4b8c-a455-bd9146e433ad" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

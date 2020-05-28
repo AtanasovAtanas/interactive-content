@@ -53,7 +53,7 @@ public static void printStudent(String name, int age, double grade) {
 
 [slide]
 # Problem: Sign of Integer
-[code-task title="Sign of Integer" taskId="java-fund-10-Methods-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Sign of Integer" taskId="96b4c810-b800-4d30-b59b-b1f91901fb80" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -197,7 +197,7 @@ The number 0 is zero.
 
 [slide]
 # Problem: Grades
-[code-task title="Grades" taskId="java-fund-10-Methods-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Grades" taskId="2d3a034f-4f1a-42de-84e7-72a16870a267" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -952,9 +952,11 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         String operation = scanner.nextLine();
         int a = Integer.parseInt(scanner.nextLine());
         int b = Integer.parseInt(scanner.nextLine());
+        
         switch (operation){
             case "add":
                 add(a,b);
