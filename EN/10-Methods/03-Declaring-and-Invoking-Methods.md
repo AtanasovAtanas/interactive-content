@@ -1,4 +1,4 @@
-# Naming and Best Practices
+# Declaring and Invoking Methods
 
 [slide]
 # Video
@@ -27,7 +27,7 @@ public class MyClass {
 
 * `public` defines access type of the method i.e. from where it can be accessed in your application.
 
-* `void` means that this method does not have a return value. 
+* `void` means that this method does not have a return value.
 
 * `printHello()` is the name of the method.
 

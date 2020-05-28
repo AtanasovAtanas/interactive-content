@@ -12,7 +12,7 @@
 [slide]
 # Naming Methods
 
-Methods always should be verbs.
+Method's name always should be verbs.
 
 They represent an action and the method name should clearly state the action they perform.
 
@@ -27,7 +27,7 @@ Method names should answer the question:
 * Good method names: `findStudent`, `getReportByName`, `getId`.
 
 
-## Exmaple for bad names
+## Example for bad names
 
 If you cannot find a good name for a method, think about whether it has a **clear intent**.
 
@@ -35,7 +35,7 @@ If you cannot find a good name for a method, think about whether it has a **clea
 
 # Naming Method Parameters
 
-Method parameters names should be `[Noun]` or `[Adjective]` + `[Noun]`, should be in camelCase, should be meaningful:
+Method parameters names should be `[Noun]` or `[Adjective]` + `[Noun]`. Also we should write methods in camelCase, and methods name should be meaningful:
 
 * `firstName`, `report`, `speedKmH`, `usersList`, `fontSizeInPixels`, `font`.
 
@@ -43,7 +43,7 @@ Method parameters names should be `[Noun]` or `[Adjective]` + `[Noun]`, should b
 
 Each method should perform a **single**, well-defined task.
 
-A Method's name should **describe that task** in a clear and non-ambiguous way.
+A method's name should **describe that task** in a clear and non-ambiguous way.
 
 **Avoid** methods **longer than one screen**, split them to several shorter methods.
 
@@ -61,9 +61,9 @@ public static void printReceipt() {
 
 Make sure to use correct **indentation**.
 
-Leave a **blank line** between **methods**, after **loops** and after if statements
+Leave a **blank line** between **methods**, after **loops** and after `if` statements.
 
-Always use **curly brackets** for loops and if statements bodies.
+Always use **curly brackets** `for` loops and `if` statements bodies.
 
 **Avoid long lines** and **complex expressions**.
 

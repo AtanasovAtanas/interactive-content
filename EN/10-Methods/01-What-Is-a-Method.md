@@ -9,7 +9,7 @@
 [/slide]
 
 [slide]
-# Void Type Method
+# Method
 A method is a block of code that only runs when it is called.
 
 You can pass data, known as parameters, into a method.
