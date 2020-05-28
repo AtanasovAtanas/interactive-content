@@ -1,7 +1,6 @@
 # CSS Typography Properties
 
 [slide]
-# CSS Typography Properties
 
 ## Font Family
 
