@@ -2,7 +2,7 @@
 
 [slide]
 
-# Box-sizing
+# Box-sizing Property
 
 `box-sizing` sets how the total width and height of an element is calculated. 
 
@@ -17,7 +17,9 @@ html {
   box-sizing: border-box;
 }
 ```
+[/slide]
 
+[slide]
 # Universal Box-sizing
 
 The box-sizing **Reset** takes care of the box-sizing of every element by setting it to **border-box** using a universal CSS selector.
