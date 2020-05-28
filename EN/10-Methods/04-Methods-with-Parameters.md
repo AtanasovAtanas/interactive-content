@@ -25,7 +25,7 @@ When the method is called, we pass along a first name, which is used inside the 
 ```java live no-template
 public class MyClass {
   static void printName(String firstName) {
-    System.out.printName(firstName + " Refsnes");
+    System.out.printIn(firstName + " Refsnes");
   }
 
   public static void main(String[] args) {
