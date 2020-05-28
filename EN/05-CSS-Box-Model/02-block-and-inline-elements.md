@@ -7,14 +7,17 @@
 HTML is made up of various elements that act as the **building blocks** of web pages. 
 
 Every HTML element has a default **display value**:
-* Block Elements - `<address>` `<article>` `<aside>` `<blockquote>` `<div>` `<footer>` `<form>` `<h1>`-`<h6>` `<header>` `<li>` `<main>` `<nav>` `<ol>`
-* Inline Elements - `<a>` `<button>` `<i>` `<img>` `<input>` `<label>`  `<script>` `<select>`  `<span>` `<strong>` `<textarea>` `<time>`
+* Block Elements are `<address>` `<article>` `<aside>` `<blockquote>` `<div>` `<footer>` `<form>` `<h1>`-`<h6>` `<header>` `<li>` `<main>` `<nav>` `<ol>`
+* Inline Elements are `<a>` `<button>` `<i>` `<img>` `<input>` `<label>`  `<script>` `<select>`  `<span>` `<strong>` `<textarea>` `<time>`
 
+[/slide]
+
+[slide]
 ## Block Elements
 
-The block element always takes up the full width available and starts on a new line.
+The block element always takes up the full available width and starts on a new line.
 
-You can add margins and padding on all **four sides** of any block element.
+You can add margins and paddings on all **four sides** of any block element.
 
 **Example:**
 [html]
@@ -27,12 +30,14 @@ You can add margins and padding on all **four sides** of any block element.
 
 [/html]
 
+[/slide]
 
+[slide]
 ## Inline Elements
 
-The inline element only takes up as much width as necessary and doesn't start on a new line.
+The inline element only takes up as **much width as necessary** and doesn't start on a new line.
 
-They appear on the same line as the content and tags.
+They appear on the **same line** as the content and tags.
 
 You can add margins and paddings just on **right** and **left** sides of any inline element.
 
@@ -47,14 +52,16 @@ You can add margins and paddings just on **right** and **left** sides of any inl
 
 [/html]
 
+[/slide]
 
+[/slide]
 ## Inline-Block Elements
 
 Inline-block elements are similar to inline elements.
 
 They can have paddings and margins added on **all four sides**.
 
-You have to declare `display: inline-block` in your CSS code.
+For using this property you have to declare `display: inline-block` in your CSS code.
 
 One common use for using inline-block is for creating navigation links horizontally.
 
