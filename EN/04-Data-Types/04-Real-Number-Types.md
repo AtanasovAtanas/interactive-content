@@ -571,8 +571,6 @@ Write a program to enter n numbers and calculate and print their **exact sum** (
 [/slide]
 
 [slide]
-
-[slide]
 # Problem: Town Info
 [code-task title="Town Info" taskId="java-fund-04-Data-Types-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
