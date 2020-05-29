@@ -1,3 +1,15 @@
+# Problem: Print and Sum
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="423968636" default /]
+[stream language="RO" videoId="423969143" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Print and Sum
 [code-task title="Print and Sum" taskId="python-fund-02-Basic Syntax-Exercise-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]

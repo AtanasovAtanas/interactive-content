@@ -1,3 +1,15 @@
+# Problem: Vacation
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="423968672" default /]
+[stream language="RO" videoId="423969240" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Vacation
 [code-task title="Vacarion" taskId="python-fund-02-Basic Syntax-Exercise-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]

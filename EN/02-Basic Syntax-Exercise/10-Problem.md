@@ -1,3 +1,15 @@
+# Problem: Rage Expenses
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="423968571" default /]
+[stream language="RO" videoId="423969177" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Rage Expenses
 [code-task title="Rage Expenses" taskId="python-fund-02-Basic Syntax-Exercise-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]

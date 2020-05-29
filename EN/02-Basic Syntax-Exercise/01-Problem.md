@@ -1,3 +1,15 @@
+# Problem: Ages
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="423968522" default /]
+[stream language="RO" videoId="423969109" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Ages
 [code-task title="Ages" taskId="python-fund-02-Basic Syntax-Exercise-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
