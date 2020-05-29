@@ -13,7 +13,7 @@ The first flex item in the code does not have to appear as the first item in the
 **Example** for `order: 0;`
 
 [html]
-<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="rNOPaQq" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:0">
+<p class="codepen" data-height="172" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="rNOPaQq" style="height: 172px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:0">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/rNOPaQq">
   order:0</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -29,7 +29,7 @@ The final order is defined when all individual flexbox item order values are tak
 **Example** for `order: 1;`
 
 [html]
-<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="GRpzgzq" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:1">
+<p class="codepen" data-height="172" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="GRpzgzq" style="height: 172px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:1">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/GRpzgzq">
   order:1</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -43,7 +43,7 @@ The final order is defined when all individual flexbox item order values are tak
 **Example** for `order: -1;`
 
 [html]
-<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="wvKNBOd" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:-1">
+<p class="codepen" data-height="163" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="wvKNBOd" style="height: 163px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:-1">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/wvKNBOd">
   order:-1</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -57,7 +57,7 @@ The final order is defined when all individual flexbox item order values are tak
 **Example** for `order: 9;`
 
 [html]
-<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="pojGvBV" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:9">
+<p class="codepen" data-height="160" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="pojGvBV" style="height: 160px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="order:9">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/pojGvBV">
   order:9</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -80,7 +80,7 @@ This property has two possible values:
 
 **Example:**
 [html]
-<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="dyYaooY" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="flex-grow">
+<p class="codepen" data-height="207" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="dyYaooY" style="height: 207px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="flex-grow">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/dyYaooY">
   flex-grow</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -105,7 +105,7 @@ If the target element will not wrap its content, there is a chance for the flexb
 
 **Example:**
 [html]
-<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="qBOgdZE" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="flex-shrink">
+<p class="codepen" data-height="233" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="qBOgdZE" style="height: 233px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="flex-shrink">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/qBOgdZE">
   flex-shrink</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -128,7 +128,7 @@ The `flex-basis` property defines the initial size of a flexbox item.
 
 **Example:**
 [html]
-<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="QWjYbdx" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="flex-basis">
+<p class="codepen" data-height="200" data-theme-id="39135" data-default-tab="css,result" data-user="softuni-inter" data-slug-hash="QWjYbdx" style="height: 200px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="flex-basis">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/QWjYbdx">
   flex-basis</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -143,18 +143,21 @@ The `flex-basis` property defines the initial size of a flexbox item.
 
 ## Flex - The Shorthand Property
 
-The `flex` Flex is the shorthand for:
+The `flex` property is the shorthand for:
 * `flex-grow`;
 * `flex-shrink`;
 * `flex-basis`.
 
 The default value is `flex: 0 1 auto;`, wich is equivalent to:
 
-`.item {
+**Example**
+```css
+.item {
  flex-grow: 0;
  flex-shrink: 1;
  flex-basis: auto;
-}`
+}
+```
 
 [/slide]
 
@@ -168,7 +171,7 @@ This property **overrides** the default alignment set by the container's align-i
 
 **Example:**
 [html]
-<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="LYpqVON" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="align-self">
+<p class="codepen" data-height="363" data-theme-id="39135" data-default-tab="css,result" data-user="softuni-inter" data-slug-hash="LYpqVON" style="height: 363px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="align-self">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/LYpqVON">
   align-self</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
