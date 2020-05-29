@@ -29,7 +29,7 @@ It just means: 'put the element into its **normal position** in the document lay
 
 **Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="eYpQvdL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-static">
+<p class="codepen" data-height="206" data-theme-id="39135" data-default-tab="css,result" data-user="softuni-inter" data-slug-hash="eYpQvdL" style="height: 206px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-static">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/eYpQvdL">
   position-static</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -55,16 +55,8 @@ When the position is set to **relative**, the following properties can be set:
 * `left` - defines the position of the element according to its **left** edge. The element will move **right** by the amount defined by the **left** value.
 
 **Example:**
-```html
-span {
-  position: relative;
-  top: 25px;
-}
-```
-
-**Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="mdeQBLK" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-relative-t">
+<p class="codepen" data-height="352" data-theme-id="39135" data-default-tab="css,result" data-user="softuni-inter" data-slug-hash="mdeQBLK" style="height: 352px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-relative-t">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/mdeQBLK">
   position-relative-t</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -74,16 +66,8 @@ span {
 [/html]
 
 **Example:**
-```html
-p {
-  position: relative;
-  left: 20px;
-}
-```
-
-**Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="MWazErW" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-relative-l">
+<p class="codepen" data-height="338" data-theme-id="39135" data-default-tab="css,result" data-user="softuni-inter" data-slug-hash="MWazErW" style="height: 338px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-relative-l">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/MWazErW">
   position-relative-l</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -98,7 +82,7 @@ p {
 
 # Position Absolute
 
-`position: absolute;` - the element will **not remain** in the natural flow of the page, but it will **react** to the positional properties.
+When `position: absolute;` is used the element will **not remain** in the natural flow of the page, but it will **react** to the positional properties.
 
 It will position itself according to the **closest positioned ancestor**.
 
@@ -111,21 +95,8 @@ When the position is set to **absolute**, the following properties can be set:
 * `left` - the element will position itself from the **left** of the first positioned **ancestor**.
 
 **Example:**
-```html
-div {
-    position: relative;
-}
-
-p {
-    position: absolute;
-    top: 80px;
-    right: 20px;
-}
-```
-
-**Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="xxwQPZp" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-absolute-r">
+<p class="codepen" data-height="392" data-theme-id="39135" data-default-tab="css,result" data-user="softuni-inter" data-slug-hash="xxwQPZp" style="height: 392px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-absolute-r">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/xxwQPZp">
   position-absolute-r</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -140,26 +111,15 @@ p {
 
 # Position Fixed
 
-`position: fixed;` - the element will **not remain** in the natural flow of the page, but it will **react** to the positional properties.
+By `position: fixed;` the element will **not remain** in the natural flow of the page, but it will **react** to the positional properties.
 
 It will position itself according to the **viewport**.
 
 Because it’s positioned, it will act as an **anchor point** for the absolutely positioned block.
 
 **Example:**
-```html
-div.fixed {
-  position: fixed;
-  bottom: 0;
-  left: 200px;
-  width: 300px;
-  border: 3px solid red;
-}
-```
-
-**Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="wvKQPra" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-fixed">
+<p class="codepen" data-height="338" data-theme-id="39135" data-default-tab="css,result" data-user="softuni-inter" data-slug-hash="wvKQPra" style="height: 338px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-fixed">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/wvKQPra">
   position-fixed</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -181,18 +141,8 @@ A sticky element toggles between **relative** and **fixed**, depending on the sc
 It is positioned relative until a given offset position is met in the viewport – then it 'sticks' in place (like position: fixed).
 
 **Example:**
-```html
-.main-header {
-  height: 50px;
-  border-color: red;
-  position: sticky;
-  top: 0;
-}
-```
-
-**Example:**
 [html]
-<p class="codepen" data-height="265" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="abvQVPa" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-sticky">
+<p class="codepen" data-height="300" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="abvQVPa" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="position-sticky">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/abvQVPa">
   position-sticky</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

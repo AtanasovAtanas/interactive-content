@@ -28,7 +28,7 @@ When `clear: none;` is used, the element is **not moved down** to clear past flo
 
 **Example:**
 [html]
-<p class="codepen" data-height="377" data-theme-id="39135" data-default-tab="html,result" data-user="softuni-inter" data-slug-hash="YzyRpoj" style="height: 377px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="clear-none">
+<p class="codepen" data-height="377" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="YzyRpoj" style="height: 377px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="clear-none">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/YzyRpoj">
   clear-none</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -58,7 +58,7 @@ When `clear: right;` is used, the element is **moved down** to clear past **righ
 
 **Example:**
 [html]
-<p class="codepen" data-height="416" data-theme-id="39135" data-default-tab="css,result" data-user="softuni-inter" data-slug-hash="GRpwrgz" style="height: 416px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="clear-right">
+<p class="codepen" data-height="416" data-theme-id="39135" data-default-tab="result" data-user="softuni-inter" data-slug-hash="GRpwrgz" style="height: 416px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="clear-right">
   <span>See the Pen <a href="https://codepen.io/softuni-inter/pen/GRpwrgz">
   clear-right</a> by SoftUni (<a href="https://codepen.io/softuni-inter">@softuni-inter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -83,5 +83,3 @@ When `clear: both;` is used, the element is **moved down** to clear past **both*
 [/html]
 
 [/slide]
-
-
