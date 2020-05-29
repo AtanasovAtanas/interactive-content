@@ -12,7 +12,7 @@
 [slide]
 # Naming Methods
 
-Method's name always should be verbs.
+The method's name should always be a verb.
 
 They represent an action and the method name should clearly state the action they perform.
 
