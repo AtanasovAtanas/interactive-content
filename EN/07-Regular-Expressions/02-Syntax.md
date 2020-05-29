@@ -29,7 +29,7 @@ Here we'll look at basic RegEx syntax.
 |`()`|Capture and group|
 |`{}`|**Exactly** the specified number of occurrences|
 |`^`|Starts with|
-|`{}`|Ends with|
+|`$`|Ends with|
 
 - Sets
 
