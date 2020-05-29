@@ -1,3 +1,14 @@
+# Problem: Vacation
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421823284" default /]
+[stream language="RO" videoId="423949657"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Vacation
 [code-task title="Vacarion" taskId="java-fund-02-Basic Syntax-Exercise-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]

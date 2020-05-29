@@ -1,3 +1,15 @@
+# Problem: Print and Sum
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421822005" default /]
+[stream language="RO" videoId="423949557"  /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Print and Sum
 [code-task title="Print and Sum" taskId="java-fund-02-Basic Syntax-Exercise-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]

@@ -1,3 +1,15 @@
+# Problem: Rage Expenses
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421822063" default /]
+[stream language="RO" videoId="423949603"  /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Rage Expenses
 [code-task title="Rage Expenses" taskId="java-fund-02-Basic Syntax-Exercise-problem-10" executionType="tests-execution" executionStrategy="java-code" requiresInput]

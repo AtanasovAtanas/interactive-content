@@ -1,3 +1,15 @@
+# Problem: Vending Machine
+
+[slide]
+# Video 
+
+[vimeo-video]
+[stream language="EN" videoId="421823528" default /]
+[stream language="RO" videoId="423949738"  /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Vending Machine
 [code-task title="Vending Machine" taskId="java-fund-02-Basic Syntax-Exercise-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]

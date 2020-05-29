@@ -1,3 +1,14 @@
+# Problem: Ages
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421818802" default /]
+[stream language="RO" videoId="423949507"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Ages
 [code-task title="Ages" taskId="java-fund-02-Basic Syntax-Exercise-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
