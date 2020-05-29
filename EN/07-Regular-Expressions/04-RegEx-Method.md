@@ -80,7 +80,6 @@ Write a program to **match full names** from a list of names and **print** them 
 | **Input** | **Output** |
 | --- | --- |
 | **Ivan Ivanov**, Ivan ivanov, ivan Ivanov, IVan Ivanov, **Test Testov**, Ivan	Ivanov | Ivan Ivanov Test Testov |
-|  |  |
 
 ### Writing the Regular Expression
 First, write a regular expression to match a valid full name, according to these conditions.
@@ -224,7 +223,6 @@ Write a program to **match full names** from a list of names and **print** them 
 | **Input** | **Output** |
 | --- | --- |
 |**Ivan Ivanov**, Ivan ivanov, ivan Ivanov, IVan Ivanov, **Test Testov**, Ivan	Ivanov | Ivan Ivanov Test Testov |
-|  |  |
 
 ### Writing the Regular Expression
 First, write a regular expression to match a valid full name, according to these conditions.
@@ -362,8 +360,6 @@ After you find all valid phones, print them on the console, separated by a comma
 | **Input** | **Output** |
 | --- | --- |
 | **+359 2 222 2222**,359-2-222-2222, +359/2/222/2222, +359-2 222 2222 +359 2-222-2222, +359-2-222-222, +359-2-222-22222 **+359-2-222-2222** | +359 2 222 2222, +359-2-222-2222 |
-|  |  |
-
 
 A valid number has the following characteristics:
 
@@ -500,8 +496,6 @@ After you find all valid phones, print them on the console, separated by a comma
 | **Input** | **Output** |
 | --- | --- |
 | **+359 2 222 2222**,359-2-222-2222, +359/2/222/2222, +359-2 222 2222 +359 2-222-2222, +359-2-222-222, +359-2-222-22222 **+359-2-222-2222** | +359 2 222 2222, +359-2-222-2222 |
-|  |  |
-
 
 A valid number has the following characteristics:
 
@@ -633,7 +627,6 @@ Use capturing groups in your regular expression.
 | **13/Jul/1928**, **10-Nov-1934**, , 01/Jan-1951,f **25.Dec.1937** 23/09/1973, 1/Feb/2016 | Day: 13, Month: Jul, Year: 1928 |
 |  | Day: 10, Month: Nov, Year: 1934 |
 |  | Day: 25, Month: Dec, Year: 1937 |
-|  |  |
 
 Every valid date has the following characteristics:
 - Always starts with **two digits**, followed by a **separator**
@@ -797,7 +790,6 @@ Use capturing groups in your regular expression.
 | **13/Jul/1928**, **10-Nov-1934**, , 01/Jan-1951,f **25.Dec.1937** 23/09/1973, 1/Feb/2016 | Day: 13, Month: Jul, Year: 1928 |
 |  | Day: 10, Month: Nov, Year: 1934 |
 |  | Day: 25, Month: Dec, Year: 1937 |
-|  |  |
 
 Every valid date has the following characteristics:
 - Always starts with **two digits**, followed by a **separator**
@@ -949,7 +941,6 @@ Write a program, which finds all integer and **floating-point numbers** in a str
 | **Input** | **Output** |
 | --- | --- |
 | **1** **-1** 1s **123** s-s **-123** 55f **123.456** **-123.456** s-1.1 s2 -1- zs-2 s-3.5 | 1 -1 123 -123 123.456 -123.456 |
-|  |  |
 
 A number has the following characteristics:
 - Has either **whitespace before** it or the start of the string, match either `^` or what's called a [positive lookbehind](https://www.regular-expressions.info/lookaround.html). 
@@ -1085,7 +1076,6 @@ Write a program, which finds all integer and **floating-point numbers** in a str
 | **Input** | **Output** |
 | --- | --- |
 | **1** **-1** 1s **123** s-s **-123** 55f **123.456** **-123.456** s-1.1 s2 -1- zs-2 s-3.5 | 1 -1 123 -123 123.456 -123.456 |
-|  |  |
 
 A number has the following characteristics:
 - Has either **whitespace before** it or the start of the string, match either `^` or what's called a [positive lookbehind](https://www.regular-expressions.info/lookaround.html). 
