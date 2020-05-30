@@ -46,10 +46,9 @@ The output should be printed on the console.
 | **Input** | **Output** | **Comments** |
 | --- | --- | --- |
 | 100 | The master will need 737.00lv more. | Needed equipment for 42 padawans: |
-| 42 | 2 2 | 12 * 47 + 4 * 42 + 3 * 35 = 837.00|
-| 4.0 | 3 3 3 | 837 > 100 – need 737.00$ more |
-| 3.0 | 4 4 4 4 | |
-| | 5 5 5 5 5 | |
+| 42 |  | 12 * 47 + 4 * 42 + 3 * 35 = 837.00|
+| 4.0 |  | 837 > 100 – need 737.00$ more |
+| 3.0 |  | |
 
 [/task-description]
 [code-io /]
