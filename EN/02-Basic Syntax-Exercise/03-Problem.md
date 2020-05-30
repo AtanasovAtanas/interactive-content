@@ -60,7 +60,7 @@ You should reduce the prices in that EXACT order
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 30
 Students
@@ -70,7 +70,7 @@ Sunday
 Total price: 266.73
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 40
 Regular

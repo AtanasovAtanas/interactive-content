@@ -42,7 +42,7 @@ If the password is still not correct on the **fourth try** print "User \{usernam
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 Acer
 login
@@ -57,7 +57,7 @@ Incorrect password. Try again.
 User Acer logged in.
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 momo
 omom

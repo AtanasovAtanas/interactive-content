@@ -66,7 +66,7 @@ After the **"End"** command print the money that are left **formatted** to the *
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1
 1
