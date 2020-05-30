@@ -45,15 +45,25 @@ The output should be printed on the console.
 ### Example
 | **Input** | **Output** | **Comments** |
 | --- | --- | --- |
-| 100 | The master will need 737.00lv more. | Needed equipment for 42 padawans: |
-| 42 |  | 12 * 47 + 4 * 42 + 3 * 35 = 837.00|
-| 4.0 |  | 837 > 100 – need 737.00$ more |
-| 3.0 |  | |
+| 100 | The money is enough - it would cost 13.00$. | Needed equipment for 2 padawans: |
+| 2 | | 1*(3) + 2*(2) + 3*(2) = 13.00 |
+| 1.0 | | 13.00 <= 100 – the money will be enough |
+| 2.0 | | |
+| 3.0 | | |
+
+### Example
+| **Input** | **Output** | **Comments** |
+| --- | --- | --- |
+| 100 | The master will need 737.00$ more. | Needed equipment for 42 padawans: |
+| 42 | | 12 * 47 + 4 * 42 + 3 * 35 = 837.00|
+| 12.0 | | 837 > 100 – need 737.00$ more |
+| 4.0 | | |
+| 3.0 | | |
 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 100
 2
@@ -65,7 +75,7 @@ The output should be printed on the console.
 The money is enough - it would cost 13.00$.
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 100
 42
