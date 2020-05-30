@@ -42,7 +42,7 @@ All the values are inclusive
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 20
 [/input]
@@ -50,7 +50,7 @@ All the values are inclusive
 adult
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 15
 [/input]

@@ -32,7 +32,7 @@ Otherwise print "The number is divisible by \{number\}".
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 30
 [/input]
@@ -40,7 +40,7 @@ Otherwise print "The number is divisible by \{number\}".
 The number is divisible by 10
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 1643
 [/input]

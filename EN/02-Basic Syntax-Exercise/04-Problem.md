@@ -36,7 +36,7 @@ On the **first line** you will receive the **start** number, on the **second** t
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 5
 10

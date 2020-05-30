@@ -22,7 +22,7 @@ Write a program, which receives a number – **n**, and prints a **triangle** fr
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 3
 [/input]

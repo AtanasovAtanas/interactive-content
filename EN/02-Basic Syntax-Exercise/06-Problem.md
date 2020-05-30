@@ -24,7 +24,7 @@ For example **145** is a strong number, because **1! + 4! + 5! = 145**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 2
 [/input]
@@ -32,7 +32,7 @@ For example **145** is a strong number, because **1! + 4! + 5! = 145**.
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 3451
 [/input]
