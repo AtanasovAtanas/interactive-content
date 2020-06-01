@@ -3,7 +3,7 @@
 # Live Session
 
 [live-stream]
-[stream language="en" videoid="424672446" default /]
+[stream language="ЕН" videoId="424672446" default /]
 [stream language="RO" videoId="424672683" /]
 [/live-stream]
 
