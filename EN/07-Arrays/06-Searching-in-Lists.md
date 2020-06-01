@@ -162,7 +162,7 @@ some stuff
 
 [slide]
 # Solution: Search
-[code-task title="Search" taskId="python-fund-07-Arrays-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Search" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 n = int(input())
@@ -455,7 +455,7 @@ positive
 
 [slide]
 # Solution: Numbers Filter
-[code-task title="Numbers Filter" taskId="python-fund-07-Arrays-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Numbers Filter" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 n = int(input())

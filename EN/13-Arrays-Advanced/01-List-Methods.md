@@ -220,7 +220,7 @@ End
 
 [slide]
 # Solution: Trains
-[code-task title="Trains" taskId="python-fund-13-Arrays-Advanced-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Trains" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 train_length = int(input())
@@ -487,7 +487,7 @@ End
 
 [slide]
 # Solution: Todo List
-[code-task title="Todo List" taskId="python-fund-13-Arrays-Advanced-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Todo List" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 command = input()
@@ -707,7 +707,7 @@ Found palindrome 3 times
 
 [slide]
 # Solution: Palindrome
-[code-task title="Palindrome" taskId="python-fund-13-Arrays-Advanced-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Palindrome" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 strings = input().split(" ")

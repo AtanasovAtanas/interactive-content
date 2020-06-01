@@ -150,7 +150,7 @@ tra
 
 [slide]
 # Solution: Strange Zoo
-[code-task title="Strange Zoo" taskId="python-fund-07-Arrays-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Strange Zoo" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 tail = input()

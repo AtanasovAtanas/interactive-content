@@ -168,7 +168,7 @@ divide
 
 [slide]
 # Solution: Calculations
-[code-task title="Calculations" taskId="python-fund-10-Functions-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Calculations" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 input_operator = input()
@@ -385,7 +385,7 @@ popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopo
 
 [slide]
 # Solution: Repeat String
-[code-task title="Repeat String" taskId="python-fund-10-Functions-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Repeat String" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 input_string = input()
@@ -591,7 +591,7 @@ coffee
 
 [slide]
 # Solution: Orders
-[code-task title="Orders" taskId="python-fund-10-Functions-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Orders" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 input_product = input()
@@ -799,7 +799,7 @@ coffee
 
 [slide]
 # Solution: Calculate Rectangle Area
-[code-task title="Calculate Rectangle Area" taskId="python-fund-10-Functions-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Calculate Rectangle Area" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 input_width = int(input())

@@ -153,7 +153,7 @@ side
 
 [slide]
 # Solution: Courses
-[code-task title="Courses" taskId="python-fund-07-Arrays-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Courses" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 n = int(input())

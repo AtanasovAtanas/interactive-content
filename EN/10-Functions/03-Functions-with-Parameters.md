@@ -132,7 +132,7 @@ Excellent
 
 [slide]
 # Solution: Grades
-[code-task title="Grades" taskId="python-fund-10-Functions-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Grades" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 grade_data = float(input())

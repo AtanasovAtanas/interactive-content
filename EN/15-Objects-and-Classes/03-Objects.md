@@ -206,7 +206,7 @@ Total: 3
 
 [slide]
 # Solution: Party
-[code-task title="Party" taskId="python-fund-16-Objects-and-Classes-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Party" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 class Party:

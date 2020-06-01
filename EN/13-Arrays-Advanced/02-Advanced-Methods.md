@@ -147,7 +147,7 @@ Print the **indices** of **all even numbers**.
 
 [slide]
 # Solution: Even Numbers
-[code-task title="Even Numbers" taskId="python-fund-13-Arrays-Advanced-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Even Numbers" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 numbers = list(map(lambda x: int(x), input().split(", ")))
@@ -374,7 +374,7 @@ Score: 12/18. Employees are happy!
 
 [slide]
 # Solution: The Office
-[code-task title="The Office" taskId="python-fund-13-Arrays-Advanced-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="The Office" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 employees = input().split(" ")

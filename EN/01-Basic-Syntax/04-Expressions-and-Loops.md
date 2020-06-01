@@ -286,7 +286,7 @@ Write a program that receives **three whole numbers** and print the **biggest on
 
 [slide]
 # Solution: Biggest Of Three Numbers
-[code-task title="Biggest Of Three Numbers" taskId="python-fund-01-Basic-Syntax-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Biggest Of Three Numbers" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 first_num = int(input())
@@ -564,7 +564,7 @@ negative
 
 [slide]
 # Solution: Number Definer
-[code-task title="Number Definer" taskId="python-fund-01-Basic-Syntax-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Number Definer" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 number = float(input())
@@ -900,7 +900,7 @@ tset repus
 
 [slide]
 # Solution: Word Reverse
-[code-task title="Word Reverse" taskId="python-fund-01-Basic-Syntax-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Word Reverse" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 word = input()
@@ -1114,7 +1114,7 @@ The number 1.5 is between 1 and 100
 
 [slide]
 # Solution: Number between 1 and 100
-[code-task title="Number between 1 and 100" taskId="python-fund-01-Basic-Syntax-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Number between 1 and 100" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 number = float(input())
@@ -1406,7 +1406,7 @@ You will receive a **number** that represents the **highest number of stars**.
 
 [slide]
 # Solution: Patterns
-[code-task title="Patterns" taskId="python-fund-01-Basic-Syntax-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Patterns" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 number = int(input())

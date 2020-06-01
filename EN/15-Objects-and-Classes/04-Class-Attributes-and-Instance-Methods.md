@@ -224,7 +224,7 @@ o, says to p,: q. Sent: True
 
 [slide]
 # Solution: Email
-[code-task title="Email" taskId="python-fund-16-Objects-and-Classes-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Email" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 class Email:
@@ -526,7 +526,7 @@ Total animals: 5
 
 [slide]
 # Solution: Zoo
-[code-task title="Zoo" taskId="python-fund-16-Objects-and-Classes-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Zoo" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 class Zoo:
@@ -794,7 +794,7 @@ Print the **result of each method formatted to the second decimal place** in the
 
 [slide]
 # Solution: Circle
-[code-task title="Circle" taskId="python-fund-16-Objects-and-Classes-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Circle" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 class Circle:

@@ -229,7 +229,7 @@ Write a program to read an integer **n** and for all numbers in the range **1…
 
 [slide]
 # Solution: Special Numbers
-[code-task title="Problem: Special Numbers" taskId="python-fund-04-Data-Types-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem: Special Numbers" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 num = input()

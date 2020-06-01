@@ -190,7 +190,7 @@ Count of positives: 0. Sum of negatives: 0
 
 [slide]
 # Solution: List Statistics
-[code-task title="List Statistics" taskId="python-fund-07-Arrays-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="List Statistics" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 n = int(input())
