@@ -17,6 +17,8 @@ In Python a string is a sequence of **Unicode** characters.
 
 Learn more [here](https://home.unicode.org/).
 
+[image assetsSrc="indices-strings.png" /]
+
 [/slide]
 
 [slide]
