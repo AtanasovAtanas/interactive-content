@@ -13,7 +13,7 @@ Other technologies besides HTML are generally used to describe a web page's **pr
 
 Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
 
-HTML uses "**markup**" to annotate text, images, and other content for display in a Web browser. 
+HTML uses "**markup**" to annotate text, images and other content for display in a Web browser. 
 [/slide]
 
 [slide]
