@@ -140,7 +140,7 @@ Write a program that calculates the difference between the sum of the even and t
 
 [slide]
 # Solution: Even and Odd Subtraction
-[code-task title="Problem: Even and Odd Subtraction" taskId="java-fund-07-Arrays-problem-10" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Even and Odd Subtraction" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Arrays;

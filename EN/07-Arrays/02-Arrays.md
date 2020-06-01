@@ -219,7 +219,7 @@ Invalid day!
 
 [slide]
 # Solution: Day of Week
-[code-task title="Problem: Day of Week" taskId="java-fund-07-Arrays-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Day of Week" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

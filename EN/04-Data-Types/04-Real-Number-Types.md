@@ -159,7 +159,7 @@ Write a program that converts British pounds to US dollars formatted to 3rd deci
 
 [slide]
 # Solution: Pounds to Dollars
-[code-task title="Pounds to Dollars" taskId="java-fund-04-Data-Types-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Pounds to Dollars" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -457,7 +457,7 @@ Write a program to enter n numbers and calculate and print their **exact sum** (
 
 [slide]
 # Solution: Exact Sum of Real Numbers
-[code-task title="Exact Sum of Real Numbers" taskId="java-fund-04-Data-Types-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Exact Sum of Real Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.math.BigDecimal;

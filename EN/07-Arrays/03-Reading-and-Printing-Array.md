@@ -205,7 +205,7 @@ Read n numbers and print them in reverse order, separated by single space.
 
 [slide]
 # Solution: Print Numbers in Reverse Order
-[code-task title="Problem: Print Numbers in Reverse Order" taskId="java-fund-07-Arrays-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Print Numbers in Reverse Order" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -424,7 +424,7 @@ f60 e50 d40 c30 b20 a10
 
 [slide]
 # Solution: Reverse an Array of Strings
-[code-task title="Problem: Reverse an Array of Strings" taskId="java-fund-07-Arrays-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Reverse an Array of Strings" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

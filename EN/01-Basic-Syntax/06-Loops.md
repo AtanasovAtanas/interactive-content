@@ -639,7 +639,7 @@ Print every row of the table in the following format: `theInteger X times = prod
 
 [slide hideTitle]
 # Solution: Multiplication Table
-[code-task title="Multiplication Table" taskId="java-fund-01-Basic-Syntax-problem-9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Multiplication Table" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

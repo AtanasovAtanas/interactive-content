@@ -1071,4 +1071,3 @@ multiply
 [/tests]
 [/code-task]
 [/slide]
-

@@ -179,7 +179,7 @@ abc--\>123
 
 [slide]
 # Solution: Concat Names
-[code-task title="Problem: Concat Names" taskId="java-fund-04-Data-Types-problem-17" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Concat Names" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
