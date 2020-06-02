@@ -2,7 +2,7 @@
 # Problem: Simple HTML Page
 
 [code-task title="Simple HTML Page" taskId="c71fd240-cf92-43e1-95db-d79255ead525" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
-
+[code-upload allowedMemory="30" /]
 [task-description]
 ## Description
 
