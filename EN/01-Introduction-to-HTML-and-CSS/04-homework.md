@@ -52,3 +52,5 @@ yes
 [/test]
 [/tests]
 [/code-task][/slide]
+
+[/slide]
