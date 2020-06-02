@@ -1,9 +1,13 @@
 [slide]
-
 # Problem: Simple HTML Page
 
-[code-task title="Simple HTML Page" taskId="46ba6666-0c32-4400-8b9e-5b3467e78e4f" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
-[code-upload allowedMemory="30" /] <- Memory is in MB
+[code-task
+	title="Simple HTML Page"
+	taskId="46ba6666-0c32-4400-8b9e-5b3467e78e4f"
+	executionType="tests-execution"
+	executionStrategy="html-and-css-zip-file"
+	requiresInput="false"]
+[code-upload allowedMemory="30" /]
 [task-description]
 
 ## Description
@@ -14,6 +18,7 @@
 
 You can find an example [here](https://imgur.com/a/hQDhEFG)
 [/task-description]
+
 [tests]
 [test open]
 [input]
