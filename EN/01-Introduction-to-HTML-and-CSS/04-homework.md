@@ -1,8 +1,8 @@
 [slide]
 
-# 01 - Simple HTML Page
+# Problem: Simple HTML Page
 
-[code-task title="# 01 - Simple HTML Page" taskId="46ba6666-0c32-4400-8b9e-5b3467e78e4f" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+[code-task title="Simple HTML Page" taskId="46ba6666-0c32-4400-8b9e-5b3467e78e4f" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 [code-upload allowedMemory="30" /] <- Memory is in MB
 [task-description]
 
@@ -13,10 +13,7 @@
 * Use **paragraph** tag for plain text and **strong** tag for bold text
 
 You can find an example [here](https://imgur.com/a/hQDhEFG)
-
-## Examples
-
-[/task-description][code-io /]
+[/task-description]
 [tests]
 [test open]
 [input]
@@ -52,5 +49,4 @@ yes
 [/test]
 [/tests]
 [/code-task]
-
 [/slide]
