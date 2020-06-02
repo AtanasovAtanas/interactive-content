@@ -3,7 +3,7 @@
 
 [code-task
 	title="Simple HTML Page"
-	taskId="46ba6666-0c32-4400-8b9e-5b3467e78e4f"
+	taskId="html-test-problem"
 	executionType="tests-execution"
 	executionStrategy="html-and-css-zip-file"
 	requiresInput="false"]
