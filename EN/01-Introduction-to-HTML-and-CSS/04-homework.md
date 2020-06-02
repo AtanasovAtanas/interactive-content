@@ -181,8 +181,7 @@ yes
 * Use **p** tags for the text
 * Use **img** tag for the photo
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/qV5zQa6a#X6cqM-VlrWMqZkSfVZcrvFbSBFJVkT3oUyYVLkt_sbI)
-[DOWNLOAD](https://mega.nz/file/qV5zQa6a#X6cqM-VlrWMqZkSfVZcrvFbSBFJVkT3oUyYVLkt_sbI) your resources
+You can DOWNLOAD the resources [here](https://mega.nz/file/jNhzXKTQ#SrUcTz0oSFMTgzj3UqlPo5vMfvfql9fMhVwt0aqpvC4)
 
 ## Examples
 
@@ -240,6 +239,119 @@ yes
 [test]
 [input]
 expect($(document.body).find("h2").text()).to.include("Egyptian Mau","Incorrect text in h2 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+
+# Tags Cardio - Lists
+
+[code-task title="Tags Cardio - Lists" taskId="74d19b02-e0c8-47dd-826f-c71e099967a2" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Create HTML document
+* Change the document **title** to *Lists*
+* Add section with two articles inside (for each list)
+* Each article must have a **h2** heading
+* Use **ul** for unordered list
+* Add four list items
+* Use **ol reversed** for ordered reversed list
+* Add three **list** items
+
+You can download the resources [here](https://mega.nz/file/HY4jxA5L#KUt-Q7VkYnFKmCLT8Xb8oE7AcJhvqbp5Fppbc6O7giY)
+
+## Examples
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+let title = document.title;
+expect(title).to.equal("Lists","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let section = $(document.body).find("section");
+expect(section).to.have.lengthOf(1,"Incorrect amount of section tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let article = $(document.body).find("article");
+expect(article).to.have.lengthOf(2,"Incorrect amount of article tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let ul = $("body \> section \> article \> ul");
+expect(ul).to.have.lengthOf(1,"Incorrect amount of ul tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let ol = $("body \> section \> article \> ol\[reversed\]");
+expect(ol).to.have.lengthOf(1,"Incorrect amount of ol tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let li= $("body \> section \> article \> ul \> li");
+expect(li).to.have.lengthOf(4,"Incorrect amount of li tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let li = $("body \> section \> article \> ol \> li");
+expect(li).to.have.lengthOf(3,"Incorrect amount of li tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let articles = $("body \> section \> article");
+expect(articles).to.have.lengthOf(2,"Incorrect amount of article tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let heading = $(document.body).find("h2");
+expect(heading).to.have.lengthOf(2,"Incorrect amount of h2 tag.");
 [/input]
 [output]
 yes
