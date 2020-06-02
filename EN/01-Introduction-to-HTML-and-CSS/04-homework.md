@@ -58,7 +58,7 @@ yes
 
 [slide]
 
-# Problem TagsCardio Paragraphs
+# Problem: TagsCardio Paragraphs
 
 [code-task title="TagsCardio-Paragraphs" taskId="54728b5a-74cd-4128-bbcc-ae48f9b61be4" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
@@ -152,6 +152,92 @@ yes
 [test]
 [input]
 expect($(document.body).find("h1").text()).to.include("Top Tips for Effective Presentations","Incorrect text in h1 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+
+# Problem: Single Article Page 
+
+[code-task title="Single Article Page " taskId="99d9c4dc-4e2b-45fb-ba21-351551e15cdf" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Change the document **title** to *Single Article Page*
+* Create an **article** with several items inside
+* Use **h2** and **h4** tags for headings
+* Use **p** tags for the text
+* Use **img** tag for the photo
+
+You can DOWNLOAD the resources [here](https://mega.nz/file/qV5zQa6a#X6cqM-VlrWMqZkSfVZcrvFbSBFJVkT3oUyYVLkt_sbI)
+[DOWNLOAD](https://mega.nz/file/qV5zQa6a#X6cqM-VlrWMqZkSfVZcrvFbSBFJVkT3oUyYVLkt_sbI) your resources
+
+## Examples
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+expect(document.title).to.equal("Single Article Page","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("article")).to.have.lengthOf(1,"Incorrect amount of article.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("h2")).to.have.lengthOf(1,"Incorrect amount of h2 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("h4")).to.have.lengthOf(1,"Incorrect amount of h4 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("p")).to.have.lengthOf(2,"Incorrect amount of p tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("img")).to.have.lengthOf(1,"Incorrect amount of img tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($(document.body).find("h2").text()).to.include("Egyptian Mau","Incorrect text in h2 tag.");
 [/input]
 [output]
 yes
