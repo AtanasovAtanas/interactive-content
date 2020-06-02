@@ -60,7 +60,7 @@ yes
 
 # Problem TagsCardio Paragraphs
 
-[code-task title="# L1_02_TagsCardio-Paragraphs" taskId="54728b5a-74cd-4128-bbcc-ae48f9b61be4" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+[code-task title="TagsCardio-Paragraphs" taskId="54728b5a-74cd-4128-bbcc-ae48f9b61be4" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
 
@@ -105,7 +105,7 @@ yes
 [/test]
 [test]
 [input]
-let p = \\$(document.body).find("p");
+let p = $(document.body).find("p");
 expect(p).to.have.lengthOf(11,"Incorrect amount of p tags.");
 [/input]
 [output]
@@ -114,7 +114,7 @@ yes
 [/test]
 [test]
 [input]
-expect(\\$(document.body).find("p").text()).to.include("This page draws on published","Incorrect text in paragraph");
+expect($(document.body).find("p").text()).to.include("This page draws on published","Incorrect text in paragraph");
 [/input]
 [output]
 yes
@@ -122,7 +122,7 @@ yes
 [/test]
 [test]
 [input]
-let strong = \\$(document.body).find("strong");
+let strong = $(document.body).find("strong");
 expect(strong).to.have.lengthOf(10,"Incorrect amount of strong tags.");
 [/input]
 [output]
@@ -131,7 +131,7 @@ yes
 [/test]
 [test]
 [input]
-let em = \\$(document.body).find("em");
+let em = $(document.body).find("em");
 expect(em).to.have.lengthOf(3,"Incorrect amount of em tags.");
 [/input]
 [output]
@@ -140,7 +140,7 @@ yes
 [/test]
 [test]
 [input]
-let header = \\$(document.body).find("h1");
+let header = $(document.body).find("h1");
 expect(header).to.have.lengthOf(1,"Incorrect amount of h1 tag.");
 [/input]
 [output]
@@ -149,7 +149,7 @@ yes
 [/test]
 [test]
 [input]
-expect(\\$(document.body).find("h1").text()).to.include("Top Tips for Effective Presentations","Incorrect text in h1 tag.");
+expect($(document.body).find("h1").text()).to.include("Top Tips for Effective Presentations","Incorrect text in h1 tag.");
 [/input]
 [output]
 yes
