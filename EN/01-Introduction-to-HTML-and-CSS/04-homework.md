@@ -30,7 +30,7 @@ yes
 [/test]
 [test]
 [input]
-expect(\\$("p")).to.have.lengthOf(1,"Incorrect amount of p tag.");
+expect($("p")).to.have.lengthOf(1,"Incorrect amount of p tag.");
 [/input]
 [output]
 yes
@@ -38,7 +38,7 @@ yes
 [/test]
 [test]
 [input]
-expect(\\$("strong")).to.have.lengthOf(2,"Incorrect amount of strong tags.");
+expect($("strong")).to.have.lengthOf(2,"Incorrect amount of strong tags.");
 [/input]
 [output]
 yes
@@ -46,7 +46,7 @@ yes
 [/test]
 [test]
 [input]
-expect(\\$(document.body).find("strong").text()).to.include("CSS","Incorrect text in strong tag.");
+expect($(document.body).find("strong").text()).to.include("CSS","Incorrect text in strong tag.");
 [/input]
 [output]
 yes
