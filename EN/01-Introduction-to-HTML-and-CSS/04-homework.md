@@ -10,7 +10,7 @@
 [task-description]
 ## Description
 
-* Create a html document
+* Create a HTML document.
 * Change the document **title** to *Simple HTML Page* 
 * Use **paragraph** tag for plain text and **strong** tag for bold text
 
@@ -68,6 +68,7 @@ yes
 
 ## Description
 
+* Create a HTML document.
 * Change the document **title** to *Paragraphs*
 * Use the **h1** tag for heading
 * Use **p** tags for each line of the text
@@ -173,6 +174,7 @@ yes
 
 ## Description
 
+* Create a HTML document.
 * Change the document **title** to *Single Article Page*
 * Create an **article** with several items inside
 * Use **h2** and **h4** tags for headings
