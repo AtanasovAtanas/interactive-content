@@ -51,6 +51,6 @@ yes
 [/output]
 [/test]
 [/tests]
-[/code-task][/slide]
+[/code-task]
 
 [/slide]
