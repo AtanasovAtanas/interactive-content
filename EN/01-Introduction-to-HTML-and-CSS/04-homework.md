@@ -1,15 +1,9 @@
 [slide]
 # Problem: Simple HTML Page
 
-[code-task
-	title="Simple HTML Page"
-	taskId="html-test-problem"
-	executionType="tests-execution"
-	executionStrategy="html-and-css-zip-file"
-	requiresInput="false"]
-[code-upload allowedMemory="30" /]
-[task-description]
+[code-task title="Simple HTML Page" taskId="c71fd240-cf92-43e1-95db-d79255ead525" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
+[task-description]
 ## Description
 
 * Create a html document
@@ -17,6 +11,7 @@
 * Use **paragraph** tag for plain text and **strong** tag for bold text
 
 You can find an example [here](https://imgur.com/a/hQDhEFG)
+
 [/task-description]
 
 [tests]
@@ -30,7 +25,7 @@ yes
 [/test]
 [test]
 [input]
-expect(\\$("p")).to.have.lengthOf(1,"Incorrect amount of p tag.");
+expect($("p")).to.have.lengthOf(1,"Incorrect amount of p tag.");
 [/input]
 [output]
 yes
@@ -38,7 +33,7 @@ yes
 [/test]
 [test]
 [input]
-expect(\\$("strong")).to.have.lengthOf(2,"Incorrect amount of strong tags.");
+expect($("strong")).to.have.lengthOf(2,"Incorrect amount of strong tags.");
 [/input]
 [output]
 yes
@@ -46,7 +41,7 @@ yes
 [/test]
 [test]
 [input]
-expect(\\$(document.body).find("strong").text()).to.include("CSS","Incorrect text in strong tag.");
+expect($(document.body).find("strong").text()).to.include("CSS","Incorrect text in strong tag.");
 [/input]
 [output]
 yes
