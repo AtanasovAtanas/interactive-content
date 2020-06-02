@@ -76,23 +76,7 @@ yes
 
 You can find an example view [here](https://imgur.com/a/Bfl4Lub)
 
-You can use the text below in your HTML:
-
-Paragraphs
-Top Tips for Effective Presentations
-This page draws on published advice from expert presenters around the world, which will help to take your presentations from merely good to great.
-By bringing together advice from a wide range of people, the aim is to cover a whole range of areas.
-Whether you are an experienced presenter, or just starting out, there should be ideas here to help you to improve.
-It’s hard to be relaxed and be yourself when you’re nervous.
-But time and again, the great presenters say that the most important thing is to connect with your audience, and the best way to do that is to let your passion for the subject shine through.
-Be honest with the audience about what is important to you and why it matters.
-Your presentation needs to be built around what your audience is going to get out of the presentation.
-As you prepare the presentation, you always need to bear in mind what the audience needs and wants to know, not what you can tell them.
-While you’re giving the presentation, you also need to remain focused on your audience’s response, and react to that.
-For more ideas, see our page on Coping with Presentation Nerves.
-Author: Jhon Devis
-
-## Examples
+You can DOWNLOAD the resources [here](https://mega.nz/file/qEoV3L7C#jQJ7I-58gmbQjVDBmVRt02x6PWLRhAZdcx0vKBWzTZk)
 
 [/task-description]
 
@@ -181,9 +165,9 @@ yes
 * Use **p** tags for the text
 * Use **img** tag for the photo
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/jNhzXKTQ#SrUcTz0oSFMTgzj3UqlPo5vMfvfql9fMhVwt0aqpvC4)
+You can find an example view [here](https://imgur.com/a/6pm57z3)
 
-## Examples
+You can DOWNLOAD the resources [here](https://mega.nz/file/jNhzXKTQ#SrUcTz0oSFMTgzj3UqlPo5vMfvfql9fMhVwt0aqpvC4)
 
 [/task-description]
 
@@ -250,7 +234,7 @@ yes
 
 [slide]
 
-# Tags Cardio - Lists
+# Problem: Tags Cardio - Lists
 
 [code-task title="Tags Cardio - Lists" taskId="74d19b02-e0c8-47dd-826f-c71e099967a2" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
@@ -269,9 +253,10 @@ yes
 * Use **ol reversed** for ordered reversed list
 * Add three **list** items
 
+You can find an example view [here](https://imgur.com/a/7n8FSee)
+
 You can download the resources [here](https://mega.nz/file/HY4jxA5L#KUt-Q7VkYnFKmCLT8Xb8oE7AcJhvqbp5Fppbc6O7giY)
 
-## Examples
 
 [/task-description]
 
