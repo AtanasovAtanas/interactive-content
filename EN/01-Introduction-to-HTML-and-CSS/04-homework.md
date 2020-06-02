@@ -14,7 +14,7 @@
 * Change the document **title** to *Simple HTML Page* 
 * Use **paragraph** tag for plain text and **strong** tag for bold text
 
-You can find an example [here](https://imgur.com/a/hQDhEFG)
+You can find an example view [here](https://imgur.com/a/hQDhEFG)
 
 [/task-description]
 
@@ -73,7 +73,9 @@ yes
 * Use **p** tags for each line of the text
 * See the screenshot and use **strong** and **em** tags where needed
 
-You can find a example [here](https://imgur.com/a/TjnWR9n)
+You can find an example view [here](https://imgur.com/a/Bfl4Lub)
+
+You can use the text below in your HTML:
 
 Paragraphs
 Top Tips for Effective Presentations
