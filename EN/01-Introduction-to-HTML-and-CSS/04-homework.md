@@ -58,7 +58,7 @@ yes
 
 [slide]
 
-# L1_02_TagsCardio-Paragraphs
+# Problem TagsCardio Paragraphs
 
 [code-task title="# L1_02_TagsCardio-Paragraphs" taskId="54728b5a-74cd-4128-bbcc-ae48f9b61be4" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
