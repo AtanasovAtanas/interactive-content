@@ -232,7 +232,7 @@ yes
 * First use **header** tag
 * Use **h1** tag for the heading
 * Use **nav** tag for the navigation with an unordered list inside
-* Create two **list** items with **anchor** tags inside
+* Create two **list** items with **anchor** tags inside the nav
 * Second use **main** tag    
 * Create two **sections** in the main. Each section has:
 * A header with an **h2** heading
