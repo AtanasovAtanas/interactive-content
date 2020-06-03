@@ -1,7 +1,7 @@
 # Homework
 
 [slide]
-# Problem: Simple HTML Pagee
+# Problem: Simple HTML Page
 
 [code-task title="Simple HTML Page" taskId="c71fd240-cf92-43e1-95db-d79255ead525" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
@@ -14,7 +14,7 @@
 * Change the document **title** to *Simple HTML Page* 
 * Use **paragraph** tag for plain text and **strong** tag for bold text
 
-You can find an example view [here](https://imgur.com/a/hQDhEFG)
+You can find an example view [here](https://i.imgur.com/k58mFsI.png)
 
 [/task-description]
 
@@ -74,7 +74,7 @@ yes
 * Use **p** tags for each line of the text
 * See the screenshot and use **strong** and **em** tags where needed
 
-You can find an example view [here](https://imgur.com/a/Bfl4Lub)
+You can find an example view [here](https://i.imgur.com/r2uiWda.png)
 
 You can DOWNLOAD the resources [here](https://mega.nz/file/qEoV3L7C#jQJ7I-58gmbQjVDBmVRt02x6PWLRhAZdcx0vKBWzTZk)
 
@@ -165,7 +165,7 @@ yes
 * Use **p** tags for the text
 * Use **img** tag for the photo
 
-You can find an example view [here](https://imgur.com/a/6pm57z3)
+You can find an example view [here](https://i.imgur.com/OFIZzEc.png)
 
 You can DOWNLOAD the resources [here](https://mega.nz/file/jNhzXKTQ#SrUcTz0oSFMTgzj3UqlPo5vMfvfql9fMhVwt0aqpvC4)
 
@@ -253,10 +253,9 @@ yes
 * Use **ol reversed** for ordered reversed list
 * Add three **list** items
 
-You can find an example view [here](https://imgur.com/a/7n8FSee)
+You can find an example view [here](https://i.imgur.com/wU3Sxjy.png)
 
 You can download the resources [here](https://mega.nz/file/HY4jxA5L#KUt-Q7VkYnFKmCLT8Xb8oE7AcJhvqbp5Fppbc6O7giY)
-
 
 [/task-description]
 
