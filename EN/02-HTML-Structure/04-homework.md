@@ -115,6 +115,15 @@ yes
 
 ## Description
 
+* Create an index.html file with **Semantic Article Page** title
+* Follow the instructions
+* Use **article** tag to create an article
+* The article has header with **h1** heading and a **paragraph** for the Published date inside
+* Use **p** tag to create 3 paragraphs after the **header**. The paragraphs contain the article content (info for apple). Use **b** tag where is need.     
+* After that, you have to create the Comment section. Use **section** tag to create it. This section has **h2** heading and **two articles** inside    
+* Each article contains a comment and has:    
+* **Header** with an **h3** heading and a **paragraph** for the time
+* Exactly one **paragraph** for the comment  
 
 You can find an example view [here](https://i.imgur.com/VZ3G7ds.png)
 You can DOWNLOAD the resources [here](https://mega.nz/file/DJZl2S4I#0VTmensITgR8ApVDNo9a2TLvNKNjHoNXbYM3oqu-uIE)
@@ -169,8 +178,8 @@ yes
 [/test]
 [test]
 [input]
-let h2 = $("section \> article \> h3");
-expect(h2).to.have.lengthOf(2, "Incorrect amount of h3 tags.");
+let h3 = $("section \> article \> header \> h3");
+expect(h3).to.have.lengthOf(2, "Incorrect amount of h3 tags.");
 [/input]
 [output]
 yes
