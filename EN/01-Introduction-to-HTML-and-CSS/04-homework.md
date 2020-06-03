@@ -344,3 +344,102 @@ yes
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+
+# Tags Cardio - Nested Lists
+
+[code-task title="Tags Cardio - Nested Lists" taskId="0fd6a4ba-4dfb-494d-a5ed-2aa9a9e6b652" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Create a HTML document
+* Change the document **title** to *Nested Lists*
+* Use **h2** tag for heading
+* Use different types for **ordered** and **unordered** lists
+* See the screenshot and use different type attribute as **circle**, **disc** etc. 
+
+You can find an example view [here](https://i.imgur.com/TenhpeD.png)
+
+You can download the resources [here](https://mega.nz/file/3ZQ0FaRR#vAK8zZHSkuCr8Q9eievu2o5Gk-Z_Wqiwt4MHtOb0hQo)
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+let title = document.title;
+expect(title).to.equal("Nested Lists","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let ol = $(document.body).find("ol");
+expect(ol).to.have.lengthOf(3,"Incorrect amount of ol tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($(document.body).find("h2").text()).to.include("Nested List","Incorrect text in h2 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let li = $(document.body).find("li");
+expect(li).to.have.lengthOf(23,"Incorrect amount of li tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let header = $("body").find("h2");
+expect(header).to.have.lengthOf(1,"Incorrect amount of h2 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($(document.body).find("h2").text()).to.include("Nested List","Incorrect text in h2");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let attribute = $("body ul\[type='disc'\]");
+expect(attribute).to.have.lengthOf(1, "Incorrect type of ul tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let attribute = $("body ul\[type='circle'\]");
+expect(attribute).to.have.lengthOf(1, "Incorrect type of ul tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
