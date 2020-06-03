@@ -2,16 +2,6 @@
 
 [slide]
 
-# Video
-
-[vimeo-video startTimeInSeconds="1406" endTimeInSeconds="1957"]
-[stream language="en" videoid="343678060" default /]
-[stream language="RO" videoId="391452320" /]
-[/vimeo-video]
-[/slide]
-
-[slide]
-
 # What are Floating-Point Types?
 
 You should use a **floating-point type** whenever you need a number with a decimal, such as 9.99 or 3.14515.

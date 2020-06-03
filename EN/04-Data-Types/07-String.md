@@ -1,14 +1,4 @@
-# Java Strings
-
-[slide]
-# Video
-
-[vimeo-video startTimeInSeconds="1958" endTimeInSeconds="2495"]
-[stream language="EN" videoId="343678060" default /]
-[stream language="RO" videoId="391452320"  /]
-[/vimeo-video]
-
-[/slide]
+# Strings
 
 [slide]
 # Strings

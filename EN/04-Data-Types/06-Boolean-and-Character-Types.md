@@ -1,16 +1,6 @@
 # Boolean and Character Types
 
 [slide]
-# Video
-
-[vimeo-video startTimeInSeconds="1958" endTimeInSeconds="2495"]
-[stream language="EN" videoId="343678060" default /]
-[stream language="RO" videoId="391452320"  /]
-[/vimeo-video]
-
-[/slide]
-
-[slide]
 # Boolean and character types
 A boolean data type is declared with the **boolean** keyword with two choices of value: **true** or **false**:
 
