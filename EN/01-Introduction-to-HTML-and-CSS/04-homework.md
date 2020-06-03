@@ -457,7 +457,7 @@ yes
 ## Description
 
 * Create a HTML document
-* Change the document **title** to *Checkout tablе*
+* Change the document **title** to *Checkout table*
 * Use **h2** tag for heading
 * Use **table** tag to create a table
 * Use **tr** tag for rows
