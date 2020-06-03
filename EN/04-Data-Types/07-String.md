@@ -1,6 +1,16 @@
 # Strings
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="2221" endTimeInSeconds="2422"]
+[stream language="EN" videoId="425081520" default /]
+[stream language="RO" videoId="425084744"  /]
+[/vimeo-video]
+
+[/slide]
+
+[slide]
 # Strings
 Strings are used for storing text.
 

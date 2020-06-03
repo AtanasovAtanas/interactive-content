@@ -1,6 +1,16 @@
 # Data types
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="54" endTimeInSeconds="543"]
+[stream language="EN" videoId="425081520" default /]
+[stream language="RO" videoId="425084744"  /]
+[/vimeo-video]
+
+[/slide]
+
+[slide]
 # How Does Computing Work?
 A computer is an e **electronic machine** that processes information, in other words, an information processor: it takes in raw information (or data) at one end, stores it until it's ready to work on it, chews and crunches it for a bit, then spits out the results at the other end.
 

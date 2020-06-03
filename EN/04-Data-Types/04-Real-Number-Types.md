@@ -1,6 +1,16 @@
 # Real Number Types
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="1001" endTimeInSeconds="1505"]
+[stream language="EN" videoId="425081520" default /]
+[stream language="RO" videoId="425084744"  /]
+[/vimeo-video]
+
+[/slide]
+
+[slide]
 
 # What are Floating-Point Types?
 
