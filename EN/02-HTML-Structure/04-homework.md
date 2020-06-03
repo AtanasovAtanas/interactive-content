@@ -103,3 +103,106 @@ yes
 [/code-task]
 [/slide]
 
+[slide]
+
+# Problem: Semantic Article Page
+
+[code-task title="Problem: Semantic Article Page" taskId="319b556a-3251-456b-824e-bd52a19f1b5a" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+
+You can find an example view [here](https://i.imgur.com/VZ3G7ds.png)
+You can DOWNLOAD the resources [here](https://mega.nz/file/DJZl2S4I#0VTmensITgR8ApVDNo9a2TLvNKNjHoNXbYM3oqu-uIE)
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+let title = (document.title);
+expect(title).to.be.equal('Semantic Article Page', "Incorrect title name.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let article = $("body \> article");
+expect(article).to.have.lengthOf(1, "Incorrect amount of article tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let h1 = $("h1");
+expect(h1).to.have.lengthOf(1, "Incorrect amount of h1 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let section = $("body \> section \> article");
+expect(section).to.have.lengthOf(2, "Incorrect amount of section tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let article = $("article");
+expect(article).to.have.lengthOf(3, "Incorrect amount of article tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let h2 = $("section \> article \> h3");
+expect(h2).to.have.lengthOf(2, "Incorrect amount of h3 tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let p = $("p");
+expect(p).to.have.lengthOf(8, "Incorrect amount of p tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let b = $("b");
+expect(b).to.have.lengthOf(1, "Incorrect amount of b tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let p = $("body \> article \> p");
+expect(p).to.have.lengthOf(3, "Incorrect amount of p tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
