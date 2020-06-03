@@ -443,3 +443,115 @@ yes
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+
+# Problem: Tags Cardio - Table
+
+[code-task title="Tags Cardio - Table" taskId="d1cb2a6b-64b9-4589-8c5e-3852f952588d" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Create a HTML document
+* Change the document **title** to *Checkout tablе*
+* Use **h2** tag for heading
+* Use **table** tag to create a table
+* Use **tr** tag for rows
+* Use **th** and **td** tags for columns 
+* Use **span** tag with value **checked** for checked items
+
+You can find an example view [here](https://i.imgur.com/kWf4KPN.png)
+
+You can download the resources [here](https://mega.nz/file/XJJXmALY#wasQcGhrShimGMS95NX7ZtxKbRtEunlVM0mHBdWRPqk)
+
+## Examples
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+expect(document.title).to.equal("Checkout table","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let h2 = $("body").find("h2");
+expect(h2).to.have.lengthOf(1,"Incorrect amount of h2 tag.");
+expect(h2.text()).to.include("HTML Table","Incorrect text in h2 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let table = $("body \> table");
+expect(table).to.have.lengthOf(1,"Incorrect amount of table tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tr = $("table").find("tr");
+expect(tr).to.have.lengthOf(7,"Incorrect amount of tr tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let span = $('body').find('span');
+expect(span).to.have.length(3, "Incorrect amount of span tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let th = $("body \> table tr:first-child \> th");
+expect(th).to.have.lengthOf(3, "Incorrect ammount of th tags.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let td = $("body \> table tr:last-of-type \> td");
+expect(td).to.have.lengthOf(3,"Incorrect amount of td tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("body \> table  tr:first-child  th:first-child").text()).to.include("Name","Incorrect text in th tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("body \> table  tr:last-of-type  td:last-of-type").text()).to.include("Italy","Incorrect text in td tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
