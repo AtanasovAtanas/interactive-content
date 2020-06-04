@@ -355,6 +355,7 @@ System.out.println(bigDecimal1);
 [code-editor language=java]
 ```
 import java.util.Scanner;
+import java.math.BigDecimal;
 
 public class Main {
     public static void main(String[] args) {
