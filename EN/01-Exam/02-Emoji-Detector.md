@@ -34,7 +34,7 @@ An emoji is valid when:
 
 - Examples of valid emojis: `::Joy::`, `**Banana**`, `::Wink::`
 
-- Examples of **invalid** emojis: \:\:Joy\*\*, \:\:fox:es\:, \*\*Monk3ys\*\*, \:Snak\:\:Es\:\:
+- Examples of **invalid** emojis: `::Joy**`, `::fox:es:`, `**Monk3ys**`, `:Snak::Es::`
 
 You need to count **all valid emojis** in the text and calculate their **coolness**.
 
@@ -74,7 +74,7 @@ There will always be at least one digit in the text!
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| In the Sofia Zoo there are **311** animals in total\! `::Smiley::` This includes **3** `**Tigers**`, **1** \:\:Elephant\:, **12** \*\*Monk3ys\*\*, a \*\*Gorilla\:\:, **5** \:\:fox\:es\: and **21** different types of \:Snak\:\:Es\:\:\. `::Mooning::` `**Shy**` | Cool threshold: 540 |
+| In the Sofia Zoo there are **311** animals in total! \:\:Smiley\:\: This includes **3** \*\*Tigers\*\*, **1** \:\:Elephant\:, **12** \*\*Monk3ys\*\*, a \*\*Gorilla\:\:, **5** \:\:fox\:es\: and **21** different types of \:Snak\:\:Es\:\:\. \:\:Mooning\:\: \*\*Shy\*\* | Cool threshold: 540 |
 |  | 4 emojis found in the text. The cool ones are: |
 |  | \:\:Smiley\:\:  |
 |  | \*\*Tigers\*\*  |
@@ -83,19 +83,18 @@ There will always be at least one digit in the text!
 
 ### Comments
 
-You can see all the valid emojis are marked.
 
 There are various reasons why the rest are `not valid`, examine them carefully.
 
 The **cool threshold** is 3\*1\*1\*3\*1\*1\*2\*3\*5\*2\*1 = 540.
 
-`::Smiley::` -\> 83 + 109 + 105 + 108 + 101 + 121 = 627 \> 540 -\> **cool**
+- \:\:Smiley\:\: -\> 83 + 109 + 105 + 108 + 101 + 121 = 627 \> 540 -\> **cool**
 
-`**Tigers**` -\> 84 + 105 + 103 + 101 + 114 + 115 = 622 \> 540 -\> **cool**
+- \*\*Tigers\*\* -\> 84 + 105 + 103 + 101 + 114 + 115 = 622 \> 540 -\> **cool**
 
-`::Mooning::` -\> 77 + 111 + 111 + 112 + 105 + 112 + 103 = 727 \> 540 -\> **cool**
+- \:\:Mooning\:\: -\> 77 + 111 + 111 + 112 + 105 + 112 + 103 = 727 \> 540 -\> **cool**
 
-`**Shy**` \-\> 83 + 104 + 121 = 308 \< 540 \-\> not cool
+- \*\*Shy\*\* -\> 83 + 104 + 121 = 308 \< 540 -\> not cool
 
 At the end we print the count of all valid emojis found and each of the cool ones on a new line.
 
@@ -112,19 +111,19 @@ At the end we print the count of all valid emojis found and each of the cool one
 
 | **Input** | **Output** |
 | --- | --- |
-| It is a long fact that 1 a reader will be distracted by 9 the readable content of a page when looking at its layout. The point of using \:\:LoremIpsum\:\: is that it has a more-or-less normal 3 distribution of 8 letters, as opposed to using 'Content here, content 99 here', making it look like readable `**English**`. | Cool threshold: 17496 |
+| It is a long fact that 1 a reader will be distracted by 9 the readable content of a page when looking at its layout. The point of using \:\:LoremIpsum\:\: is that it has a more-or-less normal 3 distribution of 8 letters, as opposed to using 'Content here, content 99 here', making it look like readable \*\*English\*\*. | Cool threshold: 17496 |
 |  | 1 emojis found in the text. The cool ones are: |
 
 ### Comments
 
-You can see `**English**` is a valid emoji, but the sum of ascii is not bigger than cool threshold, that's why we don't print anything in the end.
+You can see \*\*English\*\* is a valid emoji, but the sum of ascii is not bigger than cool threshold, that's why we don't print anything in the end.
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-In the Sofia Zoo there are 311 animals in total! \:\:Smiley\:\: This includes 3 \*\*Tigers\*\*, 1 \:\:Elephant\:, 12 \*\*Monk3ys\*\*, a \*\*Gorilla\:\:, 5 \:\:fox\:es\: and 21 different types of \:Snak\:\:Es\:\:. \:\:Mooning\:\: \*\*Shy\*\*
+In the Sofia Zoo there are 311 animals in total\! \:\:Smiley\:\: This includes 3 \*\*Tigers\*\*, 1 \:\:Elephant\:, 12 \*\*Monk3ys\*\*, a \*\*Gorilla\:\:, 5 \:\:fox\:es\: and 21 different types of \:Snak\:\:Es\:\:\. \:\:Mooning\:\: \*\*Shy\*\*
 [/input]
 [output]
 Cool threshold: 540
@@ -136,7 +135,7 @@ Cool threshold: 540
 [/test]
 [test open]
 [input]
-5, 4, 3, 2, 1, go! The 1-th consecutive banana-eating contest has begun! \:\:Joy\:\: \*\*Banana\*\* \:\:Wink\:\: \*\*Vali\*\* \:\:valid_emoji\:\:
+5, 4, 3, 2, 1, go\! The 1\-th consecutive banana-eating contest has begun\! \:\:Joy\:\: \*\*Banana\*\* \:\:Wink\:\: \*\*Vali\*\* \:\:valid\_emoji\:\:
 [/input]
 [output]
 Cool threshold: 120
