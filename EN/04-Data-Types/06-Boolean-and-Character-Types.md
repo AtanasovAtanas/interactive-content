@@ -292,7 +292,7 @@ To calculate the sum of digits of given number **num**, you might repeat the fol
 
 [slide]
 # Solution: Special Numbers
-[code-task title="Problem: Special Numbers" taskId="e84e2e90-fb9b-4fc5-8dea-71d646b54b08" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Special Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
