@@ -1,6 +1,16 @@
 # Looping through Lists
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="5003" endTimeInSeconds="6496"]
+[stream language="EN" videoId="425042764" default /]
+[stream language="RO" videoId="425050167" /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # For-Loop
 
 There are two ways you can loop through a list using `for` loops.

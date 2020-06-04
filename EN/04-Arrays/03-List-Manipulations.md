@@ -1,6 +1,16 @@
 # List Manipulations
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="4561" endTimeInSeconds="4980"]
+[stream language="EN" videoId="425042764" default /]
+[stream language="RO" videoId="425050167" /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Add Elements
 
 We can add an element to the **end of the list** with the `append([element])` function.

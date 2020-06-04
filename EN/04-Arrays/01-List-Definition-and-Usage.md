@@ -1,6 +1,16 @@
 # List Definition and Usage
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="1173" endTimeInSeconds="2580"]
+[stream language="EN" videoId="425042764" default /]
+[stream language="RO" videoId="425050167" /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Definition
 
 You already know how to store **single data in one variable**. **Lists** allow us to store **multiple data**, again, in only **one variable**.

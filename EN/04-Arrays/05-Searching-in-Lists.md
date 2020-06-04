@@ -1,6 +1,16 @@
 # Searching in Lists
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="6497" endTimeInSeconds="6945"]
+[stream language="EN" videoId="425042764" default /]
+[stream language="RO" videoId="425050167" /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # In Keyword
 
 With the `in` keyword you can check **if an element is in a list**.
@@ -451,6 +461,16 @@ positive
 [/test]
 [/tests]
 [/code-task]
+[/slide]
+
+[slide]
+# Video: Numbers Filter
+
+[vimeo-video startTimeInSeconds="7912" endTimeInSeconds="8879"]
+[stream language="EN" videoId="425042764" default /]
+[stream language="RO" videoId="425050167" /]
+[/video-vimeo]
+
 [/slide]
 
 [slide]
