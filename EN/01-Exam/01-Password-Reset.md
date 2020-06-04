@@ -64,23 +64,25 @@ If **it doesn't**, prints `Nothing to replace!`
 
 ### Comments
 
+- First command: `TakeOdd`
+
 S`i`i`c`e`e`r`c`a`r`o`e`t`a`v`m`\!`:`?`:`a`h`s`o`t`t`.`:`i`:`n`s`t`u`p`m`o`m`c`e`q`r` \-\> `icecream::hot::summer`
 
 We only take the chars at odd indices 1, 3, 5 etc.
 
-- `Cut 15  3` -\> icecream::hot::`sum`mer \-\> `sum`
+- Second command: `Cut 15  3` -\> icecream::hot::`sum`mer \-\> `sum`
 
 `icecream::hot::mer`
 
-We cut a substring starting at index `15` with length `3`, **remove** it from the raw password and **print it**.
+We cut a substring starting at index `15` with length `3`, **remove** it from the raw password, and **print it**.
 
 Then, on a new line, we print the resulting new raw password.
 
-- `Substitute :: -` -\> icecream`::`hot`::`summer \-\> icream`-`hot`-`summer
+- Third command: `Substitute :: -` -\> icecream`::`hot`::`summer \-\> icream`-`hot`-`summer
 
 We replace `::` with `-`.
 
-- `Substitute | ^` -\> `Nothing to replace!`
+- Fourth command: `Substitute | ^` -\> `Nothing to replace!`
 
 `|` is not found anywhere in the raw password.
 
@@ -100,19 +102,19 @@ Finally, after receiving the `Done` command, we **print** the resulting password
 [tests]
 [test open]
 [input]
-Siiceercaroetavm!:?:ahsott.:i:nstupmomceqr
+Siiceercaroetavm!\:\?\:ahsott\.\:i\:nstupmomceqr
 TakeOdd
 Cut 15 3
 Substitute \:\: \-
-Substitute \| ^
+Substitute \| \^
 Done
 [/input]
 [output]
-icecream::hot::summer
-icecream::hot::mer
-icecream-hot-mer
+icecream\:\:hot\:\:summer
+icecream\:\:hot\:\:mer
+icecream\-hot\-mer
 Nothing to replace!
-Your password is: icecream-hot-mer
+Your password is\: icecream\-hot\-mer
 [/output]
 [/test]
 [test open]
