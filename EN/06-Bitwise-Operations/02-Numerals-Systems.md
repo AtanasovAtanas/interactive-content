@@ -10,6 +10,7 @@
 - The **hexadecimal numeral system** and its power to write large binary **numbers** in just a few digits. 
 
 For example: 
+
 | Decimal | Binary | Hexadecimal |
 | ------- | ------ | ----------- |
 | 30 | 111110 | 1E |
@@ -59,7 +60,7 @@ The **conversion from decimal to hexadecimal system** is done by continuously **
 For example:
 ```java
 500 / 16 = 31 (4)
-31 /16 = 1 (F)
+31 / 16 = 1 (F)
 1 / 16 = 0 (1)
 Result: 0x1F4
 ```
@@ -69,7 +70,7 @@ Result: 0x1F4
 
 [slide]
 
-## Binary system
+# Binary system
 
 The binary numeral system is **fundamental for computer systems**. The **binary system** uses only **two digits**: `1` and `0`.
 
@@ -89,11 +90,15 @@ For example:
 101 = 1 * 2 ^ 2 + 0 * 2 ^ 1 + 1 * 2 ^ 0 = 
     = 4 + 0 + 1 = 
     = 5 
+```
 
+```java
 1010 = 1 * 2 ^ 3 + 0 * 2 ^ 2 + 1 * 2 ^ 1 + 0 * 2 ^ 0 = 
      = 8 + 0 + 2 + 0 =
      = 10 
+```
 
+```java
 1011 = 1 * 2 ^ 3 + 0 * 2 ^ 2 + 1 * 2 ^ 1 + 1 * 2 ^ 0 = 
      = 1 * 8 + 0 * 4 + 1 * 2 + 1 * 1 =
      = 8 + 0 + 2 + 1 =
@@ -105,11 +110,11 @@ For example:
 For example the binary number `1010 0010 1110 0011 1111` can be converted to hex by splitting the number into groups of 4 bits, like it is shown, and taking the **hex digit for each 4 binary digit**: 
 ```java
 1010 0010 1110 0011 1111 = A2E3F
-1010b = 10 = A
-0010b = 2 = 2
-1110b = 14 = E
-0011b = 3 = 3
-1111b = 15 = F
+1010 = 10 = A
+0010 = 2 = 2
+1110 = 14 = E
+0011 = 3 = 3
+1111 = 15 = F
 ```
 
 [/slide]
@@ -117,7 +122,7 @@ For example the binary number `1010 0010 1110 0011 1111` can be converted to hex
 
 [slide]
 
-## Hexadecimal System
+# Hexadecimal System
 
 **Hexadecimal numbers** (also known as hex numbers) are widely used in computer science. Hex numbers use **base 16** and are represented by a sequence of hex digits. 
 
@@ -168,20 +173,20 @@ In programming hex numbers are used for memory addresses, also to represent 8-bi
 
 [slide]
 
-## Problem: Binary Digits Count
+# Problem: Binary Digits Count
 
-## Solution: Binary Digits Count
+# Solution: Binary Digits Count
 
-## Problem: First Bit
+# Problem: First Bit
 
-## Solution: First Bit
+# Solution: First Bit
 
-## Problem: n-th Bit
+# Problem: n-th Bit
 
-## Solution: n-th Bit
+# Solution: n-th Bit
 
-## Problem: Bit Destroyer
+# Problem: Bit Destroyer
 
-## Solution: Bit Destroyer
+# Solution: Bit Destroyer
 
 [/slide]
