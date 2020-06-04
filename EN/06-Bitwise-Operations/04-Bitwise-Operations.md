@@ -7,4 +7,6 @@ It is possible to read and write bits from given integer number using **bit mask
 
 
 
+
+
 [/slide]
