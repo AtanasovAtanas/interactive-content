@@ -27,11 +27,11 @@ Events will be in the following format:
 
 - `Plunder=>{town}=>{people}=>{gold}`:
 
-You have successfully attacked and plundered the town, killing the given number of people and stealing the respective amount of gold. 
+You have successfully attacked and plundered the town, killing the given number of people and stealing the respective amount of gold.
 
 For every town you attack print this message:
 
- `{town} plundered! {gold} gold stolen, {people} citizens killed.`
+`{town} plundered! {gold} gold stolen, {people} citizens killed.`
 
 If any of those two values (population or gold) reaches zero, the town is disbanded.
 
