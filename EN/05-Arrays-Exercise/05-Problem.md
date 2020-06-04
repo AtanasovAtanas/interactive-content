@@ -1,3 +1,15 @@
+# Problem: Top Integers
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="425450170"  default /]
+[stream language="RO" videoId="425465009" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Top Integers
 [code-task title="Top Integers" taskId="python-fund-08-Arrays-Exercise-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]

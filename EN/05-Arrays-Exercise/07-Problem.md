@@ -1,3 +1,15 @@
+# Problem: Max Sequence of Equal Elements
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="425450135"  default /]
+[stream language="RO" videoId="425464974" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Max Sequence of Equal Elements
 [code-task title="Max Sequence of Equal Elements" taskId="python-fund-08-Arrays-Exercise-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]

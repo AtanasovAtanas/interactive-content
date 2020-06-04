@@ -1,3 +1,15 @@
+# Problem: Train
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="425450208"  default /]
+[stream language="RO" videoId="425465055" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Train
 [code-task title="Train" taskId="python-fund-08-Arrays-Exercise-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput requiresInput]

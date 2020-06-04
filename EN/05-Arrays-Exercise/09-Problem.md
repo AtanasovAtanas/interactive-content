@@ -1,3 +1,15 @@
+# Problem: LadyBugs
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="425450043"  default /]
+[stream language="RO" videoId="425464910" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: LadyBugs
 [code-task title="LadyBugs" taskId="python-fund-08-Arrays-Exercise-problem-9" executionType="tests-execution" executionStrategy="python-code" requiresInput]

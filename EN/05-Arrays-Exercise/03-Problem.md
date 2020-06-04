@@ -1,3 +1,15 @@
+# Problem: Zig-Zag Arrays
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="425450245"  default /]
+[stream language="RO" videoId="425465077" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Zig-Zag Arrays
 [code-task title="Zig-Zag Arrays" taskId="python-fund-08-Arrays-Exercise-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
