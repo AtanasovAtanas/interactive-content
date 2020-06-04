@@ -68,9 +68,11 @@ If **it doesn't**, prints `Nothing to replace!`
 
 S`i`i`c`e`e`r`c`a`r`o`e`t`a`v`m`\!`:`?`:`a`h`s`o`t`t`.`:`i`:`n`s`t`u`p`m`o`m`c`e`q`r` \-\> `icecream::hot::summer`
 
-We only take the chars at odd indices 1, 3, 5 etc.
+We only take the chars at odd indices 1, 3, 5 and so on.
 
-- Second command: `Cut 15  3` -\> icecream::hot::`sum`mer \-\> `sum`
+
+- Second command: `Cut 15  3` -\> icecream\:\:hot\:\:`sum`mer -\> `sum`
+
 
 `icecream::hot::mer`
 
