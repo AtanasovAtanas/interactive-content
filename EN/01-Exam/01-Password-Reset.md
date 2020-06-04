@@ -51,23 +51,24 @@ If **it doesn't**, prints `Nothing to replace!`
 
 - The indexes from the `Cut {index} {length}` command will always be valid.
 
-
 ## Examples
+
 | **Input** | **Output** |
 | --- | --- |
 | Siiceercaroetavm\!:\?:ahsott.:i:nstupmomceqr  | icecream::hot::summer |
 | TakeOdd | icecream::hot::mer |
 | Cut 15 3 | icecream-hot-mer |
-| Substitute :: \- | Nothing to replace! |
+| Substitute \:\: \- | Nothing to replace! |
 | Substitute \| \^ | Your password is: icecream-hot-mer |
 | Done |  |
 
 ### Comments
+
 S`i`i`c`e`e`r`c`a`r`o`e`t`a`v`m`\!`:`?`:`a`h`s`o`t`t`.`:`i`:`n`s`t`u`p`m`o`m`c`e`q`r` \-\> `icecream::hot::summer`
 
 We only take the chars at odd indices 1, 3, 5 etc.
 
-`Cut 15  3` \-\> icecream::hot::`sum`mer \-\> `sum`
+- `Cut 15  3` -\> icecream::hot::`sum`mer \-\> `sum`
 
 `icecream::hot::mer`
 
@@ -75,16 +76,15 @@ We cut a substring starting at index `15` with length `3`, **remove** it from th
 
 Then, on a new line, we print the resulting new raw password.
 
-`Substitute :: -` \-\> icecream`::`hot`::`summer \-\> icream`-`hot`-`summer
+- `Substitute :: -` -\> icecream`::`hot`::`summer \-\> icream`-`hot`-`summer
 
 We replace `::` with `-`.
 
-`Substitute | ^` \-\> `Nothing to replace!`
+- `Substitute | ^` -\> `Nothing to replace!`
 
 `|` is not found anywhere in the raw password.
 
 Finally, after receiving the `Done` command, we **print** the resulting password in the proper format.
-
 
 | **Input** | **Output** |
 | --- | --- |
@@ -92,7 +92,7 @@ Finally, after receiving the `Done` command, we **print** the resulting password
 | TakeOdd | programming!is!fun |
 | Cut 18 2 | programming\*\*\*is\*\*\*fun |
 | Substitute \! \*\*\* | Nothing to replace! |
-| Substitute ? .!. | Your password is: programming\*\*\*is\*\*\*fun |
+| Substitute \? .\!. | Your password is: programming\*\*\*is\*\*\*fun |
 | Done |  |
 
 [/task-description]
@@ -100,10 +100,10 @@ Finally, after receiving the `Done` command, we **print** the resulting password
 [tests]
 [test open]
 [input]
-Siiceercaroetavm!:?:ahsott.:i:nstupmomceqr 
+Siiceercaroetavm!:?:ahsott.:i:nstupmomceqr
 TakeOdd
 Cut 15 3
-Substitute :: -
+Substitute \:\: \-
 Substitute \| ^
 Done
 [/input]
