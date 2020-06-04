@@ -55,8 +55,8 @@ If **it doesn't**, prints `Nothing to replace!`
 
 | **Input** | **Output** |
 | --- | --- |
-| Siiceercaroetavm\!:\?:ahsott.:i:nstupmomceqr  | icecream::hot::summer |
-| TakeOdd | icecream::hot::mer |
+| Siiceercaroetavm\!:\?:ahsott.\:i\:nstupmomceqr  | icecream\:\:hot\:\:summer |
+| TakeOdd | icecream\:\:hot\:\:mer |
 | Cut 15 3 | icecream-hot-mer |
 | Substitute \:\: \- | Nothing to replace! |
 | Substitute \| \^ | Your password is: icecream-hot-mer |
@@ -92,7 +92,7 @@ Finally, after receiving the `Done` command, we **print** the resulting password
 
 | **Input** | **Output** |
 | --- | --- |
-| up8rgoyg3r1atmlmpiunagt\!\-irs7!1fgulnnnqy | programming!is!funny |
+| up8rgoyg3r1atmlmpiunagt\!\-irs7\!1fgulnnnqy | programming\!is\!funny |
 | TakeOdd | programming!is!fun |
 | Cut 18 2 | programming\*\*\*is\*\*\*fun |
 | Substitute \! \*\*\* | Nothing to replace! |
