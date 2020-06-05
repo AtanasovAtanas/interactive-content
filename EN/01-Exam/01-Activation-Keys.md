@@ -1,6 +1,6 @@
 [slide]
 # Problem 1. Activation Keys
-[code-task title="Problem 1. Activation Keys" taskId="e82d366e-715b-4084-82c5-cda3e5dae5cd" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem 1. Activation Keys" taskId="Python-fundamentals-regex-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here
@@ -52,47 +52,24 @@ After the `Generate` command is received, print:
 | **Input** | **Output** |
 | --- | --- |
 | abcdefghijklmnopqrstuvwxyz | abghijklmnopqrstuvwxyz |
-| Slice\>\>\>2\>\>\>6 | abgHIJKLMNOPQRstuvwxyz |
-| Flip\>\>\>Upper\>\>\>3\>\>\>14 | abgHIjkLMNOPQRstuvwxyz |
-| Flip\>\>\>Lower\>\>\>5\>\>\>7 | Substring not found! |
-| Contains\>\>\>def | Substring not found! |
-| Contains\>\>\>deF | Your activation key is: abgHIjkLMNOPQRstuvwxyz |
+| Slice>>>2>>>6 | abgHIJKLMNOPQRstuvwxyz |
+| Flip>>>Upper>>>3>>>14 | abgHIjkLMNOPQRstuvwxyz |
+| Flip>>>Lower>>>5>>>7 | Substring not found! |
+| Contains>>>def | Substring not found! |
+| Contains>>>deF | Your activation key is: abgHIjkLMNOPQRstuvwxyz |
 | Generate |  |
-
-### Comments
-
-- `Slice>>2>>6`:
-
-ab**cdef**ghijklmnopqrstuvwxyz becomes `abghijklmnopqrstuvwxyz`
-
-- `Flip>>>Upper>>>3>>>14`:
-
-abg**hijklmnopqr**stuvwxyz becomes abg`HIJKLMNOPQR`stuvwxyz
-
-- `Flip>>>Lower>>>5>>>7`:
-
-abgHI**JK**LMNOPQRstuvwxyz becomes abgHI`jk`LMNOPQRstuvwxyz
-
-- `Contains>>>def`:
-
-`abgHIjkLMNOPQRstuvwxyz` does not contain `def`
-
-- `Contains>>>deF`:
-
-`abgHIjkLMNOPQRstuvwxyz` does not contain `deF`
-
-The final activation key is `abgHIjkLMNOPQRstuvwxyz`
 
 | **Input** | **Output** |
 | --- | --- |
 | 134softsf5ftuni2020rockz42 | 134sf5ftuni2020rockz42 |
-| Slice\>\>\>3\>\>\>7 | Substring not found! |
-| Contains\>\>\>-rock | Substring not found! |
-| Contains\>\>\>-uni- | Substring not found! |
-| Contains\>\>\>-rocks | 134SF5FTuni2020rockz42 |
-| Flip\>\>\>Upper\>\>\>2\>\>\>8 | 134SF5ftuni2020rockz42 |
-| Flip\>\>\>Lower\>\>\>5\>\>\>11 | Your activation key is: 134SF5ftuni2020rockz42 |
+| Slice>>>3>>>7 | Substring not found! |
+| Contains>>>-rock | Substring not found! |
+| Contains>>>-uni- | Substring not found! |
+| Contains>>>-rocks | 134SF5FTuni2020rockz42 |
+| Flip>>>Upper>>>2>>>8 | 134SF5ftuni2020rockz42 |
+| Flip>>>Lower>>>5>>>11 | Your activation key is: 134SF5ftuni2020rockz42 |
 | Generate |  |
+
 
 [/task-description]
 [code-io /]
