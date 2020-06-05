@@ -49,7 +49,7 @@ Remove the **target at the given index** and the **ones before and after it depe
 
 `Strike 2 2`
 
-`{radius} {radius}` **\{strikeIndex\}** `{radius} {radius}`
+`{radius} {radius}` \{strikeIndex\} `{radius} {radius}`
 
 
 ## Examples
