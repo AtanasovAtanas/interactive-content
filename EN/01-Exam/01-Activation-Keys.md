@@ -1,20 +1,13 @@
 [slide]
 # Problem 1. Activation Keys
-[code-task title="Problem 1. Activation Keys" taskId="a711074e-87ab-436e-89fd-bfe15b215cab" executionType="tests-execution" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+[code-task title="Problem 1. Activation Keys" taskId="java-fundamentals-regex-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        // Write your code here
-    }
-}
+# Wirte your code here
 ```
 [/code-editor]
 [task-description]
 ## Description
-
 The first line of the input will be your raw activation key. It will consist of **letters and numbers only**.
 
 After that, until the **Generate** command is given, you will be receiving strings with instructions for different operations that need to be performed upon the raw activation key.
