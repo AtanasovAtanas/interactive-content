@@ -361,9 +361,11 @@ yes
 [/slide]
 [slide]
 
+[slide]
+
 # Problem: Semantic Tables
 
-[code-task title="Semantic Tables" taskId="1a76ca0d-45a5-449f-a191-b57600b4a08b" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+[code-task title="Problem: Semantic Tables" taskId="1a76ca0d-45a5-449f-a191-b57600b4a08b" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
 
@@ -380,7 +382,7 @@ yes
 * Use **tr** tag for rows
 * Use **th** and **td** tags for columns
 
-You can find an example view [here](https://i.imgur.com/qMo87dX.png)
+You can find an example view [here](https://i.imgur.com/ynL1Z62.png)
 
 You can download the resources [here](https://mega.nz/file/yA5CjYzA#XIxxNTzti9_h3k-igNY2LSHFvBoBOstZg2EAxGnnI8U)
 
@@ -389,7 +391,8 @@ You can download the resources [here](https://mega.nz/file/yA5CjYzA#XIxxNTzti9_h
 [tests]
 [test open]
 [input]
-expect(document.title).to.equal("Simple Data Table","Incorrect title name.");
+let title = (document.title);
+expect(title).to.be.equal('Semantic Tables', "Incorrect title name.")
 [/input]
 [output]
 yes
@@ -397,9 +400,9 @@ yes
 [/test]
 [test]
 [input]
-let h2 = $("body").find("h2");
-expect(h2).to.have.lengthOf(1,"Incorrect amount of h2 tag.");
-expect(h2.text()).to.include("HTML Table","Incorrect text in h2 tag.");
+let h1 = $("body").find("h1");
+expect(h1).to.have.lengthOf(1,"Incorrect amount of h1 tag.");
+expect(h1.text()).to.include("Diary","Incorrect text in h1 tag.");
 [/input]
 [output]
 yes
@@ -409,49 +412,6 @@ yes
 [input]
 let table = $("body \> table");
 expect(table).to.have.lengthOf(1,"Incorrect amount of table tag.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let tr = $("table").find("tr");
-expect(tr).to.have.lengthOf(7,"Incorrect amount of tr tags.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let th = $("body \> table \> thead \> tr \> th");
-expect(th).to.have.lengthOf(3, "Incorrect amount of th tags.")
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let tr = $("body \> table \> tbody \> tr");
-expect(tr).to.have.lengthOf(6,"Incorrect amount of tr tags in the tbody.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-expect($("body \> table \> tbody  tr:last-of-type  td:first-child").text()).to.include("Magazzini Alimentari Riuniti","Incorrect text in td tag in the tbody.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-expect($("body \> table  tr:last-of-type  td:last-of-type").text()).to.include("Italy","Incorrect text in td tag.")
 [/input]
 [output]
 yes
@@ -470,6 +430,60 @@ yes
 [input]
 let tbody = $("body \> table \> tbody");
 expect(tbody).to.have.lengthOf(1,"Incorrect amount of tbody tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tfoot = $("body \> table \> tfoot");
+expect(tfoot).to.have.lengthOf(1,"Incorrect amount of tfoot tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let th = $("body \> table \> thead \> tr \> th");
+expect(th).to.have.lengthOf(6,"Incorrect amount of th tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tr = $("body \> table \> tbody \> tr");
+expect(tr).to.have.lengthOf(3,"Incorrect amount of tr tags in tbody.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tr = $("body \> table tr");
+expect(tr).to.have.lengthOf(5,"Incorrect amount of tr tags in the table.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tr = $("body \> table \> tfoot \> tr");
+expect(tr).to.have.lengthOf(1,"Incorrect amount of tr tag in tfoot.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let td = $("body \> table \> tbody \> tr td");
+expect(td).to.have.lengthOf(18,"Incorrect amount of td tags in tbody.");
 [/input]
 [output]
 yes
