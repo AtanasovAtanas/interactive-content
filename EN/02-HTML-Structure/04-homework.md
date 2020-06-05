@@ -359,3 +359,122 @@ yes
 [/tests]
 [/code-task]
 [/slide]
+[slide]
+
+# Problem: Semantic Tables
+
+[code-task title="Semantic Tables" taskId="1a76ca0d-45a5-449f-a191-b57600b4a08b" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Create an index.html file with **Semantic Tables** title
+* Use **h1** tag for heading
+* Use **table** tag to create a table
+* Use **thead** tag for table head
+* Use **tbody** tag for table body
+* Use **tfoot** tag for table footer
+* Use **tr** tag for rows
+* Use **th** and **td** tags for columns
+
+You can find an example view [here](https://i.imgur.com/qMo87dX.png)
+
+You can download the resources [here](https://mega.nz/file/yA5CjYzA#XIxxNTzti9_h3k-igNY2LSHFvBoBOstZg2EAxGnnI8U)
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+expect(document.title).to.equal("Simple Data Table","Incorrect title name.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let h2 = $("body").find("h2");
+expect(h2).to.have.lengthOf(1,"Incorrect amount of h2 tag.");
+expect(h2.text()).to.include("HTML Table","Incorrect text in h2 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let table = $("body \> table");
+expect(table).to.have.lengthOf(1,"Incorrect amount of table tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tr = $("table").find("tr");
+expect(tr).to.have.lengthOf(7,"Incorrect amount of tr tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let th = $("body \> table \> thead \> tr \> th");
+expect(th).to.have.lengthOf(3, "Incorrect amount of th tags.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tr = $("body \> table \> tbody \> tr");
+expect(tr).to.have.lengthOf(6,"Incorrect amount of tr tags in the tbody.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("body \> table \> tbody  tr:last-of-type  td:first-child").text()).to.include("Magazzini Alimentari Riuniti","Incorrect text in td tag in the tbody.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("body \> table  tr:last-of-type  td:last-of-type").text()).to.include("Italy","Incorrect text in td tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let thead = $("body \> table \> thead");
+expect(thead).to.have.lengthOf(1,"Incorrect amount of thead tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tbody = $("body \> table \> tbody");
+expect(tbody).to.have.lengthOf(1,"Incorrect amount of tbody tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
