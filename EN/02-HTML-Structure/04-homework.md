@@ -608,3 +608,135 @@ yes
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+
+# Problem: Tags Cardio - Forms
+
+[code-task title="Problem: Tags Cardio - Forms" taskId="6322d59e-a1e3-4091-85bf-e6ead192e1d1" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Change the document **title** to **Forms**
+* Use a **form** tag
+* Use a **fieldset** tag with legend - **Customer Details**
+* Each **input** tag should have a **label** and should be inside a **div**
+* The **first** input field must be **focused**
+* The **3rd** and the **4th** input rows should be of **type="radio"**
+* The **5th** input tag should be of **type="email"** 
+* The **7th** label should have **select** tag and **option** tags with the city name values
+* The **8th** label should have **input** tag with **type="number"** (with **min** value - 18 and **max** value - 70)
+* The **9th** label should have **datalist** tag and **option** tags with the languages type value
+* The **10th** label should have **textarea** tag with **5 rows** and **20 columns**
+* The **11th** label should have **input** tag with **type="checkbox"** that is **checked**
+* The **12th** label should have **input** tag with **type="submit"** 
+* The **placeholders** are obligatory
+
+You can find an example view 1 [here](https://i.imgur.com/Tmmlrr4.png)
+
+You can find an example view 2 [here](https://i.imgur.com/XzGp5i1.png)
+
+You can find an example view 3 [here](https://i.imgur.com/lTJkhf4.png)
+
+You can download the resources [here](https://mega.nz/file/2RoBVJCK#h1WFPtz8tWg9ybzso5-13x2IqkACqQW5i9dmUPT_MeU)
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+expect(document.title).to.equal("Forms","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let form = $("body \> form");
+expect(form).to.have.lengthOf(1, "Incorrect amount of form tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let legend = $("body \> form \> fieldset \> legend");
+expect(legend).to.have.lengthOf(1, "Incorrect amount of legend tag.")
+expect(legend.text()).to.include("Customer Details","Incorrect text in the legend.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let datalist = $("body form datalist");
+expect(datalist).to.have.lengthOf(1, "Incorrect ammount of datalist tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let textarea = $("body form textarea");
+expect(textarea).to.have.lengthOf(1, "Incorrect amount of textarea tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let radio = $("body form input\[type='radio'\]");
+expect(radio).to.have.lengthOf(5, "Incorrect amount of input tags with type: radio.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let areaPlaceholder = $("body form textarea\[placeholder = 'More information...'\]");
+expect(areaPlaceholder).to.have.lengthOf(1,"Incorrect placeholder in textarea tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let textareaRows= $("body form textarea\[rows = '5'\]");
+expect(textareaRows).to.have.lengthOf(1,"Incorrect amount of rows in textarea.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let email = $("body form input\[type='email'\]");
+expect(email).to.have.lengthOf(1, "Incorrect input type.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let number = $("body form input\[type='number'\]\[min='18'\]");
+expect(number).to.have.lengthOf(1, "Incorrect min value in input field.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
