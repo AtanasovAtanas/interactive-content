@@ -1,6 +1,4 @@
-[slide]
 # Representation of Data
-[/slide]
 
 [slide]
 # Representation of Integers
