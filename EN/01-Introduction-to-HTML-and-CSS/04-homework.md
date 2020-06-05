@@ -167,7 +167,7 @@ yes
 
 You can find an example view [here](https://i.imgur.com/OFIZzEc.png)
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/jNhzXKTQ#SrUcTz0oSFMTgzj3UqlPo5vMfvfql9fMhVwt0aqpvC4)
+You can DOWNLOAD the resources [here](https://mega.nz/file/udoAHCBI#m0lErwm3xJFfHmtX2tTc0Xs17p4G6xrL04bFL-6ST2g)
 
 [/task-description]
 
