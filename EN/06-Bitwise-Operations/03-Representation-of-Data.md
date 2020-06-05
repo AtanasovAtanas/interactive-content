@@ -7,7 +7,7 @@
 
 Integers can be **signed** or **unsigned**. 
 
-- **Signed** integers can hold **positive and negative values**. They tend to be used more often. For example in the real world the daily temperature can be positive and negative, or zero. **Signed** integers in computer systems use their **leftmost bit** as sign, where bit value `0` means **positive** number (or zero number) and `1` means **negative** number. This bit is called also `MSB` (most significant bit). 
+- **Signed** integers can hold **positive and negative values**. They tend to be used more often. For example, in the real world the daily temperature can be positive and negative, or zero. **Signed** integers in computer systems use their **leftmost bit** as a sign, where bit value `0` means **positive** number (or zero number) and `1` means **negative** number. This bit is called also `MSB` (most significant bit). 
 
 - **Unsigned** integers can hold **only positive values**. Some values in the real world can only be positive, e.g. the numbers of students enrolled for a class. 
 
@@ -19,9 +19,9 @@ For example the **most-significant bit** (the bit at position 7) in given 8-bit 
 1YYYYYYY < 0  // 10010010b = -110
 ```
 
-**Positive 8-bit integers** have a **leading zero**, followed by **7 other bits**. Their format match the pattern `0XXXXXXX` (positive sign + 7 significant bits). Their value is the decimal value of their significant bits (the last 7 bits).
+**Positive 8-bit integers** have a **leading zero**, followed by **7 other bits**. Their format matches the pattern `0XXXXXXX` (positive sign + 7 significant bits). Their value is the decimal value of their significant bits (the last 7 bits).
 
-**Negative 8-bit integers** have a **leading one**, followed by **7 other bits**. Their format match the pattern `1YYYYYYY` (negative sign + 7 significant bits). Their value is -128 (which is minus 2 to the power of 7) plus the decimal value of their significant bits.
+**Negative 8-bit integers** have a **leading one**, followed by **7 other bits**. Their format matches the pattern `1YYYYYYY` (negative sign + 7 significant bits). Their value is -128 (which is minus 2 to the power of 7) plus the decimal value of their significant bits.
 
 ``` java
 10010010b = -27 + 0010010 =
@@ -79,24 +79,26 @@ Numbers like `1.5` or `0.25`, non-integer numbers, are called "real numbers". Co
 
 - and other devices. 
 
-This **IEEE-754 standard** represent how computers represent real numbers.
+This **IEEE-754 standard** represents how computers represent real numbers.
 
 The standard defines:
 
-- **Arithmetic formats** – representations of the binary and decimal floating-point data as sequence of bits and encodings in the memory.
+- **Arithmetic formats** – representations of the binary and decimal floating-point data as a sequence of bits and encodings in the memory.
 
-- **Rounding rules** -  representation of floating-point numbers. For example if `1` is divided by `3`, the result is an infinite decimal fraction, which is rounded before storing in the memory.
+- **Rounding rules** -  representation of floating-point numbers. For example, if `1` is divided by `3`, the result is an infinite decimal fraction, which is rounded before storing in the memory.
 
-- **Operations** – arithmetic and other operations over floating-point number, like sum, difference, product and quotient of two numbers.
+- **Operations** – arithmetic and other operations over a floating-point number, like sum, difference, product and quotient of two numbers.
 
-- **Special numbers** – such as infinity, negative infinity and "NaN" (not a number). These special values behave in a special way, defined by the standard. For example infinity plus one is equal to infinity.
+- **Special numbers** – such as infinity, negative infinity, and "NaN" (not a number). These special values behave especially, defined by the standard. For example, infinity plus one is equal to infinity.
 
 
 **Floating-point numbers** are stored as **sequence of bits**, which represent 3 separate parts: 
 
 - **Sign bit** - specifies whether the number is positive or negative
-- **Exponent** - holds the magnitude of the number, for example 220 or 2-3. It is a multiplier for the mantissa, used to represent very big numbers and numbers very close to zero.
-- **Mantissa** - holds the meaningful value of the number, it is so called "precision". Bigger mantissa means higher precision.
+
+- **Exponent** - holds the magnitude of the number, for example, 220 or 2-3. It is a multiplier for the mantissa, used to represent very big numbers and numbers very close to zero.
+
+- **Mantissa** - holds the meaningful value of the number, it is so-called "precision". Bigger mantissa means higher precision.
  
 For example this 32-bits represent the real number value:
 `1 10000011 01010010100000000000000 == -21.15625`
@@ -106,7 +108,7 @@ The second part is the exponent - `10000011`.
 And the third part is the mantissa - `01010010100000000000000`.
 
 There is a **floating-point numbers errors** in calculations and **precision**. 
-The main reason why calculations with floating-point numbers sometimes are incorrect, is that some numbers (like `0.3`) **cannot be represented in the above format without rounding** (as a sum of negative powers of 2).
+The main reason why calculations with floating-point numbers sometimes are incorrect is that some numbers (like `0.3`) **cannot be represented in the above format without rounding** (as a sum of negative powers of 2).
 
 
 [/slide]
@@ -116,7 +118,7 @@ The main reason why calculations with floating-point numbers sometimes are incor
 
 Computers represent **text characters** as **unsigned integer numbers**, which means that **letters** are **sequences of bits**, just like the numbers. 
 
-In computers the text characters are the letters from different alphabets, the digits, the punctuation chars, and other textual symbols in a text document. 
+In computers, the text characters are the letters from different alphabets, the digits, the punctuation chars, and other textual symbols in a text document. 
 
 ## ASCII Standard
 
@@ -124,11 +126,11 @@ The **ASCII standard** represent text characters as **8-bit integers**.
 
 It is one of the oldest standards in the computer industry, which defines **mappings between symbols and unsigned integers**. 
 
-**ASCII** comes from the abbreviation "American Standard Code for Information Interchange" and includes **only the English alphabet,  digits, many punctuation symbols and some special characters**. 
+**ASCII** comes from the abbreviation "American Standard Code for Information Interchange" and includes **only the English alphabet,  digits, many punctuation symbols, and some special characters**. 
 
 It simply assigns a **unique number for each letter** and thus allows letters to be **encoded as numbers**.
 
-The **ASCII standard** defines the so called **ASCII code** for **127 chars**, described in the **ASCII table**. 
+The **ASCII standard** defines the so-called **ASCII code** for **127 chars**, described in the **ASCII table**. 
 
 For example:
 ```java
@@ -145,9 +147,9 @@ This standard represents more than **100,000 text characters as 16-bit integers*
 
 Unlike ASCII it uses **more bits per character** and therefore it can represent texts in many languages and alphabets, like Latin, Cyrillic, Arabic, Chinese, Greek, Korean, Japanese, etc.
 
-Unicode is **universal by design**. It covers **more than 1 million** of letters, special symbols and glyphs and uses **internal encoding schemes** to overcome the range of the 16-bit integers (which can store 65536 different values). 
+Unicode is **universal by design**. It covers **more than 1 million** of letters, special symbols, and glyphs and uses **internal encoding schemes** to overcome the range of the 16-bit integers (which can store 65536 different values). 
 
-Unicode is developed over the time and with each new version, new characters are added, like the emoji symbols.
+Unicode is developed over time and with each new version, new characters are added, like the emoji symbols.
 
 For example:
 - The Latin letter `A` has Unicode number `65`.
@@ -166,21 +168,21 @@ The **most frequent characters**, such as the **Latin letters** and the **digits
 
 The **UTF-16** encoding use **2 bytes** for most Unicode characters and **4 bytes** for the others. The **UTF-8** encoding uses **1, 2, 3 or 4 bytes** for each character.
 
-The **UTF-8 standard** is used by most of the Web sites in Internet to represent the text data in these sites. UTF-8 is more efficient for storage and transportation, while UTF-16 is more efficient for internal character processing.
+The **UTF-8 standard** is used by most of the Web sites on the Internet to represent the text data in these sites. UTF-8 is more efficient for storage and transportation, while UTF-16 is more efficient for internal character processing.
 
-This is the reason why C#, Java, JavaScript and Python use UTF-16 to store and process text data in the computer memory, but HTML, CSS and HTTP use UTF-8 (in most cases) to represent and transport Web content between the Web server and the Web browser.
+This is the reason why C#, Java, JavaScript, and Python use UTF-16 to store and process text data in the computer memory, but HTML, CSS, and HTTP use UTF-8 (in most cases) to represent and transport Web content between the Web server and the Web browser.
 
 
 ## Sequences of Characters - String
 
-**ASCII** and **Unicode** define how a **single character** can be represented **by an integer number**. In programming the sequence of characters (text data) is called `String`.
+**ASCII** and **Unicode** define how a **single character** can be represented **by an integer number**. In programming, the sequence of characters (text data) is called `String`.
 
 `Strings` are arrays of characters, typically represented like this: 4 bytes length, followed by 2 bytes for each character.
 
 For example:
 The string `Hello` takes **14 bytes** in the computer memory (for the most platforms and programming languages). These 14 bytes are calculated as follows: **4 bytes (length) plus 5 chars by 2 bytes each**. 
 
-In most languages and platforms **strings** hold their **size as prefix**. For example, in C#, Java, JavaScript and Python strings hold their **length at the start**.
+In most languages and platforms **strings** hold their **size as prefix**. For example, in C#, Java, JavaScript, and Python strings hold their **length at the start**.
 
 Aside from the string length, the **characters** in the string can be **single-byte or multi-byte**.
 The **characters** in the strings in C#, Java, JavaScript and Python use the **16-bit** encoding `UTF-16`.
