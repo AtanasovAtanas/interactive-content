@@ -1,3 +1,14 @@
+# Problem: Elevator
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="425479929" default /]
+[stream language="RO" videoId="425478254"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Elevator
 [code-task title="Elevator" taskId="java-fund-05-Data Types-Exercise-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]

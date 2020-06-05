@@ -1,3 +1,14 @@
+# Problem: Beer Kegs
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="425480025" default /]
+[stream language="RO" videoId="425478330"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Beer Kegs
 [code-task title="Beer Kegs" taskId="java-fund-05-Data Types-Exercise-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
