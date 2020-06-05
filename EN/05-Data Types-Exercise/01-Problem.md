@@ -1,3 +1,14 @@
+# Problem: Integer Operations
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="425479885" default /]
+[stream language="RO" videoId="425478220"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Integer Operations
 [code-task title="Integer Operations" taskId="java-fund-05-Data Types-Exercise-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]

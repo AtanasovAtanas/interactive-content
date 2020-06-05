@@ -1,3 +1,14 @@
+# Problem: Snowballs
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="425480088" default /]
+[stream language="RO" videoId="425478382"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Snowballs
 [code-task title="Snowballs" taskId="java-fund-05-Data Types-Exercise-problem-11" executionType="tests-execution" executionStrategy="java-code" requiresInput]
