@@ -17,7 +17,7 @@ public class Main {
 
 Create a program that calculates **bonus points** for each **student**, for a certain course.
 
-On the first line, you are going to receive t**he count of the students** for this course.
+On the first line, you are going to receive **the count of the students** for this course.
 
 **In the second line**, you will receive **the count of the lectures** in the course.
 
@@ -41,11 +41,11 @@ Round the bonus points at the end to **the nearest bigger number**.
 
 ### Input \/ Constrains
 
-- On the **first line**, you are going to receive the count of the students – an integer number in the range \[0…50\].
+- On the **first line**, you are going to receive the count of the students – an integer number in the range 0…50.
 
-- On the **second line**, you are going to receive the count of the lectures – an integer number in the range \[0...50\].
+- On the **second line**, you are going to receive the count of the lectures – an integer number in the range 0...50.
 
-- On the **third line**, you are going to receive **the initial bonus** – an integer number in the range \[0….100\].
+- On the **third line**, you are going to receive **the initial bonus** – an integer number in the range 0….100.
 
 - **In the next lines**, you will be receiving the **attendance of each student**.
 
