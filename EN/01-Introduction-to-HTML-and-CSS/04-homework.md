@@ -76,7 +76,7 @@ yes
 
 You can find an example view [here](https://i.imgur.com/r2uiWda.png)
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/qEoV3L7C#jQJ7I-58gmbQjVDBmVRt02x6PWLRhAZdcx0vKBWzTZk)
+You can DOWNLOAD the resources [here](https://mega.nz/file/3Qp2hQTT#uc-eYG1FPqQ5sm9sKl4XIqJRUVcA6tAoNvBuhtPwJ4Q)
 
 [/task-description]
 
