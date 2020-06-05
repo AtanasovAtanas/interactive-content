@@ -169,24 +169,3 @@ F = 1111
 In programming hex numbers are used for memory addresses, also to represent 8-bit, 16-bit, and 32-bit values and in many situations related to bit sequences and bytes.
 
 [/slide]
-
-
-[slide]
-
-# Problem: Binary Digits Count
-
-# Solution: Binary Digits Count
-
-# Problem: First Bit
-
-# Solution: First Bit
-
-# Problem: n-th Bit
-
-# Solution: n-th Bit
-
-# Problem: Bit Destroyer
-
-# Solution: Bit Destroyer
-
-[/slide]
