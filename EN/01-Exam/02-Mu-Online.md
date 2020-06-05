@@ -96,11 +96,11 @@ Print the corresponding messages, described above.
 rat 10\|bat 20\|potion 10\|rat 10\|chest 100\|boss 70\|chest 1000
 [/input]
 [output]
-You slayed rat.
-You slayed bat.
+You slew rat.
+You slew bat.
 You healed for 10 hp.
 Current health: 80 hp.
-You slayed rat.
+You slew rat.
 You found 100 bitcoins.
 You died! Killed by boss.
 Best room: 6
@@ -111,12 +111,12 @@ Best room: 6
 cat 10\|potion 30\|orc 10\|chest 10\|snake 25\|chest 110
 [/input]
 [output]
-You slayed cat.
+You slew cat.
 You healed for 10 hp.
 Current health: 100 hp.
-You slayed orc.
+You slew orc.
 You found 10 bitcoins.
-You slayed snake.
+You slew snake.
 You found 110 bitcoins.
 You've made it!
 Bitcoins: 120
@@ -128,8 +128,8 @@ Health: 65
 rat 10\|bat 20
 [/input]
 [output]
-You slayed rat.
-You slayed bat.
+You slew rat.
+You slew bat.
 You've made it!
 Bitcoins: 0
 Health: 70
@@ -140,10 +140,10 @@ Health: 70
 rat 10\|bat 20\|cat 30\|dog 39
 [/input]
 [output]
-You slayed rat.
-You slayed bat.
-You slayed cat.
-You slayed dog.
+You slew rat.
+You slew bat.
+You slew cat.
+You slew dog.
 You've made it!
 Bitcoins: 0
 Health: 1
@@ -154,9 +154,9 @@ Health: 1
 rat 10\|bat 20\|cat 30\|dog 40
 [/input]
 [output]
-You slayed rat.
-You slayed bat.
-You slayed cat.
+You slew rat.
+You slew bat.
+You slew cat.
 You died! Killed by dog.
 Best room: 4
 [/output]
@@ -192,7 +192,7 @@ Health: 100
 cat 40\|potion 30
 [/input]
 [output]
-You slayed cat.
+You slew cat.
 You healed for 30 hp.
 Current health: 90 hp.
 You've made it!
@@ -205,7 +205,7 @@ Health: 90
 cat 10\|potion 30
 [/input]
 [output]
-You slayed cat.
+You slew cat.
 You healed for 10 hp.
 Current health: 100 hp.
 You've made it!
@@ -218,7 +218,7 @@ Health: 100
 dog 10\|potion 30
 [/input]
 [output]
-You slayed dog.
+You slew dog.
 You healed for 10 hp.
 Current health: 100 hp.
 You've made it!
@@ -231,11 +231,11 @@ Health: 100
 a 10\|b 20\|potion 10\|c 30\|chest 10\|chest 1000\|d 50\|chest 1000
 [/input]
 [output]
-You slayed a.
-You slayed b.
+You slew a.
+You slew b.
 You healed for 10 hp.
 Current health: 80 hp.
-You slayed c.
+You slew c.
 You found 10 bitcoins.
 You found 1000 bitcoins.
 You died! Killed by d.
@@ -247,12 +247,12 @@ Best room: 7
 cat 10\|potion 30\|orc 10\|chest 10\|snake 25\|chest 110\|chest 100\|potion 1000\|DRAGON 1000
 [/input]
 [output]
-You slayed cat.
+You slew cat.
 You healed for 10 hp.
 Current health: 100 hp.
-You slayed orc.
+You slew orc.
 You found 10 bitcoins.
-You slayed snake.
+You slew snake.
 You found 110 bitcoins.
 You found 100 bitcoins.
 You healed for 35 hp.
