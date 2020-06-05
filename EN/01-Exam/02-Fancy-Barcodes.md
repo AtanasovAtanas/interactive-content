@@ -1,6 +1,6 @@
 [slide]
 # Problem 2. Fancy Barcodes
-[code-task title="Problem 2. Fancy Barcodes" taskId="ae081ea3-db93-4e1b-a228-dbce36321a74" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem 2. Fancy Barcodes" taskId="d4fd19ae-29f9-4122-b3c1-785f210ea7d9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here
@@ -8,7 +8,6 @@
 [/code-editor]
 [task-description]
 ## Description
-
 Your first task is to determine if the given sequence of characters is a **valid** barcode or **not**.
 
 **Each line must not contain anything else but a valid barcode**. A barcode is valid when:
@@ -25,7 +24,7 @@ Your first task is to determine if the given sequence of characters is a **valid
 
 Examples of valid barcodes:`@#FreshFisH@#`, `@###Brea0D@###`, `@##Che46sE@##`, `@##Che46sE@###`
 
-Examples of **invalid** barcodes: **\#\#InvaliDiteM\#\#**, **@InvalidIteM@**, **@\#Invalid_IteM@\#**
+Examples of **invalid** barcodes: \#\#InvaliDiteM\#\#, @InvalidIteM@, @\#Invalid_IteM@\#
 
 Next, you have to determine the **product group** of the item from the **barcode**.
 
@@ -59,25 +58,23 @@ If the barcode is valid:
 
 - `Product group: {product group}`
 
-
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
 | 3 | Product group: 00 |
-| @\#FreshFisH@\# | Product group: 0 |
-| @\#\#\#Brea0D@\#\#\# | Product group: 46 |
-| @\#\#Che4s6E@\#\# |  |
-
+| @#FreshFisH@# | Product group: 0 |
+| @###Brea0D@### | Product group: 46 |
+| @##Che4s6E@## |  |
 
 | **Input** | **Output** |
 | --- | --- |
 | 6 | Product group: 11 |
-| @\#\#\#Val1d1teM@\#\#\# | Product group: 00 |
-| @\#ValidIteM@\# | Invalid barcode |
-| \#\#InvaliDiteM\#\# | Invalid barcode |
+| @###Val1d1teM@### | Product group: 00 |
+| @#ValidIteM@# | Invalid barcode |
+| ##InvaliDiteM## | Invalid barcode |
 | @InvalidIteM@ | Invalid barcode |
-| @\#Invalid_IteM@\# | Product group: 00 |
-| @\#ValiditeM@\# |  |
+| @#Invalid_IteM@# | Product group: 00 |
+| @#ValiditeM@# |  |
 
 
 [/task-description]
