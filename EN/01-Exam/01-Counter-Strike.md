@@ -25,7 +25,7 @@ The **energy** you need for reaching an enemy is **equal to the distance you rec
 
 Each time you reach an enemy, your **energy is reduced**.
 
-This is considered a successful battle **\(win\)**.
+This is considered a successful battle **win**.
 
 If you don't have **enough energy** to reach the enemy, print:
 
@@ -35,15 +35,15 @@ and **end the program**.
 
 Every **third won battle** increases **your energy with the value of your current count of won battles**.
 
-Upon receiving the **"End of battle"** command, print the **count of won battles** in the following format:
+Upon receiving the `End of battle` command, print the **count of won battles** in the following format:
 
 `Won battles: {count}. Energy left: {energy}`
 
 ## Input \/ Constraints
 
-- On the **first line**, you will receive **initial energy** – an **integer \[1-10000\]**
+- On the **first line**, you will receive **initial energy** – an **integer 1-10000**
 
-- On the **next lines**, you will be receiving distance of the enemy – **an integer \[1-10000\]**
+- On the **next lines**, you will be receiving distance of the enemy – **an integer 1-10000**
 
 ## Output
 
