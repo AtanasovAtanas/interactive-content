@@ -359,7 +359,6 @@ yes
 [/tests]
 [/code-task]
 [/slide]
-[slide]
 
 [slide]
 
