@@ -8,6 +8,7 @@
 [/code-editor]
 [task-description]
 ## Description
+
 The first line of the input will be your raw activation key. It will consist of **letters and numbers only**.
 
 After that, until the **Generate** command is given, you will be receiving strings with instructions for different operations that need to be performed upon the raw activation key.
@@ -52,22 +53,22 @@ After the `Generate` command is received, print:
 | **Input** | **Output** |
 | --- | --- |
 | abcdefghijklmnopqrstuvwxyz | abghijklmnopqrstuvwxyz |
-| Slice>>>2>>>6 | abgHIJKLMNOPQRstuvwxyz |
-| Flip>>>Upper>>>3>>>14 | abgHIjkLMNOPQRstuvwxyz |
-| Flip>>>Lower>>>5>>>7 | Substring not found! |
-| Contains>>>def | Substring not found! |
-| Contains>>>deF | Your activation key is: abgHIjkLMNOPQRstuvwxyz |
+| Slice\>\>\>2\>\>\>6 | abgHIJKLMNOPQRstuvwxyz |
+| Flip\>\>\>Upper\>\>\>3\>\>\>14 | abgHIjkLMNOPQRstuvwxyz |
+| Flip\>\>\>Lower\>\>\>5\>\>\>7 | Substring not found! |
+| Contains\>\>\>def | Substring not found! |
+| Contains\>\>\>deF | Your activation key is: abgHIjkLMNOPQRstuvwxyz |
 | Generate |  |
 
 | **Input** | **Output** |
 | --- | --- |
 | 134softsf5ftuni2020rockz42 | 134sf5ftuni2020rockz42 |
-| Slice>>>3>>>7 | Substring not found! |
-| Contains>>>-rock | Substring not found! |
-| Contains>>>-uni- | Substring not found! |
-| Contains>>>-rocks | 134SF5FTuni2020rockz42 |
-| Flip>>>Upper>>>2>>>8 | 134SF5ftuni2020rockz42 |
-| Flip>>>Lower>>>5>>>11 | Your activation key is: 134SF5ftuni2020rockz42 |
+| Slice\>\>\>3\>\>\>7 | Substring not found! |
+| Contains\>\>\>\-rock | Substring not found! |
+| Contains\>\>\>\-uni\- | Substring not found! |
+| Contains\>\>\>\-rocks | 134SF5FTuni2020rockz42 |
+| Flip\>\>\>Upper\>\>\>2\>\>\>8 | 134SF5ftuni2020rockz42 |
+| Flip\>\>\>Lower\>\>\>5\>\>\>11 | Your activation key is: 134SF5ftuni2020rockz42 |
 | Generate |  |
 
 
