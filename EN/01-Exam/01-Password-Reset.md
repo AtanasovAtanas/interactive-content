@@ -90,14 +90,6 @@ We replace `::` with `-`.
 
 Finally, after receiving the `Done` command, we **print** the resulting password in the proper format.
 
-| **Input** | **Output** |
-| --- | --- |
-| up8rgoyg3r1atmlmpiunagt\!\-irs7\!1fgulnnnqy | programming\!is\!funny |
-| TakeOdd | programming!is!fun |
-| Cut 18 2 | programming\*\*\*is\*\*\*fun |
-| Substitute \! \*\*\* | Nothing to replace! |
-| Substitute \? .\!. | Your password is: programming\*\*\*is\*\*\*fun |
-| Done |  |
 
 [/task-description]
 [code-io /]
@@ -119,7 +111,6 @@ Nothing to replace!
 Your password is\: icecream\-hot\-mer
 [/output]
 [/test]
-[test open]
 [input]
 up8rgoyg3r1atmlmpiunagt!-irs7!1fgulnnnqy
 TakeOdd
