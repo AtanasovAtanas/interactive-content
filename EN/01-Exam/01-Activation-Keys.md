@@ -1,6 +1,6 @@
 [slide]
 # Problem 1. Activation Keys
-[code-task title="Problem 1. Activation Keys" taskId="java-fundamentals-regex-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Problem 1. Activation Keys" taskId="e82d366e-715b-4084-82c5-cda3e5dae5cd" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Wirte your code here
