@@ -1,9 +1,15 @@
 [slide]
 # Problem 1. Activation Keys
-[code-task title="Problem 1. Activation Keys" taskId="e3dc2248-f398-477b-846b-388a426c6361" executionType="tests-execution" executionStrategy="python-code" requiresInput]
-[code-editor language=python]
+[code-task title="Problem 1. Activation Keys" taskId="a711074e-87ab-436e-89fd-bfe15b215cab" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-# Wirte your code here
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
 ```
 [/code-editor]
 [task-description]
