@@ -79,7 +79,7 @@ Print the following message:
 
 - On the next `n` lines, the heroes themselves will follow with their **hit points** and **mana points** separated by empty space in the following format
 
-- You will be receiving different **commands**, each on a new line, separated by ` – ` (dash space dash), until the `End` command is given
+- You will be receiving different **commands**, each on a new line, separated by ` – ` (space dash space ), until the `End` command is given
 
 ### Output
 
