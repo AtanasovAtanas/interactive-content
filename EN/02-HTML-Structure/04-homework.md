@@ -491,3 +491,120 @@ yes
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+
+# Problem: Tags Cardio - DataTable
+
+[code-task title="Problem: Tags Cardio - DataTable" taskId="577b8f22-44cb-4b4b-9a25-ad9661ffbb3a" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Change the document **title** to **Simple Data Table**
+* Use **h2** tag for heading
+* Use **table**, **thead**, and **tbody** tags to create table 
+* Use **tr** tag for rows
+* Use **th** and **td** tags for columns
+
+You can find an example view [here](https://i.imgur.com/fpTEm46.png) .
+
+You can download the resources [here](https://mega.nz/file/XFxmgIbZ#DnaoFqIPEIQ_z1AAwEt1VIBKMqUe7VA0b6nBDm8Yzaw)
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+expect(document.title).to.equal("Simple Data Table","Incorrect title name.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let h2 = $("body").find("h2");
+expect(h2).to.have.lengthOf(1,"Incorrect amount of h2 tag.");
+expect(h2.text()).to.include("HTML Table","Incorrect text in h2 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let table = $("body \> table");
+expect(table).to.have.lengthOf(1,"Incorrect amount of table tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tr = $("table").find("tr");
+expect(tr).to.have.lengthOf(7,"Incorrect amount of tr tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let th = $("body \> table \> thead \> tr \> th");
+expect(th).to.have.lengthOf(3, "Incorrect amount of th tags.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tr = $("body \> table \> tbody \> tr");
+expect(tr).to.have.lengthOf(6,"Incorrect amount of tr tags in the tbody.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("body \> table \> tbody  tr:last-of-type  td:first-child").text()).to.include("Magazzini Alimentari Riuniti","Incorrect text in td tag in the tbody.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("body \> table  tr:last-of-type  td:last-of-type").text()).to.include("Italy","Incorrect text in td tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let thead = $("body \> table \> thead");
+expect(thead).to.have.lengthOf(1,"Incorrect amount of thead tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let tbody = $("body \> table \> tbody");
+expect(tbody).to.have.lengthOf(1,"Incorrect amount of tbody tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
