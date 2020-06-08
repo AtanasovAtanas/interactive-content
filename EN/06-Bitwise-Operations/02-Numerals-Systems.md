@@ -5,7 +5,7 @@
 
 - The **decimal system** that is used every day.
 
-- The **binary system** which is native to computer systems used to represent numbers and data with bits, 
+- The **binary system** which is native to computer systems used to represent numbers and data with bits.
 
 - The **hexadecimal numeral system** and its power to write large binary **numbers** in just a few digits. 
 
