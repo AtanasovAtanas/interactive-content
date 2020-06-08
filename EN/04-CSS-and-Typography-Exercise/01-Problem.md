@@ -33,7 +33,7 @@ yes
 [/test]
 [test open]
 [input]
-expect($("body").css('background')).to.equal('rgb(51, 102, 153)', "Incorrect background color.");
+expect($("body").css("background")).to.equal("rgb(51, 102, 153)", "Incorrect background color.");
 [/input]
 [output]
 yes
@@ -50,7 +50,7 @@ yes
 [/test]
 [test open]
 [input]
-expect($("body").css('color')).to.equal('white', "Incorrect text color.");
+expect($("body").css("color")).to.equal("white", "Incorrect text color.");
 [/input]
 [output]
 yes
