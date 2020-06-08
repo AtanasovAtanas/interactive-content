@@ -41,7 +41,7 @@ yes
 [/test]
 [test]
 [input]
-let h1 = $("body \> h1");
+let h1 = $("body > h1");
 expect(h1).to.have.lengthOf(1,"Incorrect amount of h1 tag.");
 [/input]
 [output]
@@ -67,7 +67,7 @@ yes
 [/test]
 [test]
 [input]
-let h2 = $("body \> h2");
+let h2 = $("body > h2");
 expect(h2).to.have.lengthOf(1,"Incorrect amount of h2 tag.");
 [/input]
 [output]
