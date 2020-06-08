@@ -118,9 +118,9 @@ Print the following message:
 
 `CastSpell` – Tyris does not have enough MP to cast the spell.
 
-`TakeDamage` – Tyris`s HP is reduced by 99, thus becoming -5, which means that he is dead.
+`TakeDamage` – Tyris's HP is reduced by 99, thus becoming -5, which means that he is dead.
 
-`TakeDamage` – Ivor`s HP is now -2, so he is dead too.
+`TakeDamage` – Ivor's HP is now -2, so he is dead too.
 
 After the `End` command we print the remaining living heroes, sorted by their HP in reverse order.
 
