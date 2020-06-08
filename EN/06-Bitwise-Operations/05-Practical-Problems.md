@@ -69,7 +69,7 @@ Your task is to write a program that finds the **number of binary digits (B) in 
 4
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 10
 0
