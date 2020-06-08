@@ -60,7 +60,7 @@ Your task is to write a program that finds the **number of binary digits (B) in 
 3
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 15
 1
@@ -145,7 +145,7 @@ Write a program that prints the bit at position 1 of a number.
 1
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 51
 [/input]
@@ -153,7 +153,7 @@ Write a program that prints the bit at position 1 of a number.
 1
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 13
 [/input]
@@ -161,7 +161,7 @@ Write a program that prints the bit at position 1 of a number.
 0
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 24
 [/input]
@@ -241,7 +241,7 @@ Write a program that prints the bit at position p of a number.
 1
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 512
 0
@@ -250,7 +250,7 @@ Write a program that prints the bit at position p of a number.
 0
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 111
 8
@@ -259,7 +259,7 @@ Write a program that prints the bit at position p of a number.
 0
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 255
 7
@@ -339,7 +339,7 @@ Print the resulting number.
 1281
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 231
 2
@@ -348,7 +348,7 @@ Print the resulting number.
 227
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 111
 6
@@ -418,7 +418,7 @@ Find the number.
 3
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 5 7 2 7 5 2 5
 [/input]
@@ -482,7 +482,7 @@ Write a program that inverts the **3 bits** from position p to the left with the
 1874
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 44444
 4
