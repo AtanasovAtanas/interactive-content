@@ -39,7 +39,7 @@ expect($("body").css('background')).to.equal('rgb(51, 102, 153)', "Incorrect bac
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 let h1 = $("body > h1");
 expect(h1).to.have.lengthOf(1,"Incorrect amount of h1 tag.");
@@ -65,7 +65,7 @@ expect(p).to.have.lengthOf(5,"Incorrect amount of paragraphs.");
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 let h2 = $("body > h2");
 expect(h2).to.have.lengthOf(1,"Incorrect amount of h2 tag.");
