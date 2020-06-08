@@ -1,0 +1,460 @@
+# Practical Problems
+
+[slide]
+# Problem: Binary Digits Count
+[code-task title="Binary Digits Count" taskId="668c7f4a-fb4c-4eec-bd0b-1a353ddddcff" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+You are given a **positive integer** number and one **binary digit B** (0 or 1).
+
+Your task is to write a program that finds the **number of binary digits (B) in a number**.
+
+## Hints
+
+- Declare **two** variables **(n and b)**.
+
+- Read the user input from the console.
+
+- Convert the n into **binary representation** (you can use built-in method).
+
+- Count the **b** digit in the binary number.
+
+- Print the result on the console.
+
+## Examples
+| **Input** | **Output** | **Comments** |
+| --- | --- | --- |
+| 20 | 3 | 20 -> 10100 |
+| 0 |  |  |
+
+| **Input** | **Output** | **Comments** |
+| --- | --- | --- |
+| 15 | 4 | 15 -> 1111 |
+| 1 |  |  |
+
+| **Input** | **Output** | **Comments** |
+| --- | --- | --- |
+| 10 | 2 | 10 -> 1010 |
+| 0 |  |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+20
+0
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+15
+1
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+10
+0
+[/input]
+[output]
+2
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+
+[slide]
+# Problem: First Bit
+[code-task title="First Bit" taskId="b4adfdde-6613-4af0-86bd-cabc5d3f29e0" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that prints the bit at position 1 of a number.
+
+## Hints
+
+- Declare **two** variables (n and bitAtPosition1). 
+
+- **Read** the user input from the console. 
+
+- **Find** the **value** of the **bit at position 1** (position 1 is the second bit from right to left: [7, 6, 5, 4, 3, 2, 1, 0]): 
+
+  - **Shift** the number **n** times to the **right** (where **n** is the position, in this case it is **1**) by using the `>>` operator. In that way the bit we want to check will be at position `0`;
+
+  - **Find** the bit at **position 0**. Use **& 1** operator expression to extract the value of a bit. By using the following **formulae** (bitAtPosition1 1) you **check** whether the bit at **position 0** is equal to **1** or **not**. If the bit is **equal** to **1** the **result** is **1** if the bit is **not equal** - the **result is 0**;
+
+  - **Save** the result in **bitAtPosition1**;
+
+- **Print** the result on the console.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 2 | 1 |
+
+| **Input** | **Output** |
+| --- | --- |
+| 51 | 1 |
+
+| **Input** | **Output** |
+| --- | --- |
+| 13 | 0 |
+
+| **Input** | **Output** |
+| --- | --- |
+| 24 | 0 |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+2
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+51
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+13
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+24
+[/input]
+[output]
+0
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Problem: p-th Bit
+[code-task title="p-th Bit" taskId="568caa22-8c69-4983-8250-ae5e874464ad" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that prints the bit at position p of a number.
+
+## Hints
+
+- Declare **three** variables (n, p and bitAtPositionP). 
+
+- **Read** the user input from the console. 
+
+- **Find** the **value** of the **bit at position p**: 
+
+  - **Shift** the number **p** times to the **right** (where **p** is the position) by using the **>>** operator. In that way the bit we want to check will be at position **0**;
+
+  - **Find** the bit at **position 0**. Use **& 1** operator expression to extract the value of a bit. By using the following **formula** (bitAtPositionP & 1) you **check** whether the bit at **position 0** is equal to **1** or **not**. If the bit is **equal** to **1** the **result** is **1** if the bit is **not equal** - the **result is 0**;
+
+  - **Save** the result in **bitAtPosition1**;
+
+- **Print** the result on the console.
+
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 2145 | 1 |
+| 5 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 512 | 0 |
+| 0 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 111 | 0 |
+| 8 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 255 | 1 |
+| 7 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+2145
+5
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+512
+0
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+111
+8
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+255
+7
+[/input]
+[output]
+1
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+
+[slide]
+# Problem: Bit Destroyer
+[code-task title="Bit Destroyer" taskId="1c48c32a-af46-4429-8afd-193f2acc2833" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that sets the bit at **position** p to 0.
+
+Print the resulting number.
+
+## Hints
+
+- Declare **four** variables (n, p, mask and newNumber). 
+
+- **Read** the user input from the console.
+
+- **Set** the **value** of the **bit at position p to 0**: 
+
+  - **Shift** the number **1, p times** to the **left** (where **p** is the position) by using the **<<** operator. In that way the bit we want to delete will be at position **p**. Save the resulting value in **mask**;
+
+  - **Invert** the **mask** (e.g. we move the number 1, 3 times and we get 00001000, after inverting we get 11110111).
+
+  - Use **& mask** operator expression to **set** the **value** of a number to **0**. By using the **following** formulae (n & mask) you **copy all** the **bits** of the **number** and you **set** the bit at **position p to 0**;
+
+  - **Save** the result in **newNumber**;
+
+- **Print** the result on the console.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 1313 | 1281 |
+| 5 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 231 | 227 |
+| 2 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 111 | 47 |
+| 6 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+1313
+5
+[/input]
+[output]
+1281
+[/output]
+[/test]
+[test]
+[input]
+231
+2
+[/input]
+[output]
+227
+[/output]
+[/test]
+[test]
+[input]
+111
+6
+[/input]
+[output]
+47
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Problems: Odd Times
+[code-task title="Odd Times" taskId="737e2648-d9f7-4f4e-9a2e-2900cffdd490" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Given an array of positive integers in a single line joined by space (' ').
+
+All numbers occur even number of times except one number which occurs odd number of times.
+
+Find the number.
+
+## Hints
+
+- Read an array of integers.
+
+- Initialize a variable **result** with value **0**.
+
+- Iterate through all number in the array.
+
+- Use **XOR (^)** of **result** and **all numbers** in the **array**.
+
+  - **XOR** of **two elements** is **0** if **both elements** are **same** and **XOR** of a number **x** with **0** is **x**
+
+- Print the **result**.
+
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 1 2 3 2 3 1 3 | 3 |
+
+| **Input** | **Output** |
+| --- | --- |
+| 5 7 2 7 5 2 5 | 5 |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+1 2 3 2 3 1 3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+5 7 2 7 5 2 5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Problem: Tri-bit Switch
+[code-task title="Tri-bit Switch" taskId="2ad7f449-6c0d-4bf9-9be0-eec5e80a8cf0" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that inverts the **3 bits** from position p to the left with their opposites (e.g. 111 -> 000, 101 -> 010) in 32-bit number.
+
+**Print** the resulting number on the console.
+
+## Hints
+
+- **Shift** the number **7** (the number 7 has the bits 111 which we use to get 3 consecutive values), **p times** to the **left** (where **p is the position**) by using the **<<** operator. In that way the **3 bits** we want to **invert** will be at position **p**. Save the resulting value in **mask**;
+
+- Use **^ mask** operator expression to **invert** the **values** of the **three bits** starting from position **p**. By using the following **formula** (n ^ mask) you **copy** all the **bits** of the **number** and you **invert** the bits at position **p, p+1 and p+2**;
+
+- Save the result in **result**;
+
+## Examples
+| **Input** | **Output** | **Comments** |
+| --- | --- | --- |
+| 1234 | 1874 | 00000000000000000000010011010010 |
+| 7 |  | 00000000000000000000011101010010 |
+
+
+| **Input** | **Output** | **Comments** |
+| --- | --- | --- |
+| 44444 | 44524 | 00000000000000001010110110011100 |
+| 4 |  | 00000000000000001010110111101100 |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+1234
+7
+[/input]
+[output]
+1874
+[/output]
+[/test]
+[test]
+[input]
+44444
+4
+[/input]
+[output]
+44524
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
