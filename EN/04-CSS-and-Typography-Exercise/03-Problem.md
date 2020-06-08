@@ -1,8 +1,8 @@
 [slide]
 
-# Problem: Problem: Styling Tables
+# Problem: Styling Tables
 
-[code-task title="Problem: Problem: Styling Tables" taskId="c456515b-5d4d-4e5e-82dd-213559a00a8d" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+[code-task title="Problem: Styling Tables" taskId="c456515b-5d4d-4e5e-82dd-213559a00a8d" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
 
