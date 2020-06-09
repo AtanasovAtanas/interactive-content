@@ -1,4 +1,139 @@
 [slide]
 # Problem: Recursive Fibonacci
+[code-task title="Recursive Fibonacci" taskId="e54ce8c6-1465-4c76-ad2f-92b63ace5575" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.Scanner;
 
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Each member of the **Fibonacci sequence** is calculated from the **sum of the two previous members**.
+
+The first two elements are 1, 1.
+
+Therefore the sequence goes as 1, 1, 2, 3, 5, 8, 13, 21, 34…
+
+The following sequence can be generated with an array, but that&#39;s easy, so **your task is to implement it recursively**.
+
+If the function **getFibonacci(n)** returns the nth Fibonacci number, we can express it using **getFibonacci(n) = getFibonacci(n-1) + getFibonacci(n-2)**.
+
+However, this will never end and in a few seconds a Stack Overflow Exception is thrown. 
+
+In order for the recursion to stop it has to have a &quot;bottom&quot;. 
+
+The bottom of the recursion is getFibonacci(1), and should return 1. The same goes for getFibonacci(0).
+
+## Input
+
+- On the only line in the input the user should enter the wanted Fibonacci number N where 1 ≤ N ≤ 49
+
+## Output
+
+- The output should be the nth Fibonacci number counting from 0
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 5 | 8 |
+
+| **Input** | **Output** |
+| --- | --- |
+| 10 | 89 |
+
+| **Input** | **Output** |
+| --- | --- |
+| 21 | 17711 |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+1
+[/input]
+[output]
+1
+[/output]
+[/test]
+[test]
+[input]
+2
+[/input]
+[output]
+2
+[/output]
+[/test]
+[test]
+[input]
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+6
+[/input]
+[output]
+13
+[/output]
+[/test]
+[test]
+[input]
+8
+[/input]
+[output]
+34
+[/output]
+[/test]
+[test]
+[input]
+24
+[/input]
+[output]
+75025
+[/output]
+[/test]
+[test]
+[input]
+30
+[/input]
+[output]
+1346269
+[/output]
+[/test]
+[test]
+[input]
+37
+[/input]
+[output]
+39088169
+[/output]
+[/test]
+[test]
+[input]
+42
+[/input]
+[output]
+433494437
+[/output]
+[/test]
+[test]
+[input]
+49
+[/input]
+[output]
+12586269025
+[/output]
+[/test]
+[/tests]
+[/code-task]
 [/slide]
