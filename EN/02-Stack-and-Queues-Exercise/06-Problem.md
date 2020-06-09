@@ -1,3 +1,4 @@
-# Balanced Parentheses
 [slide]
+# Balanced Parentheses
+
 [/slide]

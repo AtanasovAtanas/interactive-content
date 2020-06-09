@@ -1,3 +1,4 @@
-# Basic Stack Operations
 [slide]
+# Basic Stack Operations
+
 [/slide]

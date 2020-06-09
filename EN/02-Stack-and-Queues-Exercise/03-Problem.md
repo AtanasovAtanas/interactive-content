@@ -1,3 +1,4 @@
-# Maximum Element
 [slide]
+# Maximum Element
+
 [/slide]

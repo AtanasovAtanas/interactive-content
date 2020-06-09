@@ -1,3 +1,4 @@
-# Basic Queue Operations
 [slide]
+# Basic Queue Operations
+
 [/slide]

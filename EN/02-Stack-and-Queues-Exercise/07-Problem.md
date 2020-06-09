@@ -1,3 +1,4 @@
-# Recursive Fibonacci
 [slide]
+# Recursive Fibonacci
+
 [/slide]

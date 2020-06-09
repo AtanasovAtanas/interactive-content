@@ -1,3 +1,4 @@
-# Reverse Numbers with a Stack
 [slide]
+# Reverse Numbers with a Stack
+
 [/slide]

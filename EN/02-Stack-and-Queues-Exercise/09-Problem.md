@@ -1,3 +1,4 @@
-# Infix to Postfix
 [slide]
+# Infix to Postfix
+
 [/slide]

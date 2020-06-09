@@ -1,3 +1,4 @@
-# Simple Text Editor
 [slide]
+# Simple Text Editor
+
 [/slide]
