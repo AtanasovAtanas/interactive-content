@@ -50,15 +50,15 @@ Examples:
 -2147483648 = -(231) = 1000…0000
 ```
 
-The **8-bit signed** integers have range **from -128 to 127**. This is the `sbyte` type in C# and the `byte` type in Java.
+The **8-bit signed** integers range is **from -128 to 127**. This is the `sbyte` type in C# and the `byte` type in Java.
 
-The **8-bit unsigned** integers have range **from 0 to 255**. This is the `byte` type in C#.
+The **8-bit unsigned** integers range is **from 0 to 255**. This is the `byte` type in C#.
 
-The **16-bit signed** integers have range **from -32768 to 32767**. This is the `short` type in Java, C#.
+The **16-bit signed** integers range is **from -32768 to 32767**. This is the `short` type in Java, C#.
 
-The **16-bit unsigned** integers have range **from 0 to 65536**. This is the `ushort` type in C#.
+The **16-bit unsigned** integers range is **from 0 to 65536**. This is the `ushort` type in C#.
 
-The **32-bit signed** integers have range **from -2 ^ 31 … 2 ^ 31-1** (which is from minus 2 billions to 2 billions roughly). This is the `int` type in C#, Java, and most other languages. 
+The **32-bit signed** integers range is **from -2 ^ 31 … 2 ^ 31-1** (which is from minus 2 billions to 2 billions roughly). This is the `int` type in C#, Java, and most other languages. 
 
 This **32-bit signed** integer data type is the **most often used** type in computer programming.
 
@@ -92,7 +92,7 @@ The standard defines:
 - **Special numbers** – such as infinity, negative infinity, and "NaN" (not a number). These special values behave especially, defined by the standard. For example, infinity plus one is equal to infinity.
 
 
-**Floating-point numbers** are stored as **sequence of bits**, which represent 3 separate parts: 
+**Floating-point numbers** are stored as a **sequence of bits**, which represent 3 separate parts: 
 
 - **Sign bit** - specifies whether the number is positive or negative
 
@@ -147,7 +147,7 @@ This standard represents more than **100,000 text characters as 16-bit integers*
 
 Unlike ASCII it uses **more bits per character** and therefore it can represent texts in many languages and alphabets, like Latin, Cyrillic, Arabic, Chinese, Greek, Korean, Japanese, etc.
 
-Unicode is **universal by design**. It covers **more than 1 million** of letters, special symbols, and glyphs and uses **internal encoding schemes** to overcome the range of the 16-bit integers (which can store 65536 different values). 
+Unicode is **universal by design**. It covers **more than 1 million** letters, special symbols, and glyphs and uses **internal encoding schemes** to overcome the range of the 16-bit integers (which can store 65536 different values). 
 
 Unicode is developed over time and with each new version, new characters are added, like the emoji symbols.
 
