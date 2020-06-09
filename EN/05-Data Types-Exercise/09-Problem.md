@@ -47,7 +47,7 @@ Print **two separate lines** how many **days the mine has operated** and the **t
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 111
 [/input]

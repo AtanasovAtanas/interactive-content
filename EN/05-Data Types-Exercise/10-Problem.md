@@ -68,7 +68,7 @@ Example: 505 is NOT EXACTLY 50 % from 1000, its 50.5 %.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 5
 2

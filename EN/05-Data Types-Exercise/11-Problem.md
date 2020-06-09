@@ -65,7 +65,7 @@ At the end you must **print the highest calculated** snowballValue.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 2
 10

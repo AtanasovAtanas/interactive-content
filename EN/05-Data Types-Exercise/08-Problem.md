@@ -53,6 +53,20 @@ At the end, **print the model of the biggest keg**.
 [/task-description]
 [code-io /]
 [tests]
+[test open]
+[input]
+2
+Smaller Keg
+2.41
+10
+Bigger Keg
+5.12
+20
+[/input]
+[output]
+Bigger Keg
+[/output]
+[/test]
 [test]
 [input]
 3
@@ -68,20 +82,6 @@ Keg 3
 [/input]
 [output]
 Keg 2
-[/output]
-[/test]
-[test]
-[input]
-2
-Smaller Keg
-2.41
-10
-Bigger Keg
-5.12
-20
-[/input]
-[output]
-Bigger Keg
 [/output]
 [/test]
 [test]
