@@ -12,8 +12,8 @@
 
 * The document **title** should be **Icon Fonts - Buttons**
 * Use exactly 2 **paragraphs**
-* Each of the **paragraphs** should have exactly 1 **anchor** (<a>)
-* Each of the **anchors** should have exactly one **icon** element (<i>)
+* Each of the **paragraphs** should have exactly 1 **anchor**
+* Each of the **anchors** should have exactly one **icon** element
 * The first anchor should have text - **"Click me!"**
 * The second anchor should have text - **"E-mail me"**
 * The page should be styled, exactly like the provided screenshot
