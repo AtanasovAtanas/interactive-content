@@ -12,9 +12,8 @@
 
 * The document **title** should be **Contrasting Colors** 
 * Create an **article** inside the body
-* Use **h1** tag for the title
-* Make the **background** with rgb(51, 102, 153) color
-* Set the **border radius** to 1rem
+* Make the **background** of the article with rgb(51, 102, 153) color
+* Set the **border radius** to the article to 1rem
 * Use **Helvetica, sans-serif** font-family for the document
 * Make the **font-size** 16px
 * Change the **line-height** to 1.5
