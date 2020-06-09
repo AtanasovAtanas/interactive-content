@@ -24,9 +24,9 @@ Each command is one of the following types:
 
 ## Input
 
-- The first line of input contains an integer **N** , where **1 ≤ N ≤ 10**** 5**
+- The first line of input contains an integer **N** , where **1 ≤ N ≤ 10 ^ 5**
 - The next  **N** lines contain commands. All commands will be valid and in the format described
-- The element **X** will be in range **1 ≤ X ≤ 10**** 9**
+- The element **X** will be in range **1 ≤ X ≤ 10 ^ 9**
 - The **type of the command** will be in range **1 ≤ Type ≤ 3**
 
 ## Output
