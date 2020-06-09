@@ -29,7 +29,7 @@ If it is print **true** on the console, if it&#39;s not **print the smallest ele
 | **Input** | **Output** |
 | --- | --- |
 | 4 1 666 | 13 |
-| 666 69 13 420 | # Examples |
+| 666 69 13 420 |  |
 
 
 | **Input** | **Output** |
