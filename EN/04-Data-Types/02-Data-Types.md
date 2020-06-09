@@ -79,7 +79,7 @@ char myLetter = 'D';         // Character
 boolean myBool = true;       // Boolean
 String myText = "Hello";     // String
 ```
-As you see in the example above, **date types** have:
+As you see in the example above, **data types** have:
 
 * **Name**: Java keyword.
 
@@ -92,7 +92,7 @@ In computer programming, a naming convention is a set of **rules** for choosing 
 
 Naming conventions make programs more understandable by making them easier to read. 
 
-In Java the convention for naming variables is used ***"camel-case"***.
+In Java, the convention for naming variables is used ***"camel-case"***.
 
 **Camel case** is the practice of writing phrases:
 
@@ -112,7 +112,7 @@ String last_name = Smith; //wrong
 int PersonAge = 41;       //wrong
 int foo = 2;              //wrong
 ```
-The variable's name should explain it's purpose.
+The variable's name should explain its purpose.
 
 Before naming a variable, ask yourself: **What does this variable contain?**
 [/slide]
