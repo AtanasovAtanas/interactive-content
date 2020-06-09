@@ -1,4 +1,4 @@
 [slide]
-# Maximum Element
+# Problem: Maximum Element
 
 [/slide]

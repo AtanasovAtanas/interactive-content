@@ -1,4 +1,4 @@
 [slide]
-# Robotics
+# Problem: Robotics
 
 [/slide]

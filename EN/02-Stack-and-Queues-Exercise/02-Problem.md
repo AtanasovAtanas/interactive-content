@@ -1,4 +1,4 @@
 [slide]
-# Basic Stack Operations
+# Problem: Basic Stack Operations
 
 [/slide]

@@ -1,4 +1,4 @@
 [slide]
-# Recursive Fibonacci
+# Problem: Recursive Fibonacci
 
 [/slide]

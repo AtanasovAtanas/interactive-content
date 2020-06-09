@@ -1,4 +1,4 @@
 [slide]
-# Balanced Parentheses
+# Problem: Balanced Parentheses
 
 [/slide]

@@ -1,4 +1,4 @@
 [slide]
-# Simple Text Editor
+# Problem: Simple Text Editor
 
 [/slide]

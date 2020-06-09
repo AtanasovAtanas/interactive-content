@@ -1,4 +1,4 @@
 [slide]
-# Basic Queue Operations
+# Problem: Basic Queue Operations
 
 [/slide]
