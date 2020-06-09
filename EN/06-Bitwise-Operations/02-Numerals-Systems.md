@@ -17,7 +17,7 @@ For example:
 | 45 | 101101 | 2D |
 | 60 | 111100 | 3C |
 
-It is possible to convert numbers **from given numeral system to another**.
+It is possible to convert numbers **from a given numeral system to another**.
 
 In computer science-specific numeral systems are of big importance: **the positional numeral systems**. In the positional numeral systems, the **value** of each digit depends on its **position**. In the **integer numbers**, the digits on the left have a bigger weight than the digits, staying on the right.
 
@@ -78,7 +78,7 @@ Binary numbers are sequences of `0` and `1`.
 
 For example from decimal to binary `5 == 101`. Binary numbers are denoted with a small suffix **b** at the end.
 
-Each **position** in a binary number corresponds to different **power of 2**, starting from `2 ^ 0` for the rightmost position, continuing with `2 ^ 1` for the position on its left, then `2 ^ 2`, etc.
+Each **position** in a binary number corresponds to a different **power of 2**, starting from `2 ^ 0` for the rightmost position, continuing with `2 ^ 1` for the position on its left, then `2 ^ 2`, etc.
 
 Like in the decimal system, the **rightmost digit** has the **smallest weight** and the **leftmost position** has the **biggest weight**.
 
@@ -107,7 +107,7 @@ For example:
 
 **Binary and hex numbers** can be **easily mapped** one to another, because **4 binary digits** directly correspond to **1 hex digit**. Following this property, the **conversion from binary to hexadecimal** (and back) is **straightforward**.
 
-For example the binary number `1010 0010 1110 0011 1111` can be converted to hex by splitting the number into groups of 4 bits, like it is shown, and taking the **hex digit for each 4 binary digit**: 
+For example, the binary number `1010 0010 1110 0011 1111` can be converted to hex by splitting the number into groups of 4 bits, like it is shown, and taking the **hex digit for each 4 binary digits**: 
 ```java
 1010 0010 1110 0011 1111 = A2E3F
 1010 = 10 = A
@@ -126,7 +126,7 @@ For example the binary number `1010 0010 1110 0011 1111` can be converted to hex
 
 **Hexadecimal numbers** (also known as hex numbers) are widely used in computer science. Hex numbers use **base 16** and are represented by a sequence of hex digits. 
 
-The **hexadecimal system** uses **16 digits**: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. Note that after `9` the next digit is `A`, which has **decimal value of 10**. The next hex digits after `A` are `B`, `C`, `D`, `E` and `F` and they have decimal values of `11`, `12`, `13`, `14` and `15`. These decimal values are used when we convert a hex number to a decimal value.
+The **hexadecimal system** uses **16 digits**: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. Note that after `9` the next digit is `A`, which has a **decimal value of 10**. The next hex digits after `A` are `B`, `C`, `D`, `E` and `F` and they have decimal values of `11`, `12`, `13`, `14` and `15`. These decimal values are used when we convert a hex number to a decimal value.
 
 In computer science, the hex numbers are usually **prefixed with** `0x`, for example: `0xFF`.
 
@@ -144,7 +144,7 @@ For example:
 Hex numbers are important in computer science because they have a flexible property: **4 binary** digits correspond to **1 hex** digit. Thus **8-bit** number can be represented by **2 hex** digits.
 
 
-To convert **hex** number to **decimal** use the **same algorithms** used for converting binary numbers to the decimal system. To convert a hex number to decimal following the definition of hex numbers **multiply each digit** to its weight (which is **power of 16**) and **sum the weighted digits**.
+To convert **hex** number to **decimal** use the **same algorithms** used for converting binary numbers to the decimal system. To convert a hex number to decimal following the definition of hex numbers **multiply each digit** to its weight (which is the **power of 16**) and **sum the weighted digits**.
 
 For example:
 ```java
