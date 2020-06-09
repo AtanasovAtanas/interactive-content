@@ -42,7 +42,7 @@ The **input** holds **two lines**:
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 17
 3

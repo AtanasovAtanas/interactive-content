@@ -42,7 +42,7 @@ Read **four integer numbers**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 10
 20

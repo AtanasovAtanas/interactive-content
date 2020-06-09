@@ -32,7 +32,7 @@ Your task is to find the **sum of its digits**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 245678
 [/input]
@@ -48,7 +48,7 @@ Your task is to find the **sum of its digits**.
 28
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 543
 [/input]
