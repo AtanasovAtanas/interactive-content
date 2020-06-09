@@ -483,7 +483,7 @@ It determines how long the loop body will be repeated and is called a `loop cond
 
 In this example, the `loop body` is the programming code executed at each iteration of the loop, i.e. whenever the input condition is true.
 
-In the while loop, firs, the Boolean expression is evaluated and if it is `true`, the sequence of operations in the body of the loop is executed. 
+In the while loop, first, the Boolean expression is evaluated and if it is `true`, the sequence of operations in the body of the loop is executed. 
 
 Then again the input condition is checked and if it is `true` again, the body of the loop is executed. 
 
