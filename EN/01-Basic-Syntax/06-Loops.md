@@ -450,7 +450,7 @@ Sum: 64
 
 [slide]
 # While Loop
-In programming the `while` **loop** is used when we want to **repeat** the execution of a certain logic while a condition is true. 
+In programming, the `while` **loop** is used when we want to **repeat** the execution of a certain logic while a condition is true. 
 
 By **condition**, we understand every **expression** that returns `true` or `false`. 
 
@@ -477,11 +477,11 @@ while (!guessWord.equals(correctWord)) {
 System.out.println(failedAttempts);
 ```
 
-In the code example above, condition is any **expression that returns a Boolean result** – `true` or `false`. 
+In the code example above, the condition is any **expression that returns a Boolean result** – `true` or `false`. 
 
-It determines how long the loop body will be repeated and is called `loop condition`. 
+It determines how long the loop body will be repeated and is called a `loop condition`. 
 
-In this example the `loop body` is the programming code executed at each iteration of the loop, i.e. whenever the input condition is true.
+In this example, the `loop body` is the programming code executed at each iteration of the loop, i.e. whenever the input condition is true.
 
 In the while loop, firs, the Boolean expression is evaluated and if it is `true`, the sequence of operations in the body of the loop is executed. 
 
