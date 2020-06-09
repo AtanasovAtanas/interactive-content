@@ -11,7 +11,7 @@ Examples where bitwise operations are important:
 
 - **Тhe Web browsers** use bitwise operations to **open to a Web site**.
 
-- **Many binary file formats** use bits to **save space**. For example, PNG images (the Portable Network Graphics image format) use 3 bits to specify the color format used (8-bit color, 24-bit color, 32-bit color with transparency).
+- **Many binary file formats** use bits to **save space**. For example, PNG images (the Portable Network Graphics image format) use 3 bits to specify the colour format used (8-bit colour, 24-bit colour, 32-bit colour with transparency).
 
 - **Data compression algorithms** **replace** bit or byte sequences with **shorter bit sequences**. For example, the "DEFLATE" algorithm, used to **compress data in the ZIP files**, finds the **most often sequences** and **replaces them with shorter sequences**. This is done using **heavy bit-level processing** with bitwise operations.
 
@@ -35,9 +35,9 @@ Examples where bitwise operations are important:
 It is possible to read and write bits from a given integer number using **bit masks** and **bitwise operations**.
 
 
-**Bitwise operators** works with the **binary representations** of the numbers, applying bit by bit calculations. 
+**Bitwise operators** work with the **binary representations** of the numbers, applying bit by bit calculations. 
 
-For example, it is possible to apply a **bitwise operation on two 8-bit numbers**, the **result is new 8 bits**.
+For example, it is possible to apply a **bitwise operation on two 8-bit numbers**, the **result is a new 8 bits**.
 
 A simple bitwise operator over a single argument is the **"tilde" operator**  `~` – the bitwise logical NOT (also called negation).
 The **operator "tilde"** turns all `0` to `1` and all `1` to `0`, like the "exclamation mark" operator `!` for the **Boolean expressions** but it works **bit by bit**. 
@@ -111,7 +111,7 @@ During the **shifting operation**, the bits that fall at **invalid positions** a
 
   - For example, 5 shifted right is 2.
 
-**Bit shifting** can be applied for **8-bit, 16-bit, 32-bit, and 64-bit numbers**, as well as for numbers of **other size in bit**s. The bit size of the number being shifted **defines the valid bit positions** and where the **bits get lost**.
+**Bit shifting** can be applied for **8-bit, 16-bit, 32-bit, and 64-bit numbers**, as well as for numbers of **other sizes in bits**. The bit size of the number being shifted **defines the valid bit positions** and where the **bits get lost**.
 
 Bits can be shifted by **more than 1 position**. 
 
@@ -127,7 +127,7 @@ Bits can be shifted by **more than 1 position**.
 
 Get the **last bit** of given integer `n`.
 
-The **last bit** of numbers defines their **parity** (odd or even). **Odd numbers** has `1` in their last bit. **Even numbers** have `0` in their last bit.
+The **last bit** of numbers defines their **parity** (odd or even). **Odd numbers** have `1` in their last bit. **Even numbers** have `0` in their last bit.
 
 ``` java
             //   7 6 5 4 3 2 1 `0`       - position of symbols
@@ -166,7 +166,7 @@ To clear the bit at position `p` (which means to assign `0` at this position) cr
 
 To set the bit at position `p` (which means to assign `1` at this position) create a bitmask, holding `1` at position `p` with all other bits `0`. This is `1` **shifted left** `p` times. By applying the bitmask with the bitwise **OR** operator `|` and set to `1` the bit at position `p`, while keeping **all other bits unchanged**.
 
-The last step is to assign a value `b` for the bit at position `p` in given integer `n` using the short formula, that clears the bit `p` in `n` and if `b` is `1`, puts `1` at position `p` in `n`:
+The last step is to assign a value `b` for the bit at position `p` in the given integer `n` using the short formula, that clears the bit `p` in `n` and if `b` is `1`, puts `1` at position `p` in `n`:
 `n = n & ~(1 << p) | (b << p)`
 
 ``` java
