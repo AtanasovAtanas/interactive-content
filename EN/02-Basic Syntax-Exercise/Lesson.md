@@ -1,1 +1,1 @@
-# Basic Syntax - Еxercise
+# Stacks and Queues - Еxercise
