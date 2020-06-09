@@ -13,6 +13,7 @@
 * Create an **"index.html"** file with title - **Buttons CSS**
 * Use **h2** tag for headings
 * Create nine buttons on three rows with class **button**
+* All buttons should have **cursor** pointer
 * For the first button in each row use **a** tag
 * For the next two buttons in the row use **button** tags
 * The buttons in the second and the third row should have class - **fill**
@@ -66,15 +67,6 @@ yes
 [input]
 let button = $("body .button");
 expect((button).css('cursor')).to.equal('pointer', "Incorrect cursor.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let button = $("body .button");
-expect((button).css('outline')).to.equal('none', "Incorrect outline.");
 [/input]
 [output]
 yes
