@@ -17,9 +17,9 @@ The **submit button** sends the form data to the specified URL in the `action` a
 
 You can use relative or full URL:
 
-- Relative URLs are evaluated relatively to the current URL, which is loaded in the Web browser
+- Relative URLs are evaluated relative to the current URL, which is loaded in the Web browser
 
-- Full URLs are used to submit the form data to completely different Web site
+- Full URLs are used to submit the form data to a completely different Web site
 
 ## Example
 
