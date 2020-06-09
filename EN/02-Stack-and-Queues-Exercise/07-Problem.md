@@ -38,6 +38,12 @@ The bottom of the recursion is getFibonacci(1), and should return 1. The same go
 
 - The output should be the nth Fibonacci number counting from 0
 
+## Hint
+
+For the nth Fibonacci number, we calculate the N-1st and the N-2nd number, but for the calculation of N-1st number we calculate the N-1-1st(N-2nd) and the N-1-2nd number, so we have a lot of repeated calculations.
+
+If you want to figure out how to skip those unnecessary calculations, you can search for a technique called [memoization](https://en.wikipedia.org/wiki/Memoization).
+
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
