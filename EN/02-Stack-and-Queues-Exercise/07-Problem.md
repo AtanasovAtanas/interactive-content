@@ -20,13 +20,14 @@ The first two elements are 1, 1.
 
 Therefore the sequence goes as 1, 1, 2, 3, 5, 8, 13, 21, 34…
 
-The following sequence can be generated with an array, but that&#39;s easy, so **your task is to implement it recursively**.
+The following sequence can be generated with an array, but that is easy, so **your task is to implement it recursively**.
 
-If the function **getFibonacci(n)** returns the nth Fibonacci number, we can express it using **getFibonacci(n) = getFibonacci(n-1) + getFibonacci(n-2)**.
+If the function **getFibonacci(n)** returns the nth Fibonacci number, we can express it using 
+**getFibonacci(n) = getFibonacci(n-1) + getFibonacci(n-2)**.
 
 However, this will never end and in a few seconds a Stack Overflow Exception is thrown. 
 
-In order for the recursion to stop it has to have a &quot;bottom&quot;. 
+In order for the recursion to stop it has to have a "bottom". 
 
 The bottom of the recursion is getFibonacci(1), and should return 1. The same goes for getFibonacci(0).
 
