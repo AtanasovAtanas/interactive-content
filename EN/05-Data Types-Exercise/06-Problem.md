@@ -31,7 +31,7 @@ Write a program to **read** an integer **n** and **print all triples of the firs
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 2
 [/input]

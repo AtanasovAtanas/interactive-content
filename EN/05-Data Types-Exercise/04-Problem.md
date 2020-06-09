@@ -41,7 +41,7 @@ Print the total sum in the following format:
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 5
 A

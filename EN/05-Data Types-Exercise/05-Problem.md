@@ -27,7 +27,7 @@ On the first line of input you will receive the **char index** you should **star
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 60
 65

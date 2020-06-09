@@ -48,7 +48,7 @@ On the **last** line, **print the liters** in the tank.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 5
 20
