@@ -141,9 +141,9 @@ Write program to enter an integer number of **centuries** and convert it to **ye
 
 [slide]
 
-# Problem: Centuries to Minutes
+# Solution: Centuries to Minutes
 
-[code-task title="Problem: Centuries to Minutes" taskId="java-fund-04-Data-Types-problem-9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Centuries to Minutes"  executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 
 ```
