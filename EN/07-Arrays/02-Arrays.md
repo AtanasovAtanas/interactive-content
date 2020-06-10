@@ -69,6 +69,7 @@ If we try to access the element on an invalid index, we get an exception.
 [code-task title="Problem: Day of Week" taskId="java-fund-07-Arrays-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -131,22 +132,6 @@ Sunday
 [/input]
 [output]
 Invalid day!
-[/output]
-[/test]
-[test]
-[input]
-1
-[/input]
-[output]
-Monday
-[/output]
-[/test]
-[test]
-[input]
-2
-[/input]
-[output]
-Tuesday
 [/output]
 [/test]
 [test]
@@ -222,6 +207,7 @@ Invalid day!
 [code-task title="Problem: Day of Week" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class TestTech {
@@ -372,6 +358,7 @@ Invalid day!
 [code-task title="Problem: Sum Even Numbers" taskId="java-fund-07-Arrays-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
