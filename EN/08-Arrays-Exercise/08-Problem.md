@@ -3,6 +3,7 @@
 [code-task title="Magic Sum" taskId="java-fund-08-Arrays-Exercise-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -32,41 +33,35 @@ Write a program, which **prints all unique pairs** in an array of integers whose
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 7 6 2 19 23
 8
-
 [/input]
 [output]
 1 7
 6 2
-
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 14 20 60 13 7 19 8 
 27
-
 [/input]
 [output]
 14 13
 20 7
 19 8
-
 [/output]
 [/test]
 [test]
 [input]
 1 2 3 4 5 6
 6
-
 [/input]
 [output]
 1 5
 2 4
-
 [/output]
 [/test]
 [test]

@@ -3,6 +3,7 @@
 [code-task title="Equal Sums" taskId="java-fund-08-Arrays-Exercise-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -33,7 +34,7 @@ a\[0\] + a\[1\] = a\[3\]
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 2 3 3
 [/input]

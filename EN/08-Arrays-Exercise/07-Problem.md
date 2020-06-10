@@ -3,6 +3,7 @@
 [code-task title="Max Sequence of Equal Elements" taskId="java-fund-08-Arrays-Exercise-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -31,6 +32,22 @@ If **several longest sequences exist**, print the **leftmost** one.
 [/task-description]
 [code-io /]
 [tests]
+[test open]
+[input]
+0 1 1 5 2 2 6 3 3
+[/input]
+[output]
+1 1
+[/output]
+[/test]
+[test open]
+[input]
+1 1 1 2 3 1 3 3
+[/input]
+[output]
+1 1 1
+[/output]
+[/test]
 [test]
 [input]
 2 1 1 2 3 3 2 2 2 1
@@ -41,26 +58,10 @@ If **several longest sequences exist**, print the **leftmost** one.
 [/test]
 [test]
 [input]
-1 1 1 2 3 1 3 3
-[/input]
-[output]
-1 1 1
-[/output]
-[/test]
-[test]
-[input]
 4 4 4 4
 [/input]
 [output]
 4 4 4 4
-[/output]
-[/test]
-[test]
-[input]
-0 1 1 5 2 2 6 3 3
-[/input]
-[output]
-1 1
 [/output]
 [/test]
 [test]
