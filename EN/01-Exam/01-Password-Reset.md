@@ -55,59 +55,62 @@ If **it doesn't**, prints `Nothing to replace!`
 
 | **Input** | **Output** |
 | --- | --- |
-| Siiceercaroetavm\!:\?:ahsott.\:i\:nstupmomceqr  | icecream\:\:hot\:\:summer |
-| TakeOdd | icecream\:\:hot\:\:mer |
-| Cut 15 3 | icecream-hot-mer |
-| Substitute \:\: \- | Nothing to replace! |
-| Substitute \| \^ | Your password is: icecream-hot-mer |
-| Done |  |
+| up8rgoyg3r1atmlmpiunagt!-irs7!1fgulnnnqy |  |
+| TakeOdd | programming!is!funny |
+| Cut 18 2  |  programming!is!fun |
+| Substitute ! \*\*\*  | programming\*\*\*is\*\*\*fun |
+| Substitute ? \@ | Nothing to replace! |
+| Done  | Your password is: programming\*\*\*is\*\*\*fun |
+
 
 ### Comments
 
 - First command: `TakeOdd`
 
-S`i`i`c`e`e`r`c`a`r`o`e`t`a`v`m`\!`:`?`:`a`h`s`o`t`t`.`:`i`:`n`s`t`u`p`m`o`m`c`e`q`r` \-\> `icecream::hot::summer`
+u`p`8`r`g`o`y`g`3`r`1`a`t`m`l`m`p`i`u`n`a`g`t`!`-`i`r`s`7`!`1`f`g`u`l`n`n`n`q`y` \-\>  `programming!is!funny`
 
 We only take the chars at odd indices 1, 3, 5 and so on.
 
+- Second command: `Cut 18 2` -\> programming!is!fun`ny` -\> `ny`
 
-- Second command: `Cut 15  3` -\> icecream\:\:hot\:\:`sum`mer -\> `sum`
+The result is:
 
+`programming!is!fun`
 
-`icecream::hot::mer`
-
-We cut a substring starting at index `15` with length `3`, **remove** it from the raw password, and **print it**.
+We cut a substring starting at index `18` with length `2`, **remove** it from the raw password, and **print it**.
 
 Then, on a new line, we print the resulting new raw password.
 
-- Third command: `Substitute :: -` -\> icecream`::`hot`::`summer \-\> icream`-`hot`-`summer
+- Third command: `Substitute ! ***` -\>  programming`!`is`!`fun \-\> programming`***`is`***`fun
 
-We replace `::` with `-`.
+We replace `!` with `***`.
 
-- Fourth command: `Substitute | ^` -\> `Nothing to replace!`
+- Fourth command: `Substitute ? @` -\> `Nothing to replace!`
 
-`|` is not found anywhere in the raw password.
+`?` is not found anywhere in the raw password.
 
-Finally, after receiving the `Done` command, we **print** the resulting password in the proper format.
+Finally, after receiving the `Done` command, we **print** the resulting password in the proper format:
+
+`Your password is: programming***is***fun`
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-Siiceercaroetavm!\:\?\:ahsott\.\:i\:nstupmomceqr
+up8rgoyg3r1atmlmpiunagt!-irs7!1fgulnnnqy
 TakeOdd
-Cut 15 3
-Substitute \:\: \-
-Substitute \| \^
+Cut 18 2
+Substitute ! \*\*\*
+Substitute ? .\!.
 Done
 [/input]
 [output]
-icecream\:\:hot\:\:summer
-icecream\:\:hot\:\:mer
-icecream\-hot\-mer
+programming!is!funny
+programming!is!fun
+programming\*\*\*is\*\*\*fun
 Nothing to replace!
-Your password is\: icecream\-hot\-mer
+Your password is: programming\*\*\*is\*\*\*fun
 [/output]
 [/test]
 [test]
@@ -272,19 +275,19 @@ Your password is: AJJD
 [/test]
 [test]
 [input]
-up8rgoyg3r1atmlmpiunagt!-irs7!1fgulnnnqy
+Siiceercaroetavm!\:\?\:ahsott\.\:i\:nstupmomceqr
 TakeOdd
-Cut 18 2
-Substitute ! \*\*\*
-Substitute ? .\!.
+Cut 15 3
+Substitute \:\: \-
+Substitute \| \^
 Done
 [/input]
 [output]
-programming!is!funny
-programming!is!fun
-programming\*\*\*is\*\*\*fun
+icecream\:\:hot\:\:summer
+icecream\:\:hot\:\:mer
+icecream\-hot\-mer
 Nothing to replace!
-Your password is: programming\*\*\*is\*\*\*fun
+Your password is\: icecream\-hot\-mer
 [/output]
 [/test]
 [/tests]
