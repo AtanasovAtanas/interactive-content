@@ -55,11 +55,11 @@ If **it doesn't**, prints `Nothing to replace!`
 
 | **Input** | **Output** |
 | --- | --- |
-| up8rgoyg3r1atmlmpiunagt!-irs7!1fgulnnnqy |  |
-| TakeOdd | programming!is!funny |
-| Cut 18 2  |  programming!is!fun |
+| up8rgoyg3r1atmlmpiunagt\!\-irs7\!1fgulnnnqy |  |
+| TakeOdd | programming\!is\!funny |
+| Cut 18 2  |  programming\!is\!fun |
 | Substitute ! \*\*\*  | programming\*\*\*is\*\*\*fun |
-| Substitute ? \@ | Nothing to replace! |
+| Substitute ? \@ | Nothing to replace\! |
 | Done  | Your password is: programming\*\*\*is\*\*\*fun |
 
 
@@ -98,18 +98,18 @@ Finally, after receiving the `Done` command, we **print** the resulting password
 [tests]
 [test open]
 [input]
-up8rgoyg3r1atmlmpiunagt!-irs7!1fgulnnnqy
+up8rgoyg3r1atmlmpiunagt\!\-irs7\!1fgulnnnqy
 TakeOdd
 Cut 18 2
 Substitute ! \*\*\*
-Substitute ? .\!.
+Substitute ? \@
 Done
 [/input]
 [output]
-programming!is!funny
-programming!is!fun
+programming\!is\!funny
+programming\!is\!fun
 programming\*\*\*is\*\*\*fun
-Nothing to replace!
+Nothing to replace\!
 Your password is: programming\*\*\*is\*\*\*fun
 [/output]
 [/test]
