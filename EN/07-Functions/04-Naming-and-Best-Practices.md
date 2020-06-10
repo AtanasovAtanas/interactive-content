@@ -1,6 +1,16 @@
 # Naming and Best Practices
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="8918" endTimeInSeconds="11412"]
+[stream language="EN" videoId="421666838" default /]
+[stream language="RO" videoId="427293221" /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Best Function Practices
 
  - Each function should perform a **single**, well-defined task.
