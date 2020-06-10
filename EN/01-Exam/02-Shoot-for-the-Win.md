@@ -24,11 +24,9 @@ Every time you receive an **index**, you need to shoot the target on that index,
 
 Every time you **shoot a target**, its value becomes **-1 and it is considered shot**.
 
-Along with that you also need to:
+Along with that you also need to **Reduce** all the other **targets**, which have **greater values** than your **current** target, **with its value**.
 
-- **Reduce** all the other **targets**, which have **greater values** than your **current** target, **with its value**.
-
-- All the **targets**, which **have less than or equal** value to the **shot target**, you need to **increase with its value**.
+All the **targets**, which **have less than or equal** value to the **shot target**, you need to **increase with its value**.
 
 **Keep in mind that you can't shoot a target, which is already shot**.
 
