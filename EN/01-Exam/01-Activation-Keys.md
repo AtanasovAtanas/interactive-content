@@ -17,17 +17,17 @@ public class Main {
 
 The first line of the input will be your raw activation key. It will consist of **letters and numbers only**.
 
-After that, until the **Generate** command is given, you will be receiving strings with instructions for different operations that need to be performed upon the raw activation key.
+After that, until the `Generate` command is given, you will be receiving strings with instructions for different operations that need to be performed upon the raw activation key.
 
 There are several types of instructions, split by `>>>`:
 
-- `Contains>>>{substring}` – checks if the raw activation key contains the given substring.
+* `Contains>>>{substring}` – checks if the raw activation key contains the given substring.
 
- If it does prints: `{raw activation key} contains {substring}`.
+  - If it does prints: `{raw activation key} contains {substring}`.
 
-If not, prints: `Substring not found!`
+  - If not, prints: `Substring not found!`
 
-- `Flip>>>Upper/Lower>>>{startIndex}>>>{endIndex}`:
+* `Flip>>>Upper/Lower>>>{startIndex}>>>{endIndex}`:
 
 Changes the substring **between the given indices (the end index is exclusive)** to upper or lower case.
 
@@ -68,23 +68,23 @@ After the `Generate` command is received, print:
 
 ### Comments
 
-- `Slice>>2>>6`:
+* `Slice>>2>>6`:
 
 ab**cdef**ghijklmnopqrstuvwxyz becomes `abghijklmnopqrstuvwxyz`
 
-- `Flip>>>Upper>>>3>>>14`:
+* `Flip>>>Upper>>>3>>>14`:
 
 abg**hijklmnopqr**stuvwxyz becomes abg`HIJKLMNOPQR`stuvwxyz
 
-- `Flip>>>Lower>>>5>>>7`:
+* `Flip>>>Lower>>>5>>>7`:
 
 abgHI**JK**LMNOPQRstuvwxyz becomes abgHI`jk`LMNOPQRstuvwxyz
 
-- `Contains>>>def`:
+* `Contains>>>def`:
 
 `abgHIjkLMNOPQRstuvwxyz` does not contain `def`
 
-- `Contains>>>deF`:
+* `Contains>>>deF`:
 
 `abgHIjkLMNOPQRstuvwxyz` does not contain `deF`
 
