@@ -76,14 +76,6 @@ no
 [/test]
 [test]
 [input]
-1 2 3 3
-[/input]
-[output]
-2
-[/output]
-[/test]
-[test]
-[input]
 1 2
 [/input]
 [output]
