@@ -29,7 +29,7 @@ A single array can contain duplicate values.
 ```Java
 int[] numbers = { 1, 1, 2, 4, 5 };
 ```
-The values in a array are called elements.
+The values in an array are called elements.
 
 # Real-Life Example
 Imagine a train which has wagons, and each wagon - passengers.
