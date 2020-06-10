@@ -9,13 +9,11 @@ HTTP defines methods to indicate the **desired** action to be performed on th
 
 The most often used HTTP methods are:
 
-GET, POST, PUT, DELETE and PATCH.
-
 - `GET` method **retrieves** a specified resource.
-   
-It is used to download a Web page, CSS file, script, document or other resource from a Web site.
 
-GET can retrieve a list of resources, for example all the news from the front page of a news Web site, or get a single resource, for example, a single news article.
+It is used to download a Web page, CSS file, script, document, or another resource from a Web site.
+
+GET can retrieve a list of resources, for example, all the news from the front page of a news Web site, or get a single resource, for example, a single news article.
 
 - `POST` method is used to **create**, or **store** a resource at the Web server.
 
@@ -29,17 +27,17 @@ The HTTP `PUT` method is used in some applications to replace an existing resour
 
 - `PATCH` method **updates** an existing resource partially. 
 
-It is used to modify a field of given object.
+It is used to modify a field of a given object.
 
 - HTTP **HEAD** method retrieves the resource's headers, without the resource itself.
 
-`HEAD` is used rarely, for example to check for modifications at the server side.
+`HEAD` is used rarely, for example, to check for modifications at the server-sid
 
 The four most important operations for most applications are `GET`, `POST`, `PUT` and `DELETE`, the so-called **CRUD operations**.
 
-CRUD is an abbreviation from **create, read, update, delete** and is usually implemented by apps and APIs, which manage persistent data.
+CRUD is an abbreviation from **create, read, update, delete**, and is usually implemented by apps and APIs, which manage persistent data.
 
-Most applications support at least these four CRUD operations for the objects they store, edit and manage.
+Most applications support at least these four CRUD operations for the objects they store, edit, and manage.
 
 HTTP support a few more methods:
 
@@ -47,7 +45,7 @@ HTTP support a few more methods:
 
 A socket connection can overcome the limitations of the HTTP protocol and its request-response model through lower-level communication.
 
-- `OPTIONS` method is used to **describe** the communication options for specified resource.
+- `OPTIONS` method is used to **describe** the communication options for the specified resource.
 
 - `TRACE` method is designed for diagnostic purposes during the development and is used very rarely.
 
@@ -76,7 +74,7 @@ The request starts with the `HTTP request line`.
 
 This is the command we send to the server.
 
-This line says what resource we want to get or process.
+This line says what resources we want to get or process.
 
 The request line starts:
 
@@ -90,17 +88,17 @@ The request line starts:
 
 Web browsers use `URLs`, but HTTP uses `URIs` to address the resources.
 
-`URL` stands for **uniform resource locator** and it describes a full unique address for a resource in Internet, which consists of protocol + host + resource path [For example](https://softuni.org/about).
+`URL` stands for **uniform resource locator** and it describes a full unique address for a resource on the Internet, which consists of protocol + host + resource path [For example](https://softuni.org/about).
 
 `URL` is what we type in the browser's location bar.
 
-`URI` stands for **uniform resource identifier** and it holds a full or relative unique path to a resource, for example `/about`.
+`URI` stands for **uniform resource identifier** and it holds a full or relatively unique path to a resource, for example `/about`.
 
-When we request a resource over HTTP, we specify the relative `URI` of the resource in the request line and we specify the host name in the request headers.
+When we request a resource over HTTP, we specify the relative `URI` of the resource in the request line and we specify the hostname in the request headers.
 
-Both relative `URI` and host name come from the `URL` we want to access.
+Both relative `URI` and hostname come from the `URL` we want to access.
 
-At the next few lines, the HTTP request **headers** are given.
+In the next few lines, the HTTP request **headers** are given.
 
 **Headers** specify specific parameters about the requested resource.
 
@@ -120,7 +118,7 @@ The other headers specify settings like:
 
 After the request headers, the request **body** comes.
 
-It can hold anything, for example **URL-encoded data**, **JSON object**, or **binary data**.
+It can hold anything, for example, **URL-encoded data**, **JSON object**, or **binary data**.
 
 The request body can also be empty, which is typical for the HTTP GET requests.
 
@@ -150,7 +148,7 @@ Our sample HTTP `POST` request holds a request line + headers + body.
 
 The HTTP request line holds the method `POST` + the relative request-URI `/post` + `HTTP/1.1` the protocol version.
 
-The headers specify the host which comes from the URL, also the content type, which is `application/json`, and a few other settings, like the size of the HTTP body in bytes the  content length header.
+The headers specify the host which comes from the URL, also the content type, which is `application/json`, and a few other settings, like the size of the HTTP body in bytes the content-length header.
 
 The request body holds a `JSON object`, which describes the new issue in a simplified form.
 
