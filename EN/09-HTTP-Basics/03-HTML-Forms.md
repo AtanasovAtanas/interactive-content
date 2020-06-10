@@ -3,7 +3,7 @@
 [slide]
 # HTML Forms: Action
 
-``` java
+```
 <form action="home.html">
   <input type="submit" value="Go to homepage"/>
 </form>
@@ -28,7 +28,7 @@ You can test this example live at:
 
 # HTML Forms: Method GET
 
-``` java
+``` 
 <form method="get">  
   Name: <input type="text" name="name">  
   <br /><br />
@@ -63,7 +63,7 @@ You can test this example live at:
 [slide]
 # HTML Forms: Method POST
 
-``` java
+``` 
 <form method="post">
   Name: <input type="text" name="name">
     <br /><br />
@@ -95,7 +95,7 @@ You can test this example live at:
 
 # URL Encoded Form Data – Example
 
-``` java
+```
 <form method="post">
   Name: <input type="text" name="name"/> <br/>
   Age: <input type="text" name="age"/> <br/>
