@@ -42,6 +42,7 @@ for (int number : numbers) {
 [code-task title="Problem: Even and Odd Subtraction" taskId="java-fund-07-Arrays-problem-9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -270,6 +271,7 @@ Write a program that calculates the difference between the sum of the even and t
 [code-task title="Problem: Condense Array to Number" taskId="java-fund-07-Arrays-problem-11" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
