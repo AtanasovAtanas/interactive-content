@@ -25,19 +25,19 @@ The commands are the following:
 
 - `Shoot {index} {power}`:
 
-Shoot the target at the index, **if it exists by reducing** its **value** by the **given power (integer value)**.
+  - Shoot the target at the index, **if it exists by reducing** its **value** by the **given power (integer value)**.
 
-A target is considered a **shot** when **its value reaches 0**.
+  - A target is considered a **shot** when **its value reaches 0**.
 
-Remove the target, **if it is shot**.
+  - Remove the target, **if it is shot**.
 
 - `Add {index} {value}`:
 
-Insert a target with the received value at the received **index**, **if it exists**. If not, print: `Invalid placement!`
+  - Insert a target with the received value at the received **index**, **if it exists**. If not, print: `Invalid placement!`
 
 - `Strike {index} {radius}`:
 
-Remove the **target at the given index** and the **ones before and after it depending on the radius**, **if such exist**.
+  - Remove the **target at the given index** and the **ones before and after it depending on the radius**, **if such exist**.
 
 **If any of the indices in the range is invalid print:**
 
