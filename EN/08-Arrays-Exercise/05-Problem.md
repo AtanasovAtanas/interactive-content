@@ -3,6 +3,7 @@
 [code-task title="Top Integers" taskId="java-fund-08-Arrays-Exercise-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -26,20 +27,20 @@ A top integer is an integer which is **bigger** than all the elements **to its r
 [/task-description]
 [code-io /]
 [tests]
+[test open]
+[input]
+14 24 3 19 15 17
+[/input]
+[output]
+24 19 17
+[/output]
+[/test]
 [test]
 [input]
 1 4 3 2
 [/input]
 [output]
 4 3 2
-[/output]
-[/test]
-[test]
-[input]
-14 24 3 19 15 17
-[/input]
-[output]
-24 19 17
 [/output]
 [/test]
 [test]

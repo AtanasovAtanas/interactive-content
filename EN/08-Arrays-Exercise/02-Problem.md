@@ -3,6 +3,7 @@
 [code-task title="Common Elements" taskId="java-fund-08-Arrays-Exercise-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -27,7 +28,7 @@ You have to **compare the elements** of the **second array** to the elements of 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 Hey hello 2 4
 10 hey 4 hello

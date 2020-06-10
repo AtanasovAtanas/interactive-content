@@ -3,6 +3,7 @@
 [code-task title="Zig-Zag Arrays" taskId="java-fund-08-Arrays-Exercise-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -32,6 +33,17 @@ Form 2 arrays as **shown below**.
 [/task-description]
 [code-io /]
 [tests]
+[test open]
+[input]
+2
+80 23
+31 19
+[/input]
+[output]
+80 19
+23 31
+[/output]
+[/test]
 [test]
 [input]
 4
@@ -43,17 +55,6 @@ Form 2 arrays as **shown below**.
 [output]
 1 10 31 20
 5 9 81 41
-[/output]
-[/test]
-[test]
-[input]
-2
-80 23
-31 19
-[/input]
-[output]
-80 19
-23 31
 [/output]
 [/test]
 [test]

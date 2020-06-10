@@ -3,6 +3,7 @@
 [code-task title="Array Rotation" taskId="java-fund-08-Arrays-Exercise-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -27,7 +28,7 @@ Write a program that **receives an array and number of rotations** you have to p
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 51 47 32 61 21
 2
