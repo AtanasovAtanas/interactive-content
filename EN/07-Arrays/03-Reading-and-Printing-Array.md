@@ -95,6 +95,7 @@ System.out.println(String.join(" ", arr));
 [code-task title="Problem: Print Numbers in Reverse Order" taskId="java-fund-07-Arrays-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -208,6 +209,7 @@ Read n numbers and print them in reverse order, separated by single space.
 [code-task title="Problem: Print Numbers in Reverse Order" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -334,6 +336,7 @@ Read n numbers and print them in reverse order, separated by single space.
 [code-task title="Problem: Reverse an Array of Strings" taskId="java-fund-07-Arrays-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -427,6 +430,7 @@ f60 e50 d40 c30 b20 a10
 [code-task title="Problem: Reverse an Array of Strings" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -531,6 +535,7 @@ f60 e50 d40 c30 b20 a10
 [code-task title="Problem: Equal Arrays" taskId="java-fund-07-Arrays-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
