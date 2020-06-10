@@ -2,10 +2,12 @@
 
 [slide]
 # Video
-[vimeo-video startTimeInSeconds="1406" endTimeInSeconds="1957"]
-[stream language="EN" videoId="343678060" default /]
-[stream language="RO" videoId="391452320"  /]
+
+[vimeo-video startTimeInSeconds="2422" endTimeInSeconds="3075"]
+[stream language="EN" videoId="421771481" default /]
+[stream language="RO" videoId="427418768"  /]
 [/vimeo-video]
+
 [/slide]
 
 [slide]
@@ -56,6 +58,15 @@ int[] arr = Arrays
 ```
 [/slide]
 
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="3996" endTimeInSeconds="5491"]
+[stream language="EN" videoId="421771481" default /]
+[stream language="RO" videoId="427418768"  /]
+[/vimeo-video]
+
+[/slide]
 
 [slide]
 # Printing Array using for-loop
