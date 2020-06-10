@@ -40,7 +40,7 @@ Forms can specify the HTTP method for sending the form data.
 
 It can be GET or POST.
 
-**GET** sends the form data as query string in the URL.
+**GET** sends the form data as a query string in the URL.
 
 And POST sends the form data in the HTTP request body.
 
@@ -52,7 +52,7 @@ This is a simple Web form, which has a text input field named `name` and a `subm
 
 The form submits its data to the same page, from which the form is loaded, because it has no `action` attribute.
 
-The form fields values are **sent** as sequences of `field=value` tokens after the question mark in the end of the URL, separated from each other by ampersands, and with escaping when needed.
+The form field values are **sent** as sequences of `field=value` tokens after the question mark at the end of the URL, separated from each other by ampersands, and with escaping when needed.
 
 You can test this example live at:
 
