@@ -23,7 +23,7 @@
 * Style its **font** to italic
 * Use **hr** tag for the horizontal lines
 
-You can find an example view [here](https://i.imgur.com/JPiZtGh.png)
+You can find an example view [here](https://i.imgur.com/BuxglXR.png)
 
 You can download the resources [here](https://mega.nz/file/2FgQzYjQ#qfmOBoZ0Bfj677wAblo_JXqdd1quFpk5BVmOa4Ygcwg)
 
