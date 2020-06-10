@@ -127,6 +127,8 @@ The request body can also be empty, which is typical for the HTTP GET requests.
 [/slide]
 
 [slide]
+# HTTP POST Request – Example
+
 ```
 POST /post HTTP/1.1
 Host: postman-echo.com
