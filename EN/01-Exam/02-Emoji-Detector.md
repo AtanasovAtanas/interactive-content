@@ -32,9 +32,13 @@ An emoji is valid when:
 
 - Continues with **lowercase** letters **only**
 
-- Examples of valid emojis: `::Joy::`, `**Banana**`, `::Wink::`
+- Examples of valid emojis:
 
-- Examples of **invalid** emojis: `::Joy**`, `::fox:es:`, `**Monk3ys**`, `:Snak::Es::`
+ `::Joy::`, `**Banana**`, `::Wink::`
+
+- Examples of **invalid** emojis:
+
+ `::Joy**`, `::fox:es:`, `**Monk3ys**`, `:Snak::Es::`
 
 You need to count **all valid emojis** in the text and calculate their **coolness**.
 
@@ -88,13 +92,37 @@ There are various reasons why the rest are `not valid`, examine them carefully.
 
 The **cool threshold** is 3\*1\*1\*3\*1\*1\*2\*3\*5\*2\*1 = 540.
 
-- \:\:Smiley\:\: -\> 83 + 109 + 105 + 108 + 101 + 121 = 627 \> 540 -\> **cool**
+- \:\:Smiley\:\:
 
-- \*\*Tigers\*\* -\> 84 + 105 + 103 + 101 + 114 + 115 = 622 \> 540 -\> **cool**
+We calculate every symbol:
 
-- \:\:Mooning\:\: -\> 77 + 111 + 111 + 112 + 105 + 112 + 103 = 727 \> 540 -\> **cool**
+83 + 109 + 105 + 108 + 101 + 121 = **627**
 
-- \*\*Shy\*\* -\> 83 + 104 + 121 = 308 \< 540 -\> not cool
+627 \> 540 -\> **cool**
+
+- \*\*Tigers\*\* 
+
+We calculate every symbol:
+
+84 + 105 + 103 + 101 + 114 + 115 = **622**
+
+622 \> 540 -\> **cool**
+
+- \:\:Mooning\:\:
+
+We calculate every symbol:
+
+77 + 111 + 111 + 112 + 105 + 112 + 103 = **727**
+
+727 \> 540 -\> **cool**
+
+- \*\*Shy\*\* 
+
+We calculate every symbol:
+
+83 + 104 + 121 = **308**
+
+308 \< 540 -\> **not cool**
 
 At the end we print the count of all valid emojis found and each of the cool ones on a new line.
 
