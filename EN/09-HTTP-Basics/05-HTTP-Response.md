@@ -115,7 +115,9 @@ Status codes starting with 5 indicate a server error, such as `service unavailab
 
 This coul be caused either by a **bug of the software** at the server-side, or by an incorrect invocation made by the client.
 
-- Status code `501 Not Implemented` may be returned when certain **functionality** is not yet **implemented** by the server-side software.
+
+- Status code `501 Not Implemented` may be returned when certain **functionality** is not yet **implemented** by the server\-side software.
+
 
 - Status code `503 Service Unavailable` may be returned when a component at the **server-side is not ready**.
 
