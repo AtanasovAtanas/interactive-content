@@ -10,7 +10,7 @@
 
 [slide]
 # Method Parameters
-Information can be **passed** to methods as parameter. 
+Information can be **passed** to methods as a parameter. 
 
 Parameters act as **variables** inside the method.
 
