@@ -68,7 +68,7 @@ method **doesn't work** with **primitive data types like int, double, char, bool
 [code-task title="List of products" taskId="java-fund-13-Lists-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -314,7 +314,8 @@ d
 [code-task title="Remove Negatives and Reverse" taskId="java-fund-13-Lists-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
