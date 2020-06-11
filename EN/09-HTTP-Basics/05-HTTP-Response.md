@@ -91,7 +91,9 @@ Status codes starting with 3 are used for redirection to another URL:
 
 - The status code `302 Found` is used to **temporarily** redirect to another URL.
 
-- Status code `304 Not Modified` is returned after a conditional HTTP GET, which says `I have this resource from yesterday, please return it only if you have a newer version.`
+- Status code `304 Not Modified` is returned after a conditional HTTP GET, which says:
+
+   - _I have this resource from yesterday, please return it only if you have a newer version_.
 
 This is a mechanism used by Web sites and Web browsers for caching images and multimedia content that rarely change.
 
@@ -115,9 +117,9 @@ Status codes starting with 5 indicate a server error, such as `service unavailab
 
 This coul be caused either by a **bug of the software** at the server side, or by an incorrect invocation made by the client.
 
-- Status code `501 Not Implemented` may be returned when certain **functionality** is not yet **implemented** by the server side software.
+- Status code `501 Not Implemented` may be returned when certain functionality is not yet implemented by the server side software.
 
-- Status code `503 Service Unavailable` may be returned when a component at the **server side is not ready**.
+- Status code `503 Service Unavailable` may be returned when a component at the server side is not ready.
 
 You can learn about the other status codes in the official `HTTP 1.1 standard: the RFC 7231`.
 
