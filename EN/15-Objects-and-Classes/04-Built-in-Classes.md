@@ -161,7 +161,7 @@ System.out.println(isValid);
 [code-task title="Randomize Words" taskId="java-fund-16-Objects-and-Classes-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -464,7 +464,8 @@ System.out.println(number);
 [code-task title="Sum Big Numbers" taskId="java-fund-16-Objects-and-Classes-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.math.BigInteger;
 
 public class Main {
     public static void main(String[] args) {
@@ -694,7 +695,8 @@ You will receive two numbers **(0 to 10 ^ 50)**, print their sum.
 [code-task title="Big Factorial" taskId="java-fund-16-Objects-and-Classes-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.math.BigInteger;
 
 public class Main {
     public static void main(String[] args) {
