@@ -67,7 +67,9 @@ System.out.println(String.join(" ", list));
 [code-task title="Sum Adjacent Equal Numbers" taskId="java-fund-13-Lists-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.text.DecimalFormat;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -137,26 +139,10 @@ Write a program to **sum all adjacent equal numbers** in a list of decimal numbe
 [/test]
 [test]
 [input]
-3 3 6 1
-[/input]
-[output]
-12 1
-[/output]
-[/test]
-[test]
-[input]
 0.1 0.1 5 -5
 [/input]
 [output]
 0.2 5 -5
-[/output]
-[/test]
-[test]
-[input]
-8 2 2 4 8 16
-[/input]
-[output]
-16 8 16
 [/output]
 [/test]
 [test]
@@ -226,9 +212,7 @@ Write a program to **sum all adjacent equal numbers** in a list of decimal numbe
 [code-editor language=java]
 ```
 import java.text.DecimalFormat;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -415,7 +399,8 @@ Write a program to **sum all adjacent equal numbers** in a list of decimal numbe
 [code-task title="Gauss' Trick" taskId="java-fund-13-Lists-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -511,9 +496,7 @@ Write a program that sums all numbers in a list in the following order:
 [code-task title="Gauss' Trick"  executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -623,7 +606,8 @@ Write a program that sums all numbers in a list in the following order:
 [code-task title="Merging Lists" taskId="java-fund-13-Lists-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
