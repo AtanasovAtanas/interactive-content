@@ -3,7 +3,7 @@
 [code-task title="Vehicle Catalogue" taskId="java-fund-17-Objects-and-Classes-Exercise-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -47,7 +47,7 @@ Format the answer to the **second decimal point**.
 | Ferrari | Color: green |
 | Ford | Horsepower: 120 |
 | Man | Type: Truck |
-| | Model: Man |
+| Close the Catalogue | Model: Man |
 | | Color: red |
 | | Horsepower: 200 |
 | | Cars have average horsepower of: 413.33. |
@@ -56,7 +56,7 @@ Format the answer to the **second decimal point**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 truck Man red 200
 truck Mercedes blue 300

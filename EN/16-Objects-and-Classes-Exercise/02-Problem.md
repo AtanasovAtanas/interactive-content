@@ -3,7 +3,7 @@
 [code-task title="Opinion Poll" taskId="java-fund-17-Objects-and-Classes-Exercise-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,17 +39,16 @@ Using the **Person class**, write a program that reads from the console **N line
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 3
-Pesho 12
-Stamat 31
-Ivan 48
-
+Peter 12
+John 31
+Steven 48
 [/input]
 [output]
-Stamat - 31
-Ivan - 48
+John - 31
+Steven - 48
 [/output]
 [/test]
 [test]

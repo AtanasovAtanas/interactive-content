@@ -3,7 +3,7 @@
 [code-task title="Students" taskId="java-fund-17-Objects-and-Classes-Exercise-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -47,7 +47,7 @@ Each student should have **First name** (string), **Last name** (string) and **g
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 4
 Lakia Eason 3.90

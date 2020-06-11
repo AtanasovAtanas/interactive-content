@@ -3,7 +3,7 @@
 [code-task title="Articles" taskId="java-fund-17-Objects-and-Classes-Exercise-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,7 +51,7 @@ At the end, **print the final article**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 some title, some content, some author
 3

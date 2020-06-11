@@ -3,7 +3,7 @@
 [code-task title="Articles 2.0" taskId="java-fund-17-Objects-and-Classes-Exercise-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -46,7 +46,7 @@ You need to order the articles **alphabetically** based on the command and print
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 2
 Science, planets, Bill
