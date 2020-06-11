@@ -37,9 +37,16 @@ Real-life example: A dog has states - color, name, breed; and behaviors – bark
 An object holds a set of named values.
 Example: birthday object holds the day, month and year.
 
-```java live
-LocalDate birthday = LocalDate.of(2018,5,5);
-System.out.println(birthday);
+```java live no-template
+import java.time.LocalDate;
+
+public class Main {
+    public static void main(String[] args) {
+
+        LocalDate birthday = LocalDate.of(2018,5,5);
+        System.out.println(birthday);
+    }
+}
 ```
 [/slide]
 
@@ -106,7 +113,8 @@ public class Animal {
 [code-task title="Songs" taskId="java-fund-16-Objects-and-Classes-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -488,7 +496,7 @@ Photoshop
 [code-task title="Students" taskId="java-fund-16-Objects-and-Classes-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -910,7 +918,7 @@ Port Lee is 14 years old
 [code-task title="Students 2.0" taskId="java-fund-16-Objects-and-Classes-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
