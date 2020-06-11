@@ -11,6 +11,7 @@
 ## Description
 
 * Change the document title to **Navigation Inline Block**
+* Use font-family **Helvetica, sans-serif**
 * Divide your content into **header** and **main** tags
 * Create a **navigation bar** 
 * Add four **list** items in **nav** tag with **a** tags inside 
