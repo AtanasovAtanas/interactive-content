@@ -67,14 +67,6 @@ Write a program to **append several arrays** of numbers.
 [/test]
 [test]
 [input]
-7 \| 4  5\|1 0\| 2 5 \|3
-[/input]
-[output]
-3 2 5 1 0 4 5 7
-[/output]
-[/test]
-[test]
-[input]
 1\| 4 5 6 7 \| 8 9
 [/input]
 [output]
