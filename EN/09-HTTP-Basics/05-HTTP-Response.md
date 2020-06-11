@@ -119,7 +119,7 @@ This coul be caused either by a **bug of the software** at the server side, or b
 
 - Status code `503 Service Unavailable` may be returned when a component at the **server side is not ready**.
 
-You can learn about the other status codes in the official **HTTP 1.1 standard: the RFC 7231**.
+You can learn about the other status codes in the official `HTTP 1.1 standard: the RFC 7231`.
 
 [/slide]
 
