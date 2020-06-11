@@ -10,6 +10,12 @@
 
 ## Description
 
+* Change the document title to **Navigation Inline Block**
+* Divide your content into **header** and **main** tags
+* Create a **navigation bar** 
+* Add four **list** items in **nav** tag with **a** tags inside 
+* Add **display: inline-block;** style for each item in the nav
+
 You can find an example view [here](https://i.imgur.com/iN6xIbU.png) .
 
 You can download the resources [here](https://mega.nz/file/uZxzDaRJ#CJ9QOWjUG_ayNIa0B3T51ZZLpxJAkRdNlKm0G_aHUDg)
