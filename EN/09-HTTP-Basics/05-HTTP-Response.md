@@ -77,13 +77,13 @@ The first digit serves for grouping the status codes.
 
 Status codes starting with 2 indicate a successful operation:
 
-- Status `200 OK`, which means that the requested resource has been **successfully** retrieved and returned.
+- Status code `200 OK`, which means that the requested resource has been **successfully** retrieved and returned.
 
 This is what the server **returns** when you open a news article **successfully**.
 
-- Status `201 Created` means that a **new resource has been created successfully**.
+- Status code `201 Created` means that a **new resource has been created successfully**.
 
-- Status `204 No content` means that the request was successful, but there is **nothing to return**.
+- Status code `204 No content` means that the request was successful, but there is **nothing to return**.
 
 Status codes starting with 3 are used for redirection to another URL:
 
@@ -91,35 +91,35 @@ Status codes starting with 3 are used for redirection to another URL:
 
 - The status code `302 Found` is used to **temporarily** redirect to another URL.
 
-- Status code `304 Not Modified` is returned after a conditional HTTP GET, which says `I have this resource from yesterday. Please return it only if you have a newer version`. 
+- Status code `304 Not Modified` is returned after a conditional HTTP GET, which says `I have this resource from yesterday.` 
 
-This is a mechanism used by Web sites and Web browser for caching images and multimedia content that rarely change.
+`Please return it only if you have a newer version.`
+
+This is a mechanism used by Web sites and Web browsers for caching images and multimedia content that rarely change.
 
 Status codes starting with 4 indicate a client error, such as `bad request` or `not found`:
 
 - Status code `400 Bad Request` means that the client has sent an **invalid request**.
 
-- Status code `401 Unauthorized` is returned when the resource is **available** but can be accessed after **authentication** only. 
+- Status code `401 Unauthorized` is returned when the resource is **available** but can be accessed after **authentication** only.
 
-- Status code `403 Forbidden` is returned when the resource is **restricted** for the current user. F
+- Status code `403 Forbidden` is returned when the resource is **restricted** for the current user.
 
 - Status code `404 Not Found` means that the requested resource is **missing**. 
 
 This can happen when users type incorrect resource URI or after an existing resource is deleted from the server.
 
-- The status code `409 Conflict` is returned when the requested operation cannot be performed due to **conflict**.
+- Status code `409 Conflict` is returned when the requested operation cannot be performed due to **conflict**.
 
 Status codes starting with 5 indicate a server error, such as `service unavailable`:
 
 - Status code `500 Internal Server Error` means that **the server crashed while** processing your request.
 
-
-- Status code `500 Internal Server Error` is caused either by a **bug of the software** at the server side, or by an incorrect invocation made by the client.
-
+- Status code `500 Internal Server Error` is caused either by a **bug of the software** at the server-side, or by an incorrect invocation made by the client.
 
 - Status code `501 Not Implemented` may be returned when certain **functionality** is not yet **implemented** by the server-side software.
 
-- Status code `503 Service Unavailable` may be returned when a component at the **server side is not ready**.
+- Status code `503 Service Unavailable` may be returned when a component at the **server-side is not ready**.
 
 You can learn about the other status codes in the official **HTTP 1.1 standard: the RFC 7231**.
 
@@ -154,9 +154,9 @@ filename="Financial-Report-2020.pdf"
 
 ```
 
-The `Content-Type` and the `Content-Disposition` headers in the HTTP response to inform the Web browser that the returned resource is a **PDF document**, which has a file name `Financial-Report-2020.pdf` and should be downloaded as attachment.
+The `Content-Type` and the `Content-Disposition` headers in the HTTP response to inform the Web browser that the returned resource is a **PDF document**, which has a file name `Financial-Report-2020.pdf` and should be downloaded as an attachment.
 
-In the HTTP requests the `Content-Type` header specifies what kind of data the client **sends to the server**, for example a JSON document or URL-encoded form data or a plain-text document or a JPEG image.
+In the HTTP requests, the `Content-Type` header specifies what kind of data the client **sends to the server**, for example, a JSON document or URL-encoded form data or a plain-text document or a JPEG image.
 
 When the data is text-based, the `charset` encoding can also be specified and this is highly **recommended**, because **wrong** encoding may result in **broken** and unreadable text stored in the database.
 
@@ -164,11 +164,11 @@ The value of the `Content-Type` is a media type identifier like `text/html`, `ap
 
 The list of officially standardized media types and their officially assigned media type identifiers are maintained by the Internet organization [IANA](https://iana.org/assignments/media-types).
 
-In the HTTP responses the `Content-Type` header specifies what kind of data the server returns to the client, for example an HTML document or a JPEG image.
+In the HTTP responses, the `Content-Type` header specifies what kind of data the server returns to the client, for example, an HTML document or a JPEG image.
 
 When the data is text-based, the `charset` can also be specified. 
 
-**Specifying explicitly the character encoding** is highly recommended and help visualizing correctly the returned document.
+**Specifying explicitly the character encoding** is highly recommended and helps to visualize correctly the returned document.
 
 When Web browsers open a Web site, by default it uses the character encoding from the `Content-Type` response header.
 
@@ -204,7 +204,7 @@ Content-Length: 18586
 </title>
 ```
 
-The HTTP response form the Web server returns:
+The HTTP response from the Web server returns:
 
 - Status code `200 OK`, which means that the **requested resource is found** and will be returned in the response body.
 
@@ -220,6 +220,6 @@ This is the Microsoft's Web server, used by the `ASP.NET` app behind the Web sit
 
 Using this value, the Web browser could visualize a download progress bar for large files or documents.
 
-- After the headers, an empty line comes and then the requested resource is returned in the HTTP response body.
+- After the headers, an empty line comes, and then the requested resource is returned in the HTTP response body.
 
 [/slide]
