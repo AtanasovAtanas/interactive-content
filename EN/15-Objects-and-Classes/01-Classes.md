@@ -17,11 +17,11 @@ It builds the specification of a given type object from the real-world.
 
 All entities with similar characteristics can be arranged in categories.
 
-For example all animals are grouped in a single `class` and each animal is an `object` of that class.
+For example, all animals are grouped in a single `class` and each animal is an `object` of that class.
 
 [image assetsSrc="ObjectsAndClasses_RealLifeExample.png" /]
 
-Each animal has states like type, age, color, preferred food, etc. and behavior like eat, drink water, move, make sound, etc. 
+Each animal has states like type, age, colour, preferred food, etc. and behaviour like eat, drink water, move, make sound, etc. 
 
 A class is like an object constructor, that contains all of their similar characteristics. It is a "blueprint" for creating objects.
 
