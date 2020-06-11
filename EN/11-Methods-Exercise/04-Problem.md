@@ -3,7 +3,7 @@
 [code-task title="Password Validator" taskId="java-fund-11-Methods-Exercise-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -44,7 +44,7 @@ Write a method for each rule.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 logIn
 [/input]
@@ -53,7 +53,7 @@ Password must be between 6 and 10 characters
 Password must have at least 2 digits
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 MyPass123
 [/input]

@@ -3,7 +3,7 @@
 [code-task title="Smallest of Three Numbers" taskId="java-fund-11-Methods-Exercise-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -35,7 +35,7 @@ Use an appropriate name for the method.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 2
 5
@@ -45,17 +45,7 @@ Use an appropriate name for the method.
 2
 [/output]
 [/test]
-[test]
-[input]
-600
-600
-123
-[/input]
-[output]
-123
-[/output]
-[/test]
-[test]
+[test open]
 [input]
 25
 -21
@@ -63,6 +53,16 @@ Use an appropriate name for the method.
 [/input]
 [output]
 -21
+[/output]
+[/test]
+[test]
+[input]
+600
+600
+123
+[/input]
+[output]
+123
 [/output]
 [/test]
 [test]

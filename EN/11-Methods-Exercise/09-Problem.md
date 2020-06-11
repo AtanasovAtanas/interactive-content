@@ -3,7 +3,7 @@
 [code-task title="Palindrome Integers" taskId="java-fund-11-Methods-Exercise-problem-9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ Write a program which reads a positive integer numbers **until you receive** "EN
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 123
 323

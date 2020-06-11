@@ -3,7 +3,7 @@
 [code-task title="NxN Matrix" taskId="java-fund-11-Methods-Exercise-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,7 +26,7 @@ Write a method that receives a single integer n and prints nxn matrix with that 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 3
 [/input]

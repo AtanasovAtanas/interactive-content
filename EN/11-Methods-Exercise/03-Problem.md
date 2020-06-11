@@ -3,7 +3,7 @@
 [code-task title="Characters in Range" taskId="java-fund-11-Methods-Exercise-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,13 +27,13 @@ Write a method that receives **two characters** and prints on a single line all 
 ### Example
 | **Input** | **Output** |
 | --- | --- |
-| # | 1 |
-| : | $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 |
+| # | $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 |
+| : | |
 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 a
 d
@@ -42,7 +42,7 @@ d
 b c
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 \#
 :

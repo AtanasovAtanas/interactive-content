@@ -3,7 +3,7 @@
 [code-task title="Factorial Division" taskId="java-fund-11-Methods-Exercise-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,12 +24,12 @@ Calculate **factorial** of each number.
 | **Input** | **Output** |
 | --- | --- |
 | 5 | 60.00 |
-| 3 | |
+| 2 | |
 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 5
 2

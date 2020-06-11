@@ -3,7 +3,7 @@
 [code-task title="Middle Characters" taskId="java-fund-11-Methods-Exercise-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,7 +33,7 @@ If the **length** of the string is **even** there are **two middle characters**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 aString
 [/input]
@@ -41,7 +41,7 @@ aString
 r
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 someText
 [/input]

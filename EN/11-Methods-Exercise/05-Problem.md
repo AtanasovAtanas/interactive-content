@@ -3,7 +3,7 @@
 [code-task title="Add and Subtract" taskId="java-fund-11-Methods-Exercise-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -35,7 +35,7 @@ Write a method sum to get the sum of the first two integers and subtract method 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 23
 6
@@ -45,7 +45,7 @@ Write a method sum to get the sum of the first two integers and subtract method 
 19
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 1
 17

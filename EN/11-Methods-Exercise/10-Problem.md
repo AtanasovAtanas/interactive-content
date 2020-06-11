@@ -3,7 +3,7 @@
 [code-task title="Top Number" taskId="java-fund-11-Methods-Exercise-problem-10" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,16 +33,7 @@ Write a program to print all master numbers in the range [1…n].
 [/task-description]
 [code-io /]
 [tests]
-[test]
-[input]
-50
-[/input]
-[output]
-17
-35
-[/output]
-[/test]
-[test]
+[test open]
 [input]
 100
 [/input]
@@ -53,6 +44,15 @@ Write a program to print all master numbers in the range [1…n].
 71
 79
 97
+[/output]
+[/test]
+[test]
+[input]
+50
+[/input]
+[output]
+17
+35
 [/output]
 [/test]
 [test]
