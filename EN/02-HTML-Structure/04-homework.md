@@ -23,7 +23,7 @@
 
 You can find an example view [here](https://i.imgur.com/CyqSQVg.png)
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/yIojERLL#nboU3_h_hxh-gEX8NBh9ALy1O7jzS05yI91vLDUwsRM)
+You can download the resources [here](https://mega.nz/file/yIojERLL#nboU3_h_hxh-gEX8NBh9ALy1O7jzS05yI91vLDUwsRM)
 
 [/task-description]
 
@@ -126,7 +126,7 @@ yes
 * Exactly one **paragraph** for the comment  
 
 You can find an example view [here](https://i.imgur.com/VZ3G7ds.png)
-You can DOWNLOAD the resources [here](https://mega.nz/file/DJZl2S4I#0VTmensITgR8ApVDNo9a2TLvNKNjHoNXbYM3oqu-uIE)
+You can download the resources [here](https://mega.nz/file/DJZl2S4I#0VTmensITgR8ApVDNo9a2TLvNKNjHoNXbYM3oqu-uIE)
 
 [/task-description]
 
@@ -243,7 +243,7 @@ yes
 
 You can find an example view [here](https://i.imgur.com/2nzQn8u.png)
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/mAxW3A6T#bny_dYSk5pF4JsXJCTLjecwbh3N_VJM8CeW_VFDWx5g)
+You can download the resources [here](https://mega.nz/file/mAxW3A6T#bny_dYSk5pF4JsXJCTLjecwbh3N_VJM8CeW_VFDWx5g)
 
 [/task-description]
 

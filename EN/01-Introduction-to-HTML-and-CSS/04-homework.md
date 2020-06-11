@@ -76,7 +76,7 @@ yes
 
 You can find an example view [here](https://i.imgur.com/r2uiWda.png)
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/3Qp2hQTT#uc-eYG1FPqQ5sm9sKl4XIqJRUVcA6tAoNvBuhtPwJ4Q)
+You can download the resources [here](https://mega.nz/file/3Qp2hQTT#uc-eYG1FPqQ5sm9sKl4XIqJRUVcA6tAoNvBuhtPwJ4Q)
 
 [/task-description]
 
@@ -167,7 +167,7 @@ yes
 
 You can find an example view [here](https://i.imgur.com/OFIZzEc.png)
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/udoAHCBI#m0lErwm3xJFfHmtX2tTc0Xs17p4G6xrL04bFL-6ST2g)
+You can download the resources [here](https://mega.nz/file/udoAHCBI#m0lErwm3xJFfHmtX2tTc0Xs17p4G6xrL04bFL-6ST2g)
 
 [/task-description]
 
@@ -255,7 +255,7 @@ yes
 
 You can find an example view [here](https://i.imgur.com/wU3Sxjy.png)
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/HY4jxA5L#KUt-Q7VkYnFKmCLT8Xb8oE7AcJhvqbp5Fppbc6O7giY)
+You can download the resources [here](https://mega.nz/file/HY4jxA5L#KUt-Q7VkYnFKmCLT8Xb8oE7AcJhvqbp5Fppbc6O7giY)
 
 [/task-description]
 
@@ -365,7 +365,7 @@ yes
 
 You can find an example view [here](https://i.imgur.com/TenhpeD.png)
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/3ZQ0FaRR#vAK8zZHSkuCr8Q9eievu2o5Gk-Z_Wqiwt4MHtOb0hQo)
+You can download the resources [here](https://mega.nz/file/3ZQ0FaRR#vAK8zZHSkuCr8Q9eievu2o5Gk-Z_Wqiwt4MHtOb0hQo)
 
 [/task-description]
 
@@ -466,7 +466,7 @@ yes
 
 You can find an example view [here](https://i.imgur.com/kWf4KPN.png)
 
-You can DOWNLOAD the resources [here](https://mega.nz/file/XJJXmALY#wasQcGhrShimGMS95NX7ZtxKbRtEunlVM0mHBdWRPqk)
+You can download the resources [here](https://mega.nz/file/XJJXmALY#wasQcGhrShimGMS95NX7ZtxKbRtEunlVM0mHBdWRPqk)
 
 [/task-description]
 
