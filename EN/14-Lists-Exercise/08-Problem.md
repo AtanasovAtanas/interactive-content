@@ -3,7 +3,8 @@
 [code-task title="Pokemon Don't Go" taskId="java-fund-14-Lists-Exercise-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -82,7 +83,7 @@ The **program ends** when the sequence has **no elements**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 4 5 3
 1
@@ -95,7 +96,7 @@ The **program ends** when the sequence has **no elements**.
 
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 5 10 6 3 5
 2

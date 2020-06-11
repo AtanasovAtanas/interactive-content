@@ -3,7 +3,8 @@
 [code-task title="Cards Game" taskId="java-fund-14-Lists-Exercise-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,7 +40,7 @@ You have to **print the winner on the console** and **the sum of the left** card
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 20 30 40 50
 10 20 30 40

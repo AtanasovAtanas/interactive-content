@@ -3,7 +3,8 @@
 [code-task title="Append Arrays" taskId="java-fund-14-Lists-Exercise-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,7 +33,7 @@ Write a program to **append several arrays** of numbers.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 2 3 \|4 5 6 \|  7  8
 [/input]
@@ -40,7 +41,7 @@ Write a program to **append several arrays** of numbers.
 7 8 4 5 6 1 2 3
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 7 \| 4  5\|1 0\| 2 5 \|3
 [/input]

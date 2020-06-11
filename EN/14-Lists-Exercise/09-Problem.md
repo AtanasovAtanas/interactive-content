@@ -3,7 +3,8 @@
 [code-task title="SoftUni Course Planning" taskId="java-fund-14-Lists-Exercise-problem-9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,7 +68,7 @@ Each time you **Swap or Remove a lesson,** you should **do the same with the exe
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 Data Types, Objects, Lists
 Add:Databases
@@ -82,7 +83,7 @@ course start
 4.Databases
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 Arrays, Lists, Methods
 Swap:Arrays:Methods

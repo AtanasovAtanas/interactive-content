@@ -3,7 +3,8 @@
 [code-task title="Bomb Numbers" taskId="java-fund-14-Lists-Exercise-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -46,7 +47,7 @@ Finally **print the sum of the remaining elements** in the sequence.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 2 2 4 2 2 2 9
 4 2
@@ -56,7 +57,7 @@ Finally **print the sum of the remaining elements** in the sequence.
 12
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 1 4 4 2 8 9 1
 9 3

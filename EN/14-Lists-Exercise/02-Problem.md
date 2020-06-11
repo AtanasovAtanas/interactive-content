@@ -3,7 +3,8 @@
 [code-task title="Change List" taskId="java-fund-14-Lists-Exercise-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,7 +34,7 @@ You should **stop the program** when you receive the command "end". Print all nu
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 2 3 4 5 5 5 6
 Delete 5

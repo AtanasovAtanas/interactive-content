@@ -3,7 +3,8 @@
 [code-task title="List Operations" taskId="java-fund-14-Lists-Exercise-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,7 +40,7 @@ The **possible commands** are:
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 23 29 18 43 21 20 
 Add 5

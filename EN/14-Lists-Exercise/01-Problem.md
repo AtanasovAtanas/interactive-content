@@ -3,8 +3,8 @@
 [code-task title="Train" taskId="java-fund-14-Lists-Exercise-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
-
+import java.util.*;
+import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
         // Write your code here
@@ -40,7 +40,7 @@ At the end **print** the final state of the train (all the wagons separated by a
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 32 54 21 12 4 0 23
 75
