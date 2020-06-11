@@ -10,6 +10,14 @@
 
 ## Description
 
+* Change the document title to **Box Model Container**
+* Use **p** tag to create a paragraph
+* Set the paragraph **width**: 200px;
+* Set **padding** and **margin**
+* Set **5px solid border** with **border-radius**
+* Use **rgb(64, 224, 208)** color for the **background**
+* Try to center the container with **margin: auto**
+
 You can find an example view [here](https://i.imgur.com/YPecbHc.png)
 
 You can download the resources [here](https://mega.nz/file/6U4j0K5D#bE77e7n5MZyQ_fuAKBPOHa6UOb9N27_3nLtSwQahIbw)
