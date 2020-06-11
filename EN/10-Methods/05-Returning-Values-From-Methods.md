@@ -471,6 +471,7 @@ ivanivan
 [code-task title="Problem: Math Power" taskId="856a60c4-b014-4717-80d8-fb79c0c2f82e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main {
