@@ -103,7 +103,7 @@ Status codes starting with 4 indicate a client error, such as `bad request` or `
 
 - Status code `403 Forbidden` is returned when the resource is **restricted** for the current user.
 
-- Status code `404 Not Found` means that the requested resource is **missing**. 
+- Status code `404 Not Found` means that the requested resource is **missing**.
 
 This can happen when users type incorrect resource URI or after an existing resource is deleted from the server.
 
@@ -113,13 +113,11 @@ Status codes starting with 5 indicate a server error, such as `service unavailab
 
 - Status code `500 Internal Server Error` means that **the server crashed while** processing your request.
 
-This coul be caused either by a **bug of the software** at the server-side, or by an incorrect invocation made by the client.
+This coul be caused either by a **bug of the software** at the server side, or by an incorrect invocation made by the client.
 
+- Status code `501 Not Implemented` may be returned when certain **functionality** is not yet **implemented** by the server side software.
 
-- Status code `501 Not Implemented` may be returned when certain **functionality** is not yet **implemented** by the server\-side software.
-
-
-- Status code `503 Service Unavailable` may be returned when a component at the **server-side is not ready**.
+- Status code `503 Service Unavailable` may be returned when a component at the **server side is not ready**.
 
 You can learn about the other status codes in the official **HTTP 1.1 standard: the RFC 7231**.
 
