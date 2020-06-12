@@ -109,7 +109,7 @@ Normal URL characters such as `[0-9a-zA-Z]` has no special meaning in the URLs a
 
 The reserved characters are the most **punctuation marks** and many others.
 
-Reserved characters are escaped by using the so-called `percent-encoding`, which uses the `%` symbol plus the hex code of the character (in its UTF-8 representation).
+Reserved characters are escaped by using the so-called `percent-encoding`, which uses the `%` symbol plus the hex code of the character in its UTF-8 representation.
 
 An example of reserved character is the character `?`, which is encoded as `%3F`.
 
