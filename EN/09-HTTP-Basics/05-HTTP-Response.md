@@ -111,7 +111,7 @@ This can happen when users type incorrect resource URI or after an existing reso
 
 - Status code `409 Conflict` is returned when the requested operation cannot be performed due to **conflict**.
 
-   - Status codes starting with 5 indicate a server error, such as `service unavailable`:
+Status codes starting with 5 indicate a server error, such as `service unavailable`:
 
 - Status code `500 Internal Server Error` means that **the server crashed while** processing your request.
 

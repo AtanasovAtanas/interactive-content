@@ -3,7 +3,9 @@
 [slide]
 # Uniform Resource Locator (URL)
 
-*Uniform Resource Locator** `URL` identifiers are unique **addresses** on Internet, used to identify resources, Web sites and documents on the Web.
+# ADD PICTURE
+
+**Uniform Resource Locator** `URL` identifiers are unique **addresses** on Internet, used to identify resources, Web sites and documents on the Web.
 
 The **URL** is what we type in the browser address bar, for example: `https://softuni.org`.
 
@@ -69,7 +71,7 @@ The query string in this URL example is:
 
 - `?name=tom&color=purple`
 
-The query string is commonly used in **searches** and **dynamic** pages.
+The query string is commonly used in **searches** and **dynamic** pages:
 
 - For example: `https://nakov.com/?s=book`
 
