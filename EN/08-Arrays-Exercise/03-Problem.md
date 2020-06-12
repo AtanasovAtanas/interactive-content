@@ -1,3 +1,14 @@
+# Problem: Zig-Zag Arrays
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421823768" default /]
+[stream language="RO" videoId="428055481"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Zig-Zag Arrays
 [code-task title="Zig-Zag Arrays" taskId="java-fund-08-Arrays-Exercise-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]

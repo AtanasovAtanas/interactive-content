@@ -1,3 +1,14 @@
+# Problem: Top Integers
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421822945" default /]
+[stream language="RO" videoId="428055401"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Top Integers
 [code-task title="Top Integers" taskId="java-fund-08-Arrays-Exercise-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]

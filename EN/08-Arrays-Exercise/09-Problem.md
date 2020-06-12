@@ -1,3 +1,14 @@
+# Problem: LadyBugs
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421820773" default /]
+[stream language="RO" videoId="428055528"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: LadyBugs
 [code-task title="LadyBugs" taskId="java-fund-08-Arrays-Exercise-problem-9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
