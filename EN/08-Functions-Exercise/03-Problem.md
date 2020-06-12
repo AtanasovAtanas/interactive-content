@@ -1,3 +1,15 @@
+# Problem: Characters in Range
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="428438197"  default /]
+[stream language="RO" videoId="428425391" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Characters in Range
 [code-task title="Characters in Range" taskId="python-fund-11-Functions-Exercise-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]

@@ -1,3 +1,15 @@
+# Problem: Add and Subtract
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="428438269"  default /]
+[stream language="RO" videoId="428425459" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Add and Subtract
 [code-task title="Add and Subtract" taskId="python-fund-11-Functions-Exercise-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]

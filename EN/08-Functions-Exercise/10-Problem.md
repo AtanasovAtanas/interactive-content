@@ -1,3 +1,15 @@
+# Problem: Top Number
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="428438393"  default /]
+[stream language="RO" videoId="428061710" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Top Number
 [code-task title="Top Number" taskId="python-fund-11-Functions-Exercise-problem-10" executionType="tests-execution" executionStrategy="python-code" requiresInput]

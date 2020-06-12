@@ -1,3 +1,15 @@
+# Problem: NxN Matrix
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="428438355"  default /]
+[stream language="RO" videoId="428061640" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: NxN Matrix
 [code-task title="NxN Matrix" taskId="python-fund-11-Functions-Exercise-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]

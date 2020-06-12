@@ -1,3 +1,15 @@
+# Problem: Smallest of Three Numbers
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="428438128"  default /]
+[stream language="RO" videoId="428425311" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Smallest of Three Numbers
 [code-task title="Smallest of Three Numbers" taskId="python-fund-11-Functions-Exercise-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
