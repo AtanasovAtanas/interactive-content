@@ -42,6 +42,7 @@ There are **many status codes**, specified in the HTTP standard.
 After the HTTP status line, the HTTP **response** headers come.
 
 Response headers **provide** metadata about:
+
 - returned resource or the returned error
 
    - such as content-encoding
