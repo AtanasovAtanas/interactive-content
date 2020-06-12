@@ -119,7 +119,7 @@ yes
 * Follow the instructions
 * Use **article** tag to create an article
 * The article has header with **h1** heading and a **paragraph** for the Published date inside
-* Use **p** tag to create 3 paragraphs after the **header**. The paragraphs contain the article content (info for apple). Use **b** tag where is need.     
+* Use **p** tag to create 3 paragraphs after the **header**. The paragraphs contain the article content (info for apple). Use **b** tags where it is needed.     
 * After that, you have to create the Comment section. Use **section** tag to create it. This section has **h2** heading and **two articles** inside    
 * Each article contains a comment and has:    
 * **Header** with an **h3** heading and a **paragraph** for the time
