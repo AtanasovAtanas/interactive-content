@@ -1,3 +1,14 @@
+# Problem: Max Sequence of Equal Elements
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421821171" default /]
+[stream language="RO" videoId="428055605"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Max Sequence of Equal Elements
 [code-task title="Max Sequence of Equal Elements" taskId="java-fund-08-Arrays-Exercise-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
