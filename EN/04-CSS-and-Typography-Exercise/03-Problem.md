@@ -13,7 +13,7 @@
 * Change the document **title** to **Styling Tables**
 * Use **table** tag
 * Use **thead** and **tbody** tags
-* Style the **odd tr** tags with **background**: rgb(241, 241, 241)
+* Style the **td** tags inside the **odd tr** tags with **background**: rgb(241, 241, 241)
 * The **table**, **td** and **th** tags must have
 * Border **width** - 1px
 * Border **color** - rgb(221, 221, 221)
@@ -22,9 +22,9 @@
 * **Background**: rgb(0, 0, 0)
 * Text **color**: rgb(255, 255, 255)
 
-You can find an example view 1 [here](https://i.imgur.com/GfBPPw2.png)
+You can find an example view 1 [here](https://i.imgur.com/bC7mxyj.png)
 
-You can find an example view 2 [here](https://i.imgur.com/NHBzZ2O.png)
+You can find an example view 2 [here](https://i.imgur.com/qFL57H5.png)
 
 You can download the resources [here](https://mega.nz/file/uZJXBAyJ#2sBfBmdhgWIRnOIXLtZCUwt0nwMeWw-BL3Oh6O9-yH0)
 
