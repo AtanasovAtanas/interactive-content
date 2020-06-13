@@ -3,7 +3,7 @@
 [slide]
 # HTTP Basics
 
-[image assetsSrc="HTTPBasicsPic.png" /]
+[image assetsSrc="HTTPBasicsPic1.png" /]
 
 **HTTP** is the main Internet protocol (IP) used to communicate between:
 
@@ -33,7 +33,7 @@ Like in the human languages, protocols have syntax, which specifies the structur
 [slide]
 # HTTP Explained
 
-# PICTURE HTTP request AND HTTP response
+[image assetsSrc="HTTPBasicsPic.png" /]
 
 HTTP is **text-based client-server protocol** for the Internet.
 
@@ -155,7 +155,7 @@ These **HTTP requests** again:
 
 # Network Layers and HTTP
 
-# ADD PICTURE
+[image assetsSrc="HyperTextTransferProtocol.png" /]
 
 **HTTP** is an **application-level protocol**, which uses **lower-level network protocols** to transfer data from the Web client to the Web server and vice versa.
 
