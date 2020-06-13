@@ -3,6 +3,8 @@
 [slide]
 # HTTP Basics
 
+[image assetsSrc="HTTPBasicsPic.png" /]
+
 **HTTP** is the main Internet protocol (IP) used to communicate between:
 
 - **Web servers:** which host Web sites and server-side software components
