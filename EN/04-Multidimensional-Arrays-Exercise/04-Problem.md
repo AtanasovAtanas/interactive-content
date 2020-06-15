@@ -34,7 +34,7 @@ Print the **elements** of the 3 x 3 square as a matrix, along with their **sum**
 
 ## Comments
 
-[image assetsSrc=""/]
+[image assetsSrc="maximal-sum.png"/]
 
 [/task-description]
 [code-io /]
