@@ -15,7 +15,7 @@ A list comprehension consists of a few parts:
 The basic structure of a list comprehension looks like below:
 
 ```python
-[return_expression] for [element] in [iterable] [optional_predicate_expression]
+[return_expression] for [element1] in [iterable] [optional_predicate_expression]
 ```
 
 As you can see, the **keywords** `for` and `in` are used.
