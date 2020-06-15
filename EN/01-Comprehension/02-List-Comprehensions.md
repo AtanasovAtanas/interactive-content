@@ -15,7 +15,7 @@ A list comprehension consists of a few parts:
 Let's see how the **syntax** aligns:
 
 ```
-[output expression] for [variable] in [input sequence] [optional predicate expression]
+[output expression] for [variable]
 ```
 
 As you can see, the **keywords** `for` and `in` are used.
