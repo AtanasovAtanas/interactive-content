@@ -1,5 +1,25 @@
 # List Comprehensions
 
+[slide]
+# Structure
+
+List comprehensions provide an **elegant way to create new lists**.
+
+A list comprehension consists of a few parts:
+
+ - An **input sequence**.
+ - A **variable** that represents **each of the elements** of the **input sequence**.
+ - A **predicate expression** (think of **lambda expressions**) which is **optional**.
+ - An **output expression** that **produces the new list's elements** from **elements of the input sequence**.
+
+
+As you can see, the **keywords** `for` and `in` are used.
+
+You are familiar with them from previous lessons.
+
+They allow you to **go through every element of a sequence**.
+
+[/slide]
 
 [slide]
 # Examples
