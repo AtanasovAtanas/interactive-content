@@ -36,9 +36,9 @@ Upon receiving the `End of battle` command, print the **count of won battles** i
 
 ## Input \/ Constraints
 
-- On the **first line**, you will receive **initial energy** – an **integer 1-10000**
+- On the **first line**, you will receive **initial energy** – an **integer in range 1-10000**
 
-- On the **next lines**, you will be receiving distance of the enemy – **an integer 1-10000**
+- On the **next lines**, you will be receiving distance of the enemy – an **integer in range 1-10000**
 
 ## Output
 
