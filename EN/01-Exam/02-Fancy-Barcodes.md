@@ -25,7 +25,7 @@ Your first task is to determine if the given sequence of characters is a **valid
 
 Examples of valid barcodes:`@#FreshFisH@#`, `@###Brea0D@###`, `@##Che46sE@##`, `@##Che46sE@###`
 
-Examples of **invalid** barcodes: \#\#InvaliDiteM\#\#, @InvalidIteM@, @\#Invalid_IteM@\#
+Examples of **invalid** barcodes: `##InvaliDiteM##`, `@InvalidIteM@`, `@#Invalid_IteM@#`
 
 Next, you have to determine the **product group** of the item from the **barcode**.
 
