@@ -84,3 +84,184 @@ print(odd_numbers) # [11, 13, 29]
 ```
 
 [/slide]
+
+[slide]
+# Problem: No Vowels
+[code-task title="No Vowels" taskId="python-fundamentals-comprehensions-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+# Write your code here
+```
+[/code-editor]
+[task-description]
+## Description
+Using a comprehension write a program that receives a **text** and **removes** all the **vowels** from it.
+
+Print the new text **string after removing the vowels**.
+
+The vowels that should be considered are '**a**', '**o**', '**u**', '**e**', '**i**'.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| Python | Pythn |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| ILovePython | LvPythn |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+Python
+[/input]
+[output]
+Pythn
+[/output]
+[/test]
+[test open]
+[input]
+ILovePython
+[/input]
+[output]
+LvPythn
+[/output]
+[/test]
+[test]
+[input]
+jasklldjla
+[/input]
+[output]
+jsklldjl
+[/output]
+[/test]
+[test]
+[input]
+zxcv
+[/input]
+[output]
+zxcv
+[/output]
+[/test]
+[test]
+[input]
+qwer
+[/input]
+[output]
+qwr
+[/output]
+[/test]
+[test]
+[input]
+euroiqip
+[/input]
+[output]
+rqp
+[/output]
+[/test]
+[test]
+[input]
+qaeou
+[/input]
+[output]
+q
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: No Vowels
+[code-task title="No Vowels" taskId="7cc52049-0f2c-4794-b80b-08f26be86c72" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
+```
+text = input()
+vowels = ['a', 'u', 'e', 'i', 'o', 'A', 'U', 'E', 'I', 'O']
+no_vowels = ''.join([x for x in text if x not in vowels])
+print(no_vowels)
+```
+[/code-editor]
+[task-description]
+## Description
+Using a comprehension write a program that receives a **text** and **removes** all the **vowels** from it.
+
+Print the new text **string after removing the vowels**.
+
+The vowels that should be considered are '**a**', '**o**', '**u**', '**e**', '**i**'.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| Python | Pythn |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| ILovePython | LvPythn |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+Python
+[/input]
+[output]
+Pythn
+[/output]
+[/test]
+[test open]
+[input]
+ILovePython
+[/input]
+[output]
+LvPythn
+[/output]
+[/test]
+[test]
+[input]
+jasklldjla
+[/input]
+[output]
+jsklldjl
+[/output]
+[/test]
+[test]
+[input]
+zxcv
+[/input]
+[output]
+zxcv
+[/output]
+[/test]
+[test]
+[input]
+qwer
+[/input]
+[output]
+qwr
+[/output]
+[/test]
+[test]
+[input]
+euroiqip
+[/input]
+[output]
+rqp
+[/output]
+[/test]
+[test]
+[input]
+qaeou
+[/input]
+[output]
+q
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
