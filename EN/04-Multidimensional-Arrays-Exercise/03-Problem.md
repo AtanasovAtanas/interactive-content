@@ -36,7 +36,7 @@ Write a program that finds the **difference between the sums of the square matri
 | --- | --- | --- |
 | 3 | 15 | **Primary diagonal:** sum = 11 + 5 + (-12) = 4  |
 | 11 2 4 |  | **Secondary diagonal:** sum = 4 + 5 + 10 = 19  |
-| 4 5 6 |  | **Difference:** |4 - 19| = 15  |
+| 4 5 6 |  | **Difference:** 4 - 19 = 15  |
 | 10 8 -12 |  |  |
 
 [/task-description]
