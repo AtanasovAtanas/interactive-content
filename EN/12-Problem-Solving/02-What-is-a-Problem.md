@@ -1,9 +1,9 @@
-# Definitionand Problem Solving
+# Definition and Problem Solving
 
 [slide]
 # What is a Problem?
 
-[image assetsSrc="what-is-a-problem.png" /]
+[image assetsSrc="what-is-a-problem1.png" /]
 
 By definition, in our daily life, the problem is a **question**, **situation**, or a **puzzle**, requiring logical thought to find a solution.
 
