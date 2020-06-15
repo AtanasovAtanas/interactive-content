@@ -3,7 +3,14 @@
 [slide]
 # HTTP Request Methods
 
-# ADD PICTURE
+| **Method** | **Description** | 
+| --- | --- | 
+|`GET`| Retrieve a resource |
+|`POST`| Create \/ store a resource | 
+|`PUT`| Update (replace) a resource | 
+|`DELETE`| Delete (remove) a resource | 
+|`PATCH`| Update resource partially (modify) | 
+|`HEAD`| Retrieve the resource\'s headers | 
 
 HTTP defines methods to indicate the **desired** action to be performed on the identified resource.
 
