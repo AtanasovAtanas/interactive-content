@@ -1,3 +1,5 @@
+# Stack - Last In First Out - LIFO
+
 [slide]
 # Stack Functionality
 
