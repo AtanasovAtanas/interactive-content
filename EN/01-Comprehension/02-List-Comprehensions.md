@@ -14,9 +14,7 @@ A list comprehension consists of a few parts:
 
 Let's see how the **syntax** aligns:
 
-```python
-[output_expression] for [variable] in
-```
+
 
 As you can see, the **keywords** `for` and `in` are used.
 
