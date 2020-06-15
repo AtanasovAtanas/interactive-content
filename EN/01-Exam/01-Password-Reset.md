@@ -17,17 +17,17 @@ The commands will be the following:
 
 - `TakeOdd`:
 
- Takes only the characters at **odd indices** and concatenates them together to obtain the **new raw password** and then prints it.
+   - Takes only the characters at **odd indices** and concatenates them together to obtain the **new raw password** and then prints it.
 
 - `Cut {index} {length}`:
 
- Gets the substring with the **given length** starting from the given index from the password and removes its first occurrence of it, then prints the password on the console.
+   - Gets the substring with the **given length** starting from the given index from the password and removes its first occurrence of it, then prints the password on the console.
 
-The given index and length will **always be valid**.
+   - The given index and length will **always be valid**.
 
 - `Substitute {substring} {substitute}`:
 
-If the raw password **contains** the given substring, **replaces** all of its occurrences with the substitute text given and **prints** the result.
+   - If the raw password **contains** the given substring, **replaces** all of its occurrences with the substitute text given and **prints** the result.
 
 If **it doesn't**, prints `Nothing to replace!`
 
