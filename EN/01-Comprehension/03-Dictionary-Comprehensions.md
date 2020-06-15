@@ -7,7 +7,7 @@ Extending the idea of list comprehensions, we can also create dictionaries using
 
 A dictionary comprehension consists of a few parts:
 
- - An **input sequence**.
+ - An **input sequence** (iterable).
    - It can be a **list** or **dictionary**.
  - A **variable** that represents **each of the elements** of the **input sequence**.
    - It can also be a **key-value pair**, as we can have a **dictionary input sequence**.

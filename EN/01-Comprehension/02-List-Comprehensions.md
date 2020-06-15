@@ -7,14 +7,16 @@ List comprehensions provide an **elegant way to create new lists**.
 
 A list comprehension consists of a few parts:
 
- - An **input sequence**.
+ - An **input sequence** (iterable).
  - A **variable** that represents **each of the elements** of the **input sequence**.
  - A **predicate expression** (think of **lambda expressions**) which is **optional**.
  - An **output expression** that **produces the new list's elements** from **elements of the input sequence**.
 
 The basic structure of a list comprehension looks like below:
 
-
+```python
+[output_expression] for [variable] in [iterable] [optional_predicate_expression]
+```
 
 As you can see, the **keywords** `for` and `in` are used.
 
