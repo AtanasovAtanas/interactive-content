@@ -12,7 +12,7 @@ A list comprehension consists of a few parts:
  - A **predicate expression** (think of **lambda expressions**) which is **optional**.
  - An **output expression** that **produces the new list's elements** from **elements of the input sequence**.
 
-Let's see how the **syntax** aligns:
+The basic structure of a list comprehension looks like below:
 
 `[output_expression] for [variable] in [input_sequence] [optional_predicate_expression]`
 
