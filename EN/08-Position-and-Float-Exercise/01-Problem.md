@@ -20,6 +20,7 @@
 * Change the **display** property to **inline-block**
 * Set the **font weight** to bold
 * Transform the text to **uppercase**
+* Set the **float** of the blockquote to right
 
 You can find an example view [here](https://i.imgur.com/AV7xrpw.png)
 
