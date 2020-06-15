@@ -12,10 +12,10 @@ A list comprehension consists of a few parts:
  - A **predicate expression** (think of **lambda expressions**) which is **optional**.
  - An **output expression** that **produces the new list's elements** from **elements of the input sequence**.
 
-Let\'s see how the **syntax** aligns:
+Let's see how the **syntax** aligns:
 
 ```
-[output_expression] for [variable] in [input_sequence] [optional_predicate_expression]
+output_expression for variable in input_sequence optional_predicate_expression
 ```
 
 As you can see, the **keywords** `for` and `in` are used.
