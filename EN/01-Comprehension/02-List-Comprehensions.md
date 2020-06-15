@@ -14,6 +14,10 @@ A list comprehension consists of a few parts:
 
 Let's see how the **syntax** aligns:
 
+```python
+[output_expression] for [variable] in [input_sequence] [optional_predicate_expression] asdadassd
+```
+
 As you can see, the **keywords** `for` and `in` are used.
 
 You are familiar with them from previous lessons.
