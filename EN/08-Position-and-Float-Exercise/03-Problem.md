@@ -14,7 +14,7 @@
 * Import **Font Awesome** into your CSS file
 * Add two **container units** (divs) with **class viewport** inside the body
 * Inside each one add **section** with **class card** (section.card)
-* Change the **display** property to **block**
+* Change the **display** property of the section to **block**
 * Try to center the **section** with **position** property **absolute**
 
 You can find an example view [here](https://i.imgur.com/yt446ue.png)
