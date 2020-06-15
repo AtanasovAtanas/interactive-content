@@ -16,7 +16,7 @@ public class Main {
 ## Description
 Write a program that finds the **difference between the sums of the square matrix diagonals** (absolute value).
 
-[image assetsSrc=""/]
+[image assetsSrc="diagonal-difference.png"/]
 
 ## Input
 
