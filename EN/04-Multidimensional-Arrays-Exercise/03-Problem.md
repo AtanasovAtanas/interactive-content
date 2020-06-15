@@ -3,7 +3,7 @@
 [code-task title="# Problem: Diagonal Difference" taskId="bb9083d2-94d1-4e24-997e-dfa9b838847e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {

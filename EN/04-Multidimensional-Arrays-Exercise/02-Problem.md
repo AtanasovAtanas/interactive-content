@@ -3,7 +3,7 @@
 [code-task title="Problem: Matrix of Palindromes" taskId="74a5c710-6bb2-4a63-928a-c97f4022a2b7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
