@@ -1,6 +1,6 @@
 [slide]
 # Problem: Infix to Postfix
-[code-task title="Infix to Postfix" taskId="d86567da-73f1-4cfa-b5a4-95b3c0cb0956" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Infix to Postfix" taskId="f7d51cf8-541d-48fd-bd9f-795d70200d50" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

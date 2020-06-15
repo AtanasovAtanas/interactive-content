@@ -1,6 +1,6 @@
 [slide]
 # Problem: Basic Stack Operations
-[code-task title="Basic Stack Operations" taskId="410c75e9-c151-4ec7-9d77-4ba0514832fc" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Basic Stack Operations" taskId="10bea7e5-eab5-4110-828f-ec56851bb090" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

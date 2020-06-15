@@ -1,6 +1,6 @@
 [slide]
 # Problem: Balanced Parentheses
-[code-task title="Balanced Parentheses" taskId="ad4d84d1-e030-4b66-879c-b77982b8baa4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Balanced Parentheses" taskId="76ac9c4c-07e3-4a40-9e66-c9d3190f0e1e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

@@ -1,6 +1,6 @@
 [slide]
 # Problem: Robotics
-[code-task title="Robotics" taskId="f45b568a-326d-4120-9da1-ea71897cf529" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Robotics" taskId="31ac9f55-2ed1-4c9e-83b5-5abe32b54c87" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;

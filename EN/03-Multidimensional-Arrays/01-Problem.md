@@ -1,6 +1,6 @@
 [slide]
 # Problem: Reverse Number with a Stack
-[code-task title="Reverse Number with a Stack" taskId="3189c7ab-dd3f-435b-9c04-6519c65bd773" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Reverse Number with a Stack" taskId="2e066f7f-4cbd-4c73-85ea-a92032febbea" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
