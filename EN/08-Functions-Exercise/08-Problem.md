@@ -17,13 +17,13 @@ Calculate **factorial** of each number.
 ### Example
 | **Input** | **Output** |
 | --- | --- |
-| 5 | 60.00 |
+| 5 | 20.00 |
 | 3 | |
 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 5
 2
