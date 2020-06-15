@@ -1,6 +1,6 @@
 [slide]
 # Problem: Recursive Fibonacci
-[code-task title="Recursive Fibonacci" taskId="e54ce8c6-1465-4c76-ad2f-92b63ace5575" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Recursive Fibonacci" taskId="426b0bb7-d61b-48d0-bde3-8a141d87e84c" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
