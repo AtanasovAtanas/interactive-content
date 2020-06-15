@@ -10,6 +10,13 @@
 
 ## Description
 
+* Change the document title to **Floating Images and Quotes**
+* Create a **header** with **h1** inside
+* Add an **article** and look the screenshot for some insight for the other items inside
+* Use color - rgb(238, 238, 238) for **body background**
+* Use color - rgb(255, 255, 255) for **image background** and rgba(0, 0, 0, 0.25) for **image box shadow**
+* Use **font family** Georgia, serif for the blockquote and headings
+
 You can find an example view [here](https://i.imgur.com/gH5TgWW.jpg)
 
 You can download the resources [here](https://mega.nz/file/vIwkVCiA#o1Cgl3pnfZvG_fziEv3b8DHhM7rVM4cjMKtd0ynm1qU)
