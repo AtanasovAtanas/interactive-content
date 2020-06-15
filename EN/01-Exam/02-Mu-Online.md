@@ -9,7 +9,7 @@
 [task-description]
 ## Description
 
-You have initial **health 100 and initial bitcoins 0**.
+YYou have initial **health 100 and initial bitcoins 0**.
 
 You will be given a string, representing the rooms of the dungeon.
 
@@ -17,19 +17,19 @@ Each room is separated with `|` (vertical bar): `room1|room2|room3…`
 
 - `potion`:
 
- You are healed with the number in the second part.
+   - You are healed with the number in the second part.
 
- But your health **cannot exceed** your **initial health (100)**.
+   - But your health **cannot exceed** your **initial health (100)**.
 
- First print: `You healed for {amount} hp.`
+   - First print: `You healed for {amount} hp.`
 
-After that, print your current health: `Current health: {health} hp.`
+   - After that, print your current health: `Current health: {health} hp.`
 
 - `chest`:
 
- You've found some bitcoins, the number in the second part.
+   - You've found some bitcoins, the number in the second part.
 
- Print: `You found {amount} bitcoins.`
+   - Print: `You found {amount} bitcoins.`
 
 - In any other case, you are facing a monster, you are going to fight.
 
@@ -54,6 +54,7 @@ You receive a string, representing the rooms of the dungeon, separated with `|` 
 ### Output
 
 Print the corresponding messages, described above.
+
 
 ## Examples
 | **Input** | **Output** |
