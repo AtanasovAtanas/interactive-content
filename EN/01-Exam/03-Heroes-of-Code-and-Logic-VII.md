@@ -15,9 +15,7 @@ On the next `n` lines, the heroes themselves will follow with their **hit points
 
 `{hero name} {HP} {MP}`
 
-where **HP** stands for hit points and **MP** for mana points
-
-a hero can have a **maximum** of **100 HP** and **200 MP**
+Where **HP** stands for hit points and **MP** for mana points and a hero can have a **maximum** of **100 HP** and **200 MP**.
 
 After you have successfully picked your heroes, you can start playing the game.
 
