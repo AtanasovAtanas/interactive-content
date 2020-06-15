@@ -77,7 +77,7 @@ Stateful HTTP conversations can be implemented by extra effort, using cookies, c
 
 # Front-End and Back-End
 
-## Front-End and Back-End PUCTURE
+[image assetsSrc="FrontEndBackEndPic.png" /]
 
 **Front-end** and **back-end** separates the modern apps into **client-side** user (interface, or UI) components and **server-side** (data storage and processing) components.
 
