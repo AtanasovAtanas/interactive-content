@@ -1,3 +1,5 @@
+# Queue - First In First Out - FIFO
+
 [slide]
 # Queue Functionality
 
