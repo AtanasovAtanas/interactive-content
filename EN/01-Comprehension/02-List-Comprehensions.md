@@ -1,7 +1,7 @@
-# A
+# List Comprehensions
 
 [slide]
-# X
+# Structure
 
 List comprehensions provide an **elegant way to create new lists**.
 
@@ -27,7 +27,7 @@ They allow you to **go through every element of a sequence**.
 [/slide]
 
 [slide]
-# Y
+# Examples
 
 The first one will be very simple, **just using the syntax above**:
 
@@ -48,7 +48,7 @@ It would be the same if we just create the list with the following code:
 
 ```python live
 numbers_list = list(range(5))
-print(numbers_list) # [0, 1, 2, 3, 4]
+print(numbers_list)
 ```
 
 The second example will be **without a predicate expression**, but with **manipulation in the output expression**:
@@ -56,7 +56,7 @@ The second example will be **without a predicate expression**, but with **manipu
 ```python live
 grades = [3.33, 4.56, 5.50, 2.88, 3.42]
 rounded_grades = [round(grade) for grade in grades]
-print(rounded_grades) # [3, 5, 6, 3, 3]
+print(rounded_grades)
 ```
 
 In this example we have some **grades** which **have to be rounded**.
@@ -68,7 +68,7 @@ In the last example for this slide, we'll have a **predicate expression**:
 ```python live
 x = [2, 3, 'four', 'five', 6]
 numbers = [element * 2 for element in x if isinstance(element, int)]
-print(numbers) # [4, 6, 12]
+print(numbers)
 ```
 
 There we **check** if the `element` is an `int`.
