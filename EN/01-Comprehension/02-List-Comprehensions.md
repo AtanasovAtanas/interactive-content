@@ -1,5 +1,3 @@
-# List Comprehensions
-
 [slide]
 # Structure
 
