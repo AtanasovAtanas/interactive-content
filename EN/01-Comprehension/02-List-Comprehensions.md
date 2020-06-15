@@ -1,5 +1,7 @@
+# A
+
 [slide]
-# Structure
+# X
 
 List comprehensions provide an **elegant way to create new lists**.
 
@@ -25,7 +27,7 @@ They allow you to **go through every element of a sequence**.
 [/slide]
 
 [slide]
-# Examples
+# Y
 
 The first one will be very simple, **just using the syntax above**:
 
