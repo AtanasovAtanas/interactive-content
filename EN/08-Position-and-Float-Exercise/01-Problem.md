@@ -10,6 +10,7 @@
 
 ## Description
 
+* Change the document title to **Article with Quotes and Media**
 * Divide your content into **header** and **main** tags
 * The **entire page font** should have the following properties:
 * **Size** - 16px
