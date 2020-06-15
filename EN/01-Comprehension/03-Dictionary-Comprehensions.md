@@ -166,7 +166,7 @@ n, v, d
 
 [slide]
 # Solution: ASCII Values
-[code-task title="ASCII Values" taskId="python-fundamentals-comprehensions-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="ASCII Values" taskId="1e56cffe-864d-4130-84aa-cdd2b50ec1da" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 input = input().split(", ")
@@ -402,7 +402,7 @@ y -\> c
 
 [slide]
 # Solution: Capitals
-[code-task title="Capitals" taskId="python-fundamentals-comprehensions-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="Capitals" taskId="dd93d6f5-5cab-4dc1-b1ba-dd619b3a442e" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 countries = input().split(', ')

@@ -176,7 +176,7 @@ q
 
 [slide]
 # Solution: No Vowels
-[code-task title="No Vowels" taskId="python-fundamentals-comprehensions-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+[code-task title="No Vowels" taskId="7cc52049-0f2c-4794-b80b-08f26be86c72" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 text = input()
