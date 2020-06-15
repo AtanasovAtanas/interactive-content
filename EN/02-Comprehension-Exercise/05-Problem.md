@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Parking
-[code-task title="Parking" taskId="5613b44c-9ba0-4579-8e4e-0cb469b1c63f" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+# Problem: Heroes Inventory
+[code-task title="Problem: Heroes Inventory" taskId="1a7c8b7f-3d6b-4ab2-80c6-381a9a769df0" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -8,230 +8,122 @@
 [/code-editor]
 [task-description]
 ## Description
-Write a program, which **validates parking** for an online service.
+Using **comprehension** write a program that receives some **hero names and items** that need to be added in their inventory (item **name** and item **cost**).
 
-Users can **register to park and unregister to leave**.
+Print the total **amount of items** with their **total cost** for each hero.
 
-The program receives **2 commands**:
-- "register \{username\} \{licensePlateNumber\}":
-    - The system **only supports one car per user** at the moment, so if a user tries to register another license plate, using the same username, the system should **print**: "ERROR: already registered with plate number \{licensePlateNumber\}"
-    - If the aforementioned checks pass **successfully**, the **plate can be registered**, so the system should **print**: "\{username\} registered \{licensePlateNumber\} successfully"
-- "unregister \{username\}":
-    - If the user is **not present in the database**, the system should **print**: "ERROR: user \{username\} not found"
-    - If the aforementioned check passes **successfully**, the system should **print**: "\{username\} unregistered successfully"
+On the first line you will receive the **names of the heroes** separated by **comma and space** ", ".
 
-After you execute all of the commands, **print** all the **currently registered users and their license plates** in the format:
-- "\{username\} => \{licensePlateNumber\}"
+On the next lines until the command "**End**", you will be given **items** with their **cost** in the following format: "\{name\}-\{item\}-\{cost\}".
 
-### Input
-- First line: n – number of commands – integer
-- Next n lines: commands in one of two possible formats:
-    - Register: "register \{username\} \{licensePlateNumber\}"
-    - Unregister: "unregister \{username\}"
+If an item **already exists** in a hero inventory - **ignore** it.
 
-### Examples
+For each hero print his **name**, the total **items** and the total **cost** of the items in the format: "\{name\} -> Items: \{items_count\}, Cost: \{items_cost\}"
+
+## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 5 | John registered CS1234JS successfully | 
-| register John CS1234JS | George registered JAVA123S successfully |
-| register George JAVA123S | Andy registered AB4142CD successfully |
-| register Andy AB4142CD | Jesica registered VR1223EE successfully | 
-| register Jesica VR1223EE | Andy unregistered successfully | 
-| unregister Andy | John => CS1234JS | 
-| | George => JAVA123S | 
-| | Jesica => VR1223EE | 
-
-### Examples
-| **Input** | **Output** |
-| --- | --- |
-| 4 | Jony registered AA4132BB successfully | 
-| register Jony AA4132BB | ERROR: already registered with plate number AA4132BB |
-| register Jony AA4132BB | Linda registered AA9999BB successfully |
-| register Linda AA9999BB | Jony unregistered successfully | 
-| unregister Jony | Linda => AA9999BB | 
+| Peter, George | Peter -> Items: 2, Cost: 30 |
+| Peter-Sword-20 | George -> Items: 2, Cost: 120 |
+| Peter-Shield-10 |  |
+| George-Gem-100 |  |
+| Peter-Sword-15 |  |
+| George-Sword-20 |  |
+| End |  |
 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
-5
-register John CS1234JS
-register George JAVA123S
-register Andy AB4142CD
-register Jesica VR1223EE
-unregister Andy
+Peter, George
+Peter-Sword-20
+Peter-Shield-10
+George-Gem-100
+Peter-Sword-15
+George-Sword-20
+End
 [/input]
 [output]
-John registered CS1234JS successfully
-George registered JAVA123S successfully
-Andy registered AB4142CD successfully
-Jesica registered VR1223EE successfully
-Andy unregistered successfully
-John => CS1234JS
-George => JAVA123S
-Jesica => VR1223EE
+Peter -\> Items\: 2, Cost\: 30
+George -\> Items\: 2, Cost\: 120
 [/output]
 [/test]
 [test]
 [input]
-4
-register Jony AA4132BB
-register Jony AA4132BB
-register Linda AA9999BB
-unregister Jony
+a, b
+a-g-15
+a-l-5
+b-o-2
+End
 [/input]
 [output]
-Jony registered AA4132BB successfully
-ERROR: already registered with plate number AA4132BB
-Linda registered AA9999BB successfully
-Jony unregistered successfully
-Linda => AA9999BB
+a -\> Items\: 2, Cost\: 20
+b -\> Items\: 1, Cost\: 2
 [/output]
 [/test]
 [test]
 [input]
-6
-register Jacob MM1111XX
-register Anthony AB1111XX
-unregister Jacob
-register Joshua DD1111XX
-unregister Lily
-register Samantha AA9999BB
+g
+g-f-10
+End
 [/input]
 [output]
-Jacob registered MM1111XX successfully
-Anthony registered AB1111XX successfully
-Jacob unregistered successfully
-Joshua registered DD1111XX successfully
-ERROR: user Lily not found
-Samantha registered AA9999BB successfully
-Anthony => AB1111XX
-Joshua => DD1111XX
-Samantha => AA9999BB
+g -\> Items\: 1, Cost\: 10
 [/output]
 [/test]
 [test]
 [input]
-9
-register John CS1234JS
-register George JAVA123S
-register Andy AB4142CD
-register Jesica VR1223EE
-unregister Andy
-register Jony AA4132BB
-register Jony AA4132BB
-register Linda AA9999BB
-unregister Jony
+g, e, w
+g-p-10
+g-p-5
+e-l-9
+w-i-3
+e-y-8
+End
 [/input]
 [output]
-John registered CS1234JS successfully
-George registered JAVA123S successfully
-Andy registered AB4142CD successfully
-Jesica registered VR1223EE successfully
-Andy unregistered successfully
-Jony registered AA4132BB successfully
-ERROR: already registered with plate number AA4132BB
-Linda registered AA9999BB successfully
-Jony unregistered successfully
-John => CS1234JS
-George => JAVA123S
-Jesica => VR1223EE
-Linda => AA9999BB
+g -\> Items\: 1, Cost\: 10
+e -\> Items\: 2, Cost\: 17
+w -\> Items\: 1, Cost\: 3
 [/output]
 [/test]
 [test]
 [input]
-3
-register Misho CS1234JS
-register George JAVA123S
-register Jesica VR1223EE
+b, g
+b-f-10
+b-q-5
+g-e-6
+g-n-4
+g-o-7
+b-l-1
+b-l-15
+End
 [/input]
 [output]
-Misho registered CS1234JS successfully
-George registered JAVA123S successfully
-Jesica registered VR1223EE successfully
-Misho => CS1234JS
-George => JAVA123S
-Jesica => VR1223EE
+b -\> Items\: 3, Cost\: 16
+g -\> Items\: 3, Cost\: 17
 [/output]
 [/test]
 [test]
 [input]
-6
-register John CS1234JS
-register George JAVA123S
-register Andy AB4142CD
-register Jesica VR1223EE
-unregister George
-unregister Andy
+r, q, t, w
+r-p-10
+r-i-5
+t-y-1
+t-o-10
+q-m-6
+t-k-9
+w-v-8
+q-n-9
+w-z-7
+End
 [/input]
 [output]
-John registered CS1234JS successfully
-George registered JAVA123S successfully
-Andy registered AB4142CD successfully
-Jesica registered VR1223EE successfully
-George unregistered successfully
-Andy unregistered successfully
-John => CS1234JS
-Jesica => VR1223EE
-[/output]
-[/test]
-[test]
-[input]
-7
-register Mitko CS9999JS
-register Dinko JAVA123S
-register Misho AB5652CD
-register Simo VR4627EE
-unregister George
-unregister Andy
-unregister Simo
-[/input]
-[output]
-Mitko registered CS9999JS successfully
-Dinko registered JAVA123S successfully
-Misho registered AB5652CD successfully
-Simo registered VR4627EE successfully
-ERROR: user George not found
-ERROR: user Andy not found
-Simo unregistered successfully
-Mitko => CS9999JS
-Dinko => JAVA123S
-Misho => AB5652CD
-[/output]
-[/test]
-[test]
-[input]
-11
-register Mitko CS9999JS
-unregister Mike
-register Dinko JAVA123S
-register Misho AB5652CD
-unregister Misho
-register Simo VR4627EE
-unregister George
-unregister Andy
-unregister Simo
-register Simo2 AD1538BC
-register Acho AD1538BC
-[/input]
-[output]
-Mitko registered CS9999JS successfully
-ERROR: user Mike not found
-Dinko registered JAVA123S successfully
-Misho registered AB5652CD successfully
-Misho unregistered successfully
-Simo registered VR4627EE successfully
-ERROR: user George not found
-ERROR: user Andy not found
-Simo unregistered successfully
-Simo2 registered AD1538BC successfully
-Acho registered AD1538BC successfully
-Mitko => CS9999JS
-Dinko => JAVA123S
-Simo2 => AD1538BC
-Acho => AD1538BC
+r -\> Items\: 2, Cost\: 15
+q -\> Items\: 2, Cost\: 15
+t -\> Items\: 3, Cost\: 20
+w -\> Items\: 2, Cost\: 15
 [/output]
 [/test]
 [/tests]

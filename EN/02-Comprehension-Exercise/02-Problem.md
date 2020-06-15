@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: A Miner Task
-[code-task title="A Miner Task" taskId="16d4b380-3a9c-49c0-8cb2-24ac4581a03a" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+# Problem: Words Lengths
+[code-task title="Problem: Words Lengths" taskId="5a115324-381d-4527-af3a-9240985b54ea" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -8,193 +8,75 @@
 [/code-editor]
 [task-description]
 ## Description
-You are given a **sequence of strings**, each on a new line until the command "stop".
+Using **list comprehension**, write a program that receives some **strings** separated by comma and space ", " and prints on the console each **string** with its **length** in the format: "\{first_str\} -> \{first_str_len\}, \{second_str\} -> \{second_str_len\},…"
 
-Every **odd line** on the console is representing a **resource** (e.g. Gold, Silver, Copper, and so on).
-
-And every even - **quantity**. 
-
-Your task is to collect the resources and print them each on a new line.
-
-**Print** the resources and their quantities in **format**: 
-
-\{resource\} -> \{quantity\}
-
-### Example
+## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Gold | Gold -> 155 | 
-| 155 | Silver -> 10 |
-| Silver | Gold -> 17 |
-| 10 | | 
-| Copper | |
-| 17 | |
-| stop | |
+| Peter, George, Bill, Lilly, Katy | Peter -> 5, George -> 6, Bill -> 4, Lilly -> 5, Katy -> 4 |
+|  |  |
 
-### Example
 | **Input** | **Output** |
 | --- | --- |
-| gold | Gold -> 170 | 
-| 155 | Silver -> 10 |
-| silver | Gold -> 17 |
-| 10 | | 
-| copper | |
-| 17 | |
-| gold | |
-| 15 | |
-| stop | |
+| Some, Random, Text | Some -> 4, Random -> 6, Text -> 4 |
 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
-Gold
-155
-Silver
-10
-Copper
-17
-stop
+Peter, George, Bill, Lilly, Katy
 [/input]
 [output]
-Gold -> 155
-Silver -> 10
-Copper -> 17
+Peter -\> 5, George -\> 6, Bill -\> 4, Lilly -\> 5, Katy -\> 4
+[/output]
+[/test]
+[test open]
+[input]
+Some, Random, Text
+[/input]
+[output]
+Some -\> 4, Random -\> 6, Text -\> 4
 [/output]
 [/test]
 [test]
 [input]
-gold
-155
-silver
-10
-copper
-17
-gold
-15
-stop
+ab, cde, fghi
 [/input]
 [output]
-gold -> 170
-silver -> 10
-copper -> 17
+ab -\> 2, cde -\> 3, fghi -\> 4
 [/output]
 [/test]
 [test]
 [input]
-Silver
-1234
-Gold
-155
-Copper
-113417
-Silver
-10351
-Copper
-17134
-Gold
-155325
-stop
+ffff, wewqe, trr, dsafas
 [/input]
 [output]
-Silver -> 11585
-Gold -> 155480
-Copper -> 130551
+ffff -\> 4, wewqe -\> 5, trr -\> 3, dsafas -\> 6
 [/output]
 [/test]
 [test]
 [input]
-Silver
-1234
-gold
-155
-Copper
-113417
-Silver
-10351
-copper
-17134
-Gold
-155325
-stop
+a, rwq, fas
 [/input]
 [output]
-Silver -> 11585
-gold -> 155
-Copper -> 113417
-copper -> 17134
-Gold -> 155325
+a -\> 1, rwq -\> 3, fas -\> 3
 [/output]
 [/test]
 [test]
 [input]
-Silver
-1268
-Gold
-16846
-Platinium
-1683
-Cork
-1843
-Cork
-9864
-Platinium
-14558
-stop
+kqwlw, foeoqp, dksall, djakslfhfoqp
 [/input]
 [output]
-Silver -> 1268
-Gold -> 16846
-Platinium -> 16241
-Cork -> 11707
+kqwlw -\> 5, foeoqp -\> 6, dksall -\> 6, djakslfhfoqp -\> 12
 [/output]
 [/test]
 [test]
 [input]
-Silver
-126358
-Gold
-123123
-Wood
-1231231
-Cork
-18143
-Wood
-986324
-Platinium
-14558
-stop
+djaslkjfaklfja, jwquifhweiufhqoi, faijfdsnjfafklajfkql, rjqiofhweiofjqfpoqefk
 [/input]
 [output]
-Silver -> 126358
-Gold -> 123123
-Wood -> 2217555
-Cork -> 18143
-Platinium -> 14558
-[/output]
-[/test]
-[test]
-[input]
-Wood
-73675
-Gold
-5438
-Cork
-12331
-Cork
-1432
-Wood
-67436
-Platinium
-36756
-stop
-[/input]
-[output]
-Wood -> 141111
-Gold -> 5438
-Cork -> 13763
-Platinium -> 36756
+djaslkjfaklfja -\> 14, jwquifhweiufhqoi -\> 16, faijfdsnjfafklajfkql -\> 20, rjqiofhweiofjqfpoqefk -\> 21
 [/output]
 [/test]
 [/tests]

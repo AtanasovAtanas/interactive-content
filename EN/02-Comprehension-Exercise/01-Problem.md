@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Count Chars in a String
-[code-task title="Count Chars in a String" taskId="7dfefbd7-60f2-43c5-b426-badbc7fc6d0b" executionType="tests-execution" executionStrategy="python-code" requiresInput]
+# Problem: Word Filter
+[code-task title="Problem: Word Filter" taskId="42bca445-e044-41e2-8b58-2605aa599bb5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
 # Write your code here
@@ -8,182 +8,117 @@
 [/code-editor]
 [task-description]
 ## Description
-Write a program which **counts all characters** in a string except space (' ').
+Using **comprehension**, write a program that receives some **strings** separated by **space** and take only those words, whose length is even.
 
-**Print** all occurrences in the following **format**:
+Print each word on a new line.
 
-\{char\} -> \{occurrences\}
-
-### Example
+## Examples
 | **Input** | **Output** |
 | --- | --- |
-| text | t -> 2 | 
-| | e -> 1 |
-| | x -> 1 |
+| kiwi orange banana apple | kiwi |
+|  | orange |
+|  | banana |
+|  |  |
 
-### Example
 | **Input** | **Output** |
 | --- | --- |
-| text text text | t -> 6 | 
-| | e -> 3 |
-| | x -> 3 |
+| pizza cake pasta chips | cake |
 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
-text
+kiwi orange banana apple
 [/input]
 [output]
-t -> 2
-e -> 1
-x -> 1
+kiwi
+orange
+banana
+[/output]
+[/test]
+[test open]
+[input]
+pizza cake pasta chips
+[/input]
+[output]
+cake
 [/output]
 [/test]
 [test]
 [input]
-text text text
+deal guide counter seat hobby
 [/input]
 [output]
-t -> 6
-e -> 3
-x -> 3
+deal
+seat
 [/output]
 [/test]
 [test]
 [input]
-The waves were crashing on the shore; it was a lovely sight.
+deal guide counter seat hobby acute switch car widen criticism painter unfortunate pause boat
 [/input]
 [output]
-T -> 1
-h -> 5
-e -> 7
-w -> 3
-a -> 4
-v -> 2
-s -> 5
-r -> 3
-c -> 1
-i -> 3
-n -> 2
-g -> 2
-o -> 3
-t -> 3
-; -> 1
-l -> 2
-y -> 1
-. -> 1
+deal
+seat
+switch
+boat
 [/output]
 [/test]
 [test]
 [input]
-There were white out conditions in the town; subsequently, the roads were impassable.
+photograph architect literature wardrobe hobby locate upset explosion extension favour gravel crutch misery resort leaf
 [/input]
 [output]
-T -> 1
-h -> 4
-e -> 12
-r -> 4
-w -> 4
-i -> 5
-t -> 7
-o -> 5
-u -> 3
-c -> 1
-n -> 5
-d -> 2
-s -> 6
-; -> 1
-b -> 2
-q -> 1
-l -> 2
-y -> 1
-, -> 1
-a -> 3
-m -> 1
-p -> 1
-. -> 1
+photograph
+literature
+wardrobe
+locate
+favour
+gravel
+crutch
+misery
+resort
+leaf
 [/output]
 [/test]
 [test]
 [input]
-I hear that Nancy is very pretty.
+adult visible strike dialect graduate issue bracket critical rest ignorant witness contract paint
 [/input]
 [output]
-I -> 1
-h -> 2
-e -> 3
-a -> 3
-r -> 3
-t -> 4
-N -> 1
-n -> 1
-c -> 1
-y -> 3
-i -> 1
-s -> 1
-v -> 1
-p -> 1
-. -> 1
+strike
+graduate
+critical
+rest
+ignorant
+contract
 [/output]
 [/test]
 [test]
 [input]
-Yeah, I think it's a good environment for learning English.
+adult visible strike dialect graduate issue bracket critical rest ignorant witness contract paint guerrilla jam diagram anticipation muggy rhetoric invite parade manage aid bank smooth native snub image injury real east storm sell
 [/input]
 [output]
-Y -> 1
-e -> 4
-a -> 3
-h -> 3
-, -> 1
-I -> 1
-t -> 3
-i -> 5
-n -> 7
-k -> 1
-' -> 1
-s -> 2
-g -> 3
-o -> 4
-d -> 1
-v -> 1
-r -> 3
-m -> 1
-f -> 1
-l -> 2
-E -> 1
-. -> 1
-[/output]
-[/test]
-[test]
-[input]
-Writing a list of random sentences is harder than I initially thought it would be.
-[/input]
-[output]
-W -> 1
-r -> 4
-i -> 8
-t -> 8
-n -> 6
-g -> 2
-a -> 5
-l -> 4
-s -> 4
-o -> 4
-f -> 1
-d -> 3
-m -> 1
-e -> 5
-c -> 1
-h -> 4
-I -> 1
-y -> 1
-u -> 2
-w -> 1
-b -> 1
-. -> 1
+strike
+graduate
+critical
+rest
+ignorant
+contract
+anticipation
+rhetoric
+invite
+parade
+manage
+bank
+smooth
+native
+snub
+injury
+real
+east
+sell
 [/output]
 [/test]
 [/tests]
