@@ -3,7 +3,7 @@
 [slide]
 # HTTP Basics
 
-[image assetsSrc="HTTPBasicsPic1.png" /]
+[image assetsSrc="HTTPBasicsPic2.png" /]
 
 **HTTP** is the main Internet protocol (IP) used to communicate between:
 
