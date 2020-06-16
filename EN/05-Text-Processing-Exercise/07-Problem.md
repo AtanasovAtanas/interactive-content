@@ -57,7 +57,7 @@ We do not have any more explosions and we print the result: abv>>>>dasd
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 abv>1>1>2>2asdasd
 [/input]

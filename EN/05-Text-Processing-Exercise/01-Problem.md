@@ -25,22 +25,22 @@ A **valid username** is:
 [/task-description]
 [code-io /]
 [tests]
+[test open]
+[input]
+Jeff, John45, ab, cd, peter-white, @smith
+[/input]
+[output]
+Jeff
+John45
+peter-white
+[/output]
+[/test]
 [test]
 [input]
 sh, too_long_username, !lleg@l ch@rs, jeffbutt
 [/input]
 [output]
 jeffbutt
-[/output]
-[/test]
-[test]
-[input]
-Jeff, John45, ab, cd, peter-ivanov, @smith
-[/input]
-[output]
-Jeff
-John45
-peter-ivanov
 [/output]
 [/test]
 [test]

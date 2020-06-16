@@ -27,12 +27,20 @@ Then **continue with the next two characters**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
-Gosho Pesho
+a aaaa
 [/input]
 [output]
-53253
+9700
+[/output]
+[/test]
+[test open]
+[input]
+John Smith
+[/input]
+[output]
+42025
 [/output]
 [/test]
 [test]
@@ -41,14 +49,6 @@ Gosho Pesho
 [/input]
 [output]
 7647
-[/output]
-[/test]
-[test]
-[input]
-a aaaa
-[/input]
-[output]
-9700
 [/output]
 [/test]
 [test]

@@ -80,7 +80,7 @@ Print at the console a single number: the total sum of all processed numbers rou
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 A12b s17G
 End
@@ -89,7 +89,7 @@ End
 330.00
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 P34562Z q2576f   H456z
 End
