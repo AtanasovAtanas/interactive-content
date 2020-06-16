@@ -101,7 +101,7 @@ Password must have at least 2 digits
 [/test]
 [test]
 [input]
-$$$$$$$
+@@@@@@@
 [/input]
 [output]
 Password must consist only of letters and digits
