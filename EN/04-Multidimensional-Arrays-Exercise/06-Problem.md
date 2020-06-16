@@ -417,6 +417,7 @@ END
 [/output]
 [/test]
 [test]
+[test open]
 [input]
 Rotate(630)
 JavaScript (JS) is a dynamic computer programming language.
@@ -522,6 +523,7 @@ creation of desktop and mobile applications.
 [/output]
 [/test]
 [test]
+[test open]
 [input]
 Rotate(3780)
 JavaScript (JS)
@@ -576,6 +578,7 @@ END
 [/output]
 [/test]
 [test]
+[test open]
 [input]
 Rotate(90)
 JavaScript (JS)
@@ -638,6 +641,7 @@ s           r
 [/output]
 [/test]
 [test]
+[test open]
 [input]
 Rotate(36270)
 JavaScript (JS)
