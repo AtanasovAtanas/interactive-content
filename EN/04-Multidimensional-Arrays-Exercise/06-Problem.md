@@ -295,7 +295,7 @@ creation of
 END
 [/input]
 [output]
-.snoitacilppa elibom dna potksed 
+  .snoitacilppa elibom dna potksed 
                                    
                         fo noitaerc
            eht dna tnempoleved emag
@@ -318,6 +318,7 @@ END
              .egaugnal gnimmargorp 
              retupmoc cimanyd a si 
                     )SJ( tpircSavaJ
+
 [/output]
 [/test]
 [test open]
