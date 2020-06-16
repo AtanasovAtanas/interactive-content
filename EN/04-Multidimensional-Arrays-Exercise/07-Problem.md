@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-You will receive **two**** integers **which represent the** dimensions **of a** matrix **.
+You will receive **two integers** which represent the **dimensions** of a **matrix**.
 
 Then, you must **fill the matrix** with **increasing integers** starting from 1, and continuing on every row, like this:
 
