@@ -40,7 +40,7 @@ If not print:
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 4
 Allie is going!

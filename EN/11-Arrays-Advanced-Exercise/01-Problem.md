@@ -34,7 +34,7 @@ At the end **print** the final state of the train (all the wagons separated by a
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 32 54 21 12 4 0 23
 75

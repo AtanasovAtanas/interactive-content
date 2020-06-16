@@ -26,7 +26,7 @@ Write a program to **append several arrays** of numbers.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 2 3 \|4 5 6 \|  7  8
 [/input]
@@ -34,7 +34,7 @@ Write a program to **append several arrays** of numbers.
 7 8 4 5 6 1 2 3
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 7 \| 4  5\|1 0\| 2 5 \|3
 [/input]
@@ -48,22 +48,6 @@ Write a program to **append several arrays** of numbers.
 [/input]
 [output]
 8 9 4 5 6 7 1
-[/output]
-[/test]
-[test]
-[input]
-1 2 3 \|4 5 6 \|  7  8
-[/input]
-[output]
-7 8 4 5 6 1 2 3
-[/output]
-[/test]
-[test]
-[input]
-7 \| 4  5\|1 0\| 2 5 \|3
-[/input]
-[output]
-3 2 5 1 0 4 5 7
 [/output]
 [/test]
 [test]

@@ -33,7 +33,7 @@ You have to **print the winner on the console** and **the sum of the left** card
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 20 30 40 50
 10 20 30 40

@@ -27,7 +27,7 @@ You should **stop the program** when you receive the command "end". Print all nu
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 2 3 4 5 5 5 6
 Delete 5

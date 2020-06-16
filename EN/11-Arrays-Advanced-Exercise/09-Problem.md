@@ -61,7 +61,7 @@ Each time you **Swap or Remove a lesson,** you should **do the same with the exe
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 Data Types, Objects, Lists
 Add:Databases
@@ -76,7 +76,7 @@ course start
 4.Databases
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 Arrays, Lists, Methods
 Swap:Arrays:Methods

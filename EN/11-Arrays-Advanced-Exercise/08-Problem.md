@@ -76,7 +76,7 @@ The **program ends** when the sequence has **no elements**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 4 5 3
 1

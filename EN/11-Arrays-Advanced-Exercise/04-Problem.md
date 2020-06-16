@@ -33,7 +33,7 @@ The **possible commands** are:
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 23 29 18 43 21 20 
 Add 5
