@@ -53,17 +53,17 @@ The fight is over either when the player is **killed** , or Heigan is **defeated
 ## Input
 
 - On the first line you receive a floating-point number **D –** the damage done to Heigan each turn
-- On the next several lines – you receive input in format **{spell} {row} {col}** – **{spell}** is either **Cloud** or **Eruption**
+- On the next several lines – you receive input in format **\{spell} \{row} \{col}** – **\{spell}** is either **Cloud** or **Eruption**
 
 ## Output
 
 - On the first line
   - If Heigan is defeated: **"Heigan: Defeated!"**
-  - Else: **"Heigan: {remaining}"**, where remaining is rounded to two digits after the decimal separator
+  - Else: **"Heigan: \{remaining}"**, where remaining is rounded to two digits after the decimal separator
 - On the second line:
-  - If the player is killed: **"Player: Killed by {spell}"**
-  - Else **"Player: {remaining}"**
-- On the third line: **"Final position: {row, col}"** -> the last coordinates of the player
+  - If the player is killed: **"Player: Killed by \{spell}"**
+  - Else **"Player: \{remaining}"**
+- On the third line: **"Final position: \{row, col}"** -> the last coordinates of the player
 
 ## Constraints
 
