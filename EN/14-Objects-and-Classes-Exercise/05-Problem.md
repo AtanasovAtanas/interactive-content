@@ -50,7 +50,7 @@ Format the answer to the **second decimal point**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 truck Man red 200
 truck Mercedes blue 300

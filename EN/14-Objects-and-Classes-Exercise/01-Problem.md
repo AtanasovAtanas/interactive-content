@@ -45,7 +45,7 @@ At the end, **print the final article**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 some title, some content, some author
 3

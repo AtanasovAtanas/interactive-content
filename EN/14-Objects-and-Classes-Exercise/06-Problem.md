@@ -34,18 +34,18 @@ When you receive the **command** "End", **stop** taking input and **print all th
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
-Georgi 123456 20
-Pesho 78911 15
-Stefan 524244 10
+George 123456 20
+Peter 78911 15
+Steven 524244 10
 John 78911 30
 End
 [/input]
 [output]
-Georgi with ID: 123456 is 20 years old.
+George with ID: 123456 is 20 years old.
 John with ID: 78911 is 30 years old.
-Stefan with ID: 524244 is 10 years old.
+Steven with ID: 524244 is 10 years old.
 [/output]
 [/test]
 [test]

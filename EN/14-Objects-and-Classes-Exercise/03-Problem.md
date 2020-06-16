@@ -40,7 +40,7 @@ You need to order the articles **alphabetically** based on the command and print
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 2
 Science, planets, Bill
@@ -53,7 +53,7 @@ Science - planets: Bill
 
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 3
 title1, C, author1

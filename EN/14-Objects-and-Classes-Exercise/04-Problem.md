@@ -41,7 +41,7 @@ Each student should have **First name** (string), **Last name** (string) and **g
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 4
 Lakia Eason 3.90
