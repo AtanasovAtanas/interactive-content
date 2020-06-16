@@ -190,6 +190,265 @@ exam
 [/output]
 [/test]
 [test]
+[test open]
+[input]
+Rotate(630)
+JavaScript (JS) is a dynamic computer programming language.
+It is most commonly used as part of web browsers,
+whose implementations allow client-side scripts
+to interact with the user, control the browser,
+communicate asynchronously,
+and alter the document content that is displayed.
+It is also being used in server-side network
+programming (with Node.js),
+game development and the
+creation of desktop and mobile applications.
+END
+[/input]
+[output]
+.         
+e         
+g         
+a         
+u         
+g         
+n         
+a         
+l         
+          
+g,   .    
+ns   d    
+irs, e    
+metr y    
+mspe a    
+awis lk  .
+rorw pr  s
+grco so  n
+obsr iw  o
+r  b dt  i
+pbe   e  t
+ ede sn  a
+rwih i   c
+e st  e  i
+tf-  td  l
+uotl ai  p
+p no hs  p
+mter t-  a
+orit  r   
+caln te  e
+ pco nv  l
+c  c er  i
+isw ,te, b
+mao,yns) o
+a lrlo s m
+ndlescnje 
+yeasu i.hd
+ds uot etn
+ us nndd a
+a neoeeod 
+ yohrmsNnp
+slithuu ao
+int cc h t
+ oahnogttk
+)mttydnins
+Smnis iwee
+Joewaee(md
+(cm  hb p 
+  etet gof
+ttlct onlo
+pspaarsie 
+iomrcelmvn
+rmieitameo
+c  tnl adi
+Ssenuasr t
+aisim igea
+v o md ome
+athoontrar
+JIwtcaIpgc
+[/output]
+[/test]
+[test]
+[test open]
+[input]
+Rotate(3780)
+JavaScript (JS)
+ is a dynamic computer
+ programming language.
+It is most commonly used
+ as part of web browsers,
+whose implementations
+
+ allow client-side scripts
+to interact with the user, control 
+the browser,
+communicate asynchronously,
+and alter the document content
+ that is displayed.
+It is also being
+
+ used in server-side
+ network
+programming
+ (with Node.js),
+game development and the
+creation of
+
+ desktop and mobile applications.
+END
+[/input]
+[output]
+.snoitacilppa elibom dna potksed 
+                                   
+                        fo noitaerc
+           eht dna tnempoleved emag
+                   ,)sj.edoN htiw( 
+                        gnimmargorp
+                           krowten 
+               edis-revres ni desu 
+                                   
+                   gnieb osla si tI
+                .deyalpsid si taht 
+     tnetnoc tnemucod eht retla dna
+        ,ylsuonorhcnysa etacinummoc
+                       ,resworb eht
+ lortnoc ,resu eht htiw tcaretni ot
+         stpircs edis-tneilc wolla 
+                                   
+              snoitatnemelpmi esohw
+          ,sresworb bew fo trap sa 
+           desu ylnommoc tsom si tI
+             .egaugnal gnimmargorp 
+             retupmoc cimanyd a si 
+                    )SJ( tpircSavaJ
+[/output]
+[/test]
+[test]
+[test open]
+[input]
+Rotate(90)
+JavaScript (JS)
+ is a dynamic computer
+ programming language.
+It is most commonly used
+ as part of web browsers,
+whose implementations
+ allow client-side scripts
+to interact with the user, control 
+the browser,
+communicate asynchronously,
+and alter the document content
+ that is displayed.
+It is also being
+ used in server-side
+ network
+programming
+ (with Node.js),
+game development and the
+creation of
+ desktop and mobile applications.
+END
+[/input]
+[output]
+cg p  I actt w I  J
+dra(rnuttnohoahatpia
+eemwoes hdme los rsv
+saeigteia m ils io a
+kt trwdstaubnoepsgaS
+tidhao   lnrtw a r c
+ooe mriaitioe irmadr
+pnvNmknlsecwrcmtomyi
+  eoi  s rasalp smnp
+aoldn sod tecilotiat
+nfoeg e iterteef nm 
+d p.  rbsh , nm cgi(
+  mj  vepea wtewo cJ
+m es  eil s i-neml S
+o n)  rnady tstbmac)
+b t,  -gyon hia ono 
+i     s ecc  dtbngm 
+l a   i duh teirlup 
+e n   d .mr h ooyau 
+  d   e  eo esnw gt 
+a        nn  cssuee 
+p t      to ur es.r 
+p h       u si re   
+l e      cs ep sd   
+i        ol rt ,    
+c        ny ,s      
+a        t,         
+t        e  c       
+i        n  o       
+o        t  n       
+n           t       
+s           r       
+.           o       
+            l
+[/output]
+[/test]
+[test]
+[test open]
+[input]
+Rotate(36270)
+JavaScript (JS)
+ is a dynamic computer
+ programming language.
+It is most commonly used
+ as part of web browsers,
+whose implementations
+ allow client-side scripts
+to interact with the user, control 
+the browser,
+communicate asynchronously,
+and alter the document content
+ that is displayed.
+It is also being
+ used in server-side
+ network
+programming
+ (with Node.js),
+game development and the
+creation of
+ desktop and mobile applications.
+END
+[/input]
+[output]
+l            
+       o           .
+       r           s
+       t           n
+       n  t        o
+       o  n        i
+       c  e        t
+         ,t        a
+      s, yn        c
+    , tr lo        i
+   ds pe sc      e l
+   er is u       h p
+ r.se ru ot      t p
+ eeussc  nn        a
+ tg wnse oe  e   d  
+ uayoo h rm. d   n e
+ pulriet hud i   a l
+ mgnbtd  cce s     i
+ ono aih noyg-  ,t b
+)cambtst ydanr  )n o
+S lmen-i s lie  se m
+Jc owetw aepev  jm  
+(igc mn , hsbr  .p d
+ mn feetreti e geofn
+taitolicet dos ndloa
+pnms plasar s  ioe  
+iymotmcrwceslnkmNvnp
+rdamri eoitiairm eoo
+c r a wtrnl   oahdit
+Sagspeonbuatsdwrt tk
+a oi sli m aietgieas
+vsr sol emdh seowmee
+aiptahaohonttunr(ard
+J  I w ttca I  p gc
+[/output]
+[/test]
+[test]
 [input]
 Rotate(90)
 a
@@ -417,84 +676,6 @@ END
 [/output]
 [/test]
 [test]
-[test open]
-[input]
-Rotate(630)
-JavaScript (JS) is a dynamic computer programming language.
-It is most commonly used as part of web browsers,
-whose implementations allow client-side scripts
-to interact with the user, control the browser,
-communicate asynchronously,
-and alter the document content that is displayed.
-It is also being used in server-side network
-programming (with Node.js),
-game development and the
-creation of desktop and mobile applications.
-END
-[/input]
-[output]
-.         
-e         
-g         
-a         
-u         
-g         
-n         
-a         
-l         
-          
-g,   .    
-ns   d    
-irs, e    
-metr y    
-mspe a    
-awis lk  .
-rorw pr  s
-grco so  n
-obsr iw  o
-r  b dt  i
-pbe   e  t
- ede sn  a
-rwih i   c
-e st  e  i
-tf-  td  l
-uotl ai  p
-p no hs  p
-mter t-  a
-orit  r   
-caln te  e
- pco nv  l
-c  c er  i
-isw ,te, b
-mao,yns) o
-a lrlo s m
-ndlescnje 
-yeasu i.hd
-ds uot etn
- us nndd a
-a neoeeod 
- yohrmsNnp
-slithuu ao
-int cc h t
- oahnogttk
-)mttydnins
-Smnis iwee
-Joewaee(md
-(cm  hb p 
-  etet gof
-ttlct onlo
-pspaarsie 
-iomrcelmvn
-rmieitameo
-c  tnl adi
-Ssenuasr t
-aisim igea
-v o md ome
-athoontrar
-JIwtcaIpgc
-[/output]
-[/test]
-[test]
 [input]
 Rotate(720)
 JavaScript (JS) is a dynamic computer programming language.
@@ -520,187 +701,6 @@ It is also being used in server-side network
 programming (with Node.js),                                
 game development and the                                   
 creation of desktop and mobile applications.
-[/output]
-[/test]
-[test]
-[test open]
-[input]
-Rotate(3780)
-JavaScript (JS)
- is a dynamic computer
- programming language.
-It is most commonly used
- as part of web browsers,
-whose implementations
-
- allow client-side scripts
-to interact with the user, control 
-the browser,
-communicate asynchronously,
-and alter the document content
- that is displayed.
-It is also being
-
- used in server-side
- network
-programming
- (with Node.js),
-game development and the
-creation of
-
- desktop and mobile applications.
-END
-[/input]
-[output]
-.snoitacilppa elibom dna potksed 
-                                   
-                        fo noitaerc
-           eht dna tnempoleved emag
-                   ,)sj.edoN htiw( 
-                        gnimmargorp
-                           krowten 
-               edis-revres ni desu 
-                                   
-                   gnieb osla si tI
-                .deyalpsid si taht 
-     tnetnoc tnemucod eht retla dna
-        ,ylsuonorhcnysa etacinummoc
-                       ,resworb eht
- lortnoc ,resu eht htiw tcaretni ot
-         stpircs edis-tneilc wolla 
-                                   
-              snoitatnemelpmi esohw
-          ,sresworb bew fo trap sa 
-           desu ylnommoc tsom si tI
-             .egaugnal gnimmargorp 
-             retupmoc cimanyd a si 
-                    )SJ( tpircSavaJ
-[/output]
-[/test]
-[test]
-[test open]
-[input]
-Rotate(90)
-JavaScript (JS)
- is a dynamic computer
- programming language.
-It is most commonly used
- as part of web browsers,
-whose implementations
- allow client-side scripts
-to interact with the user, control 
-the browser,
-communicate asynchronously,
-and alter the document content
- that is displayed.
-It is also being
- used in server-side
- network
-programming
- (with Node.js),
-game development and the
-creation of
- desktop and mobile applications.
-END
-[/input]
-[output]
-cg p  I actt w I  J
-dra(rnuttnohoahatpia
-eemwoes hdme los rsv
-saeigteia m ils io a
-kt trwdstaubnoepsgaS
-tidhao   lnrtw a r c
-ooe mriaitioe irmadr
-pnvNmknlsecwrcmtomyi
-  eoi  s rasalp smnp
-aoldn sod tecilotiat
-nfoeg e iterteef nm 
-d p.  rbsh , nm cgi(
-  mj  vepea wtewo cJ
-m es  eil s i-neml S
-o n)  rnady tstbmac)
-b t,  -gyon hia ono 
-i     s ecc  dtbngm 
-l a   i duh teirlup 
-e n   d .mr h ooyau 
-  d   e  eo esnw gt 
-a        nn  cssuee 
-p t      to ur es.r 
-p h       u si re   
-l e      cs ep sd   
-i        ol rt ,    
-c        ny ,s      
-a        t,         
-t        e  c       
-i        n  o       
-o        t  n       
-n           t       
-s           r       
-.           o       
-            l
-[/output]
-[/test]
-[test]
-[test open]
-[input]
-Rotate(36270)
-JavaScript (JS)
- is a dynamic computer
- programming language.
-It is most commonly used
- as part of web browsers,
-whose implementations
- allow client-side scripts
-to interact with the user, control 
-the browser,
-communicate asynchronously,
-and alter the document content
- that is displayed.
-It is also being
- used in server-side
- network
-programming
- (with Node.js),
-game development and the
-creation of
- desktop and mobile applications.
-END
-[/input]
-[output]
-l            
-       o           .
-       r           s
-       t           n
-       n  t        o
-       o  n        i
-       c  e        t
-         ,t        a
-      s, yn        c
-    , tr lo        i
-   ds pe sc      e l
-   er is u       h p
- r.se ru ot      t p
- eeussc  nn        a
- tg wnse oe  e   d  
- uayoo h rm. d   n e
- pulriet hud i   a l
- mgnbtd  cce s     i
- ono aih noyg-  ,t b
-)cambtst ydanr  )n o
-S lmen-i s lie  se m
-Jc owetw aepev  jm  
-(igc mn , hsbr  .p d
- mn feetreti e geofn
-taitolicet dos ndloa
-pnms plasar s  ioe  
-iymotmcrwceslnkmNvnp
-rdamri eoitiairm eoo
-c r a wtrnl   oahdit
-Sagspeonbuatsdwrt tk
-a oi sli m aietgieas
-vsr sol emdh seowmee
-aiptahaohonttunr(ard
-J  I w ttca I  p gc
 [/output]
 [/test]
 [/tests]
