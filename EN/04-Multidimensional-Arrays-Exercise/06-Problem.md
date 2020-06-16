@@ -189,7 +189,6 @@ js
 exam
 [/output]
 [/test]
-[test]
 [test open]
 [input]
 Rotate(630)
@@ -267,7 +266,6 @@ athoontrar
 JIwtcaIpgc
 [/output]
 [/test]
-[test]
 [test open]
 [input]
 Rotate(3780)
@@ -322,7 +320,6 @@ END
                     )SJ( tpircSavaJ
 [/output]
 [/test]
-[test]
 [test open]
 [input]
 Rotate(90)
@@ -385,7 +382,6 @@ s           r
             l
 [/output]
 [/test]
-[test]
 [test open]
 [input]
 Rotate(36270)
