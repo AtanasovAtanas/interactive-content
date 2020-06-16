@@ -57,7 +57,7 @@ Password is valid
 [/test]
 [test]
 [input]
-Pa$s$s
+Pa@s@s
 [/input]
 [output]
 Password must consist only of letters and digits
@@ -83,7 +83,7 @@ Password must have at least 2 digits
 [/test]
 [test]
 [input]
-pesho123#
+pesho123@
 [/input]
 [output]
 Password must consist only of letters and digits
@@ -91,7 +91,7 @@ Password must consist only of letters and digits
 [/test]
 [test]
 [input]
-gas%2
+gas@2
 [/input]
 [output]
 Password must be between 6 and 10 characters
