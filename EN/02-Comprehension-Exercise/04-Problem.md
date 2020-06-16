@@ -17,17 +17,17 @@ Write a program to flatten **several lists** of numbers, received in the followi
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 1 2 3 |4 5 6 |  7  8 | 7 8 4 5 6 1 2 3 |
+| 1 2 3 \|4 5 6 \|  7  8 | 7 8 4 5 6 1 2 3 |
 |  |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 7 | 4  5|1 0| 2 5 |3 | 3 2 5 1 0 4 5 7 |
+| 7 \| 4  5\|1 0\| 2 5 \|3 | 3 2 5 1 0 4 5 7 |
 |  |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 1| 4 5 6 7  |  8 9 | 8 9 4 5 6 7 1 |
+| 1\| 4 5 6 7  \|  8 9 \| 8 9 4 5 6 7 1 |
 
 [/task-description]
 [code-io /]
@@ -54,14 +54,6 @@ Write a program to flatten **several lists** of numbers, received in the followi
 [/input]
 [output]
 8 9 4 5 6 7 1
-[/output]
-[/test]
-[test]
-[input]
-1 2 3 \|4 5 6 \|  7  8
-[/input]
-[output]
-7 8 4 5 6 1 2 3
 [/output]
 [/test]
 [test]
