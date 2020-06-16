@@ -10,6 +10,14 @@
 
 ## Description
 
+* Change the document title to **Articles**
+* Create a **section** with three **articles** inside
+* The **article** should have a **h2** title and a **paragraph** (p)
+* **Font family** Helvetica, sans-serif with font **size** 16px and line **height** 1.5 for the **html**
+* **Font family** Georgia, serif with font **size** 1em and line **height** 1.2 for the **headings**
+* Change the **section display property** to flex and set **justify-content: space-between**
+* Set on the **section** **max-width** 70vw
+
 You can find an example view [here](https://i.imgur.com/GtvQoWN.png)
 
 You can download the resources [here](https://mega.nz/file/7EIwlaoS#CdP5FcvtfQ6n4xqrbFa3t-4ZW1CchdnvXq5sPkqVGCo)
