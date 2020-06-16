@@ -59,7 +59,7 @@ Print John's total expenses: "Rage expenses: \{expenses\}$."
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 7
 2
