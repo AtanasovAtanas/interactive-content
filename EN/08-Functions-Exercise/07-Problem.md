@@ -32,7 +32,7 @@ Write a method that receives a single integer n and prints nxn matrix with that 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 3
 [/input]

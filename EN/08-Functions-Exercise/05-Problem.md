@@ -41,7 +41,7 @@ Write a method sum to get the sum of the first two integers and subtract method 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 23
 6
@@ -51,7 +51,7 @@ Write a method sum to get the sum of the first two integers and subtract method 
 19
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 1
 17

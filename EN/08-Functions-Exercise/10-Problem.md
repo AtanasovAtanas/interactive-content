@@ -39,16 +39,7 @@ Write a program to print all master numbers in the range [1…n].
 [/task-description]
 [code-io /]
 [tests]
-[test]
-[input]
-50
-[/input]
-[output]
-17
-35
-[/output]
-[/test]
-[test]
+[test open]
 [input]
 100
 [/input]
@@ -59,6 +50,15 @@ Write a program to print all master numbers in the range [1…n].
 71
 79
 97
+[/output]
+[/test]
+[test]
+[input]
+50
+[/input]
+[output]
+17
+35
 [/output]
 [/test]
 [test]

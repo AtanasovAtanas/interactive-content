@@ -39,7 +39,7 @@ Write a method that receives **two characters** and prints on a single line all 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 a
 d
@@ -48,7 +48,7 @@ d
 b c
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 \#
 :

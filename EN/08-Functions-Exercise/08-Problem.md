@@ -26,6 +26,15 @@ Calculate **factorial** of each number.
 [test open]
 [input]
 5
+3
+[/input]
+[output]
+20.00
+[/output]
+[/test]
+[test open]
+[input]
+5
 2
 [/input]
 [output]
@@ -66,15 +75,6 @@ Calculate **factorial** of each number.
 [/input]
 [output]
 0.00
-[/output]
-[/test]
-[test]
-[input]
-5
-3
-[/input]
-[output]
-20.00
 [/output]
 [/test]
 [test]

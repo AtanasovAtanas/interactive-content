@@ -27,7 +27,7 @@ If the **length** of the string is **even** there are **two middle characters**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 aString
 [/input]
@@ -35,7 +35,7 @@ aString
 r
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 someText
 [/input]

@@ -24,7 +24,7 @@ Write a program which reads a positive integer numbers **until you receive** "EN
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 123
 323

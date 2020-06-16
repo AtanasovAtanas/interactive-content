@@ -25,7 +25,7 @@ Use appropriate name for the method.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 SoftUni
 [/input]
@@ -33,7 +33,7 @@ SoftUni
 3
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 Cats
 [/input]
@@ -51,10 +51,10 @@ JS
 [/test]
 [test]
 [input]
-SOFTuNI
+SOoFTuNI
 [/input]
 [output]
-3
+4
 [/output]
 [/test]
 [test]

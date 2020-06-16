@@ -38,7 +38,7 @@ Write a method for each rule.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 logIn
 [/input]
@@ -47,7 +47,7 @@ Password must be between 6 and 10 characters
 Password must have at least 2 digits
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 MyPass123
 [/input]
