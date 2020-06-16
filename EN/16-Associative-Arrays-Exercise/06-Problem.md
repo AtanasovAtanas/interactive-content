@@ -50,7 +50,7 @@ For each **contest print registered users** **ordered by name in ascending** ord
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 Programming Fundamentals : John Smith
 Programming Fundamentals : Linda Johnson

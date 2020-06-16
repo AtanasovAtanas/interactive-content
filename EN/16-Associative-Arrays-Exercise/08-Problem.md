@@ -47,7 +47,7 @@ Until you receive "End", the input come **in the format**:
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 SoftUni -> AA12345
 SoftUni -> BB12345

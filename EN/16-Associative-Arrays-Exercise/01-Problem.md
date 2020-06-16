@@ -31,7 +31,7 @@ Write a program which **counts all characters** in a string except space (' ').
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 text
 [/input]
@@ -41,7 +41,7 @@ e -> 1
 x -> 1
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 text text text
 [/input]

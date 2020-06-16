@@ -53,7 +53,7 @@ After you execute all of the commands, **print** all the **currently registered 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 5
 register John CS1234JS
@@ -73,7 +73,7 @@ George => JAVA123S
 Jesica => VR1223EE
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 4
 register Jony AA4132BB

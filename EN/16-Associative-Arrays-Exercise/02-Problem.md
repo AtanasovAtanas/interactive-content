@@ -47,7 +47,7 @@ Your task is to collect the resources and print them each on a new line.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 Gold
 155
@@ -63,7 +63,7 @@ Silver -> 10
 Copper -> 17
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 gold
 155

@@ -45,7 +45,7 @@ Order filtered students by average grade in **descending**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 5
 John

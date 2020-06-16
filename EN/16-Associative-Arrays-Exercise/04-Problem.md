@@ -43,7 +43,7 @@ When you do receive the command "buy", **print** the **items** with their **name
 ### Example
 | **Input** | **Output** |
 | --- | --- |
-| CesarSalad 10.20 25 | CesarSalad -> 255.00 | 
+| CaesarSalad 10.20 25 | CaesarSalad -> 255.00 | 
 | SuperEnergy 0.80 400 | SuperEnergy -> 320.00 |
 | Beer 1.35 350 | Beer -> 472.50 |
 | IceCream 1.50 25 | IceCream -> 37.50 | 
@@ -52,19 +52,34 @@ When you do receive the command "buy", **print** the **items** with their **name
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 Beer 2.20 100
 IceTea 1.50 50
-NukaCola 3.30 80
+Juice 3.30 80
 Water 1.00 500
 buy
 [/input]
 [output]
 Beer -> 220.00
 IceTea -> 75.00
-NukaCola -> 264.00
+Juice -> 264.00
 Water -> 500.00
+[/output]
+[/test]
+[test open]
+[input]
+CaesarSalad 10.20 25
+SuperEnergy 0.80 400
+Beer 1.35 350
+IceCream 1.50 25
+buy
+[/input]
+[output]
+CaesarSalad -> 255.00
+SuperEnergy -> 320.00
+Beer -> 472.50
+IceCream -> 37.50
 [/output]
 [/test]
 [test]
@@ -80,21 +95,6 @@ buy
 Beer -> 660.00
 Water -> 250.00
 IceTea -> 110.00
-[/output]
-[/test]
-[test]
-[input]
-CesarSalad 10.20 25
-SuperEnergy 0.80 400
-Beer 1.35 350
-IceCream 1.50 25
-buy
-[/input]
-[output]
-CesarSalad -> 255.00
-SuperEnergy -> 320.00
-Beer -> 472.50
-IceCream -> 37.50
 [/output]
 [/test]
 [test]

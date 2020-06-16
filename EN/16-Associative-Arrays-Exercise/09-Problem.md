@@ -84,6 +84,23 @@ We print only Lighter side because Darker side has no members.
 [/task-description]
 [code-io /]
 [tests]
+[test open]
+[input]
+Lighter \| Ronn
+Darker \| Dean
+John -> Lighter
+Dean -> Lighter
+End
+[/input]
+[output]
+John joins the Lighter side!
+Dean joins the Lighter side!
+Side: Lighter, Members: 3
+! Dean
+! John
+! Ronn
+[/output]
+[/test]
 [test]
 [input]
 Light \| Gosho
@@ -95,23 +112,6 @@ Side: Dark, Members: 1
 ! Pesho
 Side: Light, Members: 1
 ! Gosho
-[/output]
-[/test]
-[test]
-[input]
-Lighter \| Royal
-Darker \| DCay
-Ivan Ivanov -> Lighter
-DCay -> Lighter
-End
-[/input]
-[output]
-Ivan Ivanov joins the Lighter side!
-DCay joins the Lighter side!
-Side: Lighter, Members: 3
-! DCay
-! Ivan Ivanov
-! Royal
 [/output]
 [/test]
 [test]
