@@ -24,7 +24,7 @@ Print the result at the console as sequence of strings after receiving the **"EN
 
 ## Example
 
-[image assetsSrc=""/]
+[image assetsSrc="string-matrix-rotation.png"/]
 
 ## Input
 
