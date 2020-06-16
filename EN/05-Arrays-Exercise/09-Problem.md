@@ -78,7 +78,7 @@ For the example above, the output should be '0 1 0'.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 3
 0 1

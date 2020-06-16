@@ -43,7 +43,7 @@ At the end **print the whole train** and after that the **sum of the people in t
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 3
 13
@@ -53,6 +53,16 @@ At the end **print the whole train** and after that the **sum of the people in t
 [output]
 13 24 8
 45
+[/output]
+[/test]
+[test open]
+[input]
+1
+100
+[/input]
+[output]
+100
+100
 [/output]
 [/test]
 [test]
@@ -68,16 +78,6 @@ At the end **print the whole train** and after that the **sum of the people in t
 [output]
 3 52 71 13 65 4
 208
-[/output]
-[/test]
-[test]
-[input]
-1
-100
-[/input]
-[output]
-100
-100
 [/output]
 [/test]
 [test]

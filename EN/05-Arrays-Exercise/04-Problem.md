@@ -21,7 +21,7 @@ Write a program that **receives an array and number of rotations** you have to p
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 51 47 32 61 21
 2

@@ -32,20 +32,20 @@ A top integer is an integer which is **bigger** than all the elements **to its r
 [/task-description]
 [code-io /]
 [tests]
+[test open]
+[input]
+14 24 3 19 15 17
+[/input]
+[output]
+24 19 17
+[/output]
+[/test]
 [test]
 [input]
 1 4 3 2
 [/input]
 [output]
 4 3 2
-[/output]
-[/test]
-[test]
-[input]
-14 24 3 19 15 17
-[/input]
-[output]
-24 19 17
 [/output]
 [/test]
 [test]

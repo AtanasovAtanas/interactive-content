@@ -26,7 +26,7 @@ Write a program, which **prints all unique pairs** in an array of integers whose
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 7 6 2 19 23
 8
@@ -38,7 +38,7 @@ Write a program, which **prints all unique pairs** in an array of integers whose
 
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 14 20 60 13 7 19 8 
 27

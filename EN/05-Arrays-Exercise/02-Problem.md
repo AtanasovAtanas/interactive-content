@@ -21,7 +21,7 @@ You have to **compare the elements** of the **second array** to the elements of 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 Hey hello 2 4
 10 hey 4 hello

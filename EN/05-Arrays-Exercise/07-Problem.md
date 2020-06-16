@@ -37,6 +37,14 @@ If **several longest sequences exist**, print the **leftmost** one.
 [/task-description]
 [code-io /]
 [tests]
+[test open]
+[input]
+0 1 1 5 2 2 6 3 3
+[/input]
+[output]
+1 1
+[/output]
+[/test]
 [test]
 [input]
 2 1 1 2 3 3 2 2 2 1
@@ -59,14 +67,6 @@ If **several longest sequences exist**, print the **leftmost** one.
 [/input]
 [output]
 4 4 4 4
-[/output]
-[/test]
-[test]
-[input]
-0 1 1 5 2 2 6 3 3
-[/input]
-[output]
-1 1
 [/output]
 [/test]
 [test]

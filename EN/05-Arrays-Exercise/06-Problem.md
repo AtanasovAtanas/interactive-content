@@ -27,7 +27,7 @@ a\[0\] + a\[1\] = a\[3\]
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 1 2 3 3
 [/input]
@@ -65,14 +65,6 @@ no
 [/input]
 [output]
 3
-[/output]
-[/test]
-[test]
-[input]
-1 2 3 3
-[/input]
-[output]
-2
 [/output]
 [/test]
 [test]

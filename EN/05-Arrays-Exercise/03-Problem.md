@@ -38,7 +38,7 @@ Form 2 arrays as **shown below**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 4
 1 5
@@ -51,7 +51,7 @@ Form 2 arrays as **shown below**.
 5 9 81 41
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 2
 80 23
