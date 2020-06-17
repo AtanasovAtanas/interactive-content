@@ -30,8 +30,27 @@ This table will explain what every type of complexity (running time) means:
 |   cubic     |    O(n^3)     | It takes the order of N^3 steps, where N is the size of the input data, for performing an operation on N elements. For example, if we have 100 elements, it takes about 1,000,000 steps. |
 |exponential|O(2^N)| It takes a number of steps, which is with an exponential dependability with the size of the input data, to perform an operation on N elements. For example, if N = 10, the exponential function 2N has a value of 1024, if N = 20, it has a value of 1 048 576, and if N = 100, it has a value of a number with about 30 digits.|
 
+[/slide]
 
+[slide]
 
+# Time Complexity
 
+Complexity of algorithms is usually evaluated in the **worst case** (most unfavourable scenario). 
+This means in the **average case** they can work faster, but in the worst case, they work with the evaluated complexity and not slower.
+
+Let's see the following example - searching in array:
+```
+for (int i = 0; i < names.length; i++) {
+    String name = names[i];
+    if (searchedName.equals(name)){
+        System.out.println("Name is found!");
+        break;
+    }
+}
+```
+- In the **Worst-Case**, to find the searched name, we have to check all the elements in the array, the complexity is **O(N) – linear**.
+- In the **Average-Case**, we can expect to check half the names in the array until we find the one we are looking for, the complexity is **O(N/2) – linear**.
+- In the **Best-Case**, we will have luck and we will find the element at first position, the complexity is **O(1) - constant**.
 
 [/slide]
