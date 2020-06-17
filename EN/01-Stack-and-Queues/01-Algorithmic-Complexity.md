@@ -40,7 +40,7 @@ Complexity of algorithms is usually evaluated in the **worst case** (most unfavo
 This means in the **average case** they can work faster, but in the worst case, they work with the evaluated complexity and not slower.
 
 Let's see the following example - searching in array:
-```
+```java
 for (int i = 0; i < names.length; i++) {
     String name = names[i];
     if (searchedName.equals(name)){
@@ -52,5 +52,13 @@ for (int i = 0; i < names.length; i++) {
 - In the **Worst-Case**, to find the searched name, we have to check all the elements in the array, the complexity is **O(N) – linear**.
 - In the **Average-Case**, we can expect to check half the names in the array until we find the one we are looking for, the complexity is **O(N/2) – linear**.
 - In the **Best-Case**, we will have luck and we will find the element at first position, the complexity is **O(1) - constant**.
+
+[/slide]
+
+
+[slide]
+
+# Stacks and Queue vs. ArrayDeque
+
 
 [/slide]
