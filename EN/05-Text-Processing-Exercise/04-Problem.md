@@ -24,7 +24,7 @@ Write a program that **returns an encrypted version of the same text**.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 Programming is cool!
 [/input]

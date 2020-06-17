@@ -25,7 +25,7 @@ Write a program that **reads the path to a file** and **subtracts the file name 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 C:\Internal\training-internal\Template.pptx
 [/input]
@@ -34,7 +34,7 @@ File name: Template
 File extension: pptx
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 C:\Projects\Data-Structures\LinkedList.cs
 [/input]

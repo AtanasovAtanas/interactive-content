@@ -31,13 +31,22 @@ You must display the product of these numbers.
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 23
 2
 [/input]
 [output]
 46
+[/output]
+[/test]
+[test open]
+[input]
+923847238931983192462832102
+4
+[/input]
+[output]
+3695388955727932769851328408
 [/output]
 [/test]
 [test]
@@ -47,15 +56,6 @@ You must display the product of these numbers.
 [/input]
 [output]
 89991
-[/output]
-[/test]
-[test]
-[input]
-923847238931983192462832102
-4
-[/input]
-[output]
-3695388955727932769851328408
 [/output]
 [/test]
 [test]

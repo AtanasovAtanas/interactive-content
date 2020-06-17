@@ -23,7 +23,7 @@ Write a program that **reads a string from the console** and **replaces any sequ
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 aaaaabbbbbcdddeeeedssaa
 [/input]
@@ -31,7 +31,7 @@ aaaaabbbbbcdddeeeedssaa
 abcdedsa
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 qqqwerqwecccwd
 [/input]

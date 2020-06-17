@@ -75,12 +75,12 @@ Print at the console a single number: the total sum of all processed numbers rou
 ### Example
 | **Input** | **Output** |
 | --- | --- |
-| P34562Z q2576f   H456z | 46015.13 |
+| P34562Z q2576f   H456z | 46015.12 |
 
 [/task-description]
 [code-io /]
 [tests]
-[test]
+[test open]
 [input]
 A12b s17G
 End
@@ -89,13 +89,13 @@ End
 330.00
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 P34562Z q2576f   H456z
 End
 [/input]
 [output]
-46015.13
+46015.12
 [/output]
 [/test]
 [test]
