@@ -38,7 +38,7 @@ Your task is to calculate the distance travelled by each car to its parking spot
 
 Example: A car enters the parking at row 1. It wants to go to cell 2, 2 so it moves through **exactly four** cells to reach its parking spot.
 
-[image assetsSrc=""/]
+[image assetsSrc="parking-system.png"/]
 
 ## Input
 
