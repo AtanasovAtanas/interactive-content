@@ -17,14 +17,6 @@ Connect **all** the nine dots, using only **4 lines**, without taking the **penc
 
 **Problem Description**
 
-Connect **all** the nine dots, using only **4 lines**, without taking the **pencil off the paper**.
-
-## Five Gallons
-
-[image assetsSrc="water-problem1.png" /]
-
-**Problem Description**
-
 You are mixing cement and the recipe calls for **5 gallons** of water.
 
 You have an **unlimited** amount of water (a garden hose).
