@@ -15,11 +15,19 @@ Connect **all** the nine dots, using only **4 lines**, without taking the **penc
 
 [image assetsSrc="water-problem1.png" /]
 
-**Problem Desctiption**
+**Problem Description**
+
+Connect **all** the nine dots, using only **4 lines**, without taking the **pencil off the paper**.
+
+## Five Gallons
+
+[image assetsSrc="water-problem1.png" /]
+
+**Problem Description**
 
 You are mixing cement and the recipe calls for **5 gallons** of water.
 
-You have **unlimited** amount of water (a garden hose).
+You have an **unlimited** amount of water (a garden hose).
 
 The problem is that you only have a **4-gallon bucket** and a **7-gallon bucket**.
 
@@ -29,7 +37,7 @@ Find a method to measure **5 gallons**.
 
 [image assetsSrc="GoldCouns1.png" /]
 
-**Problem Desctiption**
+**Problem Description**
 
 You have 10 stacks of 10 gold coins.
 
@@ -42,6 +50,7 @@ A counterfeit coin weighs **11 grams**.
 You can use an extremely accurate digital weighing scale **only once**.
 
 How do you determine **which set** of 10 coins is faulty?
+[/slide]
 
 [slide]
 # Solutions
@@ -56,7 +65,7 @@ Start from the top right dot, draw a line to the top-left dot, then draw a diago
 1. Fill the 4-gallon bucket.
 2. Empty the 4-gallon bucket into the 7-gallon bucket.
 3. Fill the 4-gallon bucket.
-4. Pour the 3 gallons from the 4-gallon bucket into the 7-gallon bucket.
+4. Pour the 3 gallons from the 4-gallon bucket into the 7-gallon bucket.
 5. Empty the 7-gallon bucket.
 6. Pour the 1 gallon from the 4-gallon bucket into the 7-gallon bucket.
 7. Fill the 4-gallon bucket.
@@ -80,7 +89,7 @@ We have 3 counterfeit coins.
 
 These **are the coins from the pile** \#3.
 
-Conclusion: Pile #3 is counterfeit
+Conclusion: Pile #3 is counterfeit.
 
 [/slide]
 
@@ -107,8 +116,8 @@ We want to find the longest sub-list, which is a palindrome (reads the same back
 - the second approach will be faster.
 
 **Plan actions (algorithm)**:
--choose each letter as central point and count how many letters around it form a palindrome,
-- choose each two consecutive equal letters as central point and count how many letters around it form a palindrome,
+-choose each letter as a central point and count how many letters around it form a palindrome,
+- choose each two consecutive equal letters as the central point and count how many letters around it form a palindrome,
 - choose the longest among all palindromes found.
 
 **Implement**: 
@@ -172,5 +181,4 @@ int CalcPalindromeSize(int leftIndex, int rightIndex)
 - aaa, aaa0, 0aaa, 0aaa1, 00aaa11 -\> 3
 
 Can we solve this problem better?
-
 [/slide]
