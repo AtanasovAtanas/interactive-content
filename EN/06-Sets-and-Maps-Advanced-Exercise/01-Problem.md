@@ -21,27 +21,27 @@ Print the collection on the console in order of insertion:
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 6 | Ivan |
-| Ivan | SemoMastikata |
-| Ivan | Hubaviq1234 |
-| Ivan |  |
-| SemoMastikata |  |
-| Ivan |  |
-| Hubaviq1234 |  |
+| 6 | Hello |
+| Hello | World |
+| Hello | Greeting |
+| Hello |  |
+| World |  |
+| Hello |  |
+| Greetings |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 10 | Pesho |
-| Pesho | Mara |
-| Mara | Gosho |
-| Pesho | Stamat |
-| Gosho | Sashka |
-| Stamat |  |
-| Mara |  |
-| Sashka |  |
-| Pesho |  |
-| Stamat |  |
-| Gosho |  |
+| 10 | Peter |
+| Peter | Maria |
+| Maria | George |
+| Peter | Stephen |
+| George | Alexander |
+| Stephen |  |
+| Maria |  |
+| Alexander |  |
+| Peter |  |
+| Stephen |  |
+| George |  |
 
 [/task-description]
 [code-io /]
@@ -49,39 +49,39 @@ Print the collection on the console in order of insertion:
 [test open]
 [input]
 6
-Ivan
-Ivan
-Ivan
-SemoMastikata
-Ivan
-Hubaviq1234
+Hello
+Hello
+Hello
+World
+Hello
+Greetings
 [/input]
 [output]
-Ivan
-SemoMastikata
-Hubaviq1234
+Hello
+World
+Greetings
 [/output]
 [/test]
 [test open]
 [input]
 10
-Pesho
-Mara
-Pesho
-Gosho
-Stamat
-Mara
-Sashka
-Pesho
-Stamat
-Gosho
+Peter
+Maria
+Peter
+George
+Stephen
+Maria
+Alexander
+Peter
+Stephen
+George
 [/input]
 [output]
-Pesho
-Mara
-Gosho
-Stamat
-Sashka
+Peter
+Maria
+George
+Stephen
+Alexander
 [/output]
 [/test]
 [test]
