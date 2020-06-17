@@ -11,7 +11,6 @@
 ## Description
 
 * Change the document title to **ABC Game**
-* Create a **section** with three **articles** inside
 * Create a **div** with class **container** and 12 **span** tags inside
 * Type the **letters** in the spans **EXACTLY** as they are in the file text.txt
 * Use **font-family**: Helvetica, sans-serif, with **font-size**: 20px
