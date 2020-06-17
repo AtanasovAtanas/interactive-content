@@ -10,6 +10,16 @@
 
 ## Description
 
+* Change the document title to **Navigation - Flexbox**
+* Divide the **body** into **header** and **main** tag
+* The underline in the **header** must have
+* Border **width** - 2px
+* Border **color** - rgb(0, 0, 0)
+* Border **style** - solid
+* The **display** property of the **header** must be **flex**
+* The **unordered** list in the header must have **display** property **flex**
+* The **anchors** text **color** in the **navigation** must be rgb(0, 153, 0)
+
 You can find an example view [here](https://i.imgur.com/eDpyU5c.jpg)
 
 You can download the resources [here](https://mega.nz/file/uNgxTJoR#GBEE5LU6ETJA8FxYO0mmsY9cgK8FTefDiY3IeF3cb5Y)
