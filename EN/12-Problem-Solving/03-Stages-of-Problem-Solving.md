@@ -2,11 +2,11 @@
 
 [slide]
 # Solving a Problem
-[image assetsSrc="ps-stagess.png" /]
+[image assetsSrc="ps-stages.png" /]
 
 To solve a problem you need a **logical** or **algorithmic** thinking.
 
-After that you go thrue these steps:
+After that you go through these steps:
 
 - **Define** the problem.
 
@@ -20,23 +20,23 @@ After that you go thrue these steps:
 
 - **Implement** the algorithm.
 
-- **Review** the results or testing.
+- **Review** the results of testing.
 
 # Real-World Problem: Street Crossing
 
-In this problem, you're going to use all the steps mention above ot solve it.
+In this problem, you're going to use all the steps mentioned above to solve it.
 
 1. Define the problem:
-   - Your goal is to go at the other side of the street without risk of incidents.
+   - Your goal is to go on the other side of the street without the risk of incidents.
 
-2. Analyse the problem:
+2. Analyze the problem:
    - avoid the vehicles,
    - find a walkway or traffic light or safe place to cross.
 
 3. Identify potential solutions:
    - use the walkway,
    - use the traffic light,
-   - use other safe place to cross.
+   - use other safe places to cross.
 
 4. Evaluate and choose a solution:
    - no walkway,
