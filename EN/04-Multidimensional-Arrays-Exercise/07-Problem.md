@@ -57,26 +57,17 @@ When that happens, you must print what has remained from the initial matrix.
 - Allowed time/memory: 250ms/16MB
 
 ## Examples
-| **Input** | **Output** | **Comment** |
-| --- | --- | --- |
-| 5 5 | 1 2 3 4 5 | Initial matrix: |
-| 3 3 2 | 6 7 8 10 | 1  2  3  4  5 |
-| 4 3 2 | 11 12 13 | 6  7  8  9  10 |
-| Nuke it from orbit | 16 | 11 12 13 14 15 |
-|  | 21 | 16 17 18 19 20 |
-|  |  | 21 22 23 24 25 |
-|  |  | Result from first destruction: |
-|  |  | 1  2  3  4  5 |
-|  |  | 6  7  8  10 |
-|  |  | 11 12 13 15 |
-|  |  | 16            |
-|  |  | 21 22 23 25 |
-|  |  | Result from second destruction: |
-|  |  | 1  2  3  4  5 |
-|  |  | 6  7  8  10 |
-|  |  | 11 12 13 |
-|  |  | 16 |
-|  |  | 21 |
+| **Input** | **Output** | 
+| --- | --- | 
+| 5 5 | 1 2 3 4 5 |
+| 3 3 2 | 6 7 8 10 |
+| 4 3 2 | 11 12 13 |
+| Nuke it from orbit | 16 |
+|  | 21 |
+
+### Comments
+
+[image assetsSrc="crossfire.png"/]
 
 
 | **Input** | **Output** |
