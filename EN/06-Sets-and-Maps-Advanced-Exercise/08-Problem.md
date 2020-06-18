@@ -34,7 +34,7 @@ Each card has a value that is **calculated** by the power multiplied by the type
 
 Powers **2 to 10** have the same value and **J to A** are **11 to 14**. 
 
-Types are mapped to multipliers the following way (**S -\> 4, H-\> 3, D -\> 2, C -\> 1**).
+Types are mapped to multipliers the following way (**S -> 4, H-> 3, D -> 2, C -> 1**).
 
 Finally print out the **total value each player** has in his hand in the format:
 
