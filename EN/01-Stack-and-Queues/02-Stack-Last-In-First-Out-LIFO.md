@@ -16,7 +16,7 @@ This is also referred to as the "Last In First Out" - **LIFO** principle.
 [/slide]
 
 [slide]
-# Java Stack Implementation
+# Stack Implementation and Built-In Methods
 
 - Stack Implementation using `ArrayDeque<E>`
 ```java
@@ -58,4 +58,12 @@ Integer element = stack.peek();
 
 System.out.println(element);
 ```
+# Utility Methods
+
+- `size()` - returns the number of elements in deque
+
+- `isEmpty()` - checks whether the deque is empty or not
+
+- `contains()` - checks whether a deque contains the element or not
+
 [/slide]
