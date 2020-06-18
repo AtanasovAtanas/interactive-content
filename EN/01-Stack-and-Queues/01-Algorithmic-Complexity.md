@@ -60,5 +60,21 @@ for (int i = 0; i < names.length; i++) {
 
 # Stacks and Queue vs. ArrayDeque
 
+## Why don't use Stack and Queue?
+
+- Implementation details which make unsecure usability
+
+- In many cases those structures will decrease the performance
+
+
+## Why to use ArrayDeque?
+
+- Implementation which makes the structure more secure
+
+- Better performance and usability
+
+- Methods which operate as those structures suggest
+
+
 
 [/slide]
