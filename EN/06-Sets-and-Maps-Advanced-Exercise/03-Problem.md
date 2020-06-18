@@ -1,6 +1,6 @@
 [slide]
 # Problem: Periodic Table
-[code-task title="Problem: Periodic Table" taskId="2ebfb89c-b1ab-44a3-a8f6-3767d98bc225" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Periodic Table" taskId="3cdc56cd-58c0-49aa-aa7f-49105f144cca" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
