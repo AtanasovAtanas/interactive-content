@@ -3,6 +3,8 @@
 [slide]
 # Stack Functionality
 
+[image assetsSrc="stacksAndQueues-example(1).png" /]
+
 [/slide]
 
 [slide]
