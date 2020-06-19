@@ -10,6 +10,11 @@
 
 ## Description
 
+* Change the document title to **Responsive Forms**
+* Create a simple **login form** using semantic html
+* Add **icons** to the input fields using **FontAwesome**
+* Add **focus state** that changes the **input** and the **icon**
+
 You can find an example for **desktop** view [here](https://i.imgur.com/luhotsh.png)
 
 You can find an example for **laptop** view [here](https://i.imgur.com/kw5AE7j.png)
