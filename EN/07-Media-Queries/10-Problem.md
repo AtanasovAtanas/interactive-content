@@ -10,10 +10,15 @@
 
 ## Description
 
-* Change the document title to **Responsive Forms**
-* Create a simple **login form** using semantic html
-* Add **icons** to the input fields using **FontAwesome**
-* Add **focus state** that changes the **input** and the **icon**
+* Change the document title to **Update Blog Layout**
+* **Copy** the latest code from "Blog layout with Flexbox" exercise
+* **Copy** your multilevel dropdown
+* Make the **menu responsive**
+* **Get** the latest **typography.css**
+* Move the **layout** code to **layout.css**
+* Move the **navigation** code to **navigation.css**
+* Create **reset.css** file
+* **Include** all CSS files from the main **styles.css** file
 
 You can find an example for **desktop** view [here](https://i.imgur.com/luhotsh.png)
 
