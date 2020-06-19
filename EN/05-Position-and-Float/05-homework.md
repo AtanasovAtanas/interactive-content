@@ -2,206 +2,6 @@
 
 [slide]
 
-# Problem: Floating Images and Quotes
-
-[code-task title="Problem: Floating Images and Quotes" taskId="f21553f1-9f44-4471-8834-3f09f19cb99c" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
-
-[code-upload allowedMemory="30" /]
-
-[task-description]
-
-## Description
-
-* Change the document title to **Floating Images and Quotes**
-* Create a **header** with **h1** inside
-* Add an **article** and look the screenshot for some insight for the other items inside
-* Use color - rgb(238, 238, 238) for **body background**
-* Use color - rgb(255, 255, 255) for **image background** and rgba(0, 0, 0, 0.25) for **image box shadow**
-* Use **font family** Georgia, serif for the blockquote and headings
-
-You can find an example view [here](https://i.imgur.com/gH5TgWW.jpg)
-
-You can download the resources [here](https://mega.nz/file/vIwkVCiA#o1Cgl3pnfZvG_fziEv3b8DHhM7rVM4cjMKtd0ynm1qU)
-
-[/task-description]
-
-[tests]
-[test open]
-[input]
-expect(document.title).to.equal("Floating Images and Quotes","Incorrect title name");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let article = $("body article");
-expect(article).to.have.lengthOf(1,"Incorrect amount of article tag.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let main = $("body main");
-expect(main).to.have.lengthOf(1,"Incorrect amount of main tag.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let blockquote = $("body blockquote");
-expect(blockquote).to.have.lengthOf(1,"Incorrect amount of blockquote tag.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let img = $("body img");
-expect(img).to.have.lengthOf(2,"Incorrect amount of img tag.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-expect($("body").css('background')).to.equal('rgb(238, 238, 238)', "Incorrect background color.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-expect($("blockquote").css('font-family')).to.equal('Georgia, serif', "Incorrect font-family for blockquote tag.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[/tests]
-[/code-task]
-[/slide]
-
-[slide]
-
-# Problem: Article With Quotes and Media
-
-[code-task title="Problem: Article With Quotes and Media" taskId="62b129b4-7f49-43ed-b528-60c128cce8f6" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
-
-[code-upload allowedMemory="30" /]
-
-[task-description]
-
-## Description
-
-* Change the document title to **Article with Quotes and Media**
-* Divide your content into **header** and **main** tags
-* The **entire page font** should have the following properties:
-* **Size** - 16px
-* **Line height** - 1.5
-* **Font family** - Helvetica, sans-serif
-* Add **class** site-title to the paragraph in the header (p.site-title)
-* Change the **display** property to **inline-block**
-* Set the **font weight** to bold
-* Transform the text to **uppercase**
-* Set the **float** of the blockquote to right
-
-You can find an example view [here](https://i.imgur.com/AV7xrpw.png)
-
-You can download the resources [here](https://mega.nz/file/KdIFkIhS#xCb8PhhAbxhCyY6ESn5HULlu1AUIQfc2Sn82T_GQs_o)
-
-[/task-description]
-
-[tests]
-[test open]
-[input]
-expect(document.title).to.equal("Article with Quotes and Media","Incorrect title name");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-expect($(".site-title").text()).to.include("Site title","Incorrect text in paragraph.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let main = $("body main");
-expect(main).to.have.lengthOf(1,"Incorrect amount of main tag.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let img = $("body img");
-expect(img).to.have.lengthOf(2,"Incorrect amount of img tags.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let blockquote = $("body blockquote");
-expect(blockquote).to.have.lengthOf(1,"Incorrect amount of blockquote tag.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-expect($(".site-title").css('display')).to.equal('inline-block', "Incorrect display property in the header.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-expect($(".site-title").css('font-weight')).to.equal('bold', "Incorrect font property in the header.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-expect($(".site-title").css('text-transform')).to.equal('uppercase', "Incorrect text transform property.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-expect($("blockquote").css('float')).to.equal('right', "Incorrect float property for the blockquote.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[/tests]
-[/code-task]
-[/slide]
-
-[slide]
-
 # Problem: Blog Layout Float
 
 [code-task title="Problem: Blog Layout Float" taskId="622d4bae-b217-4f4d-97a2-de4f1d1ed981" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -215,6 +15,9 @@ yes
 * Change the document title to **Blog Layout - Float**
 * Divide your content into **header**, **main** and **aside** tags
 * Create a **paragraph** inside the header for the site title
+* Add **class** site-title to the paragraph in the header (p.site-title)
+* Change the **display** property of the paragraph to **inline-block**
+* Transform the text of the paragraph to **uppercase**
 * Create an **article** inside the main
 * Create two **sections** inside the aside
 * The sections should have a **h3** heading and a **navigation** - nav with **ul**, **li** and **a** elements
@@ -253,6 +56,22 @@ yes
 [input]
 let aside = $("body aside");
 expect(aside).to.have.lengthOf(1,"Incorrect amount of aside tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($(".site-title").css('display')).to.equal('inline-block', "Incorrect display property in the header.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($(".site-title").css('text-transform')).to.equal('uppercase', "Incorrect text transform property.");
 [/input]
 [output]
 yes
