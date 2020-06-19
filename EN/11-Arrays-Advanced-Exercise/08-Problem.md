@@ -1,3 +1,15 @@
+# Problem: Pokemon Don't Go
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="430335253"  default /]
+[stream language="RO" videoId="430330557" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Pokemon Don't Go
 [code-task title="Pokemon Don't Go" taskId="python-fund-14-Arrays-Advanced-Exercise-problem-8" executionType="tests-execution" executionStrategy="python-code" requiresInput]

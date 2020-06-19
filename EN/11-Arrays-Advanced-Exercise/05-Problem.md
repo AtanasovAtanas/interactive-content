@@ -1,3 +1,15 @@
+# Problem: Bomb Numbers
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="430335163"  default /]
+[stream language="RO" videoId="430330707" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Bomb Numbers
 [code-task title="Bomb Numbers" taskId="python-fund-14-Arrays-Advanced-Exercise-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]

@@ -1,3 +1,15 @@
+# Problem: Append Arrays
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="430335198"  default /]
+[stream language="RO" videoId="430330521" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Append Arrays
 [code-task title="Append Arrays" taskId="python-fund-14-Arrays-Advanced-Exercise-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]

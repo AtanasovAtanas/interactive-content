@@ -1,3 +1,15 @@
+# Problem: House Party
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="430335118"  default /]
+[stream language="RO" videoId="430330661" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: House Party
 [code-task title="House Party" taskId="python-fund-14-Arrays-Advanced-Exercise-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
