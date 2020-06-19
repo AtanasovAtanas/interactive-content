@@ -16,11 +16,11 @@ Queues provide the following functionality:
     
 - Removing the first element from the queue
 
-[image assetsSrc="queue-example(1).png" /]
+[image assetsSrc="queue-example(2).png" /]
 
 - Getting the first element of the queue without removing it
 
-[image assetsSrc="queue-example(1).png" /]
+[image assetsSrc="queue-example(3).png" /]
 
 
 [/slide]
