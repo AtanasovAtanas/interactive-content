@@ -1,3 +1,14 @@
+# Problem: Add and Subtract
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421818762" default /]
+[stream language="RO" videoId="430366408"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Add and Subtract
 [code-task title="Add and Subtract" taskId="java-fund-11-Methods-Exercise-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]

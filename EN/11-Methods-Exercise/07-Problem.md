@@ -1,3 +1,14 @@
+# Problem: NxN Matrix
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421821470" default /]
+[stream language="RO" videoId="430366442"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: NxN Matrix
 [code-task title="NxN Matrix" taskId="java-fund-11-Methods-Exercise-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]

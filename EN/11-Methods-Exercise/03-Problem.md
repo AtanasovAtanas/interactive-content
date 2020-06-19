@@ -1,3 +1,14 @@
+# Problem: Characters in Range
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421819325" default /]
+[stream language="RO" videoId="430366338"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Characters in Range
 [code-task title="Characters in Range" taskId="java-fund-11-Methods-Exercise-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]

@@ -1,3 +1,14 @@
+# Problem: Smallest of Three Numbers
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421822503" default /]
+[stream language="RO" videoId="430366304"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Smallest of Three Numbers
 [code-task title="Smallest of Three Numbers" taskId="java-fund-11-Methods-Exercise-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]

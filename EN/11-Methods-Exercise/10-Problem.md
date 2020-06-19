@@ -1,3 +1,14 @@
+# Problem: Top Number
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421823015" default /]
+[stream language="RO" videoId="430365015"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Top Number
 [code-task title="Top Number" taskId="java-fund-11-Methods-Exercise-problem-10" executionType="tests-execution" executionStrategy="java-code" requiresInput]
