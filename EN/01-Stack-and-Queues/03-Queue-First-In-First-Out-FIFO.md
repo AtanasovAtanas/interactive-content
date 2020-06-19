@@ -8,7 +8,7 @@ It models a **queue** in **real-life**, you might have seen in front of a cinema
 
 Just like queues in real life, **new elements** in a Queue data structure are added **at the back** and **removed from the front**. 
 
-Queues provide the following functionality:
+# Queues provide the following functionality:
 
 - Adding an element at the end of the queue
 
@@ -26,7 +26,54 @@ Queues provide the following functionality:
 [/slide]
 
 [slide]
-# Java Stack Implementation
+# Queue Implementation and Built-In Methods
+
+- Queue Implementation using `ArrayDeque<E>`
+```java
+ArrayDeque<Integer> queue = new ArrayDeque<>();
+```
+- `offer(element)` or `add(element)` - both methods add elements at the end of the queue
+    - `add()` – throws exception if queue is full
+    - `offer()` – returns false if queue is full
+
+```java live 
+ArrayDeque<Integer> queue = new ArrayDeque<>();
+
+queue.offer(2);
+queue.add(5);
+queue.offer(10);
+        
+System.out.println(queue);
+```
+
+- `poll()` or `remove()` - both methods remove the first element from the queue
+    - `remove()` - throws exception if queue is empty
+    - `poll()` - returns null if queue is empty, otherwise returns the removed element
+
+```java live
+ArrayDeque<Integer> queue = new ArrayDeque<>();
+
+queue.offer(2);
+queue.add(5);
+queue.offer(10);
+
+// remove
+System.out.println("Removed element is: " + queue.poll());
+queue.forEach(element -> System.out.print(element + " "));
+```
+- `peek()` - getting the value of the first element
+
+```java live
+ArrayDeque<Integer> queue = new ArrayDeque<>();
+
+queue.offer(2);
+queue.add(5);
+queue.offer(10);
+
+System.out.println("First element is: " + queue.peek());
+```
+
+
 
 [/slide]
 
