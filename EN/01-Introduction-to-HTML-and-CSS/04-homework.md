@@ -1,6 +1,19 @@
 # Homework
 
 [slide]
+# How to Submit your Solution for a Problem
+
+* Create your HTML document and write the solution of the problem in it;
+* Create your CSS file;
+* Include link to your CSS file in the HTML document: `<link rel="stylesheet" href="./style.css">` ;
+* Write your CSS code;
+* When you are ready with the solution, zip both files (`index.html and style.css`) and upload your .zip file in the platform.
+
+**Note:** Be careful, because the uploaded file must be of type zip! .rar or .7zip will NOT be accepted!
+
+[/slide]
+
+[slide]
 # Problem: Simple HTML Page
 
 [code-task title="Simple HTML Page" taskId="c71fd240-cf92-43e1-95db-d79255ead525" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
