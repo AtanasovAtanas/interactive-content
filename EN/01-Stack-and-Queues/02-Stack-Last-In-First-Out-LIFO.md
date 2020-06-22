@@ -473,3 +473,232 @@ Go
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+# Problem: Simple Calculator 
+[code-task title="Simple Calculator " taskId="3c41a4c0-ac7a-4de0-aeb7-7188ce402388" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+**Create a simple calculator** that can **evaluate simple expressions** that will not hold any operator different from addition and subtraction.
+
+There will not be parentheses or operator precedence.
+
+Solve the problem **using a Stack**.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 2 + 5 + 10 - 2 - 1 | 14 |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 2 - 2 + 5 | 5 |
+
+## Hints
+- Use an **ArrayDeque<>**
+- Consider using the **add()** method
+- You can either 
+    - add the elements and then pop them out 
+    - or push them and reverse the stack
+
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+2 + 5 + 10 - 2 - 1
+[/input]
+[output]
+14
+[/output]
+[/test]
+[test open]
+[input]
+2 - 2 + 5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9
+[/input]
+[output]
+45
+[/output]
+[/test]
+[test]
+[input]
+3 - 2 + 7 + 123 - 22 - 12 - 55 + 120
+[/input]
+[output]
+162
+[/output]
+[/test]
+[test]
+[input]
+99 - 99
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+0 + 0 + 0 + 0 - 0 - 0 + 0 - 0
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+2123412 - 123123 + 12312 - 12312
+[/input]
+[output]
+2000289
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Simple Calculator 
+[code-task title="Simple Calculator " executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+         Scanner scanner = new Scanner(System.in);
+
+        String[] tokens = scanner.nextLine().split("\\s+");
+
+        Deque<String> stack = new ArrayDeque<>();
+        Collections.addAll(stack, tokens);
+
+        while (stack.size() > 1) {
+            int first = Integer.parseInt(stack.pop());
+            String op = stack.pop();
+            int second = Integer.parseInt(stack.pop());
+
+            switch (op) {
+                case "+":
+                    stack.push(String.valueOf(first + second));
+                    break;
+                case "-":
+                    stack.push(String.valueOf(first - second));
+                    break;
+            }
+
+            System.out.println(stack.pop());
+
+        }
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+**Create a simple calculator** that can **evaluate simple expressions** that will not hold any operator different from addition and subtraction.
+
+There will not be parentheses or operator precedence.
+
+Solve the problem **using a Stack**.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 2 + 5 + 10 - 2 - 1 | 14 |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 2 - 2 + 5 | 5 |
+
+## Hints
+- Use an **ArrayDeque<>**
+- Consider using the **add()** method
+- You can either 
+    - add the elements and then pop them out 
+    - or push them and reverse the stack
+
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+2 + 5 + 10 - 2 - 1
+[/input]
+[output]
+14
+[/output]
+[/test]
+[test open]
+[input]
+2 - 2 + 5
+[/input]
+[output]
+5
+[/output]
+[/test]
+[test]
+[input]
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9
+[/input]
+[output]
+45
+[/output]
+[/test]
+[test]
+[input]
+3 - 2 + 7 + 123 - 22 - 12 - 55 + 120
+[/input]
+[output]
+162
+[/output]
+[/test]
+[test]
+[input]
+99 - 99
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+0 + 0 + 0 + 0 - 0 - 0 + 0 - 0
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+2123412 - 123123 + 12312 - 12312
+[/input]
+[output]
+2000289
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
