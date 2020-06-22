@@ -405,7 +405,7 @@ yes
 * Change the document title to **Social Media Icons**
 * All you need for your HTML are **ul**, **li** and **a** tags
 * Use **FontAwesome** to add social icons
-* Change the **ul** display property to **inline-block**
+* Change the **li** display property to **inline-block**
 * **Remove** list items **default** style
 * Each **a** tag must have **border-radius**: 50%;
 * Check the provided screenshots to see the hover effects
@@ -470,7 +470,7 @@ yes
 [/test]
 [test]
 [input]
-expect($("ul").css('display')).to.equal('inline-block', "Incorrect ul items display property.");
+expect($("li").css('display')).to.equal('inline-block', "Incorrect ul items display property.");
 [/input]
 [output]
 yes
