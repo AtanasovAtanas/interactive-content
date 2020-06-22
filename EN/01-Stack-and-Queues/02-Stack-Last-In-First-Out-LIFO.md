@@ -704,11 +704,128 @@ Solve the problem **using a Stack**.
 [code-task title="Simple Calculator " taskId="1f9e646a-8a8f-4f6a-9710-0b1743bd5ef5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-import java.util.*;
+import java.util.*; 
 
 public class Main {
     public static void main(String[] args) {
         // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Create a simple program that **can convert a decimal number to its binary representation**.
+Implement an elegant solution **using a Stack**.
+**Print the binary representation** back at the terminal.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 10 | 1010 |
+
+
+| **Input** | **Output** |
+| --- | --- |
+| 1024 | 10000000000 |
+
+## Hints
+- If the given number is 0, just print 0
+- Else, while the number is greater than zero, divide it by 2 and push the reminder into the stack
+[image assetsSrc="problem-simple-calculator-hint.png" /]
+- When you are done dividing, pop all reminders from the stack, that is the binary representation
+
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+10
+[/input]
+[output]
+1010
+[/output]
+[/test]
+[test open]
+[input]
+1024
+[/input]
+[output]
+10000000000
+[/output]
+[/test]
+[test]
+[input]
+500
+[/input]
+[output]
+111110100
+[/output]
+[/test]
+[test]
+[input]
+42
+[/input]
+[output]
+101010
+[/output]
+[/test]
+[test]
+[input]
+2546123
+[/input]
+[output]
+1001101101100111001011
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+1
+[/input]
+[output]
+1
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Decimal to Binary Converter
+[code-task title="Simple Calculator " executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*; 
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int decimal = Integer.parseInt(scanner.nextLine());
+
+        ArrayDeque<Integer> stack = new ArrayDeque<>();
+
+        if (decimal == 0){
+            System.out.println(decimal);
+        }
+
+        while (decimal != 0) {
+            stack.push(decimal % 2);
+            decimal /= 2;
+        }
+        
+        while (!stack.isEmpty()) {
+            System.out.print(stack.pop());
+        }
     }
 }
 ```
