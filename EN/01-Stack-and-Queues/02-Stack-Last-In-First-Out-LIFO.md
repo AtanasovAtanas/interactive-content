@@ -822,7 +822,7 @@ public class Main {
             stack.push(decimal % 2);
             decimal /= 2;
         }
-        
+
         while (!stack.isEmpty()) {
             System.out.print(stack.pop());
         }
@@ -910,6 +910,252 @@ Implement an elegant solution **using a Stack**.
 [/input]
 [output]
 1
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Problem: Matching Brackets
+[code-task title="Matching Brackets" taskId="69a9ca82-bf00-49c7-a284-2d296ed138ce" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+You are given an arithmetical **expression** with **brackets**.
+
+Scan through the string and **extract** each **sub-expression**.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 1 + (2 - (2 + 3) * 4 / (3 + 1)) * 5 | (2 + 3) |
+|  | (3 + 1) |
+|  | (2 - (2 + 3) * 4 / (3 + 1)) |
+
+
+| **Input** | **Output** |
+| --- | --- |
+| (2 + 3) - (2 + 3) | (2 + 3) |
+|  | (2 + 3) |
+
+ ## Hints 
+ - Use a stack, namely an **ArrayDeque()** 
+ - Scan through the expression searching for brackets 
+   - If you find an opening bracket, push the index into the stack 
+   - If you find a closing bracket pop the topmost element from the stack. This is the index of the opening bracket. 
+   - Use the current and the popped index to extract the sub-expression 
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+1 + (2 - (2 + 3) \* 4 / (3 + 1)) \* 5
+[/input]
+[output]
+(2 + 3)
+(3 + 1)
+(2 - (2 + 3) \* 4 / (3 + 1))
+[/output]
+[/test]
+[test open]
+[input]
+(2 + 3) - (2 + 3)
+[/input]
+[output]
+(2 + 3)
+(2 + 3)
+[/output]
+[/test]
+[test]
+[input]
+(1 + 2) \* (3 - 4) / (2 \* (1 / 10) - (20 - 10))
+[/input]
+[output]
+(1 + 2)
+(3 - 4)
+(1 / 10)
+(20 - 10)
+(2 \* (1 / 10) - (20 - 10))
+[/output]
+[/test]
+[test]
+[input]
+(3 - 1)
+[/input]
+[output]
+(3 - 1)
+[/output]
+[/test]
+[test]
+[input]
+3 + 1
+[/input]
+[output]
+
+[/output]
+[/test]
+[test]
+[input]
+(((1 + 2) - (2 + 3)) - ((4 - 1) \* (2 + 3)))
+[/input]
+[output]
+(1 + 2)
+(2 + 3)
+((1 + 2) - (2 + 3))
+(4 - 1)
+(2 + 3)
+((4 - 1) \* (2 + 3))
+(((1 + 2) - (2 + 3)) - ((4 - 1) \* (2 + 3)))
+[/output]
+[/test]
+[test]
+[input]
+(90 - 20) + 1
+[/input]
+[output]
+(90 - 20)
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Matching Brackets
+[code-task title="Matching Brackets" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String expression = scanner.nextLine();
+
+        Deque<Integer> stack = new ArrayDeque<>();
+        for (int i = 0; i < expression.length(); i++) {
+            char ch = expression.charAt(i);
+            if (ch == '(') {
+                stack.push(i);
+            } else if (ch == ')') {
+                int startIndex = stack.pop();
+
+                String contents = expression.substring(startIndex, i + 1);
+                System.out.println(contents);
+            }
+        }
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+You are given an arithmetical **expression** with **brackets**.
+
+Scan through the string and **extract** each **sub-expression**.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 1 + (2 - (2 + 3) * 4 / (3 + 1)) * 5 | (2 + 3) |
+|  | (3 + 1) |
+|  | (2 - (2 + 3) * 4 / (3 + 1)) |
+
+
+| **Input** | **Output** |
+| --- | --- |
+| (2 + 3) - (2 + 3) | (2 + 3) |
+|  | (2 + 3) |
+
+## Hints 
+- Use a stack, namely an **ArrayDeque()** 
+- Scan through the expression searching for brackets 
+   - If you find an opening bracket, push the index into the stack 
+   - If you find a closing bracket pop the topmost element from the stack. This is the index of the opening bracket. 
+   - Use the current and the popped index to extract the sub-expression 
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+1 + (2 - (2 + 3) \* 4 / (3 + 1)) \* 5
+[/input]
+[output]
+(2 + 3)
+(3 + 1)
+(2 - (2 + 3) \* 4 / (3 + 1))
+[/output]
+[/test]
+[test open]
+[input]
+(2 + 3) - (2 + 3)
+[/input]
+[output]
+(2 + 3)
+(2 + 3)
+[/output]
+[/test]
+[test]
+[input]
+(1 + 2) \* (3 - 4) / (2 \* (1 / 10) - (20 - 10))
+[/input]
+[output]
+(1 + 2)
+(3 - 4)
+(1 / 10)
+(20 - 10)
+(2 \* (1 / 10) - (20 - 10))
+[/output]
+[/test]
+[test]
+[input]
+(3 - 1)
+[/input]
+[output]
+(3 - 1)
+[/output]
+[/test]
+[test]
+[input]
+3 + 1
+[/input]
+[output]
+
+[/output]
+[/test]
+[test]
+[input]
+(((1 + 2) - (2 + 3)) - ((4 - 1) \* (2 + 3)))
+[/input]
+[output]
+(1 + 2)
+(2 + 3)
+((1 + 2) - (2 + 3))
+(4 - 1)
+(2 + 3)
+((4 - 1) \* (2 + 3))
+(((1 + 2) - (2 + 3)) - ((4 - 1) \* (2 + 3)))
+[/output]
+[/test]
+[test]
+[input]
+(90 - 20) + 1
+[/input]
+[output]
+(90 - 20)
 [/output]
 [/test]
 [/tests]
