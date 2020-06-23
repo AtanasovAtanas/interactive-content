@@ -19,7 +19,7 @@ There is a new type of threat where users flood the server with messages and are
 
 Only a skillful programmer can track the user logs of the servers.
 
-You are given an input in the format:
+You are given input in the format:
 
 `IP=(IP.Address) message=(A&sample&message) user=(username)`
 
