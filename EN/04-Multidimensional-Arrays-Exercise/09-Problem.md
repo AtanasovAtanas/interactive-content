@@ -34,7 +34,7 @@ If **two** free cells are located at the **same** distance from the **initial** 
 
 A car can **pass** through a used parking spot.
 
-Your task is to calculate the distance travelled by each car to its parking spot.
+Your task is to calculate the distance traveled by each car to its parking spot.
 
 Example: A car enters the parking at row 1. It wants to go to cell 2, 2 so it moves through **exactly four** cells to reach its parking spot.
 
@@ -48,7 +48,7 @@ Example: A car enters the parking at row 1. It wants to go to cell 2, 2 so it mo
 
 ## Output
 
-- For each car, print the distance travelled to the desired spot or the first free spot
+- For each car, print the distance traveled to the desired spot or the first free spot
 - If a car cannot park on its desired row, print the message `Row {row number} full`;
 
 ## Constraints
