@@ -8,7 +8,7 @@ This is also referred to as the "Last In First Out" - **LIFO** principle.
 
 - Stacks provide the following functionality:
     - Pushing an element at the top of the stack
-    - Popping element from the top fo the stack
+    - Popping element from the top of the stack
     - Getting the topmost element without removing it
 
 [image assetsSrc="stacksAndQueues-example(1).png" /]
