@@ -24,8 +24,6 @@ Your task is to **collect** their names and emails, and **remove** emails whose 
 
 Print in the following format: `{name} –> {email}`
 
-Print:
-
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
