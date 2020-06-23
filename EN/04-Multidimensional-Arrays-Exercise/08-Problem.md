@@ -34,7 +34,7 @@ If the player's current position is within the area of damage, the player tries 
 
 First, he tries to move **up**, if there is **damage/wall**, he tries to move **right** , then **down**, then **left**. 
 
-If he **cannot move** in any direction, because **the cell is damaged** or there is **a wall**, the player **stays** in place and takes the damage.
+If he **can not move** in any direction, because **the cell is damaged** or there is **a wall**, the player **stays** in place and takes the damage.
 
 **Plague cloud** does 3500 damage **when it hits**, and 3500 damage **the next turn**. Then it **expires**. 
 
@@ -44,7 +44,7 @@ If a spell hits a player that also has an active Plague Cloud from the previous 
 
 **Both** Heigan and the player **may** die in the same turn. 
 
-If Heigan is **dead** , the spell he **would** have casted is **ignored**.
+If Heigan is **dead** , the spell he **would** have cast is **ignored**.
 
 The player always starts at **18500** hit points; Heigan starts at **3,000,000** hit points. **Each** turn, the player does damage to Heigan. 
 
@@ -67,7 +67,7 @@ The fight is over either when the player is **killed** , or Heigan is **defeated
 
 ## Constraints
 
-- **D** is a floating-point number in range [0 ... 500000]
+- **D** is a floating-point number in the range [0 ... 500000]
 - A damaging spell will always affect at least one cell
 - Allowed memory: 16 MB
 - Allowed working time: 0.25s
