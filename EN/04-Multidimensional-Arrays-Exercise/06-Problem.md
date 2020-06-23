@@ -20,7 +20,7 @@ Assume these text lines form a **matrix of characters** (pad the missing positio
 
 Write a program to **rotate the matrix** by 90, 180, 270, 360, … degrees.
 
-Print the result at the console as sequence of strings after receiving the **"END"** command.
+Print the result at the console as a sequence of strings after receiving the **"END"** command.
 
 ## Example
 
@@ -30,7 +30,7 @@ Print the result at the console as sequence of strings after receiving the **"EN
 
 The input is read from the console:
 
-- The first line holds a command in format **"Rotate(X)"** where **X** are the degrees of the requested rotation.
+- The first line holds the command in format **"Rotate(X)"** where **X** are the degrees of the requested rotation.
 - The next lines contain the **lines of the matrix** for rotation.
 - The input ends with the command **"END"**.
 
