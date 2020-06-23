@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Filling a matrix in the regular way ( **top to bottom** and **left to right** ) is boring.
+Filling a matrix in a regular way ( **top to bottom** and **left to right** ) is boring.
 
 Write two **methods** that **fill** a **matrix** of size  **N x N** in **two** different **patterns.** Both patterns are described below:
 
