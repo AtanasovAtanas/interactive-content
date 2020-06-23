@@ -36,7 +36,7 @@ There will be **only** one player.
 
 Then you will receive a string with **commands** such as **LLRRUUDD** – where each letter represents the next **move** of the player (Left, Right, Up, Down).
 
-**After** each step of the player, each of the bunnies spread to the up, down, left and right (neighboring cells marked as "." **changes** their value to B). 
+**After** each step of the player, each of the bunnies spread to the up, down, left, and right (neighboring cells marked as "." **changes** their value to B). 
 
 If the player **moves** to a bunny cell or a bunny **reaches** the player, the player has died. 
 
@@ -67,8 +67,8 @@ Row and col are the coordinates of the cell where the player has died or the las
 
 ## Constraints
 
-- The dimensions of the lair are in range [3 ... 20]
-- The directions string length is in range [1 ... 20]
+- The dimensions of the lair are in the range [3 ... 20]
+- The directions string length is in the range [1 ... 20]
 
 ## Examples
 | **Input** | **Output** |
