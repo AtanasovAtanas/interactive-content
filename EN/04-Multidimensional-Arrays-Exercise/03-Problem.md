@@ -20,7 +20,7 @@ Write a program that finds the **difference between the sums of the square matri
 
 ## Input
 
-- The **first line** holds a number **n** – the size of matrix.
+- The **first line** holds a number **n** – the size of the matrix.
 - The next **n**  **lines** hold the **values for every row** – **n** numbers separated by a space.
 
 ## Hints
