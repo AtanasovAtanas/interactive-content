@@ -72,7 +72,13 @@ queue.offer(10);
 
 System.out.println("First element is: " + queue.peek());
 ```
+# Utility Methods
 
+- `size()` - returns the number of elements in deque
+
+- `toArray()` - converts the queue to an array
+
+- `contains()` - checks whether a deque contains the element or not
 
 
 [/slide]
