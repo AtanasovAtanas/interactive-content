@@ -24,13 +24,13 @@ third row: 2 \* n + 1, 2 \* n + 2, ..., 2 \* n + n
 
 You will also receive several commands in the form of **3 integers** separated by a space. 
 
-Those 3 integers will represent a **row** in the matrix, a **column** and a **radius**. 
+Those 3 integers will represent a **row** in the matrix, a **column**, and a **radius**. 
 
 You must then **destroy** the cells which correspond to those arguments **cross-like**.
 
-**Destroying** a cell means that, **that cell** becomes completely **nonexistent** in the matrix.
+**Destroying** a cell means that **the current cell** becomes completely **nonexistent** in the matrix.
 
-Destroying cells **cross-like** means that you form a **cross figure** with center point - equal to the cell with coordinates – the **given row** and **column**, and **lines** with length equal to the **given radius**. 
+Destroying cells **cross-like** means that you form a **cross figure** with a center point - equal to the cell with coordinates – the **given row** and **column**, and **lines** with length equal to the **given radius**. 
 
 See the examples for more info.
 
@@ -40,8 +40,8 @@ When that happens, you must print what has remained from the initial matrix.
 
 ## Input
 
-- On the first line you will receive the dimensions of the matrix. You must then fill the matrix according to those dimensions
-- On the next several lines you will begin receiving 3 integers separated by a single **space** , which represent the row, col and radius. You must then destroy cells according to those coordinates
+- On the first line, you will receive the dimensions of the matrix. You must then fill the matrix according to those dimensions
+- On the next several lines you will begin receiving 3 integers separated by a single **space**, which represents the row, col, and radius. You must then destroy cells according to those coordinates
 - When you receive the command **"Nuke it from orbit"** the input ends
 
 ## Output
@@ -53,7 +53,7 @@ When that happens, you must print what has remained from the initial matrix.
 
 - The dimensions of the matrix will be integers in the range [2, 100]
 - The given rows and columns will be valid integers in the range [-2 ^ 31 + 1, 2 ^ 31 - 1]
-- The radius will be in range [0, 2 ^ 31 - 1]
+- The radius will be in the range [0, 2 ^ 31 - 1]
 - Allowed time/memory: 250ms/16MB
 
 ## Examples
