@@ -18,7 +18,7 @@ You are given a matrix (2D array) of integers.
 
 You have to print the matrix diagonal but in reversed order.
 
-Print each diagonal on new line.
+Print each diagonal on a new line.
 
 ## Input
 
