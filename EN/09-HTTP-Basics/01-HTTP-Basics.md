@@ -1,6 +1,16 @@
 # HTTP Protocol
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="122" endTimeInSeconds="1043"]
+[stream language="EN" videoId="429002366" default /]
+[stream language="RO" videoId="429006590"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # HTTP Basics
 
 [image assetsSrc="HTTPBasicsPic2.png" /]

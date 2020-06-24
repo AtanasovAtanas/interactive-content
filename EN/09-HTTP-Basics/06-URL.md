@@ -1,6 +1,16 @@
 # URL
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="4466" endTimeInSeconds="5410"]
+[stream language="EN" videoId="429002366" default /]
+[stream language="RO" videoId="429006590"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Uniform Resource Locator (URL)
 
 # ADD PICTURE
