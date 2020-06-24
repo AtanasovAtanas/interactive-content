@@ -22,7 +22,9 @@ It might look like this:
 
 [/slide]
 
-[slide-title](Creating and Initializing Multidimensional Arrays)
+[slide]
+
+# Creating and Initializing Multidimensional Arrays
 
 # Creating a multidimensional array
 
