@@ -14,7 +14,8 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-You are given a sequence of access logs in format `< IP > < user > < duration >`.
+You are given a sequence of access logs in format 
+`< IP > < user > < duration >`.
 
 For example:
 
@@ -26,7 +27,8 @@ For example:
 - 50.118.81 alex 46
 - 50.118.81 alex 4
 
-Write a program to aggregate the logs data and print **for each user** the **total duration** of his sessions and a **list of unique IP addresses** in format `< user > < duration > [ < IP1 >, < IP2 >, ...]`. 
+Write a program to aggregate the logs data and print **for each user** the **total duration** of his sessions and a **list of unique IP addresses** in format 
+`< user > < duration > [ < IP1 >, < IP2 >, ...]`. 
 
 Order the **users alphabetically**. 
 
