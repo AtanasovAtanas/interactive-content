@@ -1,4 +1,4 @@
 [slide]
-# Problem: Sul Lines
+# Problem: Sum Lines
 
 [/slide]
