@@ -15,6 +15,7 @@ public class Main {
 [task-description]
 ## Description
 You are given a sequence of access logs in format 
+
 `< IP > < user > < duration >`.
 
 For example:
@@ -28,6 +29,7 @@ For example:
 - 50.118.81 alex 4
 
 Write a program to aggregate the logs data and print **for each user** the **total duration** of his sessions and a **list of unique IP addresses** in format 
+
 `< user > < duration > [ < IP1 >, < IP2 >, ...]`. 
 
 Order the **users alphabetically**. 
@@ -46,6 +48,7 @@ The input comes from the console.
 At the first line is a number **n** - the count of the following lines. 
 
 Each of the next n lines holds a log information in format 
+
 `< IP > < user > < duration >`. 
 
 The input data will always be **valid** and in the described format. 
@@ -57,6 +60,7 @@ There is no need to check it explicitly.
 Print **single line for each user** (order users alphabetically). 
 
 For each user print the sum of durations and all of his session IPs, ordered alphabetically in format 
+
 `< user >: < duration > [< IP1 >, < IP2 >, ...]`. 
 
 Remove any duplicated values in the IP addresses.
