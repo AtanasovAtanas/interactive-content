@@ -1,5 +1,15 @@
 # Lists Overview
 [slide]
+# Training Session
+
+[vimeo-video]
+[vimeo-video startTimeInSeconds="9" endTimeInSeconds="2583"]
+[stream language="EN" videoId="421781852" default /]
+[stream language="RO" videoId="431758884"  /]
+[/video-vimeo]
+
+[/slide]
+[slide]
 # What are Lists?
 
 Just like an array а **List** is a **sequence of elements**.
