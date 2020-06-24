@@ -22,10 +22,11 @@ It might look like this:
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 
 # Creating and Initializing Multidimensional Arrays
 
+# Creating Multidimensional Arrays
 
 
 [/slide]
