@@ -1,6 +1,15 @@
 # Fundamental Skills of Software Engineers
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="122" endTimeInSeconds="1043"]
+[stream language="EN" videoId="431381828" default /]
+[stream language="RO" videoId="431385564"  /]
+[/video-vimeo]
+
+
+[slide]
 # Skills of the Software Engineers
 
 [image assetsSrc="personal-skills.png" /]
