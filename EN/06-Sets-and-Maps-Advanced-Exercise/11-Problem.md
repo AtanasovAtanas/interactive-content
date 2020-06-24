@@ -66,11 +66,6 @@ Remove any duplicated values in the IP addresses.
 - Time limit: 0.3 sec. Memory limit: 16 MB.
 
 ## Examples
-| **Input** | **Output** |
-| --- | --- |
-| Sofia|Bulgaria|1000000 | Bulgaria (total population: 1000000) |
-| report | =>Sofia: 1000000 |
-|  |  |
 
 | **Input** | **Output** |
 | --- | --- |
