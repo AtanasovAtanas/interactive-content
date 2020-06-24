@@ -26,7 +26,7 @@ It might look like this:
 
 # Creating and Initializing Multidimensional Arrays
 
-# Creating Multidimensional Arrays
+### Creating Multidimensional Arrays
 
 
 [/slide]
