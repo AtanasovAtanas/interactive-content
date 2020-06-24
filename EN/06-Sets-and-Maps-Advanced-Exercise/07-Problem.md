@@ -16,11 +16,11 @@ public class Main {
 ## Description
 You are given a sequence of strings, each on a new line, **until you receive "stop" command**.
 
-First string is a **name** of a person.
+The first string is a **name** of a person.
 
-On the second line you receive his **email**.
+On the second line, you receive his **email**.
 
-Your task is to **collect** their names and emails, and **remove** emails whose domain ends with "us", "uk" or "com" (case insensitive).
+Your task is to **collect** their names and emails and **remove** emails whose domain ends with "us", "uk" or "com" (case insensitive).
 
 Print in the following format: `{name} –> {email}`
 
