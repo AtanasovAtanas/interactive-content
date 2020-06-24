@@ -1,6 +1,17 @@
 # HTML Common Elements
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="688" endTimeInSeconds="1692"]
+[stream language="EN" videoId="424672446" default /]
+[stream language="RO" videoId="424672683"  /]
+[/video-vimeo]
+
+[/slide]
+
+
+[slide]
 # Headings
 
 The HTML `<h1>...<h6>` elements represent six levels of section headings. 
