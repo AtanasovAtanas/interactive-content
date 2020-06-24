@@ -1,5 +1,13 @@
 # Sorting Lists and Arrays
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="8035" endTimeInSeconds="10485"]
+[stream language="EN" videoId="421781852" default /]
+[stream language="RO" videoId="431758884"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Sorting Lists
 - Sorting Lists of Strings in ascending order using `Collections.sort()`
