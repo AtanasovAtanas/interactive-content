@@ -8,8 +8,8 @@
 [stream language="RO" videoId="431385564" /]
 [/video-vimeo]
 
-
 [/slide]
+
 [slide]
 # Skills of the Software Engineers
 
