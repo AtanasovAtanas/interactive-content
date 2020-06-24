@@ -1,3 +1,14 @@
+# Read and Analyze the Problems
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="5148" endTimeInSeconds="6402"]
+[stream language="EN" videoId="431381828" default /]
+[stream language="RO" videoId="431385564" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide]
 # Read and Analyze the Problems
 
