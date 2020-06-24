@@ -1,6 +1,16 @@
 # Stages of Problem Solving
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="1559" endTimeInSeconds="2123"]
+[stream language="EN" videoId="431381828" default /]
+[stream language="RO" videoId="431385564" /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Solving a Problem
 [image assetsSrc="ps-stages.png" /]
 
