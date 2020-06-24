@@ -1,5 +1,14 @@
 # List Manipulating
+[slide]
+# Training Session
 
+[vimeo-video]
+[vimeo-video startTimeInSeconds="2584" endTimeInSeconds="2865"]
+[stream language="EN" videoId="421781852" default /]
+[stream language="RO" videoId="431758884"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 
 # Add Element
