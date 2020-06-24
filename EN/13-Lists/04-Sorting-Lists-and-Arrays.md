@@ -1,4 +1,3 @@
-
 # Sorting Lists and Arrays
 
 [slide]
