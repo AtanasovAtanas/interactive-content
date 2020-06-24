@@ -1,6 +1,7 @@
 # Reading and Printing Lists
+
 [slide]
-# Training Session
+# Video
 
 [vimeo-video]
 [vimeo-video startTimeInSeconds="3799" endTimeInSeconds="7434"]
@@ -9,6 +10,7 @@
 [/video-vimeo]
 
 [/slide]
+
 [slide]
 # Reading Lists 
 - Reading a List using `for` loop and `scanner.nextLine()`

@@ -1,6 +1,7 @@
 # List Manipulating
+
 [slide]
-# Training Session
+# Video
 
 [vimeo-video]
 [vimeo-video startTimeInSeconds="2584" endTimeInSeconds="2865"]
@@ -9,6 +10,7 @@
 [/video-vimeo]
 
 [/slide]
+
 [slide]
 
 # Add Element
