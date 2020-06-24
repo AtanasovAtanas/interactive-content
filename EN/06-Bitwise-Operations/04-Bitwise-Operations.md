@@ -1,4 +1,14 @@
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="3144" endTimeInSeconds="4256"]
+[stream language="EN" videoId="426199411" default /]
+[stream language="RO" videoId="426200319"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Bitwise Operations
 
 **Combinations of bitwise operations** can manipulate the **bits in integer** numbers. 

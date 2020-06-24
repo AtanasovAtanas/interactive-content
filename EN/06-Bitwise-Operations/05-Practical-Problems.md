@@ -1,6 +1,16 @@
 # Practical Problems
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="4257" endTimeInSeconds="4333"]
+[stream language="EN" videoId="426199411" default /]
+[stream language="RO" videoId="426200319"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Problem: Binary Digits Count
 [code-task title="Binary Digits Count" taskId="e2e25dfa-37e4-40c7-ae95-aa0010e7d993" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

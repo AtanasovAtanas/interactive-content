@@ -1,6 +1,16 @@
 # Representation of Data
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="1840" endTimeInSeconds="3143"]
+[stream language="EN" videoId="426199411" default /]
+[stream language="RO" videoId="426200319"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Representation of Integers
 
 **Integer numbers** are represented in the computer memory as **sequences of bits**: 8-bits, 16-bits, 24-bits, 32-bits, 64-bits and others, but always a multiple of 8 (one byte).

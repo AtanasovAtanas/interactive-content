@@ -1,4 +1,14 @@
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="426" endTimeInSeconds="1837"]
+[stream language="EN" videoId="426199411" default /]
+[stream language="RO" videoId="426200319"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Numerals Systems
 
 **Numeral systems** are the ones used by humans and computers to **write sequences using digits**:
