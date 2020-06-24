@@ -1,3 +1,5 @@
+# What is a Bit?
+
 [slide]
 # Video
 
