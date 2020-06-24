@@ -20,9 +20,9 @@ Everyone loves it and everyone plays it all the time.
 
 John is no exclusion to this rule.
 
-His favorite units in the game are all **types** of dragons – black, red, gold, azure etc... 
+His favorite units in the game are all **types** of dragons – black, red, gold, azure, etc... 
 
-He likes them so much that he gives them **names** and keeps logs of their **stats** : **damage, health** and **armor**.
+He likes them so much that he gives them **names** and keeps logs of their **stats** : **damage, health**, and **armor**.
 
 The process of aggregating all the data is quite tedious, so he would like to have a program doing it.
 
@@ -34,7 +34,7 @@ For each dragon, identified by **name**, keep information about his **stats**.
 
 Type is **preserved** in the order of the input but dragons are **sorted** alphabetically by name. 
 
-For each type, you should also print the average **damage**, **health** and **armor** of the dragons. 
+For each type, you should also print the average **damage**, **health**, and **armor** of the dragons. 
 
 For each dragon, print his own stats.
 
@@ -52,7 +52,7 @@ The input is in the following format
 
 Any of the integers may be assigned **null** value. 
 
-See the examples below for better understanding the task.
+See the examples below for a better understanding of the task.
 
 If the same dragon is added a second time, the new stats should **overwrite** the previous ones. 
 
@@ -61,7 +61,7 @@ Two dragons are considered **equal** if they match by **both** name and type.
 ## Input
 
 - On the first line, you are given **number N** - the number of dragons
-- On the **next N lines** you are given **input** in the **above described** format. There will be single space separating each element.
+- On the **next N lines** you are given **input** in the **above described** format. There will be a single space separating each element.
 
 ### Output
 
@@ -76,8 +76,8 @@ Two dragons are considered **equal** if they match by **both** name and type.
 ### Constraints
 
 - N is in the range [1 ... 100]
-- The dragon type and name are one word only, starting with capital letter.
-- Damage health and armor are integers in range [0 ... 100000] or **null**
+- The dragon type and name are one word only, starting with a capital letter.
+- Damage health and armor are integers in the range [0 ... 100000] or **null**
 
 ## Examples
 | **Input** | **Output** |
