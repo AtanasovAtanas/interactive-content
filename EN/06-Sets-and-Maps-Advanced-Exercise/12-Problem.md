@@ -37,16 +37,17 @@ Then, print the **remaining** shards, fragments, motes, ordered by **quantity** 
 
 Finally, print the collected **junk** items, in **alphabetic** order.
 
+
 ## Input
 
 - Each line of input is in format 
 
 `{quantity} {material} {quantity} {material} ... {quantity} {material}`
 
+
 ## Output
 
 - On the first line, print the obtained item in format 
-
 `{Legendary item} obtained!`
 - On the next three lines, print the remaining key materials in descending order by quantity
   - If two key materials have the same quantity, print them in alphabetical order
