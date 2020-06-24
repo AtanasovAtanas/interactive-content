@@ -9,6 +9,7 @@
 [/video-vimeo]
 
 
+[/slide]
 [slide]
 # Skills of the Software Engineers
 
