@@ -43,7 +43,8 @@ The input comes from the console.
 
 At the first line is a number **n** - the count of the following lines. 
 
-Each of the next n lines holds a log information in format `< IP > < user > < duration >`. 
+Each of the next n lines holds a log information in format 
+`< IP > < user > < duration >`. 
 
 The input data will always be **valid** and in the described format. 
 
@@ -53,7 +54,8 @@ There is no need to check it explicitly.
 
 Print **single line for each user** (order users alphabetically). 
 
-For each user print the sum of durations and all of his session IPs, ordered alphabetically in format `< user >: < duration > [< IP1 >, < IP2 >, ...]`. 
+For each user print the sum of durations and all of his session IPs, ordered alphabetically in format 
+`< user >: < duration > [< IP1 >, < IP2 >, ...]`. 
 
 Remove any duplicated values in the IP addresses.
 
