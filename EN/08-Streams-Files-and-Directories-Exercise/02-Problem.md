@@ -18,6 +18,11 @@ Write a program that reads a text file ( **input.txt** from the Resources - Fold
 
 Use **BufferedReader** in combination with **FileReader**.
 
+## Hints
+
+- You can modify your solution to the previous problem
+- Use a type that will not overflow like **long** or **BigInteger**
+
 ## Guidelines
 There is one zipped folder with resources for all exercises, that you need to use. 
 
