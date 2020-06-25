@@ -10,7 +10,7 @@
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Binary Digits Count
 [code-task title="Binary Digits Count" taskId="e2e25dfa-37e4-40c7-ae95-aa0010e7d993" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -93,7 +93,7 @@ Your task is to write a program that finds the **number of binary digits (B) in 
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: First Bit
 [code-task title="First Bit" taskId="3e8355cc-5292-46f3-8f92-2df4b92d3818" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -183,7 +183,7 @@ Write a program that prints the bit at position 1 of a number.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: p-th Bit
 [code-task title="p-th Bit" taskId="6eb59a32-057b-4de0-9b10-52161369dceb" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -283,7 +283,7 @@ Write a program that prints the bit at position p of a number.
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: Bit Destroyer
 [code-task title="Bit Destroyer" taskId="6f9236f7-e33c-4e67-bb66-c711df00b399" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -440,7 +440,7 @@ Find the number.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Tri-bit Switch
 [code-task title="Tri-bit Switch" taskId="207a9f49-af42-4f72-a894-0da161629ecd" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

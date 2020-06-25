@@ -59,7 +59,7 @@ In the example above we convert each character to its **ASCII** value. **ASCII t
 It is a code for representing 128 English characters as numbers, with each letter assigned a number from 0 to 127. We encourage you to research it yourself!
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Special Numbers
 [code-task title="Problem: Special Numbers" taskId="java-fund-04-Data-Types-problem-12" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -290,7 +290,7 @@ To calculate the sum of digits of given number **num**, you might repeat the fol
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Special Numbers
 [code-task title="Problem: Special Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -537,7 +537,7 @@ To calculate the sum of digits of given number **num**, you might repeat the fol
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Reversed Chars
 [code-task title="Problem: Reversed Chars" taskId="java-fund-04-Data-Types-problem-14" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -639,7 +639,7 @@ a
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Solution: Reversed Chars
 [code-task title="Problem: Reversed Chars" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

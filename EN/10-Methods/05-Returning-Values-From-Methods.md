@@ -38,7 +38,7 @@ int age = Integer.parseInt(sc.nextLine());
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: Calculate Rectangle Area
 [code-task title="Problem: Calculate Rectangle Area" taskId="318ace21-8a03-41a6-b537-8809e4aa23ac" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -134,7 +134,7 @@ Create a method that calculates and returns the area of a triangle by given widt
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Calculate Rectangle Area
 [code-task title="Problem: Calculate Rectangle Area" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -240,7 +240,7 @@ Create a method that calculates and returns the area of a triangle by given widt
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Repeat String
 [code-task title="Problem: Repeat String" taskId="e39e24a2-f942-4855-822d-1601ba84f8ce" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -342,7 +342,7 @@ ivanivan
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Repeat String
 [code-task title="Problem: Repeat String" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -458,7 +458,7 @@ ivanivan
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: Math Power
 [code-task title="Problem: Math Power" taskId="856a60c4-b014-4717-80d8-fb79c0c2f82e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -604,7 +604,7 @@ Create a method that calculates and returns the value of a number raised to a gi
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Math Power
 [code-task title="Problem: Math Power" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -768,7 +768,7 @@ Create a method that calculates and returns the value of a number raised to a gi
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Orders
 [code-task title="Problem: Orders" taskId="dbdac507-68fa-4b8c-a455-bd9146e433ad" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -879,7 +879,7 @@ water
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Orders
 [code-task title="Problem: Orders" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

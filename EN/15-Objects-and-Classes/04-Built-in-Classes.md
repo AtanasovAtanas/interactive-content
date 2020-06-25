@@ -156,7 +156,7 @@ System.out.println(isValid);
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Randomize Words
 [code-task title="Randomize Words" taskId="java-fund-16-Objects-and-Classes-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -268,7 +268,7 @@ pipi
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Solution: Randomize Words
 [code-task title="Randomize Words" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -459,7 +459,7 @@ System.out.println(number);
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Sum Big Numbers
 [code-task title="Sum Big Numbers" taskId="java-fund-16-Objects-and-Classes-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -571,7 +571,7 @@ You will receive two numbers **(0 to 10 ^ 50)**, print their sum.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Sum Big Numbers
 [code-task title="Sum Big Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -690,7 +690,7 @@ You will receive two numbers **(0 to 10 ^ 50)**, print their sum.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Big Factorial
 [code-task title="Big Factorial" taskId="java-fund-16-Objects-and-Classes-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -794,7 +794,7 @@ Calculate **Factorial of N** and print the result.
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Solution: Big Factorial
 [code-task title="Big Factorial" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

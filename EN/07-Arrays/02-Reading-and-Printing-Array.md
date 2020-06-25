@@ -101,7 +101,7 @@ System.out.println(String.join(" ", arr));
 ```
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Print Numbers in Reverse Order
 [code-task title="Problem: Print Numbers in Reverse Order" taskId="java-fund-07-Arrays-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -215,7 +215,7 @@ Read n numbers and print them in reverse order, separated by single space.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Print Numbers in Reverse Order
 [code-task title="Problem: Print Numbers in Reverse Order" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -342,7 +342,7 @@ Read n numbers and print them in reverse order, separated by single space.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Reverse an Array of Strings
 [code-task title="Problem: Reverse an Array of Strings" taskId="java-fund-07-Arrays-problem-6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -436,7 +436,7 @@ f60 e50 d40 c30 b20 a10
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Reverse an Array of Strings
 [code-task title="Problem: Reverse an Array of Strings" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -541,7 +541,7 @@ f60 e50 d40 c30 b20 a10
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Equal Arrays
 [code-task title="Problem: Equal Arrays" taskId="java-fund-07-Arrays-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -651,7 +651,7 @@ Arrays are not identical. Found difference at 0 index.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Equal Arrays
 [code-task title="Problem: Equal Arrays" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

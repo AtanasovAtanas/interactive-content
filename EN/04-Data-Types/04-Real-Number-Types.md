@@ -63,7 +63,7 @@ System.out.println("Double PI is: " + doublePI);
 - One should explicitly convert them to float
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Pounds to Dollars
 [code-task title="Pounds to Dollars" taskId="java-fund-04-Data-Types-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -157,7 +157,7 @@ Write a program that converts British pounds to US dollars formatted to 3rd deci
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Pounds to Dollars
 [code-task title="Pounds to Dollars" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -349,7 +349,7 @@ System.out.println(bigDecimal1);
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Exact Sum of Real Numbers
 [code-task title="Exact Sum of Real Numbers" taskId="java-fund-04-Data-Types-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -456,7 +456,7 @@ Write a program to enter n numbers and calculate and print their **exact sum** (
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Exact Sum of Real Numbers
 [code-task title="Exact Sum of Real Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

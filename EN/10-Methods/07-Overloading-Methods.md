@@ -61,7 +61,7 @@ public class MyClass {
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Greater of Two Values
 [code-task title="Problem: Greater of Two Values" taskId="7922a26e-1814-4229-9172-5b3d809264c4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -219,7 +219,7 @@ int
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Greater of Two Values
 [code-task title="Problem: Greater of Two Values" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -418,7 +418,7 @@ int
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Multiply Evens by Odds
 [code-task title="Problem: Multiply Evens by Odds" taskId="0421a3db-de4d-4534-aaeb-aa5cbaebec02" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -545,7 +545,7 @@ Create a program that reads an **integer number** and **multiplies the sum of al
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Multiply Evens by Odds
 [code-task title="Problem: Multiply Evens by Odds" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

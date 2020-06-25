@@ -70,7 +70,7 @@ method **doesn't work** with **primitive data types like int, double, char, bool
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: List of products
 [code-task title="List of products" taskId="java-fund-13-Lists-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -185,7 +185,7 @@ d
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Solution: List of products
 [code-task title="List of products"  executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -316,7 +316,7 @@ d
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: Remove Negatives and Reverse
 [code-task title="Remove Negatives and Reverse" taskId="java-fund-13-Lists-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -432,7 +432,7 @@ empty
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Solution: Remove Negatives and Reverse
 [code-task title="Remove Negatives and Reverse"  executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

@@ -71,7 +71,7 @@ public static void increment(int[] nums, int value) {
 ```
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Math operations
 [code-task title="Problem: Math operations" taskId="4aa29fd8-46d3-4a80-9daa-b5376cfe10a6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -185,7 +185,7 @@ The possible operators are: `/` `*` `+` `-`
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Math operations
 [code-task title="Problem: Math operations" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

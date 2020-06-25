@@ -108,7 +108,7 @@ public class Animal {
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Songs
 [code-task title="Songs" taskId="java-fund-16-Objects-and-Classes-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -269,7 +269,7 @@ Photoshop
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Songs
 [code-task title="Songs" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -491,7 +491,7 @@ Photoshop
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: Students
 [code-task title="Students" taskId="java-fund-16-Objects-and-Classes-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -660,7 +660,7 @@ Port Lee is 14 years old
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Students
 [code-task title="Students" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -913,7 +913,7 @@ Port Lee is 14 years old
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Students 2.0
 [code-task title="Students 2.0" taskId="java-fund-16-Objects-and-Classes-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -1015,7 +1015,7 @@ J P is 61 years old
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Students 2.0
 [code-task title="Students 2.0" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

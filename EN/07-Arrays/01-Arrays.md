@@ -105,7 +105,7 @@ If we try to access the element on an invalid index, we get an exception.
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Day of Week
 [code-task title="Problem: Day of Week" taskId="java-fund-07-Arrays-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -243,7 +243,7 @@ Invalid day!
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Day of Week
 [code-task title="Problem: Day of Week" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -394,7 +394,7 @@ Invalid day!
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Sum Even Numbers
 [code-task title="Problem: Sum Even Numbers" taskId="java-fund-07-Arrays-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -491,7 +491,7 @@ Read an array from the console and sum only the even numbers.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Sum Even Numbers
 [code-task title="Problem: Sum Even Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

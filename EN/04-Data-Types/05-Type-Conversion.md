@@ -46,7 +46,7 @@ Here the higher data types \(having larger size\) are converted into lower data 
 [/slide]
 
 [slide]
-
+[slide hideTitle]
 # Problem: Centuries to Minutes
 
 [code-task title="Problem: Centuries to Minutes" taskId="java-fund-04-Data-Types-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
@@ -140,7 +140,7 @@ Write program to enter an integer number of **centuries** and convert it to **ye
 [/slide]
 
 [slide]
-
+[slide hideTitle]
 # Solution: Centuries to Minutes
 
 [code-task title="Problem: Centuries to Minutes"  executionType="tests-execution" executionStrategy="java-code" requiresInput]

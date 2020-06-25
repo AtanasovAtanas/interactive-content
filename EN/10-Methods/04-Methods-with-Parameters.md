@@ -43,7 +43,7 @@ public static void printStudent(String name, int age, double grade) {
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Sign of Integer
 [code-task title="Sign of Integer" taskId="96b4c810-b800-4d30-b59b-b1f91901fb80" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -109,7 +109,7 @@ The number 0 is zero.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Sign of Integer
 [code-task title="Sign of Integer" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -187,7 +187,7 @@ The number 0 is zero.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Grades
 [code-task title="Grades" taskId="2d3a034f-4f1a-42de-84e7-72a16870a267" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -299,7 +299,7 @@ Fail
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Grades
 [code-task title="Grades" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -426,7 +426,7 @@ Fail
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Printing Triangle
 [code-task title="Printing Triangle" taskId="7b6b0e00-c615-421d-b8f0-5c5d00ee8719" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -607,7 +607,7 @@ Create a method for printing triangles as shown below:
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Printing Triangle
 [code-task title="Printing Triangle" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -804,7 +804,7 @@ Create a method for printing triangles as shown below:
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Calculations
 [code-task title="Calculations" taskId="j1ae45194-ff34-4701-82e0-f209e000ff62`" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -917,7 +917,7 @@ multiply
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Calculations
 [code-task title="Calculations" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
