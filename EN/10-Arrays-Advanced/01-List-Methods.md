@@ -73,7 +73,7 @@ print(my_list) # [1, 2, 4, 5]
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Trains
 [code-task title="Trains" taskId="python-fund-13-Arrays-Advanced-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -218,7 +218,7 @@ End
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Trains
 [code-task title="Trains" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -382,7 +382,7 @@ End
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Todo List
 [code-task title="Todo List" taskId="python-fund-13-Arrays-Advanced-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -485,7 +485,7 @@ End
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Todo List
 [code-task title="Todo List" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -600,7 +600,7 @@ End
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Palindrome
 [code-task title="Palindrome" taskId="python-fund-13-Arrays-Advanced-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -705,7 +705,7 @@ Found palindrome 3 times
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Palindrome
 [code-task title="Palindrome" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

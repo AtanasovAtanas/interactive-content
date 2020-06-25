@@ -58,7 +58,7 @@ The example above takes each element of `numbers_list_one` and multiplies it wit
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Even Numbers
 [code-task title="Even Numbers" taskId="python-fund-13-Arrays-Advanced-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -145,7 +145,7 @@ Print the **indices** of **all even numbers**.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Even Numbers
 [code-task title="Even Numbers" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -257,7 +257,7 @@ print(even_numbers) # [2, 4, 6]
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: The Office
 [code-task title="The Office" taskId="python-fund-13-Arrays-Advanced-problem-9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -372,7 +372,7 @@ Score: 12/18. Employees are happy!
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: The Office
 [code-task title="The Office" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

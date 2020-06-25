@@ -1,6 +1,6 @@
 # Practical Problems
 
-[slide]
+[slide hideTitle]
 # Problem: Binary Digits Count
 [code-task title="Binary Digits Count" taskId="668c7f4a-fb4c-4eec-bd0b-1a353ddddcff" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -77,7 +77,7 @@ Your task is to write a program that finds the **number of binary digits (B) in 
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: First Bit
 [code-task title="First Bit" taskId="b4adfdde-6613-4af0-86bd-cabc5d3f29e0" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -161,7 +161,7 @@ Write a program that prints the bit at position 1 of a number.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: p-th Bit
 [code-task title="p-th Bit" taskId="568caa22-8c69-4983-8250-ae5e874464ad" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -255,7 +255,7 @@ Write a program that prints the bit at position p of a number.
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: Bit Destroyer
 [code-task title="Bit Destroyer" taskId="1c48c32a-af46-4429-8afd-193f2acc2833" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -400,7 +400,7 @@ Find the number.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Tri-bit Switch
 [code-task title="Tri-bit Switch" taskId="2ad7f449-6c0d-4bf9-9be0-eec5e80a8cf0" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

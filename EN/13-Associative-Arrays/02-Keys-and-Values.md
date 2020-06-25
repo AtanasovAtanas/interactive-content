@@ -57,7 +57,7 @@ print(my_dict["age"])
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Bakery
 [code-task title="Bakery" taskId="python-fundamentals-Associative-Arrays-01" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -133,7 +133,7 @@ l 10 l 20 h 8 h 10
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Bakery
 [code-task title="Bakery" taskId="38676d82-8e14-48a5-9994-2be4004c212f" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

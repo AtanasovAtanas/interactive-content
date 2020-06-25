@@ -45,7 +45,7 @@ print_name("Jason", "Oprah") # TypeError, more arguments
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Grades
 [code-task title="Grades" taskId="python-fund-10-Functions-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -140,7 +140,7 @@ Excellent
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Grades
 [code-task title="Grades" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -338,7 +338,7 @@ print(multiplied) # 10
 ```
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Calculations
 [code-task title="Calculations" taskId="python-fund-10-Functions-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -444,7 +444,7 @@ divide
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Calculations
 [code-task title="Calculations" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -566,7 +566,7 @@ divide
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Repeat String
 [code-task title="Repeat String" taskId="python-fund-10-Functions-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -661,7 +661,7 @@ popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopo
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Repeat String
 [code-task title="Repeat String" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -765,7 +765,7 @@ popopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopopo
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Orders
 [code-task title="Orders" taskId="python-fund-10-Functions-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -867,7 +867,7 @@ coffee
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Orders
 [code-task title="Orders" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -982,7 +982,7 @@ coffee
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Calculate Rectangle Area
 [code-task title="Calculate Rectangle Area" taskId="python-fund-10-Functions-problem-9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -1075,7 +1075,7 @@ coffee
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Calculate Rectangle Area
 [code-task title="Calculate Rectangle Area" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

@@ -127,7 +127,7 @@ print(my_list[-3]) # 3
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Strange Zoo
 [code-task title="Strange Zoo" taskId="python-fund-07-Arrays-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -233,7 +233,7 @@ tra
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Strange Zoo
 [code-task title="Strange Zoo" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

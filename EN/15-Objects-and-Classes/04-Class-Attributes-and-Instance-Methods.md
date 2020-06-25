@@ -89,7 +89,7 @@ print(cat_one.owner)
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Email
 [code-task title="Email" taskId="python-fund-16-Objects-and-Classes-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -222,7 +222,7 @@ o, says to p,: q. Sent: True
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Email
 [code-task title="Email" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -387,7 +387,7 @@ o, says to p,: q. Sent: True
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Zoo
 [code-task title="Zoo" taskId="python-fund-16-Objects-and-Classes-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -524,7 +524,7 @@ Total animals: 5
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Zoo
 [code-task title="Zoo" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -706,7 +706,7 @@ Total animals: 5
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Circle
 [code-task title="Circle" taskId="python-fund-16-Objects-and-Classes-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -792,7 +792,7 @@ Print the **result of each method formatted to the second decimal place** in the
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Circle
 [code-task title="Circle" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

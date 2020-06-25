@@ -120,7 +120,7 @@ for person in people:
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Odd Occurrences
 [code-task title="Odd Occurrences" taskId="python-fundamentals-Associative-Arrays-04" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -189,7 +189,7 @@ as b bb hhh h asbsad sadjsdadshhds sdaghdghhsa hsaj hh
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Odd Occurrences
 [code-task title="Odd Occurrences" taskId="2d929508-98bd-4d91-a079-ca4e2808c8bd" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -272,7 +272,7 @@ as b bb hhh h asbsad sadjsdadshhds sdaghdghhsa hsaj hh
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Word Synonyms
 [code-task title="Word Synonyms" taskId="python-fundamentals-Associative-Arrays-05" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -480,7 +480,7 @@ customer - client, purchaser
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Word Synonyms
 [code-task title="Word Synonyms" taskId="8e88ace6-1c47-43e9-9e0e-7c2b741517f6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

@@ -172,7 +172,7 @@ else:
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Biggest Of Three Numbers
 [code-task title="Biggest Of Three Numbers" taskId="python-fund-01-Basic-Syntax-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -284,7 +284,7 @@ Write a program that receives **three whole numbers** and print the **biggest on
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Biggest Of Three Numbers
 [code-task title="Biggest Of Three Numbers" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -405,7 +405,7 @@ Write a program that receives **three whole numbers** and print the **biggest on
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Number Definer
 [code-task title="Number Definer" taskId="python-fund-01-Basic-Syntax-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -562,7 +562,7 @@ negative
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Number Definer
 [code-task title="Number Definer" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -813,7 +813,7 @@ for i in reversed(range(0, 10)):
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Word Reverse
 [code-task title="Word Reverse" taskId="python-fund-01-Basic-Syntax-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -898,7 +898,7 @@ tset repus
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Word Reverse
 [code-task title="Word Reverse" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -1020,7 +1020,7 @@ while True:
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Number between 1 and 100
 [code-task title="Number between 1 and 100" taskId="python-fund-01-Basic-Syntax-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -1112,7 +1112,7 @@ The number 1.5 is between 1 and 100
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Number between 1 and 100
 [code-task title="Number between 1 and 100" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -1207,7 +1207,7 @@ The number 1.5 is between 1 and 100
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Patterns
 [code-task title="Patterns" taskId="python-fund-01-Basic-Syntax-problem-9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -1404,7 +1404,7 @@ You will receive a **number** that represents the **highest number of stars**.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Patterns
 [code-task title="Patterns" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

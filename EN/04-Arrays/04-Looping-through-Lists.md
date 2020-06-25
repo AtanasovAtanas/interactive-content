@@ -70,7 +70,7 @@ while index < len(my_list):
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: List Statistics
 [code-task title="List Statistics" taskId="python-fund-07-Arrays-problem-5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -198,7 +198,7 @@ Count of positives: 0. Sum of negatives: 0
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: List Statistics
 [code-task title="List Statistics" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

@@ -36,7 +36,7 @@ if 5 not in my_list:
 ```
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Search
 [code-task title="Search" taskId="python-fund-07-Arrays-problem-7" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -170,7 +170,7 @@ some stuff
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Search
 [code-task title="Search" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -315,7 +315,7 @@ some stuff
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Numbers Filter
 [code-task title="Numbers Filter" taskId="python-fund-07-Arrays-problem-9" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -473,7 +473,7 @@ positive
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Numbers Filter
 [code-task title="Numbers Filter" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

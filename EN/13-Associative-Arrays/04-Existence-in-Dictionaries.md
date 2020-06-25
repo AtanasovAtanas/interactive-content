@@ -50,7 +50,7 @@ if 4.56 not in grades.values():
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Stock
 [code-task title="Stock" taskId="python-fundamentals-Associative-Arrays-02" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -146,7 +146,7 @@ We have 88 of u left
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Stock
 [code-task title="Stock" taskId="49b02794-cff5-415f-8d2d-85bb75eaf32a" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -254,7 +254,7 @@ We have 88 of u left
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Statistics
 [code-task title="Statistics" taskId="python-fundamentals-Associative-Arrays-03" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -395,7 +395,7 @@ Total Quantity: 35
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Statistics
 [code-task title="Statistics" taskId="d8aff116-e500-4d42-83b0-ec16f81edecd" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

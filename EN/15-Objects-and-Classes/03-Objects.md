@@ -91,7 +91,7 @@ print(cat_one.name)
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Party
 [code-task title="Party" taskId="python-fund-16-Objects-and-Classes-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -204,7 +204,7 @@ Total: 3
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Party
 [code-task title="Party" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

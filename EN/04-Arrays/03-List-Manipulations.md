@@ -45,7 +45,7 @@ print(my_list)
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Courses
 [code-task title="Courses" taskId="python-fund-07-Arrays-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
@@ -161,7 +161,7 @@ side
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Courses
 [code-task title="Courses" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
