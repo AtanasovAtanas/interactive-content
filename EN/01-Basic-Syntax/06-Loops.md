@@ -307,7 +307,7 @@ Sum: 64
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Solution: Sum of Odd Numbers
 [code-task title="Sum of Odd Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

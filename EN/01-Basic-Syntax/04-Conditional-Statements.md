@@ -526,7 +526,7 @@ Error!
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Month Printer
 [code-task title="Month Printer" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
