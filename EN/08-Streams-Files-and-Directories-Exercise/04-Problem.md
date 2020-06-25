@@ -37,13 +37,10 @@ For each exercise submit only the **output** of your program, **not the code**.
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| On January 1 , 1533 ,  | Vowels: 41 |
-| Michael Angelo,  | Consonants: 72 |
-| then fifty-seven years old,  | Punctuation: 6 |
-| writes |  |
-| from Florence to  |  |
-| Tommaso de' Cavalieri,  |  |
-| a youth of noble Roman family, |  |
+| On January 1 , 1533 , Michael Angelo, then fifty-seven years old, writes | Vowels: 41 |
+| from Florence to Tommaso de' Cavalieri, a youth of noble Roman family, | Consonants: 72 |
+|  | Punctuation: 6 |
+
 
 [/task-description]
 [code-io /]
