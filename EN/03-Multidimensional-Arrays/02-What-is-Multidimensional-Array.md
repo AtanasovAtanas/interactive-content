@@ -26,9 +26,36 @@ It might look like this:
 
 # Creating and Initializing Multidimensional Arrays
 
+
+
 ### Creating Multidimensional Arrays
 
+Two of the **most used ** multi-dimensional arrays are **two and three-dimensional array**, known as `2D` and `3D` array, anything above is rare.
 
+- Creating Multidimensional Arrays using `new` - keyword and specifying the size of at least one dimension
+
+```java 
+int[][] intMatrix = new int[3][];
+
+String[][][] stringCube = new String[5][5][5];
+```
+
+
+### Initializing Multidimensional Arrays
+
+- Creating and **Initializing** two dimensional array with shortcut syntax
+```java
+int[][] matrix = {
+  {1, 2, 3, 4}, // row 0 values
+  {5, 6, 7, 8}  // row 1 values
+};
+```
+- **Initializing** two dimensional array with `for-loop`
+```java
+int[][] matrix = new int[2][4];
+
+//TODO: for loop...
+```
 [/slide]
 
 [slide]
