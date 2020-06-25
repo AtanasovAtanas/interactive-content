@@ -132,7 +132,7 @@ Insert 949 6
 end
 [/input]
 [output]
-0 67 161 709 830 666
+0 67 161 709 830 666 949
 [/output]
 [/test]
 [test]
