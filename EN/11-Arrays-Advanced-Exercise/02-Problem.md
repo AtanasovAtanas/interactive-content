@@ -93,11 +93,11 @@ end
 [test]
 [input]
 21 85 29
-Insert 275  0 
-Insert 744  2 
-Insert 73  3 
-Insert 798 1 
-Insert 248 0 
+Insert 275 0
+Insert 744 2
+Insert 73 3
+Insert 798 1
+Insert 248 0
 end
 [/input]
 [output]
@@ -132,7 +132,7 @@ Insert 949 6
 end
 [/input]
 [output]
-0 67 161 709 830
+0 67 161 709 830 666
 [/output]
 [/test]
 [test]
