@@ -20,11 +20,11 @@ Use **BufferedReader** in combination with **FileReader**.
 
 ## Guidelines
 
-There is one zipped folder with resources for all exercises, that you will need to use. 
+There is one zipped folder with resources for all exercises, that you need to use. 
 
-Download the resources folder [here](https://mega.nz/file/nIwjSaKQ#KQpc5igeWhk70YWHwrA7QRqqyAySVW5xap-dxwFULgU)
+Download the resources folder [here](https://mega.nz/file/nIwjSaKQ#KQpc5igeWhk70YWHwrA7QRqqyAySVW5xap-dxwFULgU).
 
-For each exercise submit the **output** of the program, **not the code**.
+For each exercise submit only the **output** of your program, **not the code**.
 
 
 
