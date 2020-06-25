@@ -18,7 +18,15 @@ Write a program that reads a text file ( **input.txt** from the Resources - Fold
 
 Use **BufferedReader** in combination with **FileReader**.
 
+## Guidelines
+
+There is one zipped folder with resources for all exercises, that you will need to use. 
+
 Download the resources folder [here](https://mega.nz/file/nIwjSaKQ#KQpc5igeWhk70YWHwrA7QRqqyAySVW5xap-dxwFULgU)
+
+For each exercise submit the **output** of the program, **not the code**.
+
+
 
 ## Examples
 | **Input** | **Output** |
