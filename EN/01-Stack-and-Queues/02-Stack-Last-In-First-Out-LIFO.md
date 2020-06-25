@@ -733,7 +733,12 @@ Implement an elegant solution **using a Stack**.
 ## Hints
 - If the given number is 0, just print 0
 - Else, while the number is greater than zero, divide it by 2 and push the reminder into the stack
-[image assetsSrc="problem-simple-calculator-hint.png" /]
+```java
+while (decimal != 0) {
+    stack.push(decimal % 2);
+    decimal /= 2;
+}
+```
 - When you are done dividing, pop all reminders from the stack, that is the binary representation
 
 
@@ -850,7 +855,12 @@ Implement an elegant solution **using a Stack**.
 ## Hints
 - If the given number is 0, just print 0
 - Else, while the number is greater than zero, divide it by 2 and push the reminder into the stack
-[image assetsSrc="problem-simple-calculator-hint.png" /]
+```java
+while (decimal != 0) {
+    stack.push(decimal % 2);
+    decimal /= 2;
+}
+```
 - When you are done dividing, pop all reminders from the stack, that is the binary representation
 
 
