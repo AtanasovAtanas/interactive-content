@@ -1,4 +1,4 @@
 [slide]
-# Problem: ALL CAPITALS!
+# Problem: CAPITAL LETTERS
 
 [/slide]
