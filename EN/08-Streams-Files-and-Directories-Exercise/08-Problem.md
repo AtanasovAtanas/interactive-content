@@ -29,7 +29,9 @@ For each exercise submit only the **output** of your program, **not the code**.
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| [image assetsSrc="08-Strams-Files-and-Directories-Exercise-Get Folder Size.png" /] | Folder size: 2878 |
+|  | Folder size: 2878 |
+
+[image assetsSrc="08-Strams-Files-and-Directories-Exercise-Get Folder Size.png" /]
 
 [/task-description]
 [code-io /]
