@@ -107,10 +107,10 @@ The input **ends** with "**Home**" command, then simply you have to **stop the p
 | Home |  |
 
 ## Hints
-- Use ArrayDeque<>
-- Use String to keep current page
-- Use push(), when moving to next page
-- Use pop(), when going back
+- Use `ArrayDeque<>`
+- Use `String` to keep current page
+- Use `push()`, when moving to next page
+- Use `pop()`, when going back
 
 
 
@@ -270,6 +270,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         ArrayDeque<String> browser = new ArrayDeque<>();
         String line = scanner.nextLine();
 
@@ -321,10 +322,10 @@ The input **ends** with "**Home**" command, then simply you have to **stop the p
 | Home |  |
 
 ## Hints
-- Use ArrayDeque<>
-- Use String to keep current page
-- Use push(), when moving to next page
-- Use pop(), when going back
+- Use `ArrayDeque<>`
+- Use `String` to keep current page
+- Use `push()`, when moving to next page
+- Use `pop()`, when going back
 
 
 
@@ -506,8 +507,8 @@ Solve the problem **using a Stack**.
 | 2 - 2 + 5 | 5 |
 
 ## Hints
-- Use an **ArrayDeque<>**
-- Consider using the **add()** method
+- Use an `ArrayDeque<>`
+- Consider using the `add()` method
 - You can either 
     - add the elements and then pop them out 
     - or push them and reverse the stack
@@ -629,8 +630,8 @@ Solve the problem **using a Stack**.
 | 2 - 2 + 5 | 5 |
 
 ## Hints
-- Use an **ArrayDeque<>**
-- Consider using the **add()** method
+- Use an `ArrayDeque<>`
+- Consider using the `add()` method
 - You can either 
     - add the elements and then pop them out 
     - or push them and reverse the stack
@@ -950,7 +951,7 @@ Scan through the string and **extract** each **sub-expression**.
 |  | (2 + 3) |
 
  ## Hints 
- - Use a stack, namely an **ArrayDeque()** 
+ - Use a stack, namely an `ArrayDeque()`
  - Scan through the expression searching for brackets 
    - If you find an opening bracket, push the index into the stack 
    - If you find a closing bracket pop the topmost element from the stack. This is the index of the opening bracket. 
@@ -1080,7 +1081,7 @@ Scan through the string and **extract** each **sub-expression**.
 |  | (2 + 3) |
 
 ## Hints 
-- Use a stack, namely an **ArrayDeque()** 
+- Use a stack, namely an `ArrayDeque()` 
 - Scan through the expression searching for brackets 
    - If you find an opening bracket, push the index into the stack 
    - If you find a closing bracket pop the topmost element from the stack. This is the index of the opening bracket. 
