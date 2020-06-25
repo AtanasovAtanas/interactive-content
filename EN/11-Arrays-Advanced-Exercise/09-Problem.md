@@ -21,7 +21,7 @@ The **possible commands** are:
 - Insert:\{lessonTitle\}:\{index\} – **insert** the lesson to the **given index**, if it **does not exist**.
 - Remove:\{lessonTitle\} – **remove the lesson**, if it **exists**.
 - Swap:\{lessonTitle\}:\{lessonTitle\} – **change the place** of the two lessons, **if they exist**.
-- Exercise:\{lessonTitle\} – **add Exercise in the schedule right after the lesson index**, if the lesson exists and there is no exercise already, in the following format: "- - - \{lessonTitle\}-Exercise". 
+- Exercise:\{lessonTitle\} – **add Exercise in the schedule right after the lesson index**, if the lesson exists and there is no exercise already, in the following format: "\{lessonTitle\}-Exercise". 
     - If the **lesson doesn't exist**, **add** the lesson **in the end** of the course schedule, **followed by the exercise**.
 
 Each time you **Swap or Remove a lesson,** you should **do the same with the exercises**, if there are any, which follow the lessons.
