@@ -29,7 +29,7 @@ If both players’ cards **have the same values** - no one wins, and the two car
 
 The **game is over**, when one of the decks is left **without any cards**. 
 
-You have to **print the winner on the console** and **the sum of the left** cards: "Player \{one/two\} wins! Sum: \{sum\}".
+You have to **print the winner on the console** and **the sum of the left** cards: "\{First/Second\} player wins! Sum: \{sum\}".
 
 ### Example
 | **Input** | **Output** |
