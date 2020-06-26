@@ -1,3 +1,15 @@
+# Problem: ForceBook
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="432755971"  default /]
+[stream language="RO" videoId="432484014" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: ForceBook
 [code-task title="ForceBook" taskId="60f54c1d-a90e-4a09-99e7-30252e90a1f8" executionType="tests-execution" executionStrategy="python-code" requiresInput]

@@ -1,3 +1,15 @@
+# Problem: Parking
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="432755762"  default /]
+[stream language="RO" videoId="432484143" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Parking
 [code-task title="Parking" taskId="5613b44c-9ba0-4579-8e4e-0cb469b1c63f" executionType="tests-execution" executionStrategy="python-code" requiresInput]

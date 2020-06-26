@@ -1,3 +1,15 @@
+# Problem: Student Academy
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="432755887"  default /]
+[stream language="RO" videoId="432484215" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Student Academy
 [code-task title="Student Academy" taskId="c3412463-4235-4d89-8cc9-6a371f873ae3" executionType="tests-execution" executionStrategy="python-code" requiresInput]

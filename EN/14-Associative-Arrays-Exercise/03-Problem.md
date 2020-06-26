@@ -1,3 +1,15 @@
+# Problem: Legendary Farming
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="432755615"  default /]
+[stream language="RO" videoId="432484072" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Legendary Farming
 [code-task title="Legendary Farming" taskId="f403b513-0610-4f22-8ef1-6d85ae6a6443" executionType="tests-execution" executionStrategy="python-code" requiresInput]
