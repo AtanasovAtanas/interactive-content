@@ -44,7 +44,7 @@ for (int number : numbers) {
     System.out.print(number + " ");
 }
 ```
-- Sorting `Integer []` in descending order using `Arrays.sort()` and `Collections.sort()`
+- Sorting `Integer []` in descending order using `Arrays.sort()` and `Collections.reverse()`
 ```java live
 Integer[] numbers = new Integer[]{4, 3, 6, 5, 1, 2};
 
@@ -62,9 +62,7 @@ Let's explain what does the code above:
 
 - We use `Arrays.sort()` to sort the array in **ascending** order
 
-- There is no direct method to reverse the Array, so we convert the Array in List using Arrays.asList() - method, pay attention that this 
-
-method **doesn't work** with **primitive data types like int, double, char, boolean, etc.**
+- There is no direct method to reverse the Array, so we convert the Array in List using `Arrays.asList()` - method, pay attention that this method **doesn't work** with **primitive data types like int, double, char, boolean, etc.**
 
 
 [/slide]
