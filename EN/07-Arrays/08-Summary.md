@@ -10,7 +10,7 @@
 - Accessing array elements by index
 - Reading arrays from the console
 - Printing array elements
-- Foreach loop
+- For-each loop
 
 
 
