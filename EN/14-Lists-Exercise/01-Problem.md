@@ -1,3 +1,14 @@
+# Problem: Train
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421823138" default /]
+[stream language="RO" videoId="432473499"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Train
 [code-task title="Train" taskId="java-fund-14-Lists-Exercise-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]

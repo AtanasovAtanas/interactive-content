@@ -1,3 +1,14 @@
+# Problem: Bomb Numbers
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421819141" default /]
+[stream language="RO" videoId="432473311"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Bomb Numbers
 [code-task title="Bomb Numbers" taskId="java-fund-14-Lists-Exercise-problem-5" executionType="tests-execution" executionStrategy="java-code" requiresInput]

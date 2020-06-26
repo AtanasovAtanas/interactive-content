@@ -1,3 +1,14 @@
+# Problem: House Party
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421820479" default /]
+[stream language="RO" videoId="432473385"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: House Party
 [code-task title="House Party" taskId="java-fund-14-Lists-Exercise-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]

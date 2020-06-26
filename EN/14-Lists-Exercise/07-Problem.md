@@ -1,3 +1,14 @@
+# Problem: Append Arrays
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421818862" default /]
+[stream language="RO" videoId="432473568"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Append Arrays
 [code-task title="Append Arrays" taskId="java-fund-14-Lists-Exercise-problem-7" executionType="tests-execution" executionStrategy="java-code" requiresInput]

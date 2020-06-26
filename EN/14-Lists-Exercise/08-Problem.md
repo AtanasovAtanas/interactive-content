@@ -1,3 +1,14 @@
+# Problem: Pokemon Don't Go
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421821869" default /]
+[stream language="RO" videoId="432473432"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Pokemon Don't Go
 [code-task title="Pokemon Don't Go" taskId="java-fund-14-Lists-Exercise-problem-8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
