@@ -42,7 +42,7 @@ You have to **print the winner on the console** and **the sum of the left** card
 First player wins! Sum: 240
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 10 20 30 40 50
 50 40 30 30 10
