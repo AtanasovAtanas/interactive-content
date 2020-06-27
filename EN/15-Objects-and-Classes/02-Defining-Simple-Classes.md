@@ -1,3 +1,5 @@
+# Defining Simple Classes
+
 [slide]
 # Video
 
