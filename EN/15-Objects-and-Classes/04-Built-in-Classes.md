@@ -1,4 +1,14 @@
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="3354" endTimeInSeconds="5995"]
+[stream language="EN" videoId="421789645" default /]
+[stream language="RO" videoId="431758884"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Built-in Classes
 
 Java provides **ready-to-use** classes, which are organized inside **Packages**. These classes provide predefined methods and fields that help to save time and effort in writing code and repeating it.

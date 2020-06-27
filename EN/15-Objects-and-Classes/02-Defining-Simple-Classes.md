@@ -1,4 +1,14 @@
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="5996" endTimeInSeconds="11707"]
+[stream language="EN" videoId="421789645" default /]
+[stream language="RO" videoId="431758884"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Defining Simple Classes
 
 When defining class, it contains only those components of a class declaration that are required.

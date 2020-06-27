@@ -1,4 +1,14 @@
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="125" endTimeInSeconds="2302"]
+[stream language="EN" videoId="421789645" default /]
+[stream language="RO" videoId="431758884"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Objects
 
 An object is **basic unit** and an **instance of a class**.

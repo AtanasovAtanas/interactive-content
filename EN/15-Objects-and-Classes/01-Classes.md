@@ -1,4 +1,14 @@
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="2302" endTimeInSeconds="3040"]
+[stream language="EN" videoId="421789645" default /]
+[stream language="RO" videoId="431758884"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Classes
 
 Classes and objects are the **two main aspects** of object-orientated programming. 
