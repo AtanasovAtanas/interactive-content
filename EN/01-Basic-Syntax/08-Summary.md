@@ -3,7 +3,7 @@
 # Summary
 
 
-# In this lesson you learnt about:
+# In this lesson you learnt:
 
   - Declaring Variables
 
@@ -15,7 +15,7 @@
 
   - Using the debugger
 
-# In the next lesson, you will learn about:
+# In the next lesson, you will learn:
 
   - Data Types and Variables
 
