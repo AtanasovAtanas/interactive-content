@@ -308,7 +308,12 @@ As we can see, the result is a **dictionary** with **keys** holding the **name o
 [/code-editor]
 [task-description]
 ## Description
-Using **dictionary comprehension** write a program that receives **countries** on the first line separated by **comma and space** ", " and their corresponding **capital cities** on the second line (again separated by **comma and space** ", ") and **prints each country** with their **capital** on a **separate line** in the format: "\{country\} -> \{capital\}".
+Using **dictionary comprehension** write a program that receives:
+
+ - **countries** on the first line separated by **comma and space** ", "
+ - and their corresponding **capital cities** on the second line (again separated by **comma and space** ", ").
+ 
+It should **print each country** with their **capital** on a **separate line** in the format: "\{country\} -> \{capital\}".
 
 ## Examples
 | **Input** | **Output** |
@@ -413,7 +418,12 @@ capitals = input().split(', ')
 [/code-editor]
 [task-description]
 ## Description
-Using **dictionary comprehension** write a program that receives **countries** on the first line separated by **comma and space** ", " and their corresponding **capital cities** on the second line (again separated by **comma and space** ", ") and **prints each country** with their **capital** on a **separate line** in the format: "\{country\} -> \{capital\}".
+Using **dictionary comprehension** write a program that receives:
+
+ - **countries** on the first line separated by **comma and space** ", "
+ - and their corresponding **capital cities** on the second line (again separated by **comma and space** ", ").
+ 
+It should **print each country** with their **capital** on a **separate line** in the format: "\{country\} -> \{capital\}".
 
 ## Examples
 | **Input** | **Output** |
