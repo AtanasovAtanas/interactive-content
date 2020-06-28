@@ -16,11 +16,11 @@
 
 # In the next lesson, you will learn:
 
-- Object Oriented Programming (OOP)
-- Classes
-- Objects
-- Class Attributes and Instance Methods
-
-
+- What is Dictionary in Python?
+- Keys and Values
+- Iterating Through Dictionaries
+- Existence in Dictionaries
+- Dictionary Methods
+- Sorting a Dictionary
 
 [/slide]
