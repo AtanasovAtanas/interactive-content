@@ -14,11 +14,14 @@
 
 # In the next lesson, you will learn about:
 
-- What Is Data Type?
-- Strings
-- Numbers
-- Booleans
-- Additional Data Types
+- List Definition and Usage
+- Storing Data
+- Creating Lists
+- Accessing Elements
+- List Manipulations
+- Looping through Lists
+- Searching in Lists
+
 
 
 [/slide]
