@@ -3,7 +3,7 @@
 # Summary
 
 
-# In this lesson you learnt about:
+# In this lesson you learnt:
 
 - Few, but robust data types
 - Reading from / Printing to the Console
@@ -12,7 +12,7 @@
   - `range()` function
 
 
-# In the next lesson, you will learn about:
+# In the next lesson, you will learn:
 
 - List Definition and Usage
 - Storing Data
