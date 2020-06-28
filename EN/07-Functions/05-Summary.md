@@ -3,7 +3,7 @@
 # Summary
 
 
-# In this lesson you learnt about:
+# In this lesson you learnt:
 
 - Functions - **block of code** that can be reused multiple times 
 - Functions consist of declaration and body
@@ -12,7 +12,7 @@
 
 
 
-# In the next lesson, you will learn about:
+# In the next lesson, you will learn:
 
 - List Methods
 - Advanced Methods
