@@ -2,7 +2,7 @@
 [slide]
 # Summary
 
-# In this lesson you learnt about:
+# In this lesson you learnt:
 
   - **HTML** - Markup language for describing web pages
     - HTML Tags
