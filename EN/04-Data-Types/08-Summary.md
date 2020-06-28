@@ -3,7 +3,7 @@
 # Summary
 
 
-# In this lesson you learnt about:
+# In this lesson you learnt:
 
   - Variables – store data
   - Numeral types: 
@@ -15,7 +15,7 @@
   - Type conversion: implicit and explicit
 
 
-# In the next lesson, you will learn about:
+# In the next lesson, you will learn:
 
   - Arrays
   - Reading Arrays from the Console
