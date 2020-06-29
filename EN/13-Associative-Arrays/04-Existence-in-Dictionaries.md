@@ -1,5 +1,13 @@
 # Existence in Dictionaries
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="4367" endTimeInSeconds="5823"]
+[stream language="EN" videoId="421723151" default /]
+[stream language="RO" videoId="432059499"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Check for Key Existence
 

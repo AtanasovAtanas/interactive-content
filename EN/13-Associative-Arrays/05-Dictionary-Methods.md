@@ -1,4 +1,13 @@
 # Dictionary Methods
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="5827" endTimeInSeconds="6100"]
+[stream language="EN" videoId="421723151" default /]
+[stream language="RO" videoId="432059499"  /]
+[/video-vimeo]
+
+[/slide]
 
 [slide]
 # clear()

@@ -1,6 +1,15 @@
 # Dictionary Definition
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="941" endTimeInSeconds="1967"]
+[stream language="EN" videoId="421723151" default /]
+[stream language="RO" videoId="432059499"  /]
+[/video-vimeo]
+
+[/slide]
+[slide]
 # Definition
 
 A dictionary is **unordered collection** of items.
