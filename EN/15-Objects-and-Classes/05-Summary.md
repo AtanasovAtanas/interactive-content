@@ -1,6 +1,5 @@
 # Summary
 
-
 [slide]
 # Video
 
@@ -43,4 +42,4 @@
 
 [tasks-results /]
 
-[/ slide]
+[/slide]

@@ -25,12 +25,4 @@
 
 [tasks-results /]
 
-[/ slide]
-
-
-[slide]
-# Lab Results
-
-[tasks-results /]
-
-[/ slide]
+[/slide]
