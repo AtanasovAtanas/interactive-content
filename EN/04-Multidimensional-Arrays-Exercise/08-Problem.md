@@ -1,6 +1,6 @@
 [slide]
-# Problem: The Heigan Dance
-[code-task title="Problem: The Heigan Dance" taskId="20bc5407-c957-4f8b-94d1-9aa365be70a2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Parking System
+[code-task title="Problem: Parking System" taskId="577fbe15-c817-4701-b2be-a889976e6158" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,428 +14,478 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-At last, level 80.
+Write a program for an automated parking system.
 
-And what do level eighties do? Go raiding.
+The parking lot is a **rectangular** matrix where the **first** column is **always** free and all other cells are parking spots. 
 
-This is where you are now – trying not to be wiped by the famous dance boss, Heigan the Unclean.
+A car can enter from **any cell** of the **first column** and then decides to go to a specific spot. 
 
-The fight is pretty straightforward - dance around the Plague Clouds and Eruptions, and you will be just fine.
+If that spot is **not** free, the car searches for the **closest** free spot on the **same** row. 
 
-Heigan's chamber is a 15-by-15 two-dimensional array. 
+If **all** the cells on that specific row are used, the car cannot park and leaves. 
 
-The player always starts at the **exact center**. 
+If **two** free cells are located at the **same** distance from the **initial** parking spot, the cell which is **closer** to the entrance is preferred. 
 
-For each turn, Heigan uses a spell that hits a certain cell and the neighboring **rows/columns**. 
+A car can **pass** through a used parking spot.
 
-For example, if he hits (1,1), he also hits (0,0, 0,1, 0,2, 1,0 ... 2,2). 
+Your task is to calculate the distance traveled by each car to its parking spot.
 
-If the player's current position is within the area of damage, the player tries to move. 
+Example: A car enters the parking at row 1. It wants to go to cell 2, 2 so it moves through **exactly four** cells to reach its parking spot.
 
-First, he tries to move **up**, if there is **damage/wall**, he tries to move **right** , then **down**, then **left**. 
-
-If he **can not move** in any direction, because **the cell is damaged** or there is **a wall**, the player **stays** in place and takes the damage.
-
-**Plague cloud** does 3500 damage **when it hits**, and 3500 damage **the next turn**. Then it **expires**. 
-
-**Eruption** does 6000 damage **when it hits.** 
-
-If a spell hits a player that also has an active Plague Cloud from the previous turn, the **cloud** damage is applied **first**. 
-
-**Both** Heigan and the player **may** die in the same turn. 
-
-If Heigan is **dead** , the spell he **would** have cast is **ignored**.
-
-The player always starts at **18500** hit points; Heigan starts at **3,000,000** hit points. **Each** turn, the player does damage to Heigan. 
-
-The fight is over either when the player is **killed** , or Heigan is **defeated**.
+[image assetsSrc="parking-system.png"/]
 
 ## Input
 
-- On the first line you receive a floating-point number **D –** the damage done to Heigan each turn
-- On the next several lines – you receive input in format `{spell} {row} {col} – {spell}` is either **Cloud** or **Eruption**
+- On the first line of input, you are given the integers **R** and **C**, defining the dimensions of the parking lot
+- On the next several lines, you are given the integers **Z, X, Y** where **Z** is the entry row and **X, Y** are the coordinates of the desired parking spot
+- The input stops with the command **"stop"**. All integers are separated by a **single** space
 
 ## Output
 
-- On the first line
-  - If Heigan is defeated: **"Heigan: Defeated!"**
-  - Else: `Heigan: {remaining}`, where remaining is rounded to two digits after the decimal separator
-- On the second line:
-  - If the player is killed: `Player: Killed by {spell}`
-  - Else `Player: {remaining}`
-- On the third line: `Final position: {row, col}` -> the last coordinates of the player
+- For each car, print the distance traveled to the desired spot or the first free spot
+- If a car cannot park on its desired row, print the message `Row {row number} full`;
 
 ## Constraints
 
-- **D** is a floating-point number in the range [0 ... 500000]
-- A damaging spell will always affect at least one cell
-- Allowed memory: 16 MB
-- Allowed working time: 0.25s
+- 2 <= R,C <= 10000
+- Z, X, Y are inside the dimensions of the matrix. Y is never on the first column
+- There are no more than 1000 input lines
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 10000 | Heigan: 2960000.00 |
-| Cloud 7 7 | Player: Killed by Eruption |
-| Eruption 6 7 | Final position: 8, 7 |
-| Eruption 8 7 |  |
-| Eruption 8 7 |  |
-
-| **Input** | **Output** |
-| --- | --- |
-| 500000 | Heigan: Defeated! |
-| Cloud 7 6 | Player: 12500 |
-| Eruption 7 8 | Final position: 7, 11 |
-| Eruption 7 7 |  |
-| Cloud 7 8 |  |
-| Eruption 7 9 |  |
-| Eruption 6 14 |  |
-| Eruption 7 11 |  |
-
-| **Input** | **Output** |
-| --- | --- |
-| 12500.66 | Heigan: 2949997.36 |
-| Cloud 7 7 | Player: Killed by Plague Cloud |
-| Cloud 7 7 | Final position: 7, 7 |
-| Cloud 7 7 |  |
-| Cloud 7 7 |  |
+| 4 4 | 4 |
+| 1 2 2 | 2 |
+| 2 2 2 | 4 |
+| 2 2 2 | Row 2 full |
+| 3 2 2 |  |
+| stop |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-10000
-Cloud 7 7
-Eruption 6 7
-Eruption 8 7
-Eruption 8 7
+4 4
+1 2 2
+2 2 2
+2 2 2
+3 2 2
+stop
 [/input]
 [output]
-Heigan: 2960000.00
-Player: Killed by Eruption
-Final position: 8, 7
-[/output]
-[/test]
-[test open]
-[input]
-500000
-Cloud 7 6
-Eruption 7 8
-Eruption 7 7
-Cloud 7 8
-Eruption 7 9
-Eruption 6 14
-Eruption 7 11
-[/input]
-[output]
-Heigan: Defeated!
-Player: 12500
-Final position: 7, 11
-[/output]
-[/test]
-[test open]
-[input]
-12500.66
-Cloud 7 7
-Cloud 7 7
-Cloud 7 7
-Cloud 7 7
-[/input]
-[output]
-Heigan: 2949997.36
-Player: Killed by Plague Cloud
-Final position: 7, 7
+4
+2
+4
+Row 2 full
 [/output]
 [/test]
 [test]
 [input]
-123123.1
-Eruption 7 6
-Eruption 7 7
-Eruption 7 8
-Eruption 7 9
-Eruption 7 10
-Eruption 7 11
-Eruption 7 12
-Eruption 8 13
-Eruption 7 14
-Eruption 6 14
-Eruption 5 14
-Eruption 4 14
-Eruption 3 14
-Eruption 2 14
-Eruption 1 15
-Eruption 0 14
-Eruption 0 13
-Eruption 0 12
-Eruption 0 11
-Eruption 0 10
-Eruption 0 9
-Eruption 0 8
-Eruption 0 7
-Eruption 0 6
-Eruption 0 5
+2 2
+0 0 1
+0 1 1
+0 0 1
+0 1 1
+0 0 1
+0 1 1
+0 0 1
+0 1 1
+stop
 [/input]
 [output]
-Heigan: Defeated!
-Player: 18500
-Final position: 0, 4
+2
+3
+Row 0 full
+Row 1 full
+Row 0 full
+Row 1 full
+Row 0 full
+Row 1 full
 [/output]
 [/test]
 [test]
 [input]
-0.5
-Cloud 7 8
-Cloud 7 7
-Cloud 7 6
-Cloud 7 4
-Cloud 7 4
-Cloud 7 4
-Eruption 7 4
+2 10
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+stop
 [/input]
 [output]
-Heigan: 2999996.50
-Player: Killed by Plague Cloud
-Final position: 7, 4
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Row 0 full
 [/output]
 [/test]
 [test]
 [input]
-0.5
-Cloud 7 8
-Cloud 7 7
-Cloud 7 6
-Cloud 7 4
-Cloud 7 4
-Eruption 7 4
+2 10
+0 0 5
+0 0 5
+0 0 4
+0 0 3
+0 0 2
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+0 0 1
+stop
 [/input]
 [output]
-Heigan: 2999997.00
-Player: Killed by Eruption
-Final position: 7, 4
+6
+5
+4
+3
+2
+7
+8
+9
+10
+Row 0 full
 [/output]
 [/test]
 [test]
 [input]
-0.59
-Cloud 7 8
-Cloud 7 7
-Cloud 7 6
-Cloud 7 5
-Eruption 7 4
-Eruption 7 3
-Eruption 7 2
-Eruption 7 1
-Cloud 7 1
-Cloud 7 1
-Eruption 7 1
+10 10
+5 7 6
+4 2 2
+0 9 9
+1 8 8
+5 4 2
+9 0 9
+8 0 1
+7 9 9
+6 6 6
+3 3 7
+2 8 8
+2 8 7
+2 8 6
+stop
 [/input]
 [output]
-Heigan: 2999993.51
-Player: Killed by Plague Cloud
-Final position: 7, 0
+9
+5
+19
+16
+4
+19
+10
+11
+7
+8
+14
+13
+12
 [/output]
 [/test]
 [test]
 [input]
-250000.15
-Eruption 14 14
-Eruption 6 7
-Eruption 7 7
-Cloud 8 7
-Cloud 10 6
-Cloud 10 7
-Eruption 10 10
-Eruption 10 9
-Eruption 10 8
-Eruption 10 7
-Cloud 10 5
-Cloud 10 4
+10000 10000
+6788 1283 9898
+1983 1231 9898
+1287 127 1273
+768 188 8182
+1298 1249 1290
+2989 1290 1230
+1093 3123 1233
+1209 2309 13
+9888 1238 1212
+8888 11 11
+0 9999 9999
+6787 1283 9898
+1983 1221 9898
+1287 127 1278
+768 188 8182
+1298 1409 1299
+2988 1293 1290
+1092 3123 1233
+1209 2309 213
+9898 1238 1232
+8888 11 11
+0 9999 9999
+6788 1283 9888
+1983 1231 9898
+1287 127 1278
+768 188 8182
+1298 1240 1290
+2989 1930 1930
+1023 3123 1233
+1209 2309 23
+9988 1238 1231
+8888 11 11
+0 9999 9999
+6787 1287 9988
+1983 1231 9898
+1287 127 1278
+768 188 8182
+1298 1249 1290
+2898 1290 1290
+1023 3123 1233
+1209 2309 124
+9898 1238 1231
+8888 11 11
+0 9999 9999
+stop
 [/input]
 [output]
-Heigan: Defeated!
-Player: 11500
-Final position: 10, 5
+15404
+10651
+2434
+8763
+1340
+2930
+3264
+1114
+9863
+8889
+19999
+15402
+10661
+2439
+8762
+1411
+2986
+3264
+1314
+9893
+8888
+19998
+15394
+10650
+2438
+8764
+1349
+2990
+3335
+1124
+9982
+8890
+19997
+15489
+10652
+2440
+8761
+1339
+2899
+3332
+1225
+9891
+8887
+19996
 [/output]
 [/test]
 [test]
 [input]
-123.12
-Eruption 10 10
-Cloud 8 6
-Cloud 11 8
-Cloud 7 7
-Eruption 6 7
-Eruption 5 7
-Eruption 3 7
-Eruption 3 7
-Eruption 3 7
-Eruption 3 7
-Cloud 3 7
-Cloud 3 7
+11 11
+0 0 1
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+6 6 6
+7 7 7
+8 8 8
+9 9 9
+10 10 10
+stop
 [/input]
 [output]
-Heigan: 2998768.80
-Player: Killed by Eruption
-Final position: 3, 7
+2
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
 [/output]
 [/test]
 [test]
 [input]
-498781.84
-Eruption 6 8
-Eruption 7 7
-Eruption 8 7
-Eruption 9 7
-Eruption 10 7
-Cloud 12 7
-Eruption 12 7
+10 2
+0 0 1
+0 0 1
+0 1 1
+0 1 1
+0 2 1
+0 2 1
+0 3 1
+0 3 1
+0 4 1
+0 4 1
+0 5 1
+0 5 1
+0 6 1
+0 6 1
+0 7 1
+0 7 1
+0 8 1
+0 8 1
+0 9 1
+0 9 1
+stop
 [/input]
 [output]
-Heigan: Defeated!
-Player: 11500
-Final position: 12, 7
+2
+Row 0 full
+3
+Row 1 full
+4
+Row 2 full
+5
+Row 3 full
+6
+Row 4 full
+7
+Row 5 full
+8
+Row 6 full
+9
+Row 7 full
+10
+Row 8 full
+11
+Row 9 full
 [/output]
 [/test]
 [test]
 [input]
-10298.08
-Cloud 8 8
-Cloud 7 7
-Cloud 6 7
-Cloud 5 7
-Cloud 4 7
-Cloud 3 7
-Cloud 1 7
-Cloud 2 7
-Cloud 1 7
-Cloud 1 7
-Eruption 1 7
+5 5
+4 0 4
+4 0 3
+4 0 2
+4 0 1
+3 1 4
+3 1 3
+3 1 2
+3 1 1
+2 2 4
+2 2 3
+2 2 2
+2 2 1
+1 3 4
+1 3 3
+1 3 2
+1 3 1
+0 4 4
+0 4 3
+0 4 2
+0 4 1
+stop
 [/input]
 [output]
-Heigan: 2886721.12
-Player: Killed by Plague Cloud
-Final position: 0, 7
+9
+8
+7
+6
+7
+6
+5
+4
+5
+4
+3
+2
+7
+6
+5
+4
+9
+8
+7
+6
 [/output]
 [/test]
 [test]
 [input]
-111111.111
-Cloud 1 1
-Cloud 0 5
-Cloud 7 6
-Eruption 7 1
-Cloud 1 1
-Cloud 0 5
-Cloud 7 6
-Eruption 7 1
-Cloud 1 1
-Cloud 0 5
-Cloud 7 6
-Eruption 7 1
-Cloud 1 1
-Cloud 0 5
-Cloud 7 6
-Eruption 7 1
-Cloud 1 1
-Cloud 0 5
-Cloud 7 6
-Eruption 7 1
-Cloud 1 1
-Cloud 0 5
-Cloud 7 6
-Eruption 7 1
-Cloud 1 1
-Cloud 0 5
-Cloud 7 8
-Eruption 7 1
-Cloud 1 1
-Cloud 0 5
-Cloud 7 6
-Eruption 7 1
-Cloud 1 1
-Cloud 0 5
-Cloud 7 6
-Eruption 7 1
-Cloud 1 1
-Cloud 0 5
-Cloud 7 6
-Eruption 7 1
-Cloud 1 1
-Cloud 0 5
-Cloud 7 6
-Eruption 7 1
+10000 10000
+0 9999 9999
+9999 0 9999
+stop
 [/input]
 [output]
-Heigan: Defeated!
-Player: 11500
-Final position: 7, 8
+19999
+19999
 [/output]
 [/test]
 [test]
 [input]
-54789.01
-Cloud 7 8
-Cloud 7 7
-Cloud 7 6
-Cloud 7 5
-Cloud 7 4
-Cloud 7 3
-Cloud 7 2
-Cloud 8 1
-Cloud 7 0
-Cloud 6 0
-Cloud 5 0
-Cloud 4 0
-Cloud 3 0
-Cloud 2 0
-Cloud 0 -1
-Cloud 0 0
-Cloud 0 1
-Cloud 0 2
-Cloud 0 3
-Cloud 0 4
-Cloud 0 5
-Cloud 0 6
-Cloud 0 7
-Cloud 0 7
-Cloud 0 7
-Cloud 0 7
-Cloud 0 7
-Eruption 0 7
-Cloud 0 7
-Cloud 0 7
-Cloud 0 7
-Eruption 0 7
-Cloud 0 7
-Cloud 0 7
-Cloud 0 7
-Eruption 0 7
-Cloud 0 7
-Cloud 0 7
-Cloud 0 7
-Eruption 0 7
-Cloud 0 7
-Cloud 0 7
-Cloud 0 7
-Eruption 0 7
-Cloud 0 7
-Cloud 0 7
-Cloud 0 7
-Eruption 0 7
-Cloud 0 7
-Cloud 0 7
-Eruption 0 7
-Eruption 0 9
-Eruption 0 9
-Cloud 0 9
-Eruption 0 9
+50 50
+16 12 12
+42 42 24
+42 42 42
+42 42 42
+42 42 43
+42 42 42
+42 42 42
+42 24 24
+42 42 24
+42 42 42
+42 42 42
+42 42 43
+42 42 42
+42 42 42
+42 42 24
+42 42 42
+42 42 42
+42 42 43
+42 42 42
+42 42 42
+42 42 24
+42 42 42
+42 42 42
+42 42 43
+42 42 42
+42 42 42
+stop
 [/input]
 [output]
-Heigan: Defeated!
-Player: Killed by Plague Cloud
-Final position: 0, 9
+17
+25
+43
+42
+44
+41
+45
+43
+24
+40
+46
+47
+39
+38
+26
+48
+37
+49
+36
+50
+23
+35
+34
+33
+32
+31
 [/output]
 [/test]
 [/tests]
