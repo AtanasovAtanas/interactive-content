@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a list of words from the file ( **input.txt** from the Resources - Folder) and finds the count of **vowels** , **consonants** and **punctuation** marks.
+Write a program that reads a list of words from the file ( **input.txt** from the Resources - Folder) and finds the count of **vowels**, **consonants**, and **punctuation** marks.
 
 Assume that:
 

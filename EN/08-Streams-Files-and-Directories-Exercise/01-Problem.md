@@ -26,8 +26,6 @@ Download the resources folder [here](https://mega.nz/file/nIwjSaKQ#KQpc5igeWhk70
 
 For each exercise submit only the **output** of your program, **not the code**.
 
-
-
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
