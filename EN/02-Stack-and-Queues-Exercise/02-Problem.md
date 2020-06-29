@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-You will be given an integer **N** representing the **number of elements to push onto the stack** , an integer **S** representing the **number of elements to pop from the stack** and finally an integer **X** , an element **that you should check whether is present in the stack**.
+You will be given an integer **N** representing the **number of elements to push onto the stack**, an integer **S** representing the **number of elements to pop from the stack** and finally an integer **X** , an element **that you should check whether is present in the stack**.
 
 If it is, print **true** on the console.
 
