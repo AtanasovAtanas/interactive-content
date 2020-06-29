@@ -1,6 +1,16 @@
 # Object Oriented Programming
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="958" endTimeInSeconds="2613"]
+[stream language="EN" videoId="421734086" default /]
+[stream language="RO" videoId="433520198" /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Definition
 
 **Object Oriented Programming** (OOP) is a programming paradigm.

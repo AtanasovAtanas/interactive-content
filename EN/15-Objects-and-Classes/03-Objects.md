@@ -1,5 +1,13 @@
 # Objects
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="4344" endTimeInSeconds="5050"]
+[stream language="EN" videoId="421734086" default /]
+[stream language="RO" videoId="433520198" /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Definition
 

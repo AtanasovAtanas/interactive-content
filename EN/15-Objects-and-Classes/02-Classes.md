@@ -1,4 +1,13 @@
 # Classes
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="2614" endTimeInSeconds="3419"]
+[stream language="EN" videoId="421734086" default /]
+[stream language="RO" videoId="433520198" /]
+[/video-vimeo]
+
+[/slide]
 
 [slide]
 # Definition

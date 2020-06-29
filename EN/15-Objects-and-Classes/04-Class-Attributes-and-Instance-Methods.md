@@ -1,5 +1,13 @@
 # Class Attributes and Instance Methods
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="5056" endTimeInSeconds="8422"]
+[stream language="EN" videoId="421734086" default /]
+[stream language="RO" videoId="433520198" /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Class Attributes
 
