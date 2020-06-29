@@ -1,5 +1,13 @@
 # Additional List Manipulations
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="7687" endTimeInSeconds="7694"]
+[stream language="EN" videoId="421684914" default /]
+[stream language="RO" videoId="429679723"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Swapping List Elements
 

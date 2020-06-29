@@ -1,5 +1,13 @@
 # Advanced Methods
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="5782" endTimeInSeconds="7686"]
+[stream language="EN" videoId="421684914" default /]
+[stream language="RO" videoId="429679723"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Lambda Basics
 

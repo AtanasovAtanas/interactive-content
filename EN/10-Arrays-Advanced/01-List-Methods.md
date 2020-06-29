@@ -1,4 +1,13 @@
 # List Methods
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="974" endTimeInSeconds="5782"]
+[stream language="EN" videoId="421684914" default /]
+[stream language="RO" videoId="429679723"  /]
+[/video-vimeo]
+
+[/slide]
 
 [slide]
 # Adding Elements
