@@ -23,3 +23,11 @@
 - List Comprehension
 - Dictionary Comprehension
 [/slide]
+
+
+[slide]
+# Lab Results
+
+[tasks-results /]
+
+[/slide]
