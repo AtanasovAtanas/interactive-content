@@ -5,16 +5,16 @@
 # Video
 
 [vimeo-video startTimeInSeconds="11707" endTimeInSeconds="11824"]
-[stream language="EN" videoId="421789645/bd32f7e6c7" default /]
-[stream language="RO" videoId="385455039/c211b09211"  /]
+[stream language="EN" videoId="421789645" default /]
+[stream language="RO" videoId="433520664"  /]
 [/video-vimeo]
 
 [/slide]
+
 [slide]
 # Summary
 
-
-# In this lesson you learnt:
+## In this lesson you learnt:
 
 - Classes define templates for object 
     - Fields
@@ -24,9 +24,7 @@
 - Objects hold a set of named values
     - Instance of a class
 
-
-
-# In the next lesson, you will learn:
+## In the next lesson, you will learn:
 
 - Associative Arrays - Maps
     - `HashMap <key, value>`
@@ -37,7 +35,4 @@
     - Filtering
     - Mapping
     - Ordering
-
-
-
 [/slide]
