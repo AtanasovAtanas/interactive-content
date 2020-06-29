@@ -1,3 +1,14 @@
+# Numerals Systems
+
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="427" endTimeInSeconds="1839"]
+[stream language="EN" videoId="426199411" default /]
+[stream language="RO" videoId="426200319"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Numerals Systems
 

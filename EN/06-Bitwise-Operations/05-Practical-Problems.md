@@ -1,4 +1,13 @@
 # Practical Problems
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="4257" endTimeInSeconds="4334"]
+[stream language="EN" videoId="426199411" default /]
+[stream language="RO" videoId="426200319"  /]
+[/video-vimeo]
+
+[/slide]
 
 [slide hideTitle]
 # Problem: Binary Digits Count
