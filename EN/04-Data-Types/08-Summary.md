@@ -1,10 +1,7 @@
-
 [slide]
 # Summary
 
-
-# In this lesson you learnt:
-
+## In this lesson you learnt:
   - Variables – store data
   - Numeral types: 
     - Represent numbers
@@ -14,14 +11,17 @@
     - Sequences of Unicode characters
   - Type conversion: implicit and explicit
 
-
-# In the next lesson, you will learn:
-
+## In the next lesson, you will learn:
   - Arrays
   - Reading Arrays from the Console
     - `For Loop` and `String.split()`
   - Printing Arrays on the Console
   - Foreach Loop
+[/slide]
 
+[slide]
+# Lab Results
+
+[tasks-results/]
 
 [/slide]
