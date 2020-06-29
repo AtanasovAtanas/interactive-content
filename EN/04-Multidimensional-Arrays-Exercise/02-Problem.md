@@ -14,17 +14,17 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program to generate the following **matrix of palindromes** of **3** letters with **r** rows and **c** columns like the one in the examples below.
+Write a program to generate the following **matrix of palindromes**. There must be a palindrome of **3 letters** on each position. Each palindrome has **the same first and last** letter. The **middle letter** of the palindrome changes **in every column**. **Rows** define **the first and the last** letter. **Columns** define **the middle** letter.
 
-- **Rows** define the first and the last letter: row 0 -> 'a', row 1 ->'b', row 2 ->'c', ...
-- **Columns + rows** define the middle letter:
-  - column 0, row 0 -> 'a', column 1, row 0 -> 'b', column 2, row 0 -> 'c', ...
-  - column 0, row 1 -> 'b', column 1, row 1 -> 'c', column 2, row 1 -> 'd', ...
+For example:
+- On `row 0` the palindromes start and end with **"a"**,  on `row 1` -> **"b"**, on `row 2` -> **"c"** ...
+- On `row 0 column 0` the middle letter is **"a"**, on `row 0 column 1` -> **"b"**, on `row 0 column 2` -> **"c"** ...
+- On `row 1 column 0` the middle letter is **"b"**, on `row 1 column 1` -> **"c"**, on `row 1 column 2` -> **"d"** ... 
 
 ## Input
 
 - The numbers **r** and **c** stay at the first line at the input.
-- **r** and **c** are integers in the range \[1 ... 26\].
+- **r** and **c** are integers in the range [1 ... 26].
 - **r** + **c** <= 27
 
 ## Examples

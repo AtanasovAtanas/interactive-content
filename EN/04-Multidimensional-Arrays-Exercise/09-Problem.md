@@ -14,13 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-The parking lot in front of SoftUni is one of the busiest in the country, and it is a common cause for conflicts between the doorkeeper Bai Tzetzo and the students.
-
-The SoftUni team wants to proactively resolve all conflicts, so an automated parking system should be implemented.
-
-They are organizing a competition – Parkoniada – and the author of the best parking system will win a romantic dinner with RoYaL.
-
-That is **exactly** what you have been dreaming of, so you decide to join in.
+Write a program for an automated parking system.
 
 The parking lot is a **rectangular** matrix where the **first** column is **always** free and all other cells are parking spots. 
 
@@ -56,7 +50,6 @@ Example: A car enters the parking at row 1. It wants to go to cell 2, 2 so it mo
 - 2 <= R,C <= 10000
 - Z, X, Y are inside the dimensions of the matrix. Y is never on the first column
 - There are no more than 1000 input lines
-- Allowed time/space: 0.1s/16MB
 
 ## Examples
 | **Input** | **Output** |

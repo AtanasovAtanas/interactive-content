@@ -34,7 +34,7 @@ The output should consist of R lines, each consisting of exactly C characters, s
 
 ## Constraints
 
-All the integers will be in the range **[1 ... 1000]**
+All the integers will be in the range [1 ... 1000]
 
 ## Examples
 | **Input** | **Output** |

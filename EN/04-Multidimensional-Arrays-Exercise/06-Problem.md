@@ -42,10 +42,10 @@ Print at the console the **rotated matrix** as a sequence of text lines.
 
 ## Constraints
 
-- The rotation **degrees** is positive integer in the range [0…90000], where **degrees** is **multiple of 90**.
-- The number of matrix lines is in the range [1 ... **1 000**].
-- The matrix lines are **strings** of length 1 ... 1 000.
-- Allowed working time: 0.2 seconds. Allowed memory: 16 MB.
+- The rotation **degrees** is positive integer in the range [0 ... 90000], where **degrees** is **multiple of 90**.
+- The number of matrix lines is in the range [1 ... 1 000].
+- The matrix lines are **strings** of length [1 ... 1 000].
+
 
 ## Examples
 | **Input** | **Output** |
