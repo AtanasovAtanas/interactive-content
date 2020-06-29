@@ -25,12 +25,12 @@ Implement an **algorithm that converts** the mathematical expression **from infi
 ## Input
 
 - You will **receive an expression on a single line, consisting of tokens**
-- Tokens could be numbers 0-9, variables a-z, operators +, -, \*, / and brackets ( or )
+- Tokens could be numbers 0-9, variables a-z, operators +, -, \*, /, and brackets ( or )
 - Each token is **separated by exactly one space**
 
 ## Output
 
-- The **output should be on a single line** , consisting of **tokens** , **separated by exactly one space**.
+- The **output should be on a single line**, consisting of **tokens**, **separated by exactly one space**.
 
 ## Examples
 | **Input** | **Output** |
