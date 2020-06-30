@@ -1,5 +1,13 @@
 # HTTP Dev Tools
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="1044" endTimeInSeconds="1515"]
+[stream language="EN" videoId="429002366" default /]
+[stream language="RO" videoId="429006590"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 
 # HTTP Developer Tools: Network Inspector

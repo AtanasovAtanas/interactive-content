@@ -1,5 +1,13 @@
 # HTTP Response
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="3278" endTimeInSeconds="4465"]
+[stream language="EN" videoId="429002366" default /]
+[stream language="RO" videoId="429006590"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # HTTP Response – Example
 

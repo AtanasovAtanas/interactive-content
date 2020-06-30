@@ -1,5 +1,13 @@
 # HTTP Request
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="2443" endTimeInSeconds="3277"]
+[stream language="EN" videoId="429002366" default /]
+[stream language="RO" videoId="429006590"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # HTTP Request Methods
 

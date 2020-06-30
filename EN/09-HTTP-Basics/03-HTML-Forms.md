@@ -1,5 +1,13 @@
 # HTML Forms
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="1516" endTimeInSeconds="2442"]
+[stream language="EN" videoId="429002366" default /]
+[stream language="RO" videoId="429006590"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # HTML Forms: Action
 
