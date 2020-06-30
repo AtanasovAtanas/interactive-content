@@ -1,5 +1,14 @@
 # Introduction to CSS
+# HTML Common Elements
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="2593" endTimeInSeconds="5191"]
+[stream language="EN" videoId="424672446" default /]
+[stream language="RO" videoId="424672683" /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # What is CSS?
 **Cascading Style Sheets** (**CSS**) is a stylesheet language used to describe the **presentation of a document written in HTML**.
