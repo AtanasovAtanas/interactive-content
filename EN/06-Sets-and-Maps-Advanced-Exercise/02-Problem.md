@@ -18,7 +18,7 @@ On the first line, you are given **the length of two sets n and m**.
 
 On the **next n + m** lines, there are **n numbers that are in the first set** and **m numbers that are in the second**.
 
-Find all **non-repeating element** that appears in **both** of them, and print them in **the same order** at the console:
+Find all **non-repeating elements** that appears in **both** of them, and print them in **the same order** at the console:
 
 Set with length n = 4: {1, **3** , **5** , 7}
 

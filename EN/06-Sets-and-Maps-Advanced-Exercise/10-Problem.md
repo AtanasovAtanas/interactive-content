@@ -49,7 +49,7 @@ Follow the output **format strictly**!
 
 ## Constraints
 
-- The name of the city, country and the population count will be separated from each other by **a pipe ('|')**.
+- The name of the city, country and the population count will be separated from each other by **a pipe "|"**.
 - The **number of input lines** will be in the range [2 ... 50].
 - A city-country pair will not be repeated.
 - The **population count** of each city will be an integer in the range [0 ... 2 000 000 000].
@@ -59,9 +59,8 @@ Follow the output **format strictly**!
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Sofia|Bulgaria|1000000 | Bulgaria (total population: 1000000) |
+| Sofia\|Bulgaria\|1000000 | Bulgaria (total population: 1000000) |
 | report | =>Sofia: 1000000 |
-|  |  |
 
 | **Input** | **Output** |
 | --- | --- |

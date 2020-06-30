@@ -71,7 +71,7 @@ Two dragons are considered **equal** if they match by **both** name and type.
 `{Type}::({damage}/{health}/{armor})`
 
 - Damage, health and armor should be rounded to two digits after the decimal separator
-- For each dragon, print its stats in format **-{Name} -\> damage: {damage}, health: {health}, armor: {armor}**
+- For each dragon, print its stats in format `-{Name} -> damage: {damage}, health: {health}, armor: {armor}`
 
 ### Constraints
 
