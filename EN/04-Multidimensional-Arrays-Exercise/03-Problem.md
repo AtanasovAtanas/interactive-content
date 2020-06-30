@@ -25,7 +25,7 @@ Write a program that finds the **difference between the sums of the square matri
 
 ## Hints
 
-- Use a **single** loop **i = [ 1 ... n ]** to sum the diagonals.
+- Use a **single** loop i = [1 ... n] to sum the diagonals.
 
 - The **primary diagonal** holds all cells { **row** , **col** } where **row** == **col** == **i**.
 - The **secondary diagonal** holds all cells { **row** , **col** } where **row** == **i** and **col** == **n - 1 - i**.
