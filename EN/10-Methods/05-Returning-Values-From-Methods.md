@@ -1,5 +1,13 @@
 # Returning Values From Methods
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="4537" endTimeInSeconds="5783"]
+[stream language="EN" videoId="421775938" default /]
+[stream language="RO" videoId="429688382" /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # The Return Statement
 

@@ -1,5 +1,13 @@
 # Methods with Parameters
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="2556" endTimeInSeconds="3633"]
+[stream language="EN" videoId="421775938" default /]
+[stream language="RO" videoId="429688382" /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Method Parameters
 Information can be **passed** to methods as a parameter. 

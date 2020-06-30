@@ -1,5 +1,13 @@
 # Overloading Methods
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="7460" endTimeInSeconds="9014"]
+[stream language="EN" videoId="421775938" default /]
+[stream language="RO" videoId="429688382" /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Method Signature
 
