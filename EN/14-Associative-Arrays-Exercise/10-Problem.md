@@ -1,5 +1,5 @@
 [slide hideTitle]
-# Problem: SoftUni Course Planning
+# Problem: SoftUni Exam Results
 [code-task title="SoftUni Course Planning" taskId="80451b23-e2af-4bb3-875a-0301908baf1d" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
@@ -8,26 +8,29 @@
 [/code-editor]
 [task-description]
 ## Description
-You are tasked to help planning a course by keeping track of the **lessons**, that are going to be included in the course, as well as all the **exercises** for the lessons.
+Judge statistics on the last Programing Fundamentals exam was not working correctly, so you have the task to take all the submissions and analyze them properly.
 
-On the **first input line** you will receive the **initial schedule of lessons and exercises** that are going to be part of the next course, **separated by comma and space** ", ". 
+You should collect all the submissions and print the final results and statistics about each language that the participants submitted their solutions in.
 
-But before the course starts, there are some changes to be made. 
+You will be receiving lines in the following format: "\{username\}-\{language\}-\{points\}" until you receive "exam finished".
 
-Until you receive "course start" you will be given some commands to modify the course schedule. 
+You should store each username and their submissions and points. 
 
-The **possible commands** are: 
+You can receive a command to ban a user for cheating in the following format: "\{username\}-banned".
 
-- Add:\{lessonTitle\} - **add the lesson to the end of the schedule**, if it does **not exist**
-- Insert:\{lessonTitle\}:\{index\} - **insert the lesson to the given index**, if it does **not exist**
-- Remove:\{lessonTitle\} - **remove the lesson**, if it **exists**
-- Swap:\{lessonTitle\}:\{lessonTitle\} - **change the place of the two lessons**, if they **exist**
-- Exercise:\{lessonTitle\} - **add exercise in the schedule right after the lesson index**
-    - **if the lesson exists** and there is **no exercise already,** in the following format "\{lessonTitle\}-Exercise"
-    - **if the lesson doesn't exist**, **add the lesson** in the end of the course schedule, **followed by the exercise**
+In that case, you should remove the user from the contest, but preserve their submissions in the total count of submissions for each language.
 
-Each time you **swap or remove a lesson**, you should **do the same with the exercises**, if there are any, which follow the lessons.
+After receiving "exam finished" print each of the participants, ordered descending by their max points, then by username, in the following format:
 
+"Results:
+
+\{username\} \| \{points\}"
+
+After that print each language, used in the exam, ordered descending by total submission count and then by language name, in the following format:
+
+"Submissions:
+
+\{language\} – \{submissionsCount\}"
 
 ### Examples
 | **Input** | **Output** |
