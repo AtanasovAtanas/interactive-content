@@ -25,6 +25,7 @@ The **possible commands** are:
 - **Remove** \{index\} – remove at index
 - **Shift left** \{count\} – first number becomes last 'count' times
 - **Shift right** \{count\} – last number becomes first 'count' times
+
 **Note**: it is possible that the index given is outside of the bounds of the array. In that case print "Invalid index"
 
 ### Example
