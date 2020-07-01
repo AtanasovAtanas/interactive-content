@@ -31,7 +31,7 @@ The **possible commands** are:
 | **Input** | **Output** |
 | --- | --- |
 | 1 23 29 18 43 21 20  | 43 20 5 1 23 29 18 |
-| Add 5 | Allie |
+| Add 5 |  |
 | Remove 5 | |
 | Shift left 3 | |
 | Shift left 1 | |
