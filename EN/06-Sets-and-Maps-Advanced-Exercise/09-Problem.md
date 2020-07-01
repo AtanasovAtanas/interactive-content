@@ -72,7 +72,6 @@ The IP addresses must be split with a comma, and each line of IP addresses must 
 - The IP addresses will be in the format of either **IPv4** or **IPv6.**
 - The messages will be in the format: **This&is&a&message**
 - The username will be a string with length in the range [3 ... 50]
-- Time limit: 0.3 sec. Memory limit: 16 MB.
 
 ## Examples
 | **Input** | **Output** |
