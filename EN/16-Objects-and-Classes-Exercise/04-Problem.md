@@ -1,3 +1,14 @@
+# Problem: Students
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421822838" default /]
+[stream language="RO" videoId="433936042"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Students
 [code-task title="Students" taskId="java-fund-17-Objects-and-Classes-Exercise-problem-4" executionType="tests-execution" executionStrategy="java-code" requiresInput]

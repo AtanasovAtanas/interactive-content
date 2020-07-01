@@ -1,3 +1,14 @@
+# Problem: Opinion Poll
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="421821499" default /]
+[stream language="RO" videoId="433935894"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Opinion Poll
 [code-task title="Opinion Poll" taskId="java-fund-17-Objects-and-Classes-Exercise-problem-2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
