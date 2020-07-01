@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Population Counter
 [code-task title="Problem: User Logs" taskId="95df95ee-46f0-4cd1-bb0f-183d99ed9fe2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

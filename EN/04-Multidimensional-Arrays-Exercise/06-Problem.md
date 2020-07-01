@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: String Matrix Rotation
 [code-task title="Problem: String Matrix Rotation" taskId="b2188470-e920-4c37-a906-b36702dd7f89" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

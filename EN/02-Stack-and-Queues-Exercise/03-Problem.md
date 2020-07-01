@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Maximum Element
 [code-task title="Maximum Element" taskId="9a85ddc4-cc9d-4760-a871-b3d3c3b75233" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

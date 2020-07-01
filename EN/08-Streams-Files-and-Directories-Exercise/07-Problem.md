@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Merge Two Files
 [code-task title="Problem: Merge Two Files" taskId="b3e1004c-471b-483c-9c11-3503b46c218f" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

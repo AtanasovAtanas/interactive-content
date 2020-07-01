@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Line Numbers
 [code-task title="Problem: Line Numbers" taskId="6059845f-06d5-4e57-93db-f665072f1734" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

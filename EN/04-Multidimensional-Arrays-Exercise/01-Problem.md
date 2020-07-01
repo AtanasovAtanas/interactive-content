@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Fill the Matrix
 [code-task title="Problem: Fill the Matrix" taskId="b4e6942a-bdb5-4a0a-bb66-1b843fd70dd4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

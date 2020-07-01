@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: A Miner Task
 [code-task title="Problem: A Miner Task" taskId="bad4cdeb-97fa-4c60-8bd2-41da26365e05" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

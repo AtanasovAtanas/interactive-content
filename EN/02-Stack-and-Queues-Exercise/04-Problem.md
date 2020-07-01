@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Basic Queue Operations
 [code-task title="Basic Queue Operations" taskId="bd0b9605-7801-417d-9cc0-ab3caa08a8ea" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

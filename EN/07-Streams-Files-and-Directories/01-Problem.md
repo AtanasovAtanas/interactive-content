@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Reverse Number with a Stack
 [code-task title="Reverse Number with a Stack" taskId="615c8255-b420-4f79-b8a9-8b466abaf238" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

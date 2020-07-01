@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Legendary Farming
 [code-task title="Problem: Legendary Farming" taskId="e542724b-ef67-4d42-a4d0-03fbbbc41fd2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Maximal Sum
 [code-task title="Problem: Maximal Sum" taskId="39222da7-dc7c-44ed-ba09-9458d9454bca" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

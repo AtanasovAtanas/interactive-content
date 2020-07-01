@@ -1,3 +1,3 @@
-[slide]
+[slide hideTitle]
 # Problem: Google
 [/slide]

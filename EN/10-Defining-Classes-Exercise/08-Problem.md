@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Family Tree
 
 [/slide]

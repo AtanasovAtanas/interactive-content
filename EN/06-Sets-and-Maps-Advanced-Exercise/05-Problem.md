@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Phonebook
 [code-task title="Problem: Phonebook" taskId="9530e974-a298-483a-a529-354207c85293" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

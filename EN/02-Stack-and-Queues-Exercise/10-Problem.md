@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Poisonous Plants
 [code-task title="Poisonous Plants" taskId="6ab9ac86-35f0-40ba-828e-48272be42cca" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

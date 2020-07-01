@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Sets of Elements
 [code-task title="Problem: Sets of Elements" taskId="2ebfb89c-b1ab-44a3-a8f6-3767d98bc225" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Basic Stack Operations
 [code-task title="Basic Stack Operations" taskId="10bea7e5-eab5-4110-828f-ec56851bb090" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

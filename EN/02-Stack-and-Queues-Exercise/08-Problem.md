@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Simple Text Editor
 [code-task title="Simple Text Editor" taskId="4e4ddd79-3e4b-4215-b529-50a0f652da09" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Word Count
 [code-task title="Problem: Word Count" taskId="39f0764c-dec5-49f3-870e-5ec7c9a52c27" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Opinion Poll
 [code-task title="Problem: Opinion Poll" taskId="ff6d1ff1-daef-4e93-b24d-14c878e40e96" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

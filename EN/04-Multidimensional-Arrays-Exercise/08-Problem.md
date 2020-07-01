@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Parking System
 [code-task title="Problem: Parking System" taskId="577fbe15-c817-4701-b2be-a889976e6158" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

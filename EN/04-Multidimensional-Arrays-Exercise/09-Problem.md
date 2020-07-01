@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Radioactive Mutant Vampire Bunnies
 [code-task title="Problem: Radioactive Mutant Vampire Bunnies" taskId="dde93238-e1ea-4fda-ba5a-a39c4c921bb0" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

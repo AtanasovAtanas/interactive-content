@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Periodic Table
 [code-task title="Problem: Periodic Table" taskId="3cdc56cd-58c0-49aa-aa7f-49105f144cca" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

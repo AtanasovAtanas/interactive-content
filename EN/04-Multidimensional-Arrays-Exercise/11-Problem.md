@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: The Matrix
 [code-task title="Problem: The Matrix" taskId="250961da-1f32-4b0b-a551-bb5137d0e282" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

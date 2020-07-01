@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Fix Emails
 [code-task title="Problem: Fix Emails" taskId="080f5e63-4e55-4682-9d06-f2017b86419d" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Company Roster
 [code-task title="Problem: Company Roster" taskId="76597424-6663-4f2d-b5d1-cb23dff0383e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

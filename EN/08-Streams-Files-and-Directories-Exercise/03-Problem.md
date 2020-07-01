@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: CAPITAL LETTERS
 [code-task title="Problem: CAPITAL LETTERS" taskId="4c58e831-a4f5-4845-9b41-e083d08eac22" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

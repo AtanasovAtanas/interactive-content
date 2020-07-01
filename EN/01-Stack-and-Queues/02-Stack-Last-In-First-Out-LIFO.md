@@ -68,7 +68,7 @@ System.out.println(element);
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Browser History
 [code-task title="Browser History" taskId="f1c2adae-8f12-4f70-94b4-2df7b1453714" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -261,7 +261,7 @@ Go
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Solution: Browser History
 [code-task title="Browser History"  executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -475,7 +475,7 @@ Go
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Simple Calculator 
 [code-task title="Simple Calculator " taskId="3c41a4c0-ac7a-4de0-aeb7-7188ce402388" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -577,7 +577,7 @@ Solve the problem **using a Stack**.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Simple Calculator 
 [code-task title="Simple Calculator " executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -700,7 +700,7 @@ Solve the problem **using a Stack**.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Decimal to Binary Converter
 [code-task title="Simple Calculator " taskId="1f9e646a-8a8f-4f6a-9710-0b1743bd5ef5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -805,7 +805,7 @@ while (decimal != 0) {
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Decimal to Binary Converter
 [code-task title="Simple Calculator " executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -927,7 +927,7 @@ while (decimal != 0) {
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Matching Brackets
 [code-task title="Matching Brackets" taskId="69a9ca82-bf00-49c7-a284-2d296ed138ce" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -1043,7 +1043,7 @@ Scan through the string and **extract** each **sub-expression**.
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Matching Brackets
 [code-task title="Matching Brackets" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Balanced Parentheses
 [code-task title="Balanced Parentheses" taskId="76ac9c4c-07e3-4a40-9e66-c9d3190f0e1e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

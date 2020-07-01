@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Count Symbols
 [code-task title="Problem: Count Symbols" taskId="7075fd90-4715-4d84-bb4e-7185a33822d3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

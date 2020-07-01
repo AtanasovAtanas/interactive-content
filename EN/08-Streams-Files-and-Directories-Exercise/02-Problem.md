@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Sum Bytes
 [code-task title="Problem: Sum Bytes" taskId="563aca90-b033-4d3d-908e-25e921dac646" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

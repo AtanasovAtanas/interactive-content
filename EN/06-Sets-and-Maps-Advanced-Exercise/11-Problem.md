@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Logs Aggregator
 [code-task title="Problem: Logs Aggregator" taskId="8e468d5a-5145-4713-85f5-4d7f41f70f72" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Hands Of Cards
 [code-task title="Problem: Hands Of Cards" taskId="e2bf2871-f2e7-44de-950e-0363166d4557" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

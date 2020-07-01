@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Reverse Matrix Diagonals
 [code-task title="Problem: Reverse Matrix Diagonals" taskId="5eb5b2f3-007d-45b0-b5a9-6140deb66781" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

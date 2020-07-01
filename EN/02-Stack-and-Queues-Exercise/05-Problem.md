@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Robotics
 [code-task title="Robotics" taskId="31ac9f55-2ed1-4c9e-83b5-5abe32b54c87" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

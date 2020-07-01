@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Matrix Shuffling
 [code-task title="Problem: Matrix Shuffling" taskId="52ef2b01-c6e8-42ca-bb12-7fa69625f36a" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

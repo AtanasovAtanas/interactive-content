@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: User Logs
 [code-task title="Problem: User Logs" taskId="b541fef2-5fe6-4107-aedf-588697d7a672" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

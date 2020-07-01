@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Count Character Types
 [code-task title="Problem: Count Character Types" taskId="9f79317b-6fb7-42f2-8ff9-8cde6dcb5181" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

@@ -83,7 +83,7 @@ System.out.println("First element is: " + queue.peek());
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Hot Potato
 [code-task title="Hot Potato" taskId="593ba36b-55ea-4b9f-950d-52c68e196f70" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -264,7 +264,7 @@ Last is 2
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Hot Potato
 [code-task title="Hot Potato" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -460,7 +460,7 @@ Last is 2
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Math Potato
 [code-task title="Math Potato" taskId="f983175c-d555-43e2-8cc4-8b8fa8581ad1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -640,7 +640,7 @@ Last is 5
 [/code-task]
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Solution: Math Potato
 [code-task title="Math Potato" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]

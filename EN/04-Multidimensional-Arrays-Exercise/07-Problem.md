@@ -1,4 +1,4 @@
-[slide]
+[slide hideTitle]
 # Problem: Crossfire
 [code-task title="Problem: Crossfire" taskId="73dfdb49-3a03-4139-91bf-026f30aef2ad" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
