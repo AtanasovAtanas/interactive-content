@@ -24,13 +24,13 @@ On the first line of the input you will receive a number **N** - the number of c
 
 On **each** of the next **N** lines you will receive information for a car in the following format: 
 
-`<Model> <FuelAmount> <FuelCostFor1km>`
+`<model> <fuelAmount> <fuelCostFor1km>`
 
 All **cars start at 0 kilometers traveled**.
 
 After the **N** lines until the command `End` is received, you will receive commands in the following format: 
 
-`Drive <CarModel> <amountOfKm>`
+`Drive <carModel> <amountOfKm>`
 
 Implement a method in the **Car** class to calculate whether a car **can** move that distance or **not**. 
 
@@ -40,7 +40,7 @@ If it can, the car **fuel amount** should be **reduced** by the amount of used f
 
 After the `End` command is received, print each car in order of appearing in input and its current fuel amount and distance traveled in the format:
 
-`<Model> <fuelAmount> <distanceTraveled>`
+`<model> <fuelAmount> <distanceTraveled>`
 
 Where the fuel amount should be rounded to the **second decimal place**.
 
