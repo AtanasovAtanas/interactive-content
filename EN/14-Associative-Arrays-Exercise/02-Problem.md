@@ -25,7 +25,7 @@ Your task is to collect the resources and print them each on a new line.
 | --- | --- |
 | Gold | Gold -> 155 | 
 | 155 | Silver -> 10 |
-| Silver | Gold -> 17 |
+| Silver | Copper -> 17 |
 | 10 | | 
 | Copper | |
 | 17 | |
@@ -34,9 +34,9 @@ Your task is to collect the resources and print them each on a new line.
 ### Example
 | **Input** | **Output** |
 | --- | --- |
-| gold | Gold -> 170 | 
-| 155 | Silver -> 10 |
-| silver | Gold -> 17 |
+| gold | gold -> 170 | 
+| 155 | silver -> 10 |
+| silver | copper -> 17 |
 | 10 | | 
 | copper | |
 | 17 | |
