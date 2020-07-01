@@ -1,3 +1,15 @@
+# Problem: Students
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="434259341"  default /]
+[stream language="RO" videoId="433938300" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Students
 [code-task title="Students" taskId="python-fund-17-Objects-and-Classes-Exercise-problem-4" executionType="tests-execution" executionStrategy="python-code" requiresInput]

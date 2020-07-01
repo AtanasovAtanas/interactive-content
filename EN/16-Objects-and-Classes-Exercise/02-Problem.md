@@ -1,3 +1,15 @@
+# Problem: Opinion Poll
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="434259302"  default /]
+[stream language="RO" videoId="433938212" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Opinion Poll
 [code-task title="Opinion Poll" taskId="python-fund-17-Objects-and-Classes-Exercise-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]

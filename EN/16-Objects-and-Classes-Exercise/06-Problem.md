@@ -1,3 +1,15 @@
+# Problem: Person ID
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="434259389"  default /]
+[stream language="RO" videoId="434104967" /]
+[/video-vimeo]
+
+[/slide]
+
 [slide hideTitle]
 # Problem: Person ID
 [code-task title="Person ID" taskId="python-fund-17-Objects-and-Classes-Exercise-problem-6" executionType="tests-execution" executionStrategy="python-code" requiresInput]
