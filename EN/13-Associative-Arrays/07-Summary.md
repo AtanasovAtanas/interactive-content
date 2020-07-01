@@ -1,4 +1,14 @@
+# Summary
 
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="8607" endTimeInSeconds="8706"]
+[stream language="EN" videoId="421723151" default /]
+[stream language="RO" videoId="432059499"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Summary
 
@@ -22,13 +32,5 @@
 - Objects
 - Class Attributes and Instance Methods
 
-
-[/slide]
-
-
-[slide]
-# Lab Results
-
-[tasks-results /]
 
 [/slide]

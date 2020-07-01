@@ -1,5 +1,13 @@
 # Keys and Values
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="1968" endTimeInSeconds="2671"]
+[stream language="EN" videoId="421723151" default /]
+[stream language="RO" videoId="432059499"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Key Definition
 

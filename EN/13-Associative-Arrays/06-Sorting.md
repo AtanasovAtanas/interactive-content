@@ -1,5 +1,13 @@
 # Sorting
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="6102" endTimeInSeconds="8606"]
+[stream language="EN" videoId="421723151" default /]
+[stream language="RO" videoId="432059499"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # sorted()
 

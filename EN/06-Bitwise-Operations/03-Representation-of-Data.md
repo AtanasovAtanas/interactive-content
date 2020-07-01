@@ -1,5 +1,13 @@
 # Representation of Data
+[slide]
+# Video
 
+[vimeo-video startTimeInSeconds="1840" endTimeInSeconds="3144"]
+[stream language="EN" videoId="426199411" default /]
+[stream language="RO" videoId="426200319"  /]
+[/video-vimeo]
+
+[/slide]
 [slide]
 # Representation of Integers
 
