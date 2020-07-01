@@ -1,4 +1,4 @@
-[slide hideTitle]
+[slide]
 # Problem: Cat Lady
 
 [/slide]

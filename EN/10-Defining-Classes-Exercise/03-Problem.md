@@ -1,4 +1,4 @@
-[slide hideTitle]
+[slide]
 # Problem: Speed Racing
 
 [/slide]

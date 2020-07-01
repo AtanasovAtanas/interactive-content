@@ -1,3 +1,3 @@
-[slide hideTitle]
+[slide]
 # Problem: Pokemon Trainer
 [/slide]
