@@ -30,7 +30,7 @@ Create Person class with two fields **String name** and **int age**, write a pro
 | --- | --- |
 | 5 | Robert - 44 |
 | Sofia 33 | Sofia - 33 |
-| Thomas 88 | Thomas – 88 |
+| Thomas 88 | Thomas - 88 |
 | Camilla 22 |  |
 | Robert 44 |  |
 | Owen 11 |  |
@@ -62,7 +62,7 @@ Owen 11
 [output]
 Robert - 44
 Sofia - 33
-Thomas – 88
+Thomas - 88
 [/output]
 [/test]
 [test]
