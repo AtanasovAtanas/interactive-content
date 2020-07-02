@@ -1,3 +1,3 @@
 [slide hideTitle]
-# Problem: Generic Box
+# Problem: Custom List
 [/slide]
