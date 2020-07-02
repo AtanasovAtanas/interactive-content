@@ -39,7 +39,7 @@ You should print that cat and round the number of its s **two digits** after the
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| StreetExtraordinaire Kitty 85 | Cymric Tom 28.00 |
+| DomesticShorthair Kitty 85 | Cymric Tom 28.00 |
 | Siamese Sim 4 |  |
 | Cymric Tom 28 |  |
 | End |  |
@@ -47,8 +47,8 @@ You should print that cat and round the number of its s **two digits** after the
 
 | **Input** | **Output** |
 | --- | --- |
-| StreetExtraordinaire Tom 80 | StreetExtraordinaire Kitty 100.00 |
-| StreetExtraordinaire Kitty 100 |  |
+| DomesticShorthair Tom 80 | DomesticShorthair Kitty 100.00 |
+| DomesticShorthair Kitty 100 |  |
 | Cymric Tim 31 |  |
 | End |  |
 | Kitty |  |
@@ -58,7 +58,7 @@ You should print that cat and round the number of its s **two digits** after the
 [tests]
 [test open]
 [input]
-StreetExtraordinaire Kitty 85
+DomesticShorthair Kitty 85
 Siamese Sim 4
 Cymric Tom 28
 End
@@ -70,14 +70,14 @@ Cymric Tom 28.00
 [/test]
 [test open]
 [input]
-StreetExtraordinaire Tom 80
-StreetExtraordinaire Kitty 100
+DomesticShorthair Tom 80
+DomesticShorthair Kitty 100
 Cymric Tim 31
 End
 Kitty
 [/input]
 [output]
-StreetExtraordinaire Kitty 100.00
+DomesticShorthair Kitty 100.00
 [/output]
 [/test]
 [test]
@@ -87,7 +87,7 @@ Siamese Toncat 6
 Siamese Antoan 5
 Siamese Antony 5
 Siamese Tonny 5
-StreetExtraordinaire Kappa 95
+DomesticShorthair Kappa 95
 Cymric Keepo 4.41
 End
 Toncat
@@ -98,9 +98,9 @@ Siamese Toncat 6.00
 [/test]
 [test]
 [input]
-StreetExtraordinaire Meow 90
-StreetExtraordinaire Moow 91
-StreetExtraordinaire Moew 92
+DomesticShorthair Meow 90
+DomesticShorthair Moow 91
+DomesticShorthair Moew 92
 Siamese Simon 5
 Siamese Simmy 4
 Cymric Kolly 3.20
@@ -124,32 +124,32 @@ Cymric TommyTheCat 5.10
 [/test]
 [test]
 [input]
-StreetExtraordinaire Jerry 91
-StreetExtraordinaire Was 92
-StreetExtraordinaire A 93
-StreetExtraordinaire Racecar 94
-StreetExtraordinaire Driver 95
+DomesticShorthair Jerry 91
+DomesticShorthair Was 92
+DomesticShorthair A 93
+DomesticShorthair Racecar 94
+DomesticShorthair Driver 95
 End
 Jerry
 [/input]
 [output]
-StreetExtraordinaire Jerry 91.00
+DomesticShorthair Jerry 91.00
 [/output]
 [/test]
 [test]
 [input]
-StreetExtraordinaire Loly 61
+DomesticShorthair Loly 61
 Siamese Rony 4
 Cymric Tommy 8.20
 Cymric Dan 4.20
-StreetExtraordinaire NoCat 1
-StreetExtraordinaire CatCat 120
+DomesticShorthair NoCat 1
+DomesticShorthair CatCat 120
 Cymric Wirehair 5.00
 End
 CatCat
 [/input]
 [output]
-StreetExtraordinaire CatCat 120.00
+DomesticShorthair CatCat 120.00
 [/output]
 [/test]
 [/tests]
