@@ -1,4 +1,16 @@
+# Heart Delivery
+
 [slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="434985028"  default /]
+[stream language="RO" videoId="433963117" /]
+[/video-vimeo]
+
+[/slide]
+
+[slide hideTitle]
 # Heart Delivery
 [code-task title="Heart Delivery" taskId="python-fund-18-Exam-Preparation-problem-3" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

@@ -1,4 +1,16 @@
+# Shopping List
+
 [slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="434984967"  default /]
+[stream language="RO" videoId="433963424" /]
+[/video-vimeo]
+
+[/slide]
+
+[slide hideTitle]
 # Shopping List
 [code-task title="Shopping List" taskId="python-fund-18-Exam-Preparation-problem-2" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]

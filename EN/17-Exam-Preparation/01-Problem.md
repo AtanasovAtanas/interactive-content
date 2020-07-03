@@ -1,4 +1,16 @@
+# National Court
+
 [slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="434985092"  default /]
+[stream language="RO" videoId="433963338" /]
+[/video-vimeo]
+
+[/slide]
+
+[slide hideTitle]
 # National Court
 [code-task title="National Court" taskId="python-fund-18-Exam-Preparation-problem-1" executionType="tests-execution" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
