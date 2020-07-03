@@ -1,4 +1,15 @@
+# Heart Delivery
+
 [slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="434990115" default /]
+[stream language="RO" videoId="433962598"  /]
+[/video-vimeo]
+[/slide]
+
+[slide hideTitle]
 # Heart Delivery
 [code-task title="Heart Delivery" taskId="java-fund-18-Exam-Preparation-problem-3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
