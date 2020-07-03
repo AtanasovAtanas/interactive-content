@@ -58,7 +58,7 @@ for (int i = 0; i < names.length; i++) {
 
 [slide]
 
-# Stacks and Queue vs. ArrayDeque
+# ArrayDeque, Stacks and Queues
 
 ## Why don't use Stack and Queue?
 
