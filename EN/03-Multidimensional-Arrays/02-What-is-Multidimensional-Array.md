@@ -30,7 +30,7 @@ It might look like this:
 
 ### Creating Multidimensional Arrays
 
-Two of the **most used ** multi-dimensional arrays are **two and three-dimensional array**, known as `2D` and `3D` array, anything above is rare.
+Two of the **most used** multi-dimensional arrays are **two and three-dimensional array**, known as `2D` and `3D` array, anything above is rare.
 
 - Creating Multidimensional Arrays using `new` - keyword and specifying the size of at least one dimension
 
@@ -54,7 +54,12 @@ int[][] matrix = {
 ```java
 int[][] matrix = new int[2][4];
 
-//TODO: for loop...
+for (int i = 0; i < 2; i++) {
+    String[] line = scanner.nextLine().split("\\s+");
+    for (int j = 0; j < 4; j++) {
+        matrix[i][j] = Integer.parseInt(line[j]);
+    }
+}
 ```
 [/slide]
 
