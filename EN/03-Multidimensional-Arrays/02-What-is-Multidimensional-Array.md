@@ -71,6 +71,7 @@ for (int i = 0; i < 2; i++) {
 # Manipulating a Matrix
 
 - Accessing Elements of `2D Array`
+
 Elements in **two-dimensional arrays** are commonly referred by `x[i][j]` where `i` is **the row number** and `j` is **the column number**.
 
 Syntax is:
