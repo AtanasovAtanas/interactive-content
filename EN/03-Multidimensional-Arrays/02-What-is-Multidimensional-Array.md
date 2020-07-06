@@ -54,10 +54,13 @@ int[][] matrix = {
 ```java
 int[][] matrix = new int[2][4];
 
+int elementValue = 1;
+
 for (int i = 0; i < 2; i++) {
-    String[] line = scanner.nextLine().split("\\s+");
+    
     for (int j = 0; j < 4; j++) {
-        matrix[i][j] = Integer.parseInt(line[j]);
+      matrix[i][j] = elementValue;
+      elementValue++;
     }
 }
 ```
@@ -66,5 +69,45 @@ for (int i = 0; i < 2; i++) {
 [slide]
 
 # Manipulating a Matrix
+
+- Accessing Elements of `2D Array`
+Elements in **two-dimensional arrays** are commonly referred by `x[i][j]` where `i` is **the row number** and `j` is **the column number**.
+
+Syntax is:
+```java
+int [][] array = new int [5][5];
+array[0][0]  // the first element of the matrix
+```
+
+- Getting Element Value:
+
+```java live
+int[][] matrix = {
+  {1, 2, 3, 4}, // row 0 values
+  {5, 6, 7, 8}  // row 1 values
+};
+
+// the second element of the first row is 7
+int element = matrix[1][2]; 
+System.out.println(element);
+
+```
+
+
+- Setting Element Value:
+
+```java 
+int[][] matrix = {
+        {1, 2, 3, 4}, // row 0 values
+        {5, 6, 7, 8}  // row 1 values
+};
+for (int row = 0; row < matrix.length; row++) {
+    for (int col = 0; col < matrix[row].length; col++) {
+
+        // setting all elements values to 1
+        matrix[row][col] = 1;
+    }
+}
+```
 
 [/slide]
