@@ -20,11 +20,11 @@ The method should **return the count of elements that are greater than the value
 
 **Modify your Box class** to support **comparing by value** of the data stored.
 
-On the first line you will receive **n** - the number of elements to add to the list. 
+On the **first line**, you will receive **n** - the number of elements to add to the list. 
 
 On the next **n** lines, you will receive the actual elements. 
 
-On the **last line** you will get the value of the element to which you need to compare every element in the list.
+On the **last line**, you will get the value of the element to which you need to compare every element in the list.
 
 ## Examples
 | **Input** | **Output** |
