@@ -22,9 +22,9 @@ Create a **Generic Class Box** that can store any type.
 
 Use the class that you have created and test it with the class `java.lang.String`. 
 
-On the first line you will get the number **n** - the number of strings to read from the console. 
+On the first line you will get the number **n** - the number of Strings to read from the console. 
 
-On the next **n** lines, you will get the actual strings. 
+On the next **n** lines, you will get the actual Strings. 
 
 For each of them create a box and call its `toString()` method to print its data on the console.
 
