@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Custom List
-[code-task title="Custom List" taskId="39f0850a-cf23-47af-9bd9-554c556a4a92" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Custom List" taskId="42476d13-5009-4c80-bc9d-fc56eaa7228f" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
