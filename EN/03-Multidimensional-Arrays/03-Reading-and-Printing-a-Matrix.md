@@ -28,6 +28,8 @@ for (int row = 0; row < rows; row++) {
 
 - Printing a Matrix
 ```java live
+Scanner scanner = new Scanner(System.in);
+
 System.out.print("Enter number of rows:");
 int rows = Integer.parseInt(scanner.nextLine());
 
