@@ -9,6 +9,8 @@ There are the so-called **version control systems** that make all the work **eas
 
 Version control systems include **work techniques**, **practices**, and **tools**, etc. for **working in a team** on **shared source code** and **files**.
 
+[image assetsSrc="git-and-github-image-1.png" /]
+
 This makes **managing work** and **tasks easier**.
 
 There are mechanisms that **strive** to make **code management**, **control**, and **change tracking** more **manageable**.
@@ -79,11 +81,15 @@ It can be **locally** on **your storage**, **remotely** on a **different compute
 
 ## Cloning a Repository
 
+[image assetsSrc="git-and-github-image-2.png" /]
+
 Most often you **download a copy** of the **project** from the **remote repository** to your **local storage**.
 
 This process is called "**cloning**".
 
 ## Committing
+
+[image assetsSrc="git-and-github-image-3.png" /]
 
 After **cloning** the project, you **start working on it**.
 
@@ -96,6 +102,8 @@ That process is called "**commit**".
 So far the **changes** are **only applied** to your **local repository**.
 
 ## Syncing
+
+[image assetsSrc="git-and-github-image-4.png" /]
 
 There will be **several local storages**, for **each person working** on the project.
 

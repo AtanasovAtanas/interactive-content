@@ -79,6 +79,8 @@ They should be **selected by default**, but in case they aren’t – **select t
 
 If you are using **Linux**, install Git with the following **command line**: "**sudo apt-get install git**".
 
+For MacOS users, you can download the Git binary installer from this [link](https://git-scm.com/download/mac).
+
 [/slide]
 
 [slide]
