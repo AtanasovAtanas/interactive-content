@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Custom List Sorted
-[code-task title="Custom List Sorted" taskId="b8e8dbc0-86c7-418f-917a-25f4f532c571" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Custom List Sorter
+[code-task title="Custom List Sorter" taskId="b8e8dbc0-86c7-418f-917a-25f4f532c571" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
