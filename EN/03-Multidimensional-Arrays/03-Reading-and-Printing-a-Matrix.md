@@ -1,6 +1,7 @@
-# Reading and Printing a Matrix
 
 [slide]
+
+# Reading and Printing a Matrix
 
 - Reading a Matrix
 ```java
@@ -18,7 +19,7 @@ for (int row = 0; row < rows; row++) {
 
     // For-loop through the columns
     for (int column = 0; column < cols; column++) {
-        
+
     // Getting an element of the current row and column and assigning a value  
     matrix[row][column] = Integer.parseInt(inputTokens[column]);
     }
