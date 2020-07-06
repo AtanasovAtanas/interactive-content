@@ -133,22 +133,6 @@ Write a program to **sum all adjacent equal numbers** in a list of decimal numbe
 [/test]
 [test open]
 [input]
-5 4 2 1 1 4
-[/input]
-[output]
-5 8 4
-[/output]
-[/test]
-[test open]
-[input]
-0.1 0.1 5 -5
-[/input]
-[output]
-0.2 5 -5
-[/output]
-[/test]
-[test]
-[input]
 0.1 0.1 5 -5
 [/input]
 [output]
