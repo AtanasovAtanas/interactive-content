@@ -113,12 +113,12 @@ Peter -\> 9
 [test]
 [input]
 Garet = Geneva
- 2999999
+G 2999999
 21 21
 [/input]
 [output]
 Garet = -\> Geneva
- -\> 2999999
+G -\> 2999999
 21 -\> 21.0
 [/output]
 [/test]
