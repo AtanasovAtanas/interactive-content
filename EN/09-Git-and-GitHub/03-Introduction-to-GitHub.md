@@ -48,7 +48,7 @@ It follows the **Kanban style**, which is an **agile project management tool**, 
 
 ## Wiki Pages
 
-[image assetsSrc="git-and-github-image-8.png" /]
+[image assetsSrc="git-and-github-image-8.jpg" /]
 
 There is the **Wiki pages** feature too.
 
