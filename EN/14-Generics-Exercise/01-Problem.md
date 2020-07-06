@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Create a **generic class Box** that can store any type.
+Create a **Generic Class Box** that can store any type.
 
 **Override** the `toString()` method to print the type and the value of the stored data in the format:
 
