@@ -828,3 +828,310 @@ not found
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+# Problem: Sum of All Elements of Matrix
+[code-task title="Sum of All Elements of Matrix" taskId="e74d7380-4bc4-4f7b-8f47-9f0c80e3c0ae" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that **reads a matrix from the console and prints**:
+   - The count of rows
+   - The count of columns
+   - The sum of all matrix’s elements
+
+On the **first line** you will get the **dimensions** of the matrix `rows` and `columns` **separated with a coma and space**. 
+
+On the **next lines** you will get the elements for each row **separated with a coma and space**.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3, 6 | 3 |
+| 7, 1, 3, 3, 2, 1 | 6 |
+| 1, 3, 9, 8, 5, 6 | 76 |
+| 4, 6, 7, 9, 1, 0 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3, 6
+7, 1, 3, 3, 2, 1
+1, 3, 9, 8, 5, 6
+4, 6, 7, 9, 1, 0
+[/input]
+[output]
+3
+6
+76
+[/output]
+[/test]
+[test open]
+[input]
+2, 4
+10, 11, 12, 13
+14, 15, 16, 17
+[/input]
+[output]
+2
+4
+108
+[/output]
+[/test]
+[test]
+[input]
+5, 4
+0, 1, 2, 3
+4, 5, 6, 7
+8, 9, 10, 11
+12, 13, 14, 15
+16, 17, 18, 19
+[/input]
+[output]
+5
+4
+190
+[/output]
+[/test]
+[test]
+[input]
+5, 4
+0, -1, 2, 3
+4, 5, -6, 7
+8, 9, 10, 11
+12, -13, 14, 15
+16, 17, 18, -19
+[/input]
+[output]
+5
+4
+112
+[/output]
+[/test]
+[test]
+[input]
+1, 4
+0, -1, 2, 3
+[/input]
+[output]
+1
+4
+4
+[/output]
+[/test]
+[test]
+[input]
+5, 1
+0
+4
+8
+12
+16
+[/input]
+[output]
+5
+1
+40
+[/output]
+[/test]
+[test]
+[input]
+5, 4
+0, -100, 2, 3
+4, 5, -6000, 7
+8, 9, 10, 11
+12, -13, 14, 15
+16, 1700, 18, -19
+[/input]
+[output]
+5
+4
+-4298
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+
+[slide]
+# Solution: Sum of All Elements of Matrix
+[code-task title="Sum of All Elements of Matrix" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int[] dimensions = Arrays.stream(scanner.nextLine().split(", ")).mapToInt(Integer::parseInt).toArray();
+
+        int[][] matrix = initializeMatrix(scanner, dimensions);
+
+        System.out.println(matrix.length);
+        System.out.println(matrix[0].length);
+
+        int sum = 0;
+
+        for (int row = 0; row < matrix.length; row++) {
+            for (int col = 0; col < matrix[row].length; col++) {
+                 sum += matrix[row][col];
+            }
+        }
+        System.out.println(sum);
+    }
+
+    private static int[][] initializeMatrix(Scanner scanner, int[] matrixDimensions) {
+
+        int rows = matrixDimensions[0];
+        int cols = matrixDimensions[1];
+
+        int[][] matrix = new int[rows][cols];
+
+        for (int i = 0; i < rows; i++) {
+             int[] arr = Arrays.stream(scanner.nextLine()
+                    .split(", "))
+                    .mapToInt(Integer::parseInt)
+                    .toArray();
+            matrix[i] = arr;
+        }
+        return matrix;
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that **reads a matrix from the console and prints**:
+   - The count of rows
+   - The count of columns
+   - The sum of all matrix’s elements
+
+On the **first line** you will get the **dimensions** of the matrix `rows` and `columns` **separated with a coma**. 
+
+On the **next lines** you will get the elements for each row **separated with a coma**.
+
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3, 6 | 3 |
+| 7, 1, 3, 3, 2, 1 | 6 |
+| 1, 3, 9, 8, 5, 6 | 76 |
+| 4, 6, 7, 9, 1, 0 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3, 6
+7, 1, 3, 3, 2, 1
+1, 3, 9, 8, 5, 6
+4, 6, 7, 9, 1, 0
+[/input]
+[output]
+3
+6
+76
+[/output]
+[/test]
+[test open]
+[input]
+2, 4
+10, 11, 12, 13
+14, 15, 16, 17
+[/input]
+[output]
+2
+4
+108
+[/output]
+[/test]
+[test]
+[input]
+5, 4
+0, 1, 2, 3
+4, 5, 6, 7
+8, 9, 10, 11
+12, 13, 14, 15
+16, 17, 18, 19
+[/input]
+[output]
+5
+4
+190
+[/output]
+[/test]
+[test]
+[input]
+5, 4
+0, -1, 2, 3
+4, 5, -6, 7
+8, 9, 10, 11
+12, -13, 14, 15
+16, 17, 18, -19
+[/input]
+[output]
+5
+4
+112
+[/output]
+[/test]
+[test]
+[input]
+1, 4
+0, -1, 2, 3
+[/input]
+[output]
+1
+4
+4
+[/output]
+[/test]
+[test]
+[input]
+5, 1
+0
+4
+8
+12
+16
+[/input]
+[output]
+5
+1
+40
+[/output]
+[/test]
+[test]
+[input]
+5, 4
+0, -100, 2, 3
+4, 5, -6000, 7
+8, 9, 10, 11
+12, -13, 14, 15
+16, 1700, 18, -19
+[/input]
+[output]
+5
+4
+-4298
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
