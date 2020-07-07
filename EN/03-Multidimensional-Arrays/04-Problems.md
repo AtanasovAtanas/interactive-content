@@ -439,3 +439,177 @@ not equal
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+# Problem: Positions Of
+[code-task title="Positions of" taskId="3b2a4b78-bea2-4aac-b344-c5c029b566aa" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that reads a **matrix of integers from the console**,
+then a number and prints all the positions at which that number appears in the matrix.
+
+The matrix definition on the console will contain a line with two **positive integer numbers** `R` and `C` – the number of rows and columns in the matrix – followed by `R` lines, each containing `C` numbers (**separated by spaces**), representing each row of the matrix.
+
+The number you will need to find the positions of will be entered on a single line, after the matrix.
+
+You should print each position on a single line – first print the row, then the column at which the number appears.
+If the number does not appear in the matrix, print '**not found**'.
+
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 2 3 | 0 1 |
+| 1 2 3 | 1 1 |
+| 4 2 2 | 1 2 |
+| 2 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 2 3 | not found |
+| 1 -2 -3 |  |
+| 4 -5 6 |  |
+| 5 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+2 3
+1 2 3
+4 2 2
+2
+[/input]
+[output]
+0 1
+1 1
+1 2
+[/output]
+[/test]
+[test open]
+[input]
+2 3
+1 -2 -3
+4 -5 6
+5
+[/input]
+[output]
+not found
+[/output]
+[/test]
+[test]
+[input]
+2 3
+1 2 3
+4 5 6
+3
+[/input]
+[output]
+0 2
+[/output]
+[/test]
+[test]
+[input]
+2 2
+1 2
+3 4
+13
+[/input]
+[output]
+not found
+[/output]
+[/test]
+[test]
+[input]
+5 3
+1 1 1
+1 1 1
+1 1 1
+1 1 1
+1 1 1
+1
+[/input]
+[output]
+0 0
+0 1
+0 2
+1 0
+1 1
+1 2
+2 0
+2 1
+2 2
+3 0
+3 1
+3 2
+4 0
+4 1
+4 2
+[/output]
+[/test]
+[test]
+[input]
+4 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+4
+[/input]
+[output]
+0 3
+1 3
+2 3
+3 3
+[/output]
+[/test]
+[test]
+[input]
+4 4
+1 1 1 1
+1 2 2 1
+1 2 2 1
+1 1 1 1
+2
+[/input]
+[output]
+1 1
+1 2
+2 1
+2 2
+[/output]
+[/test]
+[test]
+[input]
+10 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+13
+[/input]
+[output]
+not found
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
