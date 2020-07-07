@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Google
-[code-task title="Google" taskId="5d118095-25ac-454f-b83d-562694f855fa" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Personal Information
+[code-task title="Personal Information" taskId="5d118095-25ac-454f-b83d-562694f855fa" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-*Google knows everything about you (even your pokemon collection). Since you are good at writing classes, Google asked you to design a Class that can hold all the information they need for people.*
+*You and your friends decide to create a Class that holds all the information about all of you, even your pokemon collection. Since you are good at writing code, they asked you to design that Class.*
 
 From the console you will receive lines until the command `End`.
 
