@@ -196,7 +196,7 @@ not equal
 
 [slide]
 # Solution: Compare Matrices
-[code-task title="Compare Matrices" taskId="e13fd83f-0adb-47b0-b590-e27920a40259" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Compare Matrices" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
