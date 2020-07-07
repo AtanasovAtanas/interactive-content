@@ -10,11 +10,11 @@ The **length** of an array **is established when the array is created**.
 
 Each **item** in an array is called an **element**, and **each element is accessed** by its **numerical index**.
 
-The following ilustration explain an **integer array with 5 elements**:
+The following illustration explains an **integer array with 5 elements**:
 
 [image assetsSrc="matrices-example(1).png" /]
 
-As shown in the illustration above, **numbering of elements starts with 0**, therefore the **first element** can be accessed at **index 0** and the **last at index 4**.
+As shown in the illustration above, **the numbering of elements starts with 0**, therefore the **first element** can be accessed at **index 0** and the **last at index 4**.
 
 [/slide]
 
