@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Count Character Types
-[code-task title="Problem: Count Character Types" taskId="9f79317b-6fb7-42f2-8ff9-8cde6dcb5181" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Count Character Types" taskId="9f79317b-6fb7-42f2-8ff9-8cde6dcb5181" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a list of words from the file ( **input.txt** from the Resources - Folder) and finds the count of **vowels**, **consonants**, and **punctuation** marks.
+Write a program that reads a list of words from the file (**input.txt** from the Resources - Folder) and finds the count of **vowels**, **consonants**, and **punctuation** marks.
 
 Assume that:
 

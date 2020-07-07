@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Sum Bytes
-[code-task title="Problem: Sum Bytes" taskId="563aca90-b033-4d3d-908e-25e921dac646" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Sum Bytes" taskId="563aca90-b033-4d3d-908e-25e921dac646" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a text file ( **input.txt** from the Resources - Folder) and prints on the console the **sum** of the ASCII symbols of all characters inside of the file.
+Write a program that reads a text file (**input.txt** from the Resources - Folder) and prints on the console the **sum** of the ASCII symbols of all characters inside of the file.
 
 Use **BufferedReader** in combination with **FileReader**.
 

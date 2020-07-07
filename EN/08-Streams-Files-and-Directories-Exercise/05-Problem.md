@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Line Numbers
-[code-task title="Problem: Line Numbers" taskId="6059845f-06d5-4e57-93db-f665072f1734" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Line Numbers" taskId="6059845f-06d5-4e57-93db-f665072f1734" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a text file ( **inputLineNumbers.txt** from the Resources - Folder) and **inserts** line numbers in front of each of its lines.
+Write a program that reads a text file (**inputLineNumbers.txt** from the Resources - Folder) and **inserts** line numbers in front of each of its lines.
 
 The result should be written to **another** text file – **output.txt**.
 

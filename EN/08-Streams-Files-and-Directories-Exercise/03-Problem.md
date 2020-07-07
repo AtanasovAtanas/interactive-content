@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: CAPITAL LETTERS
-[code-task title="Problem: CAPITAL LETTERS" taskId="4c58e831-a4f5-4845-9b41-e083d08eac22" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="CAPITAL LETTERS" taskId="4c58e831-a4f5-4845-9b41-e083d08eac22" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,9 +14,9 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a text file ( **input.txt** from the Resources - Folder) and changes the casing of **all** letters to **upper**.
+Write a program that reads a text file (**input.txt** from the Resources - Folder) and changes the casing of **all** letters to **upper**.
 
-Write the output to another file ( **output.txt** ).
+Write the output to another file (**output.txt**).
 
 Use **BufferedReader** and **PrintWriter**.
 

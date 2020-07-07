@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Sum Lines
-[code-task title="Problem: Sum Lines" taskId="726fd5e4-9683-4204-9223-3fc2b40c088e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Sum Lines" taskId="726fd5e4-9683-4204-9223-3fc2b40c088e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a text file ( **input.txt** from the Resources - Folder) and prints on the console the **sum** of the ASCII symbols of each of its lines.
+Write a program that reads a text file (**input.txt** from the Resources - Folder) and prints on the console the **sum** of the ASCII symbols of each of its lines.
 
 Use **BufferedReader** in combination with **FileReader**.
 

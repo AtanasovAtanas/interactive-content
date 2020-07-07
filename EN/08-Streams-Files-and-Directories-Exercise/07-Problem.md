@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Merge Two Files
-[code-task title="Problem: Merge Two Files" taskId="b3e1004c-471b-483c-9c11-3503b46c218f" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Merge Two Files" taskId="b3e1004c-471b-483c-9c11-3503b46c218f" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads the contents of **two** text files ( **inputOne.txt** , **inputTwo.txt** from Resources - Folder) and **merges** them together into a third one.
+Write a program that reads the contents of **two** text files (**inputOne.txt** , **inputTwo.txt** from Resources - Folder) and **merges** them together into a third one.
 
 ## Guidelines
 There is one zipped folder with resources for all exercises, that you need to use. 

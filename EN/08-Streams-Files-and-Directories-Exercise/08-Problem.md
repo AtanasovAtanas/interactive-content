@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Get Folder Size
-[code-task title="Problem: Get Folder Size" taskId="9ea94b9e-099e-4121-8fa6-cfef538c4e51" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Get Folder Size" taskId="9ea94b9e-099e-4121-8fa6-cfef538c4e51" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
