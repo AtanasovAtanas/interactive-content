@@ -1,4 +1,4 @@
 [slide hideTitle]
-# Problem: Listy Iterator
+# Problem: Collection
 
 [/slide]
