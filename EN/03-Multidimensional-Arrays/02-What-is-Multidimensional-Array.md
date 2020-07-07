@@ -43,14 +43,14 @@ String[][][] stringCube = new String[5][5][5];
 
 ### Initializing Multidimensional Arrays
 
-- Creating and **Initializing** two dimensional array with shortcut syntax
+- Creating and **Initializing** two-dimensional array with shortcut syntax
 ```java
 int[][] matrix = {
   {1, 2, 3, 4}, // row 0 values
   {5, 6, 7, 8}  // row 1 values
 };
 ```
-- **Initializing** two dimensional array with `for-loop`
+- **Initializing** two-dimensional array with `for-loop`
 ```java
 int[][] matrix = new int[2][4];
 
