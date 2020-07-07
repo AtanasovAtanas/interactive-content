@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Speed Racing
-[code-task title="Problem: Speed Racing" taskId="51ee0d4e-daac-43b6-8bde-2477b2e01912" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Speed Racing" taskId="51ee0d4e-daac-43b6-8bde-2477b2e01912" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;

@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Raw Data
-[code-task title="Problem: Raw Data" taskId="45d1be24-82dd-4ff1-9586-d02e73ff698d" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Raw Data" taskId="45d1be24-82dd-4ff1-9586-d02e73ff698d" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;

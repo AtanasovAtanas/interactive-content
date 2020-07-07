@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Family Tree
-[code-task title="Problem: Family Tree" taskId="102bcf46-b2bb-4218-b78d-86641c10eeec" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Family Tree" taskId="102bcf46-b2bb-4218-b78d-86641c10eeec" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;

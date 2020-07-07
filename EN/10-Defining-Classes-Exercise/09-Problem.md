@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Cat Catalog
-[code-task title="Problem: Cat Catalog" taskId="750f758d-a8a6-479e-8d6e-0246f198c1ec" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Cat Catalog" taskId="750f758d-a8a6-479e-8d6e-0246f198c1ec" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;

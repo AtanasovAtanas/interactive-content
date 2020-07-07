@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Opinion Poll
-[code-task title="Problem: Opinion Poll" taskId="ff6d1ff1-daef-4e93-b24d-14c878e40e96" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Opinion Poll" taskId="ff6d1ff1-daef-4e93-b24d-14c878e40e96" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Create Person class with two fields **String name** and **int age**, write a program that reads from the console **N** lines of personal information, and then prints all people whose **age** is **more than 30** years, **sorted in alphabetical order**.
+Create Person class with two fields `String name` and `int age`, write a program that reads from the console **N** lines of personal information, and then prints all people whose **age** is **more than 30** years, **sorted in alphabetical order**.
 
 **Note:** you can use `stream()` to filter the people.
 

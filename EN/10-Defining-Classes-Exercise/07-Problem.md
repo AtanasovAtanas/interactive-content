@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Google
-[code-task title="Problem: Google" taskId="5d118095-25ac-454f-b83d-562694f855fa" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Google" taskId="5d118095-25ac-454f-b83d-562694f855fa" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;

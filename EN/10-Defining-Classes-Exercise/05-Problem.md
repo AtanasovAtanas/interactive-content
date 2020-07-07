@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Car Salesman
-[code-task title="Problem: Car Salesman" taskId="bd8337bb-a2b2-4af9-b2db-ab23ef09eb24" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Car Salesman" taskId="bd8337bb-a2b2-4af9-b2db-ab23ef09eb24" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;

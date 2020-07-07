@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Pokemon Trainer
-[code-task title="Problem: Pokemon Trainer" taskId="557a0bbb-06f1-4916-aa67-034874e07cbd" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Pokemon Trainer" taskId="557a0bbb-06f1-4916-aa67-034874e07cbd" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
