@@ -1020,9 +1020,9 @@ Write a program that **reads a matrix from the console and prints**:
    - The count of columns
    - The sum of all matrix’s elements
 
-On the **first line** you will get the **dimensions** of the matrix `rows` and `columns` **separated with a coma**. 
+On the **first line** you will get the **dimensions** of the matrix `rows` and `columns` **separated with a coma and space**. 
 
-On the **next lines** you will get the elements for each row **separated with a coma**.
+On the **next lines** you will get the elements for each row **separated with a coma and space**.
 
 
 ## Examples
@@ -1158,9 +1158,9 @@ Then find the biggest sum of a **2x2 submatrix**.
 
 **Print the submatrix and its sum.**
 
-On the **first line** you will get the **dimensions** of the matrix `rows` and `columns` **separated with a coma**. 
+On the **first line** you will get the **dimensions** of the matrix `rows` and `columns` **separated with a coma and space**. 
 
-On the **next lines** you will get the elements for each row **separated with a coma**.
+On the **next lines** you will get the elements for each row **separated with a coma and space**.
 
 
 ## Examples
@@ -1339,9 +1339,9 @@ Then find the biggest sum of a **2x2 submatrix**.
 
 **Print the submatrix and its sum.**
 
-On the **first line** you will get the **dimensions** of the matrix `rows` and `columns` **separated with a coma**. 
+On the **first line** you will get the **dimensions** of the matrix `rows` and `columns` **separated with a coma and space**. 
 
-On the **next lines** you will get the elements for each row **separated with a coma**.
+On the **next lines** you will get the elements for each row **separated with a coma and space**.
 
 ## Examples
 | **Input** | **Output** |
