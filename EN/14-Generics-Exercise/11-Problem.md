@@ -63,9 +63,9 @@ John 2 happy
 Peter 0.10 Expressbank
 [/input]
 [output]
-Sofka Tripova -\> Izgrev -\> Burgas
-MitkoShtaigata -\> 18 -\> true
-SashoKompota -\> 0.1 -\> NkqfaBanka
+Sofia Tucker -\> London -\> UK
+John -\> 2 -\> true
+Peter -\> 0.1 -\> Expressbank
 [/output]
 [/test]
 [test open]
