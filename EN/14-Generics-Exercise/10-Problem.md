@@ -34,13 +34,13 @@ The class has to hold **Generics**.
 
 When you create a new object of class -  **"Tuple"**, you should specify the item types separately.
 
-### Input
+## Input
 
 The input consists of three lines:
 
 - The first one is holding a **person's name** and **city of residence**. Both are **separated by space(s)**. You have to collect them in the Tuple and print them on the console. This input comes in the following format:
 
-`{first name} {last name} {address}`
+`{{first name} {last name}} {city}`
 
 - The second line holds a **name** of a person and the **amount of hobbies** he has and comes in the following format:
 
@@ -50,13 +50,13 @@ The input consists of three lines:
 
 `{Integer} {Double}`
 
-### Output
+## Output
 
-- Print the tuple items in format: 
+- Print the Tuple items in the following format: 
 
 `{item1} -> {item2}`
 
-### Constraints
+## Constraints
 
 Use the good practices we have learned. 
 
