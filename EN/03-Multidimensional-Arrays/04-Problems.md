@@ -1135,3 +1135,319 @@ On the **next lines** you will get the elements for each row **separated with a 
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+# Problem: Maximum Sum of 2X2 Submatrix
+[code-task title="Maximum Sum of 2X2 Submatrix" taskId="3db5aaed-42d5-499b-8360-71b881d33e3c" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that **reads a matrix from the console**.
+
+Then find the biggest sum of a **2x2 submatrix**.
+
+**Print the submatrix and its sum.**
+
+On the **first line** you will get the **dimensions** of the matrix `rows` and `columns` **separated with a coma**. 
+
+On the **next lines** you will get the elements for each row **separated with a coma**.
+
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3, 6 | 9 8 |
+| 7, 1, 3, 3, 2, 1 | 7 9 |
+| 1, 3, 9, 8, 5, 6 | 33 |
+| 4, 6, 7, 9, 1, 0 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3, 6
+7, 1, 3, 3, 2, 1
+1, 3, 9, 8, 5, 6
+4, 6, 7, 9, 1, 0
+[/input]
+[output]
+9 8 
+7 9 
+33
+[/output]
+[/test]
+[test open]
+[input]
+2, 4
+10, 11, 12, 13
+14, 15, 16, 17
+[/input]
+[output]
+12 13 
+16 17 
+58
+[/output]
+[/test]
+[test]
+[input]
+5, 4
+0, 1, 2, 3
+4, -5, 6, 7
+8, 9, 10, -11
+12, -13, 14, 15
+16, 17, 18, -19
+[/input]
+[output]
+-13 14 
+17 18 
+36
+[/output]
+[/test]
+[test]
+[input]
+2, 2
+0, -1
+4, 5
+[/input]
+[output]
+0 -1 
+4 5 
+8
+[/output]
+[/test]
+[test]
+[input]
+4, 5
+20, 18, 22, 20, 16
+18, 20, 18, 21, 20
+16, 18, 16, 20, 24
+25, 24, 22, 24, 25
+[/input]
+[output]
+20 24 
+24 25 
+93
+[/output]
+[/test]
+[test]
+[input]
+3, 3
+0, 0, 0
+0, 1, 0
+0, 0, 0
+[/input]
+[output]
+0 0 
+0 1 
+1
+[/output]
+[/test]
+[test]
+[input]
+5, 4
+0, -100, 2, 3
+4, 5, -6000, 7
+8, 9, 10, 11
+12, -13, 14, 15
+16, 1700, 18, -19
+[/input]
+[output]
+-13 14 
+1700 18 
+1719
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Maximum Sum of 2X2 Submatrix
+[code-task title="Maximum Sum of 2X2 Submatrix" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int[] dimensions = Arrays.stream(scanner.nextLine().split(", ")).mapToInt(Integer::parseInt).toArray();
+
+        int[][] matrix = initializeMatrix(scanner, dimensions);
+        int[][] result = new int[2][2];
+
+        int bestSum = Integer.MIN_VALUE;
+        int resultRow = 0;
+        int resultCol = 0;
+        for (int row = 0; row < matrix.length - 1; row++) {
+            for (int col = 0; col < matrix[row].length - 1; col++) {
+                int sum = matrix[row][col] + matrix[row][col + 1] + matrix[row + 1][col] + matrix[row + 1][col + 1];
+                if (sum > bestSum) {
+                    bestSum = sum;
+                    result[0][0] = matrix[row][col];
+                    result[0][1] = matrix[row][col + 1];
+                    result[1][0] = matrix[row + 1][col];
+                    result[1][1] = matrix[row + 1][col + 1];
+                }
+            }
+        }
+        for (int[] row : result) {
+            for (int col : row) {
+                System.out.print(col + " ");
+            }
+            System.out.println();
+        }
+        System.out.println(bestSum);
+    }
+
+    private static int[][] initializeMatrix(Scanner scanner, int[] matrixDimensions) {
+
+        int rows = matrixDimensions[0];
+        int cols = matrixDimensions[1];
+
+        int[][] matrix = new int[rows][cols];
+
+        for (int i = 0; i < rows; i++) {
+            int[] arr = Arrays.stream(scanner.nextLine()
+                    .split(", "))
+                    .mapToInt(Integer::parseInt)
+                    .toArray();
+            matrix[i] = arr;
+        }
+        return matrix;
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that **reads a matrix from the console**.
+
+Then find the biggest sum of a **2x2 submatrix**.
+
+**Print the submatrix and its sum.**
+
+On the **first line** you will get the **dimensions** of the matrix `rows` and `columns` **separated with a coma**. 
+
+On the **next lines** you will get the elements for each row **separated with a coma**.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3, 6 | 9 8 |
+| 7, 1, 3, 3, 2, 1 | 7 9 |
+| 1, 3, 9, 8, 5, 6 | 33 |
+| 4, 6, 7, 9, 1, 0 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3, 6
+7, 1, 3, 3, 2, 1
+1, 3, 9, 8, 5, 6
+4, 6, 7, 9, 1, 0
+[/input]
+[output]
+9 8 
+7 9 
+33
+[/output]
+[/test]
+[test open]
+[input]
+2, 4
+10, 11, 12, 13
+14, 15, 16, 17
+[/input]
+[output]
+12 13 
+16 17 
+58
+[/output]
+[/test]
+[test]
+[input]
+5, 4
+0, 1, 2, 3
+4, -5, 6, 7
+8, 9, 10, -11
+12, -13, 14, 15
+16, 17, 18, -19
+[/input]
+[output]
+-13 14 
+17 18 
+36
+[/output]
+[/test]
+[test]
+[input]
+2, 2
+0, -1
+4, 5
+[/input]
+[output]
+0 -1 
+4 5 
+8
+[/output]
+[/test]
+[test]
+[input]
+4, 5
+20, 18, 22, 20, 16
+18, 20, 18, 21, 20
+16, 18, 16, 20, 24
+25, 24, 22, 24, 25
+[/input]
+[output]
+20 24 
+24 25 
+93
+[/output]
+[/test]
+[test]
+[input]
+3, 3
+0, 0, 0
+0, 1, 0
+0, 0, 0
+[/input]
+[output]
+0 0 
+0 1 
+1
+[/output]
+[/test]
+[test]
+[input]
+5, 4
+0, -100, 2, 3
+4, 5, -6000, 7
+8, 9, 10, 11
+12, -13, 14, 15
+16, 1700, 18, -19
+[/input]
+[output]
+-13 14 
+1700 18 
+1719
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
