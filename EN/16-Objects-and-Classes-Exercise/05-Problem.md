@@ -41,7 +41,7 @@ Format the answer to the **second decimal point**.
 | Ferrari | Color: green |
 | Ford | Horsepower: 120 |
 | Man | Type: Truck |
-| | Model: Man |
+| Close the Catalogue | Model: Man |
 | | Color: red |
 | | Horsepower: 200 |
 | | Cars have average horsepower of: 413.33. |
