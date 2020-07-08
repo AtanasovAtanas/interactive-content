@@ -20,7 +20,7 @@ Your task is simple.
 
 Create a **Class Person**.
 
-Each person should have **name**, **age ** and **town**.
+Each person should have **name**, **age** and **town**.
 
 You should implement the interface - `Comparable` and try to override the `compareTo` method.
 
