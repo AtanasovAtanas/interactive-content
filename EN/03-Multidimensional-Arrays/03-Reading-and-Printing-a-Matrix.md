@@ -28,24 +28,10 @@ for (int row = 0; row < rows; row++) {
 
 - Printing a Matrix
 ```java live
-Scanner scanner = new Scanner(System.in);
+int[][] matrix = {{1, 2, 3, 4},
+                  {5, 6, 7, 8}};
 
-System.out.print("Enter number of rows:");
-int rows = Integer.parseInt(scanner.nextLine());
-
-System.out.print("Enter number of cols:");
-int cols = Integer.parseInt(scanner.nextLine());
-
-int[][] matrix = new int[rows][cols];
-
-for (int row = 0; row < rows; row++) {
-
-    System.out.println("Enter Rows elements separated by space:");
-    String[] inputTokens = scanner.nextLine().split(" ");
-    for (int column = 0; column < cols; column++) {
-        matrix[row][column] = Integer.parseInt(inputTokens[column]);
-    }
-}
+// Printing the matrix
 for (int row = 0; row < matrix.length; row++) {
     for (int col = 0; col < matrix[row].length; col++) {
         int element = matrix[row][col];
