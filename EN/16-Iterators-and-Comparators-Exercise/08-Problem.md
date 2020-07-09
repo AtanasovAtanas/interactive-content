@@ -64,7 +64,7 @@ When a `Print` command for a clinic is called it should print **all** rooms in t
 | **Command** | **Return Type** | **Description** |
 | --- | --- | --- |
 | `Create Pet {name} {age} {kind}` | void | Creates a pet with the specified name and age.(true if the operation is successful and false if it isn't) |
-| Create Clinic {name} {rooms} | void | Creates a Clinic with the specified name and number of rooms.(if the rooms are not odd, throws an exception) |
+| Create Clinic \{name} \{rooms} | void | Creates a Clinic with the specified name and number of rooms.(if the rooms are not odd, throws an exception) |
 | Add {pet's name} {clinic's name} | boolean | This command should add the given pet in the specified clinic.(true if the operation is successful and false if it isn't). |
 | Release {clinic's name} | boolean | This command should release an animal from the specified clinic. (true if the operation is successful and false if it isn't). |
 | HasEmptyRooms {clinic's name} | boolean | Returns whether the clinic has any empty rooms.(true if it has and false if it doesn't). |
