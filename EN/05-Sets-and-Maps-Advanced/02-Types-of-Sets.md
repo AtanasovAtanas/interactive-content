@@ -1,7 +1,8 @@
+# Types of Sets
 
 [slide]
 
-# Types of Sets
+
 
 # HashSet<E>
 
