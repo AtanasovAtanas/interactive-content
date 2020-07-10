@@ -3,7 +3,7 @@
 
 # Types of Sets
 
-## HashSet<E>
+# HashSet<E>
 
 - Initialization:
 ```java
@@ -11,14 +11,14 @@ Set<String> hash = new HashSet<String>();
 ```
 
 
-## TreeSet<E>
+# TreeSet<E>
 
 - Initialization:
 ```java
 Set<String> tree = new TreeSet<>();
 ```
 
-## LinkedHashSet<E>
+# LinkedHashSet<E>
 
 - Initialization:
 ```java
