@@ -9,7 +9,7 @@
 [task-description]
 ## Description
 
-YYou have initial **health 100 and initial bitcoins 0**.
+You have initial **health 100 and initial bitcoins 0**.
 
 You will be given a string, representing the rooms of the dungeon.
 

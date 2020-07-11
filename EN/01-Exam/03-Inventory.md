@@ -11,8 +11,6 @@
 
 ### Input \/ Constraints
 
-### Input \/ Constraints
-
 You will receive a journal with some Collecting items, separated with `, ` **(comma and space)**. After that, until receiving `Craft!` you will be receiving different commands.
 
 Commands split by ` - ` **(space dash spase)**:
