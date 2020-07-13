@@ -704,12 +704,12 @@ xys2FYzn
 [test]
 [input]
 7IK9Yo0h
-9NoBUajQ
+9NoBPajQ
 Ce8vwPmE
 SVQXQCbc
 tSzE5t0p
 PARTY
-9NoBUajQ
+9NoBPajQ
 Ce8vwPmE
 SVQXQCbc
 END
@@ -722,7 +722,7 @@ tSzE5t0p
 [/test]
 [test]
 [input]
-m8rfQBvl
+m8rfSBvl
 fc1oZCE0
 UgffRkOn
 7ugX7bm0
@@ -746,7 +746,7 @@ fPXNHpm1
 HTTbwRmM
 B5yTkMQi
 8N0FThqG
-m8rfQBvl
+m8rfSBvl
 fc1oZCE0
 UgffRkOn
 7ugX7bm0
