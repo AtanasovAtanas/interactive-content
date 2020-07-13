@@ -481,7 +481,7 @@ CA2822UU
 
 [slide]
 # Problem: SoftUni Party
-[code-task title="Problem: SoftUni Party" taskId="9731adb3-e6c2-449b-9e28-79d29de7caa4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="SoftUni Party" taskId="9731adb3-e6c2-449b-9e28-79d29de7caa4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -495,13 +495,331 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-There is a party in SoftUni. Many guests are invited, and they are two types: **VIP** and **regular**. 
+There is a party in SoftUni. Many guests are invited, and they are two types: **VIP** and **regular**.
+
 When guest comes, you have to check if he/she exist in any of two reservation lists.
+
 All reservation numbers will be with 8 chars.
+
 All VIP numbers start with digit.
+
 There will be 2 command lines:
- - First is "PARTY" - party is on and guests start coming.
- - Second is "END" - then party is over, and no more guest will come.
+ - First is "**PARTY**" - party is on and guests start coming.
+ - Second is "**END**" - then party is over, and no more guest will come.
+Output shows all guests, who didn't come to the party (**VIP must be first**).
+
+
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 7IK9Yo0h | 2 |
+| 9NoBUajQ | 7IK9Yo0h |
+| Ce8vwPmE | tSzE5t0p |
+| SVQXQCbc |  |
+| tSzE5t0p |  |
+| PARTY |  |
+| 9NoBUajQ |  |
+| Ce8vwPmE |  |
+| SVQXQCbc |  |
+| END |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| m8rfQBvl | 2 |
+| fc1oZCE0 | MDzcM9ZK |
+| UgffRkOn | xys2FYzn |
+| 7ugX7bm0 |  |
+| 9CQBGUeJ |  |
+| 2FQZT3uC |  |
+| dziNz78I |  |
+| mdSGyQCJ |  |
+| LjcVpmDL |  |
+| fPXNHpm1 |  |
+| HTTbwRmM |  |
+| B5yTkMQi |  |
+| 8N0FThqG |  |
+| xys2FYzn |  |
+| MDzcM9ZK |  |
+| PARTY |  |
+| 2FQZT3uC |  |
+| dziNz78I |  |
+| mdSGyQCJ |  |
+| LjcVpmDL |  |
+| fPXNHpm1 |  |
+| HTTbwRmM |  |
+| B5yTkMQi |  |
+| 8N0FThqG |  |
+| m8rfQBvl |  |
+| fc1oZCE0 |  |
+| UgffRkOn |  |
+| 7ugX7bm0 |  |
+| 9CQBGUeJ |  |
+| END |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+7IK9Yo0h
+9NoBUajQ
+Ce8vwPmE
+SVQXQCbc
+tSzE5t0p
+PARTY
+9NoBUajQ
+Ce8vwPmE
+SVQXQCbc
+END
+[/input]
+[output]
+2
+7IK9Yo0h
+tSzE5t0p
+[/output]
+[/test]
+[test open]
+[input]
+m8rfQBvl
+fc1oZCE0
+UgffRkOn
+7ugX7bm0
+9CQBGUeJ
+2FQZT3uC
+dziNz78I
+mdSGyQCJ
+LjcVpmDL
+fPXNHpm1
+HTTbwRmM
+B5yTkMQi
+8N0FThqG
+xys2FYzn
+MDzcM9ZK
+PARTY
+2FQZT3uC
+dziNz78I
+mdSGyQCJ
+LjcVpmDL
+fPXNHpm1
+HTTbwRmM
+B5yTkMQi
+8N0FThqG
+m8rfQBvl
+fc1oZCE0
+UgffRkOn
+7ugX7bm0
+9CQBGUeJ
+END
+[/input]
+[output]
+2
+MDzcM9ZK
+xys2FYzn
+[/output]
+[/test]
+[test]
+[input]
+m8rfQBvl
+fc1oZCE0
+UgffRkOn
+7ugX7bm0
+9CQBGUeJ
+2FQZT3uC
+dziNz78I
+mdSGyQCJ
+LjcVpmDL
+fPXNHpm1
+HTTbwRmM
+B5yTkMQi
+8N0FThqG
+xys2FYzn
+MDzcM9ZK
+PARTY
+m8rfQBvl
+fc1oZCE0
+UgffRkOn
+7ugX7bm0
+9CQBGUeJ
+2FQZT3uC
+dziNz78I
+mdSGyQCJ
+LjcVpmDL
+fPXNHpm1
+HTTbwRmM
+B5yTkMQi
+8N0FThqG
+xys2FYzn
+MDzcM9ZK
+END
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+PARTY
+END
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+m8rfQBvl
+fc1oZCE0
+UgffRkOn
+7ugX7bm0
+9CQBGUeJ
+2FQZT3uC
+dziNz78I
+mdSGyQCJ
+LjcVpmDL
+fPXNHpm1
+HTTbwRmM
+B5yTkMQi
+8N0FThqG
+xys2FYzn
+MDzcM9ZK
+PARTY
+END
+[/input]
+[output]
+15
+2FQZT3uC
+7ugX7bm0
+8N0FThqG
+9CQBGUeJ
+B5yTkMQi
+HTTbwRmM
+LjcVpmDL
+MDzcM9ZK
+UgffRkOn
+dziNz78I
+fPXNHpm1
+fc1oZCE0
+m8rfQBvl
+mdSGyQCJ
+xys2FYzn
+[/output]
+[/test]
+[test]
+[input]
+7IK9Yo0h
+9NoBPajQ
+Ce8vwPmE
+SVQXQCbc
+tSzE5t0p
+PARTY
+9NoBPajQ
+Ce8vwPmE
+SVQXQCbc
+END
+[/input]
+[output]
+2
+7IK9Yo0h
+tSzE5t0p
+[/output]
+[/test]
+[test]
+[input]
+m8rfSBvl
+fc1oZCE0
+UgffRkOn
+7ugX7bm0
+9CQBGUeJ
+2FQZT3uC
+dziNz78I
+mdSGyQCJ
+LjcVpmDL
+fPXNHpm1
+HTTbwRmM
+B5yTkMQi
+8N0FThqG
+xys2FYzn
+MDzcM9ZK
+PARTY
+2FQZT3uC
+dziNz78I
+mdSGyQCJ
+LjcVpmDL
+fPXNHpm1
+HTTbwRmM
+B5yTkMQi
+8N0FThqG
+m8rfSBvl
+fc1oZCE0
+UgffRkOn
+7ugX7bm0
+9CQBGUeJ
+END
+[/input]
+[output]
+2
+MDzcM9ZK
+xys2FYzn
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: SoftUni Party
+[code-task title="SoftUni Party" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Set<String> vip = new TreeSet<>();
+        Set<String> regular = new TreeSet<>();
+        
+        String guestId = scanner.nextLine();
+
+        while (!guestId.equals("PARTY")) {
+            if (Character.isDigit(guestId.charAt(0))) {
+                vip.add(guestId);
+            } else {
+                regular.add(guestId);
+            }
+            guestId = scanner.nextLine();
+        }
+
+        guestId = scanner.nextLine();
+
+        while (!guestId.equals("END")) {
+
+            vip.remove(guestId);
+            regular.remove(guestId);
+
+            guestId = scanner.nextLine();
+        }
+        System.out.println(vip.size() + regular.size());
+        vip.forEach(System.out::println);
+        regular.forEach(System.out::println);
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+There is a party in SoftUni. Many guests are invited, and they are two types: **VIP** and **regular**.
+
+When guest comes, you have to check if he/she exist in any of two reservation lists.
+
+All reservation numbers will be with 8 chars.
+
+All VIP numbers start with digit.
+
+There will be 2 command lines:
+ - First is "**PARTY**" - party is on and guests start coming.
+ - Second is "**END**" - then party is over, and no more guest will come.
 Output shows all guests, who didn't come to the party (**VIP must be first**).
 
 
