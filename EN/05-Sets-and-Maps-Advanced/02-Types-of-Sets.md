@@ -817,10 +817,12 @@ All reservation numbers will be with 8 chars.
 
 All VIP numbers start with digit.
 
-There will be 2 command lines:
- - First is "**PARTY**" - party is on and guests start coming.
- - Second is "**END**" - then party is over, and no more guest will come.
-Output shows all guests, who didn't come to the party (**VIP must be first**).
+## Input
+- Until **PARTY** command, you will receive guest invitations
+- Until **END** command, you will receive a second list with guests that actually cаme to the party
+## Output 
+- On the first line print the count of the guests who didn't come to the party
+- On the next lines print all guests, who didn't come to the party (**VIP must be first**).
 
 
 
