@@ -291,7 +291,7 @@ public class Main {
             }
             input = sc.nextLine();
         }
-        
+
         if (parkingLot.isEmpty()){
             System.out.println("Parking Lot is Empty");
         }else{
@@ -353,10 +353,10 @@ IN, CA2822UU
 END
 [/input]
 [output]
-CA2822UU
-CA2844AA
 CA9999TT
+CA2844AA
 CA9876HH
+CA2822UU
 [/output]
 [/test]
 [test open]
@@ -383,12 +383,12 @@ IN, CA2822UU
 END
 [/input]
 [output]
-CA2866HI
-CA1234TA
-CA2822UU
 CA2844AA
+CA1234TA
 CA9999TT
+CA2866HI
 CA9876HH
+CA2822UU
 [/output]
 [/test]
 [test]
@@ -467,12 +467,12 @@ IN, CA2822UU
 END
 [/input]
 [output]
-CA2866HI
-CA1234TA
-CA2822UU
 CA2844AA
+CA1234TA
 CA9999TT
+CA2866HI
 CA9876HH
+CA2822UU
 [/output]
 [/test]
 [/tests]
