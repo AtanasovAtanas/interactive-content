@@ -80,10 +80,42 @@ System.out.println(linkedHashSet);
 [slide]
 # How to iterate over the Set
 
-- Iterate using Iterator 
+- Using `Iterator<E>` 
 
-- Iterate using For-each loop
+Iterators are used in Collection framework in Java to retrieve elements **one by one**.
 
+You can see how to use it for iterating over the set in the following example:
+```java live
+Set<Integer> hash = new HashSet<>(Arrays.asList(40,20,30,10,50));
+
+// creating an Iterator object by calling iterator() method present in Collection Interface
+Iterator<Integer> iterator = hash.iterator();
+
+// checking the next element availability
+while (iterator.hasNext()){
+
+    // moving cursor to the next element and return it
+    int currentElement = iterator.next();
+    System.out.println(currentElement);
+}
+```
+
+- Using `For-each` loop
+
+```java live
+Set<Integer> hash = new HashSet<>(Arrays.asList(40,20,30,10,50));
+
+for (Integer element : hash) {
+    System.out.println(element);
+}
+```
+- Using `ForEach()` - method
+
+```java live
+ Set<Integer> hash = new HashSet<>(Arrays.asList(40,20,30,10,50));
+
+ hash.forEach(System.out::println);
+```
 
 [/slide]
 
