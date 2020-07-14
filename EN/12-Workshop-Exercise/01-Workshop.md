@@ -17,3 +17,4 @@ Just put the input numbers in the stack and pop them.
 | **Input** | **Output** |
 | --- | --- |
 | 1 | 1 |
+[/slide]
