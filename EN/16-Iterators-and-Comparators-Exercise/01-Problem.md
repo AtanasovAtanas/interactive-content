@@ -39,7 +39,7 @@ By default, the internal index should be pointing to **the zero index** of the L
 
 ## Input
 
-Input will come from the console as **lines** of commands. The first line will **always** be **Create** command in the input. The last command received will **always** be **END** command.
+Input will come from the console as **lines** of commands. The first line will **always** be **Create** command in the input. The last command received will **always** be `END`.
 
 ## Output
 

@@ -49,11 +49,11 @@ Now when we have covered adding the pets, it is time to find a way to release th
 
 The process of releasing them is not so simple when the release method is called, we start from the **center** room (3) and continue **right** (4, 5… and so on) until we find a pet or reach the **last** room. 
 
-If we reach the last room, we start from the **first** (1) and again move right until we reach the ** center** room (3). 
+If we reach the last room, we start from the **first** (1) and again move right until we reach the **center** room (3). 
 
 If a pet is found, we **remove** it from the collection, stop the further search, and **return** `true`, if a pet is **NOT** found, the operation **returns** `false`.
 
-When a print command for a room is called, if the room contains a pet we print the pet on a single line in the format `{pet name} {pet age} {pet kind}`. 
+When a `Print` command for a room is called, if the room contains a pet we print the pet on a single line in the format `{pet name} {pet age} {pet kind}`. 
 
 Alternatively, if the room is empty print **"Room empty"** instead. 
 
@@ -83,9 +83,9 @@ For each command with a boolean **return** type received through the input, you 
 
 In case of a method **throwing** an **exception** (such as trying to create a clinic with even number of rooms or trying to add a pet that doesn't exist) you should **catch** the exceptions and instead, print `Invalid Operation!`. 
 
-The Print command with a clinic and a room should print information for that room in the format **specified** above. 
+The `Print` command with a clinic and a room should print information for that room in the format **specified** above. 
 
-The Print command with only a clinic should print information **for each** room in the clinic in **order** of their numbers.
+The `Print` command with only a clinic should print information **for each** room in the clinic in **order** of their numbers.
 
 ## Constraints
 

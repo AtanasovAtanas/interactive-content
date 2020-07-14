@@ -24,7 +24,7 @@ Each person should have **name**, **age** and **town**.
 
 You should implement the interface - `Comparable` and try to override the `compareTo` method.
 
-When you compare two people, first you should compare their **names**, after that - their **age** and last but not at least - compare their **town**.
+When you compare two persons, first you should compare their **names**, after that - their **age** and last but not at least - compare their **town**.
 
 
 ## Input
@@ -37,7 +37,7 @@ Collect them till you receive `END`
 After that, you will receive an integer **N** - the **Nth** person in your collection.
 
 ## Output
-On the single output line, you should bring statistics, how many people are **equal** to him, how many people are **not** equal to him, and the **total** people in your collection.
+On the single output line, you should bring statistics, how many people are **equal** to the **Nth person**, how many people are **not** equal to this person, and the **total** people in your collection.
 
 Format:
 

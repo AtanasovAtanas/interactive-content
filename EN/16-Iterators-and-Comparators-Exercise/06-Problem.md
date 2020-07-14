@@ -24,9 +24,13 @@ Create a class `Person` that holds **name** and **age**.
 
 Create 2 Comparators for Person (classes which implement the `Comparator<Person>` **interface**). 
 
-The first comparator should compare people based on the **length of their name** as a first parameter if two persons have a name with the **same** length, perform a **case-insensitive** compare based on the **first letter of their name** instead. 
+The first comparator should compare people based on the **length of their name** as a first parameter.
 
-The second comparator should compare them based on their **age**. Create 2 **TreeSets** of type Person, the first should implement the name comparator, the second should implement the age comparator.
+If two persons have a name with the **same** length, perform a **case-insensitive** compare based on the **first letter of their name** instead. 
+
+The second comparator should compare them based on their **age**. 
+
+Create 2 **TreeSets** of type Person, the first should implement the name comparator, the second should implement the age comparator.
 
 ## Input
 On the first line, you will receive a number **N**. 

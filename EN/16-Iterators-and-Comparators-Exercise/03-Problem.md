@@ -53,7 +53,7 @@ Foreach the stack **twice** and print all elements. Each element should be on a 
 ## Constraints
 - The elements in the `Push` command will be **valid** integers **between** [2 ^ -32 ... 2 ^ 32 - 1].
 - The commands will always be **valid** (always be either `Push`, `Pop`, or `END`).
-- There will be no more than **16**** elements in the `Push` command.
+- There will be no more than **16** elements in the `Push` command.
 - If `Pop` command **could not** be executed as expected (e.g. no elements in the stack), print on the console: `No elements`.
 
 ## Examples

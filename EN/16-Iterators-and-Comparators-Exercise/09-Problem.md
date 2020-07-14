@@ -16,13 +16,13 @@ public class Main {
 ## Description
 You need to write your simplified implementation of a generic Linked List which has an Iterator.
 
-The list should support the **Add** and **Remove** operations, should reveal the number of elements it has with a **getSize** function, and should have an implemented iterator (should be **foreachable**).
+The list should support the `Add` and `Remove` operations, should reveal the number of elements it has with a `getSize` function, and should have an implemented iterator (should be **foreachable**).
 
-The **add** method should add the new element at the end of the collection.
+The `add` method should add the new element at the end of the collection.
 
-The **remove** method should remove the first occurrence of the item starting at the beginning of the collection, if the element is successfully removed the method **returns true**, alternatively, if the element passed is not in the collection the method should **return false**.
+The `remove` method should remove the first occurrence of the item starting at the beginning of the collection, if the element is successfully removed the method **returns true**, alternatively, if the element passed is not in the collection the method should **return false**.
 
-The **getSize** method should **return** the number of elements currently in the list.
+The `getSize` method should **return** the number of elements currently in the list.
 
 The **iterator** should iterate over the collection starting from the first entered element.
 
@@ -40,7 +40,7 @@ On each of the next **N** lines you will receive a command in one of the followi
 
 The output should consist of exactly 2 lines. 
 
-On the first, you should print the result of calling the **getSize** function on the Linked list. 
+On the first, you should print the result of calling the `getSize` function on the Linked list. 
 
 On the next lines, you should print **all elements** of the collection by calling **for each** on the collection.
 
