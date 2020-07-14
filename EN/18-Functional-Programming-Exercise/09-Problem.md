@@ -14,9 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Find all **numbers** in the range **1 ...
-
-N** that is **divisible** by the numbers of a given sequence.
+Find all **numbers** in the range **1 ... N** that is **divisible** by the numbers of a given sequence.
 
 Use **predicates**.
 
