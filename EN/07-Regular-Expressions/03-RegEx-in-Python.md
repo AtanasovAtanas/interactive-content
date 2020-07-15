@@ -1,6 +1,16 @@
 # RegEx in Python
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="5508" endTimeInSeconds="5724"]
+[stream language="EN" videoId="435033424" default /]
+[stream language="RO" videoId="435046150"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # RegEx Module
 
 Python has a built-in package called `re` module, which provides regular expression support.

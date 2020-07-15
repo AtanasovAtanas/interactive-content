@@ -1,6 +1,16 @@
 # RegEx Definition
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="999" endTimeInSeconds="1495"]
+[stream language="EN" videoId="435033424" default /]
+[stream language="RO" videoId="435046150"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # What Is RegEx?
 
 A regular expression or regex is a sequence of characters that define a search pattern.

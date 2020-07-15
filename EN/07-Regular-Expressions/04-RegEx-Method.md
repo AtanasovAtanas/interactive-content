@@ -1,6 +1,16 @@
 # RegEx Method
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="5724" endTimeInSeconds="8248"]
+[stream language="EN" videoId="435033424" default /]
+[stream language="RO" videoId="435046150"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # RegEx Method
 
 The `findall()` methid returns a list containing all matches in the order they are found:

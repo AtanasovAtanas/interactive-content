@@ -1,6 +1,16 @@
 # Syntax
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="1495" endTimeInSeconds="5508"]
+[stream language="EN" videoId="435033424" default /]
+[stream language="RO" videoId="435046150"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Syntax
 
 Here we'll look at basic RegEx syntax.
