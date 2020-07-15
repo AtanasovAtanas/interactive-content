@@ -1,7 +1,7 @@
 [slide hideTitle]
-# Problem: Re+Volt
-[code+task title="Re+Volt" taskId="9d5cd2f5+aa55+4917+ae5e+27a314f2c4e7" executionType="tests+execution" executionStrategy="java+code" requiresInput]
-[code+editor language=java]
+# Problem: Re-Volt
+[code-task title="Re-Volt" taskId="9d5cd2f5-aa55-4917-ae5e-27a314f2c4e7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
 import java.util.*;
 
@@ -11,8 +11,8 @@ public class Main {
     }
 }
 ```
-[/code+editor]
-[task+description]
+[/code-editor]
+[task-description]
 ## Description
 You will be given an integer N for the size of the square matrix and then an integer for the count of commands.
 
@@ -40,28 +40,28 @@ When the player reaches the **finish mark** or the **count of commands is reache
 
 ## Input
 
-+ On the first line, you are given the integer N – the size of the square matrix.
-+ On the second you are given the count of commands.
-+ The next N lines hold the values for every row.
-+ On each of the next lines, you will get commands for movement directions.
+- On the first line, you are given the integer N – the size of the square matrix.
+- On the second you are given the count of commands.
+- The next N lines hold the values for every row.
+- On each of the next lines, you will get commands for movement directions.
 
 ## Output
 
-+ If the player reaches the finish mark, print:
-  + `Player won!`
-+ If the player reaches the commands count and hasn't reached the finish mark print:
-  + `Player lost!`
+- If the player reaches the finish mark, print:
+  - `Player won!`
+- If the player reaches the commands count and hasn't reached the finish mark print:
+  - `Player lost!`
 
-+ At the end print the matrix.
+- At the end print the matrix.
 
 ## Constraints
 
-+ The size of the matrix will be between [2 ... 20].
-+ The players will always be indicated with **"f"**.
-+ If the player steps on the finish mark **at the same time** as his last command, he **wins** the game.
-+ Commands will be in the format **up** , **down** , **left** or **right**.
-+ There won't be a case where you bypass the finish while you are on a trap or a bonus.
-+ A trap will never place you into a bonus or another trap and a bonus will never place you into a trap or another bonus.
+- The size of the matrix will be between [2 ... 20].
+- The players will always be indicated with **"f"**.
+- If the player steps on the finish mark **at the same time** as his last command, he **wins** the game.
+- Commands will be in the format **up** , **down** , **left** or **right**.
+- There won't be a case where you bypass the finish while you are on a trap or a bonus.
+- A trap will never place you into a bonus or another trap and a bonus will never place you into a trap or another bonus.
 
 ## Examples
 | **Input** | **Output** | **Comments** |
@@ -79,7 +79,7 @@ When the player reaches the **finish mark** or the **count of commands is reache
 
 
 | **Input** | **Output** | **Comments** |
-| +++ | +++ | +++ |
+| --- | --- | --- |
 | 4 | Player lost! | The first command is up so f moves up and the new player position is (0,1).  |
 | 3 | ++++ | The next command is up again, so the player goes out of the matrix and comes back from the other side at (3,1).  |
 | ++++ | +++B | Then the command is left, so the end position is (3,0) which is not the finish mark, so the player has lost. |
