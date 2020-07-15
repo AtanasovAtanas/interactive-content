@@ -294,7 +294,7 @@ public int removeLast() {
 [/slide]
 
 [slide]
-## Implement forEach(Consumer/<Integer/>) Method
+## Implement forEach(Consumer/<Integer>) Method
 
 We have a doubly linked list. We can add elements to it. 
 
