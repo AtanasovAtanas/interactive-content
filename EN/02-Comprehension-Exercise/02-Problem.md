@@ -1,3 +1,14 @@
+# Problem: Words Lengths
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="436085924" default /]
+[stream language="RO" videoId="436342735"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Words Lengths
 [code-task title="Problem: Words Lengths" taskId="5a115324-381d-4527-af3a-9240985b54ea" executionType="tests-execution" executionStrategy="python-code" requiresInput]

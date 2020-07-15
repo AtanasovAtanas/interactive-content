@@ -1,3 +1,14 @@
+# Problem: Integer Operations
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="436085963" default /]
+[stream language="RO" videoId="436342752"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Number Classification
 [code-task title="Problem: Number Classification" taskId="1002ef9b-f0e9-4d80-bd53-d221a3870113" executionType="tests-execution" executionStrategy="python-code" requiresInput]

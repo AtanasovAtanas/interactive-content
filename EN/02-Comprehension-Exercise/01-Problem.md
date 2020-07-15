@@ -1,3 +1,14 @@
+# Problem: Word Filter
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="436085891" default /]
+[stream language="RO" videoId="436342716"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Word Filter
 [code-task title="Problem: Word Filter" taskId="42bca445-e044-41e2-8b58-2605aa599bb5" executionType="tests-execution" executionStrategy="python-code" requiresInput]
