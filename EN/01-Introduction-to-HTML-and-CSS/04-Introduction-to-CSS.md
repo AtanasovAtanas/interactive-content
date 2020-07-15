@@ -2,6 +2,11 @@
 
 [slide]
 # What is CSS?
+
+[vimeo-video]
+[stream language="EN" videoId="431748769" default /]
+[/video-vimeo]
+
 **Cascading Style Sheets** (**CSS**) is a stylesheet language used to describe the **presentation of a document written in HTML**.
 
 CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
@@ -44,6 +49,11 @@ Example Explained:
 - `color` is a **property**, and `green` is the **property value**
 
 # Element Selectors
+
+[vimeo-video]
+[stream language="EN" videoId="431748394" default /]
+[/video-vimeo]
+
 The element selector selects all elements with the specified element name.
 
 Styling all headings of level 1 `<h1>`:
@@ -57,6 +67,10 @@ Styling all headings of level 1 `<h1>`:
 
 [slide]
 # Internal CSS
+
+[vimeo-video]
+[stream language="EN" videoId="431748433" default /]
+[/video-vimeo]
 
 An internal style sheet may be used if one single HTML page has a unique style.
 
@@ -72,6 +86,10 @@ Example:
 
 [slide]
 # CSS id Selector
+
+[vimeo-video]
+[stream language="EN" videoId="431748461" default /]
+[/video-vimeo]
 
 The CSS ID selector matches an element based on the value of its `id` attribute which must **match exactly** the value given in the selector.
 
@@ -96,6 +114,10 @@ To select an element with a specific id, write a hash (`#`) character, followed 
 
 [slide]
 # CSS class Selector
+
+[vimeo-video]
+[stream language="EN" videoId="431748491" default /]
+[/video-vimeo]
 
 The `.class` selector selects elements with a specific `class` attribute.
 

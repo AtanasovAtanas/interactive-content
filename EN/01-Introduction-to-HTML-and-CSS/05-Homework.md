@@ -461,6 +461,10 @@ yes
 
 # Problem: Tags Cardio - Table
 
+[vimeo-video]
+[stream language="EN" videoId="431780276" default /]
+[/video-vimeo]
+
 [code-task title="Tags Cardio - Table" taskId="d1cb2a6b-64b9-4589-8c5e-3852f952588d" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
