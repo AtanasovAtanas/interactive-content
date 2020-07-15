@@ -31,11 +31,11 @@ Feel free to implement your own functionality or to write the methods by yoursel
 
 ### Details about the Structure
 
-The **Java LinkedList** use a doubly linked list which provides a linear data structure that resembles a list, but has different functionalities. 
+The **Java LinkedList** uses a `DoublyLinkedList` which provides a linear data structure that resembles a list but has different functionalities. 
 
-Each element in it "knows" about the previous one, if there is such, and the next one, again, if there is such. 
+Each element in it "knows" about the previous one, if it is such, and the next one, again, if there is such. 
 
-This is possible, because the **doubly linked list** has **nodes** and each node has **two reference fields** pointing to other nodes and **a value field**, which contains some kind of data. 
+This is possible because the **doubly linked list** has **nodes** and each node has **two reference fields** pointing to other nodes and **a value field**, which contains some kind of data. 
 
 By definition, the **doubly linked list** has a **head** (list start) and a **tail** (list end). 
 
@@ -60,13 +60,13 @@ The first step when implementing a linked / doubly linked list is to understand 
 
 - `ListNode` – a class to hold a single list node (its value + next node + previous node)
 
-- `DoublyLinkedList` – a class that holds the entire list (its head + tail + operations)
+- `DoublyLinkedList` – a class that holds the entire list (head + tail + operations)
 
-Now, let's create the `ListNode` class. 
+Now, let's create a `ListNode` class. 
 
 It should hold an **item** and a reference to its previous and next **node**. 
 
-We can do that inside the `DoublyLinkedList` class, because we will use it only internally inside it. 
+We can do that inside the `DoublyLinkedList` class because we will use it only internally inside it. 
 
 Here is how the class should look:
 
@@ -86,7 +86,7 @@ public class DoublyLinkedList {
 
 The class `ListNode` is called a **recursive data structure**, because it references itself recursively. 
 
-In this case our nodes **item** field will be of type `int`. 
+In this case, our nodes **item** field will be of type `int`. 
 
 After the **Generics** lecture from this module, you can try to change that and make the structure generic, which means it will be able to work with any type.
 
@@ -116,7 +116,7 @@ public class DoublyLinkedList {
 
 Adding an element at the beginning of the list (before its head) has **two scenarios** (considered in the above code):
 
-- **Empty list** - add the new element as `head` and `tail` in the same time.
+- **Empty list** - add the new element as `head` and `tail` at the same time.
 
 - **Non-empty list** - add the new element as `newHead` and redirect the **old head** as second element, just after the `newHead`.
 
@@ -178,7 +178,7 @@ public void addLast(int element) {
 [slide]
 ## Implement get(int index) Method
 
-Next, implement the `get(int index)` method for returning the element at specified position in this list.
+Next, implement the `get(int index)` method for returning the element at the specified position in this list.
 
 Here is how the method should work step by step.
 
@@ -227,7 +227,7 @@ Next, let's implement the method `removeFirst()` -> `int`.
 
 It should **remove the first element** from the list and move its **head** to point to the second element. 
 
-The removed element should be returned as a result from the method. 
+The removed element should be returned as a result of the method. 
 
 In case of an empty list, the method should throw an exception. 
 
@@ -296,7 +296,7 @@ public int removeLast() {
 [slide]
 ## Implement forEach( Consumer < Integer > ) Method
 
-We have a doubly linked list. We can add elements to it. 
+We have a `DoublyLinkedList`. We can add elements to it. 
 
 But we cannot see what is inside, because the list still does not have a method to traverse its elements (pass through each one of them, one by one). 
 
@@ -342,7 +342,7 @@ You could use the following steps to implement this method:
 
 - Pass through all elements of the list and fill them to `int[0]`, `int[1]`, ..., `int[size - 1]`
 
-- Return the array as result
+- Return the array as a result
 
 ``` java
 public int[] toArray() {
