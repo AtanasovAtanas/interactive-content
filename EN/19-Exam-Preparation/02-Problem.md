@@ -18,7 +18,7 @@ You will be given an integer N for the size of the square matrix and then an int
 
 On the next **n** lines, you will receive the rows of the matrix.
 
-The player starts at a random position (the player is marked with **"f"**)and **all of the empty slots** will be filled with **" - "** (dash).
+The player starts at a random position (the player is marked with **"f"**)and **all of the empty slots** will be filled with **" + "** (plus).
 
 The goal is to reach the finish mark which will be marked with **"F"**.
 
@@ -67,25 +67,25 @@ When the player reaches the **finish mark** or the **count of commands is reache
 | **Input** | **Output** | **Comments** |
 | --- | --- | --- |
 | 5 | Player won! | The first command is down so f moves down.  |
-| 5 | ----- | On turn 1, the player steps on a bonus and does an additional step.  |
-| ----- | ----- | On turn 2, the player steps on a trap and goes a step back. After each turn the field is: |
-| -f--- | -B--- |   1      2      3    |
-| -B--- | --T-- | -----  -----  ----- |
-| --T-- | -f--- | -----  -----  ----- |
-| -F--- |  | -B---  -B---  -B--- |
-| down |  | -fT--  -fT--  --T-- |
-| right |  | -F---  -F---  -f--- |
+| 5 | +++++ | On turn 1, the player steps on a bonus and does an additional step.  |
+| +++++ | +++++ | On turn 2, the player steps on a trap and goes a step back. After each turn the field is: |
+| +f+++ | +B+++ |   1      2      3    |
+| +B+++ | ++T++ | +++++  +++++  +++++ |
+| ++T++ | +f+++ | +++++  +++++  +++++ |
+| +F+++ |  | +B+++  +B+++  +B+++ |
+| down |  | +fT++  +fT++  ++T++ |
+| right |  | +F+++  +F+++  +f+++ |
 | down |  | On turn 3 f reaches the finish 'F' and wins the game. |
 
 
 | **Input** | **Output** | **Comments** |
 | --- | --- | --- |
 | 4 | Player lost! | The first command is up so f moves up and the new player position is (0,1).  |
-| 3 | ---- | The next command is up again, so the player goes out of the matrix and comes back from the other side at (3,1).  |
-| ---- | ---B | Then the command is left, so the end position is (3,0) which is not the finish mark, so the player has lost. |
-| -f-B | --T- |  |
-| --T- | f--F |  |
-| ---F |  |  |
+| 3 | ++++ | The next command is up again, so the player goes out of the matrix and comes back from the other side at (3,1).  |
+| ++++ | +++B | Then the command is left, so the end position is (3,0) which is not the finish mark, so the player has lost. |
+| +f+B | ++T+ |  |
+| ++T+ | f++F |  |
+| +++F |  |  |
 | up |  |  |
 | up |  |  |
 | left |  |  |
@@ -97,248 +97,246 @@ When the player reaches the **finish mark** or the **count of commands is reache
 [input]
 5
 5
------
--f---
--B---
---T--
--F---
++++++
++f+++
++B+++
+++T++
++F+++
 down
 right
 down
 [/input]
 [output]
 Player won!
------
------
--B---
---T--
--f---
++++++
++++++
++B+++
+++T++
++f+++
 [/output]
 [/test]
 [test open]
 [input]
 4
 3
-----
--f-B
---T-
----F
+++++
++f+B
+++T+
++++F
 up
 up
 left
 [/input]
 [output]
 Player lost!
-----
----B
---T-
-f--F
+++++
++++B
+++T+
+f++F
 [/output]
 [/test]
 [test open]
 [input]
 5
 5
------
-Bf---
------
------
-----F
++++++
+Bf+++
++++++
++++++
+++++F
 left
 up
 up
 [/input]
 [output]
 Player won!
------
-B----
------
------
-----f
++++++
+B++++
++++++
++++++
+++++f
 [/output]
 [/test]
 [test]
 [input]
 3
 1
----
--f-
---F
++++
++f+
+++F
 up
 [/input]
 [output]
 Player lost!
--f-
----
---F
++f+
++++
+++F
 [/output]
 [/test]
 [test]
 [input]
 3
 1
----
--f-
---F
++++
++f+
+++F
 down
 [/input]
 [output]
 Player lost!
----
----
--fF
++++
++++
++fF
 [/output]
 [/test]
 [test]
 [input]
 3
 1
----
--f-
---F
++++
++f+
+++F
 left
 [/input]
 [output]
 Player lost!
----
-f--
---F
++++
+f++
+++F
 [/output]
 [/test]
 [test]
 [input]
 3
 1
----
--f-
---F
++++
++f+
+++F
 right
 [/input]
 [output]
 Player lost!
----
---f
---F
++++
+++f
+++F
 [/output]
 [/test]
 [test]
 [input]
 3
 2
----
--f-
---F
++++
++f+
+++F
 up
 up
 [/input]
 [output]
 Player lost!
----
----
--fF
++++
++++
++fF
 [/output]
 [/test]
 [test]
 [input]
 3
 2
----
--f-
---F
++++
++f+
+++F
 down
 down
 [/input]
 [output]
 Player lost!
--f-
----
---F
++f+
++++
+++F
 [/output]
 [/test]
 [test]
 [input]
 3
 2
----
--f-
---F
++++
++f+
+++F
 right
 right
 [/input]
 [output]
 Player lost!
----
-f--
---F
++++
+f++
+++F
 [/output]
 [/test]
 [test]
 [input]
 3
 2
----
--f-
---F
++++
++f+
+++F
 left
 left
 [/input]
 [output]
 Player lost!
----
---f
---F
++++
+++f
+++F
 [/output]
 [/test]
 [test]
 [input]
 3
 2
----
-Bf-
---F
++++
+Bf+
+++F
 left
 down
 [/input]
 [output]
 Player won!
----
-B--
---f
++++
+B++
+++f
 [/output]
 [/test]
 [test]
 [input]
 3
 2
----
-Tf-
--F-
++++
+Tf+
++F+
 left
 down
 [/input]
 [output]
 Player won!
----
-T--
--f-
++++
+T++
++f+
 [/output]
 [/test]
 [test]
 [input]
 3
 2
----
++++
 BfF
----
++++
 left
 [/input]
 [output]
 Player won!
----
-B-f
----
++++
+B+f
++++
 [/output]
 [/test]
 [/tests]
-[/code-task]
-[/slide]
