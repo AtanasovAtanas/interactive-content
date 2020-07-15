@@ -1,6 +1,16 @@
 # String Definition
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="1028" endTimeInSeconds="1655"]
+[stream language="EN" videoId="421758207" default /]
+[stream language="RO" videoId="434995028"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # What is a String?
 
 A string is a **sequence of characters**.

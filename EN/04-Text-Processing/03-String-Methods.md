@@ -1,6 +1,16 @@
 # String Methods
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="2447" endTimeInSeconds="5357"]
+[stream language="EN" videoId="421758207" default /]
+[stream language="RO" videoId="434995028"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # isdigit()
 
 There is a built-in method, `isdigit()`, that helps you check if a **character is a digit**:

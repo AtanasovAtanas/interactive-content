@@ -1,6 +1,16 @@
 # String Manipulation
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="1674" endTimeInSeconds="2447"]
+[stream language="EN" videoId="421758207" default /]
+[stream language="RO" videoId="434995028"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Concatenation
 
 The `+` operator is used to **merge** strings:
