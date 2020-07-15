@@ -340,3 +340,5 @@ B+f
 [/output]
 [/test]
 [/tests]
+[/code-task]
+[/slide]
