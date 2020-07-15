@@ -59,9 +59,16 @@ We will try to implement the main functionalities, but you are free to add other
 The first step when implementing a linked / doubly linked list is to understand that we need **two classes**:
 
 - `ListNode` – a class to hold a single list node (its value + next node + previous node)
+
 - `DoublyLinkedList` – a class that holds the entire list (its head + tail + operations)
 
-Now, let's create the `ListNode` class. It should hold an **item** and a reference to its previous and next **node**. We can do that inside the `DoublyLinkedList` class, because we will use it only internally inside it. Here is how the class should look:
+Now, let's create the `ListNode` class. 
+
+It should hold an **item** and a reference to its previous and next **node**. 
+
+We can do that inside the `DoublyLinkedList` class, because we will use it only internally inside it. 
+
+Here is how the class should look:
 
 ``` java
 public class DoublyLinkedList {
@@ -77,14 +84,20 @@ public class DoublyLinkedList {
 }
 ```
 
-The class `ListNode` is called a **recursive data structure**, because it references itself recursively. In this case our nodes **item** field will be of type `int`. After the **Generics** lecture from this module, you can try to change that and make the structure generic, which means it will be able to work with any type.
+The class `ListNode` is called a **recursive data structure**, because it references itself recursively. 
+
+In this case our nodes **item** field will be of type `int`. 
+
+After the **Generics** lecture from this module, you can try to change that and make the structure generic, which means it will be able to work with any type.
 
 [/slide]
 
 [slide]
 ## Implement head, tail and count
 
-Now, let's define the `head` and `tail` of the `DoublyLinkedList`. They will be of type `ListNode`:
+Now, let's define the `head` and `tail` of the `DoublyLinkedList`. 
+
+They will be of type `ListNode`:
 
 ``` java
 public class DoublyLinkedList {
@@ -104,11 +117,16 @@ public class DoublyLinkedList {
 Adding an element at the beginning of the list (before its head) has **two scenarios** (considered in the above code):
 
 - **Empty list** - add the new element as `head` and `tail` in the same time.
+
 - **Non-empty list** - add the new element as `newHead` and redirect the **old head** as second element, just after the `newHead`.
 
 [image assetsSrc="12-Workshop-Custom Linked List-2.png" /]
 
-The above graphic visualizes the process of inserting a new node at the start (**head**) of the list. The **red** arrows denote the removed pointers from the old head. The **green** arrows denote the new pointers to the new head.
+The above graphic visualizes the process of inserting a new node at the start (**head**) of the list. 
+
+The **red** arrows denote the removed pointers from the old head. 
+
+The **green** arrows denote the new pointers to the new head.
 
 Next, implement the `addFirst(int element)` method:
 
@@ -133,7 +151,11 @@ public void addFirst(int element) {
 [slide]
 ## Implement addLast(int element) Method
 
-Next, implement the `addLast(int element)` method for appending a new element as the list **tail**. It should be very similar to the `addFirst(int element)` method. The logic inside it is exactly the same, but we append the new element at the **tail** instead of at the **head**:
+Next, implement the `addLast(int element)` method for appending a new element as the list **tail**. 
+
+It should be very similar to the `addFirst(int element)` method. 
+
+The logic inside it is exactly the same, but we append the new element at the **tail** instead of at the **head**:
 
 ``` java
 public void addLast(int element) {
@@ -176,7 +198,7 @@ private void checkIndex(int index) {
 }
 ```
 
-- We can optimize our iterating with condition **if index is less than** `size / 2` iterate from **0 to index** and return the **last iterated node item**, else iterate from size **- 1 to index** and again return the **last iterated node item**:
+- We can optimize our iterating with condition **if index is less than** `size / 2` iterate from **0 to index** and return the **last iterated node item**, else iterate from size **-1 to index** and again return the **last iterated node item**:
 
 ``` java
 if (index <= this.size / 2) {
@@ -201,7 +223,15 @@ if (index <= this.size / 2) {
 [slide]
 ## Implement removeFirst() Method
 
-Next, let's implement the method `removeFirst()` -> `int`. It should **remove the first element** from the list and move its **head** to point to the second element. The removed element should be returned as a result from the method. In case of an empty list, the method should throw an exception. We have to consider the following three cases:
+Next, let's implement the method `removeFirst()` -> `int`. 
+
+It should **remove the first element** from the list and move its **head** to point to the second element. 
+
+The removed element should be returned as a result from the method. 
+
+In case of an empty list, the method should throw an exception. 
+
+We have to consider the following three cases:
 
 - **Empty list** - throw and exception.
 - **Single element in the list** - make the list empty (**head** == **tail** == **null**).
@@ -238,7 +268,11 @@ private void checkSize() {
 [slide]
 ## Implement removeLast() Method
 
-Next, let's implement the method `removeLast()` -> `int`. It should **remove the last element** from the list and move its **tail** to point to the element before the last. It is very similar to the method `removeFirst()`:
+Next, let's implement the method `removeLast()` -> `int`. 
+
+It should **remove the last element** from the list and move its **tail** to point to the element before the last. 
+
+It is very similar to the method `removeFirst()`:
 
 ``` java
 public int removeLast() {
@@ -260,9 +294,19 @@ public int removeLast() {
 [/slide]
 
 [slide]
-## Implement forEach(Consumer<Integer>) Method
+## Implement forEach(Consumer/<Integer/>) Method
 
-We have a doubly linked list. We can add elements to it. But we cannot see what is inside, because the list still does not have a method to traverse its elements (pass through each one of them, one by one). Now let's define `forEach(Consumer<Integer>)` method. In programming, such method is known as a ["visitor" pattern](https://en.wikipedia.org/wiki/Visitor_pattern). It takes as argument a function (consumer) to be invoked for each of the elements in the list. The algorithm behind this method is simple: start from **head** and pass to the next element until the last element is reached (its next element is **null** ). A sample implementation is given below:
+We have a doubly linked list. We can add elements to it. 
+
+But we cannot see what is inside, because the list still does not have a method to traverse its elements (pass through each one of them, one by one). 
+
+Now let's define `forEach(Consumer<Integer>)` method. In programming, such method is known as a ["visitor" pattern](https://en.wikipedia.org/wiki/Visitor_pattern). 
+
+It takes as argument a function (consumer) to be invoked for each of the elements in the list. 
+
+The algorithm behind this method is simple: start from **head** and pass to the next element until the last element is reached (its next element is **null**).
+
+A sample implementation is given below:
 
 ``` java
 public void forEach(Consumer<Integer> consumer) {
@@ -288,10 +332,16 @@ Where **list** is `DoublyLinkedList` type object.
 [slide]
 ## Implement toArray() Method
 
-Now, implement the next method: `toArray()` -> `int[]`. It should copy all elements of the linked list to an array of the same size. You could use the following steps to implement this method:
+Now, implement the next method: `toArray()` -> `int[]`. 
+
+It should copy all elements of the linked list to an array of the same size. 
+
+You could use the following steps to implement this method:
 
 - Allocate an array `int[]` of size `this.size`
+
 - Pass through all elements of the list and fill them to `int[0]`, `int[1]`, ..., `int[size - 1]`
+
 - Return the array as result
 
 ``` java
