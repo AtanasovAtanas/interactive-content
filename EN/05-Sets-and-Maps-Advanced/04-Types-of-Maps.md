@@ -18,7 +18,12 @@ Map<String, Integer> hashMap = new HashMap<>();
 ```java live
 Map<String, Integer> hashMap = new HashMap<>();
 
+hashMap.put("BMW", 5);
+hashMap.put("Mercedes", 3);
+hashMap.put("Opel", 4);
+hashMap.put("Dacia", 10);
 
+hashMap.forEach((k, v) -> System.out.println(k + " - " + v));
 ```
 ## TreeMap < Key, Value > 
 
@@ -36,7 +41,12 @@ Map<String, Integer> treeMap = new TreeMap<>();
 ```java live
 Map<String, Integer> treeMap = new TreeMap<>();
 
+treeMap.put("BMW", 5);
+treeMap.put("Mercedes", 3);
+treeMap.put("Opel", 4);
+treeMap.put("Dacia", 10);
 
+treeMap.forEach((k, v) -> System.out.println(k + " - " + v));
 ```
 
 ## LinkedHashMap < Key, Value >
@@ -57,7 +67,12 @@ Map<String, Integer> linkedHashMap = new LinkedHashMap<>();
 ```java live
 Map<String, Integer> linkedHashMap = new LinkedHashMap<>();
 
+linkedHashMap.put("BMW", 5);
+linkedHashMap.put("Mercedes", 3);
+linkedHashMap.put("Opel", 4);
+linkedHashMap.put("Dacia", 10);
 
+linkedHashMap.forEach((k, v) -> System.out.println(k + " - " + v));
 ```
 
 
