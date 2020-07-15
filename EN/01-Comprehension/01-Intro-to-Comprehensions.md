@@ -1,6 +1,16 @@
 # Intro to Comprehensions
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="976" endTimeInSeconds="1273"]
+[stream language="EN" videoId="421712112" default /]
+[stream language="RO" videoId="434994638"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Definition
 
 Comprehensions are **constructs** that allow us to **create sequences from other sequences**.

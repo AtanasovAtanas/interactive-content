@@ -1,6 +1,16 @@
 # List Comprehensions
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="1273" endTimeInSeconds="3080"]
+[stream language="EN" videoId="421712112" default /]
+[stream language="RO" videoId="434994638"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Structure
 
 List comprehensions provide an **elegant way to create new lists**.

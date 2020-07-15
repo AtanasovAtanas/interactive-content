@@ -1,6 +1,16 @@
 # Dictionary Comprehensions
 
 [slide]
+# Video
+
+[vimeo-video startTimeInSeconds="4102" endTimeInSeconds="7696"]
+[stream language="EN" videoId="421712112" default /]
+[stream language="RO" videoId="434994638"  /]
+[/video-vimeo]
+
+[/slide]
+
+[slide]
 # Structure
 
 Extending the idea of list comprehensions, we can also create dictionaries using dictionary comprehensions.
