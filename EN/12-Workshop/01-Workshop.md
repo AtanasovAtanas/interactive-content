@@ -21,7 +21,7 @@ Feel free to implement your own functionality or to write the methods by yoursel
 
 The **Java LinkedList** use a doubly linked list which provides a linear data structure that resembles a list, but has different functionalities. Each element in it "knows" about the previous one, if there is such, and the next one, again, if there is such. This is possible, because the **doubly linked list** has **nodes** and each node has **two reference fields** pointing to other nodes and **a value field**, which contains some kind of data. By definition, the **doubly linked list** has a **head** (list start) and a **tail** (list end). The typical operations over a linked list are **add/remove** an element at **both of the endings** and **traverse**. If you are interested, you can find more detailed information [here](https://en.wikipedia.org/wiki/Doubly_linked_list). This figure shows how the structure looks:
 
-![](RackMultipart20200714-4-q5ujoo_html_6702ae498cbd11eb.png)
+IMAGE
 
 Now, that we are somewhat familiar with the doubly linked list, we can proceed to the implementation of our own custom doubly linked list. We will try to implement the main functionalities, but you are free to add other ones if you are interested.
 
@@ -71,7 +71,7 @@ Adding an element at the beginning of the list (before its head) has **two scena
 - **Empty list** - add the new element as `head` and `tail` in the same time.
 - **Non-empty list** - add the new element as `newHead` and redirect the **old head** as second element, just after the `newHead`.
 
-![](RackMultipart20200714-4-q5ujoo_html_f1fc9b1ff03d522e.png)
+IMAGE
 
 The above graphic visualizes the process of inserting a new node at the start (**head**) of the list. The **red** arrows denote the removed pointers from the old head. The **green** arrows denote the new pointers to the new head.
 
