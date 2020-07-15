@@ -1,3 +1,14 @@
+# Problem: Extract File
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="438542848" default /]
+[stream language="RO" videoId="436069915"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Extract File
 [code-task title="Extract File" taskId="007d1d57-6388-4ec3-b828-3c3f39fd8080" executionType="tests-execution" executionStrategy="python-code" requiresInput]

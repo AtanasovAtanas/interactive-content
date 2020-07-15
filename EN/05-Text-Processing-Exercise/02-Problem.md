@@ -1,3 +1,14 @@
+# Problem: Character Multiplier
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="438539173" default /]
+[stream language="RO" videoId="436070033"  /]
+[/video-vimeo]
+[/slide]
+
 [slide hideTitle]
 # Problem: Character Multiplier
 [code-task title="Character Multiplier" taskId="1bc3266c-14ca-49f7-bb36-4565ce03a2ae" executionType="tests-execution" executionStrategy="python-code" requiresInput]
