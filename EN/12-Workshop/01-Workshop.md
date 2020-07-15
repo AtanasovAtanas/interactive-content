@@ -82,7 +82,7 @@ The class `ListNode` is called a **recursive data structure**, because it refere
 [/slide]
 
 [slide]
-## Implement `head`, `tail` and `count`
+## Implement head, tail and count
 
 Now, let's define the `head` and `tail` of the `DoublyLinkedList`. They will be of type `ListNode`:
 
@@ -99,7 +99,7 @@ public class DoublyLinkedList {
 [/slide]
 
 [slide]
-## Implement `addFirst(int element)` Method
+## Implement addFirst(int element) Method
 
 Adding an element at the beginning of the list (before its head) has **two scenarios** (considered in the above code):
 
@@ -131,7 +131,7 @@ public void addFirst(int element) {
 [/slide]
 
 [slide]
-## Implement `addLast(int element)` Method
+## Implement addLast(int element) Method
 
 Next, implement the `addLast(int element)` method for appending a new element as the list **tail**. It should be very similar to the `addFirst(int element)` method. The logic inside it is exactly the same, but we append the new element at the **tail** instead of at the **head**:
 
@@ -154,7 +154,7 @@ public void addLast(int element) {
 [/slide]
 
 [slide]
-## Implement `get(int index)` Method
+## Implement get(int index) Method
 
 Next, implement the `get(int index)` method for returning the element at specified position in this list.
 
@@ -199,7 +199,7 @@ if (index <= this.size / 2) {
 [/slide]
 
 [slide]
-## Implement `removeFirst()` Method
+## Implement removeFirst() Method
 
 Next, let's implement the method `removeFirst()` -> `int`. It should **remove the first element** from the list and move its **head** to point to the second element. The removed element should be returned as a result from the method. In case of an empty list, the method should throw an exception. We have to consider the following three cases:
 
@@ -236,7 +236,7 @@ private void checkSize() {
 [/slide]
 
 [slide]
-## Implement `removeLast()` Method
+## Implement removeLast() Method
 
 Next, let's implement the method `removeLast()` -> `int`. It should **remove the last element** from the list and move its **tail** to point to the element before the last. It is very similar to the method `removeFirst()`:
 
@@ -260,7 +260,7 @@ public int removeLast() {
 [/slide]
 
 [slide]
-## Implement `forEach(Consumer<Integer>)` Method
+## Implement forEach(Consumer<Integer>) Method
 
 We have a doubly linked list. We can add elements to it. But we cannot see what is inside, because the list still does not have a method to traverse its elements (pass through each one of them, one by one). Now let's define `forEach(Consumer<Integer>)` method. In programming, such method is known as a ["visitor" pattern](https://en.wikipedia.org/wiki/Visitor_pattern). It takes as argument a function (consumer) to be invoked for each of the elements in the list. The algorithm behind this method is simple: start from **head** and pass to the next element until the last element is reached (its next element is **null** ). A sample implementation is given below:
 
@@ -286,7 +286,7 @@ Where **list** is `DoublyLinkedList` type object.
 [/slide]
 
 [slide]
-## Implement `toArray()` Method
+## Implement toArray() Method
 
 Now, implement the next method: `toArray()` -> `int[]`. It should copy all elements of the linked list to an array of the same size. You could use the following steps to implement this method:
 
