@@ -1,1 +1,1 @@
-# Workshop - Exercise
+# Workshop
