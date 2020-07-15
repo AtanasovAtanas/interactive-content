@@ -64,10 +64,13 @@ Else print:
 
 
 ## Examples
-| **Input** | **Output** |
-| --- | --- |
-| 10 11 8 13 5 6 | Second lootbox is empty |
-| 0 4 7 3 6 23 3 | Your loot was poor... Value: 42 |
+| **Input** | **Output** | **Comments** |
+| --- | --- | --- |
+| 10 11 8 13 5 6 | Second lootbox is empty | First we sum 10 and 3. We get 13, which is not an even number, so we take the last item from the second box and move it to last position in the first box. The current state of the boxes:  |
+| 0 4 7 3 6 23 3 | Your loot was poor... Value: 42 | 10 11 8 13 5 6 3 |
+|  |  | 0 4 7 3 6 23 |
+|  |  | The next sum is 33 so we do the same again. On the third iteration the sum is 16 which is an even number, so we remove both of the boxes and we add the value to our claimed items. We keep summing items until one of the boxes becomes empty. |
+
 
 | **Input** | **Output** |
 | --- | --- |
