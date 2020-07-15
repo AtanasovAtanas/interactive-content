@@ -18,7 +18,7 @@ In Java associative arrays are called Map. A Map **can not contain duplicate Key
 
 But **the values can be duplicated**. For one Key only one Value can be stored in the same Map instance.
 
-For Example:
+**For Example:**
 
 | *Products* | *Prices* |
 | ------- | --------- |
@@ -28,7 +28,7 @@ For Example:
 | Apples| 6.50 |
 | Cucumbers | 7.50 |
 
-The Java platform contains **three general-purpose Map implementations**:
+**The Java platform contains three general-purpose Map implementations:**
 
 - `HashMap<K, V>`
 
@@ -36,6 +36,18 @@ The Java platform contains **three general-purpose Map implementations**:
 
 - `LinkedHashMap<K, V>`
 
+**The main features of Maps are:**
+- hold a set of pairs `<key, value>`
+- contains unique keys
+- each key can map to at most one value
+- the values can be duplicated
 
+**Based on the features of the Maps, it's better to use them when:**
+- A map of error codes and their descriptions.
+- A map of zip codes and cities.
+- A map of managers and employees. Each manager - `key` is associated with a list of employees - `value` he manages.
+- A map of classes and students. Each class - `key` is associated with a list of students - `value`.
+
+ 
 
 [/slide]
