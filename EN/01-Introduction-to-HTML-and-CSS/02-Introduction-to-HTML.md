@@ -4,7 +4,7 @@
 # What is HTML?
 
 [vimeo-video]
-[stream language="EN" videoId="431745107" default /]
+[stream language="EN" videoId="431746203" default /]
 [/video-vimeo]
 
 HTML (**HyperText Markup Language**) is the most basic **building block of the Web**. 
@@ -22,6 +22,10 @@ HTML uses "**markup**" to annotate text, images and other content for display in
 
 [slide]
 # HTML Tags
+
+[vimeo-video]
+[stream language="EN" videoId="431746990" default /]
+[/video-vimeo]
 
 In HTML, a tag is used for **creating an element**. 
 
@@ -111,6 +115,11 @@ The HTML `<body></body>` element represents the content of an HTML document. The
 # Indentation and Whitespace
 
 ## What is whitespace?
+
+[vimeo-video]
+[stream language="EN" videoId="431748168" default /]
+[/video-vimeo]
+
 Whitespace is any string of text composed only of **spaces**, **tabs** or **line breaks**.
 
 These characters allow you to **format your code** in a way that will make it easily **readable** by yourself and other people. 
@@ -136,6 +145,10 @@ If we need space around and inside elements, we can do that with **CSS**.
 
 [slide]
 # Syntax Error
+
+[vimeo-video]
+[stream language="EN" videoId="431748211" default /]
+[/video-vimeo]
 
 These are spelling errors in your code. These are usually easy to fix as long as you are familiar with the language's syntax.
 
