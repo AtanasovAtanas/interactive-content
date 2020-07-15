@@ -3,6 +3,8 @@
 [slide]
 # What is HTML?
 
+Video: [01-Introduction to HTML and CSS](https://vimeo.com/431745107)
+
 HTML (**HyperText Markup Language**) is the most basic **building block of the Web**. 
 
 It defines the meaning and structure of web content. 
