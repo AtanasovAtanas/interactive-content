@@ -28,9 +28,9 @@ Feel free to implement your own functionality or to write the methods by yoursel
 
 [slide]
 
-## Implement the Custom DoublyLinkedList Class
+## Implement Custom DoublyLinkedList Class
 
-### Details about the Structure**
+### Details about the Structure
 
 The **Java LinkedList** use a doubly linked list which provides a linear data structure that resembles a list, but has different functionalities. Each element in it "knows" about the previous one, if there is such, and the next one, again, if there is such. This is possible, because the **doubly linked list** has **nodes** and each node has **two reference fields** pointing to other nodes and **a value field**, which contains some kind of data. By definition, the **doubly linked list** has a **head** (list start) and a **tail** (list end). The typical operations over a linked list are **add/remove** an element at **both of the endings** and **traverse**. If you are interested, you can find more detailed information [here](https://en.wikipedia.org/wiki/Doubly_linked_list). This figure shows how the structure looks:
 
@@ -38,12 +38,16 @@ The **Java LinkedList** use a doubly linked list which provides a linear data st
 
 Now, that we are somewhat familiar with the doubly linked list, we can proceed to the implementation of our own custom doubly linked list. We will try to implement the main functionalities, but you are free to add other ones if you are interested.
 
+[/slide]
+
+[slide]
+
 ### Implementation
 
 The first step when implementing a linked / doubly linked list is to understand that we need **two classes**:
 
 - `ListNode` – a class to hold a single list node (its value + next node + previous node)
-- `DoublyLinkedList` – a class that**holds the entire list (its head + tail + operations)
+- `DoublyLinkedList` – a class that holds the entire list (its head + tail + operations)
 
 Now, let's create the `ListNode` class. It should hold an **item** and a reference to its previous and next **node**. We can do that inside the `DoublyLinkedList` class, because we will use it only internally inside it. Here is how the class should look:
 
@@ -63,6 +67,10 @@ public class DoublyLinkedList {
 
 The class `ListNode` is called a **recursive data structure**, because it references itself recursively. In this case our nodes **item** field will be of type `int`. After the **Generics** lecture from this module, you can try to change that and make the structure generic, which means it will be able to work with any type.
 
+[/slide]
+
+[slide]
+
 ### Implement `head`, `tail` and `count`
 
 Now, let's define the `head` and `tail` of the `DoublyLinkedList`. They will be of type `ListNode`:
@@ -76,6 +84,10 @@ public class DoublyLinkedList {
     private int size;
 }
 ```
+
+[/slide]
+
+[slide]
 
 ### Implement `addFirst(int element)` Method
 
@@ -106,6 +118,10 @@ public void addFirst(int element) {
 }
 ```
 
+[/slide]
+
+[slide]
+
 ### Implement `addLast(int element)` Method
 
 Next, implement the `addLast(int element)` method for appending a new element as the list **tail**. It should be very similar to the `addFirst(int element)` method. The logic inside it is exactly the same, but we append the new element at the **tail** instead of at the **head**:
@@ -125,6 +141,10 @@ public void addLast(int element) {
     this.size++;
 }
 ```
+
+[/slide]
+
+[slide]
 
 ### Implement `get(int index)` Method
 
@@ -168,6 +188,10 @@ if (index <= this.size / 2) {
 }
 ```
 
+[/slide]
+
+[slide]
+
 ### Implement `removeFirst()` Method
 
 Next, let's implement the method `removeFirst()` -> `int`. It should **remove the first element** from the list and move its **head** to point to the second element. The removed element should be returned as a result from the method. In case of an empty list, the method should throw an exception. We have to consider the following three cases:
@@ -202,6 +226,9 @@ private void checkSize() {
     }
 }
 ```
+[/slide]
+
+[slide]
 
 ### Implement `removeLast()` Method
 
@@ -224,6 +251,9 @@ public int removeLast() {
     return lastItem;
 }
 ```
+[/slide]
+
+[slide]
 
 ### Implement `forEach(Consumer<Integer>)` Method
 
@@ -247,6 +277,10 @@ doublyLinkedList.forEach(e -> System.out.println(e));
 ```
 
 Where **list** is `DoublyLinkedList` type object.
+
+[/slide]
+
+[slide]
 
 ### Implement `toArray()` Method
 
