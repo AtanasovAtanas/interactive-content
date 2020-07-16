@@ -70,10 +70,10 @@ When the player reaches the **finish mark** or the **count of commands is reache
 | 5 | +++++ | On turn 1, the player steps on a bonus and does an additional step.  |
 | +++++ | +++++ | On turn 2, the player steps on a trap and goes a step back. After each turn the field is: |
 | +f+++ | +B+++ |   1      2      3    |
-| +B+++ | ++T++ | +++++  +++++  +++++ |
-| ++T++ | +f+++ | +++++  +++++  +++++ |
+| +B+++ | /++T++ | +++++  +++++  +++++ |
+| /++T++ | +f+++ | +++++  +++++  +++++ |
 | +F+++ |  | +B+++  +B+++  +B+++ |
-| down |  | +fT++  +fT++  ++T++ |
+| down |  | +fT++  +fT++  /++T/++ |
 | right |  | +F+++  +F+++  +f+++ |
 | down |  | On turn 3 f reaches the finish 'F' and wins the game. |
 
@@ -100,7 +100,7 @@ When the player reaches the **finish mark** or the **count of commands is reache
 +++++
 +f+++
 +B+++
-++T++
+/++T/++
 +F+++
 down
 right
@@ -111,7 +111,7 @@ Player won!
 +++++
 +++++
 +B+++
-++T++
+/++T/++
 +f+++
 [/output]
 [/test]
