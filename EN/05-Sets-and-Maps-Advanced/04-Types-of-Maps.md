@@ -464,7 +464,7 @@ All numbers must be formatted to one digit after the decimal point.
 
 [slide]
 # Solution: Count Real Numbers
-[code-task title="Count Real Numbers" taskId="652e7421-f805-48bb-ac97-88e91f56fcc4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Count Real Numbers" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
