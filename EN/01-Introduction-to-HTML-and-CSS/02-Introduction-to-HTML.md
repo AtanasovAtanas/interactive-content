@@ -105,6 +105,11 @@ The HTML `<body></body>` element represents the content of an HTML document. The
 ```
 
 ## HTML Page - Example
+
+[vimeo-video]
+[stream language="EN" videoId="431749670" default /]
+[/video-vimeo]
+
 [html]
 <p class="codepen" data-height="276" data-theme-id="39135" data-default-tab="html,result" data-user="atanas-atanasov-the-scripter" data-slug-hash="oNjNxXr" style="height: 276px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="oNjNxXr"></p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
