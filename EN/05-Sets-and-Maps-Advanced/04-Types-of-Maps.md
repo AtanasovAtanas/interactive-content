@@ -79,6 +79,98 @@ linkedHashMap.forEach((k, v) -> System.out.println(k + " - " + v));
 [/slide]
 
 [slide]
+# Built-in methods
+
+- `put(K key, V value)` - **add items** (insert an entry) in the map. 
+
+Only a **single Key + Value pair** for each Key can exist in the Map **at the same time**. 
+
+If `put()` is called more than once with the same Key, **the latest Value** passed to `put()` for that Key will **overwrite** what is already stored in the Map for that Key. 
+
+**The latest Value replaces the existing Value** for the given Key.
+
+```java
+HashMap<String, Integer> airplanes = new HashMap<>();
+airplanes.put("Boeing 737", 130);
+airplanes.put("Airbus A320", 150);
+```
+
+- `putIfAbsent(K key, V value)` - insert the specified Value with the specified Key in the Map only if it is **not already existing**
+
+```java live
+HashMap<String, Integer> airplanes = new HashMap<>();
+airplanes.put("Boeing 737", 130);
+airplanes.putIfAbsent("Boeing 737", 100);
+System.out.println(airplanes.get("Boeing 737"));
+```
+
+- `get(K key)` - **access a Value** in the Map using its Key and **return the Value** object
+```java live
+HashMap<String, Integer> airplanes = new HashMap<>();
+airplanes.put("Boeing 737", 130);
+int peopleCount = airplanes.get("Boeing 737");
+System.out.println(peopleCount);
+```
+
+- `remove(K key)` - **delete** an item (entry) **using its Key**
+```java live
+HashMap<String, Integer> airplanes = new HashMap<>();
+airplanes.put("Boeing 737", 130);
+airplanes.remove("Boeing 737");
+System.out.println(airplanes.get("Boeing 737"));
+```
+
+- `clear()` - remove all items (entries) in the map, reset the Map
+```java live
+HashMap<String, Integer> airplanes = new HashMap<>();
+airplanes.put("Boeing 737", 130);
+airplanes.put("Airbus A320", 150);
+airplanes.clear();
+System.out.println(airplanes.get("Boeing 737"));
+System.out.println(airplanes.get("Airbus A320"));
+```
+
+- `size()` - return the **number of items (entries)** in the Map
+```java live
+HashMap<String, Integer> airplanes = new HashMap<>();
+airplanes.put("Boeing 737", 130);
+airplanes.put("Airbus A320", 150);
+System.out.println(airplanes.size());
+```
+
+- `containsKey(K key)` - check **if there is such Key object** in the Map and if there is return `true`, else return `false`
+```java live
+HashMap<String, Integer> airplanes = new HashMap<>();
+airplanes.put("Airbus A320", 150);
+if (airplanes.containsKey("Airbus A320")) {
+    System.out.println("Airbus A320 key exists.");
+}
+```
+
+- `containsValue(V value)` - check **if there is such Value object** in the Map and if there is return `true`, else return `false`
+```java live
+HashMap<String, Integer> airplanes = new HashMap<>();
+airplanes.put("Airbus A320", 150);
+System.out.println(airplanes.containsValue(150));
+System.out.println(airplanes.containsValue(100));
+```
+
+- `isEmpty()` - return `true` if the Map is **empty** and `false` if it contains **at least one Key**
+```java live
+HashMap<String, Integer> airplanes = new HashMap<>();
+System.out.println(airplanes.isEmpty());
+```
+
+```java live
+HashMap<String, Integer> airplanes = new HashMap<>();
+airplanes.put("Boeing 737", 130);
+System.out.println(airplanes.isEmpty());
+```
+
+[/slide]
+
+
+[slide]
 # How to iterate over a Map
 
 Iterating through objects of type **Map.Entry <K, V>**. **Cannot modify** the collection(read-only).
@@ -105,35 +197,35 @@ for (String fruit : fruitsPrice.keySet()) {
   - `values()` - obtain only the values
 
 ```java live
-Map<String, Double> cars = new LinkedHashMap<>();
+Map<String, Integer> cars = new LinkedHashMap<>();
 
 cars.put("BMW", 5);
 cars.put("Mercedes", 3);
 cars.put("Opel", 4);
 cars.put("Dacia", 10);
 
-for (Double price : fruitsPrice.values()) {
-    System.out.println(price);
+for (Integer number : cars.values()) {
+    System.out.println(number);
 }
 ```
 
-- Iterating through the items of a map using the build-in method `entrySet()`
+- Iterating through the items of a map using the built-in method `entrySet()`
   - `entry.getKey()` - obtain the Keys
   - `entry.getValue()` - obtain the Values
 
 ```java live
-Map<String, Double> cars = new LinkedHashMap<>();
+Map<String, Integer> cars = new LinkedHashMap<>();
 
 cars.put("BMW", 5);
 cars.put("Mercedes", 3);
 cars.put("Opel", 4);
 cars.put("Dacia", 10);
 
-for (Map.Entry<String, Double> entry : fruitsPrice.entrySet()) {
+for (Map.Entry<String, Integer> entry : cars.entrySet()) {
     System.out.printf("%s -> %.2f%n", entry.getKey(), entry.getValue());
 }
 ```
-- Iterating through the Map using build-in method `forEach()`
+- Iterating through the Map using built-in method `forEach()`
 
 ```java live
 Map<String, Integer> cars = new TreeMap<>();
