@@ -645,11 +645,11 @@ Write a program that:
 
 | **Input** | **Output** |
 | --- | --- |
-| 5 | James is graduated with 4.09375 |
+| 5 | Alice is graduated with 4.145 |
 | George | George is graduated with 4.351249999999999 |
-| 4.36 5.50 3.30 5.63 2.57 5.75 2.81 4.89  | Mick is graduated with 4.11875 |
+| 4.36 5.50 3.30 5.63 2.57 5.75 2.81 4.89  | James is graduated with 4.09375 |
 | Alice | Jennifer is graduated with 3.3375 |
-| 3.10 5.35 3.30 3.35 5.64 4.99 2.75 4.68  | Alice is graduated with 4.145 |
+| 3.10 5.35 3.30 3.35 5.64 4.99 2.75 4.68  | Mick is graduated with 4.11875 |
 | Mick |  |
 | 3.45 3.23 3.03 5.42 5.46 4.15 2.26 5.95  |  |
 | Jennifer |  |
@@ -697,11 +697,11 @@ James
 4.75 4.92 3.78 4.79 4.82 4.75 2.81 2.13
 [/input]
 [output]
-James is graduated with 4.09375
-George is graduated with 4.351249999999999
-Mick is graduated with 4.11875
-Jennifer is graduated with 3.3375
 Alice is graduated with 4.145
+George is graduated with 4.351249999999999
+James is graduated with 4.09375
+Jennifer is graduated with 3.3375
+Mick is graduated with 4.11875
 [/output]
 [/test]
 [test]
@@ -863,11 +863,11 @@ Write a program that:
 
 | **Input** | **Output** |
 | --- | --- |
-| 5 | James is graduated with 4.09375 |
+| 5 | Alice is graduated with 4.145 |
 | George | George is graduated with 4.351249999999999 |
-| 4.36 5.50 3.30 5.63 2.57 5.75 2.81 4.89  | Mick is graduated with 4.11875 |
+| 4.36 5.50 3.30 5.63 2.57 5.75 2.81 4.89  | James is graduated with 4.09375 |
 | Alice | Jennifer is graduated with 3.3375 |
-| 3.10 5.35 3.30 3.35 5.64 4.99 2.75 4.68  | Alice is graduated with 4.145 |
+| 3.10 5.35 3.30 3.35 5.64 4.99 2.75 4.68  | Mick is graduated with 4.11875 |
 | Mick |  |
 | 3.45 3.23 3.03 5.42 5.46 4.15 2.26 5.95  |  |
 | Jennifer |  |
@@ -915,11 +915,11 @@ James
 4.75 4.92 3.78 4.79 4.82 4.75 2.81 2.13
 [/input]
 [output]
-James is graduated with 4.09375
-George is graduated with 4.351249999999999
-Mick is graduated with 4.11875
-Jennifer is graduated with 3.3375
 Alice is graduated with 4.145
+George is graduated with 4.351249999999999
+James is graduated with 4.09375
+Jennifer is graduated with 3.3375
+Mick is graduated with 4.11875
 [/output]
 [/test]
 [test]
