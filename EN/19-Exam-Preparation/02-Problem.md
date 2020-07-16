@@ -18,7 +18,7 @@ You will be given an integer N for the size of the square matrix and then an int
 
 On the next **n** lines, you will receive the rows of the matrix.
 
-The player starts at a random position (the player is marked with **"f"**)and **all of the empty slots** will be filled with **" + "** (plus).
+The player starts at a random position (the player is marked with **"f"**)and **all of the empty slots** will be filled with **"+"** (plus).
 
 The goal is to reach the finish mark which will be marked with **"F"**.
 
