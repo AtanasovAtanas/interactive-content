@@ -4,6 +4,10 @@
 
 # Problem: Semantic-Tags
 
+[vimeo-video]
+[stream language="EN" videoId="431783399" default /]
+[/video-vimeo]
+
 [code-task title="Problem: Semantic-Tags" taskId="6af05e6b-ce89-4e6a-a4ed-723e6cc4980c" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
@@ -106,6 +110,10 @@ yes
 [slide]
 
 # Problem: Semantic Article Page
+
+[vimeo-video]
+[stream language="EN" videoId="431783485" default /]
+[/video-vimeo]
 
 [code-task title="Problem: Semantic Article Page" taskId="319b556a-3251-456b-824e-bd52a19f1b5a" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
@@ -219,6 +227,10 @@ yes
 [slide]
 
 # Problem: Semantic Blog Layout
+
+[vimeo-video]
+[stream language="EN" videoId="431783656" default /]
+[/video-vimeo]
 
 [code-task title="Problem: Semantic Blog Layout" taskId="a122986d-aed8-406f-8484-4e0077433c49" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
@@ -363,6 +375,10 @@ yes
 [slide]
 
 # Problem: Semantic Tables
+
+[vimeo-video]
+[stream language="EN" videoId="431784098" default /]
+[/video-vimeo]
 
 [code-task title="Problem: Semantic Tables" taskId="1a76ca0d-45a5-449f-a191-b57600b4a08b" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 

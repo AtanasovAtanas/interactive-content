@@ -3,6 +3,10 @@
 [slide]
 # HTML Form
 
+[vimeo-video]
+[stream language="EN" videoId="431756179" default /]
+[/video-vimeo]
+
 An HTML form is used to collect user input, which is generally sent to a web server for processing and storage.
 
 It can also be used on the client-side to immediately update the interface in some way (for example by adding another item to a list or show or hide a UI feature).
@@ -28,6 +32,10 @@ The form contains interactive controls for submitting information. It takes inpu
 
 ## Form Attributes
 
+[vimeo-video]
+[stream language="EN" videoId="431756243" default /]
+[/video-vimeo]
+
 The form attributes are optional, but it's standard practice to always set at least the **action** and **method** attributes.
 * The action attribute defines the URL, where the form's collected data should be send when it is submitted.
 * The method attribute defines which HTTP method to send the data with (GET/POST).
@@ -49,6 +57,10 @@ The form attributes are optional, but it's standard practice to always set at le
 
 ### The `<input>` Element
 
+[vimeo-video]
+[stream language="EN" videoId="431756279" default /]
+[/video-vimeo]
+
 The `<input>` element is one of the most important form elements. This element can be displayed in several ways, depending on the type attribute:
 
 * `<input type="text">` - defines a single-line **text** input field;
@@ -64,11 +76,19 @@ The `<input>` element is one of the most important form elements. This element c
 
 ### Input Validation
 
+[vimeo-video]
+[stream language="EN" videoId="431756306" default /]
+[/video-vimeo]
+
 * HTML input validation is done **automatically** by the browser, based on special attributes;
 * The validation **only occurs** when attempting to submit the form;
 * Inputs that are disabled or read-only will **not trigger** validation.
 
 ### Input Attributes
+
+[vimeo-video]
+[stream language="EN" videoId="431756417" default /]
+[/video-vimeo]
 
 The following attributes are available:
 
@@ -91,6 +111,10 @@ The following attributes are available:
 
 ### The `<label>` Element
 
+[vimeo-video]
+[stream language="EN" videoId="431756445" default /]
+[/video-vimeo]
+
 `<label>` - defines a **label** for another form element. The `for` attribute should be equal to the `id` attribute of the related element to bind them together.
 
 [html]
@@ -104,6 +128,10 @@ The following attributes are available:
 
 ### The `<fieldset>` and  `<legend>` Elements
 
+[vimeo-video]
+[stream language="EN" videoId="431756467" default /]
+[/video-vimeo]
+
 `<fieldset>` is used to **group related data** in a form and draws a box around the related elements.
 
 [html]
@@ -116,6 +144,10 @@ The following attributes are available:
 [/html]
 
 ### The `<select>` and  `<option>` Elements
+
+[vimeo-video]
+[stream language="EN" videoId="431756502" default /]
+[/video-vimeo]
 
 `<select>` creates a **drop-down** list. This element is a form-control and can be used in a form to collect user input.
 
@@ -132,6 +164,10 @@ The following attributes are available:
 
 ### The `<textarea>` Element
 
+[vimeo-video]
+[stream language="EN" videoId="431756549" default /]
+[/video-vimeo]
+
 `<textarea>` – defines a **multi-line input** field. A `textarea` can hold an unlimited number of characters.
 
 The size of a text area can be specified by the **cols** and **rows** attributes or through CSS **height** and **width** properties:
@@ -145,6 +181,11 @@ The size of a text area can be specified by the **cols** and **rows** attributes
 ```
 
 ### Buttons
+
+[vimeo-video]
+[stream language="EN" videoId="431756599" default /]
+[/video-vimeo]
+
 Submit button sends the form data to the server.
 
 **Example**

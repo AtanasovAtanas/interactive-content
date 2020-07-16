@@ -3,6 +3,10 @@
 [slide]
 # HTML Semantic Elements
 
+[vimeo-video]
+[stream language="EN" videoId="431755805" default /]
+[/video-vimeo]
+
 HTML5 uses **semantic tags** for the document structure.
 
 The semantic element clearly describes its meaning to both the **browser** and the **developer**.
@@ -34,6 +38,10 @@ In HTML there are some semantic elements, that can be used to define different p
 
 ## HTML \<nav\> Tag
 
+[vimeo-video]
+[stream language="EN" videoId="431755832" default /]
+[/video-vimeo]
+
 The `<nav>` tag defines a set of navigation links.
 
 [html]
@@ -46,6 +54,10 @@ The `<nav>` tag defines a set of navigation links.
 [/html]
 
 ## HTML \<header\> Tag
+
+[vimeo-video]
+[stream language="EN" videoId="431755875" default /]
+[/video-vimeo]
 
 The `<header>` tag specifies a header for a document or section.
 
@@ -63,6 +75,10 @@ You can have several `<header>` tags in one document.
 [/html]
 
 ## HTML \<main\> Tag
+
+[vimeo-video]
+[stream language="EN" videoId="431755905" default /]
+[/video-vimeo]
 
 The `<main>` tag specifies the main content of a document.
 
@@ -83,6 +99,10 @@ There must not be more than one `<main>` tag in a document.
 
 ## HTML \<footer\> Tag
 
+[vimeo-video]
+[stream language="EN" videoId="431756029" default /]
+[/video-vimeo]
+
 The `<footer>` tag represents a footer for a document or section.
 
 Usually, a `<footer>` tag contains information about the author, copyright data or links to related documents.
@@ -100,6 +120,10 @@ You may have several `<footer>` tags in one document.
 
 ## HTML \<section\> Tag
 
+[vimeo-video]
+[stream language="EN" videoId="431755956" default /]
+[/video-vimeo]
+
 The HTML `<section>` tag represents a standalone section, which doesn't have a more specific semantic tag to represent it.
 
 Typically, but not mandatory, sections have a heading.
@@ -115,6 +139,10 @@ Typically, but not mandatory, sections have a heading.
 
 ## HTML \<aside\> Tag
 
+[vimeo-video]
+[stream language="EN" videoId="431755991" default /]
+[/video-vimeo]
+
 Тhe HTML `<aside>` tag defines some content aside from the content it is placed in.
 
 Asides are frequently presented as sidebars or call-out boxes.
@@ -128,9 +156,11 @@ Asides are frequently presented as sidebars or call-out boxes.
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 [/html]
 
-
-
 ## HTML \<figure\> and \<figcaption\> Tags
+
+[vimeo-video]
+[stream language="EN" videoId="431756059" default /]
+[/video-vimeo]
 
 The `<figure>` tag is used to mark up a photo in a document.
 
@@ -146,6 +176,10 @@ The `<figcaption>` tag defines a caption for the photo:
 [/html]
 
 ## HTML \<details\> and \<summary\> Tags
+
+[vimeo-video]
+[stream language="EN" videoId="431756097" default /]
+[/video-vimeo]
 
 The `<details>` tag specifies additional details, that the user can view or hide on demand. 
 
@@ -163,6 +197,10 @@ If the first child of the `<details>` element is a `<summary>`, the contents of 
 [/html]
 
 ## HTML \<time\> and \<address\> Tags
+
+[vimeo-video]
+[stream language="EN" videoId="431756143" default /]
+[/video-vimeo]
 
 * The `<time>` tag defines a human-readable date/time. It may include the datetime attribute to translate dates into a machine-readable format.
 * The HTML `<address>` element indicates that the enclosed HTML provides contact information like email address, URL, physical address, phone number, social media handle, etc.
