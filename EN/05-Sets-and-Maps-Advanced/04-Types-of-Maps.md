@@ -246,29 +246,37 @@ treeMap.forEach((key, value) -> System.out.println(key + " - " + value));
 
 - Sorting according to Keys in ascending order
 
-```java live
-Map<String, Integer> cars = new HashMap<>();
+```java live no-template
+import java.util.*;
+import java.util.stream.Collectors;
 
-cars.put("BMW", 5);
-cars.put("Mercedes", 3);
-cars.put("Opel", 4);
-cars.put("Dacia", 1);
+public class Main {
+    public static void main(String[] args) {
 
-Map<String, Integer> sortedMap = cars
-        .entrySet()
-        .stream()
+        Map<String, Integer> cars = new HashMap<>();
 
-        // comparing the elements by its keys in ascending order
-        // in case you want in descending order just swap 'a' and 'b'
-        .sorted((a,b)->a.getKey().compareTo(b.getKey()))
+        cars.put("BMW", 5);
+        cars.put("Mercedes", 3);
+        cars.put("Opel", 2);
+        cars.put("Dacia", 1);
 
-        // saving the sorted items into new LinkedHashMap,
-        // or you can print the elements directly using 'forEach()'
-        .collect(Collectors
-                .toMap(Map.Entry::getKey, Map.Entry::getValue,
-        (oldValue, newValue) -> oldValue, LinkedHashMap::new));
+        Map<String, Integer> sortedMap = cars
+                .entrySet()
+                .stream()
 
-sortedMap.forEach((k, v) -> System.out.println(k + " - " + v));
+                // comparing the elements by its keys in ascending order
+                // in case you want in descending order just swap 'a' and 'b'
+                .sorted((a,b)->a.getKey().compareTo(b.getKey()))
+
+                // saving the sorted items into new LinkedHashMap,
+                // or you can print the elements directly using 'forEach()'
+                .collect(Collectors
+                        .toMap(Map.Entry::getKey, Map.Entry::getValue,
+                                (oldValue, newValue) -> oldValue, LinkedHashMap::new));
+
+        sortedMap.forEach((k, v) -> System.out.println(k + " - " + v));
+    }
+}
 ```
 
 
