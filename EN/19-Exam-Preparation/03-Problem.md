@@ -1,6 +1,6 @@
 [slide hideTitle]
 # Problem: Guild
-[code-task title="Guild" taskId="9d5cd2f5-aa55-4917-ae5e-27a314f2c4e7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Guild" taskId="ebe69476-a484-4c52-9d12-dd5d26b13854" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
