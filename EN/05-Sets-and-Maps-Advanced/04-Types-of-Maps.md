@@ -77,3 +77,159 @@ linkedHashMap.forEach((k, v) -> System.out.println(k + " - " + v));
 
 
 [/slide]
+
+[slide]
+# How to iterate over a Map
+
+Iterating through objects of type **Map.Entry <K, V>**. **Cannot modify** the collection(read-only).
+
+There are several ways to iterate the Keys stored in a Map.
+
+- Iterating through the items of a map using a **for-each** loop
+
+  - `keySet()` - obtain only the keys
+
+```java live
+Map<String, Double> cars = new LinkedHashMap<>();
+
+cars.put("BMW", 5);
+cars.put("Mercedes", 3);
+cars.put("Opel", 4);
+cars.put("Dacia", 10);
+
+for (String fruit : fruitsPrice.keySet()) {
+    System.out.println(fruit);
+}
+```
+
+  - `values()` - obtain only the values
+
+```java live
+Map<String, Double> cars = new LinkedHashMap<>();
+
+cars.put("BMW", 5);
+cars.put("Mercedes", 3);
+cars.put("Opel", 4);
+cars.put("Dacia", 10);
+
+for (Double price : fruitsPrice.values()) {
+    System.out.println(price);
+}
+```
+
+- Iterating through the items of a map using the build-in method `entrySet()`
+  - `entry.getKey()` - obtain the Keys
+  - `entry.getValue()` - obtain the Values
+
+```java live
+Map<String, Double> cars = new LinkedHashMap<>();
+
+cars.put("BMW", 5);
+cars.put("Mercedes", 3);
+cars.put("Opel", 4);
+cars.put("Dacia", 10);
+
+for (Map.Entry<String, Double> entry : fruitsPrice.entrySet()) {
+    System.out.printf("%s -> %.2f%n", entry.getKey(), entry.getValue());
+}
+```
+- Iterating through the Map using build-in method `forEach()`
+
+```java live
+Map<String, Integer> cars = new TreeMap<>();
+
+cars.put("BMW", 5);
+cars.put("Mercedes", 3);
+cars.put("Opel", 4);
+cars.put("Dacia", 10);
+
+treeMap.forEach((key, value) -> System.out.println(key + " - " + value));
+```
+
+[/slide]
+
+[slide]
+
+# Sorting a Map
+
+- Sorting according to Keys in ascending order
+
+```java live
+Map<String, Integer> cars = new HashMap<>();
+
+cars.put("BMW", 5);
+cars.put("Mercedes", 3);
+cars.put("Opel", 4);
+cars.put("Dacia", 1);
+
+Map<String, Integer> sortedMap = cars
+        .entrySet()
+        .stream()
+
+        // comparing the elements by its keys in ascending order
+        // in case you want in descending order just swap 'a' and 'b'
+        .sorted((a,b)->a.getKey().compareTo(b.getKey()))
+
+        // saving the sorted items into new LinkedHashMap,
+        // or you can print the elements directly using 'forEach()'
+        .collect(Collectors
+                .toMap(Map.Entry::getKey, Map.Entry::getValue,
+        (oldValue, newValue) -> oldValue, LinkedHashMap::new));
+
+sortedMap.forEach((k, v) -> System.out.println(k + " - " + v));
+```
+
+
+- Sorting according to Values in ascending order
+
+```java live
+Map<String, Integer> cars = new HashMap<>();
+
+cars.put("BMW", 5);
+cars.put("Mercedes", 3);
+cars.put("Opel", 4);
+cars.put("Dacia", 1);
+        
+cars.entrySet()
+    .stream()
+    // comparing the elements by its values in ascending order
+    // in case you want in descending order just swap 'a' and 'b'
+    .sorted((a,b)->a.getValue().compareTo(b.getValue()))
+
+    // printing the elements directly using 'forEach()'
+    .forEach(entry -> System.out.println(entry.getKey() + " - " + entry.getValue()));
+
+```
+
+- Sorting Map according to Values in ascending order if there is equals values then sort by the keys
+
+```java live
+Map<String, Integer> cars = new HashMap<>();
+
+cars.put("BMW", 5);
+cars.put("Mercedes", 1);
+cars.put("Opel", 1);
+cars.put("Dacia", 1);
+
+cars.entrySet()
+    .stream()
+    .sorted((a,b)->{
+        // compareTo() - returns 0 if the elements are equals
+        int sort = a.getValue().compareTo(b.getValue());
+
+        // if the values are equals compare by the keys
+        if (sort == 0){
+            // sorting by the keys
+            return a.getKey().compareTo(b.getKey());
+        }
+        // in case there is no equal values
+        return sort;
+    })
+    // printing the elements directly using 'forEach()'
+    .forEach(entry -> System.out.println(entry.getKey() + " - " + entry.getValue()));
+
+```
+
+
+
+[/slide]
