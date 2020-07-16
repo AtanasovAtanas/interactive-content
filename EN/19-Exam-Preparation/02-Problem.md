@@ -1,5 +1,5 @@
 [slide hideTitle]
-# Problem: Re-Vol
+# Problem: Re-Volt
 [code-task title="Re-Volt" taskId="9d5cd2f5-aa55-4917-ae5e-27a314f2c4e7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
