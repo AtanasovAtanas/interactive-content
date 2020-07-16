@@ -584,7 +584,7 @@ yes
 # Problem: Wiki Page
 
 [vimeo-video]
-[stream language="EN" videoId="431780276" default /]
+[stream language="EN" videoId="431749880" default /]
 [/video-vimeo]
 
 [code-task title="Wiki Page" taskId="013018fb-27bb-4949-ba4b-d569871c9e00" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -597,7 +597,7 @@ yes
 
 * Create a **Web Page**
 * Change the document **title** to **The Brown Bear**
-* Use <h1> for heading
+* Use **h1** for heading
 * Hyperlink: https://en.wikipedia.org/wiki/Brown_bear
 * Text: use **paragraph**
 * List: use **ordered list** and **unordered list**
@@ -669,6 +669,100 @@ yes
 [input]
 let img = $("body").find("img");
 expect(img).to.have.lengthOf(1,"Incorrect amount of img tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+
+[/slide]
+
+[slide]
+# Problem: Todo List
+
+[vimeo-video]
+[stream language="EN" videoId="431749750" default /]
+[/video-vimeo]
+
+[code-task title="Todo List" taskId="4f94f3a4-9b35-47a3-8747-30f286f04287" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Change the document **title** to **Todo List**
+* Use **div** tag with **class="my-list"** as container
+* **Background color**: #f7f381;
+* **Padding**: 8px 24px;
+* **Width**: 500px;
+* **Text size**: 30px;
+* **Border**: 1px solid #f7f381;
+* **Background Color**: #f7f381;
+* **box-shadow**: 0 0 10px 2px #333333;
+* Use **ol** tag
+* **Margin**: 12px;
+* Use **p** tag
+* Center the text
+
+You can find an example view [here](https://i.imgur.com/pgYsLCn.png)
+
+You can download the resources [here](https://mega.nz/file/7NBkjSwL#A576TCCkT_eHYZ-4H4NA1iUpBymyWwK2ULVxNLGwI7s)
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+expect(document.title).to.equal("Todo List","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let div = $("body").find("div");
+expect(div).to.have.lengthOf(1,"Incorrect amount of div tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let p = $("body").find("p");
+expect(p).to.have.lengthOf(1,"Incorrect amount of p tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let h1 = $("body").find("h1");
+expect(h1).to.have.lengthOf(1,"Incorrect amount of h1 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let ol = $("body").find("ol");
+expect(ol).to.have.lengthOf(1,"Incorrect amount of ol tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let li = $("body").find("li");
+expect(li).to.have.lengthOf(6,"Incorrect amount of li tag.");
 [/input]
 [output]
 yes
