@@ -350,13 +350,13 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that counts the occurrence of real numbers.
+Write a program that **counts** the occurrence of **real numbers**.
 
-The input is a single line with real numbers separated by spaces.
+The input is a **single line with real numbers separated by spaces**.
 
-Print the numbers in the order of appearance.
+Print the numbers **in the order of appearance**.
 
-All numbers must be formatted to one digit after the decimal point.
+All numbers must be formatted to **one digit after the decimal point**.
 
 ## Examples
 | **Input** | **Output** |
@@ -496,13 +496,13 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that counts the occurrence of real numbers.
+Write a program that **counts** the occurrence of **real numbers**.
 
-The input is a single line with real numbers separated by spaces.
+The input is a **single line with real numbers separated by spaces**.
 
-Print the numbers in the order of appearance.
+Print the numbers **in the order of appearance**.
 
-All numbers must be formatted to one digit after the decimal point.
+All numbers must be formatted to **one digit after the decimal point**.
 
 ## Examples
 | **Input** | **Output** |
@@ -602,6 +602,420 @@ All numbers must be formatted to one digit after the decimal point.
 7.0 -\> 10
 8.0 -\> 10
 9.0 -\> 10
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+
+[slide]
+# Problem: Academy Graduation
+[code-task title="Academy Graduation" taskId="93d00f25-e775-4e57-b4f3-1e3c287550dd" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that:
+- Reads from console **number of students** for a track
+- Reads on **pair of rows**:
+      - First line is the **name of student**
+      - Second line is his **score** for different number of courses
+- Print on console "{**name**} is graduated with {**average scores**)"
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3 | George is graduated with 4.375 |
+| George | Maria is graduated with 5.125 |
+| 3.75 5 | Peter is graduated with 5.25 |
+| Maria |  |
+| 4.25 6 |  |
+| Peter |  |
+| 6 4.5 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 5 | James is graduated with 4.09375 |
+| George | George is graduated with 4.351249999999999 |
+| 4.36 5.50 3.30 5.63 2.57 5.75 2.81 4.89  | Mick is graduated with 4.11875 |
+| Alice | Jennifer is graduated with 3.3375 |
+| 3.10 5.35 3.30 3.35 5.64 4.99 2.75 4.68  | Alice is graduated with 4.145 |
+| Mick |  |
+| 3.45 3.23 3.03 5.42 5.46 4.15 2.26 5.95  |  |
+| Jennifer |  |
+| 2.08 3.48 3.36 2.73 2.96 4.54 3.70 3.85 |  |
+| James |  |
+| 4.75 4.92 3.78 4.79 4.82 4.75 2.81 2.13 |  |
+
+
+## Hints
+- Think about **proper type** of map
+- **Value** can be **array**
+- **Nested loop** and one more **variable** will be need for average score
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3
+George
+3.75 5
+Maria
+4.25 6
+Peter
+6 4.5
+[/input]
+[output]
+George is graduated with 4.375
+Maria is graduated with 5.125
+Peter is graduated with 5.25
+[/output]
+[/test]
+[test open]
+[input]
+5
+George
+4.36 5.50 3.30 5.63 2.57 5.75 2.81 4.89 
+Alice
+3.10 5.35 3.30 3.35 5.64 4.99 2.75 4.68 
+Mick
+3.45 3.23 3.03 5.42 5.46 4.15 2.26 5.95 
+Jennifer
+2.08 3.48 3.36 2.73 2.96 4.54 3.70 3.85
+James
+4.75 4.92 3.78 4.79 4.82 4.75 2.81 2.13
+[/input]
+[output]
+James is graduated with 4.09375
+George is graduated with 4.351249999999999
+Mick is graduated with 4.11875
+Jennifer is graduated with 3.3375
+Alice is graduated with 4.145
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+
+[/output]
+[/test]
+[test]
+[input]
+5
+Gruio
+4.36 5.50 3.30 5.63
+Trendafilka
+3.10 5.35 3.30 3.35 
+Mite
+3.45 3.23 3.03 5.42 
+Roza
+2.08 3.48 3.36 2.73
+Ganio
+4.75 4.92 3.78 4.79
+[/input]
+[output]
+Ganio is graduated with 4.56
+Gruio is graduated with 4.6975
+Mite is graduated with 3.7824999999999998
+Roza is graduated with 2.9125
+Trendafilka is graduated with 3.775
+[/output]
+[/test]
+[test]
+[input]
+5
+Gruio
+4.36
+Trendafilka
+3.10
+Mite
+3.45
+Roza
+2.08
+Ganio
+4.75
+[/input]
+[output]
+Ganio is graduated with 4.75
+Gruio is graduated with 4.36
+Mite is graduated with 3.45
+Roza is graduated with 2.08
+Trendafilka is graduated with 3.1
+[/output]
+[/test]
+[test]
+[input]
+5
+Gruio
+4.36 5.50 
+Trendafilka
+3.10 5.35
+Mite
+3.45 3.23 
+Roza
+2.08 3.48
+Ganio
+4.75 4.92
+[/input]
+[output]
+Ganio is graduated with 4.835
+Gruio is graduated with 4.93
+Mite is graduated with 3.34
+Roza is graduated with 2.7800000000000002
+Trendafilka is graduated with 4.225
+[/output]
+[/test]
+[test]
+[input]
+5
+Gruio
+4.36 5.50 3.30 5.63 2.57 5.75 
+Trendafilka
+3.10 5.35 3.30 3.35 5.64 4.99 
+Mite
+3.45 3.23 3.03 5.42 5.46 4.15 
+Roza
+2.08 3.48 3.36 2.73 2.96 4.54 
+Ganio
+4.75 4.92 3.78 4.79 4.82 4.75
+[/input]
+[output]
+Ganio is graduated with 4.635
+Gruio is graduated with 4.5183333333333335
+Mite is graduated with 4.123333333333334
+Roza is graduated with 3.1916666666666664
+Trendafilka is graduated with 4.288333333333333
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Academy Graduation
+[code-task title="Academy Graduation" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        Map<String, Double[]> graduationList = new TreeMap<>();
+
+        int numberOfStudents = Integer.parseInt(scanner.nextLine());
+
+        for (int i = 0; i < numberOfStudents; i++) {
+            String name = scanner.nextLine();
+            String[] scoresStrings = scanner.nextLine().split(" ");
+            Double[] scores = new Double[scoresStrings.length];
+
+            for (int j = 0; j < scoresStrings.length; j++) {
+                scores[j] = Double.parseDouble(scoresStrings[j]);
+            }
+            graduationList.put(name, scores);
+        }
+        for (String student : graduationList.keySet()) {
+            Double sumOfAllScores = 0d;
+            for (Double score : graduationList.get(student)) {
+                sumOfAllScores += score;
+            }
+            Double averageScore = sumOfAllScores / graduationList.get(student).length;
+            System.out.println(student + " is graduated with " + averageScore);
+        }
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that:
+- Reads from console **number of students** for a track
+- Reads on **pair of rows**:
+      - First line is the **name of student**
+      - Second line is his **score** for different number of courses
+- Print on console "{**name**} is graduated with {**average scores**)"
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3 | George is graduated with 4.375 |
+| George | Maria is graduated with 5.125 |
+| 3.75 5 | Peter is graduated with 5.25 |
+| Maria |  |
+| 4.25 6 |  |
+| Peter |  |
+| 6 4.5 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 5 | James is graduated with 4.09375 |
+| George | George is graduated with 4.351249999999999 |
+| 4.36 5.50 3.30 5.63 2.57 5.75 2.81 4.89  | Mick is graduated with 4.11875 |
+| Alice | Jennifer is graduated with 3.3375 |
+| 3.10 5.35 3.30 3.35 5.64 4.99 2.75 4.68  | Alice is graduated with 4.145 |
+| Mick |  |
+| 3.45 3.23 3.03 5.42 5.46 4.15 2.26 5.95  |  |
+| Jennifer |  |
+| 2.08 3.48 3.36 2.73 2.96 4.54 3.70 3.85 |  |
+| James |  |
+| 4.75 4.92 3.78 4.79 4.82 4.75 2.81 2.13 |  |
+
+
+## Hints
+- Think about **proper type** of map
+- **Value** can be **array**
+- **Nested loop** and one more **variable** will be need for average score
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3
+George
+3.75 5
+Maria
+4.25 6
+Peter
+6 4.5
+[/input]
+[output]
+George is graduated with 4.375
+Maria is graduated with 5.125
+Peter is graduated with 5.25
+[/output]
+[/test]
+[test open]
+[input]
+5
+George
+4.36 5.50 3.30 5.63 2.57 5.75 2.81 4.89 
+Alice
+3.10 5.35 3.30 3.35 5.64 4.99 2.75 4.68 
+Mick
+3.45 3.23 3.03 5.42 5.46 4.15 2.26 5.95 
+Jennifer
+2.08 3.48 3.36 2.73 2.96 4.54 3.70 3.85
+James
+4.75 4.92 3.78 4.79 4.82 4.75 2.81 2.13
+[/input]
+[output]
+James is graduated with 4.09375
+George is graduated with 4.351249999999999
+Mick is graduated with 4.11875
+Jennifer is graduated with 3.3375
+Alice is graduated with 4.145
+[/output]
+[/test]
+[test]
+[input]
+0
+[/input]
+[output]
+
+[/output]
+[/test]
+[test]
+[input]
+5
+Gruio
+4.36 5.50 3.30 5.63
+Trendafilka
+3.10 5.35 3.30 3.35 
+Mite
+3.45 3.23 3.03 5.42 
+Roza
+2.08 3.48 3.36 2.73
+Ganio
+4.75 4.92 3.78 4.79
+[/input]
+[output]
+Ganio is graduated with 4.56
+Gruio is graduated with 4.6975
+Mite is graduated with 3.7824999999999998
+Roza is graduated with 2.9125
+Trendafilka is graduated with 3.775
+[/output]
+[/test]
+[test]
+[input]
+5
+Gruio
+4.36
+Trendafilka
+3.10
+Mite
+3.45
+Roza
+2.08
+Ganio
+4.75
+[/input]
+[output]
+Ganio is graduated with 4.75
+Gruio is graduated with 4.36
+Mite is graduated with 3.45
+Roza is graduated with 2.08
+Trendafilka is graduated with 3.1
+[/output]
+[/test]
+[test]
+[input]
+5
+Gruio
+4.36 5.50 
+Trendafilka
+3.10 5.35
+Mite
+3.45 3.23 
+Roza
+2.08 3.48
+Ganio
+4.75 4.92
+[/input]
+[output]
+Ganio is graduated with 4.835
+Gruio is graduated with 4.93
+Mite is graduated with 3.34
+Roza is graduated with 2.7800000000000002
+Trendafilka is graduated with 4.225
+[/output]
+[/test]
+[test]
+[input]
+5
+Gruio
+4.36 5.50 3.30 5.63 2.57 5.75 
+Trendafilka
+3.10 5.35 3.30 3.35 5.64 4.99 
+Mite
+3.45 3.23 3.03 5.42 5.46 4.15 
+Roza
+2.08 3.48 3.36 2.73 2.96 4.54 
+Ganio
+4.75 4.92 3.78 4.79 4.82 4.75
+[/input]
+[output]
+Ganio is graduated with 4.635
+Gruio is graduated with 4.5183333333333335
+Mite is graduated with 4.123333333333334
+Roza is graduated with 3.1916666666666664
+Trendafilka is graduated with 4.288333333333333
 [/output]
 [/test]
 [/tests]
