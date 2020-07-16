@@ -333,3 +333,278 @@ cars.entrySet()
 
 
 [/slide]
+
+[slide]
+# Problem: Count Real Numbers
+[code-task title="Count Real Numbers" taskId="652e7421-f805-48bb-ac97-88e91f56fcc4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that counts the occurrence of real numbers.
+
+The input is a single line with real numbers separated by spaces.
+
+Print the numbers in the order of appearance.
+
+All numbers must be formatted to one digit after the decimal point.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| -2.5 4 3 -2.5 -5.5 4 3 3 -2.5 3 | -2.5 -> 3 |
+|  | 4.0 -> 2 |
+|  | 3.0 -> 4 |
+|  | -5.5 -> 1 |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 2.3 4.5 4.5 5.5 5.5 2.3 3.0 3.0 4.5 4.5 3.0 3.0 4.0 3.0 5.5 3.0 2.3 5.5 4.5 3.0 | 2.3 -> 3 |
+|  | 4.5 -> 5 |
+|  | 5.5 -> 4 |
+|  | 3.0 -> 7 |
+|  | 1.0	-> 1 |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+-2.5 4 3 -2.5 -5.5 4 3 3 -2.5 3
+[/input]
+[output]
+-2.5 -\> 3
+4.0 -\> 2
+3.0 -\> 4
+-5.5 -\> 1
+[/output]
+[/test]
+[test open]
+[input]
+2.3 4.5 4.5 5.5 5.5 2.3 3.0 3.0 4.5 4.5 3.0 3.0 4.0 3.0 5.5 3.0 2.3 5.5 4.5 3.0
+[/input]
+[output]
+2.3 -\> 3
+4.5 -\> 5
+5.5 -\> 4
+3.0 -\> 7
+4.0 -\> 1
+[/output]
+[/test]
+[test]
+[input]
+13 23 42 69 13 23 42 69 13 23 42 69 13 23 42 69 13 23 42 69
+[/input]
+[output]
+13.0 -\> 5
+23.0 -\> 5
+42.0 -\> 5
+69.0 -\> 5
+[/output]
+[/test]
+[test]
+[input]
+1.111
+[/input]
+[output]
+1.1 -\> 1
+[/output]
+[/test]
+[test]
+[input]
+23 23 23 23 2 3 23 23 23 23 23 232 232 2323 23 23232
+[/input]
+[output]
+23.0 -\> 10
+2.0 -\> 1
+3.0 -\> 1
+232.0 -\> 2
+2323.0 -\> 1
+23232.0 -\> 1
+[/output]
+[/test]
+[test]
+[input]
+-3 -3 -3 -3 -3 -3 -3 -3 -3 -3 -3 -3 -3 -3
+[/input]
+[output]
+-3.0 -\> 14
+[/output]
+[/test]
+[test]
+[input]
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9
+[/input]
+[output]
+0.0 -\> 10
+1.0 -\> 10
+2.0 -\> 10
+3.0 -\> 10
+4.0 -\> 10
+5.0 -\> 10
+6.0 -\> 10
+7.0 -\> 10
+8.0 -\> 10
+9.0 -\> 10
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Count Real Numbers
+[code-task title="Count Real Numbers" taskId="652e7421-f805-48bb-ac97-88e91f56fcc4" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        double[] input = Arrays
+        .stream(scanner.nextLine()
+        .split("\\s+"))
+        .mapToDouble(Double::parseDouble)
+        .toArray();
+
+        LinkedHashMap<Double, Integer> result = new LinkedHashMap<>();
+
+        for (Double number : input) {
+            if (!result.containsKey(number)) {
+                result.put(number, 1);
+            } else {
+                result.put(number, result.get(number) + 1);
+            }
+        }
+        for (Double key : result.keySet()) {
+            System.out.printf("%.1f -> %d", key, result.get(key));
+        }
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Write a program that counts the occurrence of real numbers.
+
+The input is a single line with real numbers separated by spaces.
+
+Print the numbers in the order of appearance.
+
+All numbers must be formatted to one digit after the decimal point.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| -2.5 4 3 -2.5 -5.5 4 3 3 -2.5 3 | -2.5 -> 3 |
+|  | 4.0 -> 2 |
+|  | 3.0 -> 4 |
+|  | -5.5 -> 1 |
+|  |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 2.3 4.5 4.5 5.5 5.5 2.3 3.0 3.0 4.5 4.5 3.0 3.0 4.0 3.0 5.5 3.0 2.3 5.5 4.5 3.0 | 2.3 -> 3 |
+|  | 4.5 -> 5 |
+|  | 5.5 -> 4 |
+|  | 3.0 -> 7 |
+|  | 1.0	-> 1 |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+-2.5 4 3 -2.5 -5.5 4 3 3 -2.5 3
+[/input]
+[output]
+-2.5 -\> 3
+4.0 -\> 2
+3.0 -\> 4
+-5.5 -\> 1
+[/output]
+[/test]
+[test open]
+[input]
+2.3 4.5 4.5 5.5 5.5 2.3 3.0 3.0 4.5 4.5 3.0 3.0 4.0 3.0 5.5 3.0 2.3 5.5 4.5 3.0
+[/input]
+[output]
+2.3 -\> 3
+4.5 -\> 5
+5.5 -\> 4
+3.0 -\> 7
+4.0 -\> 1
+[/output]
+[/test]
+[test]
+[input]
+13 23 42 69 13 23 42 69 13 23 42 69 13 23 42 69 13 23 42 69
+[/input]
+[output]
+13.0 -\> 5
+23.0 -\> 5
+42.0 -\> 5
+69.0 -\> 5
+[/output]
+[/test]
+[test]
+[input]
+1.111
+[/input]
+[output]
+1.1 -\> 1
+[/output]
+[/test]
+[test]
+[input]
+23 23 23 23 2 3 23 23 23 23 23 232 232 2323 23 23232
+[/input]
+[output]
+23.0 -\> 10
+2.0 -\> 1
+3.0 -\> 1
+232.0 -\> 2
+2323.0 -\> 1
+23232.0 -\> 1
+[/output]
+[/test]
+[test]
+[input]
+-3 -3 -3 -3 -3 -3 -3 -3 -3 -3 -3 -3 -3 -3
+[/input]
+[output]
+-3.0 -\> 14
+[/output]
+[/test]
+[test]
+[input]
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9
+[/input]
+[output]
+0.0 -\> 10
+1.0 -\> 10
+2.0 -\> 10
+3.0 -\> 10
+4.0 -\> 10
+5.0 -\> 10
+6.0 -\> 10
+7.0 -\> 10
+8.0 -\> 10
+9.0 -\> 10
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
