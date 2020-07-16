@@ -474,10 +474,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         double[] input = Arrays
-        .stream(scanner.nextLine()
-        .split("\\s+"))
-        .mapToDouble(Double::parseDouble)
-        .toArray();
+                .stream(scanner.nextLine().split("\\s+"))
+                .mapToDouble(Double::parseDouble)
+                .toArray();
 
         LinkedHashMap<Double, Integer> result = new LinkedHashMap<>();
 
@@ -489,7 +488,7 @@ public class Main {
             }
         }
         for (Double key : result.keySet()) {
-            System.out.printf("%.1f -> %d", key, result.get(key));
+            System.out.println(String.format("%.1f -> %d", key, result.get(key)));
         }
     }
 }
