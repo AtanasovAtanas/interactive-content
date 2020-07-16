@@ -131,8 +131,8 @@ left
 Player lost!
 ++++
 +++B
-++T+
-f++F
+\++T+
+f\++F
 [/output]
 [/test]
 [test open]
