@@ -4,6 +4,10 @@
 
 ## What is Font Awesome?
 
+[vimeo-video]
+[stream language="EN" videoId="431758245" default /]
+[/video-vimeo]
+
 Font awesome is **most popular icon toolkit** based on CSS.
 
 Icon fonts has:

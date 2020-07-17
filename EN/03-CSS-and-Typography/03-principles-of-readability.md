@@ -3,6 +3,10 @@
 [slide]
 # Principles Of Readability
 
+[vimeo-video]
+[stream language="EN" videoId="431758434" default /]
+[/video-vimeo]
+
 **Readability** is one of the most important aspects of Web design usability.
 
 Website readability is a **measure** of how easy it is for visitors to **read** and **understand** online text.
@@ -10,6 +14,10 @@ Website readability is a **measure** of how easy it is for visitors to **read** 
 Readability depends on both a text’s **presentation** and its **context**.
 
 **Note:** Be careful, because poor readability scares readers away from the content.
+
+[vimeo-video]
+[stream language="EN" videoId="431758464" default /]
+[/video-vimeo]
 
 There are some **keys** of readable typography:
 

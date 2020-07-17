@@ -4,9 +4,17 @@
 
 ## Font Family
 
+[vimeo-video]
+[stream language="EN" videoId="431758488" default /]
+[/video-vimeo]
+[vimeo-video]
+[stream language="EN" videoId="431758564" default /]
+[/video-vimeo]
+
 Тwo types of `font-family` names are known in CSS:
 * **generic family** - a **group** of font families with a similar look (like "sans-serif" or "monospace");
 * **font family** - a **specific** font family (like "Times New Roman" or "Arial")
+
 
 The **font-family** property specifies the font for an element.
 
@@ -40,6 +48,10 @@ Here is a list with properties of `<generic-name>`:
 
 ### Font Files
 
+[vimeo-video]
+[stream language="EN" videoId="431758523" default /]
+[/video-vimeo]
+
 Font files contain one or more fonts that can be accessed by the **OS** and **applications**.
 
 Most modern fonts are stored in the following formats:
@@ -56,6 +68,10 @@ https://fonts.google.com/
 
 [slide]
 ## @font-face
+
+[vimeo-video]
+[stream language="EN" videoId="431758586" default /]
+[/video-vimeo]
 
 The `@font-face` CSS at-rule specifies a **custom font** with which to display text. 
 
@@ -76,6 +92,10 @@ It's common to use both `url()` and `local()` together so that the user's instal
 [slide]
 ## Font Style
 
+[vimeo-video]
+[stream language="EN" videoId="431758617" default /]
+[/video-vimeo]
+
 `font-style` defines how much the text is **slanted**. This property has three values:
 * `normal` - The text is shown **normally**;
 * `italic` - The text is shown in **italics**;
@@ -95,6 +115,10 @@ It's common to use both `url()` and `local()` together so that the user's instal
 
 [slide]
 ## Font Size
+
+[vimeo-video]
+[stream language="EN" videoId="431758650" default /]
+[/video-vimeo]
 
 The `font-size` property sets the **size** of the font.
 
@@ -122,6 +146,10 @@ font-size: 1rem;
 [slide]
 ## Font Weight
 
+[vimeo-video]
+[stream language="EN" videoId="431758670" default /]
+[/video-vimeo]
+
 The `font-weight` property defines the **weight** (or **boldness**) of the font.
 
 The weights available depend on the font-family you are using.
@@ -145,6 +173,10 @@ font-weight: bolder;
 [slide]
 ## Line Height
 
+[vimeo-video]
+[stream language="EN" videoId="431758720" default /]
+[/video-vimeo]
+
 The `line-height` property defines the height of a single line of text.
 
 The `line-height` property is specified as any one of the following:
@@ -167,6 +199,10 @@ line-height: normal;
 [slide]
 ## Letter Spacing
 
+[vimeo-video]
+[stream language="EN" videoId="431758742" default /]
+[/video-vimeo]
+
 `letter-spacing` defines the spacing between the characters of a block of text.
 
 * **\<length>** - Defines an extra space between characters (negative values are allowed);
@@ -182,6 +218,10 @@ letter-spacing: normal;
 
 [slide]
 ## Text Align
+
+[vimeo-video]
+[stream language="EN" videoId="431758788" default /]
+[/video-vimeo]
 
 `text-align` defines how the content of the element is horizontally aligned.
 
@@ -203,6 +243,10 @@ text-align: center;
 
 [slide]
 ## Text Decoration
+
+[vimeo-video]
+[stream language="EN" videoId="431758821" default /]
+[/video-vimeo]
 
 The `text-decoration` property defines how the text content of the element is decorated: 
 
@@ -271,6 +315,10 @@ It can be `clipped`, display an `ellipsis` (...), or display a custom `string`.
 [slide]
 ## Text Transform
 
+[vimeo-video]
+[stream language="EN" videoId="431758846" default /]
+[/video-vimeo]
+
 The `text-transform` property controls, how the text to be capitalized.
 
 The values are:
@@ -309,6 +357,10 @@ word-break: break-all;
 [slide]
 ## Text Color
 
+[vimeo-video]
+[stream language="EN" videoId="431758872" default /]
+[/video-vimeo]
+
 The `color` property sets the color of an element's text.
 
 There are different ways to set the color of a text:
@@ -330,6 +382,10 @@ color: rgba(255, 0, 0, 0.5);
 
 [slide]
 ## Background Color
+
+[vimeo-video]
+[stream language="EN" videoId="431758912" default /]
+[/video-vimeo]
 
 `background-color` defines the color of the background of an element.
 
