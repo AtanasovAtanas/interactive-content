@@ -4,6 +4,10 @@
 
 ## Width
 
+[vimeo-video]
+[stream language="EN" videoId="431760011" default /]
+[/video-vimeo]
+
 Block elements have **width** and **height**.
 
 The `width` property defines the width of an element.
@@ -45,6 +49,10 @@ The default value of this property is `0`.
 [slide]
 
 ## Height
+
+[vimeo-video]
+[stream language="EN" videoId="431760050" default /]
+[/video-vimeo]
 
 The `height` property defines the height of an element.
 

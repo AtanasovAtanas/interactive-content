@@ -4,6 +4,10 @@
 
 # What is CSS Box Model?
 
+[vimeo-video]
+[stream language="EN" videoId="431759902" default /]
+[/video-vimeo]
+
 The **CSS box model** is essentially a **box that wraps** around every HTML element.
 
 All HTML elements can be considered as boxes.

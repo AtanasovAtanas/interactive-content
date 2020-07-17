@@ -4,6 +4,10 @@
 
 # Block and Inline Elements
 
+[vimeo-video]
+[stream language="EN" videoId="431759947" default /]
+[/video-vimeo]
+
 HTML is made up of various elements that act as the **building blocks** of web pages. 
 
 Every HTML element has a default **display value**:
@@ -56,6 +60,10 @@ You can add margins and paddings just on **right** and **left** sides of any inl
 
 [slide]
 ## Inline-Block Elements
+
+[vimeo-video]
+[stream language="EN" videoId="431760007" default /]
+[/video-vimeo]
 
 Inline-block elements are similar to inline elements.
 

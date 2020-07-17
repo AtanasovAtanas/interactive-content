@@ -2,7 +2,15 @@
 
 [slide]
 
+[vimeo-video]
+[stream language="EN" videoId="431760081" default /]
+[/video-vimeo]
+
 # Margin
+
+[vimeo-video]
+[stream language="EN" videoId="431760107" default /]
+[/video-vimeo]
 
 `margin` defines the space outside the element.
 
@@ -53,6 +61,10 @@ div {
 
 # Padding
 
+[vimeo-video]
+[stream language="EN" videoId="431760133" default /]
+[/video-vimeo]
+
 `padding` defines the space between the content and the border.
 
 It is a **short hand** property for the following properties:
@@ -101,6 +113,10 @@ div {
 
 # Border
 
+[vimeo-video]
+[stream language="EN" videoId="431759721" default /]
+[/video-vimeo]
+
 `border` is a **short hand** property for the following properties:
 * `border-width` - defines the **width** of the border (`1px`, `3%`, etc.);
 * `border-style` - defines the **style** of the border (`solid`, `dotted`, `dashed`, etc.);
@@ -141,6 +157,10 @@ div {
 [/html]
 
 # Cursor
+
+[vimeo-video]
+[stream language="EN" videoId="431759758" default /]
+[/video-vimeo]
 
 `cursor` - Sets the mouse cursor when hovering the element.
 

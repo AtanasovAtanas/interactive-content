@@ -4,6 +4,10 @@
 
 # Box-sizing Property
 
+[vimeo-video]
+[stream language="EN" videoId="431759802" default /]
+[/video-vimeo]
+
 `box-sizing` sets how the total width and height of an element is calculated. 
 
 This property defines if the padding and border are included or excluded in the total width/height.
@@ -21,6 +25,10 @@ html {
 
 [slide]
 # Universal Box-sizing
+
+[vimeo-video]
+[stream language="EN" videoId="431759846" default /]
+[/video-vimeo]
 
 The box-sizing **Reset** takes care of the box-sizing of every element by setting it to **border-box** using a universal CSS selector.
 

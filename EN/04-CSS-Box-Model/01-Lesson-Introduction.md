@@ -2,7 +2,7 @@
 # Lesson Introduction
 
 [vimeo-video]
-[stream language="EN" videoId="431758296" default /]
+[stream language="EN" videoId="431759889" default /]
 [/video-vimeo]
 
 [/slide]
