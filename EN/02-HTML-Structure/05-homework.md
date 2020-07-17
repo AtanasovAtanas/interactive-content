@@ -756,3 +756,251 @@ yes
 [/tests]
 [/code-task]
 [/slide]
+
+[slide]
+
+# Problem: Navigation Bar
+
+[vimeo-video]
+[stream language="EN" videoId="431757741" default /]
+[/video-vimeo]
+
+[code-task title="Problem: Navigation Bar" taskId="a77b7efb-944f-414f-9f83-415cc8dd7968" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Change the document **title** to **Navigation Bar**
+* Use **nav** tag as container
+* The constraints for the **body** are:
+* **Margin**: 0px;
+* **Padding**: 0px;
+* **Background Color**: #CCCCCC;
+* Use **ul** tag for unordered list, with the following constraints:
+* **Background Color**: #444;
+* **Center** the text
+* **Padding**: 0px;
+* **Margin**: 0px;
+* **list-style**:none;
+* Use **li** tag for list item, with the following constraints:
+* **Text size**: 24px;
+* **Line Height**: 40px;
+* **Height**: 40px;
+* **Padding**: 20px;
+* Use **a** tag for hyperlink, with the following constraints:
+* **Text decoration**: none;
+* **Text-Color**: #ffffff;
+
+You can find an example view [here](https://i.imgur.com/sMHAFNc.png)
+
+You can download the resources [here](https://mega.nz/file/fEwFCAQa#XAZX8hRAOTmTxDzI5Tm2IS7jlJ0Kmt6mWvkCZngnEEs)
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+expect(document.title).to.equal("Navigation Bar","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let nav = $("body \> nav");
+expect(nav).to.have.lengthOf(1, "Incorrect amount of nav tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let li = $("body \> nav \> ul \> li");
+expect(li).to.have.lengthOf(5, "Incorrect amount of li tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("body").css("background-color")).to.equal("#cccccc", "Incorrect body background-color.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("ul").css("background-color")).to.equal("#444", "Incorrect ul background-color.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("li").css("font-size")).to.equal("24px", "Incorrect font size of the li items.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+
+# Problem: Page Content
+
+[vimeo-video]
+[stream language="EN" videoId="431757771" default /]
+[/video-vimeo]
+
+[code-task title="Problem: Page Content" taskId="31c07ec9-c837-4c1a-819e-32a631c86521" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Change the document **title** to **Page Content**
+* Use a **section** as a container
+* Use an **article** tag for content
+* Use **header** with:
+* **h1** with **Text size**: 28px;
+* **p** with **Font Style**: italic;
+* Use Paragraph with:
+* **Text size**: 24px;
+* The **body** should have: 
+* **Margin**: 0px;
+* **Padding**: 0px;
+* **Background color**: #CCCCCC;
+* The **section**:
+* **Margin**: 20px;
+
+You can find an example view [here](https://i.imgur.com/cMAgFJi.png)
+
+You can download the resources [here](https://mega.nz/file/GM51RTQT#h9K9i1kAsRtmruXOQcZzQDSPzI7bShNzb97OvyKyUFw)
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+expect(document.title).to.equal("Page Content","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let article = $("body \> section \> article");
+expect(article).to.have.lengthOf(2, "Incorrect amount of article tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let p = $("body \> p");
+expect(p).to.have.lengthOf(4, "Incorrect amount of p tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("h1").css("font-size")).to.equal("28px", "Incorrect h1 font-size.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("header p").css("font-style")).to.equal("italic", "Incorrect paragraph font style.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("section").css("margin")).to.equal("20px", "Incorrect margin of the section item.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+
+# Problem: Simple Website
+
+[vimeo-video]
+[stream language="EN" videoId="431757799" default /]
+[/video-vimeo]
+
+[code-task title="Problem: Simple Website" taskId="1109245d-538f-4c66-886a-dbe901f9e720" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Use the html and css from previous two problems
+* Use **Footer**, with the following constraints
+* **Background color**: #444;
+* Use **p** tag for text in footer
+* **Text Color**: #fff;
+* **Center** the text
+
+You can find an example view [here](https://i.imgur.com/ZUPBhr3.png)
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+let footer = $("body \> footer");
+expect(footer).to.have.lengthOf(1, "Incorrect amount of footer tag.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let p = $("body \> footer \> p");
+expect(p).to.have.lengthOf(1, "Incorrect amount of p tag in footer.")
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("footer").css("background-color")).to.equal("#444", "Incorrect footer background-color.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
