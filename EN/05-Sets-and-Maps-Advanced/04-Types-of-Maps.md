@@ -171,7 +171,7 @@ System.out.println(airplanes.isEmpty());
 
 
 [slide]
-# How to iterate over a Map
+# Iterating over a Map
 
 Iterating through objects of type **Map.Entry <K, V>**. **Cannot modify** the collection(read-only).
 
