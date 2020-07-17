@@ -9,7 +9,7 @@
 
 [html]
 
-<iframe src="https://app.sli.do/event/y2uums64?section=5afbb0e9-b5fe-4cad-a7f2-8a36dda17f33" height="100%" width="100%" style="min-height: 560px;"></iframe>
+<iframe src="https://app.sli.do/event/y2uums64?section=5afbb0e9-b5fe-4cad-a7f2-8a36dda17f33" height="100%" width="75%" style="min-height: 570px;"></iframe>
 
 [/html]
 
