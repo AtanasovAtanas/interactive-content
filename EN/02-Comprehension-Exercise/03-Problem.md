@@ -1,4 +1,4 @@
-# Problem: Integer Operations
+# Problem: Number Classification
 
 [slide]
 # Video
