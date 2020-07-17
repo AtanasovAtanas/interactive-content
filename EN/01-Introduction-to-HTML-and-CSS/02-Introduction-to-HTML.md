@@ -9,7 +9,7 @@
 
 [html]
 
-<iframe src="https://app.sli.do/event/5faavvrx" height="100%" width="75%" style="min-height: 300px;"></iframe>
+<iframe src="https://app.sli.do/event/5faavvrx" height="100%" width="75%" style="min-height: 450px;"></iframe>
 
 [/html]
 
