@@ -14,7 +14,7 @@ The Java **Collection Framework** contains numerous **\*interfaces**, one of whi
 - Elements are not stored in order.
 - Offers very fast performance.
 - Set can have **only a single null value** at most.
-- Unlike List and arrays, Set does **NOT** support indexes or positions of it’s elements.
+- Unlike List and arrays, Set does **NOT** support indexes or positions of its elements.
 
 **Based on the features of the Sets, it's better to use them when:**
 - You want to store elements distinctly without duplication, or unique elements.
