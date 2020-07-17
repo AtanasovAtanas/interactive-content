@@ -9,24 +9,10 @@
 
 [html]
 
-<iframe src="https://app.sli.do/event/5faavvrx" height="100%" width="75%" style="min-height: 400px;"></iframe>
+<iframe src="https://app.sli.do/event/3yilumfn" height="100%" width="75%" style="min-height: 400px;"></iframe>
 
 [/html]
 
-[html]
-<style>
-  .custom-div-container {
-    display: flex;
-  }
-</style>
-
-<div class="custom-div-container">
-  <iframe src="https://player.vimeo.com/video/431746203" width="70%" height="100%" style="min-height: 600px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-  <iframe src="https://app.sli.do/event/5faavvrx" height="100%" width="28%" style="min-height: 600px;"></iframe>
-</div>
-
-[/html]
 
 [/slide]
 
