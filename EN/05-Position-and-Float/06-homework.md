@@ -4,6 +4,10 @@
 
 # Problem: Blog Layout Float
 
+[vimeo-video]
+[stream language="EN" videoId="431792308" default /]
+[/video-vimeo]
+
 [code-task title="Problem: Blog Layout Float" taskId="622d4bae-b217-4f4d-97a2-de4f1d1ed981" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
@@ -199,6 +203,10 @@ yes
 
 # Problem: Center Position and Transform
 
+[vimeo-video]
+[stream language="EN" videoId="431791969" default /]
+[/video-vimeo]
+
 [code-task title="Problem: Center Position and Transform" taskId="8becba9e-7472-41f6-b7d1-3931ab47f89e" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
@@ -393,6 +401,10 @@ yes
 [slide]
 
 # Problem: Social Media Icons
+
+[vimeo-video]
+[stream language="EN" videoId="431792036" default /]
+[/video-vimeo]
 
 [code-task title="Problem: Social Media Icons" taskId="2cbed203-6ab2-4e75-b7b2-32a9c9ed23b2" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 

@@ -4,6 +4,10 @@
 
 # Z index
 
+[vimeo-video]
+[stream language="EN" videoId="431760619" default /]
+[/video-vimeo]
+
 `z-index` defines the order of the elements on the **z-axis**.
 
 It only works on **positioned** elements (anything apart from static).
@@ -32,6 +36,10 @@ The order is defined by the **order in the HTML** code:
 
 ## Positive Z index
 
+[vimeo-video]
+[stream language="EN" videoId="431760631" default /]
+[/video-vimeo]
+
 The `z-index` value is relative to the other ones.
 
 The target element is moved in **front** of its siblings.
@@ -50,6 +58,10 @@ The target element is moved in **front** of its siblings.
 
 ## Negative Z index
 
+[vimeo-video]
+[stream language="EN" videoId="431760668" default /]
+[/video-vimeo]
+
 For `z-index` you can use **negative** values.
 
 The target element is moved **behind** its siblings.
@@ -65,5 +77,9 @@ The target element is moved **behind** its siblings.
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 [/html]
+
+[vimeo-video]
+[stream language="EN" videoId="431760690" default /]
+[/video-vimeo]
 
 [/slide]

@@ -4,6 +4,10 @@
 
 # Clearing the Float
 
+[vimeo-video]
+[stream language="EN" videoId="431760937" default /]
+[/video-vimeo]
+
 Float’s sister's property is `clear`.
 
 An element that has the `clear` property set on it will **not move up adjacent** to the float, like the float desires, but will move itself **down past the float**.
@@ -21,6 +25,10 @@ The `clear` property has the following values:
 
 [slide]
 # Clear examples
+
+[vimeo-video]
+[stream language="EN" videoId="431760985" default /]
+[/video-vimeo]
 
 # `clear: none;`
 
@@ -52,6 +60,10 @@ When `clear: left;` is used, the element is **moved down** to clear past **left*
 
 [/html]
 
+[vimeo-video]
+[stream language="EN" videoId="431761017" default /]
+[/video-vimeo]
+
 # `clear: right;`
 
 When `clear: right;` is used, the element is **moved down** to clear past **right** floats.
@@ -66,6 +78,10 @@ When `clear: right;` is used, the element is **moved down** to clear past **righ
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 [/html]
+
+[vimeo-video]
+[stream language="EN" videoId="431760951" default /]
+[/video-vimeo]
 
 # `clear: both;`
 
