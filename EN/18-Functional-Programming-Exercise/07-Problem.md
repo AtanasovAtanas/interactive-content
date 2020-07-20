@@ -16,9 +16,13 @@ public class Main {
 ## Description
 Write a program that is using a custom **function** (written by you) to find the **smallest** integer in a **sequence** of **integers**.
 
-The input could have more than one space.
+The input could have more than one space, for example: 
 
-Your task is to **collect** the integers from the console, find the **smallest one**, and print its **index**(if **more** than one such element exist, print the index of the **rightmost** one).
+`1 2 3   4 5  6 7`
+
+Your task is to **collect** the integers from the console, find the **smallest one**, and print its **index**. 
+
+If **more** than one such element exists, print the index of the **rightmost** one.
 
 ## Hints
 - Use a `Function<List<Integer>, Integer>` or something similar.
