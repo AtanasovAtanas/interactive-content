@@ -12,14 +12,6 @@
 [stream language="EN" videoId="431762651" default /]
 [/video-vimeo]
 
-[vimeo-video]
-[stream language="EN" videoId="431762714" default /]
-[/video-vimeo]
-
-[vimeo-video]
-[stream language="EN" videoId="431762796" default /]
-[/video-vimeo]
-
 For start using the Flexbox model, we need to turn the parent element into a **flexbox container**.
 
 The child elements will be turned into flexbox **items**.
@@ -35,6 +27,25 @@ The child elements will be turned into flexbox **items**.
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 [/html]
+
+[/slide]
+
+[slide]
+
+## Display inline-flex
+
+[vimeo-video]
+[stream language="EN" videoId="431762714" default /]
+[/video-vimeo]
+
+The element shares properties of both an inline and a flexbox element:
+
+* **inline** because the element behaves like **simple text**, and inserts itself in a **block** of text;
+* **flexbox** because its child element will be turned into **flexbox** items.
+
+[vimeo-video]
+[stream language="EN" videoId="431762796" default /]
+[/video-vimeo]
 
 [/slide]
 
