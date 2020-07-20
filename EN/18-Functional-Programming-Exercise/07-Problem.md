@@ -16,9 +16,7 @@ public class Main {
 ## Description
 Write a program that is using a custom **function** (written by you) to find the **smallest** integer in a **sequence** of **integers**.
 
-The input could have more than one space, for example: 
-
-`1 2 3  4 5     6 7`
+The input could have more than one space.
 
 Your task is to **collect** the integers from the console, find the **smallest one**, and print its **index**. 
 
