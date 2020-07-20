@@ -64,7 +64,7 @@ Implement the following features:
 
 - Method `addPlayer(Player player)` - **adds** an **entity** to the roster **if there is room** for it
 - Method `removePlayer(String name)` - removes a player by **given name**, if such **exists**, and **returns boolean**
-- Method `promotePlayer(String name)` - **promote** ( **set his rank to "Member"** ) the **first**  **player** with the **given name**. If the player is **already** a "Member", **do nothing**.
+- Method `promotePlayer(String name)` - **promote** (**set his rank to "Member"**) the **first**  **player** with the **given name**. If the player is **already** a "Member", **do nothing**.
 - Method `demotePlayer(String name)` - **demote (set his rank to "Trial")** the first player with the **given** name. If the player is **already** a "Trial", **do nothing**.
 - Method `kickPlayersByClass(String clazz)` - removes all the players by the given class and returns **all removed players** from that **class as an array**
 - Method `count()` - **returns** the **number** of players
@@ -72,7 +72,7 @@ Implement the following features:
 
 ```
 Players in the guild: {guildName}:
-{Player1}`
+{Player1}
 {Player2}
 (...)
 ```
