@@ -211,21 +211,32 @@ The default value is `flex: 0 1 auto;`, wich is equivalent to:
 [stream language="EN" videoId="431768327" default /]
 [/video-vimeo]
 
+The `align-self` property works like `align-items`, but applies only to a single flexbox item, instead of all of them.
+
+This property **overrides** the default alignment set by the container's align-items property.
+
+`align-self: auto` - The target will use the value of **align-items**;
+
 [vimeo-video]
 [stream language="EN" videoId="431768419" default /]
 [/video-vimeo]
+
+* The **container** has **align-items: center** ;
+* The target has **align-self: flex-start**
 
 [vimeo-video]
 [stream language="EN" videoId="431768446" default /]
 [/video-vimeo]
 
+* The **container** has **align-items: flex-start**;
+* The **target** has **align-self: center**.
+
 [vimeo-video]
 [stream language="EN" videoId="431768078" default /]
 [/video-vimeo]
 
-The `align-self` property works like `align-items`, but applies only to a single flexbox item, instead of all of them.
-
-This property **overrides** the default alignment set by the container's align-items property.
+* The **container** has **align-items: center**;
+* The **target** has **align-self: stretch**.
 
 **Example:**
 [html]
