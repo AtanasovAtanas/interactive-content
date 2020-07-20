@@ -4,6 +4,10 @@
 
 ## Order
 
+[vimeo-video]
+[stream language="EN" videoId="431763609" default /]
+[/video-vimeo]
+
 The `order` property defines the **order** of a flexbox item.
 
 The first flex item in the code does not have to appear as the first item in the layout and you can manipulate it with `order` property.
@@ -22,6 +26,10 @@ The first flex item in the code does not have to appear as the first item in the
 
 [/html]
 
+[vimeo-video]
+[stream language="EN" videoId="431763581" default /]
+[/video-vimeo]
+
 * `order: 1;` - The order is relative to the flexbox item's siblings. 
 
 The final order is defined when all individual flexbox item order values are taken into account;
@@ -37,6 +45,10 @@ The final order is defined when all individual flexbox item order values are tak
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 [/html]
+
+[vimeo-video]
+[stream language="EN" videoId="431763596" default /]
+[/video-vimeo]
 
 * `order: -1;` - Negative values are also possible. 
 
@@ -72,10 +84,19 @@ The final order is defined when all individual flexbox item order values are tak
 
 ## Flex-grow
 
+[vimeo-video]
+[stream language="EN" videoId="431763629" default /]
+[/video-vimeo]
+
 The `flex-grow` defines how much a flexbox item should **grow** if there's space available.
 
 This property has two possible values:
 * `flex-grow: 0;` - The element will **not** grow if there's space available. It will only use the space it needs. It's the **default** value;
+
+[vimeo-video]
+[stream language="EN" videoId="431763660" default /]
+[/video-vimeo]
+
 * `flex-grow: 1;` - The element will **grow** by a factor of 1. It will fill up the remaining space if no other flexbox item has a flex-grow value;
 
 **Example:**
@@ -95,10 +116,19 @@ This property has two possible values:
 
 ## Flex-shrink
 
+[vimeo-video]
+[stream language="EN" videoId="431763708" default /]
+[/video-vimeo]
+
 The `flex-shrink` property defines how much a flexbox item should **shrink** if there's **not enough** space available.
 
 This property has two possible values:
 * `flex-shrink: 1;` - If there's **not enough** space available in the container's main axis, the element will **shrink** by a factor of **1**, and will wrap its content. It's the **default** value;
+
+[vimeo-video]
+[stream language="EN" videoId="431768150" default /]
+[/video-vimeo]
+
 * `flex-shrink: 0;` - The element will **not shrink** it will retain the width it needs, and **not wrap** its content. Its siblings will shrink to give space to the target element.
 
 If the target element will not wrap its content, there is a chance for the flexbox container's content to **overflow**;
@@ -120,9 +150,17 @@ If the target element will not wrap its content, there is a chance for the flexb
 
 ## Flex-basis
 
+[vimeo-video]
+[stream language="EN" videoId="431768181" default /]
+[/video-vimeo]
+
 The `flex-basis` property defines the initial size of a flexbox item.
 
 * `flex-basis: auto;` - The element will be automatically **sized based on its content**, or on any **height** or **width** value if they are defined;
+
+[vimeo-video]
+[stream language="EN" videoId="431768224" default /]
+[/video-vimeo]
 
 * `flex-basis: 80px;` - You can define **pixel** or **(r)em** values. The element will wrap its content to avoid any overflow.
 
@@ -142,6 +180,10 @@ The `flex-basis` property defines the initial size of a flexbox item.
 [slide]
 
 ## Flex - The Shorthand Property
+
+[vimeo-video]
+[stream language="EN" videoId="431768277" default /]
+[/video-vimeo]
 
 The `flex` property is the shorthand for:
 * `flex-grow`;
@@ -165,6 +207,22 @@ The default value is `flex: 0 1 auto;`, wich is equivalent to:
 
 ## Align-self
 
+[vimeo-video]
+[stream language="EN" videoId="431768327" default /]
+[/video-vimeo]
+
+[vimeo-video]
+[stream language="EN" videoId="431768419" default /]
+[/video-vimeo]
+
+[vimeo-video]
+[stream language="EN" videoId="431768446" default /]
+[/video-vimeo]
+
+[vimeo-video]
+[stream language="EN" videoId="431768078" default /]
+[/video-vimeo]
+
 The `align-self` property works like `align-items`, but applies only to a single flexbox item, instead of all of them.
 
 This property **overrides** the default alignment set by the container's align-items property.
@@ -179,5 +237,9 @@ This property **overrides** the default alignment set by the container's align-i
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 [/html]
+
+[vimeo-video]
+[stream language="EN" videoId="431768117" default /]
+[/video-vimeo]
 
 [/slide]

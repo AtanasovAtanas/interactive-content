@@ -82,6 +82,10 @@ yes
 
 # Problem: Flex Model Articles
 
+[vimeo-video]
+[stream language="EN" videoId="431792591" default /]
+[/video-vimeo]
+
 [code-task title="Problem: Flex Model Articles" taskId="f7442ee5-baa5-490b-9c1a-cc9a196acf3e" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
@@ -316,6 +320,10 @@ yes
 
 # Problem: Flexmodel Calendar
 
+[vimeo-video]
+[stream language="EN" videoId="431792519" default /]
+[/video-vimeo]
+
 [code-task title="Problem: Flexmodel Calendar" taskId="d3f3ab01-07e0-428e-81e8-858163bea2b2" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
@@ -540,6 +548,10 @@ yes
 [slide]
 
 # Problem: Photo Gallery Flexbox
+
+[vimeo-video]
+[stream language="EN" videoId="431792397" default /]
+[/video-vimeo]
 
 [code-task title="Problem: Photo Gallery Flexbox" taskId="26b47638-08f7-4ef7-b542-d2e3a04b9bba" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
@@ -811,6 +823,10 @@ yes
 [slide]
 
 # Problem: Center Flexbox
+
+[vimeo-video]
+[stream language="EN" videoId="431792496" default /]
+[/video-vimeo]
 
 [code-task title="Problem: Center Flexbox" taskId="cfc9d115-46e2-45e3-9e42-7be5a4fe0472" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
