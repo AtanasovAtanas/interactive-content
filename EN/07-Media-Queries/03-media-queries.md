@@ -5,6 +5,10 @@
 
 ## What is Media Query?
 
+[vimeo-video]
+[stream language="EN" videoId="431768679" default /]
+[/video-vimeo]
+
 Media Queries are a feature of CSS that enables webpage content to **adapt** to different screen sizes and resolutions.
 
 They are a fundamental part of **responsive web design** and are used to customize the appearance of websites for multiple devices.
@@ -27,6 +31,10 @@ The example bellow means, that if the browser window is 550px or smaller, the ba
 
 ## How Can be Used Media Queries?
 
+[vimeo-video]
+[stream language="EN" videoId="431768717" default /]
+[/video-vimeo]
+
 Media queries in CSS3 look at the **capability** of the device.
 
 Media queries can be used to check many things, such as:
@@ -41,6 +49,10 @@ Media queries can be used to check many things, such as:
 
 ## Media Query Syntax
 
+[vimeo-video]
+[stream language="EN" videoId="431768746" default /]
+[/video-vimeo]
+
 A media query consists of a **media type** and can contain one or more **expressions**, which resolve to either true or false.
 
 **Example:**
@@ -53,6 +65,10 @@ A media query consists of a **media type** and can contain one or more **express
 The result of the query is **true** if the specified media type matches the type of device the document is being displayed on.
 
 Unless you use the **not** or **only** operators, the media type is **optional** and all type will be implied.
+
+[vimeo-video]
+[stream language="EN" videoId="431769287" default /]
+[/video-vimeo]
 
 A **media type**, which tells the browser what kind of media this code is for (e.g. print, or screen).
 

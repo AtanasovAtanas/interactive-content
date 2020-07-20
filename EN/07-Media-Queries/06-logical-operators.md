@@ -3,6 +3,10 @@
 [slide]
 # Logical Operators
 
+[vimeo-video]
+[stream language="EN" videoId="431769798" default /]
+[/video-vimeo]
+
 The logical operators **not**, **and**, and **only** can be used to compose a complex media query.
 
 * `and` **combines** multiple media features;
@@ -18,5 +22,9 @@ The logical operators **not**, **and**, and **only** can be used to compose 
    }
 }
 ```
+
+[vimeo-video]
+[stream language="EN" videoId="431769864" default /]
+[/video-vimeo]
 
 [/slide]
