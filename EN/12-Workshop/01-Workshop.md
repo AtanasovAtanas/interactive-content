@@ -1,4 +1,4 @@
-# Workshop: Custom Linked List
+# Workshop: Custom LinkedList
 [slide]
 ## Overview
 
@@ -10,9 +10,9 @@ It will have the following functionalities:
 
 - `void addFirst(int element)` – adds an element at the beginning of the collection
 
-- `void addLast(int element)` – adds an element at the end of the collection**
+- `void addLast(int element)` – adds an element at the end of the collection
 
-- `int get(int index)` - Returns the element at the specified position in this list
+- `int get(int index)` - returns the element at the specified position in this list
 
 - `int removeFirst()` – removes the element at the beginning of the collection
 
@@ -33,7 +33,7 @@ Feel free to implement your own functionality or to write the methods by yoursel
 
 The **Java LinkedList** uses a `DoublyLinkedList` which provides a linear data structure that resembles a list but has different functionalities. 
 
-Each element in it "knows" about the previous one, if it is such, and the next one, again, if there is such. 
+Each element in it "knows" about the previous one, if there is such, and the next one, again, if there is such. 
 
 This is possible because the **doubly linked list** has **nodes** and each node has **two reference fields** pointing to other nodes and **a value field**, which contains some kind of data. 
 
@@ -233,7 +233,7 @@ In case of an empty list, the method should throw an exception.
 
 We have to consider the following three cases:
 
-- **Empty list** - throw and exception.
+- **Empty list** - throw an exception.
 - **Single element in the list** - make the list empty (**head** == **tail** == **null**).
 - **Multiple elements in the list** - remove the first element and redirect the head to point to the second element (**head = head.NextNode**).
 
@@ -360,7 +360,5 @@ public int[] toArray() {
 ```
 
 *Congratulations! You have implemented your Doubly Linked List.*
-
-*"Somewhere, something incredible is waiting to be known."*– **Carl Sagan**
 
 [/slide]
