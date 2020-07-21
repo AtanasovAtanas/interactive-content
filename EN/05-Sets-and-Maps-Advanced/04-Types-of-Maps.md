@@ -2,7 +2,7 @@
 
 # Types of Maps
 
-## HashMap < Key, Value >
+## HashMap <Key, Value>
 
 HashMap is implemented as a **Hash Table**, and there is **no ordering on keys or values**.
 
@@ -25,7 +25,7 @@ hashMap.put("Dacia", 10);
 
 hashMap.forEach((k, v) -> System.out.println(k + " - " + v));
 ```
-## TreeMap < Key, Value > 
+## TreeMap <Key, Value> 
 
 **TreeMap** is **sorted** according to the **natural ordering of its keys**.
 
@@ -49,7 +49,7 @@ treeMap.put("Dacia", 10);
 treeMap.forEach((k, v) -> System.out.println(k + " - " + v));
 ```
 
-## LinkedHashMap < Key, Value >
+## LinkedHashMap <Key, Value>
 
 **LinkedHashMap** also maps a `Key` and a `Value`.
 
@@ -179,22 +179,22 @@ There are several ways to iterate the Keys stored in a Map.
 
 - Iterating through the items of a map using a **for-each** loop
 
-  - `keySet()` - obtain only the keys
+- `keySet()` - obtain only the keys
 
 ```java live
-Map<String, Double> cars = new LinkedHashMap<>();
+Map<String, Integer> cars = new LinkedHashMap<>();
 
 cars.put("BMW", 5);
 cars.put("Mercedes", 3);
 cars.put("Opel", 4);
 cars.put("Dacia", 10);
 
-for (String fruit : fruitsPrice.keySet()) {
-    System.out.println(fruit);
+for (String car : cars.keySet()) {
+    System.out.println(car);
 }
 ```
 
-  - `values()` - obtain only the values
+- `values()` - obtain only the values
 
 ```java live
 Map<String, Integer> cars = new LinkedHashMap<>();
@@ -222,7 +222,7 @@ cars.put("Opel", 4);
 cars.put("Dacia", 10);
 
 for (Map.Entry<String, Integer> entry : cars.entrySet()) {
-    System.out.printf("%s -> %.2f%n", entry.getKey(), entry.getValue());
+    System.out.printf("%s -> %d%n", entry.getKey(), entry.getValue());
 }
 ```
 - Iterating through the Map using built-in method `forEach()`
@@ -235,7 +235,7 @@ cars.put("Mercedes", 3);
 cars.put("Opel", 4);
 cars.put("Dacia", 10);
 
-treeMap.forEach((key, value) -> System.out.println(key + " - " + value));
+cars.forEach((key, value) -> System.out.println(key + " - " + value));
 ```
 
 [/slide]
@@ -301,7 +301,7 @@ cars.entrySet()
 
 ```
 
-- Sorting Map according to Values in ascending order if there is equals values then sort by the keys
+- Sorting Map according to Values in ascending order if there are equal Values then sorting by the Keys
 
 ```java live
 Map<String, Integer> cars = new HashMap<>();
