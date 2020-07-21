@@ -94,7 +94,7 @@ Iterator<Integer> iterator = hash.iterator();
 // checking the next element availability
 while (iterator.hasNext()){
 
-    // moving cursor to the next element and return it
+    // moving cursor to the next element and returning it
     int currentElement = iterator.next();
     System.out.println(currentElement);
 }
@@ -1131,7 +1131,7 @@ xys2FYzn
 [/slide]
 
 [slide]
-# Problem: "War" - Number Game
+# Problem: Card Game
 [code-task title=""War" - Number Game" taskId="dbb3fd50-530f-4843-88f4-ad596cfd8960" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
@@ -1237,7 +1237,7 @@ Second player win!
 [/slide]
 
 [slide]
-# Solution: "War" - Number Game
+# Solution: Card Game
 [code-task title=""War" - Number Game" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
