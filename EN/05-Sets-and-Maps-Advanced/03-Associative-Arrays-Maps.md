@@ -4,7 +4,7 @@
 
 You learned that Arrays store items as an ordered collection, and you have to access them with an index number - **int type**.
 
-An Associative Array, however, store items in `key` - `value` pairs, and you can access them by an index of another type (e.g. a String).
+An Associative Array, however, stores items in `key` - `value` pairs, and you can access them by an index of another type (e.g. a String).
 
 One object is used as a key (index) to another object (value). 
 
@@ -37,12 +37,12 @@ But **the values can be duplicated**. For one Key only one Value can be stored i
 - `LinkedHashMap<K, V>`
 
 **The main features of Maps are:**
-- hold a set of pairs `<key, value>`
-- contains unique keys
-- each key can map to at most one value
-- the values can be duplicated
+- Hold a set of pairs `<key, value>`
+- Contain unique keys
+- Each key can map to at most one value
+- The values can be duplicated
 
-**Based on the features of the Maps, it's better to use them when:**
+**Based on the features of the Maps, here are some examples:**
 - A map of error codes and their descriptions.
 - A map of zip codes and cities.
 - A map of managers and employees. Each manager - `key` is associated with a list of employees - `value` he manages.
