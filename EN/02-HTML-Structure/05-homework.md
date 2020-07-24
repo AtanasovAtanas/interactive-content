@@ -792,7 +792,7 @@ yes
 * **Padding**: 20px;
 * Use **a** tag for hyperlink, with the following constraints:
 * **Text decoration**: none;
-* **Text-Color**: #ffffff;
+* **Text-Color**: rgb(255,255,255);
 
 You can find an example view [here](https://i.imgur.com/sMHAFNc.png)
 
@@ -882,7 +882,7 @@ yes
 * The **body** should have: 
 * **Margin**: 0px;
 * **Padding**: 0px;
-* **Background color**: #CCCCCC;
+* **Background color**: rgb(204,204,204);
 * The **section**:
 * **Margin**: 20px;
 
@@ -910,7 +910,7 @@ expect(article).to.have.lengthOf(2, "Incorrect amount of article tag.")
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 let p = $("body \> p");
 expect(p).to.have.lengthOf(4, "Incorrect amount of p tag.")
@@ -935,7 +935,7 @@ expect($("header p").css("font-style")).to.equal("italic", "Incorrect paragraph 
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 expect($("section").css("margin")).to.equal("20px", "Incorrect margin of the section item.");
 [/input]
@@ -965,9 +965,9 @@ yes
 
 * Use the html and css from previous two problems
 * Use **Footer**, with the following constraints
-* **Background color**: #444;
+* **Background color**: rgb(68,68,68);
 * Use **p** tag for text in footer
-* **Text Color**: #fff;
+* **Text Color**: rgb(255,255,255);
 * **Center** the text
 
 You can find an example view [here](https://i.imgur.com/ZUPBhr3.png)
@@ -995,7 +995,7 @@ yes
 [/test]
 [test]
 [input]
-expect($("footer").css("background-color")).to.equal("#444", "Incorrect footer background-color.");
+expect($("footer").css("background-color")).to.equal("rgb(68,68,68)", "Incorrect footer background-color.");
 [/input]
 [output]
 yes
