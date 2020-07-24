@@ -368,15 +368,6 @@ expect(button).to.have.lengthOf(6,"Incorrect amount of button tags.");
 yes
 [/output]
 [/test]
-[test open]
-[input]
-let button = $("body .button");
-expect((button).css('cursor')).to.equal('pointer', "Incorrect cursor.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
 [test]
 [input]
 let button = $("body .hover");
