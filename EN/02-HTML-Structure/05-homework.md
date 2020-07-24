@@ -827,17 +827,17 @@ expect(li).to.have.lengthOf(5, "Incorrect amount of li tag.")
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
-expect($("body").css("background-color")).to.equal("#cccccc", "Incorrect body background-color.");
+expect($("body").css("background-color")).to.equal("rgb(255, 255, 255)", "Incorrect body background-color.");
 [/input]
 [output]
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
-expect($("ul").css("background-color")).to.equal("#444", "Incorrect ul background-color.");
+expect($("ul").css("background-color")).to.equal("rgb(68, 68, 68)", "Incorrect ul background-color.");
 [/input]
 [output]
 yes
