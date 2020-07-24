@@ -247,7 +247,7 @@ expect(tbody).to.have.lengthOf(1,"Incorrect amount of tbody tag.");
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 expect($("table thead td").css('text-align')).to.equal('left', "Incorrect text align.");
 [/input]
