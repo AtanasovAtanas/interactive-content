@@ -778,9 +778,9 @@ yes
 * The constraints for the **body** are:
 * **Margin**: 0px;
 * **Padding**: 0px;
-* **Background Color**: #CCCCCC;
+* **Background Color**: rgb(255, 255, 255);
 * Use **ul** tag for unordered list, with the following constraints:
-* **Background Color**: #444;
+* **Background Color**: rgb(68, 68, 68);
 * **Center** the text
 * **Padding**: 0px;
 * **Margin**: 0px;
