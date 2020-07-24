@@ -985,9 +985,9 @@ expect(p).to.have.lengthOf(1, "Incorrect amount of p tag in footer.")
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
-expect($("footer").css("background-color")).to.equal("rgb(68,68,68)", "Incorrect footer background-color.");
+expect($("footer").css("background-color")).to.equal("rgb(68, 68, 68)", "Incorrect footer background-color.");
 [/input]
 [output]
 yes
