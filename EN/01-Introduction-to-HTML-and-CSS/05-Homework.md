@@ -694,7 +694,7 @@ yes
 
 ## Description
 
-* Change the document **title** to **Todo List**
+* Change the document **title** to **to-do-list**
 * Use **div** tag with **class="my-list"** as container
 * **Background color**: #f7f381;
 * **Padding**: 8px 24px;
@@ -717,7 +717,7 @@ You can download the resources [here](https://mega.nz/file/7NBkjSwL#A576TCCkT_eH
 [tests]
 [test open]
 [input]
-expect(document.title).to.equal("Todo List","Incorrect title name");
+expect(document.title).to.equal("to-do-list","Incorrect title name");
 [/input]
 [output]
 yes
