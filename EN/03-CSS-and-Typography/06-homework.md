@@ -249,7 +249,7 @@ yes
 [/test]
 [test]
 [input]
-expect($("table thead th").css('text-align')).to.equal('left', "Incorrect text align.");
+expect($("table thead td").css('text-align')).to.equal('left', "Incorrect text align.");
 [/input]
 [output]
 yes
