@@ -912,7 +912,7 @@ yes
 [/test]
 [test open]
 [input]
-let p = $("body \> p");
+let p = $("body p");
 expect(p).to.have.lengthOf(4, "Incorrect amount of p tag.")
 [/input]
 [output]
@@ -930,14 +930,6 @@ yes
 [test]
 [input]
 expect($("header p").css("font-style")).to.equal("italic", "Incorrect paragraph font style.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test open]
-[input]
-expect($("section").css("margin")).to.equal("20px", "Incorrect margin of the section item.");
 [/input]
 [output]
 yes
@@ -993,7 +985,7 @@ expect(p).to.have.lengthOf(1, "Incorrect amount of p tag in footer.")
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 expect($("footer").css("background-color")).to.equal("rgb(68,68,68)", "Incorrect footer background-color.");
 [/input]
