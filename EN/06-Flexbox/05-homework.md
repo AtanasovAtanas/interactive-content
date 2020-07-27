@@ -499,7 +499,7 @@ yes
 [test]
 [input]
 let headerUnderline = $("body header");
-expect((headerUnderline).css('border-bottom')).to.equal('2px solid rgb(0,0,0)', "Incorrect underline color.")
+expect((headerUnderline).css('border-bottom')).to.equal('2px solid rgb(0, 0, 0)', "Incorrect underline color.")
 [/input]
 [output]
 yes
