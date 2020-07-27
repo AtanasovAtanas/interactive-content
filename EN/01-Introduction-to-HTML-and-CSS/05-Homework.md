@@ -36,7 +36,7 @@ You can find an example view [here](https://i.imgur.com/k58mFsI.png)
 [/task-description]
 
 [tests]
-[test open]
+[test]
 [input]
 expect(document.title).to.equal("Simple HTML Page","Incorrect title name");
 [/input]
