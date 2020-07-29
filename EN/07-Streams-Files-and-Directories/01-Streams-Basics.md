@@ -2,7 +2,7 @@
 
 [slide]
 
-# What is Stream in Java?
+# Streams Basics
 
 All of us have watched online videos on youtube or some other such website. 
 
@@ -10,71 +10,106 @@ When you start watching a video, a small portion of the file is first loaded int
 
 There is no need to download the complete video before you start playing it and this is called **streaming**.
 
-The Java Stream API was first introduced in Java 8.
+A stream can be defined as a **sequence of data**. 
 
-A Java Stream can be explained as a pipeline through which data will flow. 
+In Java, a stream is **composed of bytes**. 
 
-The pipeline's functions will operate on the data by e.g. filtering, mapping, and sorting the items. 
-Lastly, a terminal operation can be performed to collect the items in a preferred data structure such as a List, an Array, or a Map. 
+It's called a stream because it is like a stream of water that continues to flow.
 
-An important thing to notice is that a Stream can only be consumed once.
+There are **two fundamental types** of Streams:
 
-## Picture  
-
-As it shown on the picture above, a Stream Pipeline contains three main parts:
-
-- **Stream source**
-
-- **Intermediate** operations(zero or more)
-
-- **Terminal** operation
-
-**Stream source** it might be an **Array**, a **Collection**, a **generator function**, an **I/O channel** etc.
-
-Stream operations are either **intermediate** or **terminal**.
-
-**Terminal operations** can return a result of a certain type or creating side effect (**void**).
-
-The Stream API provides the following common **terminal operations**:
-- `toArray()` 
-- `collect()` 
-- `count()`
-- `reduce()`
-- `forEach()`
-
-**Intermediate operations** return a new Stream which allows to call multiple operartions in the form of a query.
-As intermediate operations return another Stream as a result, they can be chained together to form a pipeline of operations.
-Pipeline of operations may contain any number of intermediate operations, but there is only one terminal operation, that too at the end of the pipeline.
-
-The Stream API provides the following common **intermediate operations**:
-- `map()`
-- `filter()`
-- `sorted()`
-- `limit()`
-- `distinct()`
-
-
-
-[/slide]
-
-[slide]
-
-# Streams Basics
-
-A stream can be defined as a sequence of data.
-
-There are two kinds of Streams:
-
-- InputStream − used to read data from a source
+- **InputStream** − used to read data from a **source**
 
 ## Picture
 
-- OutputStream − used for writing data to a destination
+- **OutputStream** − used for writing data to a **destination**
 
 ## Picture
 
+Let's have a look at the following examples:
 
-## InputStream
+ - **Opening a File Stream**:
+
+```java
+// source
+String path = "C:\\input.txt";
+
+// opening an input stream by instantiating a FileInputStream class
+FileInputStream fileStream = new FileInputStream(path);
+
+// storing the first byte into an int variable
+int oneByte = fileStream.read();
+
+while (oneByte >= 0) {
+  // printing the current byte
+  System.out.print(oneByte);
+  
+  // reading the next byte from the file
+  // the read() method returns -1 if there is no more content
+  oneByte = fileStream.read();
+}
+```
+
+- **Closing a File Stream** using `try-catch-finally`:
+
+
+```java
+// source 
+String path = "C:\\input.txt";
+
+// declaring the inputStream variable
+InputStream inputStream = null;
+
+// opening the try block
+try {
+    // opening a stream might cause an exception if the file is missing or corrupted
+    // or some other circumstances might trip us in our efforts of reading it
+    inputStream = new FileInputStream(path);
+    int oneByte = in.read();
+    while (oneByte >= 0) {
+        System.out.print(oneByte);
+        oneByte = in.read();
+    }
+} // specifying the exact type of exception
+  catch (IOException ex) {
+    // handling the exception
+    System.out.println("File not found!");
+
+} // it will always be executed with or without of exception of the try block 
+  finally {
+    if (inputStream != null) {
+      // closing the stream
+        inputStream.close();
+    }
+}
+
+```
+- **Closing a File Stream** using `try-with-resources`
+
+There is a **shorter way** of implementing the same behavior in the previous example - `try-with-resources`.
+
+We can create a Stream inside of the braces of the try block and this operatin will make a Stream available inside the try block.
+
+The **main benefit** is that the Stream will be **automatically closed** after we finish our job in the try block.
+
+```java
+// source 
+String path = "C:\\input.txt";
+
+// opening a stream inside of the braces of the try block
+try (InputStream in = new FileInputStream(path)) {
+    int oneByte = in.read();
+    while (oneByte >= 0) {
+        System.out.print(oneByte);
+        oneByte = in.read();
+      }
+  } catch (IOException e) {
+        System.out.println("File not found!");
+}
+
+```
+
+
 [/slide]
 
 
