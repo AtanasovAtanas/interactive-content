@@ -70,6 +70,23 @@ try (FileReader inputStream = new FileReader(input);
 }
 
 ```
+
+## Combining Streams
+
+- Character streams are often "**wrappers**" for byte streams:
+    - FileReader uses FileInputStream
+    - FileWriter uses FileOutputStream
+
+```java
+String path = "D:\\input.txt";
+
+Scanner reader = new Scanner(new FileInputStream(path));
+```
+
+An example above is given with the Scanner class, which you have used for quite some time now.
+
+Here is used to wrap a FileInputStream and, by now, you have done that by wrapping System.in, wich is nothing more but a constant holding an InputStream.
+
 [/slide]
 
 [slide]
