@@ -83,15 +83,45 @@ String path = "D:\\input.txt";
 Scanner reader = new Scanner(new FileInputStream(path));
 ```
 
-An example above is given with the Scanner class, which you have used for quite some time now.
+An example above is given with the `Scanner` class, which you have used for quite some time now.
 
-Here is used to wrap a FileInputStream and, by now, you have done that by wrapping System.in, wich is nothing more but a constant holding an InputStream.
+Here is used to wrap a `FileInputStream` and, by now, you have done that by wrapping `System.in`, wich is nothing more but a constant holding an `InputStream`.
 
 [/slide]
 
 [slide]
 
 # Buffered Streams 
+
+The next layer of abstraction over the byte stream are Buffered Streams. 
+
+The Streams we have seen so far use unbuffered I/O. 
+
+This means each or write request is handled directly by the underlying Operating System.
+
+This can make a program much less efficient, since each such request often triggers disk space, network activity, or some other operation that is relatively expensive.
+
+To overcome this kind of overhead, the Java platform implements Buffered I/O Streams.
+
+Buffered input streams read data from a memory area known as a buffer.
+
+When the Buffered Stream is created, an internal buffer array is created.
+
+Buffered stream can wrap a character stream and give us access to very powerful methods. 
+
+There are four buffered stream classes used to wrap unbuffered streams:
+ - **BufferedInputStream** and **BufferedOutputStream** create buffered **byte streams**
+ - **BufferedReader** and **BufferedWriter** create buffered **character streams**.
+
+Let's see the following example:
+
+## Picture
+
+Instead of reading the content "**Files and**", byte by byte or a character by character, we can use a buffer to get bigger chunks of that text at a time. 
+
+In this case, the buffer will hold two characters at the same time. 
+
+This significantly will **boost the performance** of our applications. 
 
 [/slide]
 
