@@ -97,7 +97,7 @@ The next layer of abstraction over the byte stream are Buffered Streams.
 
 The Streams we have seen so far use unbuffered I/O. 
 
-This means each or write request is handled directly by the underlying Operating System.
+This means each read or write request is handled directly by the underlying Operating System.
 
 This can make a program much less efficient, since each such request often triggers disk space, network activity, or some other operation that is relatively expensive.
 
@@ -130,5 +130,14 @@ This significantly will **boost the performance** of our applications.
 
 # Command I/O Streams 
 
+Java provides support for standard I/O where the user's program can take input from a keyboard and then produce an output on the computer screen.
+
+The Java platform supports three Standard Streams, attached with the console.
+
+- **Standard Input** − This is used to feed the data to user's program and usually a keyboard is used as standard input stream and represented as `System.in`.
+
+- **Standard Output** − This is used to output the data produced by the user's program and usually a computer screen is used for standard output stream and represented as `System.out`.
+
+- **Standard Error** − This is used to output the error data produced by the user's program and usually a computer screen is used for standard error stream and represented as `System.err`.
 [/slide]
 
