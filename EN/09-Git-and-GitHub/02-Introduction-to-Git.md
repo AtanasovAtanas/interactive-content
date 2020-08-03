@@ -1,4 +1,13 @@
 # Introduction to Git
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="0"]
+[stream language="EN" videoId="444160928" default /]
+[stream language="RO" videoId=""  /]
+[/video-vimeo]
+
+[/slide]
 
 [slide]
 # What is Git?
