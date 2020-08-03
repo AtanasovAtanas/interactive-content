@@ -134,10 +134,21 @@ Java provides support for standard I/O where the user's program can take input f
 
 The Java platform supports three Standard Streams, attached with the console.
 
-- **Standard Input** − This is used to feed the data to user's program and usually a keyboard is used as standard input stream and represented as `System.in`.
+**Standard Input** − `System.in` is an **InputStream** which is typically connected to keyboard input of console programs.
 
-- **Standard Output** − This is used to output the data produced by the user's program and usually a computer screen is used for standard output stream and represented as `System.out`.
+**Standard Output** − `System.out` is often used from console-only programs as a way to display the result of their execution to the user.
 
-- **Standard Error** − This is used to output the error data produced by the user's program and usually a computer screen is used for standard error stream and represented as `System.err`.
+**Standard Error** − `System.err` is used to output the error data produced by the user's program.
+
+You might expect the Standard Streams to be character streams, but, for historical reasons, they are **byte streams**. 
+
+`System.out` and `System.err` are defined as **PrintStream** objects. 
+
+Although it is technically a byte stream, PrintStream utilizes an **internal character stream object** to emulate **many of the features of character streams**.
+
+By contrast, `System.in` is a byte stream with **no character stream features**. 
+
+To use **Standard Input** as a character stream, wrap `System.in` in **InputStreamReader**.
+
 [/slide]
 
