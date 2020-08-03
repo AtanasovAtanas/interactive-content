@@ -1,3 +1,14 @@
+
+[slide]
+# Video
+
+[vimeo-video startTimeInSeconds="0"]
+[stream language="EN" videoId="438565905" default /]
+[stream language="RO" videoId="436078905"  /]
+[/video-vimeo]
+
+[/slide]
+
 [slide]
 # Email Validator
 [code-task title="Email Validator" taskId="3aa1cafd-96a8-47e0-8826-b35107f1de83" executionType="tests-execution" executionStrategy="python-code" requiresInput]
