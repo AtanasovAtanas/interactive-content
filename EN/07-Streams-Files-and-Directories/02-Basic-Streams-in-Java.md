@@ -150,5 +150,21 @@ By contrast, `System.in` is a byte stream with **no character stream features**.
 
 To use **Standard Input** as a character stream, wrap `System.in` in **InputStreamReader**.
 
+The following example is for Buffered input stream wich read content from the `System.in` (**Console**):
+
+We create a **BufferedReader** stream, which wraps an **InputStreamReader**.
+
+Then **InputStreamReader** wraps the `System.in` stream.
+
+The `readline()` - method reads a line of text, in this case, this will be something written in the console.
+
+```java
+BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+String hello = reader.readLine(); 
+System.out.println(hello);        
+
+```
+
 [/slide]
 
