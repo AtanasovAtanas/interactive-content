@@ -20,11 +20,11 @@ There are **two fundamental types** of Streams:
 
 - **InputStream** − used to read data from a **source**
 
-## Picture
+[image assetsSrc="streams-files-directories-example(1).png" /]
 
 - **OutputStream** − used for writing data to a **destination**
 
-## Picture
+[image assetsSrc="streams-files-directories-example(2).png" /]
 
 Let's have a look at the following examples:
 
