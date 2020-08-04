@@ -59,7 +59,7 @@ Next we call `readallLines()` - method of the Files class and pass the **inputPa
 
 The `readAllLines()` - method, returns a List with all lines in a file.
 
-Then we pass this **List** to the Files `write()` - method along with the **outputPath** variable.
+Then we pass this **List** and the **outputPath** variable to the Files `write()` - method.
 
 
 
@@ -69,6 +69,26 @@ Then we pass this **List** to the Files `write()` - method along with the **outp
 [slide]
 
 # File Class in Java
+
+Java File class represents the files and directory pathnames in an abstract manner.
+
+This class is used for creation of files and directories, file searching, file deletion, etc.
+
+The File object represents the actual file/directory on the disk. 
+
+- Creating a File object, by placing the String representation of the file location in the constructor:
+```java
+File file = new File("D:\\input.txt");
+```
+- Some of the useful **methods** of the **File** class are:
+
+| **Method** | **Description** |
+| --- | --- |
+| `exists()` | Tests whether the file or directory denoted by this abstract pathname exists. Returns true if and only if the file or directory denoted by this abstract pathname exists; false otherwise. |
+| `length()` | Returns the length of the file denoted by this abstract pathname. The return value is unspecified if this pathname denotes a directory. |
+| `isDirectory()` | Tests whether the file denoted by this abstract pathname is a directory. Returns true if and only if the file denoted by this abstract pathname exists and is a directory; false otherwise. |
+| `listFiles()` | Returns an array of abstract pathnames denoting the files in the directory denoted by this abstract pathname. |
+
 
 [/slide]
 
