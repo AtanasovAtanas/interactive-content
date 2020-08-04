@@ -17,11 +17,11 @@ Though there are many classes related to byte streams but the most frequently us
 
 - Тhe **InputStream is a sequence of bytes finishing with -1**, which is a special character **marking the end of the file**.
 
-## Picture
+[image assetsSrc="streams-files-directories-example(3).png" /]
 
 - The **OutputStream is consisted only of bytes**, which will be written.
 
-## Picture
+[image assetsSrc="streams-files-directories-example(4).png" /]
 
 
 [/slide]
