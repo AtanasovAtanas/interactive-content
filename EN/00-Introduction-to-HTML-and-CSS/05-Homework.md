@@ -167,6 +167,10 @@ yes
 
 # Problem: Single Article Page 
 
+[vimeo-video]
+[stream language="EN" videoId="431783216" default /]
+[/video-vimeo]
+
 [code-task title="Single Article Page " taskId="99d9c4dc-4e2b-45fb-ba21-351551e15cdf" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
@@ -252,6 +256,10 @@ yes
 [slide]
 
 # Problem: Tags Cardio - Lists
+
+[vimeo-video]
+[stream language="EN" videoId="431783303" default /]
+[/video-vimeo]
 
 [code-task title="Tags Cardio - Lists" taskId="74d19b02-e0c8-47dd-826f-c71e099967a2" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
@@ -468,6 +476,10 @@ yes
 [slide]
 
 # Problem: Tags Cardio - Table
+
+[vimeo-video]
+[stream language="EN" videoId="431780276" default /]
+[/video-vimeo]
 
 [code-task title="Tags Cardio - Table" taskId="d1cb2a6b-64b9-4589-8c5e-3852f952588d" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
