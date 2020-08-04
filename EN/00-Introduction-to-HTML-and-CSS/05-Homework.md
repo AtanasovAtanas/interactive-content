@@ -77,6 +77,10 @@ yes
 
 # Problem: TagsCardio Paragraphs
 
+[vimeo-video]
+[stream language="EN" videoId="431749750" default /]
+[/video-vimeo]
+
 [code-task title="TagsCardio-Paragraphs" taskId="54728b5a-74cd-4128-bbcc-ae48f9b61be4" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
 [code-upload allowedMemory="30" /]
