@@ -115,7 +115,7 @@ There are four buffered stream classes used to wrap unbuffered streams:
 
 Let's see the following example:
 
-## Picture
+[image assetsSrc="streams-files-directories-example(5).png" /]
 
 Instead of reading the content "**Files and**", byte by byte or a character by character, we can use a buffer to get bigger chunks of that text at a time. 
 
