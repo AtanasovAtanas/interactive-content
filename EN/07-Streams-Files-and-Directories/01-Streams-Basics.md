@@ -198,18 +198,16 @@ try (FileInputStream fileStream = new FileInputStream(path)) {
 # Solution: Read File
 
 ```java
-// After downloading the resource folder 
-// Create a string variable holding the path to the input.txt file. 
-// If, for example, the file is located in "D:\"
 String path = "D:\\input.txt";
 
-// Use try-with-resources to open the file and to be sure that it will be closed after you are done with it
 try (FileInputStream fileStream = new FileInputStream(path)) {
 
-  // Use the read() method to read each byte of the file until it returns -1
     int oneByte = fileStream.read();
+
     while (oneByte >= 0) {
+
         System.out.printf("%s ", Integer.toBinaryString(oneByte));
+
         oneByte = fileStream.read();
     }
 } catch (IOException ex) {
@@ -231,7 +229,7 @@ try (FileInputStream fileStream = new FileInputStream(path)) {
 ## Description
 Read the file named "input.txt" that is provided for this exercise and write all its content to a file while skipping any punctuation.
 
-Skip the following symbols: ',', '.', '!', '?'.
+Skip the following symbols: `,`, `.`, `!`, `?`.
 
 ## Guidelines
 
@@ -245,7 +243,7 @@ For each exercise submit only the **output** of your program, **not the code**.
 | **Input** | **Output** |
 | --- | --- |
 | On January 1 , 1533 , Michael Angelo, then fifty-seven years old, writes | On January 1  1533  Michael Angelo then fifty-seven years old writes |
-|  |  |
+
 
 | **Input** | **Output** |
 | --- | --- |
@@ -318,3 +316,31 @@ will"\[ 3 \]
 [/code-task]
 [/slide]
 
+[slide]
+
+# Solution: Write to File
+
+```java
+String inputPath = "D:\\input.txt";
+String outputPath = "D:\\02.WriteToFileOutput.txt";
+
+List<Character> symbols = new ArrayList<>();
+Collections.addAll(symbols, '.', ',', '!', '?');
+
+try (InputStream in = new FileInputStream(inputPath); OutputStream out = new FileOutputStream(outputPath)) {
+
+    int oneByte = 0;
+
+    while ((oneByte = in.read()) >= 0) {
+
+        if (!symbols.contains((char)oneByte)) {
+          
+            out.write(oneByte);
+        }
+    }
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+[/slide]
