@@ -203,6 +203,71 @@ Here is used to wrap a `FileInputStream` and, by now, you have done that by wrap
 
 [/slide]
 
+
+[slide]
+# Problem: Extract Integers
+[code-task title="Problem: Extract Integers" taskId="4c9d07b4-b3a3-4d4a-a023-9284400f7aca" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+
+```
+[/code-editor]
+[task-description]
+## Description
+Read the file provided, named "**input.txt**" and **extracts all integers that are not a part of a word** in a separate file.
+
+A valid integer is **surrounded with white spaces**.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| On January 1 , 1533 , Michael Angelo, then fifty-seven years old, writes | 1 |
+| … | 1533 |
+
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+1
+1533
+3
+[/input]
+[output]
+1
+1533
+3
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+
+# Solution: Extract Integers
+
+```java
+String inputPath = "D:\\input.txt";
+String outputPath = "D:\\04.ExtractIntegersOutput.txt";
+
+Scanner scanner = new Scanner(new FileInputStream(inputPath));
+
+PrintWriter out = new PrintWriter(new FileOutputStream(outputPath));
+
+while (scanner.hasNext()) {
+    if (scanner.hasNextInt()){
+        out.println(scanner.nextInt());
+    }
+
+    scanner.next();
+}
+out.close();
+
+```
+
+[/slide]
+
 [slide]
 
 # Buffered Streams 
@@ -239,6 +304,83 @@ This significantly will **boost the performance** of our applications.
 
 [/slide]
 
+[slide]
+# Problem: Write Every Third Line
+[code-task title="Problem: Write Every Third Line" taskId="67e090f0-cf6b-497a-96c4-68ceb9c925fa" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+
+```
+[/code-editor]
+[task-description]
+## Description
+Read the file provided, named "**input.txt**" and write to another file all lines which number is **divisible by 3**.
+
+Line numbers **start from one**.
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| On January 1 , 1533 ,  | then fifty-seven years old,  |
+| Michael Angelo,  | Tommaso de' Cavalieri,  |
+| then fifty-seven years old,  |  |
+| writes |  |
+| from Florence to  |  |
+| Tommaso de' Cavalieri,  |  |
+| a youth of noble Roman family, |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+who afterwards became his favourite pupil: "If I do not possess the
+of me that which I have it not in me to give; since that which stands
+no equal or peer, cannot find satisfaction in the work of any other
+good, but fortunate. And if I should ever feel assured that--as has
+that the future may bring me; and it will be a great pain to me to be
+too old. There is nothing more left for me to say. Read my heart and
+[/input]
+[output]
+who afterwards became his favourite pupil: "If I do not possess the
+of me that which I have it not in me to give; since that which stands
+no equal or peer, cannot find satisfaction in the work of any other
+good, but fortunate. And if I should ever feel assured that--as has
+that the future may bring me; and it will be a great pain to me to be
+too old. There is nothing more left for me to say. Read my heart and
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+
+# Solution: Write Every Third Line
+
+```java
+String inputPath = "D:\\input.txt";
+String outputPath = "D:\\05.WriteEveryThirdLineOutput.txt";
+
+try (BufferedReader in = new BufferedReader(new FileReader(inputPath));
+                     PrintWriter out = nePrintWriter(newFileWriter(outputPath))) {
+
+    int counter = 1;
+    String line = in.readLine();
+
+    while (line != null) {
+
+        if (counter % 3 == 0){
+        out.println(line);
+        counter++;
+        }
+        line = in.readLine();
+    }
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+[/slide]
 
 [slide]
 
