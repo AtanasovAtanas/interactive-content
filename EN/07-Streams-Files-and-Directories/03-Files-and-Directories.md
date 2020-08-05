@@ -66,6 +66,120 @@ Then we pass this **List** and the **outputPath** variable to the Files `write()
 
 [/slide]
 
+
+[slide]
+# Problem: Sort Lines
+[code-task title="Problem: Sort Lines" taskId="ff62c581-1c97-4bb5-bf9a-18f2cd397350" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+
+```
+[/code-editor]
+[task-description]
+## Description
+Read the file provided, named "**input.txt**" and sort all lines.
+
+Write text to **another text file**.
+
+Use **Path** and **Files** Classes.
+
+## Guidelines
+
+There is one zipped folder with resources for all exercises, that you need to use. 
+
+Download the **resources folder** [here](https://mega.nz/file/7YgFUaxb#759BYR32eIMTbn2BiXWIs0s6ip0ZahlwUOuOuFu221Y).
+
+For each exercise submit only the **output** of your program, **not the code**.
+
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| C | A |
+| A | B |
+| B | C |
+| D | D |
+
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+On January 1 , 1533 , Michael Angelo, then fifty-seven years old, writes
+alone in everything can in nothing find its counterpart. Wherefore your
+art of navigating the sea of your potent genius, that genius will
+been reported to me--I have given your lordship satisfaction in one
+from Florence to Tommaso de' Cavalieri, a youth of noble Roman family,
+good, but fortunate. And if I should ever feel assured that--as has
+hand. If, therefore, this or that in the works which I hope and promise
+instead of having only the future, which cannot be long, since I am all
+lordship, _the only light in our age vouchsafed to this worlds_ having
+nevertheless excuse me, and neither despise my inequality, nor demand
+no equal or peer, cannot find satisfaction in the work of any other
+not my letter, for my pen cannot approach the expression of my good
+of me that which I have it not in me to give; since that which stands
+that the future may bring me; and it will be a great pain to me to be
+thing or another, I will make a gift to you of my present and of all
+to execute should happen to please you, I should call that work, not
+too old. There is nothing more left for me to say. Read my heart and
+unable to recall the past, in order to serve you so much the longer,
+who afterwards became his favourite pupil: "If I do not possess the
+will."[ 3 ]
+[/input]
+[output]
+On January 1 , 1533 , Michael Angelo, then fifty-seven years old, writes
+alone in everything can in nothing find its counterpart. Wherefore your
+art of navigating the sea of your potent genius, that genius will
+been reported to me--I have given your lordship satisfaction in one
+from Florence to Tommaso de' Cavalieri, a youth of noble Roman family,
+good, but fortunate. And if I should ever feel assured that--as has
+hand. If, therefore, this or that in the works which I hope and promise
+instead of having only the future, which cannot be long, since I am all
+lordship, _the only light in our age vouchsafed to this worlds_ having
+nevertheless excuse me, and neither despise my inequality, nor demand
+no equal or peer, cannot find satisfaction in the work of any other
+not my letter, for my pen cannot approach the expression of my good
+of me that which I have it not in me to give; since that which stands
+that the future may bring me; and it will be a great pain to me to be
+thing or another, I will make a gift to you of my present and of all
+to execute should happen to please you, I should call that work, not
+too old. There is nothing more left for me to say. Read my heart and
+unable to recall the past, in order to serve you so much the longer,
+who afterwards became his favourite pupil: "If I do not possess the
+will."[ 3 ]
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
+
+# Solution: Sort Lines
+
+```java
+String inputPath = "D:\\input.txt";
+String outputPath = "D:\\06.SortLinesOutput.txt";
+
+Path path = Paths.get(inputPath);
+Path output = Paths.get(outputPath);
+
+try {
+    List<String> lines = Files.readAllLines(path);
+
+    lines = lines.stream().filter(line -> !line.isBlank()).collect(Collectors.toList());
+
+    Collections.sort(lines);
+
+    Files.write(output, lines);
+    
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+[/slide]
+
 [slide]
 
 # File Class in Java
