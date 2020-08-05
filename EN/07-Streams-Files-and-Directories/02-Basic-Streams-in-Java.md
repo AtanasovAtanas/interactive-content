@@ -218,6 +218,14 @@ Read the file provided, named "**input.txt**" and **extracts all integers that a
 
 A valid integer is **surrounded with white spaces**.
 
+## Guidelines
+
+There is one zipped folder with resources for all exercises, that you need to use. 
+
+Download the **resources folder** [here](https://mega.nz/file/7YgFUaxb#759BYR32eIMTbn2BiXWIs0s6ip0ZahlwUOuOuFu221Y).
+
+For each exercise submit only the **output** of your program, **not the code**.
+
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
@@ -317,6 +325,15 @@ This significantly will **boost the performance** of our applications.
 Read the file provided, named "**input.txt**" and write to another file all lines which number is **divisible by 3**.
 
 Line numbers **start from one**.
+
+## Guidelines
+
+There is one zipped folder with resources for all exercises, that you need to use. 
+
+Download the **resources folder** [here](https://mega.nz/file/7YgFUaxb#759BYR32eIMTbn2BiXWIs0s6ip0ZahlwUOuOuFu221Y).
+
+For each exercise submit only the **output** of your program, **not the code**.
+
 
 ## Examples
 | **Input** | **Output** |
