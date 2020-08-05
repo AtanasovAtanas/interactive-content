@@ -129,7 +129,7 @@ You are given a file named "**input.txt**" (from the Resources - Folder).
 
 There is one zipped folder with resources for all exercises, that you need to use. 
 
-Download the **resources folder** [here](https://mega.nz/file/qV4WgapZ#twhDs3mE_2NNg1P6R-WKoH7cnAJPIpPZ14AaBcScilw).
+Download the **resources folder** [here](https://mega.nz/file/7YgFUaxb#759BYR32eIMTbn2BiXWIs0s6ip0ZahlwUOuOuFu221Y).
 
 For each exercise submit only the **output** of your program, **not the code**.
 
