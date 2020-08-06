@@ -6,7 +6,6 @@
 [stream language="RO" videoId="444864041"]
 [/video-vimeo]
 
-
 [/slide]
 
 [slide]
