@@ -26,7 +26,7 @@ Though there are many classes related to byte streams but the most frequently us
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Copy Bytes
 [code-task title="Copy Bytes" taskId="8b4cd32d-5ff6-4940-a8de-3845ace71241" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -204,7 +204,7 @@ Here is used to wrap a `FileInputStream` and, by now, you have done that by wrap
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: Extract Integers
 [code-task title="Problem: Extract Integers" taskId="4c9d07b4-b3a3-4d4a-a023-9284400f7aca" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -312,7 +312,7 @@ This significantly will **boost the performance** of our applications.
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: Write Every Third Line
 [code-task title="Problem: Write Every Third Line" taskId="67e090f0-cf6b-497a-96c4-68ceb9c925fa" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
