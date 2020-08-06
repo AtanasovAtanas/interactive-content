@@ -483,7 +483,7 @@ yes
 
 [slide]
 
-# Problem: Tags Cardio - Table
+# Problem: Table
 
 [vimeo-video]
 [stream language="EN" videoId="431780276" default /]
