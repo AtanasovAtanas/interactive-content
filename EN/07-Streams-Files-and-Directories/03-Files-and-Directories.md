@@ -67,7 +67,7 @@ Then we pass this **List** and the **outputPath** variable to the Files `write()
 [/slide]
 
 
-[slide]
+[slide hideTitle]
 # Problem: Sort Lines
 [code-task title="Problem: Sort Lines" taskId="ff62c581-1c97-4bb5-bf9a-18f2cd397350" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -206,7 +206,7 @@ File file = new File("D:\\input.txt");
 
 [/slide]
 
-[slide]
+[slide hideTitle]
 # Problem: List Files
 [code-task title="Problem: List Files" taskId="9c1c43ef-63a0-4d85-bfb2-3d96b979c380" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
@@ -231,10 +231,10 @@ For each exercise submit only the **output** of your program, **not the code**.
 
 ## Examples
 
-**Input**
+## Input:
 [image assetsSrc="streams-files-directories-example(6).png" /]
 
-**Output**
+## Output:
 input.txt: [size in bytes] 
 output.txt: [size in bytes]
 
@@ -260,3 +260,25 @@ output.txt: \[14328\]
 [/code-task]
 [/slide]
     
+[slide]
+
+# Solution: List Files
+
+```java
+File file = new File("D:\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\Files-and-Streams");
+
+if (file.exists()) {
+    if (file.isDirectory()) {
+        File[] files = file.listFiles();
+        for (File f : files) {
+            if (!f.isDirectory()) {
+                System.out.printf("%s: [%s]%n",
+                      f.getName(), f.length());
+            }
+        }
+    }
+}
+
+```
+
+[/slide]
