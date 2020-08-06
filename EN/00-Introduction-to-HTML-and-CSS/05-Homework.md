@@ -791,3 +791,104 @@ yes
 [/code-task]
 
 [/slide]
+
+[slide]
+
+# Problem: Wiki Page
+
+[vimeo-video]
+[stream language="EN" videoId="431749880" default /]
+[stream language="RO" videoId="444869131" /]
+[/video-vimeo]
+
+[code-task title="Wiki Page" taskId="013018fb-27bb-4949-ba4b-d569871c9e00" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
+
+[code-upload allowedMemory="30" /]
+
+[task-description]
+
+## Description
+
+* Create a **Web Page**
+* Change the document **title** to **The Brown Bear**
+* Use **h1** for heading
+* Hyperlink: https://en.wikipedia.org/wiki/Brown_bear
+* Text: use **paragraph**
+* List: use **ordered list** and **unordered list**
+
+
+You can find an example view [here](https://i.imgur.com/wiaKXp1.png)
+
+You can download the resources [here](https://mega.nz/file/DdY13YJb#ouZRgCPvvaY__R3-UaVhI8le6DumAWOj8hEUETNh3JI)
+
+[/task-description]
+
+[tests]
+[test open]
+[input]
+expect(document.title).to.equal("The Brown Bear","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let h1 = $("body").find("h1");
+expect(h1).to.have.lengthOf(1,"Incorrect amount of h1 tag.");
+expect(h1.text()).to.include("The Brown Bear","Incorrect text in h1 tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let a = $("body").find("a");
+expect(a).to.have.lengthOf(1,"Incorrect amount of a tag.");
+expect(a.text()).to.include("Learn More","Incorrect text in a tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let ul = $("body").find("ul");
+expect(ul).to.have.lengthOf(1,"Incorrect amount of ul tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let ol = $("body").find("ol");
+expect(ol).to.have.lengthOf(1,"Incorrect amount of ol tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let li = $("body").find("li");
+expect(li).to.have.lengthOf(7,"Incorrect amount of li tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let img = $("body").find("img");
+expect(img).to.have.lengthOf(1,"Incorrect amount of img tag.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
+[/code-task]
+
+[/slide]
