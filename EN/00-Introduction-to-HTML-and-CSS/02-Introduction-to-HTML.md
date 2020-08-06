@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431746203" default /]
+[stream language="RO" videoId="444864040" /]
 [/video-vimeo]
 
 <iframe src="https://app.sli.do/event/3yilumfn" height="100%" width="75%" style="min-height: 400px;"></iframe>
@@ -27,6 +28,7 @@ HTML uses "**markup**" to annotate text, images and other content for display in
 
 [vimeo-video]
 [stream language="EN" videoId="431746990" default /]
+[stream language="RO" videoId="444864042" /]
 [/video-vimeo]
 
 In HTML, a tag is used for **creating an element**. 
@@ -110,6 +112,7 @@ The HTML `<body></body>` element represents the content of an HTML document. The
 
 [vimeo-video]
 [stream language="EN" videoId="431749670" default /]
+[stream language="RO" videoId="444869129" /]
 [/video-vimeo]
 
 [html]
@@ -125,6 +128,7 @@ The HTML `<body></body>` element represents the content of an HTML document. The
 
 [vimeo-video]
 [stream language="EN" videoId="431748168" default /]
+[stream language="RO" videoId="444864043" /]
 [/video-vimeo]
 
 Whitespace is any string of text composed only of **spaces**, **tabs** or **line breaks**.
@@ -155,6 +159,7 @@ If we need space around and inside elements, we can do that with **CSS**.
 
 [vimeo-video]
 [stream language="EN" videoId="431748211" default /]
+[stream language="RO" videoId="444864044" /]
 [/video-vimeo]
 
 These are spelling errors in your code. These are usually easy to fix as long as you are familiar with the language's syntax.

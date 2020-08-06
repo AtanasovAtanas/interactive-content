@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431748769" default /]
+[stream language="RO" videoId="444864046" /]
 [/video-vimeo]
 
 **Cascading Style Sheets** (**CSS**) is a stylesheet language used to describe the **presentation of a document written in HTML**.
@@ -21,6 +22,11 @@ For example, change text color in green for all paragraph elements:
 
 [slide]
 # CSS Syntax
+
+[vimeo-video]
+[stream language="EN" videoId="431748394" default /]
+[stream language="RO" videoId="444864050" /]
+[/video-vimeo]
 
 A CSS rule-set consists of a **selector** and a **declaration block**:
 ```
@@ -50,10 +56,6 @@ Example Explained:
 
 # Element Selectors
 
-[vimeo-video]
-[stream language="EN" videoId="431748394" default /]
-[/video-vimeo]
-
 The element selector selects all elements with the specified element name.
 
 Styling all headings of level 1 `<h1>`:
@@ -70,6 +72,7 @@ Styling all headings of level 1 `<h1>`:
 
 [vimeo-video]
 [stream language="EN" videoId="431748433" default /]
+[stream language="RO" videoId="444864054" /]
 [/video-vimeo]
 
 An internal style sheet may be used if one single HTML page has a unique style.
@@ -89,6 +92,7 @@ Example:
 
 [vimeo-video]
 [stream language="EN" videoId="431748461" default /]
+[stream language="RO" videoId="444864056" /]
 [/video-vimeo]
 
 The CSS ID selector matches an element based on the value of its `id` attribute which must **match exactly** the value given in the selector.
@@ -117,6 +121,7 @@ To select an element with a specific id, write a hash (`#`) character, followed 
 
 [vimeo-video]
 [stream language="EN" videoId="431748491" default /]
+[stream language="RO" videoId="444864055" /]
 [/video-vimeo]
 
 The `.class` selector selects elements with a specific `class` attribute.
@@ -148,6 +153,12 @@ Here, all `<h1>` elements with class `headings` will be affected.
 
 [slide]
 # Pseudo-classes
+
+[vimeo-video]
+[stream language="EN" videoId="431748532" default /]
+[stream language="RO" videoId="444864053" /]
+[/video-vimeo]
+
 A pseudo-class is used to define a **special state of an element**.
 
 Examples of pseudo-classes:

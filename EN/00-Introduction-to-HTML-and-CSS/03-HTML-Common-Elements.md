@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431748595" default /]
+[stream language="RO" videoId="444864045" /]
 [/video-vimeo]
 
 The HTML `<h1>...<h6>` elements represent six levels of section headings. 
@@ -24,6 +25,7 @@ The HTML `<h1>...<h6>` elements represent six levels of section headings.
 
 [vimeo-video]
 [stream language="EN" videoId="431748626" default /]
+[stream language="RO" videoId="444864051" /]
 [/video-vimeo]
 
 The HTML `<p>` element represents a paragraph. Browsers automatically add some space before and after each `<p>` element. The margins can be modified with **CSS**.
@@ -41,6 +43,7 @@ HTML paragraphs can be used for **grouping related content**, such as images.
 
 [vimeo-video]
 [stream language="EN" videoId="431748244" default /]
+[stream language="RO" videoId="444864048" /]
 [/video-vimeo]
 
 Tags in HTML have **attributes**. These are additional values that provide **additional information** about an element.
@@ -62,6 +65,7 @@ You will learn more about links and the `<a>` tag in the next page.
 
 [vimeo-video]
 [stream language="EN" videoId="431748666" default /]
+[stream language="RO" videoId="444864049" /]
 [/video-vimeo]
 
 Links allow users to click their way from **page to page**. When you move the mouse over a link, the mouse arrow will turn into a **little hand**.
@@ -118,6 +122,7 @@ Clicking the link will navigate the user to another page **within the website's 
 
 [vimeo-video]
 [stream language="EN" videoId="431748708" default /]
+[stream language="RO" videoId="444864052" /]
 [/video-vimeo]
 
 The HTML `<img>` element embeds an image into the document.
@@ -153,6 +158,7 @@ Each list item is represented by the `<li>` tag.
 
 [vimeo-video]
 [stream language="EN" videoId="431748730" default /]
+[stream language="RO" videoId="444864047" /]
 [/video-vimeo]
 
 The HTML `<ul>` element represents an unordered list of items. Each list item is represented by the `<li>` tag.

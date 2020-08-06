@@ -18,6 +18,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431749775" default /]
+[stream language="RO" videoId="444876831" /]
 [/video-vimeo]
 
 [code-task title="Simple HTML Page" taskId="c71fd240-cf92-43e1-95db-d79255ead525" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -75,10 +76,11 @@ yes
 
 [slide]
 
-# Problem: TagsCardio Paragraphs
+# Problem: Tags Cardio Paragraphs
 
 [vimeo-video]
 [stream language="EN" videoId="431778712" default /]
+[stream language="RO" videoId="444876832" /]
 [/video-vimeo]
 
 [code-task title="TagsCardio-Paragraphs" taskId="54728b5a-74cd-4128-bbcc-ae48f9b61be4" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -173,6 +175,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431783216" default /]
+[stream language="RO" videoId="444876835" /]
 [/video-vimeo]
 
 [code-task title="Single Article Page " taskId="99d9c4dc-4e2b-45fb-ba21-351551e15cdf" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -263,6 +266,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431783303" default /]
+[stream language="RO" videoId="444876838" /]
 [/video-vimeo]
 
 [code-task title="Tags Cardio - Lists" taskId="74d19b02-e0c8-47dd-826f-c71e099967a2" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -483,6 +487,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431780276" default /]
+[stream language="RO" videoId="444876834" /]
 [/video-vimeo]
 
 [code-task title="Tags Cardio - Table" taskId="d1cb2a6b-64b9-4589-8c5e-3852f952588d" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -597,6 +602,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431749880" default /]
+[stream language="RO" videoId="444869131" /]
 [/video-vimeo]
 
 [code-task title="Wiki Page" taskId="013018fb-27bb-4949-ba4b-d569871c9e00" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -696,6 +702,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431749750" default /]
+[stream language="RO" videoId="444869127" /]
 [/video-vimeo]
 
 [code-task title="Todo List" taskId="4f94f3a4-9b35-47a3-8747-30f286f04287" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
