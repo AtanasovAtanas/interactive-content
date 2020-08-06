@@ -230,10 +230,13 @@ For each exercise submit only the **output** of your program, **not the code**.
 
 
 ## Examples
-| **Input** | **Output** |
-| --- | --- |
-| [image assetsSrc="streams-files-directories-example(6).png" /] | input.txt: [size in bytes] |
-|  | output.txt: [size in bytes] |
+
+**Input**
+[image assetsSrc="streams-files-directories-example(6).png" /]
+
+**Output**
+input.txt: [size in bytes] 
+output.txt: [size in bytes]
 
 
 ## Hints
