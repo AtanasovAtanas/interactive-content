@@ -73,4 +73,26 @@ Write a program, which receives a number – **n**, and prints a **triangle** fr
 [/test]
 [/tests]
 [/code-task]
+
+[hints]
+   [hint]
+       Hello World this is a text for the hint
+       [code-block language="javascript"]
+           console.log('Hello...')
+       [/code-block]
+   [/hint]
+   [hint]
+       Hello World this is a text for the hint
+       [code-block language="javascript"]
+           console.log('World..')
+       [/code-block]
+   [/hint]
+  [hint]
+       Hello World this is a text for the hint
+       [code-block language="javascript"]
+           console.log('Hello...')
+       [/code-block]
+   [/hint]
+[/hints]
+
 [/slide]
