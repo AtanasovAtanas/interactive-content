@@ -172,7 +172,7 @@ try {
     Collections.sort(lines);
 
     Files.write(output, lines);
-    
+
 } catch (IOException e) {
     e.printStackTrace();
 }
@@ -206,4 +206,54 @@ File file = new File("D:\\input.txt");
 
 [/slide]
 
+[slide]
+# Problem: List Files
+[code-task title="Problem: List Files" taskId="9c1c43ef-63a0-4d85-bfb2-3d96b979c380" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+
+```
+[/code-editor]
+[task-description]
+## Description
+You are provided a folder named "**Files-and-Streams**".
+
+Create a program that lists the names and file sizes (**in bytes**) of all files that are placed directly in it (**do not include files in nested folders**).
+
+## Guidelines
+
+There is one zipped folder with resources for all exercises, that you need to use. 
+
+Download the **resources folder** [here](https://mega.nz/file/7YgFUaxb#759BYR32eIMTbn2BiXWIs0s6ip0ZahlwUOuOuFu221Y).
+
+For each exercise submit only the **output** of your program, **not the code**.
+
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| [image assetsSrc="streams-files-directories-example(6).png" /] | input.txt: [size in bytes] |
+|  | output.txt: [size in bytes] |
+
+
+## Hints
+- Use the **File** class and its method `listFiles()`
+
+
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+input.txt: \[14321\]
+output.txt: \[14328\]
+[/input]
+[output]
+input.txt: \[14321\]
+output.txt: \[14328\]
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
     
