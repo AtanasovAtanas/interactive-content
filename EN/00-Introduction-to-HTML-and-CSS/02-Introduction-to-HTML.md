@@ -8,8 +8,6 @@
 [stream language="RO" videoId="444864040" /]
 [/video-vimeo]
 
-<iframe src="https://app.sli.do/event/3yilumfn" height="100%" width="75%" style="min-height: 400px;"></iframe>
-
 HTML (**HyperText Markup Language**) is the most basic **building block of the Web**. 
 
 It defines the meaning and structure of web content. 
