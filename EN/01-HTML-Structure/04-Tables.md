@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431756645" default /]
+[stream language="RO" videoId="445198061" /]
 [/video-vimeo]
 
 HTML table allows web authors to arrange data into **rows** and **columns**. Through CSS you can add a border between the cells.
@@ -34,6 +35,7 @@ If the cell is in the header, it is defined with the `<th>` tag. By default, tab
 
 [vimeo-video]
 [stream language="EN" videoId="431755765" default /]
+[stream language="RO" videoId="445198062" /]
 [/video-vimeo]
 
 There are three specific parts in every table: 

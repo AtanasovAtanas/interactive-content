@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431756179" default /]
+[stream language="RO" videoId="445198038" /]
 [/video-vimeo]
 
 An HTML form is used to collect user input, which is generally sent to a web server for processing and storage.
@@ -34,6 +35,7 @@ The form contains interactive controls for submitting information. It takes inpu
 
 [vimeo-video]
 [stream language="EN" videoId="431756243" default /]
+[stream language="RO" videoId="445198039" /]
 [/video-vimeo]
 
 The form attributes are optional, but it's standard practice to always set at least the **action** and **method** attributes.
@@ -59,6 +61,7 @@ The form attributes are optional, but it's standard practice to always set at le
 
 [vimeo-video]
 [stream language="EN" videoId="431756279" default /]
+[stream language="RO" videoId="445198041" /]
 [/video-vimeo]
 
 The `<input>` element is one of the most important form elements. This element can be displayed in several ways, depending on the type attribute:
@@ -78,6 +81,7 @@ The `<input>` element is one of the most important form elements. This element c
 
 [vimeo-video]
 [stream language="EN" videoId="431756306" default /]
+[stream language="RO" videoId="445198043" /]
 [/video-vimeo]
 
 * HTML input validation is done **automatically** by the browser, based on special attributes;
@@ -88,6 +92,7 @@ The `<input>` element is one of the most important form elements. This element c
 
 [vimeo-video]
 [stream language="EN" videoId="431756417" default /]
+[stream language="RO" videoId="445198040" /]
 [/video-vimeo]
 
 The following attributes are available:
@@ -113,6 +118,7 @@ The following attributes are available:
 
 [vimeo-video]
 [stream language="EN" videoId="431756445" default /]
+[stream language="RO" videoId="445198045" /]
 [/video-vimeo]
 
 `<label>` - defines a **label** for another form element. The `for` attribute should be equal to the `id` attribute of the related element to bind them together.
@@ -130,6 +136,7 @@ The following attributes are available:
 
 [vimeo-video]
 [stream language="EN" videoId="431756467" default /]
+[stream language="RO" videoId="445198047" /]
 [/video-vimeo]
 
 `<fieldset>` is used to **group related data** in a form and draws a box around the related elements.
@@ -147,6 +154,7 @@ The following attributes are available:
 
 [vimeo-video]
 [stream language="EN" videoId="431756502" default /]
+[stream language="RO" videoId="445198048" /]
 [/video-vimeo]
 
 `<select>` creates a **drop-down** list. This element is a form-control and can be used in a form to collect user input.
@@ -166,6 +174,7 @@ The following attributes are available:
 
 [vimeo-video]
 [stream language="EN" videoId="431756549" default /]
+[stream language="RO" videoId="445198051" /]
 [/video-vimeo]
 
 `<textarea>` – defines a **multi-line input** field. A `textarea` can hold an unlimited number of characters.
@@ -184,6 +193,7 @@ The size of a text area can be specified by the **cols** and **rows** attributes
 
 [vimeo-video]
 [stream language="EN" videoId="431756599" default /]
+[stream language="RO" videoId="445198050" /]
 [/video-vimeo]
 
 Submit button sends the form data to the server.

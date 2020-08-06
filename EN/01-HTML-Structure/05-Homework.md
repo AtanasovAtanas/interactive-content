@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431783399" default /]
+[stream language="RO" videoId="445222425" /]
 [/video-vimeo]
 
 [code-task title="Problem: Semantic-Tags" taskId="6af05e6b-ce89-4e6a-a4ed-723e6cc4980c" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -113,6 +114,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431783485" default /]
+[stream language="RO" videoId="445222424" /]
 [/video-vimeo]
 
 [code-task title="Problem: Semantic Article Page" taskId="319b556a-3251-456b-824e-bd52a19f1b5a" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -230,6 +232,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431783656" default /]
+[stream language="RO" videoId="445222422" /]
 [/video-vimeo]
 
 [code-task title="Problem: Semantic Blog Layout" taskId="a122986d-aed8-406f-8484-4e0077433c49" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -378,6 +381,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431784098" default /]
+[stream language="RO" videoId="445222429" /]
 [/video-vimeo]
 
 [code-task title="Problem: Semantic Tables" taskId="1a76ca0d-45a5-449f-a191-b57600b4a08b" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -763,6 +767,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431757741" default /]
+[stream language="RO" videoId="445205896" /]
 [/video-vimeo]
 
 [code-task title="Problem: Navigation Bar" taskId="a77b7efb-944f-414f-9f83-415cc8dd7968" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -861,6 +866,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431757771" default /]
+[stream language="RO" videoId="445205897" /]
 [/video-vimeo]
 
 [code-task title="Problem: Page Content" taskId="31c07ec9-c837-4c1a-819e-32a631c86521" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -945,6 +951,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431757799" default /]
+[stream language="RO" videoId="445205898" /]
 [/video-vimeo]
 
 [code-task title="Problem: Simple Website" taskId="1109245d-538f-4c66-886a-dbe901f9e720" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]

@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431755805" default /]
+[stream language="RO" videoId="445187588" /]
 [/video-vimeo]
 
 HTML5 uses **semantic tags** for the document structure.
@@ -40,6 +41,7 @@ In HTML there are some semantic elements, that can be used to define different p
 
 [vimeo-video]
 [stream language="EN" videoId="431755832" default /]
+[stream language="RO" videoId="445187591" /]
 [/video-vimeo]
 
 The `<nav>` tag defines a set of navigation links.
@@ -57,6 +59,7 @@ The `<nav>` tag defines a set of navigation links.
 
 [vimeo-video]
 [stream language="EN" videoId="431755875" default /]
+[stream language="RO" videoId="445187592" /]
 [/video-vimeo]
 
 The `<header>` tag specifies a header for a document or section.
@@ -78,6 +81,7 @@ You can have several `<header>` tags in one document.
 
 [vimeo-video]
 [stream language="EN" videoId="431755905" default /]
+[stream language="RO" videoId="445187596" /]
 [/video-vimeo]
 
 The `<main>` tag specifies the main content of a document.
@@ -101,6 +105,7 @@ There must not be more than one `<main>` tag in a document.
 
 [vimeo-video]
 [stream language="EN" videoId="431756029" default /]
+[stream language="RO" videoId="445187595" /]
 [/video-vimeo]
 
 The `<footer>` tag represents a footer for a document or section.
@@ -122,6 +127,7 @@ You may have several `<footer>` tags in one document.
 
 [vimeo-video]
 [stream language="EN" videoId="431755956" default /]
+[stream language="RO" videoId="445187594" /]
 [/video-vimeo]
 
 The HTML `<section>` tag represents a standalone section, which doesn't have a more specific semantic tag to represent it.
@@ -141,6 +147,7 @@ Typically, but not mandatory, sections have a heading.
 
 [vimeo-video]
 [stream language="EN" videoId="431755991" default /]
+[stream language="RO" videoId="445187602" /]
 [/video-vimeo]
 
 Тhe HTML `<aside>` tag defines some content aside from the content it is placed in.
@@ -160,6 +167,7 @@ Asides are frequently presented as sidebars or call-out boxes.
 
 [vimeo-video]
 [stream language="EN" videoId="431756059" default /]
+[stream language="RO" videoId="445187597" /]
 [/video-vimeo]
 
 The `<figure>` tag is used to mark up a photo in a document.
@@ -179,6 +187,7 @@ The `<figcaption>` tag defines a caption for the photo:
 
 [vimeo-video]
 [stream language="EN" videoId="431756097" default /]
+[stream language="RO" videoId="445187600" /]
 [/video-vimeo]
 
 The `<details>` tag specifies additional details, that the user can view or hide on demand. 
@@ -200,6 +209,7 @@ If the first child of the `<details>` element is a `<summary>`, the contents of 
 
 [vimeo-video]
 [stream language="EN" videoId="431756143" default /]
+[stream language="RO" videoId="445198037" /]
 [/video-vimeo]
 
 * The `<time>` tag defines a human-readable date/time. It may include the datetime attribute to translate dates into a machine-readable format.
