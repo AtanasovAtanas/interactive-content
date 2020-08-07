@@ -282,3 +282,113 @@ if (file.exists()) {
 ```
 
 [/slide]
+
+
+[slide hideTitle]
+# Problem: Nested Folders
+[code-task title="Problem: Nested Folders" taskId="ef8adca3-1c35-4b65-8b55-262d9a9ae0aa" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+
+```
+[/code-editor]
+[task-description]
+## Description
+You are provided a folder named "**Files-and-Streams**".
+
+Create a program that lists the names of all directories in it (**including all nested directories**).
+
+On the last line, print the count of all folders, including the root folder.
+
+## Examples
+
+## Input:
+[image assetsSrc="streams-files-directories-example(6).png" /]
+
+## Output:
+Streams-and-Files 
+Files-and-Streams 
+Streams-and-Files 
+Serialization 
+Streams-and-Files 
+[folder count] folders 
+
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+Files-and-Streams
+Files-and-Streams
+Serialization
+Streams-and-Files
+Serialization
+Streams-and-Files
+Files-and-Streams
+Streams-and-Files
+Files-and-Streams
+Serialization
+Serialization
+Streams-and-Files
+Serialization
+Streams-and-Files
+Files-and-Streams
+Streams-and-Files
+Serialization
+Streams-and-Files
+18 folders
+[/input]
+[output]
+Files-and-Streams
+Files-and-Streams
+Serialization
+Streams-and-Files
+Serialization
+Streams-and-Files
+Files-and-Streams
+Streams-and-Files
+Files-and-Streams
+Serialization
+Serialization
+Streams-and-Files
+Serialization
+Streams-and-Files
+Files-and-Streams
+Streams-and-Files
+Serialization
+Streams-and-Files
+18 folders
+[/output]
+[/test]
+[/tests]
+[/code-task]
+[/slide]
+
+
+[slide]
+
+# Solution: Nested Folders
+
+```java
+ String path = "D:\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\Files-and-Streams";
+
+File root = new File(path);
+
+Deque<File> dirs = new ArrayDeque<>();
+dirs.offer(root);
+
+int count = 0;
+while (!dirs.isEmpty()) {
+    File current = dirs.poll();
+    File[] nestedFiles = current.listFiles();
+    for (File nestedFile : nestedFiles)
+        if (nestedFile.isDirectory())
+            dirs.offer(nestedFile);
+    count++;
+    System.out.println(current.getName());
+}
+System.out.println(count + " folders");
+
+```
+
+[/slide]
