@@ -1,94 +1,112 @@
 # Problem: Ages
 
 [slide]
-# Video
+
+# Problem: Semantic-Tags
 
 [vimeo-video]
-[stream language="EN" videoId="421818802" default /]
-[stream language="RO" videoId="423949507"  /]
+[stream language="EN" videoId="431783399" default /]
 [/video-vimeo]
-[/slide]
 
-[slide hideTitle]
-# Problem: Ages
-[code-task title="Ages" taskId="java-fund-02-Basic Syntax-Exercise-problem-1" executionType="tests-execution" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
-import java.util.Scanner;
+[code-task title="Problem: Semantic-Tags" taskId="6af05e6b-ce89-4e6a-a4ed-723e6cc4980c" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
 
-public class Main {
-    public static void main(String[] args) {
-        // Write your code here
-    }
-}
-```
-[/code-editor]
+[code-upload allowedMemory="30" /]
+
 [task-description]
+
 ## Description
 
-Write a program that determines whether based on the given age a person is: 
+* Create an **index.html** file with **Semantic Tags** title
+* Create header section with a **header** tag 
+* Use **h1** tag for heading
+* Create a main section with a **main** tag
+* Create two paragraphs inside the main section
+* Use **footer** tag for the last section
+* Create two paragraphs inside the footer
 
-**baby**, **child**, **teenager**, **adult**, **elder**. 
 
-The bounders are:
-•	0-2 – baby; 
-•	3-13 – child; 
-•	14-19 – teenager;
-•	20-65 – adult;
-•	>=66 – elder; 
+You can find an example view [here](https://i.imgur.com/CyqSQVg.png)
 
-All the values are inclusive
-
-### Example
-| **Input** | **Output** |
-| --- | --- |
-| 10 | child |
+You can download the resources [here](https://mega.nz/file/yIojERLL#nboU3_h_hxh-gEX8NBh9ALy1O7jzS05yI91vLDUwsRM)
 
 [/task-description]
-[code-io /]
+
 [tests]
 [test open]
 [input]
-20
+let title = (document.title);
+expect(title).to.be.equal('Semantic Tags', "Incorrect title name.")
 [/input]
 [output]
-adult
-[/output]
-[/test]
-[test open]
-[input]
-15
-[/input]
-[output]
-teenager
+yes
 [/output]
 [/test]
 [test]
 [input]
-90
+let header = $("body \> header");
+expect(header).to.have.lengthOf(1, "Incorrect amount of header tag.");
 [/input]
 [output]
-elder
+yes
 [/output]
 [/test]
 [test]
 [input]
-1
+let main = $("body \> main");
+expect(main).to.have.lengthOf(1, "Incorrect amount of main tag.");
 [/input]
 [output]
-baby
+yes
 [/output]
 [/test]
 [test]
 [input]
-10
+let footer = $("body \> footer");
+expect(footer).to.have.lengthOf(1, "Incorrect amount of footer tag.");
 [/input]
 [output]
-child
+yes
+[/output]
+[/test]
+[test]
+[input]
+let p = $("body \> footer \> p");
+expect(p).to.have.lengthOf(2, "Incorrect amount of p tags in footer.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let p = $("body \> main \> p");
+expect(p).to.have.lengthOf(2, "Incorrect amount of p tags in main.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let h1 = $("body \> header \> h1");
+expect(h1).to.have.lengthOf(1, "Incorrect amount of h1 tag in header.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($(document.body).find("h1").text()).to.include("I washed my face with sparkling water for a week","Incorrect text in h1 tag.");
+[/input]
+[output]
+yes
 [/output]
 [/test]
 [/tests]
 [/code-task]
+[/slide]
+
 
 [hints]
    [hint]
@@ -111,5 +129,6 @@ child
    [/hint]
 [/hints]
 
-[/slide]
+[slide]
+
 
