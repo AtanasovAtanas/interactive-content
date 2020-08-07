@@ -31,6 +31,28 @@ You can download the resources [here](https://mega.nz/file/yIojERLL#nboU3_h_hxh-
 
 [/task-description]
 
+[hints]
+   [hint]
+       Hello World this is a text for the hint
+       [code-block language="javascript"]
+           console.log('Hello...')
+       [/code-block]
+   [/hint]
+   [hint]
+       Hello World this is a text for the hint
+       [code-block language="javascript"]
+           console.log('World..')
+       [/code-block]
+   [/hint]
+  [hint]
+       Hello World this is a text for the hint
+       [code-block language="javascript"]
+           console.log('Hello...')
+       [/code-block]
+   [/hint]
+[/hints]
+
+
 [tests]
 [test open]
 [input]
