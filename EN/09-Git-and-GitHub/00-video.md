@@ -6,4 +6,7 @@
 [stream language="RO" videoId=""  /]
 [/video-vimeo]
 
+[slido id="5faavvrx" /]
+
+
 [/slide]
