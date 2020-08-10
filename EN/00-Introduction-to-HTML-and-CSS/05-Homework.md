@@ -18,7 +18,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431749775" default /]
-[stream language="RO" videoId="444876831" /]
+[stream language="RO" videoId="444869128" /]
 [/video-vimeo]
 
 [code-task title="Simple HTML Page" taskId="c71fd240-cf92-43e1-95db-d79255ead525" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
