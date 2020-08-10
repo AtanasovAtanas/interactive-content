@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431758345" default /]
+[stream language="RO" videoId="445501180" /]
 [/video-vimeo]
 
 Typography is the art and technique of arranging type to make written language **legible**, **readable** and **appealing**.
@@ -17,6 +18,7 @@ The typography includes the **style**, **appearance** and **structure** of the f
 
 [vimeo-video]
 [stream language="EN" videoId="431758396" default /]
+[stream language="RO" videoId="445501183" /]
 [/video-vimeo]
 
 * [The Elements of Typographic Style](https://en.wikipedia.org/wiki/The_Elements_of_Typographic_Style) - The authoritative book on typography and style;

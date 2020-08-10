@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431784598" default /]
+[stream language="RO" videoId="445529735" /]
 [/video-vimeo]
 
 [code-task title="Problem: My First CSS Document" taskId="82450ec0-5224-4ad9-bff1-9c1e81a07dbb" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -181,6 +182,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431784201" default /]
+[stream language="RO" videoId="445529736" /]
 [/video-vimeo]
 
 [code-task title="Problem: Styling Tables" taskId="c456515b-5d4d-4e5e-82dd-213559a00a8d" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -305,6 +307,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431784275" default /]
+[stream language="RO" videoId="445529737" /]
 [/video-vimeo]
 
 [code-task title="Problem: Buttons" taskId="2f4271bf-520a-4dc5-9fe6-83b440dbd290" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -395,6 +398,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431784403" default /]
+[stream language="RO" videoId="445529739" /]
 [/video-vimeo]
 
 [code-task title="Problem: Fonts Speciment" taskId="8537fe9d-9c33-4d1e-833b-4ff179ba0c27" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -732,10 +736,11 @@ yes
 
 [slide]
 
-# Problem: Icon Font Buttons
+# Problem: Icon Buttons
 
 [vimeo-video]
 [stream language="EN" videoId="431758945" default /]
+[stream language="RO" videoId="445514424" /]
 [/video-vimeo]
 
 [code-task title="Problem: Icon Font Buttons" taskId="60f25f2a-8586-4680-a81f-f0296a679a52" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -814,6 +819,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431784521" default /]
+[stream language="RO" videoId="445529738" /]
 [/video-vimeo]
 
 [code-task title="Problem: Icon Font List" taskId="d92ce031-4ac5-479e-b447-3eae10f8590e" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]

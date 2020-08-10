@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431758434" default /]
+[stream language="RO" videoId="445501179" /]
 [/video-vimeo]
 
 **Readability** is one of the most important aspects of Web design usability.
@@ -17,6 +18,7 @@ Readability depends on both a text’s **presentation** and its **context**.
 
 [vimeo-video]
 [stream language="EN" videoId="431758464" default /]
+[stream language="RO" videoId="445501181" /]
 [/video-vimeo]
 
 There are some **keys** of readable typography:

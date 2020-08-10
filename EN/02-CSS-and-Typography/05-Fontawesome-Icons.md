@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431758245" default /]
+[stream language="RO" videoId="445509666" /]
 [/video-vimeo]
 
 Font awesome is **most popular icon toolkit** based on CSS.
