@@ -38,7 +38,7 @@ expect(document.title).to.equal("My First CSS Document","Incorrect title name");
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 expect($("body").css("background")).to.equal("rgb(51, 102, 153)", "Incorrect background color.");
 [/input]
@@ -46,7 +46,7 @@ expect($("body").css("background")).to.equal("rgb(51, 102, 153)", "Incorrect bac
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let h1 = $("body > h1");
 expect(h1).to.have.lengthOf(1,"Incorrect amount of h1 tag.");
@@ -55,7 +55,7 @@ expect(h1).to.have.lengthOf(1,"Incorrect amount of h1 tag.");
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 expect($("body").css("color")).to.equal("white", "Incorrect text color.");
 [/input]
@@ -63,7 +63,7 @@ expect($("body").css("color")).to.equal("white", "Incorrect text color.");
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let p = $("body p");
 expect(p).to.have.lengthOf(5,"Incorrect amount of paragraphs.");
@@ -72,7 +72,7 @@ expect(p).to.have.lengthOf(5,"Incorrect amount of paragraphs.");
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let h2 = $("body > h2");
 expect(h2).to.have.lengthOf(1,"Incorrect amount of h2 tag.");
