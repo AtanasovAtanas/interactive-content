@@ -609,14 +609,6 @@ yes
 [/test]
 [test]
 [input]
-expect($("body h1").css('font-family')).to.equal('Great Vibes, cursive', "Incorrect font family for headings.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
 expect($("body h2").css('font-weight')).to.equal('bold', "Incorrect font weight for headings.");
 [/input]
 [output]
