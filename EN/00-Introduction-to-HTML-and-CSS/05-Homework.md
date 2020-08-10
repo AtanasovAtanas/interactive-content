@@ -384,6 +384,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431749705" default /]
+[stream language="RO" videoId="444869130" /]
 [/video-vimeo]
 
 [code-task title="Tags Cardio - Nested Lists" taskId="0fd6a4ba-4dfb-494d-a5ed-2aa9a9e6b652" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
