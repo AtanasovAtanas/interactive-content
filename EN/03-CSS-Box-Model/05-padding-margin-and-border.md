@@ -2,6 +2,8 @@
 
 [slide]
 
+# Margin, Padding and Border
+
 [vimeo-video]
 [stream language="EN" videoId="431760081" default /]
 [stream language="RO" videoId="446432575" /]
