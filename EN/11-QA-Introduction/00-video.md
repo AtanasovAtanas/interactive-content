@@ -13,7 +13,7 @@
 [slide]
 # Training Session
 
-[vimeo-video startTimeInSeconds="0"]
+[vimeo-video startTimeInSeconds=""]
 [stream language="EN" videoId="" default /]
 [stream language="RO" videoId=""  /]
 [/video-vimeo]
