@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431791702" default /]
+[stream language="RO" videoId="446514844" /]
 [/video-vimeo]
 
 [code-task title="Problem: Box Model Container" taskId="ad6dd487-24e4-452f-8515-0769efa121c1" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -82,6 +83,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431791778" default /]
+[stream language="RO" videoId="446514840" /]
 [/video-vimeo]
 
 [code-task title="Problem: Box Sizing" taskId="3e91f1aa-9e58-43a6-948b-fa3701dbe74f" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -282,6 +284,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431791841" default /]
+[stream language="RO" videoId="446514842" /]
 [/video-vimeo]
 
 [code-task title="Problem: Navigation Inline Block" taskId="00dc40db-2b53-4c0f-a883-0a116ec838ef" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]
@@ -383,6 +386,7 @@ yes
 
 [vimeo-video]
 [stream language="EN" videoId="431791578" default /]
+[stream language="RO" videoId="446514843" /]
 [/video-vimeo]
 
 [code-task title="Problem: Photo Gallery Inline Block" taskId="5ca63611-d253-4c58-a887-a40ae0bca967" executionType="tests-execution" executionStrategy="html-and-css-zip-file" requiresInput="false"]

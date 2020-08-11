@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431759802" default /]
+[stream language="RO" videoId="446432583" /]
 [/video-vimeo]
 
 `box-sizing` sets how the total width and height of an element is calculated. 
@@ -28,6 +29,7 @@ html {
 
 [vimeo-video]
 [stream language="EN" videoId="431759846" default /]
+[stream language="RO" videoId="446432584" /]
 [/video-vimeo]
 
 The box-sizing **Reset** takes care of the box-sizing of every element by setting it to **border-box** using a universal CSS selector.

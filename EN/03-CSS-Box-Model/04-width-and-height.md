@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431760011" default /]
+[stream language="RO" videoId="446432573" /]
 [/video-vimeo]
 
 Block elements have **width** and **height**.
@@ -52,6 +53,7 @@ The default value of this property is `0`.
 
 [vimeo-video]
 [stream language="EN" videoId="431760050" default /]
+[stream language="RO" videoId="446432580" /]
 [/video-vimeo]
 
 The `height` property defines the height of an element.

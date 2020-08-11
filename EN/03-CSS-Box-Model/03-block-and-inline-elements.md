@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431759947" default /]
+[stream language="RO" videoId="446432570" /]
 [/video-vimeo]
 
 HTML is made up of various elements that act as the **building blocks** of web pages. 
@@ -63,6 +64,7 @@ You can add margins and paddings just on **right** and **left** sides of any inl
 
 [vimeo-video]
 [stream language="EN" videoId="431760007" default /]
+[stream language="RO" videoId="446432574" /]
 [/video-vimeo]
 
 Inline-block elements are similar to inline elements.
