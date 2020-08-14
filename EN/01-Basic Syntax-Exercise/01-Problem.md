@@ -34,21 +34,21 @@ You can download the resources [here](https://mega.nz/file/yIojERLL#nboU3_h_hxh-
 [hints]
    [hint]
        Hello World this is a text for the hint
-       [code-block language="javascript"]
-           console.log('Hello...')
-       [/code-block]
+       ```javascript
+           console.log('Hello..')
+       ```
    [/hint]
    [hint]
        Hello World this is a text for the hint
-       [code-block language="javascript"]
+       ```javascript
            console.log('World..')
-       [/code-block]
+       ```
    [/hint]
   [hint]
        Hello World this is a text for the hint
-       [code-block language="javascript"]
-           console.log('Hello...')
-       [/code-block]
+       ```javascript
+           console.log('Hello..')
+       ```
    [/hint]
 [/hints]
 
