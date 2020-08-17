@@ -86,9 +86,9 @@ try {
 ```
 - **Closing a File Stream** using `try-with-resources`
 
-There is a **shorter way** of implementing the same behavior in the previous example - `try-with-resources`.
+There is a **shorter way** of implementing the same behaviour in the previous example - `try-with-resources`.
 
-We can create a Stream inside of the braces of the try block and this operatin will make a Stream available inside the try block.
+We can create a Stream inside of the braces of the try block and this operation will make a Stream available inside the try block.
 
 The **main benefit** is that the Stream will be **automatically closed** after we finish our job in the try block.
 
