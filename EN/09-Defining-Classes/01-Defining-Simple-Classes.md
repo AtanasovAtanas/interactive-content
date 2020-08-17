@@ -33,5 +33,28 @@ Not obligatory, but credential, components are:
 - Getters and Setters
 - Class methods
 
+Here is an example of a class Car which have two fields (**brand, model**) and one void method - `start()`.
+
+```java
+class Car {
+
+    String brand;
+    String model;
+
+    void start(){ ... }
+}
+```
+Below are the class naming rules of java programming language. 
+
+They must be followed while developing software in java for good maintenance and readability of code. 
+
+Class names should be nouns, in mixed case with the first letter of each internal word capitalized. 
+
+Try to keep your class names simple and descriptive. 
+
+Use whole words-avoid acronyms and abbreviations (unless the abbreviation is much more widely used than the long form, such as URL or HTML).
+
+
+
 
 [/slide]
