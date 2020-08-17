@@ -71,4 +71,95 @@ class Cube implements Serializable {
 
 [/slide]
 
+[slide]
 
+# Problem: Serialize Custom Object
+
+Create a class called "**Cube**". It should have **properties** for **color**, **width**, **height** and **depth**.
+Create an instance of the class with the following values:
+- Color: "green"
+- Width: 15.3
+- Height: 12.4
+- Depth: 3.0
+**Serialize** and **deserilalize** the instance created. When saved to a file the object should look like something like the example below.
+
+## Examples
+
+[image assetsSrc="streams-files-directories-example(7).png" /]
+
+
+## Hints
+
+
+-	Create a class called Cube, which should implement the Serializable interface:
+
+```java
+class Cube implements Serializable {
+      String color;
+      double width;
+      double height;
+      double depth;
+        
+}
+```
+
+- Create a new instance of the Cube class and set its properties:
+
+```java
+Cube cube = new Cube();
+cube.color = "green";
+cube.width = 15.3d;
+cube.height = 12.4d;
+cube.depth = 3d;
+
+```
+
+- Use ObjectOutputStream to serialize the object:
+
+```java
+try(ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(path)) ) {
+        oos.writeObject(cube);
+} catch (IOException e) {
+  e.printStackTrace();
+}
+```
+
+[/slide]
+
+[slide]
+
+# Solution: Serialize Custom Object
+
+```java
+public class Main {
+    public static void main(String[] args) throws FileNotFoundException {
+
+        Cube cube = new Cube();
+        cube.color = "green";
+        cube.width = 15.3d;
+        cube.height = 12.4d;
+        cube.depth = 3d;
+
+        String path = "D:\\save.txt";
+
+        try(ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(path)) ) {
+
+            oos.writeObject(cube);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    static class Cube implements Serializable {
+        String color;
+        double width;
+        double height;
+        double depth;
+
+    }
+}
+```
+
+[/slide]
