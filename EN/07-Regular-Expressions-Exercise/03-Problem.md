@@ -1,4 +1,4 @@
-
+# Problem: Bar Income
 
 [slide]
 # Video
