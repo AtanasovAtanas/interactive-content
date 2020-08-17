@@ -19,7 +19,7 @@ Though there are many classes related to byte streams but the most frequently us
 
 [image assetsSrc="streams-files-directories-example(3).png" /]
 
-- The **OutputStream is consisted only of bytes**, which will be written.
+- The **OutputStream consists only of bytes**, which will be written.
 
 [image assetsSrc="streams-files-directories-example(4).png" /]
 
@@ -155,7 +155,7 @@ Though there are many classes related to character streams but the most frequent
 
 Though internally **FileReader uses FileInputStream** and **FileWriter uses FileOutputStream** but here the major difference is that FileReader **reads two bytes at a time** and FileWriter **writes two bytes at a time**.
 
-In short the character streams can read and write from an input **character by character**.
+In short, the character streams can read and write from an input **character by character**.
 
 - Let's see the following example:
 
@@ -407,7 +407,7 @@ Java provides support for standard I/O where the user's program can take input f
 
 The Java platform supports three Standard Streams, attached with the console.
 
-**Standard Input** − `System.in` is an **InputStream** which is typically connected to keyboard input of console programs.
+**Standard Input** − `System.in` is an **InputStream** which is typically connected to the keyboard input of console programs.
 
 **Standard Output** − `System.out` is often used from console-only programs as a way to display the result of their execution to the user.
 
