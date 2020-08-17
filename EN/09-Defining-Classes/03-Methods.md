@@ -1,0 +1,5 @@
+[slide]
+
+# Methods
+
+[/slide]
