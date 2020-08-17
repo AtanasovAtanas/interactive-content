@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431760619" default /]
+[stream language="RO" videoId="447098887" /]
 [/video-vimeo]
 
 `z-index` defines the order of the elements on the **z-axis**.
@@ -38,6 +39,7 @@ The order is defined by the **order in the HTML** code:
 
 [vimeo-video]
 [stream language="EN" videoId="431760631" default /]
+[stream language="RO" videoId="447098972" /]
 [/video-vimeo]
 
 The `z-index` value is relative to the other ones.
@@ -60,6 +62,7 @@ The target element is moved in **front** of its siblings.
 
 [vimeo-video]
 [stream language="EN" videoId="431760668" default /]
+[stream language="RO" videoId="447099012" /]
 [/video-vimeo]
 
 For `z-index` you can use **negative** values.
@@ -80,6 +83,7 @@ The target element is moved **behind** its siblings.
 
 [vimeo-video]
 [stream language="EN" videoId="431760690" default /]
+[stream language="RO" videoId="447099051" /]
 [/video-vimeo]
 
 [/slide]

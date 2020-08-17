@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431760937" default /]
+[stream language="RO" videoId="446749202" /]
 [/video-vimeo]
 
 Float’s sister's property is `clear`.
@@ -28,6 +29,7 @@ The `clear` property has the following values:
 
 [vimeo-video]
 [stream language="EN" videoId="431760985" default /]
+[stream language="RO" videoId="446756103" /]
 [/video-vimeo]
 
 # `clear: none;`
@@ -62,6 +64,7 @@ When `clear: left;` is used, the element is **moved down** to clear past **left*
 
 [vimeo-video]
 [stream language="EN" videoId="431761017" default /]
+[stream language="RO" videoId="446756153" /]
 [/video-vimeo]
 
 # `clear: right;`
@@ -81,6 +84,7 @@ When `clear: right;` is used, the element is **moved down** to clear past **righ
 
 [vimeo-video]
 [stream language="EN" videoId="431760951" default /]
+[stream language="RO" videoId="446749295" /]
 [/video-vimeo]
 
 # `clear: both;`

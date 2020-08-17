@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431760758" default /]
+[stream language="RO" videoId="446748807" /]
 [/video-vimeo]
 
 CSS `float` is a property that forces any element to **float** (right, left, none, inherit) **inside its parent** body with the rest of the elements to wrap around it.
@@ -16,6 +17,7 @@ Usually, the float property is used to **wrap text around images**.
 
 [vimeo-video]
 [stream language="EN" videoId="431760789" default /]
+[stream language="RO" videoId="446748881" /]
 [/video-vimeo]
 
 The values of float property are:
@@ -33,6 +35,7 @@ The values of float property are:
 
 [vimeo-video]
 [stream language="EN" videoId="431760812" default /]
+[stream language="RO" videoId="446748946" /]
 [/video-vimeo]
 
 ## `float: none;`
@@ -84,6 +87,7 @@ When the `float: right;` is used, it defines that an image should **float to the
 
 [vimeo-video]
 [stream language="EN" videoId="431760831" default /]
+[stream language="RO" videoId="446749015" /]
 [/video-vimeo]
 
 When multiple elements have the same float property, they float adjacent one to another.
@@ -101,6 +105,7 @@ When multiple elements have the same float property, they float adjacent one to 
 
 [vimeo-video]
 [stream language="EN" videoId="431760901" default /]
+[stream language="RO" videoId="446749121" /]
 [/video-vimeo]
 
 **Note:** As float implies the use of the block layout, it modifies the computed value of the display values, in some cases:
