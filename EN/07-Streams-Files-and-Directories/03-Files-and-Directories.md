@@ -9,7 +9,7 @@ A path can point to either a **file** or a **directory**.
 
 **Path** is used to **examine**, **locate**, and **manipulate** files.
 
-An example of that is input.txt file wich we have used for the previous problems.
+An example of that is input.txt file which we have used for the previous problems.
 
 ```java
 String input = "D:\\input.txt";
@@ -38,7 +38,7 @@ try (BufferedReader inputStream = Files.newBufferedReader(path)) {
     e.printStackTrace();
 }
 ```
-By calling a `newBufferedReader()` - method of the Files class and pass the path as a argument, the BufferedReader instance is created (**Buffered Stream**).
+By calling a `newBufferedReader()` - method of the Files class and pass the path as an argument, the BufferedReader instance is created (**Buffered Stream**).
 
 The following example illustrates copying the content of one file to another:
 
@@ -53,9 +53,9 @@ try  {
     e.printStackTrace();
 }
 ```
-First we create two Path variables for input and output files.
+First, we create two Path variables for input and output files.
 
-Next we call `readallLines()` - method of the Files class and pass the **inputPath** variable.
+Next, we call `readallLines()` - method of the Files class and pass the **inputPath** variable.
 
 The `readAllLines()` - method, returns a List with all lines in a file.
 
