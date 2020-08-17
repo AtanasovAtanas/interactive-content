@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431769798" default /]
+[stream language="RO" videoId="447749189" /]
 [/video-vimeo]
 
 The logical operators **not**, **and**, and **only** can be used to compose a complex media query.
@@ -25,6 +26,7 @@ The logical operators **not**, **and**, and **only** can be used to compose 
 
 [vimeo-video]
 [stream language="EN" videoId="431769864" default /]
+[stream language="RO" videoId="447749223" /]
 [/video-vimeo]
 
 [/slide]

@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431769094" default /]
+[stream language="RO" videoId="447748383" /]
 [/video-vimeo]
 
 Responsive Web Design is about using HTML and CSS to **automatically resize**, hide, shrink, or enlarge, a website, to make it look good on **all devices** (desktops, tablets, and phones).
@@ -38,6 +39,7 @@ This will give the browser instructions on how to control the page’s **dimensi
 
 [vimeo-video]
 [stream language="EN" videoId="431769145" default /]
+[stream language="RO" videoId="447748459" /]
 [/video-vimeo]
 
 Responsive website design consists of the following three main components:
@@ -47,6 +49,7 @@ Responsive website design consists of the following three main components:
 
 [vimeo-video]
 [stream language="EN" videoId="431768791" default /]
+[stream language="RO" videoId="447748503" /]
 [/video-vimeo]
 
 Benefits of using a Responsive Website:
@@ -58,6 +61,7 @@ Benefits of using a Responsive Website:
 
 [vimeo-video]
 [stream language="EN" videoId="431769187" default /]
+[stream language="RO" videoId="447748572" /]
 [/video-vimeo]
 
 Why Responsive Website Design is Important?

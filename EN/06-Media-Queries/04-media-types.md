@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431769341" default /]
+[stream language="RO" videoId="447748799" /]
 [/video-vimeo]
 
 Media Types describe the general category of a given device:
@@ -15,6 +16,7 @@ Media Types describe the general category of a given device:
 
 [vimeo-video]
 [stream language="EN" videoId="431769392" default /]
+[stream language="RO" videoId="447748906" /]
 [/video-vimeo]
 
 The following media query will only set the body to 14px if the page is **printed**. It will not apply when the page is loaded in a browser:

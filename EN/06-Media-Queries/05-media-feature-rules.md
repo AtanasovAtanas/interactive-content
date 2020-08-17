@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431769465" default /]
+[stream language="RO" videoId="447748923" /]
 [/video-vimeo]
 
 After specifying the type, you can then target a media feature with a **rule**.
@@ -26,6 +27,7 @@ After specifying the type, you can then target a media feature with a **rule**.
 
 [vimeo-video]
 [stream language="EN" videoId="431769509" default /]
+[stream language="RO" videoId="447748971" /]
 [/video-vimeo]
 
 We can apply CSS if the viewport is with an exact width – using `min-width`, `max-width`.
@@ -43,6 +45,7 @@ We can apply CSS if the viewport is with an exact width – using `min-width`, `
 
 [vimeo-video]
 [stream language="EN" videoId="431769573" default /]
+[stream language="RO" videoId="447749009" /]
 [/video-vimeo]
 
 `orientation` property allows us to test for **portrait** or **landscape** mode.
@@ -61,6 +64,7 @@ To change the body text color if the device is in landscape orientation:
 
 [vimeo-video]
 [stream language="EN" videoId="431769630" default /]
+[stream language="RO" videoId="447749034" /]
 [/video-vimeo]
 
 `hover` is used to querying the user’s ability to **hover** over elements on the page with the primary pointing device:
@@ -79,6 +83,7 @@ To change the body text color if the device is in landscape orientation:
 
 [vimeo-video]
 [stream language="EN" videoId="431769695" default /]
+[stream language="RO" videoId="447749120" /]
 [/video-vimeo]
 
 `pointer` is used to query the presence and accuracy of a **pointing** device such as a mouse.
@@ -100,6 +105,7 @@ If the primary input mechanism of the device includes:
 
 [vimeo-video]
 [stream language="EN" videoId="431769752" default /]
+[stream language="RO" videoId="447749137" /]
 [/video-vimeo]
 
 **Example:**

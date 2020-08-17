@@ -5,6 +5,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431769901" default /]
+[stream language="RO" videoId="447749305" /]
 [/video-vimeo]
 
 The **@import CSS at-rule** is used to import style rules from other style sheets.
@@ -23,6 +24,7 @@ These conditional imports specify comma-separated media queries after the URL.
 
 [vimeo-video]
 [stream language="EN" videoId="431769231" default /]
+[stream language="RO" videoId="447749371" /]
 [/video-vimeo]
 
 [/slide]
