@@ -6,6 +6,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431763609" default /]
+[stream language="RO" videoId="447160602" /]
 [/video-vimeo]
 
 The `order` property defines the **order** of a flexbox item.
@@ -28,6 +29,7 @@ The first flex item in the code does not have to appear as the first item in the
 
 [vimeo-video]
 [stream language="EN" videoId="431763581" default /]
+[stream language="RO" videoId="447160728" /]
 [/video-vimeo]
 
 * `order: 1;` - The order is relative to the flexbox item's siblings. 
@@ -48,6 +50,7 @@ The final order is defined when all individual flexbox item order values are tak
 
 [vimeo-video]
 [stream language="EN" videoId="431763596" default /]
+[stream language="RO" videoId="447160808" /]
 [/video-vimeo]
 
 * `order: -1;` - Negative values are also possible. 
@@ -86,6 +89,7 @@ The final order is defined when all individual flexbox item order values are tak
 
 [vimeo-video]
 [stream language="EN" videoId="431763629" default /]
+[stream language="RO" videoId="447160880" /]
 [/video-vimeo]
 
 The `flex-grow` defines how much a flexbox item should **grow** if there's space available.
@@ -95,6 +99,7 @@ This property has two possible values:
 
 [vimeo-video]
 [stream language="EN" videoId="431763660" default /]
+[stream language="RO" videoId="447160958" /]
 [/video-vimeo]
 
 * `flex-grow: 1;` - The element will **grow** by a factor of 1. It will fill up the remaining space if no other flexbox item has a flex-grow value;
@@ -118,6 +123,7 @@ This property has two possible values:
 
 [vimeo-video]
 [stream language="EN" videoId="431763708" default /]
+[stream language="RO" videoId="447161057" /]
 [/video-vimeo]
 
 The `flex-shrink` property defines how much a flexbox item should **shrink** if there's **not enough** space available.
@@ -127,6 +133,7 @@ This property has two possible values:
 
 [vimeo-video]
 [stream language="EN" videoId="431768150" default /]
+[stream language="RO" videoId="447167228" /]
 [/video-vimeo]
 
 * `flex-shrink: 0;` - The element will **not shrink** it will retain the width it needs, and **not wrap** its content. Its siblings will shrink to give space to the target element.
@@ -152,6 +159,7 @@ If the target element will not wrap its content, there is a chance for the flexb
 
 [vimeo-video]
 [stream language="EN" videoId="431768181" default /]
+[stream language="RO" videoId="447167275" /]
 [/video-vimeo]
 
 The `flex-basis` property defines the initial size of a flexbox item.
@@ -160,6 +168,7 @@ The `flex-basis` property defines the initial size of a flexbox item.
 
 [vimeo-video]
 [stream language="EN" videoId="431768224" default /]
+[stream language="RO" videoId="447167324" /]
 [/video-vimeo]
 
 * `flex-basis: 80px;` - You can define **pixel** or **(r)em** values. The element will wrap its content to avoid any overflow.
@@ -183,6 +192,7 @@ The `flex-basis` property defines the initial size of a flexbox item.
 
 [vimeo-video]
 [stream language="EN" videoId="431768277" default /]
+[stream language="RO" videoId="447167388" /]
 [/video-vimeo]
 
 The `flex` property is the shorthand for:
@@ -209,6 +219,7 @@ The default value is `flex: 0 1 auto;`, wich is equivalent to:
 
 [vimeo-video]
 [stream language="EN" videoId="431768327" default /]
+[stream language="RO" videoId="447167452" /]
 [/video-vimeo]
 
 The `align-self` property works like `align-items`, but applies only to a single flexbox item, instead of all of them.
@@ -219,6 +230,7 @@ This property **overrides** the default alignment set by the container's align-i
 
 [vimeo-video]
 [stream language="EN" videoId="431768419" default /]
+[stream language="RO" videoId="447167551" /]
 [/video-vimeo]
 
 * The **container** has **align-items: center** ;
@@ -226,6 +238,7 @@ This property **overrides** the default alignment set by the container's align-i
 
 [vimeo-video]
 [stream language="EN" videoId="431768446" default /]
+[stream language="RO" videoId="447167604" /]
 [/video-vimeo]
 
 * The **container** has **align-items: flex-start**;
@@ -233,6 +246,7 @@ This property **overrides** the default alignment set by the container's align-i
 
 [vimeo-video]
 [stream language="EN" videoId="431768078" default /]
+[stream language="RO" videoId="447167636" /]
 [/video-vimeo]
 
 * The **container** has **align-items: center**;
@@ -251,6 +265,7 @@ This property **overrides** the default alignment set by the container's align-i
 
 [vimeo-video]
 [stream language="EN" videoId="431768117" default /]
+[stream language="RO" videoId="447167686" /]
 [/video-vimeo]
 
 [/slide]

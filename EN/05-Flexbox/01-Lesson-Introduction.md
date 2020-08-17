@@ -15,6 +15,7 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431762503" default /]
+[stream language="RO" videoId="447132925" /]
 [/video-vimeo]
 
 [/slide]

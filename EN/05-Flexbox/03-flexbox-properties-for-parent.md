@@ -6,10 +6,12 @@
 
 [vimeo-video]
 [stream language="EN" videoId="431762469" default /]
+[stream language="RO" videoId="447133080" /]
 [/video-vimeo]
 
 [vimeo-video]
 [stream language="EN" videoId="431762651" default /]
+[stream language="RO" videoId="447133125" /]
 [/video-vimeo]
 
 For start using the Flexbox model, we need to turn the parent element into a **flexbox container**.
@@ -36,6 +38,7 @@ The child elements will be turned into flexbox **items**.
 
 [vimeo-video]
 [stream language="EN" videoId="431762714" default /]
+[stream language="RO" videoId="447133181" /]
 [/video-vimeo]
 
 The element shares properties of both an inline and a flexbox element:
@@ -45,6 +48,7 @@ The element shares properties of both an inline and a flexbox element:
 
 [vimeo-video]
 [stream language="EN" videoId="431762796" default /]
+[stream language="RO" videoId="447133209" /]
 [/video-vimeo]
 
 [/slide]
@@ -55,6 +59,7 @@ The element shares properties of both an inline and a flexbox element:
 
 [vimeo-video]
 [stream language="EN" videoId="431762796" default /]
+[stream language="RO" videoId="447145115" /]
 [/video-vimeo]
 
 By working with flexbox we have two axes: 
@@ -80,6 +85,7 @@ The `flex-direction` property has the following values:
 
 [vimeo-video]
 [stream language="EN" videoId="431762940" default /]
+[stream language="RO" videoId="447145156" /]
 [/video-vimeo]
 
 * `row-reverse` - The flexbox items are ordered the **opposite** way as the **text direction**, along the main axis;
@@ -98,6 +104,7 @@ The `flex-direction` property has the following values:
 
 [vimeo-video]
 [stream language="EN" videoId="431762995" default /]
+[stream language="RO" videoId="447145191" /]
 [/video-vimeo]
 
 * `column` - The flexbox items are ordered the **same way** as the text direction, along the cross axis;
@@ -116,6 +123,7 @@ The `flex-direction` property has the following values:
 
 [vimeo-video]
 [stream language="EN" videoId="431763067" default /]
+[stream language="RO" videoId="447145225" /]
 [/video-vimeo]
 
 * `column-reverse` - The flexbox items are ordered the **opposite** way as the **text direction**, along the cross axis.
@@ -141,12 +149,14 @@ The `flex-direction` property has the following values:
 
 [vimeo-video]
 [stream language="EN" videoId="431763143" default /]
+[stream language="RO" videoId="447145280" /]
 [/video-vimeo]
 
 `flex-wrap` defines if flexbox items appear on a **single line** or on **multiple lines** within a flexbox container.
 
 [vimeo-video]
 [stream language="EN" videoId="431763201" default /]
+[stream language="RO" videoId="447145323" /]
 [/video-vimeo]
 
 `flex-wrap: wrap;`- The flexbox items will be distributed **among multiple lines** if needed.
@@ -165,6 +175,7 @@ The `flex-direction` property has the following values:
 
 [vimeo-video]
 [stream language="EN" videoId="431763255" default /]
+[stream language="RO" videoId="447145359" /]
 [/video-vimeo]
 
 `flex-wrap: wrap-reverse;`- The flexbox items will be distributed **among multiple lines** if needed.
@@ -203,6 +214,7 @@ The `flex-direction` property has the following values:
 
 [vimeo-video]
 [stream language="EN" videoId="431763277" default /]
+[stream language="RO" videoId="447145397" /]
 [/video-vimeo]
 
 `flex-flow` is a shorthand for the `flex-direction` and `flex-wrap` properties.
@@ -229,6 +241,7 @@ The default value is `row nowrap`.
 
 [vimeo-video]
 [stream language="EN" videoId="431763307" default /]
+[stream language="RO" videoId="447145459" /]
 [/video-vimeo]
 
 `justify-content` defines how flexbox/grid items are aligned according to the **main axis**, within a flexbox container.
@@ -250,6 +263,7 @@ The default value is `row nowrap`.
 
 [vimeo-video]
 [stream language="EN" videoId="431763342" default /]
+[stream language="RO" videoId="447145492" /]
 [/video-vimeo]
 
 `justify-content: flex-end` - with this value the flexbox items are pushed towards the **end of the container's main axis**.
@@ -283,6 +297,7 @@ The default value is `row nowrap`.
 
 [vimeo-video]
 [stream language="EN" videoId="431763372" default /]
+[stream language="RO" videoId="447155028" /]
 [/video-vimeo]
 
 `justify-content: space-between` - with this value the remaining space is distributed **between** the flexbox items.
@@ -322,6 +337,7 @@ The default value is `row nowrap`.
 
 [vimeo-video]
 [stream language="EN" videoId="431763415" default /]
+
 [/video-vimeo]
 
 `align-items` defines how flexbox items are aligned **according to the cross axis**, within a line of a flexbox container.
@@ -360,6 +376,7 @@ The default value is `row nowrap`.
 
 [vimeo-video]
 [stream language="EN" videoId="431763495" default /]
+[stream language="RO" videoId="447155181" /]
 [/video-vimeo]
 
 `align-items: center` - with this value the flexbox items are aligned at the **center of the cross axis**.
@@ -413,6 +430,8 @@ This is the **default** value.
 
 [vimeo-video]
 [stream language="EN" videoId="431763525" default /]
+[stream language="RO" videoId="447155321" /]
+
 [/video-vimeo]
 
 `align-content` defines how each line is aligned within a flexbox container.
