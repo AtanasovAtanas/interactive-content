@@ -40,6 +40,29 @@ Read **four integer numbers**.
 | 3 | |
 
 [/task-description]
+
+[hints]
+   [hint]
+       Hello World this is a text for the hint
+       ```javascript
+           console.log('Hello..')
+       ```
+   [/hint]
+   [hint]
+       Hello World this is a text for the hint
+       ```javascript
+           console.log('World..')
+       ```
+   [/hint]
+  [hint]
+       Hello World this is a text for the hint
+       ```javascript
+           console.log('Hello..')
+       ```
+   [/hint]
+[/hints]
+
+
 [code-io /]
 [tests]
 [test open]

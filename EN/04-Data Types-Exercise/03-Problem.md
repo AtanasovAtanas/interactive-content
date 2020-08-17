@@ -40,6 +40,28 @@ The **input** holds **two lines**:
 | 3 | | + 1 course * 2 people |
 
 [/task-description]
+
+[hints]
+   [hint]
+       Hello World this is a text for the hint
+       ```javascript
+           console.log('Hello..')
+       ```
+   [/hint]
+   [hint]
+       Hello World this is a text for the hint
+       ```javascript
+           console.log('World..')
+       ```
+   [/hint]
+  [hint]
+       Hello World this is a text for the hint
+       ```javascript
+           console.log('Hello..')
+       ```
+   [/hint]
+[/hints]
+
 [code-io /]
 [tests]
 [test open]

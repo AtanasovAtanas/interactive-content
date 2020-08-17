@@ -30,6 +30,28 @@ Your task is to find the **sum of its digits**.
 | 543 | 12 |
 
 [/task-description]
+
+[hints]
+   [hint]
+       Hello World this is a text for the hint
+       ```javascript
+           console.log('Hello..')
+       ```
+   [/hint]
+   [hint]
+       Hello World this is a text for the hint
+       ```javascript
+           console.log('World..')
+       ```
+   [/hint]
+  [hint]
+       Hello World this is a text for the hint
+       ```javascript
+           console.log('Hello..')
+       ```
+   [/hint]
+[/hints]
+
 [code-io /]
 [tests]
 [test open]
