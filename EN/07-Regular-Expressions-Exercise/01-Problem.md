@@ -1,3 +1,15 @@
+
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="438549564" default /]
+[stream language="RO" videoId="436074761"  /]
+[/video-vimeo]
+[/slide]
+
+
 [slide hideTitle]
 # Problem: Furniture
 [code-task title="Furniture" taskId="a0a7d9e4-1ed9-4ef9-86ab-d6161baeadc8" executionType="tests-execution" executionStrategy="python-code" requiresInput]

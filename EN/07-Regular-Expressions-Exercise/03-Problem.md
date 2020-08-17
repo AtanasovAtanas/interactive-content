@@ -1,3 +1,15 @@
+
+
+[slide]
+# Video
+
+[vimeo-video]
+[stream language="EN" videoId="438554408" default /]
+[stream language="RO" videoId="436074583"  /]
+[/video-vimeo]
+[/slide]
+
+
 [slide hideTitle]
 # Problem: Bar Income
 [code-task title="Bar Income" taskId="42aa1996-01af-429e-8e70-20a49734928a" executionType="tests-execution" executionStrategy="python-code" requiresInput]
