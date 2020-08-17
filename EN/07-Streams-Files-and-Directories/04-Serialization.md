@@ -4,7 +4,7 @@
 
 # Serializing and Deserializing Objects
 
-In Java, we create several objects that live and die accordingly, and every object will certainly die when the program execution finish.
+In Java, we create several objects that live and die accordingly, and every object will certainly die when the program execution finishes.
 
 But sometimes, we might want to **reuse** an object between several programs or we might want to **transfer** an object to another machine over the network.
 
@@ -16,7 +16,7 @@ In simple words, object **serialization** is the process of **saving an object's
 
 Generally, the complete process is called **Serialization**.
 
-The **Serialization** process is **platform independent**, an object serialized on one platform can be deserialized on a different platform.
+The **Serialization** process is **platform-independent**, an object serialized on one platform can be deserialized on a different platform.
 
 - **Serialization**:
 
@@ -48,7 +48,7 @@ FileInputStream fileInputStream = new FileInputStream(input);
 ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 List<String> names = (List<String>) objectInputStream.readObject();
 ```
-Deserialization on other hand does the absolute opposite. 
+Deserialization on the other hand does the absolute opposite. 
 
 It reads files, the content of which are serialized objects and loads them back into the memory of our Java program.
 
@@ -81,6 +81,7 @@ Create an instance of the class with the following values:
 - Width: 15.3
 - Height: 12.4
 - Depth: 3.0
+
 **Serialize** and **deserilalize** the instance created. When saved to a file the object should look like something like the example below.
 
 ## Examples
