@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Word Count
-[code-task title="Word Count" taskId="39f0764c-dec5-49f3-870e-5ec7c9a52c27" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Merge Two Files
+[code-task title="Merge Two Files" taskId="b3e1004c-471b-483c-9c11-3503b46c218f" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,13 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a list of words from the file **words.txt** (from the Resources - Folder) and finds how many times each of the words is **contained** in another file **text.txt** (from the Resources – Folder).
-
-Matching should be **case-insensitive**.
-
-Write the results in file **results.txt**. 
-
-Sort the words by frequency in **descending order**.
+Write a program that reads the contents of **two** text files (**inputOne.txt** , **inputTwo.txt** from Resources - Folder) and **merges** them together into a third one.
 
 ## Guidelines
 There is one zipped folder with resources for all exercises, that you need to use. 
@@ -30,25 +24,34 @@ Download the resources folder [here](https://mega.nz/file/nIwjSaKQ#KQpc5igeWhk70
 For each exercise submit only the **output** of your program, **not the code**.
 
 ## Examples
-| **Input** | **Output** |
+| **File 1** | **File 2** | **Output** |
 | --- | --- |
-| of which The | of - 6 |
-|  | which - 2 |
-|  | The - 1 |
+| 1 | 4 | 1 |
+| 2 | 5 | 2 |
+| 3 | 6 | 3 |
+|  |  | 4 |
+|  |  | 5 |
+|  |  | 6 |
 
 [/task-description]
 [code-io /]
 [tests]
 [test]
 [input]
-of - 6
-which - 2
-The - 1
+1
+2
+3
+4
+5
+6
 [/input]
 [output]
-of - 6
-which - 2
-The - 1
+1
+2
+3
+4
+5
+6
 [/output]
 [/test]
 [/tests]

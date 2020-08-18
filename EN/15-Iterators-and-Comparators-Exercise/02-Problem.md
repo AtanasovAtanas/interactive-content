@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Collection
-[code-task title="Collection" taskId="d1be3bcc-1298-496e-8add-f13ce702bfe8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Stack Iterator
+[code-task title="Stack Iterator" taskId="881b70cc-b1ca-4ae0-8cc1-1fc25c85cef5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,46 +14,75 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Using the `ListyIterator` from the last problem, extend it by implementing the `Iterable` interface.
+You have a task to create your custom Stack.
 
-Implement **all** methods desired by the interface manually.
+You already know the Stack structure.
 
-Add a new method to the class `PrintAll()`, the method should use `foreach` on the collection and print all elements on a **single line** separated by a space.
+The elements are stored in a collection.
+
+It has two functions (not from the functional programming) - to `push` and `pop` an element.
+
+The first **popped** element is on the **last position** in the collection.
+
+The `push` method adds an element to the **top** of the collection and the `pop` method returns the **top** element and **removes** it.
+
+Write your custom implementation of `Stack<Integer>` and implement your custom **iterator**. 
+
+Your Stack class should implement the `Iterable<Integer>` interface and your **Iterator Class** should implement `Iterator<Integer>` interface. 
+
+Your Custom Iterator should follow the rules of the **Abstract Data Type - Stack**. 
+
+The first element is the element at the top, and so on. 
+
+Iterators are used only for iterating through the collection, they **should not** remove or mutate the elements.
 
 ## Input
-Input will come from the console as **lines** of commands. The first line will always be the `Create` command. 
+The input can be only two types `Push` and `Pop`, followed by integers for the `Push` command and **no other** input for the `Pop` command. 
 
-The **last** command received will always be the `END` command.
+Each command will come on a separate line.
+
+Format:
+- `Push {element, secondElement…}`
+- `Pop`
 
 ## Output
-For every command from the input (with the exception of the `END` and `Create` commands) print the result of that command on the console, each on a **new line**. 
+The program should stop when you receive the command `END`. 
 
-In the case of `Move` or `HasNext` commands print the returned value of the method, in case of a `Print` command you don't have to do anything additional as the method itself should already print on the console. 
-
-In the case of a `PrintAll` command, you should print all elements on a single line **separated by spaces**. Your program should catch **any exceptions** thrown because of validations and print their messages instead.
+Foreach the stack **twice** and print all elements. Each element should be on a **new line**.
 
 ## Constraints
-- **Do not use the built-in iterators!**
-- There will always be only **one** `Create` **command** and it will **always** be the first command passed.
-- The number of commands received will be **between** [1 ... 100].
-- The **last** command will always be the `END` command.
+- The elements in the `Push` command will be **valid** integers **between** [2 ^ -32 ... 2 ^ 32 - 1].
+- The commands will always be **valid** (always be either `Push`, `Pop`, or `END`).
+- There will be no more than **16** elements in the `Push` command.
+- If `Pop` command **could not** be executed as expected (e.g. no elements in the stack), print on the console: `No elements`.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Create 1 2 3 4 5 | true |
-| Move | 1 2 3 4 5 |
-| PrintAll |  |
-| END |  |
+| Push 1, 2, 3, 4 | 2 |
+| Pop | 1 |
+| Pop | 2 |
+| END | 1 |
 
 | **Input** | **Output** |
 | --- | --- |
-| Create Steven John Kevin | Steven John Kevin  |
-| PrintAll | true |
-| Move | true |
-| Move | Kevin |
-| Print | false |
-| HasNext |  |
+| Push 1, 2, 3, 4  | 1 |
+| Pop | 3 |
+| Push 1 | 2 |
+| END | 1 |
+|  | 1 |
+|  | 3 |
+|  | 2 |
+|  | 1 |
+
+| **Input** | **Output** |
+| --- | --- |
+| Push 1, 2, 3, 4  | No elements |
+| Pop |  |
+| Pop |  |
+| Pop |  |
+| Pop |  |
+| Pop |  |
 | END |  |
 
 [/task-description]
@@ -61,159 +90,124 @@ In the case of a `PrintAll` command, you should print all elements on a single l
 [tests]
 [test open]
 [input]
-Create 1 2 3 4 5
-Move
-PrintAll
+Push 1, 2, 3, 4
+Pop
+Pop
 END
 [/input]
 [output]
-true
-1 2 3 4 5
+2
+1
+2
+1
 [/output]
 [/test]
 [test open]
 [input]
-Create Steven John Kevin
-PrintAll
-Move
-Move
-Print
-HasNext
+Push 1, 2, 3, 4 
+Pop
+Push 1
 END
 [/input]
 [output]
-Steven John Kevin 
-true
-true
-Kevin
-false
+1
+3
+2
+1
+1
+3
+2
+1
+[/output]
+[/test]
+[test open]
+[input]
+Push 1, 2, 3, 4 
+Pop
+Pop
+Pop
+Pop
+Pop
+END
+[/input]
+[output]
+No elements
 [/output]
 [/test]
 [test]
 [input]
-Create Steven John Kevin
-PrintAll
-Move
-Move
-Print
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-HasNext
+Push 1, 2, 3, 4, 5
+Pop
+Pop
+Pop
 END
 [/input]
 [output]
-Steven John Kevin 
-true
-true
-Kevin
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-false
+2
+1
+2
+1
 [/output]
 [/test]
 [test]
 [input]
-Create Steven John Kevin
-PrintAll
-Move
-Move
-Print
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-PrintAll
-HasNext
-HasNext
-asd
-asd
-asd
-asd
-asd
-PrintAll
+Push 1, 2, 3, 4, 5 
+Pop
+Pop
+Push 1
 END
 [/input]
 [output]
-Steven John Kevin 
-true
-true
-Kevin
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-Steven John Kevin 
-false
-false
-Steven John Kevin
+1
+3
+2
+1
+1
+3
+2
+1
 [/output]
 [/test]
 [test]
 [input]
-Create Steven John Kevin
-PrintAll
-Move
+Push 1, 2, 3, 4, 5 
+Pop
+Pop
+Pop
+Pop
 END
 [/input]
 [output]
-Steven John Kevin 
-true
+1
+1
 [/output]
 [/test]
 [test]
 [input]
-Create Steven John Kevin
-PrintAll
-Move
-Move
-Move
-Move
-Move
-Move
-Move
-Move
-Move
-Move
-Move
-PrintAll
+Push 1, 2, 3, 4 
+Pop
+Pop
+Pop
+Pop
 END
 [/input]
 [output]
-Steven John Kevin 
-true
-true
-false
-false
-false
-false
-false
-false
-false
-false
-false
-Steven John Kevin
+
+[/output]
+[/test]
+[test]
+[input]
+Push 1, 2, 3, 4, 5 
+Pop
+Pop
+Pop
+Pop
+Pop
+Pop
+END
+[/input]
+[output]
+No elements
 [/output]
 [/test]
 [/tests]

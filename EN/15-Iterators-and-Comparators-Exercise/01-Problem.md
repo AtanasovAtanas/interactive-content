@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Listy Iterator
-[code-task title="Listy Iterator" taskId="9a6d5aae-9c95-4829-a067-f76b9213d27a" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Collection
+[code-task title="Collection" taskId="d1be3bcc-1298-496e-8add-f13ce702bfe8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,60 +14,46 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Create a `class ListyIterator`.
+Using the `ListyIterator` from the last problem, extend it by implementing the `Iterable` interface.
 
-It should receive the collection of **Strings** which it will iterate, through its constructor.
+Implement **all** methods desired by the interface manually.
 
-You should store the elements in a **List**.
-
-The class should have three main functions:
-
-- `Move` - should move an internal **index** position to the next index in the list, the method should return **true** if it successfully moved and **false** if there is no next index.
-
-- `HasNext` - should return **true** if there is a next index and **false** if the index is already at the **last** element of the list.
-- `Print` - should **print** the element at the current internal index, calling Print on a collection without elements should **throw** an appropriate **exception** with the message "**Invalid Operation!**".
-
-By default, the internal index should be pointing to **the zero index** of the List. Your program should support the following commands:
-
-| **Command** | **Return Type** | **Description** |
-| --- | --- | --- |
-| Create {e1 e2 …} | void | Creates a ListyIterator from the specified collection. In case of a Create command without any elements, you should create a ListyIterator with an empty collection. |
-| Move | boolean | This command should move the internal index to the next index. |
-| Print | void | This command should print the element at the current internal index. |
-| HasNext | boolean | Returns whether the collection has the next element. |
-| END | void | Stops the input. |
+Add a new method to the class `PrintAll()`, the method should use `foreach` on the collection and print all elements on a **single line** separated by a space.
 
 ## Input
+Input will come from the console as **lines** of commands. The first line will always be the `Create` command. 
 
-Input will come from the console as **lines** of commands. The first line will **always** be **Create** command in the input. The last command received will **always** be `END`.
+The **last** command received will always be the `END` command.
 
 ## Output
+For every command from the input (with the exception of the `END` and `Create` commands) print the result of that command on the console, each on a **new line**. 
 
-For every command from the input (with the exception of the **END** and **Create** commands) print the result of that command on the console, each on a **new line**. In case of **Move** or **HasNext** commands print the **returned value** of the method, in case of a **Print** command you don't have to do anything additional as the method itself should already print on the console. Your program should catch **any exceptions thrown** because of validations (calling Print on an empty collection) and print their messages instead.
+In the case of `Move` or `HasNext` commands print the returned value of the method, in case of a `Print` command you don't have to do anything additional as the method itself should already print on the console. 
+
+In the case of a `PrintAll` command, you should print all elements on a single line **separated by spaces**. Your program should catch **any exceptions** thrown because of validations and print their messages instead.
 
 ## Constraints
-
-- There will always be only **one Create** command and it will always be the first command passed.
+- **Do not use the built-in iterators!**
+- There will always be only **one** `Create` **command** and it will **always** be the first command passed.
 - The number of commands received will be **between** [1 ... 100].
-- The last command will always be the `END` command.
-
+- The **last** command will always be the `END` command.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Create | Invalid Operation! |
-| Print | false |
-| Move | false |
-| HasNext |  |
+| Create 1 2 3 4 5 | true |
+| Move | 1 2 3 4 5 |
+| PrintAll |  |
 | END |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| Create Stan Johnson | true |
-| HasNext | Stan |
-| Print | true |
-| Move | Johnson |
-| Print |  |
+| Create Steven John Kevin | Steven John Kevin  |
+| PrintAll | true |
+| Move | true |
+| Move | Kevin |
+| Print | false |
+| HasNext |  |
 | END |  |
 
 [/task-description]
@@ -75,157 +61,159 @@ For every command from the input (with the exception of the **END** and **Create
 [tests]
 [test open]
 [input]
-Create
-Print
+Create 1 2 3 4 5
 Move
-HasNext
+PrintAll
 END
 [/input]
 [output]
-Invalid Operation!
-false
-false
+true
+1 2 3 4 5
 [/output]
 [/test]
 [test open]
 [input]
-Create Stan Johnson
-HasNext
-Print
+Create Steven John Kevin
+PrintAll
+Move
 Move
 Print
-END
-[/input]
-[output]
-true
-Stan
-true
-Johnson
-[/output]
-[/test]
-[test]
-[input]
-Create
-Print
-END
-[/input]
-[output]
-Invalid Operation!
-[/output]
-[/test]
-[test]
-[input]
-Create Steven Grand
-HasNext
-Print
-Move
-Print
-END
-[/input]
-[output]
-true
-Steven
-true
-Grand
-[/output]
-[/test]
-[test]
-[input]
-Create 1 2 3
-HasNext
-Move
-HasNext
-HasNext
-Move
 HasNext
 END
 [/input]
 [output]
+Steven John Kevin 
 true
 true
-true
-true
-true
+Kevin
 false
 [/output]
 [/test]
 [test]
 [input]
-Create Steven Grand
+Create Steven John Kevin
+PrintAll
+Move
+Move
+Print
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+PrintAll
 HasNext
-Print
-Move
-Print
-Move
-Print
-Move
-Print
 END
 [/input]
 [output]
+Steven John Kevin 
 true
-Steven
 true
-Grand
+Kevin
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
 false
-Grand
-false
-Grand
 [/output]
 [/test]
 [test]
 [input]
-Create Steven Grand
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
-HasNext
+Create Steven John Kevin
+PrintAll
+Move
+Move
 Print
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+PrintAll
+HasNext
+HasNext
+asd
+asd
+asd
+asd
+asd
+PrintAll
 END
 [/input]
 [output]
+Steven John Kevin 
 true
 true
-true
-true
-true
-true
-true
-true
-true
-true
-true
-true
-true
-true
-true
-true
-true
-true
-Steven
+Kevin
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+Steven John Kevin 
+false
+false
+Steven John Kevin
 [/output]
 [/test]
 [test]
 [input]
-Create Steven Grand
+Create Steven John Kevin
+PrintAll
+Move
 END
 [/input]
 [output]
-
+Steven John Kevin 
+true
+[/output]
+[/test]
+[test]
+[input]
+Create Steven John Kevin
+PrintAll
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+Move
+PrintAll
+END
+[/input]
+[output]
+Steven John Kevin 
+true
+true
+false
+false
+false
+false
+false
+false
+false
+false
+false
+Steven John Kevin
 [/output]
 [/test]
 [/tests]

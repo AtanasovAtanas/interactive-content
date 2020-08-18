@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Custom Min Function
-[code-task title="Custom Min Function" taskId="7f5f070e-8a9b-46a4-8155-93e23f1084a3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Applied Arithmetics
+[code-task title="Applied Arithmetics" taskId="03caacb4-6d7d-40f1-b7b8-21d24988440a" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,74 +14,118 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a simple program that **reads** a **set of numbers** from the console and finds the **smallest** of the **numbers** using a simple `Function<Integer[], Integer>`.
+On the first line, you receive a **list of numbers**.
+
+On the next lines you are passed different **commands** that you need to apply to all numbers in the list: `add` -> adds 1; `multiply` -> multiplies by 2; `subtract` -> subtracts 1; `print` -> prints all numbers on **a new line**.
+
+The input will end with a command `end`, after which you need to print the result.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 1 4 3 2 1 7 13 | 1 |
+| 1 2 3 4 5 | 3 4 5 6 7 |
+| add |  |
+| add |  |
+| print |  |
+| end |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 4 5 -2 3 -5 8 | -5 |
+| 5 10 | 9 19 |
+| multiply |  |
+| subtract |  |
+| print |  |
+| end |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-1 4 3 2 1 7 13
+1 2 3 4 5
+add
+add
+print
+end
 [/input]
 [output]
-1
+3 4 5 6 7
 [/output]
 [/test]
 [test open]
 [input]
-4 5 -2 3 -5 8
+5 10
+multiply
+subtract
+print
+end
 [/input]
 [output]
--5
+9 19
 [/output]
 [/test]
 [test]
 [input]
-1 1 1 1 1 1 1 1 1
+0 0
+multiply
+print
+end
 [/input]
 [output]
-1
+0 0
 [/output]
 [/test]
 [test]
 [input]
--1
+0 0
+multiply
+subtract
+print
+end
 [/input]
 [output]
--1
+-1 -1
 [/output]
 [/test]
 [test]
 [input]
-1 2 3 -1
+-1 -1
+add
+subtract
+add
+print
+end
 [/input]
 [output]
--1
+0 0
 [/output]
 [/test]
 [test]
 [input]
-2 3
+2222222 2222224
+add
+print
+add
+print
+end
 [/input]
 [output]
-2
+2222223 2222225
+2222224 2222226
 [/output]
 [/test]
 [test]
 [input]
--1 -2 -3
+-2222224 -2222222
+add
+add
+add
+add
+print
+end
 [/input]
 [output]
--3
+-2222220 -2222218
 [/output]
 [/test]
 [/tests]

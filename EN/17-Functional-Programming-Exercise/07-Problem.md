@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Find The Smallest Element
-[code-task title="Find The Smallest Element" taskId="7c7690a0-fb0d-441c-b6f7-ea852cc8ad84" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Custom Comparator
+[code-task title="Custom Comparator" taskId="76eba80c-8397-4782-819c-652aa05fca1e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,75 +14,76 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that is using a custom **function** (written by you) to find the **smallest** integer in a **sequence** of **integers**.
+Write a custom **comparator** that **sorts** all even numbers before all **odd** ones in **ascending order**.
 
-The input could have more than one space.
-
-Your task is to **collect** the integers from the console, find the **smallest one**, and print its **index**. 
-
-If **more** than one such element exists, print the index of the **rightmost** one.
-
-## Hints
-- Use a `Function<List<Integer>, Integer>` or something similar.
+Pass it to an `Arrays.sort()` function and print the result.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 1 2 3 0 4 5 6 | 3 |
+| 1 2 3 4 5 6 | 2 4 6 1 3 5 |
 
 | **Input** | **Output** |
 | --- | --- |
-| 123 10 11 3 | 3 |
+| -3 2 | 2 -3 |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-1 2 3 0 4 5 6
+1 2 3 4 5 6
 [/input]
 [output]
-3
+2 4 6 1 3 5
 [/output]
 [/test]
 [test open]
 [input]
-123 10 11 3
+-3 2
 [/input]
 [output]
-3
+2 -3
 [/output]
 [/test]
 [test]
 [input]
-1 1 1 1 1
+1 2 3
 [/input]
 [output]
-4
+2 1 3
 [/output]
 [/test]
 [test]
 [input]
-78
+0 0 0 0 0
 [/input]
 [output]
-0
+0 0 0 0 0
 [/output]
 [/test]
 [test]
 [input]
--20
+-1 -1 -1 1 1 1
 [/input]
 [output]
-0
+-1 -1 -1 1 1 1
 [/output]
 [/test]
 [test]
 [input]
-1 2 3 4 5 11
+2222222 2222223 2222224 -2222222 -2222223 -2222224
 [/input]
 [output]
-0
+-2222224 -2222222 2222222 2222224 -2222223 2222223
+[/output]
+[/test]
+[test]
+[input]
+1 2 -1 2 5 -6 7 9 10 90 -2124412 2 3 5 19 288
+[/input]
+[output]
+-2124412 -6 2 2 2 10 90 288 -1 1 3 5 5 7 9 19
 [/output]
 [/test]
 [/tests]

@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Custom List Sorter
-[code-task title="Custom List Sorter" taskId="b8e8dbc0-86c7-418f-917a-25f4f532c571" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Custom List Iterator
+[code-task title="Custom List Iterator" taskId="4a388940-1ad6-4118-be3f-f49c133366ae" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,22 +14,22 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Extend the previous problem by creating an additional **Sorter class**. 
+Extend the previous problem by making your custom list class to implement **Iterable**.
 
-It should have a single static method `sort()` which can sort objects of type **CustomList** containing any type that can be compared.
+For the print command you have probably used a **for** loop.
 
-**Extend the command list** to support one additional command:
-
-- `Sort` - Sort the elements in the list in ascending order.
-
+This should allow you to iterate your list in a **foreach** statement.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Add cc | aa |
-| Add bb | bb |
 | Add aa | cc |
-| Sort |  |
+| Add bb | aa |
+| Add cc | 2 |
+| Max | cc |
+| Min | bb |
+| Greater aa | aa |
+| Swap 0 2 |  |
 | Print |  |
 | END |  |
 
@@ -38,23 +38,30 @@ It should have a single static method `sort()` which can sort objects of type **
 [tests]
 [test open]
 [input]
-Add cc
-Add bb
 Add aa
-Sort
+Add bb
+Add cc
+Max
+Min
+Greater aa
+Swap 0 2
+Contains aa
 Print
 END
 [/input]
 [output]
-aa
-bb
 cc
+aa
+2
+true
+cc
+bb
+aa
 [/output]
 [/test]
 [test]
 [input]
 Add P
-Sort
 Print
 END
 [/input]
@@ -67,13 +74,9 @@ P
 Add P
 Add G
 Max
-Sort
-Print
 END
 [/input]
 [output]
-P
-G
 P
 [/output]
 [/test]
@@ -86,7 +89,6 @@ Swap 1 1
 Swap 0 1
 Swap 1 0
 Swap 0 1
-Sort
 Print
 END
 [/input]
@@ -114,9 +116,6 @@ Greater false
 Greater 123
 Greater ...
 Greater @\#%!@\#
-Sort
-Swap 0 1
-Print
 END
 [/input]
 [output]
@@ -135,8 +134,6 @@ true
 2
 2
 2
-P
-G
 [/output]
 [/test]
 [test]
@@ -159,7 +156,6 @@ Greater f
 Remove 0
 Remove 0
 Remove 0
-Sort
 Print
 END
 [/input]

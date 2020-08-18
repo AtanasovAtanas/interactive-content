@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Fix Emails
-[code-task title="Problem: Fix Emails" taskId="080f5e63-4e55-4682-9d06-f2017b86419d" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Hands Of Cards
+[code-task title="Problem: Hands Of Cards" taskId="e2bf2871-f2e7-44de-950e-0363166d4557" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,140 +14,96 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-You are given a sequence of strings, each on a new line, **until you receive "stop" command**.
+You are given a sequence of people and for every person what **cards** he draws from the deck.
 
-The first string is a **name** of a person.
+The input will be **separate** lines in the **format**:
 
-On the second line, you receive his **email**.
+`{personName}: {PT, PT, PT,… PT}`
 
-Your task is to **collect** their names and emails and **remove** emails whose domain ends with "us", "uk" or "com" (case insensitive).
+Where P (2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A) is the power of the card, and T (S, H, D, C) is the type. The input ends when a **"JOKER"** is drawn. 
 
-Print in the following format: `{name} –> {email}`
+The name can contain any ASCII symbol except **":"**. 
+
+The input will always be valid and in the format described, there is no need to check it.
+
+A single person **can not have more than one** card with the same power and type, if he draws such a card he **discards** it. 
+
+The people are playing with **multiple decks**. 
+
+Each card has a value that is **calculated** by the power multiplied by the type. 
+
+Powers **2 to 10** have the same value and **J to A** are **11 to 14**. 
+
+Types are mapped to multipliers the following way (**S -> 4, H-> 3, D -> 2, C -> 1**).
+
+Finally, print out the **total value each player** has in his hand in the format:
+
+`{personName}: {value}`
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| John | John -> johnDoe@softuni.org |
-| johnDoe@softuni.org | Peter Smith -> smith.peter@softuni.org |
-| Peter Smith |  |
-| smith.peter@softuni.org |  |
-| Taylor Baker |  |
-| baker@gmail.com |  |
-| stop |  |
-
-| **Input** | **Output** |
-| --- | --- |
-| Peter Adamas | Duke Jenkins -> jenkins.duke@softuni.org |
-| peter_adams@gmail.com |  |
-| Anna Foster |  |
-| foster.anna@yahoo.com |  |
-| Duke Jenkins |  |
-| jenkins.duke@softuni.org |  |
-| stop |  |
+| Peter: 2C, 4H, 9H, AS, QS | Peter: 167 |
+| Jenny: 3H, 10S, JC, KD, 5S, 10S | Jenny: 175 |
+| Alice: QH, QC, QS, QD | Alice: 197 |
+| Jenny: 6H, 7S, KC, KD, 5S, 10C |  |
+| Alice: QH, QC, JS, JD, JC |  |
+| Peter: JD, JD, JD, JD, JD, JD |  |
+| JOKER |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-John
-johnDoe@softuni.org
-Peter Smith
-smith.peter@softuni.org
-Taylor Baker
-baker@gmail.com
-stop
+Peter: 2C, 4H, 9H, AS, QS
+Jenny: 3H, 10S, JC, KD, 5S, 10S
+Alice: QH, QC, QS, QD
+Jenny: 6H, 7S, KC, KD, 5S, 10C
+Alice: QH, QC, JS, JD, JC
+Peter: JD, JD, JD, JD, JD, JD
+JOKER
 [/input]
 [output]
-John -\> johnDoe@softuni.org
-Peter Smith -\> smith.peter@softuni.org
-[/output]
-[/test]
-[test open]
-[input]
-Peter Adamas
-peter_adams@gmail.com
-Anna Foster
-foster.anna@yahoo.com
-Duke Jenkins
-jenkins.duke@softuni.org
-stop
-[/input]
-[output]
-Duke Jenkins -\> jenkins.duke@softuni.org
+Peter: 167
+Jenny: 175
+Alice: 197
 [/output]
 [/test]
 [test]
 [input]
-Evelyn Pearce
-pearce.evelyn@gamil.com
-Jackson Scott
-jackson.scott@softuni.org
-Harper Moor
-moor@gmail.us
-stop
+Jonathan Davis: JD, JD, JD, JD
+JOKER
 [/input]
 [output]
-Jackson Scott -\> jackson.scott@softuni.org
+Jonathan Davis: 22
 [/output]
 [/test]
 [test]
 [input]
-stop
+John: 2C, 4H, 9H, AS, QS
+Peter: 3H, 10S, JC, KD, 5S, 10S
+Steve: QH, QC, QS, QD
+Alice: 6H, 7S, KC, KD, 5S, 10C
+Jenny: QH, QC, JS, JD, JC
+Sandra: JD, 7D, 3D, 4D, 5D, 6D
+JOKER
+[/input]
+[output]
+John: 145
+Peter: 106
+Steve: 120
+Alice: 115
+Jenny: 125
+Sandra: 72
+[/output]
+[/test]
+[test]
+[input]
+JOKER
 [/input]
 [output]
 
-[/output]
-[/test]
-[test]
-[input]
-Mason Howard
-howard.mason@gmail.com
-William Miller
-miller.william@yahoo.com
-Kevin Butler
-butler.kevin@gmail.us
-stop
-[/input]
-[output]
-
-[/output]
-[/test]
-[test]
-[input]
-Susan Kennedy
-kennedy.susan@softuni.org
-Tracy Adams
-adams.tracy@softuni.bg
-Miranda Carter
-carter.miranda@greenpeace.org
-stop
-[/input]
-[output]
-Susan Kennedy -\> kennedy.susan@softuni.org
-Tracy Adams -\> adams.tracy@softuni.bg
-Miranda Carter -\> carter.miranda@greenpeace.org
-[/output]
-[/test]
-[test]
-[input]
-Lynda
-lynda@gmail.se
-Angela
-angela@yahoo.it
-Ruth
-rith@gmail.bg
-Cindy
-cindy@gmail.de
-Amilia
-amilia@gmail.com.uk
-stop
-[/input]
-[output]
-Lynda -\> lynda@gmail.se
-Angela -\> angela@yahoo.it
-Ruth -\> rith@gmail.bg
-Cindy -\> cindy@gmail.de
 [/output]
 [/test]
 [/tests]

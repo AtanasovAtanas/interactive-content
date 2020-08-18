@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Generic Swap Method String
-[code-task title="Generic Swap Method String" taskId="115c52f8-04df-47de-941f-a836b608aec7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Generic Swap Method Integer
+[code-task title="Generic Swap Method Integer" taskId="6d827176-4208-48ad-aa4f-f2e1181e4a11" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -16,7 +16,7 @@ public class Main {
 ## Description
 Create a generic method that receives a list containing **any type of data** and swaps the elements at two given indexes.
 
-As in the previous problems, read **n** number of boxes of type **String** and add them to the list. 
+As in the previous problems, read **n** number of boxes of type **Integer** and add them to the list. 
 
 On the next line, you will receive a swap command consisting of **two indexes**. 
 
@@ -25,10 +25,10 @@ Use the method you've created to swap the elements that correspond to the given 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 3 | java.lang.String: Swap me with John |
-| John | java.lang.String: George |
-| George | java.lang.String: John |
-| Swap me with John |  |
+| 3 | java.lang.Integer: 42 |
+| 7 | java.lang.Integer: 123 |
+| 123 | java.lang.Integer: 7 |
+| 42 |  |
 | 0 2 |  |
 
 [/task-description]
@@ -37,15 +37,15 @@ Use the method you've created to swap the elements that correspond to the given 
 [test open]
 [input]
 3
-John
-George
-Swap me with John
+7
+123
+42
 0 2
 [/input]
 [output]
-java.lang.String: Swap me with John
-java.lang.String: George
-java.lang.String: John
+java.lang.Integer: 42
+java.lang.Integer: 123
+java.lang.Integer: 7
 [/output]
 [/test]
 [test]
@@ -54,12 +54,12 @@ java.lang.String: John
 1
 2
 3
-0 0
+0 1
 [/input]
 [output]
-java.lang.String: 1
-java.lang.String: 2
-java.lang.String: 3
+java.lang.Integer: 2
+java.lang.Integer: 1
+java.lang.Integer: 3
 [/output]
 [/test]
 [test]
@@ -70,14 +70,14 @@ java.lang.String: 3
 14
 15
 16
-0 3
+3 4
 [/input]
 [output]
-java.lang.String: 15
-java.lang.String: 13
-java.lang.String: 14
-java.lang.String: 12
-java.lang.String: 16
+java.lang.Integer: 12
+java.lang.Integer: 13
+java.lang.Integer: 14
+java.lang.Integer: 16
+java.lang.Integer: 15
 [/output]
 [/test]
 [test]
@@ -87,37 +87,27 @@ java.lang.String: 16
 0 0
 [/input]
 [output]
-java.lang.String: -2147483648
+java.lang.Integer: -2147483648
 [/output]
 [/test]
 [test]
 [input]
-2
-pulien
-haos
-0 1
+1
+0
+0 0
 [/input]
 [output]
-java.lang.String: haos
-java.lang.String: pulien
+java.lang.Integer: 0
 [/output]
 [/test]
 [test]
 [input]
-5
-abc
-d
-e
-f
-ghi
-0 1
+1
+2147483647
+0 0
 [/input]
 [output]
-java.lang.String: d
-java.lang.String: abc
-java.lang.String: e
-java.lang.String: f
-java.lang.String: ghi
+java.lang.Integer: 2147483647
 [/output]
 [/test]
 [/tests]

@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Pokemon Trainer
-[code-task title="Pokemon Trainer" taskId="557a0bbb-06f1-4916-aa67-034874e07cbd" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Personal Information
+[code-task title="Personal Information" taskId="5d118095-25ac-454f-b83d-562694f855fa" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,337 +14,257 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-You wanna be the very best pokemon trainer, like no one ever was, so you set out to catch pokemon.
+*You and your friends decide to create a Class that holds all the information about all of you, even your pokemon collection. Since you are good at writing code, they asked you to design that Class.*
 
-Define a class **Trainer** and a class **Pokemon**.
+From the console you will receive lines until the command `End`.
 
-Trainer has a **name**, **number of badges** and a **collection of pokemon**.
+Each of those lines contains information about a person in one of the following formats:
 
-Pokemon has a **name**, an **element** and **health**, all values are **mandatory**.
+- `{personName} company {companyName} {department} {salary}`
 
-Every Trainer **starts with 0 badges**.
+- `{personName} pokemon {pokemonName} {pokemonType}`
 
-From the console you will receive an unknown number of lines until you receive the command `Tournament`. 
+- `{personName} parents {parentName} {parentBirthday}`
 
-Each line will carry information about a pokemon and the trainer who caught it in the format:
+- `{personName} children {childName} {childBirthday}`
 
-`<trainerName> <pokemonName> <pokemonElement> <pokemonHealth>` 
+- `{personName} car {carModel} {carSpeed}`
 
-Where **trainerName** is the name of the Trainer who caught the pokemon. 
+You should structure all information about a person in a class with nested subclasses. 
 
-Names are **unique**, there can not be 2 trainers with the same name. 
+Person names are **unique** - there won't be 2 person with the same name.
 
-After receiving the command `Tournament` an unknown number of lines containing one of three elements **"Fire"**, **"Water"**, **"Electricity"** will follow until the command `End` is received. 
+A person can have **only one company** and **one car**, but can have **multiple parents, children** and **pokemon**. 
 
-For every command you must check if a trainer has **at least 1** pokemon with the given element. 
+After the command `End` you will receive a **single** name on the next line.
 
-If he does, he receives 1 badge, otherwise all his pokemon **lose 10 health**. 
+You should **print** all information about that person. 
 
-If a pokemon falls **to 0 or less health he dies** and must be deleted from the trainer's collection. 
+**Note** that the information can change **during** the **input**.
 
-After the command `End` is received you should print all trainers **sorted by the number of badges they have in descending order**. 
+For example, if you receive multiple lines which specify a person company, only the **last one** should be the one remembered. 
 
-If two trainers have the same amount of badges they should be sorted by order of appearance in the input. 
+The salary must be formatted to **the second decimal place**.
 
-Print in the format:
+Print the information in the following format:
 
-`<trainerName> <badges> <numberOfPokemon>`
+```java
+{personName}
+Company:
+{companyName} {companyDepartment} {salary}
+Car:
+{carModel} {carSpeed}
+Pokemon:
+{pokemonName} {pokemonType}
+Parents:
+{parentName} {parentBirthday}
+Children:
+{childName} {childBirthday}
+```
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Peter Charizard Fire 100 | Peter 2 2 |
-| John Squirtle Water 38 | John 0 1 |
-| Peter Pikachu Electricity 10 |  |
-| Tournament |  |
-| Fire |  |
-| Electricity |  |
-| End |  |
+| Peter company PeshInc Management 1000.00 | Tom |
+| Tom car Volvo 30 | Company: |
+| Peter pokemon Pikachu Electricity | Car: |
+| Peter parents JohnDoe 22/02/1920 | Volvo 30 |
+| Tom pokemon Electrode Electricity | Pokemon: |
+| End | Electrode Electricity |
+| Tom | Parents: |
+|  | Children: |
+
 
 | **Input** | **Output** |
 | --- | --- |
-| Stan Blastoise Water 18 | Nick 1 1 |
-| Nick Pikachu Electricity 22 | Stan 0 0 |
-| John Kadabra Psychic 90 | John 0 1 |
-| Tournament |  |
-| Fire |  |
-| Electricity |  |
-| Fire |  |
-| End |  |
+| JohnDoe pokemon Onyx Rock | JohnDoe |
+| JohnDoe parents JJ 13/03/1933 | Company: |
+| GeorgeAdams pokemon Moltres Fire | JLtd Jelior 777.77 |
+| JohnDoe company JLtd Jelior 777.77 | Car: |
+| JohnDoe children PJ 01/01/2001 | AudiA4 180 |
+| StanSmith pokemon Blastoise Water | Pokemon: |
+| JohnDoe car AudiA4 180 | Onyx Rock |
+| JohnDoe pokemon Charizard Fire | Charizard Fire |
+| End | Parents: |
+| JohnDoe | JJ 13/03/1933 |
+|  | Children: |
+|  | PJ 01/01/2001 |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-Peter Charizard Fire 100
-John Squirtle Water 38
-Peter Pikachu Electricity 10
-Tournament
-Fire
-Electricity
+Peter company PeshInc Management 1000.00
+Tom car Volvo 30
+Peter pokemon Pikachu Electricity
+Peter parents JohnDoe 22/02/1920
+Tom pokemon Electrode Electricity
 End
+Tom
 [/input]
 [output]
-Peter 2 2
-John 0 1
+Tom
+Company:
+Car:
+Volvo 30
+Pokemon:
+Electrode Electricity
+Parents:
+Children:
 [/output]
 [/test]
 [test open]
 [input]
-Stan Blastoise Water 18
-Nick Pikachu Electricity 22
-John Kadabra Psychic 90
-Tournament
-Fire
-Electricity
-Fire
+JohnDoe pokemon Onyx Rock
+JohnDoe parents JJ 13/03/1933
+GeorgeAdams pokemon Moltres Fire
+JohnDoe company JLtd Jelior 777.77
+JohnDoe children PJ 01/01/2001
+StanSmith pokemon Blastoise Water
+JohnDoe car AudiA4 180
+JohnDoe pokemon Charizard Fire
 End
+JohnDoe
 [/input]
 [output]
-Nick 1 1
-Stan 0 0
-John 0 1
+JohnDoe
+Company:
+JLtd Jelior 777.77
+Car:
+AudiA4 180
+Pokemon:
+Onyx Rock
+Charizard Fire
+Parents:
+JJ 13/03/1933
+Children:
+PJ 01/01/2001
 [/output]
 [/test]
 [test]
 [input]
-P Charizard Fire 100
-G Squirtle Water 38
-P Pikachu Electricity 10
-M Balbazor Fire 101
-Tournament
+K company JC CEO 2000.00
+K pokemon P P
+K car Audi 50
+S parents MJ 19/01/1950
+S children KK 20/09/1992
+S pokemon B B
 End
+S
 [/input]
 [output]
-P 0 2
-G 0 1
-M 0 1
+S
+Company:
+Car:
+Pokemon:
+B B
+Parents:
+MJ 19/01/1950
+Children:
+KK 20/09/1992
 [/output]
 [/test]
 [test]
 [input]
-P Charizard Fire 100
-G Squirtle Water 38
-P Pikachu Electricity 10
-P Balbazor Electricity 102
-G Buterfree Fire 11
-Tournament
+K pokemon C C
+K pokemon S S
+K pokemon S W
+K car L 100
+M car L 99
+M car S 98
+E parents P 19/09/1999
+E children H 19/08/1998
 End
+K
 [/input]
 [output]
-P 0 3
-G 0 2
+K
+Company:
+Car:
+L 100
+Pokemon:
+C C
+S S
+S W
+Parents:
+Children:
 [/output]
 [/test]
 [test]
 [input]
-P Charizard Fire 100
-M MiniCharizard Fire 50
-P BigCharizard Fire 120
-P FirePokemon Fire 101
-M Char Fire 100
-J Turtle Water 100
-J BigTurtle Water 250
-Tournament
-Fire
-Fire
-Fire
-Fire
+V children AR 01/05/1995
+A pokemon RA Water
+A children IJ 02/06/1993
+A car BMW 120
+A company SoftUni Janitor 5.00
+A parents SN 06/06/1966
 End
+A
 [/input]
 [output]
-P 4 3
-M 4 2
-J 0 2
+A
+Company:
+SoftUni Janitor 5.00
+Car:
+BMW 120
+Pokemon:
+RA Water
+Parents:
+SN 06/06/1966
+Children:
+IJ 02/06/1993
 [/output]
 [/test]
 [test]
 [input]
-G Golem Water 102
-P Charizard Water 100
-M MiniCharizard Water 50
-P BigCharizard Water 120
-P FirePokemon Water 101
-M Char Fire 100
-J Turtle Electricity 100
-J BigTurtle Fire 250
-Tournament
-Water
-Water
-Water
-Water
-Water
-Water
+D pokemon Z Z
+D parents TB 01/01/1983
+D company DC P 500
+K company NL JD 2000
+K pokemon K K
+K parents P 07/23/1960
+KT company B CG 100
+KT pokemon T T
 End
+K
 [/input]
 [output]
-G 6 1
-P 6 3
-M 6 2
-J 0 2
+K
+Company:
+NL JD 2000.00
+Car:
+Pokemon:
+K K
+Parents:
+P 07/23/1960
+Children:
 [/output]
 [/test]
 [test]
 [input]
-G Golem Water 102
-P Charizard Water 100
-M MiniCharizard Water 50
-P BigCharizard Water 120
-P FirePokemon Water 101
-M Char Electricity 100
-J Turtle Electricity 100
-J BigTurtle Fire 250
-Tournament
-Electricity
-Electricity
-Electricity
-Electricity
+T company H EM 999999.99
+T children H 01/01/1000
+T children A 01/01/1000
+T children LR 01/01/1000
+T parents N 00/00/0000
+T pokemon MR S
 End
+T
 [/input]
 [output]
-M 4 2
-J 4 2
-G 0 1
-P 0 3
-[/output]
-[/test]
-[test]
-[input]
-G Golem Water 102
-P Charizard Water 100
-M MiniCharizard Water 30
-P BigCharizard Water 120
-P FirePokemon Water 101
-M Char Electricity 100
-J Turtle Electricity 100
-J BigTurtle Water 250
-Tournament
-Fire
-Fire
-Fire
-Fire
-Fire
-End
-[/input]
-[output]
-G 0 1
-P 0 3
-M 0 1
-J 0 2
-[/output]
-[/test]
-[test]
-[input]
-G Golem Fire 102
-P Charizard Fire 100
-M MiniCharizard Fire 30
-P BigCharizard Fire 120
-P FirePokemon Electricity 101
-M Char Electricity 100
-J Turtle Electricity 10
-J BigTurtle Fire 25
-Tournament
-Water
-Water
-Water
-Water
-Water
-Water
-Water
-End
-[/input]
-[output]
-G 0 1
-P 0 3
-M 0 1
-J 0 0
-[/output]
-[/test]
-[test]
-[input]
-G Golem Fire 102
-P Charizard Fire 100
-M MiniCharizard Fire 30
-P BigCharizard Fire 120
-P FirePokemon Water 11
-M Char Water 10
-J Turtle Fire 10
-J BigTurtle Fire 2500
-Tournament
-Electricity
-Electricity
-Electricity
-Electricity
-Electricity
-End
-[/input]
-[output]
-G 0 1
-P 0 2
-M 0 0
-J 0 1
-[/output]
-[/test]
-[test]
-[input]
-An Balbazor Water 100
-A Pikachu Electricity 100
-Annie Squirtal Fire 100
-P Balbazor Water 100
-P Electricity Electricity 100
-P Balbazor2 Fire 100
-Tournament
-Fire
-Water
-Electricity
-End
-[/input]
-[output]
-P 3 3
-An 1 1
-A 1 1
-Annie 1 1
-[/output]
-[/test]
-[test]
-[input]
-S Blastoise Water 18
-N Pikachu Electricity 22
-N Pikachu2 Electricity 200
-N Pikachu3 Electricity 21
-N Pikachu4 Electricity 23
-N Pikachu5 Electricity 230
-J Kadabra Psychic 90
-S Squirtle Water 1200
-P TurtoiseSVN Water 500
-P Charizard Water 50
-G Flower Fire 10
-Tournament
-Electricity
-Fire
-Water
-Fire
-Electricity
-Fire
-Water
-Electricity
-Electricity
-Water
-Water
-Water
-Water
-Electricity
-Fire
-Fire
-End
-[/input]
-[output]
-S 6 1
-P 6 1
-N 5 2
-J 0 0
-G 0 0
+T
+Company:
+H EM 999999.99
+Car:
+Pokemon:
+MR S
+Parents:
+N 00/00/0000
+Children:
+H 01/01/1000
+A 01/01/1000
+LR 01/01/1000
 [/output]
 [/test]
 [/tests]

@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Phonebook
-[code-task title="Problem: Phonebook" taskId="9530e974-a298-483a-a529-354207c85293" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: A Miner Task
+[code-task title="Problem: A Miner Task" taskId="bad4cdeb-97fa-4c60-8bd2-41da26365e05" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,38 +14,29 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that receives some info from the console about **people** and their **phone numbers**.
+You are given a sequence of strings, each on a **new line**.
 
-You are free to choose how the data is entered. Each **entry** should have just **one name** and **one number** (both of them strings). 
+Every **odd** line on the console is representing a **resource** (e.g.
 
-If you receive a name that **already exists** in the phonebook, simply update its number.
+Gold, Silver, Copper, and so on), and every **even - quantity**.
 
-After filling this simple phonebook, upon receiving the **command** `search`, your program should be able to perform a search of contact by name and print the details in the format `{name} -> {number}`. 
+Your task is to **collect** the resources and to print them each on a **new line**.
 
-In case the contact isn't found, print `Contact {name} does not exist.`
+**Print the resources and their quantities in the format:**
 
-The program should end when receiving the **command** `stop`.
+`{resource} –> {quantity}`
+
+The quantities inputs will be in the **range** [1 ... 2 000 000 000]
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| John-00359888080808 | Contact Maria does not exist. |
-| search | John -> 00359888080808 |
-| Maria |  |
-| John |  |
-| stop |  |
-
-| **Input** | **Output** |
-| --- | --- |
-| John-00359888001122 | Samuel -> 0047123123123 |
-| Peter-0040333111000 | Contact samuel does not exist. |
-| George-0049112233 | Contact PeTeR does not exist. |
-| Samuel-0047123123123 | Peter -> 0040333111000 |
-| search |  |
-| Samuel |  |
-| samuel |  |
-| PeTeR |  |
-| Peter |  |
+| Gold | Gold -> 155 |
+| 155 | Silver -> 10 |
+| Silver | Copper -> 17 |
+| 10 |  |
+| Copper |  |
+| 17 |  |
 | stop |  |
 
 [/task-description]
@@ -53,126 +44,218 @@ The program should end when receiving the **command** `stop`.
 [tests]
 [test open]
 [input]
-John-00359888080808
-search
-Maria
-John
+Gold
+155
+Silver
+10
+Copper
+17
 stop
 [/input]
 [output]
-Contact Maria does not exist.
-John -\> 00359888080808
+Gold -\> 155
+Silver -\> 10
+Copper -\> 17
 [/output]
 [/test]
 [test open]
 [input]
-John-00359888001122
-Peter-0040333111000
-George-0049112233
-Samuel-0047123123123
-search
-Samuel
-samuel
-PeTeR
-Peter
+Gold
+15555555
+Silver
+10000000
+Copper
+17000000
+Copper
+1700
 stop
 [/input]
 [output]
-Samuel -\> 0047123123123
-Contact samuel does not exist.
-Contact PeTeR does not exist.
-Peter -\> 0040333111000
+Gold -\> 15555555
+Silver -\> 10000000
+Copper -\> 17001700
 [/output]
 [/test]
 [test]
 [input]
-Peter-00359888001122
-Daniel-004312345678
-James-0032987654321
-Oscar-003011335577
-search
-Oscar
-Daniele
-James
-Pete
+Gold
+96941
+Silver
+40909
+Cooper
+70826
+Gold
+26953
+Silver
+11860
+Cooper
+68966
+Gold
+28604
+Silver
+67208
+Cooper
+62054
+Gold
+70777
+Silver
+5012
+Cooper
+49873
+Gold
+667
+Silver
+70628
+Cooper
+8741
+Gold
+42550
+Silver
+19878
+Cooper
+16479
+Gold
+43512
+Silver
+77785
+Cooper
+60305
+Gold
+13619
+Silver
+53187
+Cooper
+4777
+Gold
+45510
+Silver
+1355
+Cooper
+434
+Gold
+19443
+Silver
+554
+Cooper
+22528
 stop
 [/input]
 [output]
-Oscar -\> 003011335577
-Contact Daniele does not exist.
-James -\> 0032987654321
-Contact Pete does not exist.
+Gold -\> 388576
+Silver -\> 348376
+Cooper -\> 364983
 [/output]
 [/test]
 [test]
 [input]
-Abby-0049112233
-Barbara-0033999888777
-Daisy-0037166668888
-Faith-0034333555777
-Gabriela-0040333111000
-Ella-0047123123123
-search
-Daisy
-Gabrielle
-Faith
-Aby
+Gold
+43426
+Silver
+9066
+Cooper
+48254
+Gold
+91578
+Silver
+65032
+Cooper
+79895
+Gold
+13100
+Silver
+10035
+Cooper
+38187
+Gold
+34882
+Silver
+27216
+Cooper
+4153
+Gold
+83120
+Silver
+91917
+Cooper
+50021
 stop
 [/input]
 [output]
-Daisy -\> 0037166668888
-Contact Gabrielle does not exist.
-Faith -\> 0034333555777
-Contact Aby does not exist.
+Gold -\> 266106
+Silver -\> 203266
+Cooper -\> 220510
 [/output]
 [/test]
 [test]
 [input]
-search
+Gold
+26922
+Silver
+8566
+Cooper
+57765
+Gold
+70738
+Silver
+6941
+Cooper
+2538
+Gold
+70120
+Silver
+1696
+Cooper
+73384
+Gold
+91663
+Silver
+78550
+Cooper
+24019
+Gold
+16221
+Silver
+89664
+Cooper
+7669
 stop
 [/input]
 [output]
-
+Gold -\> 275664
+Silver -\> 185417
+Cooper -\> 165375
 [/output]
 [/test]
 [test]
 [input]
-France-0033
-Germany-0049
-Srain-0034
-Portugal-00351
-Italy-0039
-Netherlands-0031
-Greece-0030
-Austria-0043
-search
-Ireland
-Bulgaria
-Estonia
-Finland
-Norway
+Gold
+0
+Silver
+0
+Cooper
+0
 stop
 [/input]
 [output]
-Contact Ireland does not exist.
-Contact Bulgaria does not exist.
-Contact Estonia does not exist.
-Contact Finland does not exist.
-Contact Norway does not exist.
+Gold -\> 0
+Silver -\> 0
+Cooper -\> 0
 [/output]
 [/test]
 [test]
 [input]
-Oliver-004455667788
-Sophia-003344556677
-search
-Sophia
-Oliver
+Gold
+2000000000
+Silver
+2000000000
+Cooper
+2000000000
 stop
 [/input]
 [output]
-Sophia -\> 003344556677
-Oliver -\> 004455667788
+Gold -\> 2000000000
+Silver -\> 2000000000
+Cooper -\> 2000000000
 [/output]
 [/test]
 [/tests]

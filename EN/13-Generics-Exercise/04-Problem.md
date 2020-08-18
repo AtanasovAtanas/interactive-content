@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Generic Swap Method Integer
-[code-task title="Generic Swap Method Integer" taskId="6d827176-4208-48ad-aa4f-f2e1181e4a11" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Generic Count Method String
+[code-task title="Generic Count Method String" taskId="51f3851c-949d-4923-acaa-88e3224e30c9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,22 +14,26 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Create a generic method that receives a list containing **any type of data** and swaps the elements at two given indexes.
+Create a **method** that receives as argument a **list of any type that can be compared** and an **element of the given type**.
 
-As in the previous problems, read **n** number of boxes of type **Integer** and add them to the list. 
+The method should **return the count of elements that are greater than the value of the given element**.
 
-On the next line, you will receive a swap command consisting of **two indexes**. 
+**Modify your Box class** to support **comparing by value** of the data stored.
 
-Use the method you've created to swap the elements that correspond to the given indexes and **print each** element in the list.
+On the **first line**, you will receive **n** - the number of elements to add to the list. 
+
+On the next **n** lines, you will receive the actual elements. 
+
+On the **last line**, you will get the value of the element to which you need to compare every element in the list.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 3 | java.lang.Integer: 42 |
-| 7 | java.lang.Integer: 123 |
-| 123 | java.lang.Integer: 7 |
-| 42 |  |
-| 0 2 |  |
+| 3 | 2 |
+| aa |  |
+| aaa |  |
+| bb |  |
+| aa |  |
 
 [/task-description]
 [code-io /]
@@ -37,15 +41,13 @@ Use the method you've created to swap the elements that correspond to the given 
 [test open]
 [input]
 3
-7
-123
-42
-0 2
+aa
+aaa
+bb
+aa
 [/input]
 [output]
-java.lang.Integer: 42
-java.lang.Integer: 123
-java.lang.Integer: 7
+2
 [/output]
 [/test]
 [test]
@@ -54,12 +56,10 @@ java.lang.Integer: 7
 1
 2
 3
-0 1
+1
 [/input]
 [output]
-java.lang.Integer: 2
-java.lang.Integer: 1
-java.lang.Integer: 3
+2
 [/output]
 [/test]
 [test]
@@ -70,44 +70,53 @@ java.lang.Integer: 3
 14
 15
 16
-3 4
+3
 [/input]
 [output]
-java.lang.Integer: 12
-java.lang.Integer: 13
-java.lang.Integer: 14
-java.lang.Integer: 16
-java.lang.Integer: 15
-[/output]
-[/test]
-[test]
-[input]
-1
--2147483648
-0 0
-[/input]
-[output]
-java.lang.Integer: -2147483648
-[/output]
-[/test]
-[test]
-[input]
-1
 0
-0 0
-[/input]
-[output]
-java.lang.Integer: 0
 [/output]
 [/test]
 [test]
 [input]
 1
-2147483647
-0 0
+aaa
+aa
 [/input]
 [output]
-java.lang.Integer: 2147483647
+1
+[/output]
+[/test]
+[test]
+[input]
+10
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+[/input]
+[output]
+0
+[/output]
+[/test]
+[test]
+[input]
+5
+p
+pp
+ppp
+pppp
+ppppp
+pp
+[/input]
+[output]
+3
 [/output]
 [/test]
 [/tests]

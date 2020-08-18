@@ -1,49 +1,38 @@
+# Problems For Self-Practice
 [slide hideTitle]
-# Problem: Get Folder Size
-[code-task title="Get Folder Size" taskId="9ea94b9e-099e-4121-8fa6-cfef538c4e51" executionType="tests-execution" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
-import java.util.*;
+# Problem: Copy a Picture
 
-public class Main {
-    public static void main(String[] args) {
-        // Write your code here
-    }
-}
-```
-[/code-editor]
-[task-description]
-## Description
-Write a program that **traverses** a folder and **calculates** its size in bytes.
+Write a program that makes a copy of a **.jpg** file using **FileInputStream**, **FileOutputStream**, and **byte[] buffer**. 
 
-Use Folder **Exercises Resources** in Resources - Folder.
+Set the name of the new file as **picture-copy.jpg**.
 
-## Guidelines
-There is one zipped folder with resources for all exercises, that you need to use. 
+[/slide]
 
-Download the resources folder [here](https://mega.nz/file/nIwjSaKQ#KQpc5igeWhk70YWHwrA7QRqqyAySVW5xap-dxwFULgU).
+[slide hideTitle]
+# Problem: Serialize Array List
 
-For each exercise submit only the **output** of your program, **not the code**.
+Write a program that saves and loads an **ArrayList** of doubles to a file using **ObjectInputStream** and **ObjectOutputStream**. 
 
+Set the name of the file as **list.ser**.
 
-## Examples
-| **Input** | **Output** |
-| --- | --- |
-|  | Folder size: 2878 |
+[/slide]
 
-[image assetsSrc="08-Strams-Files-and-Directories-Exercise-Get Folder Size.png" /]
+[slide hideTitle]
+# Problem: Serialize Custom Object
 
-[/task-description]
-[code-io /]
-[tests]
-[test]
-[input]
-Folder size: 2878
-[/input]
-[output]
-Folder size: 2878
-[/output]
-[/test]
-[/tests]
-[/code-task]
+Write a program that saves and loads the information about a custom object using **ObjectInputStream** and **ObjectOutputStream**.
+
+Create a **simple class** called "Course" that has a **String field** containing its **name** and an **integer field** containing the **number of students** attending the course. 
+
+Set the name of the save file as **course.ser**.
+
+[/slide]
+
+[slide hideTitle]
+# Problem: Create Zip Archive
+
+Write a program that reads three **.txt** files and creates a zip archive named **files.zip**. 
+
+Use **FileOutputStream**, **ZipOutputStream**, and **FileInputStream**.
+
 [/slide]

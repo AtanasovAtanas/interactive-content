@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Generic Box of Integer
-[code-task title="Generic Box of Integer" taskId="02b21d7e-498e-4ff1-ae18-27793c1e0f19" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Generic Swap Method String
+[code-task title="Generic Swap Method String" taskId="115c52f8-04df-47de-941f-a836b608aec7" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,27 +14,22 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Create a **generic class Box** that can store any type.
+Create a generic method that receives a list containing **any type of data** and swaps the elements at two given indexes.
 
-**Override** the `toString()` method to print the type and the value of the stored data in the format 
+As in the previous problems, read **n** number of boxes of type **String** and add them to the list. 
 
-`{class full name}: {value}`
+On the next line, you will receive a swap command consisting of **two indexes**. 
 
-Use the class that you have created and test it with the class `java.lang.Integer`. 
-
-On the first line, you will get the number **n** - the number of Integers to read from the console. 
-
-On the next **n** lines, you will get the actual Integers. 
-
-For each of them create a box and call its `toString()` method to print its data on the console.
+Use the method you've created to swap the elements that correspond to the given indexes and **print each** element in the list.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 3 | java.lang.Integer: 7 |
-| 7 | java.lang.Integer: 123 |
-| 123 | java.lang.Integer: 42 |
-| 42 |  |
+| 3 | java.lang.String: Swap me with John |
+| John | java.lang.String: George |
+| George | java.lang.String: John |
+| Swap me with John |  |
+| 0 2 |  |
 
 [/task-description]
 [code-io /]
@@ -42,14 +37,15 @@ For each of them create a box and call its `toString()` method to print its data
 [test open]
 [input]
 3
-7
-123
-42
+John
+George
+Swap me with John
+0 2
 [/input]
 [output]
-java.lang.Integer: 7
-java.lang.Integer: 123
-java.lang.Integer: 42
+java.lang.String: Swap me with John
+java.lang.String: George
+java.lang.String: John
 [/output]
 [/test]
 [test]
@@ -58,11 +54,12 @@ java.lang.Integer: 42
 1
 2
 3
+0 0
 [/input]
 [output]
-java.lang.Integer: 1
-java.lang.Integer: 2
-java.lang.Integer: 3
+java.lang.String: 1
+java.lang.String: 2
+java.lang.String: 3
 [/output]
 [/test]
 [test]
@@ -73,40 +70,54 @@ java.lang.Integer: 3
 14
 15
 16
+0 3
 [/input]
 [output]
-java.lang.Integer: 12
-java.lang.Integer: 13
-java.lang.Integer: 14
-java.lang.Integer: 15
-java.lang.Integer: 16
+java.lang.String: 15
+java.lang.String: 13
+java.lang.String: 14
+java.lang.String: 12
+java.lang.String: 16
 [/output]
 [/test]
 [test]
 [input]
 1
 -2147483648
+0 0
 [/input]
 [output]
-java.lang.Integer: -2147483648
+java.lang.String: -2147483648
 [/output]
 [/test]
 [test]
 [input]
-1
-0
+2
+pulien
+haos
+0 1
 [/input]
 [output]
-java.lang.Integer: 0
+java.lang.String: haos
+java.lang.String: pulien
 [/output]
 [/test]
 [test]
 [input]
-1
-2147483647
+5
+abc
+d
+e
+f
+ghi
+0 1
 [/input]
 [output]
-java.lang.Integer: 2147483647
+java.lang.String: d
+java.lang.String: abc
+java.lang.String: e
+java.lang.String: f
+java.lang.String: ghi
 [/output]
 [/test]
 [/tests]

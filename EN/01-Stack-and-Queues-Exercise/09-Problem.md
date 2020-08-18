@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Infix to Postfix
-[code-task title="Infix to Postfix" taskId="f7d51cf8-541d-48fd-bd9f-795d70200d50" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Poisonous Plants
+[code-task title="Poisonous Plants" taskId="6ab9ac86-35f0-40ba-828e-48272be42cca" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -14,117 +14,112 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Mathematical expressions are **written in an infix notations** , for example "5 / ( 3 + 2 )".
+You are given  **N**  plants in a garden.
 
-However, this kind of notation is **not efficient for computer processing** , as you first need to evaluate the expression inside the brackets, so there is a lot of back and forth movement.
+Each of these plants has been added with some amount of pesticide.
 
-A more suitable approach is to **convert it in the so-called postfix notations** (also called [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)), in which the **expression is evaluated from left to right** , for example "3 2 + 5 /".
+After each day, if any plant has **more pesticide** than the plant at **its left**, being weaker (more GMO) than the left one, **it dies**.
 
-Implement an **algorithm that converts** the mathematical expression **from infix notation into a postfix notation**. Use the famous [Shunting-yard algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm).
+You are given the initial values of the pesticide and position of each plant.
 
-## Input
+Print the number of days **after** which no plant dies, i.e. the time after which there are no plants with more pesticide content than the plant to their left.
 
-- You will **receive an expression on a single line, consisting of tokens**
-- Tokens could be numbers 0-9, variables a-z, operators +, -, \*, /, and brackets ( or )
-- Each token is **separated by exactly one space**
+### Input
 
-## Output
+- The input consists of an integer  **N** representing the number of plants.
+- The next **single line** consists of  **N**  integers, where every integer represents the position and amount of pesticides of each plant. 1 ≤ N ≤ 100000
+- Pesticides amount on a plant is between 0 and 1000000000
 
-- The **output should be on a single line**, consisting of **tokens**, **separated by exactly one space**.
+### Output
+
+- Output a single value equal to the number of days after which no plants die.
 
 ## Examples
-| **Input** | **Output** |
-| --- | --- |
-| 5 / ( 3 + 2 ) | 5 3 2 + / |
-
-
-| **Input** | **Output** |
-| --- | --- |
-| 1 + 2 + 3 | 1 2 + 3 + |
-
-
-| **Input** | **Output** |
-| --- | --- |
-| 7 + 13 / ( 12 - 4 ) | 7 13 12 4 - / + |
-
-
-| **Input** | **Output** |
-| --- | --- |
-| ( 3 + x ) - y | 3 x + y - |
+| **Input** | **Output** | **Comments** |
+| --- | --- | --- |
+| 7 | 2 | Initially all plants are alive.  |
+| 6 5 8 4 7 10 9 |  | Plants = {(6, 1), (5, 2), (8, 3), (4, 4), (7, 5), (10, 6), (9, 7)}  |
+|  |  | Plants[k] = (i, j) => jth plant has pesticide amount = i.  |
+|  |  | After the 1st day, 4 plants remain as plants 3, 5, and 6 die.  |
+|  |  | Plants = {(6, 1), (5, 2), (4, 4), (9, 7)}  |
+|  |  | After the 2nd day, 3 plants survive as plant 7 dies. Plants = {(6, 1), (5, 2), (4, 4)}  |
+|  |  | After the 3rd day, 3 plants survive and no more plants die.  |
+|  |  | Plants = {(6, 1), (5, 2), (4, 4)}  |
+|  |  | After the 2nd day the plants stop dying.  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-5 / ( 3 + 2 )
+7
+6 5 8 4 7 10 9
 [/input]
 [output]
-5 3 2 + /
-[/output]
-[/test]
-[test open]
-[input]
-1 + 2 + 3
-[/input]
-[output]
-1 2 + 3 +
-[/output]
-[/test]
-[test open]
-[input]
-7 + 13 / ( 12 - 4 )
-[/input]
-[output]
-7 13 12 4 - / +
-[/output]
-[/test]
-[test open]
-[input]
-( 3 + x ) - y
-[/input]
-[output]
-3 x + y -
+2
 [/output]
 [/test]
 [test]
 [input]
-3 + 2 + 4 \* 1
+8
+6 5 8 4 7 10 9 4
 [/input]
 [output]
-3 2 + 4 1 \* +
+2
 [/output]
 [/test]
 [test]
 [input]
-( 1 + 2 ) + ( 2 \* 6 ) / ( 7 - 2 )
+5
+7 2 3 9 2
 [/input]
 [output]
-1 2 + 2 6 \* 7 2 - / +
+1
 [/output]
 [/test]
 [test]
 [input]
-( 1 + 2 ) + ( 2 \* 6 ) / ( 7 - 2 ) \* ( x \* ( 2 - 5 ) + ( 6 - 2 ) )
+12
+1 8 2 5 2 6 2 4 90 25 2 666
 [/input]
 [output]
-1 2 + 2 6 \* 7 2 - / x 2 5 - \* 6 2 - + \* +
+5
 [/output]
 [/test]
 [test]
 [input]
-2 + 3 - 4 + ( 2 - 2 )
+12
+12398 382 752 9320 4282 9122 932 7742 91283 7427 128823 887
 [/input]
 [output]
-2 3 + 4 - 2 2 - +
+4
 [/output]
 [/test]
 [test]
 [input]
-2 + 3 - ( 4 + ( 2 - 2 ) )
+13
+2139 8236 8129 92002 88429 1 2 3 32 5 123 5124 712
 [/input]
 [output]
-2 3 + 4 2 2 - + -
+2
+[/output]
+[/test]
+[test]
+[input]
+17
+2832 42 1 2 45 63 1 2 3 35 12 563441 2 23 6422 421 91
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+20
+128 462 582 472 291 284 762 293 865 675 679 200 672 534 123 123 321 431 321 98
+[/input]
+[output]
+5
 [/output]
 [/test]
 [/tests]

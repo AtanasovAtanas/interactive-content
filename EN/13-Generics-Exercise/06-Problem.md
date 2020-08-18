@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Generic Count Method Double
-[code-task title="Generic Count Method Double" taskId="39f0850a-cf23-47af-9bd9-554c556a4a92" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Custom List
+[code-task title="Custom List" taskId="42476d13-5009-4c80-bc9d-fc56eaa7228f" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,102 +14,190 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Create a **method** that receives as argument a **list of Double** and an **element of the given type**.
+Create a generic data structure that can store **any type** that can be **compared**.
 
-The method should **return the count of elements that are greater than the value of the given element**.
+Implement functions:
 
-**Modify your Box class** to support **comparing by value** of the data stored.
+- `void add(T element)`
+- `T remove(int index)`
+- `boolean contains(T element)`
+- `void swap(int index, int index)`
+- `int countGreaterThan(T element)`
+- `T getMax()`
+- `T getMin()`
 
-On the **first line**, you will receive **n** - the number of elements to add to the list. 
+Create a command interpreter that reads commands and modifies the custom list that you have created. Implement the commands:
 
-On the next **n** lines, you will receive the actual elements. 
+- `Add <element>` - Adds the given element to the end of the list
+- `Remove <index>` - Removes the element at the given index
+- `Contains <element>` - Prints if the list contains the given element **(true or false)**
+- `Swap <index> <index>` - Swaps the elements at the given indexes
+- `Greater <element>` - Counts the elements that are greater than the given element and prints their count
+- `Max` - Prints the maximum element in the list
+- `Min` - Prints the minimum element in the list
+- `Print` - Prints all elements in the list, each on a separate line
+- `END` - stops the reading of commands
 
-On the **last line**, you will get the value of the element to which you need to compare every element in the list.
+**Note** : For the **tests**, use **String** as **T**.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 3 | 2 |
-| 7.13 |  |
-| 123.22 |  |
-| 42.78 |  |
-| 7.55 |  |
+| Add aa | cc |
+| Add bb | aa |
+| Add cc | 2 |
+| Max | true |
+| Min | cc |
+| Greater aa | bb |
+| Swap 0 2 | aa |
+| Contains aa |  |
+| Print |  |
+| END |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-3
-7.13
-123.22
-42.78
-7.55
+Add aa
+Add bb
+Add cc
+Max
+Min
+Greater aa
+Swap 0 2
+Contains aa
+Print
+END
 [/input]
 [output]
+cc
+aa
 2
+true
+cc
+bb
+aa
 [/output]
 [/test]
 [test]
 [input]
-3
-1
-2
-3
-1
+Add P
+Print
+END
 [/input]
 [output]
-2
+P
 [/output]
 [/test]
 [test]
 [input]
-5
-12
-13
-14
-15
-16
-3
+Add P
+Add G
+Max
+END
 [/input]
 [output]
-5
+P
 [/output]
 [/test]
 [test]
 [input]
-1
-1231542.123
-1
+Add P
+Add G
+Swap 0 0
+Swap 1 1
+Swap 0 1
+Swap 1 0
+Swap 0 1
+Print
+END
 [/input]
 [output]
-1
+G
+P
 [/output]
 [/test]
 [test]
 [input]
-3
--1
+Add P
+Add G
+Contains 123
+Contains falsd
+Contains @\#!@\\$
+Contains .
+Contains P
+Contains G
+Greater P
+Greater G
+Greater aa
+Greater zz
+Greater true
+Greater false
+Greater 123
+Greater ...
+Greater @\#%!@\#
+END
+[/input]
+[output]
+false
+false
+false
+false
+true
+true
 0
 1
--1
-[/input]
-[output]
+0
+0
+0
+0
+2
+2
 2
 [/output]
 [/test]
 [test]
 [input]
-5
-11.11
-22.22
-33.33
-44.44
-55.55
-66.66
+Add a
+Add b
+Add c
+Add d
+Add e
+Add f
+Print
+Max
+Min
+Greater a
+Greater b
+Greater c
+Greater d
+Greater e
+Greater f
+Remove 0
+Remove 0
+Remove 0
+Print
+END
 [/input]
 [output]
+a
+b
+c
+d
+e
+f
+f
+a
+5
+4
+3
+2
+1
 0
+d
+e
+f
 [/output]
 [/test]
 [/tests]

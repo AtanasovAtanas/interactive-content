@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Program: Froggy
-[code-task title="Froggy" taskId="1d93d93e-0062-46f0-8a20-acf10598a4b6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Comparing Objects
+[code-task title="Comparing Objects" taskId="ca960ad8-04a2-484b-a743-8d395d7c8ebb" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,136 +14,138 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Let's play a game.
+There is a Comparable interface but probably you already know.
 
-You have a tiny little **Frog**, and a **Lake** with numbers.
+Your task is simple.
 
-The **Lake** and its numbers, you will get by an input from the console.
+Create a **Class Person**.
 
-Imagine, your **Frog** belongs to the **Lake**.
+Each person should have **name**, **age** and **town**.
 
-The **Frog jumps** only when the `END` command is received.
+You should implement the interface - `Comparable` and try to override the `compareTo` method.
 
-When the **Frog** starts jumping, print on the console **each number** the **Frog** have stepped over.
+When you compare two persons, first you should compare their **names**, after that - their **age** and last but not at least - compare their **town**.
 
-To calculate the jumps, use the guidelines:
-
-The jumps start from the **zero index**. 
-
-And follows the pattern - first all even indexes in **ascending** order(0 -> 2 -> 4 -> 6 and so on) and then all odd indexes in **ascending** order (1 -> 3 -> 5 -> 7 and so on). 
-
-Consider the **zero** index as **even**.
-
-Long story short: Create a Class `Lake`, it should implement the interface - `Iterable`. 
-
-Inside the `Lake`, create a Class - `Frog` and implement the interface `Iterator`. 
-
-You will receive **only integers**.
 
 ## Input
-The input will consist of two lines. First-line - the **initial** numbers of the lake, **separated** by comma and a single space. 
+On single lines, you will be given people in format:
 
-The second line command is `END`.
+`{name} {age} {town}`
+
+Collect them till you receive `END`
+
+After that, you will receive an integer **N** - the **Nth** person in your collection.
 
 ## Output
-When you receive `END`, the input is over. 
-
-**Foreach** the collection of numbers, the **Frog** has jumped over, and print **each** element.
-
-The output should be print on a **single** line.
+On the single output line, you should bring statistics, how many people are **equal** to the **Nth person**, how many people are **not** equal to this person, and the **total** people in your collection.
 
 Format:
 
-`{number}, {second number}, {third number} ...`
+`{number of equal people} {number of not equal people} {total number of people}`
 
 ## Constraints
-- **Lake's** numbers will be **valid** integers in the **range** [2 ^ -32 ... 2 ^ 32 - 1]
-- The command will always be **valid** - `END`
+- Names, ages and addresses will be **valid.**
+- Input number will be always а **valid** integer in **range** [2 ... 100]
+- If there are no equal people print: `No matches`
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 1, 2, 3, 4, 5, 6, 7, 8 | 1, 3, 5, 7, 2, 4, 6, 8 |
+| Peter 22 Venice | No matches |
+| George 14 San Francisco |  |
 | END |  |
+| 2 |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 1, 2, 3 | 1, 3, 2 |
+| John 22 Miami | 2 1 3 |
+| Adam 22 Miami |  |
+| Adam 22 Miami |  |
 | END |  |
+| 2 |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-1, 2, 3, 4, 5, 6, 7, 8
+Peter 22 Venice
+George 14 San Francisco
 END
+2
 [/input]
 [output]
-1, 3, 5, 7, 2, 4, 6, 8
+No matches
 [/output]
 [/test]
 [test open]
 [input]
-1, 2, 3
+John 22 Miami
+Adam 22 Miami
+Adam 22 Miami
 END
+2
 [/input]
 [output]
-1, 3, 2
+2 1 3
 [/output]
 [/test]
 [test]
 [input]
-1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8
+John 22 Venice
+George 14 San Francisco
 END
+2
 [/input]
 [output]
-1, 3, 5, 7, 1, 3, 5, 7, 2, 4, 6, 8, 2, 4, 6, 8
+No matches
 [/output]
 [/test]
 [test]
 [input]
-1, 2, 3, 4
+Peter 22 Miami
+Adam 22 Miami
+Adam 22 Miami
 END
+2
 [/input]
 [output]
-1, 3, 2, 4
+2 1 3
 [/output]
 [/test]
 [test]
 [input]
-1, 2, 3, 4, -3, -0, 0
+P 22 V
+G 22 V
+G 22 V
+P 22 V
+P 22 V
+G 22 V
+G 22 V
+P 22 V
+P 22 V
+G 22 V
+G 22 V
+P 22 V
+P 22 V
+G 22 V
+G 22 V
+P 22 V
 END
+2
 [/input]
 [output]
-1, 3, -3, 0, 2, 4, 0
+8 8 16
 [/output]
 [/test]
 [test]
 [input]
-0
+P 22 V
 END
+1
 [/input]
 [output]
-0
-[/output]
-[/test]
-[test]
-[input]
-10000000, 100000000, 100000000
-END
-[/input]
-[output]
-10000000, 100000000, 100000000
-[/output]
-[/test]
-[test]
-[input]
-3, 3, 3
-END
-[/input]
-[output]
-3, 3, 3
+No matches
 [/output]
 [/test]
 [/tests]

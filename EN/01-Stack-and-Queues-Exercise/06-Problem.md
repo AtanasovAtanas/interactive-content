@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Balanced Parentheses
-[code-task title="Balanced Parentheses" taskId="76ac9c4c-07e3-4a40-9e66-c9d3190f0e1e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Recursive Fibonacci
+[code-task title="Recursive Fibonacci" taskId="426b0bb7-d61b-48d0-bde3-8a141d87e84c" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -14,118 +14,131 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-**Given a sequence consisting of parentheses**, determine **whether the expression is balanced**.
+Each member of the **Fibonacci sequence** is calculated from the **sum of the two previous members**.
 
-A sequence of parentheses **is balanced if** every open parenthesis can be paired uniquely with a closing parenthesis that occurs after the former.
+The first two elements are 1, 1.
 
-Also, **the interval between them must be balanced**.
+Therefore the sequence goes like 1, 1, 2, 3, 5, 8, 13, 21, 34…
 
-You will be given three types of parentheses: **(**,  **{**, and **\[**.
+The following sequence can be generated with an array, but that is easy, so **your task is to implement it recursively**.
 
-{\[()\]} - This is a balanced parenthesis.
+If the function **getFibonacci(n)** returns the nth Fibonacci number, we can express it using 
+**getFibonacci(n) = getFibonacci(n-1) + getFibonacci(n-2)**.
 
-{\[(\])} - This is not a balanced parenthesis.
+However, this will never end and in a few seconds, a Stack Overflow Exception is thrown. 
+
+For the recursion to be stoped, it has to have a "bottom". 
+
+The bottom of the recursion is getFibonacci(1), and should return 1. The same goes for getFibonacci(0).
 
 ## Input
 
-- Each input consists of a single line, the sequence of parentheses.
-- **1 ≤ Length of sequence ≤ 1000**
-- Each character of the sequence will be one of the following:  **{**, **}**, **(**, **)**, **[**, **]**.
+- On a single line the user should enter the wanted Fibonacci number N where 1 <= N <= 49
 
 ## Output
 
-- For each test case, print on a new line **"YES"** if the parentheses are balanced. Otherwise, print **"NO"**.
+- The output should be the n-th Fibonacci number counting from 0.
 
+## Hint
 
+For the n-th Fibonacci number, we calculate the N - 1st and the N - 2nd number, but for the calculation of N - 1st number we calculate the N - 1 - 1st(N - 2nd) and the N - 1 - 2nd number, so we have a lot of repeated calculations.
+
+If you want to figure out how to skip those unnecessary calculations, you can search for a technique called [memoization](https://en.wikipedia.org/wiki/Memoization).
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| {[()]} | YES |
-
-
-| **Input** | **Output** |
-| --- | --- |
-| {[(])} | NO |
-
+| 5 | 8 |
 
 | **Input** | **Output** |
 | --- | --- |
-| {{[[(())]]}} | YES |
+| 10 | 89 |
+
+| **Input** | **Output** |
+| --- | --- |
+| 21 | 17711 |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-\{\[()\]\}
+1
 [/input]
 [output]
-YES
+1
 [/output]
 [/test]
 [test]
 [input]
-\{\{\{\[()\]\}\}\}
+2
 [/input]
 [output]
-YES
+2
 [/output]
 [/test]
 [test]
 [input]
-\{\[(\])\}
+3
 [/input]
 [output]
-NO
+3
 [/output]
 [/test]
 [test]
 [input]
-\{\{\[\[(())\]\]\}\}
+6
 [/input]
 [output]
-YES
+13
 [/output]
 [/test]
 [test]
 [input]
-()()()()()()()()()()
+8
 [/input]
 [output]
-YES
+34
 [/output]
 [/test]
 [test]
 [input]
-()\[\]\{\}\{\}\}
+24
 [/input]
 [output]
-NO
+75025
 [/output]
 [/test]
 [test]
 [input]
-()\[\{\[\{\{\[\{\}\{\}\}\{\}\}\{\}\}\{\}\}\{\{\}())()))()))(\]\}\}\]\}\]
+30
 [/input]
 [output]
-NO
+1346269
 [/output]
 [/test]
 [test]
 [input]
-((((((())))))))))))))))
+37
 [/input]
 [output]
-NO
+39088169
 [/output]
 [/test]
 [test]
 [input]
-()((((\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\{\[\[\[\[\[\[\[\[\[\[\[\[\[\[\[\[\[\[\[\[\[\[\[\[\]\]\]\]\]\]\]\]\]\]\]\]\]\]\]\]\]\]\]\]\]\]\]\]\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}\}))))
+42
 [/input]
 [output]
-YES
+433494437
+[/output]
+[/test]
+[test]
+[input]
+49
+[/input]
+[output]
+12586269025
 [/output]
 [/test]
 [/tests]

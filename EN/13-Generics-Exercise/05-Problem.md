@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Generic Count Method String
-[code-task title="Generic Count Method String" taskId="51f3851c-949d-4923-acaa-88e3224e30c9" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Generic Count Method Double
+[code-task title="Generic Count Method Double" taskId="39f0850a-cf23-47af-9bd9-554c556a4a92" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,7 +14,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Create a **method** that receives as argument a **list of any type that can be compared** and an **element of the given type**.
+Create a **method** that receives as argument a **list of Double** and an **element of the given type**.
 
 The method should **return the count of elements that are greater than the value of the given element**.
 
@@ -30,10 +30,10 @@ On the **last line**, you will get the value of the element to which you need to
 | **Input** | **Output** |
 | --- | --- |
 | 3 | 2 |
-| aa |  |
-| aaa |  |
-| bb |  |
-| aa |  |
+| 7.13 |  |
+| 123.22 |  |
+| 42.78 |  |
+| 7.55 |  |
 
 [/task-description]
 [code-io /]
@@ -41,10 +41,10 @@ On the **last line**, you will get the value of the element to which you need to
 [test open]
 [input]
 3
-aa
-aaa
-bb
-aa
+7.13
+123.22
+42.78
+7.55
 [/input]
 [output]
 2
@@ -73,14 +73,14 @@ aa
 3
 [/input]
 [output]
-0
+5
 [/output]
 [/test]
 [test]
 [input]
 1
-aaa
-aa
+1231542.123
+1
 [/input]
 [output]
 1
@@ -88,35 +88,28 @@ aa
 [/test]
 [test]
 [input]
-10
-a
-b
-c
-d
-e
-f
-g
-h
-i
-j
-k
+3
+-1
+0
+1
+-1
 [/input]
 [output]
-0
+2
 [/output]
 [/test]
 [test]
 [input]
 5
-p
-pp
-ppp
-pppp
-ppppp
-pp
+11.11
+22.22
+33.33
+44.44
+55.55
+66.66
 [/input]
 [output]
-3
+0
 [/output]
 [/test]
 [/tests]

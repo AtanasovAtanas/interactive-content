@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Radioactive Mutant Vampire Bunnies
-[code-task title="Problem: Radioactive Mutant Vampire Bunnies" taskId="dde93238-e1ea-4fda-ba5a-a39c4c921bb0" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Reverse Matrix Diagonals
+[code-task title="Problem: Reverse Matrix Diagonals" taskId="5eb5b2f3-007d-45b0-b5a9-6140deb66781" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,347 +14,360 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Browsing through GitHub, you come across an old JS Basics teamwork game.
+You are given a matrix (2D array) of integers.
 
-It is about very nasty bunnies that multiply extremely fast.
+You have to print the matrix diagonal but in reversed order.
 
-There is also a player that has to escape from their lair.
-
-You really like the game so you decide to port it to Java because that is your language of choice.
-
-The last thing that is left is the algorithm that decides if the player will escape the lair or not.
-
-First, you will receive a line holding integers **N** and **M** , which represent the rows and columns in the lair. 
-
-Then you receive **N** strings that can **only** consist of **"."**, **"B"** , **"P"**. 
-
-The **bunnies** are marked with **"B"**, the **player** is marked with **"P"**, and **everything** else is free space, marked with a dot **"."**. 
-
-They represent the initial state of the lair. 
-
-There will be **only** one player. 
-
-Then you will receive a string with **commands** such as **LLRRUUDD** – where each letter represents the next **move** of the player (Left, Right, Up, Down).
-
-**After** each step of the player, each of the bunnies spread to the up, down, left, and right (neighboring cells marked as "." **changes** their value to B). 
-
-If the player **moves** to a bunny cell or a bunny **reaches** the player, the player has died. 
-
-If the player goes **out** of the lair **without** encountering a bunny, the player has won.
-
-When the player **dies** or **wins** , the game ends. 
-
-All the activities for **this** turn continue (e.g. all the bunnies spread normally), but there are no more turns. 
-
-There will be **no** stalemates where the moves of the player end before he dies or escapes.
-
-Finally, print the final state of the lair with every row on a separate line. 
-
-On the last line, print either `dead: {row} {col}` or `won: {row} {col}`. 
-
-Row and col are the coordinates of the cell where the player has died or the last cell he has been in before escaping the lair.
+Print each diagonal on a new line.
 
 ## Input
 
-- On the first line of input, the numbers **N** and **M** are received – the number of **rows** and **columns** in the lair
-- On the next N lines, each row is received in the form of a string. The string will contain only ".", "B", "P". All strings will be the same length. There will be only one "P" for all the input
-- On the last line, the directions are received in the form of a string, containing "R", "L", "U", "D"
+On the first line, single integer the number **R** of rows in the matrix. 
+
+On each of the next **R** lines, **C** numbers separated by single spaces. 
+
+Note that **R** and **C** may have different values.
 
 ## Output
 
-- On the first N lines, print the final state of the bunny lair
-- On the last line, print the outcome – "won:" or "dead:" + `{row} {col}`
+The output should consist of R lines, each consisting of exactly C characters, separated by spaces, representing the matrix diagonals reversed.
 
 ## Constraints
 
-- The dimensions of the lair are in the range [3 ... 20]
-- The directions string length is in the range [1 ... 20]
+All the integers will be in the range [1 ... 1000]
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 5 8 | BBBBBBBB |
-| .......B | BBBBBBBB |
-| ...B.... | BBBBBBBB |
-| ....B..B | .BBBBBBB |
-| ........ | ..BBBBBB |
-| ..P..... | won: 3 0 |
-| ULLL |  |
+| 3 4 | 10 |
+| 21 20 18 15 | 11 12 |
+| 19 17 14 12 | 13 14 15 |
+| 16 13 11 10 | 16 17 18 |
+|  | 19 20 |
+|  | 21 |
 
 | **Input** | **Output** |
 | --- | --- |
-| 4 5 | .B... |
-| ..... | BBB.. |
-| ..... | BBBB. |
-| .B... | BBB.. |
-| ...P. | dead: 3 1 |
-| LLLLLLLL |  |
+| 1 3 | 1 |
+| 3 2 1 | 2 |
+|  | 3 |
+
+| **Input** | **Output** |
+| --- | --- |
+| 3 3 | 10 |
+| 18 17 15 | 11 12 |
+| 16 14 12 | 13 14 15 |
+| 13 11 10 | 16 17 |
+|  | 18 |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-5 8
-.......B
-...B....
-....B..B
-........
-..P.....
-ULLL
+3 4
+21 20 18 15
+19 17 14 12
+16 13 11 10
 [/input]
 [output]
-BBBBBBBB
-BBBBBBBB
-BBBBBBBB
-.BBBBBBB
-..BBBBBB
-won: 3 0
+10
+11 12
+13 14 15
+16 17 18
+19 20
+21
 [/output]
 [/test]
 [test open]
 [input]
+1 3
+3 2 1
+[/input]
+[output]
+1
+2
+3
+[/output]
+[/test]
+[test open]
+[input]
+3 3
+18 17 15
+16 14 12
+13 11 10
+[/input]
+[output]
+10
+11 12
+13 14 15
+16 17
+18
+[/output]
+[/test]
+[test]
+[input]
+1 1
+3
+[/input]
+[output]
+3
+[/output]
+[/test]
+[test]
+[input]
+3 7
+9 1 3 6 8 2 2
+7 4 5 4 7 2 4
+4 2 3 6 2 7 9
+[/input]
+[output]
+9
+7 4
+2 2 2
+6 7 2
+3 4 8
+2 5 6
+4 4 3
+7 1
+9
+[/output]
+[/test]
+[test]
+[input]
+9 7
+4 3 9 7 4 2 4
+3 5 5 8 6 4 9
+5 6 9 6 8 6 9
+9 3 5 9 8 9 8
+6 4 9 7 5 1 4
+7 5 4 4 2 3 8
+4 1 7 5 5 1 8
+2 9 9 3 2 6 3
+8 5 2 1 1 8 8
+[/input]
+[output]
+8
+8 3
+1 6 8
+1 2 1 8
+2 3 5 3 4
+5 9 5 2 1 8
+8 9 7 4 5 9 9
+2 1 4 7 8 6 9
+4 5 9 9 8 4 4
+7 4 5 6 6 2
+6 3 9 8 4
+9 6 5 7
+5 5 9
+3 3
+4
+[/output]
+[/test]
+[test]
+[input]
+2 4
+1 6 6 3
+7 6 9 5
+[/input]
+[output]
+5
+9 3
+6 6
+7 6
+1
+[/output]
+[/test]
+[test]
+[input]
+2 7
+5 9 5 5 9 1 2
+3 9 4 3 8 9 5
+[/input]
+[output]
+5
+9 2
+8 1
+3 9
 4 5
-.....
-.....
-.B...
-...P.
-LLLLLLLL
-[/input]
-[output]
-.B...
-BBB..
-BBBB.
-BBB..
-dead: 3 1
-[/output]
-[/test]
-[test]
-[input]
-8 11
-...........
-...........
-.....B.....
-...........
-...........
-....B.....P
-...........
-..B........
-LDRR
-[/input]
-[output]
-...BBBBB...
-..BBBBBBB..
-.BBBBBBBBB.
-..BBBBBBB..
-.BBBBBBB...
-BBBBBBBBB..
-BBBBBBBB...
-BBBBBBB....
-won: 6 10
-[/output]
-[/test]
-[test]
-[input]
-3 3
-..B
-...
-P..
-UUU
-[/input]
-[output]
-BBB
-.BB
-..B
-dead: 0 0
-[/output]
-[/test]
-[test]
-[input]
-4 8
-........
-........
-....B...
-.......P
-R
-[/input]
-[output]
-........
-....B...
-...BBB..
-....B...
-won: 3 7
-[/output]
-[/test]
-[test]
-[input]
-5 5
-.....
-BP...
-.....
-B....
-.....
-RRRR
-[/input]
-[output]
-BBBB.
-BBBBB
-BBBB.
-BBBBB
-BBBB.
-won: 1 4
-[/output]
-[/test]
-[test]
-[input]
-20 20
-...B................
-....................
-..........B.........
-....................
-....................
-....................
-....................
-....................
-....................
-....................
-....................
-....................
-....................
-P...................
-....................
-....................
-....................
-....................
-....................
-....................
-RRRRDDDLLLLL
-[/input]
-[output]
-BBBBBBBBBBBBBBBBBBBB
-BBBBBBBBBBBBBBBBBBBB
-BBBBBBBBBBBBBBBBBBBB
-BBBBBBBBBBBBBBBBBBBB
-BBBBBBBBBBBBBBBBBBBB
-BBBBBBBBBBBBBBBBBBBB
-BBBBBBBBBBBBBBBBBBB.
-BBBBBBBBBBBBBBBBBB..
-BBBBBBBBBBBBBBBBB...
-BBBBBBBBBBBBBBBB....
-.BBBBBBBBBBBBBB.....
-..BBB..BBBBBBB......
-...B....BBBBB.......
-.........BBB........
-..........B.........
-....................
-....................
-....................
-....................
-....................
-won: 16 0
-[/output]
-[/test]
-[test]
-[input]
-5 5
-P....
-.....
-...B.
-.....
-.....
-RDRD
-[/input]
-[output]
-..BBB
-.BBBB
-BBBBB
-.BBBB
-..BBB
-dead: 1 2
-[/output]
-[/test]
-[test]
-[input]
-3 3
-...
-PB.
-...
-R
-[/input]
-[output]
-.B.
-BBB
-.B.
-dead: 1 1
+9 5
+3 9
+5
 [/output]
 [/test]
 [test]
 [input]
 7 3
-...
-.B.
-.P.
-...
-...
-...
-...
-DDDDDDD
+4 7 6
+8 2 3
+9 2 5
+7 3 7
+8 3 9
+8 5 9
+9 7 3
 [/input]
 [output]
-BBB
-BBB
-BBB
-BBB
-BBB
-BBB
-.B.
-won: 6 1
+3
+7 9
+9 5 9
+8 3 7
+8 3 5
+7 2 3
+9 2 6
+8 7
+4
 [/output]
 [/test]
 [test]
 [input]
-10 10
-B........B
-..........
-..........
-..........
-..........
-.....P....
-..........
-..........
-..........
-B........B
-LLLLLLLLL
+3 1
+6
+5
+3
 [/input]
 [output]
-BBBBBBBBBB
-BBBBBBBBBB
-BBBB..BBBB
-BBB....BBB
-BB......BB
-BB......BB
-BBB....BBB
-BBBB..BBBB
-BBBBBBBBBB
-BBBBBBBBBB
-dead: 5 0
+3
+5
+6
 [/output]
 [/test]
 [test]
 [input]
-4 15
-...............
-...............
-B.............P
-...............
-LLLLLLLLLLLLL
+1 6
+8 8 3 1 4 1
 [/input]
 [output]
-BBBBBB.........
-BBBBBBB........
-BBBBBBBB.......
-BBBBBBB........
-dead: 2 7
+1
+4
+1
+3
+8
+8
+[/output]
+[/test]
+[test]
+[input]
+2 6
+4 6 7 3 9 9
+1 5 1 2 3 8
+[/input]
+[output]
+8
+3 9
+2 9
+1 3
+5 7
+1 6
+4
+[/output]
+[/test]
+[test]
+[input]
+7 89
+40 20 31 18 29 74 55 86 92 87 73 13 20 13 87 46 30 41 26 59 41 10 81 31 32 59 91 31 81 57 31 94 41 63 34 55 55 70 98 31 90 41 87 70 16 24 54 78 82 87 40 40 45 22 65 33 41 29 93 62 31 90 52 38 76 29 16 70 81 80 47 86 82 74 72 67 75 24 46 96 21 20 58 20 10 42 76 97 89 
+24 75 52 76 51 93 33 30 38 49 66 26 55 18 71 70 54 45 56 98 41 99 14 73 14 29 33 32 84 48 66 92 58 40 64 87 38 42 51 79 10 54 56 33 52 13 73 18 72 79 28 56 18 53 69 23 76 35 48 71 34 30 82 86 48 62 34 10 46 33 68 41 60 44 53 27 82 80 60 28 67 14 88 74 40 53 71 51 27 
+47 44 54 83 83 51 79 96 99 63 77 83 55 77 12 14 44 83 13 86 24 16 76 25 75 29 26 67 83 80 40 87 34 94 33 74 55 37 80 32 48 50 21 60 16 90 70 29 46 55 76 82 19 34 34 11 24 54 34 72 81 28 96 74 64 36 44 75 56 51 98 83 58 74 50 98 86 90 34 68 54 54 26 71 67 76 24 85 99 
+69 73 67 72 19 65 55 14 41 88 47 30 81 25 96 65 32 26 12 88 11 96 24 35 50 33 99 21 60 30 97 62 54 66 18 34 58 92 18 48 12 84 56 70 73 56 35 31 84 34 85 67 41 39 16 26 20 84 98 88 61 75 30 43 32 94 84 85 32 35 99 70 55 89 20 99 52 18 36 45 45 79 67 21 77 20 50 11 65 
+21 78 12 37 45 85 80 69 51 85 62 39 40 32 81 65 46 28 15 72 69 91 38 86 74 97 34 77 67 85 98 11 71 42 77 20 95 10 20 15 66 30 84 13 23 80 90 81 36 70 22 41 98 34 90 57 84 45 81 97 98 64 14 61 54 14 23 30 11 81 88 10 50 68 51 32 57 43 30 83 28 19 59 45 79 61 38 72 61 
+53 14 75 13 23 84 74 38 27 95 23 70 90 73 95 28 55 53 50 73 70 13 18 11 42 93 81 92 33 89 56 47 69 62 30 49 43 62 80 64 56 56 84 24 80 67 77 78 11 69 84 91 12 65 11 12 21 60 28 56 79 19 23 81 53 45 54 27 38 13 42 24 40 88 90 53 10 54 35 75 47 92 62 55 20 92 10 47 44 
+92 11 43 29 24 65 35 72 15 19 79 51 36 25 64 44 59 97 55 98 84 41 21 21 20 61 65 48 30 52 29 66 71 42 92 12 87 72 39 92 57 48 75 34 15 77 93 78 70 27 99 26 18 30 73 51 85 35 77 33 23 14 72 85 12 17 63 47 83 59 24 55 76 29 74 17 34 57 22 85 29 54 78 61 37 41 96 95 40
+[/input]
+[output]
+40 
+95 44 
+96 47 61 
+41 10 72 65 
+37 92 38 11 99 
+61 20 61 50 85 27 
+78 55 79 20 24 51 89 
+54 62 45 77 76 71 97 
+29 92 59 21 67 53 76 
+85 47 19 67 71 40 42 
+22 75 28 79 26 74 10 
+57 35 83 45 54 88 20 
+34 54 30 45 54 14 58 
+17 10 43 36 68 67 20 
+74 53 57 18 34 28 21 
+29 90 32 52 90 60 96 
+76 88 51 99 86 80 46 
+55 40 68 20 98 82 24 
+24 24 50 89 50 27 75 
+59 42 10 55 74 53 67 
+83 13 88 70 58 44 72 
+47 38 81 99 83 60 74 
+63 27 11 35 98 41 82 
+17 54 30 32 51 68 86 
+12 45 23 85 56 33 47 
+85 53 14 84 75 46 80 
+72 81 54 94 44 10 81 
+14 23 61 32 36 34 70 
+23 19 14 43 64 62 16 
+33 79 64 30 74 48 29 
+77 56 98 75 96 86 76 
+35 28 97 61 28 82 38 
+85 60 81 88 81 30 52 
+51 21 45 98 72 34 90 
+73 12 84 84 34 71 31 
+30 11 57 20 54 48 62 
+18 65 90 26 24 35 93 
+26 12 34 16 11 76 29 
+99 91 98 39 34 23 41 
+27 84 41 41 34 69 33 
+70 69 22 67 19 53 65 
+78 11 70 85 82 18 22 
+93 78 36 34 76 56 45 
+77 77 81 84 55 28 40 
+15 67 90 31 46 79 40 
+34 80 80 35 29 72 87 
+75 24 23 56 70 18 82 
+48 84 13 73 90 73 78 
+57 56 84 70 16 13 54 
+92 56 30 56 60 52 24 
+39 64 66 84 21 33 16 
+72 80 15 12 50 56 70 
+87 62 20 48 48 54 87 
+12 43 10 18 32 10 41 
+92 49 95 92 80 79 90 
+42 30 20 58 37 51 31 
+71 62 77 34 55 42 98 
+66 69 42 18 74 38 70 
+29 47 71 66 33 87 55 
+52 56 11 54 94 64 55 
+30 89 98 62 34 40 34 
+48 33 85 97 87 58 63 
+65 92 67 30 40 92 41 
+61 81 77 60 80 66 94 
+20 93 34 21 83 48 31 
+21 42 97 99 67 84 57 
+21 11 74 33 26 32 81 
+41 18 86 50 29 33 31 
+84 13 38 35 75 29 91 
+98 70 91 24 25 14 59 
+55 73 69 96 76 73 32 
+97 50 72 11 16 14 31 
+59 53 15 88 24 99 81 
+44 55 28 12 86 41 10 
+64 28 46 26 13 98 41 
+25 95 65 32 83 56 59 
+36 73 81 65 44 45 26 
+51 90 32 96 14 54 41 
+79 70 40 25 12 70 30 
+19 23 39 81 77 71 46 
+15 95 62 30 55 18 87 
+72 27 85 47 83 55 13 
+35 38 51 88 77 26 20 
+65 74 69 41 63 66 13 
+24 84 80 14 99 49 73 
+29 23 85 55 96 38 87 
+43 13 45 65 79 30 92 
+11 75 37 19 51 33 86 
+92 14 12 72 83 93 55 
+53 78 67 83 51 74 
+21 73 54 76 29 
+69 44 52 18 
+47 75 31 
+24 20 
+40
 [/output]
 [/test]
 [/tests]

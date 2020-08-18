@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Applied Arithmetics
-[code-task title="Applied Arithmetics" taskId="03caacb4-6d7d-40f1-b7b8-21d24988440a" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Reverse And Exclude
+[code-task title="Reverse And Exclude" taskId="d727c084-1d8e-4dda-b653-498280a6764f" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,118 +14,83 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-On the first line, you receive a **list of numbers**.
-
-On the next lines you are passed different **commands** that you need to apply to all numbers in the list: `add` -> adds 1; `multiply` -> multiplies by 2; `subtract` -> subtracts 1; `print` -> prints all numbers on **a new line**.
-
-The input will end with a command `end`, after which you need to print the result.
+Write a program that **reverses** a collection and **removes** elements that are **divisible** by a given integer **n**.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 1 2 3 4 5 | 3 4 5 6 7 |
-| add |  |
-| add |  |
-| print |  |
-| end |  |
+| 1 2 3 4 5 6 | 5 3 1 |
+| 2 |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 5 10 | 9 19 |
-| multiply |  |
-| subtract |  |
-| print |  |
-| end |  |
+| 20 10 40 30 60 50 | 50 40 10 20 |
+| 3 |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-1 2 3 4 5
-add
-add
-print
-end
+1 2 3 4 5 6
+2
 [/input]
 [output]
-3 4 5 6 7
+5 3 1
 [/output]
 [/test]
 [test open]
 [input]
-5 10
-multiply
-subtract
-print
-end
+20 10 40 30 60 50
+3
 [/input]
 [output]
-9 19
+50 40 10 20
 [/output]
 [/test]
 [test]
 [input]
-0 0
-multiply
-print
-end
+10 9 8 7 6 5 4 3 2 1
+2
 [/input]
 [output]
-0 0
+1 3 5 7 9
 [/output]
 [/test]
 [test]
 [input]
-0 0
-multiply
-subtract
-print
-end
+2 2 2 2 5 5 5 5
+2
 [/input]
 [output]
--1 -1
+5 5 5 5
 [/output]
 [/test]
 [test]
 [input]
--1 -1
-add
-subtract
-add
-print
-end
+10 9 8 7 6 5 4 3 2 1
+3
 [/input]
 [output]
-0 0
+1 2 4 5 7 8 10
 [/output]
 [/test]
 [test]
 [input]
-2222222 2222224
-add
-print
-add
-print
-end
+-1 -3 -5 5 3 1
+3
 [/input]
 [output]
-2222223 2222225
-2222224 2222226
+1 5 -5 -1
 [/output]
 [/test]
 [test]
 [input]
--2222224 -2222222
-add
-add
-add
-add
-print
-end
+0 0 0
+2
 [/input]
 [output]
--2222220 -2222218
+
 [/output]
 [/test]
 [/tests]

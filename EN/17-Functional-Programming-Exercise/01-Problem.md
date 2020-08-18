@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Consumer Print
-[code-task title="Consumer Print" taskId="0080f16e-7468-4ba7-8b44-4fa30787a3df" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Knights of Honor
+[code-task title="Knights of Honor" taskId="6e9ffed1-43e4-44b3-88d5-40bda1ac9c60" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,64 +14,60 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that **reads** a collection of **strings**, separated by one or **more** whitespaces, from the console, and then prints them onto the console.
-
-Each string should be printed on a new line.
+Write a program that **reads a collection of names** as strings from the console and then **appends "Sir"** in front of every name and prints it back onto the console.
 
 Use a `Consumer<T>`.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Peter George Adam | Peter |
-|  | George |
-|  | Adam |
-
-
-| **Input** | **Output** |
-| --- | --- |
-| Nelson Grand Hubert | Nelson |
-|  | Grand |
-|  | Hubert |
-
+| Henry Alex Anthony Stanley | Sir Henry |
+|  | Sir Alex |
+|  | Sir Anthony |
+|  | Sir Stanley |
 
 | **Input** | **Output** |
 | --- | --- |
-| Alan Nick Connor | Alan |
-|  | Nick |
-|  | Connor |
+| Derryl Isaac David | Sir Derryl |
+|  | Sir Isaac |
+|  | Sir David |
+
+| **Input** | **Output** |
+| --- | --- |
+| Patrick Christopher | Sir Patrick |
+|  | Sir Christopher |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-Peter George Adam
+Henry Alex Anthony Stanley
 [/input]
 [output]
-Peter
-George
-Adam
+Sir Henry
+Sir Alex
+Sir Anthony
+Sir Stanley
 [/output]
 [/test]
 [test open]
 [input]
-Nelson Grand Hubert
+Derryl Isaac David
 [/input]
 [output]
-Nelson
-Grand
-Hubert
+Sir Derryl
+Sir Isaac
+Sir David
 [/output]
 [/test]
 [test open]
 [input]
-Alan Nick Connor
+Patrick Christopher
 [/input]
 [output]
-Alan
-Nick
-Connor
+Sir Patrick
+Sir Christopher
 [/output]
 [/test]
 [test]
@@ -79,10 +75,10 @@ Connor
 Print Me Please Now
 [/input]
 [output]
-Print
-Me
-Please
-Now
+Sir Print
+Sir Me
+Sir Please
+Sir Now
 [/output]
 [/test]
 [test]
@@ -90,8 +86,8 @@ Now
 Hello World
 [/input]
 [output]
-Hello
-World
+Sir Hello
+Sir World
 [/output]
 [/test]
 [test]
@@ -99,26 +95,25 @@ World
 Its A Really Big Big World
 [/input]
 [output]
-Its
-A
-Really
-Big
-Big
-World
+Sir Its
+Sir A
+Sir Really
+Sir Big
+Sir Big
+Sir World
 [/output]
 [/test]
 [test]
 [input]
-All Your Base Are Belong To Us
+All Your Base Belong To Us
 [/input]
 [output]
-All
-Your
-Base
-Are
-Belong 
-To
-Us
+Sir All
+Sir Your
+Sir Base
+Sir Belong
+Sir To
+Sir Us
 [/output]
 [/test]
 [test]
@@ -126,9 +121,9 @@ Us
 Dolche Far Niente
 [/input]
 [output]
-Dolche
-Far
-Niente
+Sir Dolche
+Sir Far
+Sir Niente
 [/output]
 [/test]
 [/tests]

@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Reverse Matrix Diagonals
-[code-task title="Problem: Reverse Matrix Diagonals" taskId="5eb5b2f3-007d-45b0-b5a9-6140deb66781" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: The Matrix
+[code-task title="Problem: The Matrix" taskId="250961da-1f32-4b0b-a551-bb5137d0e282" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,360 +14,430 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-You are given a matrix (2D array) of integers.
+You are given a matrix (2D array) of lowercase alphanumeric characters ( **a-z** , **0-9** ), a starting position – defined by a start row `startRow` and a start column `startCol` – and a filling symbol `fillChar`.
 
-You have to print the matrix diagonal but in reversed order.
+Let's call the symbol originally at `startRow` and `startCol` the `startChar`.
 
-Print each diagonal on a new line.
+Write a program, which, starting from the symbol at `startRow` and `startCol`, changes to `fillChar` every symbol in the matrix which:
+
+- is equal to **startChar**
+- can be reached from **startChar** by going up ( **row – 1** ), down ( **row + 1** ), left ( **col – 1** ) and right ( **col + 1** ) and "stepping" ONLY on symbols equal **startChar**
+
+Start from `startRow` and `startCol` and move either by changing the **row** or **column** (not both at once, i.e. you can not go diagonally) by **1**, and can only go to positions which have the `startChar` written on them. 
+
+Once you find all those positions, you change them to `fillChar`.
 
 ## Input
 
-On the first line, single integer the number **R** of rows in the matrix. 
+On the first line, two integers will be entered – the number **R** of rows and number **C** of columns.
 
-On each of the next **R** lines, **C** numbers separated by single spaces. 
+On each of the next **R** lines, **C** characters separated by single spaces will be entered – the symbols of the **R** row of the matrix, starting from the **0** column and ending at the **C - 1** column.
 
-Note that **R** and **C** may have different values.
+On the next line, a single character – the `fillChar` – will be entered.
+
+On the last line, two integers – `startRow` and `startCol` – separated by a single space, will be entered.
 
 ## Output
 
-The output should consist of R lines, each consisting of exactly C characters, separated by spaces, representing the matrix diagonals reversed.
+The output should consist of **R** lines, each consisting of exactly **C** characters, **not separated** by spaces, representing the matrix after the fill operation has been finished.
 
 ## Constraints
 
-All the integers will be in the range [1 ... 1000]
+**0 < R, C < 20**
+**0 <= startRow < R**
+**0 <= startCol < C**
+
+All symbols in the input matrix will be lowercase alphanumerics ( **a-z** , **0-9** ). The `fillChar` will also be alphanumeric and lowercase.
+
+
+## Hints
+
+For some of the tests, you can solve the problem with a simple approach. The complete solution can be obtained by using **Stack**, **Queue**, **DFS**, or **BFS**.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 3 4 | 10 |
-| 21 20 18 15 | 11 12 |
-| 19 17 14 12 | 13 14 15 |
-| 16 13 11 10 | 16 17 18 |
-|  | 19 20 |
-|  | 21 |
+| 5 3 | xxx |
+| a a a | xxx |
+| a a a | xbx |
+| a b a | xbx |
+| a b a | xbx |
+| a b a |  |
+| x |  |
+| 0 0 |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 1 3 | 1 |
-| 3 2 1 | 2 |
-|  | 3 |
+| 5 3 | aaa |
+| a a a | aaa |
+| a a a | axa |
+| a b a | axa |
+| a b a | axa |
+| a b a |  |
+| x |  |
+| 2 1 |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 3 3 | 10 |
-| 18 17 15 | 11 12 |
-| 16 14 12 | 13 14 15 |
-| 13 11 10 | 16 17 |
-|  | 18 |
+| 5 6 | oo11oo |
+| o o 1 1 o o | o1331o |
+| o 1 o o 1 o | 133331 |
+| 1 o o o o 1 | o1331o |
+| o 1 o o 1 o | oo11oo |
+| o o 1 1 o o |  |
+| 3 |  |
+| 2 1 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 5 6 | oooooo |
+| o o o o o o | ooo1oo |
+| o o o 1 o o | oo1o11 |
+| o o 1 o 1 1 | o11w1z |
+| o 1 1 w 1 o | 1zzzzz |
+| 1 o o o o o |  |
+| z |  |
+| 4 1 |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-3 4
-21 20 18 15
-19 17 14 12
-16 13 11 10
+5 3
+a a a
+a a a
+a b a
+a b a
+a b a
+x
+0 0
 [/input]
 [output]
-10
-11 12
-13 14 15
-16 17 18
-19 20
-21
+xxx
+xxx
+xbx
+xbx
+xbx
 [/output]
 [/test]
 [test open]
 [input]
-1 3
-3 2 1
+5 3
+a a a
+a a a
+a b a
+a b a
+a b a
+x
+2 1
 [/input]
 [output]
-1
-2
+aaa
+aaa
+axa
+axa
+axa
+[/output]
+[/test]
+[test open]
+[input]
+5 6
+o o 1 1 o o
+o 1 o o 1 o
+1 o o o o 1
+o 1 o o 1 o
+o o 1 1 o o
 3
+2 1
+[/input]
+[output]
+oo11oo
+o1331o
+133331
+o1331o
+oo11oo
 [/output]
 [/test]
 [test open]
 [input]
-3 3
-18 17 15
-16 14 12
-13 11 10
+5 6
+o o o o o o
+o o o 1 o o
+o o 1 o 1 1
+o 1 1 w 1 o
+1 o o o o o
+z
+4 1
 [/input]
 [output]
-10
-11 12
-13 14 15
-16 17
-18
+oooooo
+ooo1oo
+oo1o11
+o11w1z
+1zzzzz
+[/output]
+[/test]
+[test open]
+[input]
+5 6
+o 1 o o 1 o
+o 1 o o 1 o
+o 1 1 1 1 o
+o 1 o w 1 o
+o o o o o o
+z
+4 0
+[/input]
+[output]
+z1oo1z
+z1oo1z
+z1111z
+z1zw1z
+zzzzzz
+[/output]
+[/test]
+[test]
+[input]
+19 19
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+h
+8 6
+[/input]
+[output]
+0000000000000000000
+0000000000000000000
+0000011111100000000
+000001hhhh100000000
+000001hhhh100000000
+000001hhhh100000000
+000001hhhh100000000
+000001hhhh100000000
+000001hhhh100000000
+0000011111000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+0000000000000000000
+[/output]
+[/test]
+[test]
+[input]
+19 19
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0
+0 0 0 0 0 1 1 1 1 1 1 0 1 1 0 0 1 1 0
+0 0 0 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 1
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1 0 0 1
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 1
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 1
+0 0 0 0 0 1 0 0 0 0 1 1 1 1 1 1 0 0 1
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 1 1 0 0
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0
+0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+y
+3 5
+[/input]
+[output]
+000000000000yyyy000
+000000000000y00yy00
+00000yyyyyy0yy00yy0
+00000y0000y00yy00yy
+00000y0000y000yy00y
+00000y0000y0000yy0y
+00000y0000y0000y00y
+00000y0000yyyyyy00y
+00000y000000000000y
+00000yyyyyy0000000y
+0000000000y00000000
+0000000000y00000000
+0000000000y00000yyy
+0000000000y00000y00
+000000yyyyy0000yy00
+000000y0000000yy000
+000000yyyyyyyyy0000
+0000000000000000000
+0000000000000000000
+[/output]
+[/test]
+[test]
+[input]
+19 19
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0
+0 0 0 0 0 1 1 1 1 1 1 0 0 1 0 0 1 0 0
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 1 0
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 1
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 1
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 1
+0 0 0 0 0 1 0 0 0 0 1 1 1 1 1 0 0 0 1
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 1 0 0 0
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0
+0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+z
+2 14
+[/input]
+[output]
+0000000000000110000
+0000000000001zz1000
+00000111111001zz100
+000001zzzz10001zz10
+000001zzzz100001zz1
+000001zzzz1000001z1
+000001zzzz100001zz1
+000001zzzz11111zzz1
+000001zzzzzzzzzzzz1
+00000111111zzzzzzz1
+00000000001zzzzzzzz
+00000000001zzzzzzzz
+00000000001zzzzzz11
+00000000001zzzzz100
+00000011111zzzz1000
+0000001zzzzzzz10000
+0000001111111100000
+0000000000000000000
+0000000000000000000
+[/output]
+[/test]
+[test]
+[input]
+4 10
+s x x s s s s s s s
+a s s x s s s s s s
+s a s s x s s s s s
+s a s s s x s s s s
+f
+1 2
+[/input]
+[output]
+sxxsssssss
+affxssssss
+saffxsssss
+safffxssss
 [/output]
 [/test]
 [test]
 [input]
 1 1
-3
+a
+b
+0 0
 [/input]
 [output]
-3
+b
 [/output]
 [/test]
 [test]
 [input]
-3 7
-9 1 3 6 8 2 2
-7 4 5 4 7 2 4
-4 2 3 6 2 7 9
-[/input]
-[output]
-9
-7 4
-2 2 2
-6 7 2
-3 4 8
-2 5 6
-4 4 3
 7 1
-9
+u
+u
+u
+u
+u
+d
+u
+d
+5 0
+[/input]
+[output]
+u
+u
+u
+u
+u
+d
+u
 [/output]
 [/test]
 [test]
 [input]
-9 7
-4 3 9 7 4 2 4
-3 5 5 8 6 4 9
-5 6 9 6 8 6 9
-9 3 5 9 8 9 8
-6 4 9 7 5 1 4
-7 5 4 4 2 3 8
-4 1 7 5 5 1 8
-2 9 9 3 2 6 3
-8 5 2 1 1 8 8
+7 1
+u
+u
+u
+u
+u
+d
+u
+d
+6 0
 [/input]
 [output]
-8
-8 3
-1 6 8
-1 2 1 8
-2 3 5 3 4
-5 9 5 2 1 8
-8 9 7 4 5 9 9
-2 1 4 7 8 6 9
-4 5 9 9 8 4 4
-7 4 5 6 6 2
-6 3 9 8 4
-9 6 5 7
-5 5 9
-3 3
-4
+u
+u
+u
+u
+u
+d
+d
 [/output]
 [/test]
 [test]
 [input]
-2 4
-1 6 6 3
-7 6 9 5
-[/input]
-[output]
-5
-9 3
-6 6
-7 6
-1
-[/output]
-[/test]
-[test]
-[input]
-2 7
-5 9 5 5 9 1 2
-3 9 4 3 8 9 5
-[/input]
-[output]
-5
-9 2
-8 1
-3 9
-4 5
-9 5
-3 9
-5
-[/output]
-[/test]
-[test]
-[input]
-7 3
-4 7 6
-8 2 3
-9 2 5
-7 3 7
-8 3 9
-8 5 9
-9 7 3
-[/input]
-[output]
-3
-7 9
-9 5 9
-8 3 7
-8 3 5
-7 2 3
-9 2 6
-8 7
-4
-[/output]
-[/test]
-[test]
-[input]
-3 1
-6
-5
-3
-[/input]
-[output]
-3
-5
-6
-[/output]
-[/test]
-[test]
-[input]
-1 6
-8 8 3 1 4 1
-[/input]
-[output]
-1
-4
-1
-3
-8
-8
-[/output]
-[/test]
-[test]
-[input]
-2 6
-4 6 7 3 9 9
-1 5 1 2 3 8
-[/input]
-[output]
-8
-3 9
-2 9
 1 3
-5 7
-1 6
-4
+a b 0
+0
+0 1
+[/input]
+[output]
+a00
 [/output]
 [/test]
 [test]
 [input]
-7 89
-40 20 31 18 29 74 55 86 92 87 73 13 20 13 87 46 30 41 26 59 41 10 81 31 32 59 91 31 81 57 31 94 41 63 34 55 55 70 98 31 90 41 87 70 16 24 54 78 82 87 40 40 45 22 65 33 41 29 93 62 31 90 52 38 76 29 16 70 81 80 47 86 82 74 72 67 75 24 46 96 21 20 58 20 10 42 76 97 89 
-24 75 52 76 51 93 33 30 38 49 66 26 55 18 71 70 54 45 56 98 41 99 14 73 14 29 33 32 84 48 66 92 58 40 64 87 38 42 51 79 10 54 56 33 52 13 73 18 72 79 28 56 18 53 69 23 76 35 48 71 34 30 82 86 48 62 34 10 46 33 68 41 60 44 53 27 82 80 60 28 67 14 88 74 40 53 71 51 27 
-47 44 54 83 83 51 79 96 99 63 77 83 55 77 12 14 44 83 13 86 24 16 76 25 75 29 26 67 83 80 40 87 34 94 33 74 55 37 80 32 48 50 21 60 16 90 70 29 46 55 76 82 19 34 34 11 24 54 34 72 81 28 96 74 64 36 44 75 56 51 98 83 58 74 50 98 86 90 34 68 54 54 26 71 67 76 24 85 99 
-69 73 67 72 19 65 55 14 41 88 47 30 81 25 96 65 32 26 12 88 11 96 24 35 50 33 99 21 60 30 97 62 54 66 18 34 58 92 18 48 12 84 56 70 73 56 35 31 84 34 85 67 41 39 16 26 20 84 98 88 61 75 30 43 32 94 84 85 32 35 99 70 55 89 20 99 52 18 36 45 45 79 67 21 77 20 50 11 65 
-21 78 12 37 45 85 80 69 51 85 62 39 40 32 81 65 46 28 15 72 69 91 38 86 74 97 34 77 67 85 98 11 71 42 77 20 95 10 20 15 66 30 84 13 23 80 90 81 36 70 22 41 98 34 90 57 84 45 81 97 98 64 14 61 54 14 23 30 11 81 88 10 50 68 51 32 57 43 30 83 28 19 59 45 79 61 38 72 61 
-53 14 75 13 23 84 74 38 27 95 23 70 90 73 95 28 55 53 50 73 70 13 18 11 42 93 81 92 33 89 56 47 69 62 30 49 43 62 80 64 56 56 84 24 80 67 77 78 11 69 84 91 12 65 11 12 21 60 28 56 79 19 23 81 53 45 54 27 38 13 42 24 40 88 90 53 10 54 35 75 47 92 62 55 20 92 10 47 44 
-92 11 43 29 24 65 35 72 15 19 79 51 36 25 64 44 59 97 55 98 84 41 21 21 20 61 65 48 30 52 29 66 71 42 92 12 87 72 39 92 57 48 75 34 15 77 93 78 70 27 99 26 18 30 73 51 85 35 77 33 23 14 72 85 12 17 63 47 83 59 24 55 76 29 74 17 34 57 22 85 29 54 78 61 37 41 96 95 40
+4 2
+a b
+c a
+a b
+b a
+i
+0 0
 [/input]
 [output]
-40 
-95 44 
-96 47 61 
-41 10 72 65 
-37 92 38 11 99 
-61 20 61 50 85 27 
-78 55 79 20 24 51 89 
-54 62 45 77 76 71 97 
-29 92 59 21 67 53 76 
-85 47 19 67 71 40 42 
-22 75 28 79 26 74 10 
-57 35 83 45 54 88 20 
-34 54 30 45 54 14 58 
-17 10 43 36 68 67 20 
-74 53 57 18 34 28 21 
-29 90 32 52 90 60 96 
-76 88 51 99 86 80 46 
-55 40 68 20 98 82 24 
-24 24 50 89 50 27 75 
-59 42 10 55 74 53 67 
-83 13 88 70 58 44 72 
-47 38 81 99 83 60 74 
-63 27 11 35 98 41 82 
-17 54 30 32 51 68 86 
-12 45 23 85 56 33 47 
-85 53 14 84 75 46 80 
-72 81 54 94 44 10 81 
-14 23 61 32 36 34 70 
-23 19 14 43 64 62 16 
-33 79 64 30 74 48 29 
-77 56 98 75 96 86 76 
-35 28 97 61 28 82 38 
-85 60 81 88 81 30 52 
-51 21 45 98 72 34 90 
-73 12 84 84 34 71 31 
-30 11 57 20 54 48 62 
-18 65 90 26 24 35 93 
-26 12 34 16 11 76 29 
-99 91 98 39 34 23 41 
-27 84 41 41 34 69 33 
-70 69 22 67 19 53 65 
-78 11 70 85 82 18 22 
-93 78 36 34 76 56 45 
-77 77 81 84 55 28 40 
-15 67 90 31 46 79 40 
-34 80 80 35 29 72 87 
-75 24 23 56 70 18 82 
-48 84 13 73 90 73 78 
-57 56 84 70 16 13 54 
-92 56 30 56 60 52 24 
-39 64 66 84 21 33 16 
-72 80 15 12 50 56 70 
-87 62 20 48 48 54 87 
-12 43 10 18 32 10 41 
-92 49 95 92 80 79 90 
-42 30 20 58 37 51 31 
-71 62 77 34 55 42 98 
-66 69 42 18 74 38 70 
-29 47 71 66 33 87 55 
-52 56 11 54 94 64 55 
-30 89 98 62 34 40 34 
-48 33 85 97 87 58 63 
-65 92 67 30 40 92 41 
-61 81 77 60 80 66 94 
-20 93 34 21 83 48 31 
-21 42 97 99 67 84 57 
-21 11 74 33 26 32 81 
-41 18 86 50 29 33 31 
-84 13 38 35 75 29 91 
-98 70 91 24 25 14 59 
-55 73 69 96 76 73 32 
-97 50 72 11 16 14 31 
-59 53 15 88 24 99 81 
-44 55 28 12 86 41 10 
-64 28 46 26 13 98 41 
-25 95 65 32 83 56 59 
-36 73 81 65 44 45 26 
-51 90 32 96 14 54 41 
-79 70 40 25 12 70 30 
-19 23 39 81 77 71 46 
-15 95 62 30 55 18 87 
-72 27 85 47 83 55 13 
-35 38 51 88 77 26 20 
-65 74 69 41 63 66 13 
-24 84 80 14 99 49 73 
-29 23 85 55 96 38 87 
-43 13 45 65 79 30 92 
-11 75 37 19 51 33 86 
-92 14 12 72 83 93 55 
-53 78 67 83 51 74 
-21 73 54 76 29 
-69 44 52 18 
-47 75 31 
-24 20 
-40
+ib
+ca
+ab
+ba
 [/output]
 [/test]
 [/tests]

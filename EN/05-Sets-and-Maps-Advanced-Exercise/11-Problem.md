@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Logs Aggregator
-[code-task title="Problem: Logs Aggregator" taskId="8e468d5a-5145-4713-85f5-4d7f41f70f72" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Legendary Farming
+[code-task title="Problem: Legendary Farming" taskId="e542724b-ef67-4d42-a4d0-03fbbbc41fd2" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,466 +14,271 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-You are given a sequence of access logs in format 
+You've beaten all the content and the last thing left to accomplish is own a legendary item.
 
-`< IP > < user > < duration >`.
+However, it's a tedious process and requires quite a bit of farming.
 
-For example:
+Anyway, you are not too pretentious – any legendary will do.
 
-- 168.0.11 peter 33
-- 10.17.33 alex 12
-- 10.17.35 peter 30
-- 10.17.34 peter 120
-- 10.17.34 peter 120
-- 50.118.81 alex 46
-- 50.118.81 alex 4
+The possible items are:
+- **Shadowmourne** – requires **250 Shards**;
+- **Valanyr** – requires **250 Fragments**;
+- **Dragonwrath** – requires **250 Motes**;
 
-Write a program to aggregate the logs data and print **for each user** the **total duration** of his sessions and a **list of unique IP addresses** in format 
+**Shards, Fragments**, and **Motes** are the **key materials**, the others are **junk**. 
 
-`< user > < duration > [ < IP1 >, < IP2 >, ...]`. 
+You will be given lines of input, such as **2 motes 3 ores 15 stones**. 
 
-Order the **users alphabetically**. 
+Keep track of the **key materials** - the **first** that reaches **250 mark wins the race**. 
 
-Order the **IPs alphabetically**. 
+At that point, print the corresponding legendary obtained. 
 
-The output should be printed like this:
+Then, print the **remaining** shards, fragments, motes, ordered by **quantity** in **descending** order, each on a new line. 
 
-- alex: 62 [10.10.17.33, 212.50.118.81]
-- peter: 303 [10.10.17.34, 10.10.17.35, 192.168.0.11]
+Finally, print the collected **junk** items, in **alphabetic** order.
+
 
 ## Input
 
-The input comes from the console. 
+- Each line of input is in format 
 
-At the first line is a number **n** - the count of the following lines. 
+`{quantity} {material} {quantity} {material} ... {quantity} {material}`
 
-Each of the next n lines holds a log information in format 
-
-`< IP > < user > < duration >`. 
-
-The input data will always be **valid** and in the described format. 
-
-There is no need to check it explicitly.
 
 ## Output
 
-Print **single line for each user** (order users alphabetically). 
-
-For each user print the sum of durations and all of his session IPs, ordered alphabetically in format 
-
-`< user >: < duration > [< IP1 >, < IP2 >, ...]`. 
-
-Remove any duplicated values in the IP addresses.
+- On the first line, print the obtained item in format 
+`{Legendary item} obtained!`
+- On the next three lines, print the remaining key materials in descending order by quantity
+  - If two key materials have the same quantity, print them in alphabetical order
+- On the final several lines, print the junk items in alphabetical order
+  - All materials are printed in format 
+  `{material}: {quantity}`
+  - All outputs should be in **lower case** , except the first letter of the legendary
 
 ## Constraints
 
-- The **count** of the lines **n** is in the range [1 ... 1000].
-- The **< IP >** is a standard IP address in format **a.b.c.d** where **a**, **b**, **c** and **d** are integers in the range [0 ... 255].
-- The **< user >** consists only of **Latin characters**, with length of [1 .... 20].
-- The **< duration >** is an integer number in the range [1 ... 1000].
-- Time limit: 0.3 sec. Memory limit: 16 MB.
+- The quantity-material pairs are between 1 and 25 per line.
+- The number of lines is in the range [1 ... 10]
+- All materials are case-insensitive.
+- Allowed working time: 0.25s
+- Allowed memory: 16 MB
 
 ## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3 Motes 5 stones 5 Shards | Valanyr obtained! |
+| 6 leathers 255 fragments 7 Shards | fragments: 5 |
+|  | shards: 5 |
+|  | motes: 3 |
+|  | leathers: 6 |
+|  | stones: 5 |
 
 | **Input** | **Output** |
 | --- | --- |
-| 7 | alex: 62 [10.10.17.33, 212.50.118.81] |
-| 192.168.0.11 peter 33 | peter: 303 [10.10.17.34, 10.10.17.35, 192.168.0.11] |
-| 10.10.17.33 alex 12 |  |
-| 10.10.17.35 peter 30 |  |
-| 10.10.17.34 peter 120 |  |
-| 10.10.17.34 peter 120 |  |
-| 212.50.118.81 alex 46 |  |
-| 212.50.118.81 alex 4 |  |
-
-| **Input** | **Output** |
-| --- | --- |
-| 2 | john: 60 [84.238.140.178] |
-| 84.238.140.178 john 25 |  |
-| 84.238.140.178 john 35 |  |
+| 123 silver 6 shards 8 shards 5 motes | Dragonwrath obtained! |
+| 9 fangs 75 motes 103 MOTES 8 Shards | shards: 22 |
+| 86 Motes 7 stones 19 silver | motes: 19 |
+|  | fragments: 0 |
+|  | fangs: 9 |
+|  | silver: 123 |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-7
-192.168.0.11 peter 33
-10.10.17.33 alex 12
-10.10.17.35 peter 30
-10.10.17.34 peter 120
-10.10.17.34 peter 120
-212.50.118.81 alex 46
-212.50.118.81 alex 4
+3 Motes 5 stones 5 Shards
+6 leathers 255 fragments 7 Shards
 [/input]
 [output]
-alex: 62 \[10.10.17.33, 212.50.118.81\]
-peter: 303 \[10.10.17.34, 10.10.17.35, 192.168.0.11\]
+Valanyr obtained!
+fragments: 5
+shards: 5
+motes: 3
+leathers: 6
+stones: 5
 [/output]
 [/test]
 [test open]
 [input]
-2
-84.238.140.178 john 25
-84.238.140.178 john 35
+123 silver 6 shards 8 shards 5 motes
+9 fangs 75 motes 103 MOTES 8 Shards
+86 Motes 7 stones 19 silver
 [/input]
 [output]
-john: 60 \[84.238.140.178\]
+Dragonwrath obtained!
+shards: 22
+motes: 19
+fragments: 0
+fangs: 9
+silver: 123
 [/output]
 [/test]
 [test]
 [input]
-1
-8.8.8.8 google 100
+5 shards 5 motes 255 fragments
 [/input]
 [output]
-google: 100 \[8.8.8.8\]
+Valanyr obtained!
+fragments: 5
+motes: 5
+shards: 5
 [/output]
 [/test]
 [test]
 [input]
-2
-8.8.8.8 google 50
-10.10.10.10 test 500
+16 leathers 22 leather 82 leathers 17 LEATHER 88 LEATHERS
+28 shards 78 motes 66 motes 215 shards 7 shards 3 fragments
 [/input]
 [output]
-google: 50 \[8.8.8.8\]
-test: 500 \[10.10.10.10\]
+Shadowmourne obtained!
+motes: 144
+fragments: 0
+shards: 0
+leather: 39
+leathers: 186
 [/output]
 [/test]
 [test]
 [input]
-4
-10.10.10.10 test 500
-8.8.8.8 google 150
-10.10.10.10 test 100
-8.8.8.8 google 50
+8 iron
+3 gold
+7 silver 15 shards
+15 onions 236 shards
+8 freshwater
+9 souls
 [/input]
 [output]
-google: 200 \[8.8.8.8\]
-test: 600 \[10.10.10.10\]
+Shadowmourne obtained!
+shards: 1
+fragments: 0
+motes: 0
+gold: 3
+iron: 8
+onions: 15
+silver: 7
 [/output]
 [/test]
 [test]
 [input]
-4
-10.10.10.10 root 46
-8.8.8.8 root 167
-1.2.3.4 root 120
-5.6.7.8 root 970
-192.168.0.11 root 55
+249 shards 249 fragments 249 motes 8 linen 5 silver 123 silk 22 embersilk
+13 alpha-gems 0 shards 0 fragments 1 motes
 [/input]
 [output]
-root: 1303 \[1.2.3.4, 10.10.10.10, 5.6.7.8, 8.8.8.8\]
+Dragonwrath obtained!
+fragments: 249
+shards: 249
+motes: 0
+alpha-gems: 13
+embersilk: 22
+linen: 8
+silk: 123
+silver: 5
 [/output]
 [/test]
 [test]
 [input]
-14
-8.8.8.8 google 100
-8.8.8.8 google 50
-10.10.10.10 test 98
-10.10.10.10 google 730
-8.8.8.8 google 150
-10.10.10.10 test 100
-8.8.8.8 google 50
-10.10.10.10 root 46
-10.10.10.10 root 58
-8.8.8.8 root 167
-1.2.3.4 root 120
-5.6.7.8 root 970
-192.168.0.11 root 55
-10.10.10.10 test 302
+98 spirit-shards 17 SPIRiT-SHARDS 123 SPIRIT-SHARDS 12 sPI_ritShards 92 gems 1 gem
+6 fragments 9 Fragments 129 Fragments 1 Shards 0 Shards 123 Shards 9 Motes
+123 Motes 123 Fragments 1098 MotES
 [/input]
 [output]
-google: 1080 \[10.10.10.10, 8.8.8.8\]
-root: 1416 \[1.2.3.4, 10.10.10.10, 192.168.0.11, 5.6.7.8, 8.8.8.8\]
-test: 500 \[10.10.10.10\]
+Valanyr obtained!
+motes: 132
+shards: 124
+fragments: 17
+gem: 1
+gems: 92
+spi_ritshards: 12
+spirit-shards: 238
 [/output]
 [/test]
 [test]
 [input]
-30
-8.8.8.8 pepi 100
-8.8.8.8 google 999
-8.8.8.8 google 100
-8.8.8.8 didi 999
-10.10.10.10 steve 98
-10.10.10.10 google 730
-8.8.8.8 google 150
-10.10.10.10 test 100
-8.8.8.8 google 50
-10.10.10.10 root 46
-10.10.10.10 root 58
-8.8.8.8 nakov 167
-1.2.3.4 peter 120
-5.6.7.8 root 970
-192.168.0.33 root 55
-10.10.10.10 kurtev 302
-8.8.28.8 google 100
-8.8.8.8 google 50
-10.10.10.10 test 98
-10.10.10.10 google 730
-8.8.8.8 google 150
-10.10.10.103 test 100
-8.8.8.18 google 50
-10.10.10.10 root 46
-10.10.10.10 george 58
-8.8.8.8 root 167
-1.2.3.4 maria 120
-5.6.7.8 root 970
-192.168.0.11 root 55
-10.10.10.1 test 302
+0 shards
+1 shards
+2 shards
+3 shards
+4 shards
+0 SHARDS 126 SHARDS
+122 SHARDS
+1 motes
+1 fragments
 [/input]
 [output]
-didi: 999 \[8.8.8.8\]
-george: 58 \[10.10.10.10\]
-google: 3109 \[10.10.10.10, 8.8.28.8, 8.8.8.18, 8.8.8.8\]
-kurtev: 302 \[10.10.10.10\]
-maria: 120 \[1.2.3.4\]
-nakov: 167 \[8.8.8.8\]
-pepi: 100 \[8.8.8.8\]
-peter: 120 \[1.2.3.4\]
-root: 2367 \[10.10.10.10, 192.168.0.11, 192.168.0.33, 5.6.7.8, 8.8.8.8\]
-steve: 98 \[10.10.10.10\]
-test: 600 \[10.10.10.1, 10.10.10.10, 10.10.10.103\]
+Shadowmourne obtained!
+shards: 8
+fragments: 0
+motes: 0
 [/output]
 [/test]
 [test]
 [input]
-60
-8.18.8.8 pepi 100
-8.8.28.8 kiki 999
-8.8.48.8 google 100
-8.83.8.8 didi 999
-10.140.10.10 steve 98
-10.10.10.10 google 630
-8.38.8.8 google 150
-10.140.10.10 kiki 100
-8.8.68.8 google 50
-110.10.10.10 root 46
-10.160.10.10 root 58
-8.8.8.86 nakov 166
-1.26.3.4 peter 120
-5.26.6.8 hristo 960
-192.168.0.33 didi 55
-10.160.10.10 kurtev 302
-8.8.28.8 google 100
-8.8.38.8 google 50
-10.140.10.10 test 98
-10.10.10.10 google 630
-8.8.8.8 google 150
-10.10.10.103 test 100
-8.8.8.18 google 50
-10.106.10.10 root 46
-160.10.10.10 george 58
-8.8.86.8 root 166
-1.2.3.4 maria 120
-5.6.66.8 root 960
-192.168.0.11 penka 55
-10.10.10.1 test 302
-8.8.86.8 pepi 100
-8.86.8.8 google 999
-8.86.8.8 google 100
-8.8.8.8 didi 999
-10.10.10.10 steve 98
-10.10.10.10 google 630
-8.8.86.8 google 150
-10.10.10.10 test 100
-8.8.8.8 google 50
-10.160.10.10 root 46
-10.10.10.10 root 58
-8.8.8.8 nakov 166
-1.2.63.4 peter 120
-5.66.6.8 hristo 960
-192.168.0.33 martin 55
-10.10.10.10 kurtev 302
-8.8.228.8 google 100
-8.8.8.8 google 50
-10.10.10.10 test 98
-10.130.10.10 google 630
-8.8.8.8 google 150
-10.130.10.103 steve 100
-8.8.8.18 joke 50
-10.10.10.10 root 46
-10.10.10.10 george 58
-8.8.38.8 penka 166
-1.2.3.4 maria 120
-5.26.6.8 root 960
-192.168.0.12 root 55
-10.10.10.11 test 302
+77 heavy-leather 123 light-leather
+789 fragments 8889 fragments 88123 motes
 [/input]
 [output]
-didi: 2053 \[192.168.0.33, 8.8.8.8, 8.83.8.8\]
-george: 116 \[10.10.10.10, 160.10.10.10\]
-google: 4769 \[10.10.10.10, 10.130.10.10, 8.38.8.8, 8.8.228.8, 8.8.28.8, 8.8.38.8, 8.8.48.8, 8.8.68.8, 8.8.8.18, 8.8.8.8, 8.8.86.8, 8.86.8.8\]
-hristo: 1920 \[5.26.6.8, 5.66.6.8\]
-joke: 50 \[8.8.8.18\]
-kiki: 1099 \[10.140.10.10, 8.8.28.8\]
-kurtev: 604 \[10.10.10.10, 10.160.10.10\]
-maria: 240 \[1.2.3.4\]
-martin: 55 \[192.168.0.33\]
-nakov: 332 \[8.8.8.8, 8.8.8.86\]
-penka: 221 \[192.168.0.11, 8.8.38.8\]
-pepi: 200 \[8.18.8.8, 8.8.86.8\]
-peter: 240 \[1.2.63.4, 1.26.3.4\]
-root: 2441 \[10.10.10.10, 10.106.10.10, 10.160.10.10, 110.10.10.10, 192.168.0.12, 5.26.6.8, 5.6.66.8, 8.8.86.8\]
-steve: 296 \[10.10.10.10, 10.130.10.103, 10.140.10.10\]
-test: 1000 \[10.10.10.1, 10.10.10.10, 10.10.10.103, 10.10.10.11, 10.140.10.10\]
+Valanyr obtained!
+fragments: 539
+motes: 0
+shards: 0
+heavy-leather: 77
+light-leather: 123
 [/output]
 [/test]
 [test]
 [input]
-15
-8.18.8.8 pepi 100
-8.8.28.8 kiki 999
-8.8.48.8 google 100
-8.83.8.8 didi 999
-10.140.10.10 steve 98
-10.10.10.10 google 630
-8.38.8.8 google 150
-10.140.10.10 kiki 100
-8.8.68.8 google 50
-110.10.10.10 root 46
-10.160.10.10 root 58
-8.8.8.86 nakov 166
-1.26.3.4 peter 120
-5.26.6.8 hristo 960
-12.168.0.33 didi 55
+988 HEAVY-STONES
+1230812 HEAVY-STONes
+120398 Fragments
 [/input]
 [output]
-didi: 1054 \[12.168.0.33, 8.83.8.8\]
-google: 930 \[10.10.10.10, 8.38.8.8, 8.8.48.8, 8.8.68.8\]
-hristo: 960 \[5.26.6.8\]
-kiki: 1099 \[10.140.10.10, 8.8.28.8\]
-nakov: 166 \[8.8.8.86\]
-pepi: 100 \[8.18.8.8\]
-peter: 120 \[1.26.3.4\]
-root: 104 \[10.160.10.10, 110.10.10.10\]
-steve: 98 \[10.140.10.10\]
+Valanyr obtained!
+fragments: 120148
+motes: 0
+shards: 0
+heavy-stones: 1231800
 [/output]
 [/test]
 [test]
 [input]
-30
-8.18.8.8 pepi 100
-8.8.28.8 kiki 999
-8.8.48.8 google 100
-8.83.8.8 didi 999
-10.140.10.10 steve 98
-10.10.10.10 google 630
-8.38.8.8 google 150
-10.140.10.10 kiki 100
-8.8.68.8 google 50
-110.10.10.10 root 46
-10.160.10.10 root 58
-8.8.8.86 nakov 166
-1.26.3.4 peter 120
-5.26.6.8 hristo 960
-12.168.0.33 didi 55
-10.160.10.10 kurtev 302
-8.8.28.8 google 100
-8.8.38.8 google 50
-10.140.10.10 test 98
-10.10.10.10 google 630
-8.8.8.8 google 150
-10.10.10.103 test 100
-8.8.8.18 google 50
-10.106.10.10 root 46
-160.10.10.10 george 58
-8.8.86.8 root 166
-1.2.3.4 maria 120
-5.6.66.8 root 960
-192.168.0.11 penka 55
-10.10.10.1 test 302
+123 leathers
+12 leather
+12 leathe
+12 motes
+12 shards
+262 fragments
 [/input]
 [output]
-didi: 1054 \[12.168.0.33, 8.83.8.8\]
-george: 58 \[160.10.10.10\]
-google: 1910 \[10.10.10.10, 8.38.8.8, 8.8.28.8, 8.8.38.8, 8.8.48.8, 8.8.68.8, 8.8.8.18, 8.8.8.8\]
-hristo: 960 \[5.26.6.8\]
-kiki: 1099 \[10.140.10.10, 8.8.28.8\]
-kurtev: 302 \[10.160.10.10\]
-maria: 120 \[1.2.3.4\]
-nakov: 166 \[8.8.8.86\]
-penka: 55 \[192.168.0.11\]
-pepi: 100 \[8.18.8.8\]
-peter: 120 \[1.26.3.4\]
-root: 1276 \[10.106.10.10, 10.160.10.10, 110.10.10.10, 5.6.66.8, 8.8.86.8\]
-steve: 98 \[10.140.10.10\]
-test: 500 \[10.10.10.1, 10.10.10.103, 10.140.10.10\]
+Valanyr obtained!
+fragments: 12
+motes: 12
+shards: 12
+leathe: 12
+leather: 12
+leathers: 123
 [/output]
 [/test]
 [test]
 [input]
-50
-8.4.8.8 pepi 100
-8.8.28.8 kiki 999
-8.8.48.8 google 100
-8.83.8.8 didi 999
-10.140.10.10 steve 98
-10.10.10.10 google 630
-8.38.8.8 google 150
-10.140.10.10 kiki 100
-8.8.68.8 google 50
-110.5.10.10 root 46
-10.160.10.10 root 58
-8.8.8.86 nakov 166
-1.26.3.4 peter 120
-5.26.6.8 hristo 960
-12.168.0.33 didi 55
-10.160.10.10 kurtev 302
-8.8.28.8 google 100
-8.8.38.8 google 50
-10.140.10.10 test 98
-10.10.10.10 google 630
-8.8.8.8 google 150
-10.10.10.103 test 100
-8.8.8.18 google 50
-10.106.10.10 root 46
-160.10.10.10 george 58
-8.8.86.8 root 166
-1.2.3.4 maria 120
-5.6.66.8 root 960
-192.168.0.11 penka 55
-10.10.10.1 test 302
-8.8.55.8 pepi 100
-8.86.8.8 google 999
-8.55.8.8 google 100
-8.8.8.8 didi 999
-10.10.150.10 steve 98
-10.10.10.10 google 630
-8.8.86.8 google 150
-105.10.10.10 test 100
-8.8.8.8 google 50
-10.160.10.10 root 46
-10.10.10.10 root 58
-8.8.8.8 nakov 166
-1.2.63.4 peter 120
-5.66.6.8 hristo 960
-192.168.0.33 martin 55
-10.10.10.10 kurtev 302
-8.84.228.8 google 100
-8.8.8.8 google 50
-10.10.10.10 test 98
-10.130.10.10 google 630
+71 linen 71 linen 71 linen 71 linen 71 linen 71 linen 71 linen 71 linen 71 linen 71 linen 71 linen 71 linen 71 linen 71 linen
+71 linen 71 linen 71 linen 71 linen 71 linen 71 linen
+15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes
+15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes
+15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes
+15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes
+15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes
+15 shards 15 fragments 15 motes
+15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes
+15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes 15 shards 15 fragments 15 motes
 [/input]
 [output]
-didi: 2053 \[12.168.0.33, 8.8.8.8, 8.83.8.8\]
-george: 58 \[160.10.10.10\]
-google: 4619 \[10.10.10.10, 10.130.10.10, 8.38.8.8, 8.55.8.8, 8.8.28.8, 8.8.38.8, 8.8.48.8, 8.8.68.8, 8.8.8.18, 8.8.8.8, 8.8.86.8, 8.84.228.8, 8.86.8.8\]
-hristo: 1920 \[5.26.6.8, 5.66.6.8\]
-kiki: 1099 \[10.140.10.10, 8.8.28.8\]
-kurtev: 604 \[10.10.10.10, 10.160.10.10\]
-maria: 120 \[1.2.3.4\]
-martin: 55 \[192.168.0.33\]
-nakov: 332 \[8.8.8.8, 8.8.8.86\]
-penka: 55 \[192.168.0.11\]
-pepi: 200 \[8.4.8.8, 8.8.55.8\]
-peter: 240 \[1.2.63.4, 1.26.3.4\]
-root: 1380 \[10.10.10.10, 10.106.10.10, 10.160.10.10, 110.5.10.10, 5.6.66.8, 8.8.86.8\]
-steve: 196 \[10.10.150.10, 10.140.10.10\]
-test: 698 \[10.10.10.1, 10.10.10.10, 10.10.10.103, 10.140.10.10, 105.10.10.10\]
+Shadowmourne obtained!
+fragments: 240
+motes: 240
+shards: 5
+linen: 1420
 [/output]
 [/test]
 [/tests]

@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Comparing Objects
-[code-task title="Comparing Objects" taskId="ca960ad8-04a2-484b-a743-8d395d7c8ebb" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Strategy Pattern
+[code-task title="Strategy Pattern" taskId="34db6cd1-ca97-4cdd-b4d1-72e88985f539" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,138 +14,183 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-There is a Comparable interface but probably you already know.
+An interesting pattern you may have heard of is the Strategy Pattern.
 
-Your task is simple.
+If we have multiple ways to do a task (let's say sort a collection) it allows the client to choose the way that most fits his needs.
 
-Create a **Class Person**.
+A famous implementation of the pattern in Java is the `Collections.sort()` method that takes a **Comparator**.
 
-Each person should have **name**, **age** and **town**.
+Create a class `Person` that holds **name** and **age**. 
 
-You should implement the interface - `Comparable` and try to override the `compareTo` method.
+Create 2 Comparators for Person (classes which implement the `Comparator<Person>` **interface**). 
 
-When you compare two persons, first you should compare their **names**, after that - their **age** and last but not at least - compare their **town**.
+The first comparator should compare people based on the **length of their name** as a first parameter.
 
+If two persons have a name with the **same** length, perform a **case-insensitive** compare based on the **first letter of their name** instead. 
+
+The second comparator should compare them based on their **age**. 
+
+Create 2 **TreeSets** of type Person, the first should implement the name comparator, the second should implement the age comparator.
 
 ## Input
-On single lines, you will be given people in format:
+On the first line, you will receive a number **N**. 
 
-`{name} {age} {town}`
+On each of the next **N** lines, you will receive information about people in the format `{name} {age}`. 
 
-Collect them till you receive `END`
-
-After that, you will receive an integer **N** - the **Nth** person in your collection.
+Add the people from the input into **both** sets.
 
 ## Output
-On the single output line, you should bring statistics, how many people are **equal** to the **Nth person**, how many people are **not** equal to this person, and the **total** people in your collection.
+**Foreach** the sets and print each person from the set on a **new line** in the same format that you received them. 
 
-Format:
-
-`{number of equal people} {number of not equal people} {total number of people}`
+Start with the set that implements the name comparator.
 
 ## Constraints
-- Names, ages and addresses will be **valid.**
-- Input number will be always а **valid** integer in **range** [2 ... 100]
-- If there are no equal people print: `No matches`
+- A person's name will be a string that contains **only** alphanumerical characters with a length **between** [1 ... 50] symbols.
+- A person's age will be a **positive** integer **between** [1 ... 100].
+- The number of people **N** will be a **positive** integer **between** [0 ... 100].
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Peter 22 Venice | No matches |
-| George 14 San Francisco |  |
-| END |  |
-| 2 |  |
+| 3 | John 100 |
+| Peter 20 | Peter 20 |
+| John 100 | Penelope 1 |
+| Penelope 1 | Penelope 1 |
+|  | Peter 20 |
+|  | John 100 |
 
 | **Input** | **Output** |
 | --- | --- |
-| John 22 Miami | 2 1 3 |
-| Adam 22 Miami |  |
-| Adam 22 Miami |  |
-| END |  |
-| 2 |  |
+| 5 | aria 33 |
+| Ivan 17 | Ivan 17 |
+| aria 33 | John 3 |
+| Steven 25 | Nicko 99 |
+| Nicko 99 | Steven 25 |
+| John 3 | John 3 |
+|  | Ivan 17 |
+|  | Steven 25 |
+|  | aria 33 |
+|  | Nicko 99 |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-Peter 22 Venice
-George 14 San Francisco
-END
-2
+3
+Peter 20
+John 100
+Penelope 1
 [/input]
 [output]
-No matches
+John 100
+Peter 20
+Penelope 1
+Penelope 1
+Peter 20
+John 100
 [/output]
 [/test]
 [test open]
 [input]
-John 22 Miami
-Adam 22 Miami
-Adam 22 Miami
-END
-2
+5
+Ivan 17
+aria 33
+Steven 25
+Nicko 99
+John 3
 [/input]
 [output]
-2 1 3
+aria 33
+Ivan 17
+John 3
+Nicko 99
+Steven 25
+John 3
+Ivan 17
+Steven 25
+aria 33
+Nicko 99
 [/output]
 [/test]
 [test]
 [input]
-John 22 Venice
-George 14 San Francisco
-END
-2
+3
+Peter 33
+John 11
+Penelope 2
 [/input]
 [output]
-No matches
+John 11
+Peter 33
+Penelope 2
+Penelope 2
+John 11
+Peter 33
 [/output]
 [/test]
 [test]
 [input]
-Peter 22 Miami
-Adam 22 Miami
-Adam 22 Miami
-END
-2
+5
+Ivan 27
+aria 43
+Steven 35
+Nicko 99
+John 13
 [/input]
 [output]
-2 1 3
+aria 43
+Ivan 27
+John 13
+Nicko 99
+Steven 35
+John 13
+Ivan 27
+Steven 35
+aria 43
+Nicko 99
 [/output]
 [/test]
 [test]
 [input]
-P 22 V
-G 22 V
-G 22 V
-P 22 V
-P 22 V
-G 22 V
-G 22 V
-P 22 V
-P 22 V
-G 22 V
-G 22 V
-P 22 V
-P 22 V
-G 22 V
-G 22 V
-P 22 V
-END
-2
+0
 [/input]
 [output]
-8 8 16
+
 [/output]
 [/test]
 [test]
 [input]
-P 22 V
-END
-1
+2
+Ivan 17
+aria 33
 [/input]
 [output]
-No matches
+aria 33
+Ivan 17
+Ivan 17
+aria 33
+[/output]
+[/test]
+[test]
+[input]
+5
+Ivan 17
+aria 33
+aaRia 20
+aaRias 20
+Vans1 13
+[/input]
+[output]
+aria 33
+Ivan 17
+aaRia 20
+Vans1 13
+aaRias 20
+Vans1 13
+Ivan 17
+aaRia 20
+aria 33
 [/output]
 [/test]
 [/tests]

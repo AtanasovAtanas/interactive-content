@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Recursive Fibonacci
-[code-task title="Recursive Fibonacci" taskId="426b0bb7-d61b-48d0-bde3-8a141d87e84c" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Simple Text Editor
+[code-task title="Simple Text Editor" taskId="4e4ddd79-3e4b-4215-b529-50a0f652da09" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -14,131 +14,259 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Each member of the **Fibonacci sequence** is calculated from the **sum of the two previous members**.
+You are given an empty text.
 
-The first two elements are 1, 1.
+Your task is to implement **4 types of commands** related to manipulating the text:
 
-Therefore the sequence goes like 1, 1, 2, 3, 5, 8, 13, 21, 34…
+- 1 \[string\] - **appends** \[string\] to the end of the text
+- 2 \[count\] - **erases** the last \[count\] elements from the text
+- 3 \[index\] - **returns** the element at position \[index\] from the text
+- 4 - **undoes** the last not-undone command of type 1 or 2 and returns the text to the state before that operation
 
-The following sequence can be generated with an array, but that is easy, so **your task is to implement it recursively**.
+### Input
 
-If the function **getFibonacci(n)** returns the nth Fibonacci number, we can express it using 
-**getFibonacci(n) = getFibonacci(n-1) + getFibonacci(n-2)**.
+- The first line contains **N** , the number of operations, where **1 ≤ N ≤**  **105**
+- Each of the following **N** lines contains the name of the operation, followed by the command argument, if any, separated by space in the following format **"command argument"**.
+- **The length of the text** will not exceed **1000000**
+- All input characters are **English letters**
+- It is **guaranteed** that the sequence of **input operation is possible to perform**
 
-However, this will never end and in a few seconds, a Stack Overflow Exception is thrown. 
+### Output
 
-For the recursion to be stoped, it has to have a "bottom". 
-
-The bottom of the recursion is getFibonacci(1), and should return 1. The same goes for getFibonacci(0).
-
-## Input
-
-- On a single line the user should enter the wanted Fibonacci number N where 1 <= N <= 49
-
-## Output
-
-- The output should be the n-th Fibonacci number counting from 0.
-
-## Hint
-
-For the n-th Fibonacci number, we calculate the N - 1st and the N - 2nd number, but for the calculation of N - 1st number we calculate the N - 1 - 1st(N - 2nd) and the N - 1 - 2nd number, so we have a lot of repeated calculations.
-
-If you want to figure out how to skip those unnecessary calculations, you can search for a technique called [memoization](https://en.wikipedia.org/wiki/Memoization).
+- For each operation of type **"3"** print a **single line with the returned character of that operation**.
 
 ## Examples
-| **Input** | **Output** |
-| --- | --- |
-| 5 | 8 |
-
-| **Input** | **Output** |
-| --- | --- |
-| 10 | 89 |
-
-| **Input** | **Output** |
-| --- | --- |
-| 21 | 17711 |
+| **Input** | **Output** | **Comments** |
+| --- | --- | --- |
+| 8 | c | There are 8 operations. Initially, the text is empty.  |
+| 1 abc | y | Append "abc" |
+| 3 3 | a | Print third character |
+| 2 3 |  | Erase 3 characters |
+| 1 xy |  | Append "xy" |
+| 3 2 |  | Print second character |
+| 4 |  | Undo last command - text is now "" |
+| 4 |  | Undo last command - text is now "abc" |
+| 3 1 |  | Print first character |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-1
+8
+1 abc
+3 3
+2 3
+1 xy
+3 2
+4 
+4 
+3 1
 [/input]
 [output]
-1
+c
+y
+a
 [/output]
 [/test]
 [test]
 [input]
-2
+9
+1 ZdrKoPr
+3 7
+2 2
+3 5
+4
+3 7
+4
+1 BegaiSToqTest
+3 5
 [/input]
 [output]
-2
-[/output]
-[/test]
-[test]
-[input]
-3
-[/input]
-[output]
-3
-[/output]
-[/test]
-[test]
-[input]
-6
-[/input]
-[output]
-13
+r
+o
+r
+i
 [/output]
 [/test]
 [test]
 [input]
 8
+1 aaaaaaaaab
+1 aaaaaaaaab
+2 10
+2 10
+4
+4
+3 10
+3 20
 [/input]
 [output]
-34
+b
+b
 [/output]
 [/test]
 [test]
 [input]
-24
+8
+1 RapuncelBesheTuk
+2 3
+1 Tam
+4
+4
+3 1
+3 15
+3 16
 [/input]
 [output]
-75025
+R
+u
+k
 [/output]
 [/test]
 [test]
 [input]
-30
+10
+1 Mo
+2 2
+4
+1 Ti
+2 2
+4
+1 Karq
+2 1
+3 1
+3 5
 [/input]
 [output]
-1346269
+M
+K
 [/output]
 [/test]
 [test]
 [input]
-37
+13
+1 ASL
+1 Opsi
+1 Mopsi
+2 5
+2 4
+2 3
+4
+4
+4
+1 Zdr
+3 13
+3 14
+3 15
 [/input]
 [output]
-39088169
+Z
+d
+r
 [/output]
 [/test]
 [test]
 [input]
-42
+14
+1 ANqkoiKara
+1 Kolelo
+2 6
+1 MaikaTi
+1 DaShieChorapi
+2 30
+1 ANqkoiPushi
+1 Seno
+4
+4
+1 TovaBeshe
+3 4
+3 6
+3 9
 [/input]
 [output]
-433494437
+a
+e
+e
 [/output]
 [/test]
 [test]
 [input]
-49
+14
+1 NaskoE
+1 SlabNa
+1 Unreal
+2 6
+1 CS
+4
+4
+4
+4
+1 MnLosh
+1 NaSeriousSam
+3 6
+3 15
+3 22
 [/input]
 [output]
-12586269025
+E
+S
+S
+[/output]
+[/test]
+[test]
+[input]
+23
+1 ToqTest
+1 ELesen
+3 1
+3 4
+4
+4
+1 Obache
+2 3
+2 3
+1 ObacheKazah
+4
+4
+4
+1 Sledvashtiq
+1 EDosta
+1 Vesel
+3 7
+3 8
+3 9
+2 5
+1 Lud
+3 25
+3 26
+[/input]
+[output]
+T
+T
+S
+l
+e
+u
+d
+[/output]
+[/test]
+[test]
+[input]
+9
+1 aaa
+1 bbb
+2 3
+3 1
+2 3
+4
+4
+4
+3 3
+[/input]
+[output]
+a
+a
 [/output]
 [/test]
 [/tests]

@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Predicate For Names
-[code-task title="Predicate For Names" taskId="36a2cb92-7cdb-4203-9be0-2b693ca73b04" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Find The Smallest Element
+[code-task title="Find The Smallest Element" taskId="7c7690a0-fb0d-441c-b6f7-ea852cc8ad84" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,88 +14,75 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a **predicate**.
+Write a program that is using a custom **function** (written by you) to find the **smallest** integer in a **sequence** of **integers**.
 
-It has to **check** a name for its length and return **true** if the length of the names is **less or equal** the passed **integer**.
+The input could have more than one space.
 
-You will receive an **integer** that represents the length you have to use.
+Your task is to **collect** the integers from the console, find the **smallest one**, and print its **index**. 
 
-On the second line, you will receive a **string** array with some names.
+If **more** than one such element exists, print the index of the **rightmost** one.
 
-Print the names, passing the **condition** in the predicate.
+## Hints
+- Use a `Function<List<Integer>, Integer>` or something similar.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 4 | Adam |
-| Kenneth Adam Kevin Yasmin |  |
+| 1 2 3 0 4 5 6 | 3 |
 
 | **Input** | **Output** |
 | --- | --- |
-| 4 | Gaby |
-| Yasmine Quinn Gaby Mat Ivan | Mat |
-|  | Ivan |
+| 123 10 11 3 | 3 |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-4
-Kenneth Adam Kevin Yasmin
+1 2 3 0 4 5 6
 [/input]
 [output]
-Adam
+3
 [/output]
 [/test]
 [test open]
 [input]
-4
-Yasmine Quinn Gaby Mat Ivan
+123 10 11 3
 [/input]
 [output]
-Gaby
-Mat
-Ivan
-[/output]
-[/test]
-[test]
-[input]
-4
-Qqqq Kkkk Iii Kkkkkk
-[/input]
-[output]
-Qqqq
-Kkkk
-Iii
-[/output]
-[/test]
-[test]
-[input]
 3
-Iii Aaa Bbbb
-[/input]
-[output]
-Iii
-Aaa
 [/output]
 [/test]
 [test]
 [input]
+1 1 1 1 1
+[/input]
+[output]
+4
+[/output]
+[/test]
+[test]
+[input]
+78
+[/input]
+[output]
 0
-Aaaa Sssssssssss
-[/input]
-[output]
-
 [/output]
 [/test]
 [test]
 [input]
--1
-Koko
+-20
 [/input]
 [output]
-
+0
+[/output]
+[/test]
+[test]
+[input]
+1 2 3 4 5 11
+[/input]
+[output]
+0
 [/output]
 [/test]
 [/tests]

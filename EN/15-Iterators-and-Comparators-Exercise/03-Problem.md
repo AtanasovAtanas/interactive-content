@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Stack Iterator
-[code-task title="Stack Iterator" taskId="881b70cc-b1ca-4ae0-8cc1-1fc25c85cef5" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Program: Froggy
+[code-task title="Froggy" taskId="1d93d93e-0062-46f0-8a20-acf10598a4b6" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,75 +14,61 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-You have a task to create your custom Stack.
+Let's play a game.
 
-You already know the Stack structure.
+You have a tiny little **Frog**, and a **Lake** with numbers.
 
-The elements are stored in a collection.
+The **Lake** and its numbers, you will get by an input from the console.
 
-It has two functions (not from the functional programming) - to `push` and `pop` an element.
+Imagine, your **Frog** belongs to the **Lake**.
 
-The first **popped** element is on the **last position** in the collection.
+The **Frog jumps** only when the `END` command is received.
 
-The `push` method adds an element to the **top** of the collection and the `pop` method returns the **top** element and **removes** it.
+When the **Frog** starts jumping, print on the console **each number** the **Frog** have stepped over.
 
-Write your custom implementation of `Stack<Integer>` and implement your custom **iterator**. 
+To calculate the jumps, use the guidelines:
 
-Your Stack class should implement the `Iterable<Integer>` interface and your **Iterator Class** should implement `Iterator<Integer>` interface. 
+The jumps start from the **zero index**. 
 
-Your Custom Iterator should follow the rules of the **Abstract Data Type - Stack**. 
+And follows the pattern - first all even indexes in **ascending** order(0 -> 2 -> 4 -> 6 and so on) and then all odd indexes in **ascending** order (1 -> 3 -> 5 -> 7 and so on). 
 
-The first element is the element at the top, and so on. 
+Consider the **zero** index as **even**.
 
-Iterators are used only for iterating through the collection, they **should not** remove or mutate the elements.
+Long story short: Create a Class `Lake`, it should implement the interface - `Iterable`. 
+
+Inside the `Lake`, create a Class - `Frog` and implement the interface `Iterator`. 
+
+You will receive **only integers**.
 
 ## Input
-The input can be only two types `Push` and `Pop`, followed by integers for the `Push` command and **no other** input for the `Pop` command. 
+The input will consist of two lines. First-line - the **initial** numbers of the lake, **separated** by comma and a single space. 
 
-Each command will come on a separate line.
-
-Format:
-- `Push {element, secondElement…}`
-- `Pop`
+The second line command is `END`.
 
 ## Output
-The program should stop when you receive the command `END`. 
+When you receive `END`, the input is over. 
 
-Foreach the stack **twice** and print all elements. Each element should be on a **new line**.
+**Foreach** the collection of numbers, the **Frog** has jumped over, and print **each** element.
+
+The output should be print on a **single** line.
+
+Format:
+
+`{number}, {second number}, {third number} ...`
 
 ## Constraints
-- The elements in the `Push` command will be **valid** integers **between** [2 ^ -32 ... 2 ^ 32 - 1].
-- The commands will always be **valid** (always be either `Push`, `Pop`, or `END`).
-- There will be no more than **16** elements in the `Push` command.
-- If `Pop` command **could not** be executed as expected (e.g. no elements in the stack), print on the console: `No elements`.
+- **Lake's** numbers will be **valid** integers in the **range** [2 ^ -32 ... 2 ^ 32 - 1]
+- The command will always be **valid** - `END`
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Push 1, 2, 3, 4 | 2 |
-| Pop | 1 |
-| Pop | 2 |
-| END | 1 |
+| 1, 2, 3, 4, 5, 6, 7, 8 | 1, 3, 5, 7, 2, 4, 6, 8 |
+| END |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| Push 1, 2, 3, 4  | 1 |
-| Pop | 3 |
-| Push 1 | 2 |
-| END | 1 |
-|  | 1 |
-|  | 3 |
-|  | 2 |
-|  | 1 |
-
-| **Input** | **Output** |
-| --- | --- |
-| Push 1, 2, 3, 4  | No elements |
-| Pop |  |
-| Pop |  |
-| Pop |  |
-| Pop |  |
-| Pop |  |
+| 1, 2, 3 | 1, 3, 2 |
 | END |  |
 
 [/task-description]
@@ -90,124 +76,74 @@ Foreach the stack **twice** and print all elements. Each element should be on a 
 [tests]
 [test open]
 [input]
-Push 1, 2, 3, 4
-Pop
-Pop
+1, 2, 3, 4, 5, 6, 7, 8
 END
 [/input]
 [output]
-2
-1
-2
-1
+1, 3, 5, 7, 2, 4, 6, 8
 [/output]
 [/test]
 [test open]
 [input]
-Push 1, 2, 3, 4 
-Pop
-Push 1
+1, 2, 3
 END
 [/input]
 [output]
-1
-3
-2
-1
-1
-3
-2
-1
-[/output]
-[/test]
-[test open]
-[input]
-Push 1, 2, 3, 4 
-Pop
-Pop
-Pop
-Pop
-Pop
-END
-[/input]
-[output]
-No elements
+1, 3, 2
 [/output]
 [/test]
 [test]
 [input]
-Push 1, 2, 3, 4, 5
-Pop
-Pop
-Pop
+1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8
 END
 [/input]
 [output]
-2
-1
-2
-1
+1, 3, 5, 7, 1, 3, 5, 7, 2, 4, 6, 8, 2, 4, 6, 8
 [/output]
 [/test]
 [test]
 [input]
-Push 1, 2, 3, 4, 5 
-Pop
-Pop
-Push 1
+1, 2, 3, 4
 END
 [/input]
 [output]
-1
-3
-2
-1
-1
-3
-2
-1
+1, 3, 2, 4
 [/output]
 [/test]
 [test]
 [input]
-Push 1, 2, 3, 4, 5 
-Pop
-Pop
-Pop
-Pop
+1, 2, 3, 4, -3, -0, 0
 END
 [/input]
 [output]
-1
-1
+1, 3, -3, 0, 2, 4, 0
 [/output]
 [/test]
 [test]
 [input]
-Push 1, 2, 3, 4 
-Pop
-Pop
-Pop
-Pop
+0
 END
 [/input]
 [output]
-
+0
 [/output]
 [/test]
 [test]
 [input]
-Push 1, 2, 3, 4, 5 
-Pop
-Pop
-Pop
-Pop
-Pop
-Pop
+10000000, 100000000, 100000000
 END
 [/input]
 [output]
-No elements
+10000000, 100000000, 100000000
+[/output]
+[/test]
+[test]
+[input]
+3, 3, 3
+END
+[/input]
+[output]
+3, 3, 3
 [/output]
 [/test]
 [/tests]

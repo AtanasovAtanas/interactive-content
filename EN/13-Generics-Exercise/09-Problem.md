@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Custom List Iterator
-[code-task title="Custom List Iterator" taskId="4a388940-1ad6-4118-be3f-f49c133366ae" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Tuple
+[code-task title="Tuple" taskId="970fddee-cf23-4c2c-a160-e2ca9de024bb" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,169 +14,124 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Extend the previous problem by making your custom list class to implement **Iterable**.
+There is a sequence of elements, called **"Tuple"**.
 
-For the print command you have probably used a **for** loop.
+It is a class, which contains two objects: the first one is **"item1"**; the second one is **"item2"**.
 
-This should allow you to iterate your list in a **foreach** statement.
+It is similar to **Map.Entry** but it **only has items**, which are **neither key nor value**.
+
+It is unknown what these objects are holding.
+
+The class name does not give enough information, the methods which it has – too.
+
+Your task is to try to implement it in Java, just for practicing generics.
+
+Create a class **"Tuple"**, which is holding two objects. 
+
+The first one will be **"item1"** and the second one - **"item2"**. 
+
+The class has to hold **Generics**. 
+
+When you create a new object of class -  **"Tuple"**, you should specify the item types separately.
+
+## Input
+
+The input consists of three lines:
+
+- The first one is holding a **person's name** and **city of residence**. Both are **separated by space(s)**. You have to collect them in the Tuple and print them on the console. This input comes in the following format:
+
+`{{first name} {last name}} {city}`
+
+- The second line holds a **name** of a person and the **amount of hobbies** he has and comes in the following format:
+
+`{name} {hobbies}`
+
+- The last line will hold an **Integer** and a **Double** in the following format:
+
+`{Integer} {Double}`
+
+## Output
+
+- Print the Tuple items in the following format: 
+
+`{item1} -> {item2}`
+
+## Constraints
+
+Use the good practices we have learned. 
+
+Create the class and make it have getters and setters for its class variables. 
+
+The input will be valid, there is no need to check it explicitly!
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Add aa | cc |
-| Add bb | aa |
-| Add cc | 2 |
-| Max | cc |
-| Min | bb |
-| Greater aa | aa |
-| Swap 0 2 |  |
-| Print |  |
-| END |  |
+| Sofia Tucker London | Sofia Tucker -> London |
+| john 2 | john -> 2 |
+| 23 21.23212321 | 23 -> 21.23212321 |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-Add aa
-Add bb
-Add cc
-Max
-Min
-Greater aa
-Swap 0 2
-Contains aa
-Print
-END
+Sofia Tucker London
+John 2
+23 21.23212321
 [/input]
 [output]
-cc
-aa
-2
-true
-cc
-bb
-aa
+Sofia Tucker -\> London
+John -\> 2
+23 -\> 21.23212321
 [/output]
 [/test]
 [test]
 [input]
-Add P
-Print
-END
+Sean Paul NY
+Adam 6
+29 21.121212
 [/input]
 [output]
-P
+Sean Paul -\> NY
+Adam -\> 6
+29 -\> 21.121212
 [/output]
 [/test]
 [test]
 [input]
-Add P
-Add G
-Max
-END
+Steven Adams Madrid
+Peter 9
+21 21
 [/input]
 [output]
-P
+Steven Adams -\> Madrid
+Peter -\> 9
+21 -\> 21.0
 [/output]
 [/test]
 [test]
 [input]
-Add P
-Add G
-Swap 0 0
-Swap 1 1
-Swap 0 1
-Swap 1 0
-Swap 0 1
-Print
-END
+Garet = Geneva
+G 2999999
+21 21
 [/input]
 [output]
-G
-P
+Garet = -\> Geneva
+G -\> 2999999
+21 -\> 21.0
 [/output]
 [/test]
 [test]
 [input]
-Add P
-Add G
-Contains 123
-Contains falsd
-Contains @\#!@\\$
-Contains .
-Contains P
-Contains G
-Greater P
-Greater G
-Greater aa
-Greater zz
-Greater true
-Greater false
-Greater 123
-Greater ...
-Greater @\#%!@\#
-END
+Charls King Westcastle
+Shamsky 2999999
+21 21.212
 [/input]
 [output]
-false
-false
-false
-false
-true
-true
-0
-1
-0
-0
-0
-0
-2
-2
-2
-[/output]
-[/test]
-[test]
-[input]
-Add a
-Add b
-Add c
-Add d
-Add e
-Add f
-Print
-Max
-Min
-Greater a
-Greater b
-Greater c
-Greater d
-Greater e
-Greater f
-Remove 0
-Remove 0
-Remove 0
-Print
-END
-[/input]
-[output]
-a
-b
-c
-d
-e
-f
-f
-a
-5
-4
-3
-2
-1
-0
-d
-e
-f
+Charls King -\> Westcastle
+Shamsky -\> 2999999
+21 -\> 21.212
 [/output]
 [/test]
 [/tests]

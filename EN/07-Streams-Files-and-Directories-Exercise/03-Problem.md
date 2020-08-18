@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: CAPITAL LETTERS
-[code-task title="CAPITAL LETTERS" taskId="4c58e831-a4f5-4845-9b41-e083d08eac22" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Count Character Types
+[code-task title="Count Character Types" taskId="9f79317b-6fb7-42f2-8ff9-8cde6dcb5181" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,9 +14,16 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads a text file (**input.txt** from the Resources - Folder) and changes the casing of **all** letters to **upper**.
+Write a program that reads a list of words from the file (**input.txt** from the Resources - Folder) and finds the count of **vowels**, **consonants**, and **punctuation** marks.
 
-Write the output to another file (**output.txt**).
+Assume that:
+
+- **a, e, i, o, u** are vowels, only lower case
+- **All others** are consonants
+- Punctuation marks are **(!,.?)**
+- **Do not** count whitespace.
+
+Write the results to another file – **output.txt**.
 
 Use **BufferedReader** and **PrintWriter**.
 
@@ -30,35 +37,24 @@ For each exercise submit only the **output** of your program, **not the code**.
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| On January 1 , 1533 ,  | ON JANUARY 1 , 1533 ,  |
-| Michael Angelo,  | MICHAEL ANGELO,  |
-| then fifty-seven years old,  | THEN FIFTY-SEVEN YEARS OLD,  |
-| writes | WRITES |
-| from Florence to  | FROM FLORENCE TO  |
-| Tommaso de' Cavalieri,  | TOMMASO DE' CAVALIERI,  |
-| a youth of noble Roman family, | A YOUTH OF NOBLE ROMAN FAMILY, |
+| On January 1 , 1533 , Michael Angelo, then fifty-seven years old, writes | Vowels: 41 |
+| from Florence to Tommaso de' Cavalieri, a youth of noble Roman family, | Consonants: 72 |
+|  | Punctuation: 6 |
+
 
 [/task-description]
 [code-io /]
 [tests]
 [test]
 [input]
-ON JANUARY 1 , 1533 , 
-MICHAEL ANGELO, 
-THEN FIFTY-SEVEN YEARS OLD, 
-WRITES
-FROM FLORENCE TO 
-TOMMASO DE' CAVALIERI, 
-A YOUTH OF NOBLE ROMAN FAMILY,
+Vowels: 41
+Consonants: 72
+Punctuation: 6
 [/input]
 [output]
-ON JANUARY 1 , 1533 , 
-MICHAEL ANGELO, 
-THEN FIFTY-SEVEN YEARS OLD, 
-WRITES
-FROM FLORENCE TO 
-TOMMASO DE' CAVALIERI, 
-A YOUTH OF NOBLE ROMAN FAMILY,
+Vowels: 41
+Consonants: 72
+Punctuation: 6
 [/output]
 [/test]
 [/tests]

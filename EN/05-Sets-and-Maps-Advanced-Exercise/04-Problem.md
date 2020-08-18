@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Count Symbols
-[code-task title="Problem: Count Symbols" taskId="7075fd90-4715-4d84-bb4e-7185a33822d3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Phonebook
+[code-task title="Problem: Phonebook" taskId="9530e974-a298-483a-a529-354207c85293" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,165 +14,122 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Write a program that reads some **text** from the console and **counts the occurrences of each character** in it.
+Write a program that receives some info from the console about **people** and their **phone numbers**.
 
-Print the results in **alphabetical** (lexicographical) order, using the syntax: `{symbol}: {count} time/s`.
+You are free to choose how the data is entered. Each **entry** should have just **one name** and **one number** (both of them strings). 
+
+If you receive a name that **already exists** in the phonebook, simply update its number.
+
+After filling this simple phonebook, upon receiving the **command** `search`, your program should be able to perform a search of contact by name and print the details in the format `{name} -> {number}`. 
+
+In case the contact isn't found, print `Contact {name} does not exist.`
+
+The program should end when receiving the **command** `stop`.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| SoftUni rocks |  : 1 time/s |
-|  | S: 1 time/s |
-|  | U: 1 time/s |
-|  | c: 1 time/s |
-|  | f: 1 time/s |
-|  | i: 1 time/s |
-|  | k: 1 time/s |
-|  | n: 1 time/s |
-|  | o: 2 time/s |
-|  | r: 1 time/s |
-|  | s: 1 time/s |
-|  | t: 1 time/s |
+| John-00359888080808 | Contact Maria does not exist. |
+| search | John -> 00359888080808 |
+| Maria |  |
+| John |  |
+| stop |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| Did you know Math.Round rounds to the nearest even integer? |  : 9 time/s |
-|  | .: 1 time/s |
-|  | ?: 1 time/s |
-|  | D: 1 time/s |
-|  | M: 1 time/s |
-|  | R: 1 time/s |
-|  | a: 2 time/s |
-|  | d: 3 time/s |
-|  | e: 7 time/s |
-|  | g: 1 time/s |
-|  | h: 2 time/s |
-|  | i: 2 time/s |
-|  | k: 1 time/s |
-|  | n: 6 time/s |
-|  | o: 5 time/s |
-|  | r: 3 time/s |
-|  | s: 2 time/s |
-|  | t: 5 time/s |
-|  | u: 3 time/s |
-|  | v: 1 time/s |
-|  | w: 1 time/s |
-|  | y: 1 time/s |
+| John-00359888001122 | Samuel -> 0047123123123 |
+| Peter-0040333111000 | Contact samuel does not exist. |
+| George-0049112233 | Contact PeTeR does not exist. |
+| Samuel-0047123123123 | Peter -> 0040333111000 |
+| search |  |
+| Samuel |  |
+| samuel |  |
+| PeTeR |  |
+| Peter |  |
+| stop |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-SoftUni rocks
+John-00359888080808
+search
+Maria
+John
+stop
 [/input]
 [output]
- : 1 time/s
-S: 1 time/s
-U: 1 time/s
-c: 1 time/s
-f: 1 time/s
-i: 1 time/s
-k: 1 time/s
-n: 1 time/s
-o: 2 time/s
-r: 1 time/s
-s: 1 time/s
-t: 1 time/s
+Contact Maria does not exist.
+John -\> 00359888080808
 [/output]
 [/test]
 [test open]
 [input]
-Did you know Math.Round rounds to the nearest even integer?
+John-00359888001122
+Peter-0040333111000
+George-0049112233
+Samuel-0047123123123
+search
+Samuel
+samuel
+PeTeR
+Peter
+stop
 [/input]
 [output]
- : 9 time/s
-.: 1 time/s
-?: 1 time/s
-D: 1 time/s
-M: 1 time/s
-R: 1 time/s
-a: 2 time/s
-d: 3 time/s
-e: 7 time/s
-g: 1 time/s
-h: 2 time/s
-i: 2 time/s
-k: 1 time/s
-n: 6 time/s
-o: 5 time/s
-r: 3 time/s
-s: 2 time/s
-t: 5 time/s
-u: 3 time/s
-v: 1 time/s
-w: 1 time/s
-y: 1 time/s
+Samuel -\> 0047123123123
+Contact samuel does not exist.
+Contact PeTeR does not exist.
+Peter -\> 0040333111000
 [/output]
 [/test]
 [test]
 [input]
-Write a program that reads some text from the console and counts the occurrences of each character in it
+Peter-00359888001122
+Daniel-004312345678
+James-0032987654321
+Oscar-003011335577
+search
+Oscar
+Daniele
+James
+Pete
+stop
 [/input]
 [output]
- : 18 time/s
-W: 1 time/s
-a: 8 time/s
-c: 8 time/s
-d: 2 time/s
-e: 11 time/s
-f: 2 time/s
-g: 1 time/s
-h: 5 time/s
-i: 3 time/s
-l: 1 time/s
-m: 3 time/s
-n: 5 time/s
-o: 8 time/s
-p: 1 time/s
-r: 9 time/s
-s: 5 time/s
-t: 10 time/s
-u: 2 time/s
-x: 1 time/s
+Oscar -\> 003011335577
+Contact Daniele does not exist.
+James -\> 0032987654321
+Contact Pete does not exist.
 [/output]
 [/test]
 [test]
 [input]
-Problem 4.	Count Symbols
+Abby-0049112233
+Barbara-0033999888777
+Daisy-0037166668888
+Faith-0034333555777
+Gabriela-0040333111000
+Ella-0047123123123
+search
+Daisy
+Gabrielle
+Faith
+Aby
+stop
 [/input]
 [output]
-    : 1 time/s
- : 2 time/s
-.: 1 time/s
-4: 1 time/s
-C: 1 time/s
-P: 1 time/s
-S: 1 time/s
-b: 2 time/s
-e: 1 time/s
-l: 2 time/s
-m: 2 time/s
-n: 1 time/s
-o: 3 time/s
-r: 1 time/s
-s: 1 time/s
-t: 1 time/s
-u: 1 time/s
-y: 1 time/s
+Daisy -\> 0037166668888
+Contact Gabrielle does not exist.
+Faith -\> 0034333555777
+Contact Aby does not exist.
 [/output]
 [/test]
 [test]
 [input]
-0
-[/input]
-[output]
-0: 1 time/s
-[/output]
-[/test]
-[test]
-[input]
-
+search
+stop
 [/input]
 [output]
 
@@ -180,28 +137,42 @@ y: 1 time/s
 [/test]
 [test]
 [input]
-K - the type of keys maintained by this map
-V - the type of mapped values
+France-0033
+Germany-0049
+Srain-0034
+Portugal-00351
+Italy-0039
+Netherlands-0031
+Greece-0030
+Austria-0043
+search
+Ireland
+Bulgaria
+Estonia
+Finland
+Norway
+stop
 [/input]
 [output]
- : 9 time/s
--: 1 time/s
-K: 1 time/s
-a: 3 time/s
-b: 1 time/s
-d: 1 time/s
-e: 4 time/s
-f: 1 time/s
-h: 2 time/s
-i: 3 time/s
-k: 1 time/s
-m: 2 time/s
-n: 2 time/s
-o: 1 time/s
-p: 2 time/s
-s: 2 time/s
-t: 4 time/s
-y: 3 time/s
+Contact Ireland does not exist.
+Contact Bulgaria does not exist.
+Contact Estonia does not exist.
+Contact Finland does not exist.
+Contact Norway does not exist.
+[/output]
+[/test]
+[test]
+[input]
+Oliver-004455667788
+Sophia-003344556677
+search
+Sophia
+Oliver
+stop
+[/input]
+[output]
+Sophia -\> 003344556677
+Oliver -\> 004455667788
 [/output]
 [/test]
 [/tests]

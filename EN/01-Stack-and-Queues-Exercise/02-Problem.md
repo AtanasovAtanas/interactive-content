@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Basic Stack Operations
-[code-task title="Basic Stack Operations" taskId="10bea7e5-eab5-4110-828f-ec56851bb090" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Maximum Element
+[code-task title="Maximum Element" taskId="9a85ddc4-cc9d-4760-a871-b3d3c3b75233" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.Scanner;
@@ -14,106 +14,224 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-You will be given an integer **N** representing the **number of elements to push onto the stack**, an integer **S** representing the **number of elements to pop from the stack** and finally an integer **X** , an element **that you should check whether is present in the stack**.
+You have an empty sequence, and you will be given  **N**  commands.
 
-If it is, print **true** on the console.
+Each command is one of the following types:
 
-If it is not, print the smallest element currently present in the stack.
+- **"1 X"** - **Push** the element **X** into the stack.
+- **"2"** - **Delete** the element present at the top of the stack.
+- **"3"** - **Print** the maximum element in the stack.
 
 ## Input
 
-- On the first line, you will be given **N** , **S** and **X** separated by a single space.
-- On the next line, you will be given a line of numbers **separated by one or more white spaces**.
+- The first line of input contains an integer **N** , where **1 ≤ N ≤ 10 ^ 5**
+- The next  **N** lines contain commands. All commands will be valid and in the format described
+- The element **X** will be in range **1 ≤ X ≤ 10 ^ 9**
+- The **type of the command** will be in range **1 ≤ Type ≤ 3**
 
 ## Output
 
-- On a single line print either **true** if **X** is present in the stack otherwise **print the smallest** element in the stack.
-- If the stack is empty print 0.
+- For each command of **type "3"** , **print the maximum element** in the stack on a new line.
 
 ## Examples
 | **Input** | **Output** | **Comments** |
 | --- | --- | --- |
-| 5 2 13 | true | We have to **push 5** elements. Then we **pop 2** of them. Finally, we have to check whether 13 is present in the stack. Since it is we print **true**. |
-| 1 13 45 32 4 |  |  |
-
-| **Input** | **Output** | **Comments** |
-| --- | --- | --- |
-| 4 1 666 | 13 | Pop one element (666) and then check if 666 is present in the stack. It is not, so print the smallest element (13) |
-| 420 69 13 666 |  |  |
+| 9 | 26 | 9 commands |
+| 1 97 | 91 | Push 97 |
+| 2 |  | Pop an element |
+| 1 20 |  | Push 20 |
+| 2 |  | Pop an element |
+| 1 26 |  | Push 26 |
+| 1 20 |  | Push 20 |
+| 3 |  | Print the maximum element (26) |
+| 1 91 |  | Push 91 |
+| 3 |  | Print the maximum element (91) |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-5 2 13
-1 13 45 32 4
+16
+1 97
+2
+1 20
+2
+1 26
+1 20
+2
+3
+1 91
+1 66
+1 23
+2
+2
+2
+1 33
+3
 [/input]
 [output]
-true
-[/output]
-[/test]
-[test open]
-[input]
-4 1 666
-420 69 13 666
-[/input]
-[output]
-13
-[/output]
-[/test]
-[test open]
-[input]
-3 3 90
-90 90 90
-[/input]
-[output]
-0
-[/output]
-[/test]
-[test]
-[input]
-10 3 105
-105 0 54 389 34 5 -6 3 90 -542
-[/input]
-[output]
-true
+26
+33
 [/output]
 [/test]
 [test]
 [input]
-10 5 1
-0 0 0 0 1 0 0 0 0 1
+12
+1 5
+3
+1 10
+3
+1 9
+3
+2
+3
+2
+3
+1 6
+3
 [/input]
 [output]
-true
+5
+10
+10
+10
+5
+6
 [/output]
 [/test]
 [test]
 [input]
-10 6 0
-1 1 1 1 0 1 1 1 1 0
+16
+1 14
+1 13
+1 15
+2
+2
+3
+1 13
+1 110
+3
+2
+1 91
+1 90
+2
+2
+2
+3
 [/input]
 [output]
-1
+14
+110
+14
 [/output]
 [/test]
 [test]
 [input]
-10 10 50
-10 20 30 40 50 60 70 80 90 100
+9
+1 1
+1 2
+1 3
+1 4
+1 5
+1 100
+3
+2
+3
 [/input]
 [output]
-0
+100
+5
 [/output]
 [/test]
 [test]
 [input]
-1 0 50
-583874
+10
+1 60
+3
+1 59
+1 61
+3
+2
+3
+1 90
+2
+3
 [/input]
 [output]
-583874
+60
+61
+60
+60
+[/output]
+[/test]
+[test]
+[input]
+28
+1 90
+1 91
+1 92
+1 93
+3
+2
+3
+1 100
+3
+2
+3
+2
+3
+1 10
+1 11
+1 12
+1 13
+1 14
+1 15
+2
+2
+2
+2
+3
+2
+2
+2
+3
+[/input]
+[output]
+93
+92
+100
+92
+91
+91
+90
+[/output]
+[/test]
+[test]
+[input]
+16
+1 1
+1 2
+1 10
+1 20
+1 40
+1 30
+3
+2
+2
+3
+1 101
+1 105
+3
+2
+2
+3
+[/input]
+[output]
+40
+20
+105
+20
 [/output]
 [/test]
 [/tests]
