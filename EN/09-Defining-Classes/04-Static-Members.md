@@ -1,5 +1,0 @@
-[slide]
-
-# Static Members
-
-[/slide]

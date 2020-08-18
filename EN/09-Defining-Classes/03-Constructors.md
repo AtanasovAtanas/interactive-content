@@ -1,5 +1,0 @@
-[slide]
-
-# Constructors
-
-[/slide]
