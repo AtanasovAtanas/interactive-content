@@ -18,8 +18,6 @@ The data (**attributes**) associated with a class or object is stored in **varia
 
 The **behavior** associated with a class or object is implemented with **methods**. 
 
-## Class components
-
 When defining class, it contains only those components of a class declaration that are required.
 
 The obligatory components are:
@@ -46,8 +44,6 @@ class Car {
     void start(){ ... }
 }
 ```
-## Naming Classes
-
 Below are the class naming rules of java programming language. 
 
 They must be followed while developing software in java for good maintenance and readability of code. 
@@ -58,30 +54,7 @@ Try to keep your class names simple and descriptive.
 
 Use whole words-avoid acronyms and abbreviations (unless the abbreviation is much more widely used than the long form, such as URL or HTML).
 
-## Creating an Object
 
-Creating an object of a defined class is called instantiation.
 
-The instance is the object itself, which is created runtime.
-
-To create an object, specify the **class name**, followed by the **object name**, and use the keyword `new`:
-
-```java
-Car firstCar = new Car();
-```
-
-A class can have many instances (**objects**).
-
-```java
-Car firstCar = new Car();
-
-Car secondCar = new Car();
-
-Car thirdCar = new Car();
-```
-
-## Object Reference
-
-The new operator instantiates a class by allocating memory for a new object and returning a reference to that memory. 
 
 [/slide]
