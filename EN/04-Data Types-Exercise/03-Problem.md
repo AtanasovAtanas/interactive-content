@@ -44,20 +44,32 @@ The **input** holds **two lines**:
 [hints]
    [hint]
        Hello World this is a text for the hint
-       ```javascript
-           console.log('Hello..')
+       ```java
+           public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
        ```
    [/hint]
    [hint]
        Hello World this is a text for the hint
-       ```javascript
-           console.log('World..')
+       ```java
+          public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
        ```
    [/hint]
   [hint]
        Hello World this is a text for the hint
-       ```javascript
-           console.log('Hello..')
+       ```java
+           public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
        ```
    [/hint]
 [/hints]
