@@ -101,10 +101,10 @@ Variables whose type is a class are known as **reference variables** and they ar
 | Class is a blueprint or template from which objects are created. | Object is an instance of a class. |
 | Class is a group of similar objects. | Object is a real world entity such as pen, laptop, mobile, bed, keyboard, mouse, chair etc. |
 | Class is a logical entity. | Object is a physical entity. |
-| Class is declared using class keyword e.g. class Car{} | Object is created through new keyword mainly e.g. Car firstCar = new Car(); |
-| Class is declared once. | Object is created many times as per requirement. | 
-| Class doesn't allocated memory when it is created. | Object allocates memory when it is created. |
-| There is only one way to define class in java using class keyword. | There are many ways to create object in java such as `new` keyword, `newInstance()` method, `clone()` method `factory` method and deserialization. |
+| Class is declared using `class` keyword e.g. class Car{} | Object is created through `new` keyword mainly e.g. Car firstCar = new Car(); |
+| Class is declared **once**. | Object is created **many times** as per requirement. | 
+| Class **doesn't allocated memory** when it is created. | Object **allocates memory** when it is created. |
+| There is only one way to define class in java using `class` keyword. | There are many ways to create object in java such as `new` keyword, `newInstance()` method, `clone()` method `factory` method and deserialization. |
 
 
 

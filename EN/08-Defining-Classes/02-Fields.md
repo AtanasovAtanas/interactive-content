@@ -11,7 +11,7 @@ A Java field is a variable inside a class. For instance, in a class representing
 The corresponding Java class could be defined like this:
 
 ```java
-public class Car{
+public class Car {
 
     String brand;
     String model;
@@ -33,7 +33,7 @@ There are four types of access modifiers in Java:
 
 The **private** access modifier means that only code inside the class itself can access this Java field.
 
-If you don't use any modifier, it is treated as **default** by **package-private**.
+If you don't use any modifier, it is treated as **package-private** by **default**.
 
 The **package-private** access modifier means that only code inside the class itself, or other classes in the same package, can access the field.
 
