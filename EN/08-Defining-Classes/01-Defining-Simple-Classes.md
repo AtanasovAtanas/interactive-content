@@ -82,6 +82,30 @@ Car thirdCar = new Car();
 
 ## Object Reference
 
-The new operator instantiates a class by allocating memory for a new object and returning a reference to that memory. 
+The `new` operator instantiates a Class by allocating memory for a new object and returning a **reference** to that memory. 
+
+A **reference** is an **address** that indicates where an object's variables and methods are stored.
+
+A variable whose type is a class **contains a reference to an object** of the class (the address of the memory location where the object is allocated).
+
+In Java objects are constructed and allocated in the **Heap** memory.
+
+So, we cannot store object in variable, we can store only its **reference to this object**.
+
+Variables whose type is a class are known as **reference variables** and they are stored in the **Stack** memory.
+
+## Classes vs. Objects
+
+| Classes | Objects |
+| --- | --- |
+| Class is a blueprint or template from which objects are created. | Object is an instance of a class. |
+| Class is a group of similar objects. | Object is a real world entity such as pen, laptop, mobile, bed, keyboard, mouse, chair etc. |
+| Class is a logical entity. | Object is a physical entity. |
+| Class is declared using class keyword e.g. class Car{} | Object is created through new keyword mainly e.g. Car firstCar = new Car(); |
+| Class is declared once. | Object is created many times as per requirement. | 
+| Class doesn't allocated memory when it is created. | Object allocates memory when it is created. |
+| There is only one way to define class in java using class keyword. | There are many ways to create object in java such as `new` keyword, `newInstance()` method, `clone()` method `factory` method and deserialization. |
+
+
 
 [/slide]
