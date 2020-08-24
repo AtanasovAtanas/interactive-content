@@ -33,14 +33,7 @@ Your task is to find the **sum of its digits**.
 
 [hints]
    [hint]
-       Hello World this is a text for the hint
-       ```java
-           public class Main {
-    public static void main(String[] args) {
-        // Write your code here
-    }
-}
-       ```
+      [image assetsSrc="hint-test.png" /]
    [/hint]
    [hint]
        Hello World this is a text for the hint
