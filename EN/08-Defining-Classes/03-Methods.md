@@ -105,7 +105,7 @@ It is recommended that all subclasses override this method.
 
 If you define `toString()` method in your class then your implemented/Overridden `toString()` method will be called:
 
-```java live
+```java live no-template
 public class Car {
 
     private String brand;
