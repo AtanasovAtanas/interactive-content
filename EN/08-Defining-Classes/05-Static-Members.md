@@ -12,7 +12,7 @@ Static methods can access only static fields, methods.
 
 To access static methods there is no need to instantiate the class, you can do it just using the class name.
 
-```java live no template
+```java live no-template
 public class Car {
     private static String brand;
     private static int horsePower;
@@ -49,7 +49,7 @@ These are created and initialized when the class is loaded for the first time.
 
 Just like static methods you can access static fields using the class name
 
-```java live no template
+```java live no-template
 public class Car {
     private static int horsePower = 503;
 
