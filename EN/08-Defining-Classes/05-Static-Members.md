@@ -49,6 +49,14 @@ These are created and initialized when the class is loaded for the first time.
 
 Just like static methods you can access static fields using the class name
 
-```java
+```java live no template
+public class Car {
+    private static int horsePower = 503;
+
+    public static void main(String[] args) {
+            
+        System.out.println(Car.horsePower);
+    }
+}
 ```
 [/slide]
