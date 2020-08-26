@@ -2,4 +2,147 @@
 
 # Constructors
 
+In Java, a constructor is a block of codes similar to the method. 
+
+It is called when an instance of the class is created. 
+
+At the time of calling constructor, memory for the object is allocated in the memory.
+
+It is a special type of method which is used to initialize the object.
+
+Every time an object is created using the `new()` keyword, at least one constructor is called.
+
+Constructor has same name as the class and looks like this in a java code:
+
+```java
+public class Car {
+
+   // Constructor
+   public Car(){
+
+    }
+}
+```
+
+## Multiple Constructors
+
+You can have multiple constructors in the same class, as long as their signature (the parameters they take) are not the same.
+
+You can define as many constructors as you need. 
+
+When a Java class contains multiple constructors, we say that the constructor is overloaded (comes in multiple versions). 
+
+This is what constructor overloading means, that a Java class contains multiple constructors.
+
+```java
+public class Car {
+  private String brand;  
+  private int horsePower; 
+  
+  public Car(String brand) {
+    this.brand = brand;
+  }
+
+  public Car(String brand, int horsePower) {
+    this.brand = brand;
+    this.horsePower = horsePower;
+  }
+}
+```
+In the example above, we have two constructors.
+
+The first one takes only one parameter and the second one takes two paramaters.
+
+## Default Constructor
+
+In Java a constructor is called "Default" when it doesn't have any parameter.
+
+If you don't have any constructor in your class, the Java compiler will insert a default constructor for you.
+
+You would not find it in your source code(the java file) as it would be inserted into the code during compilation and exists in `.class` file.
+
+The default constructor doesn't have any parameters and look like this:
+
+```java
+public Car() {
+}
+```
+
+If you implement any constructor then you no longer receive a default constructor from Java compiler.
+
+
+## Object Initial State
+
+Constructors set object's initial state.
+
+For example the default constructor is used to set the default initial state of the object like 0, null, etc., depending on the type.
+
+```java
+public class Car {
+    private String brand;
+    private int horsePower;
+
+     public String toString() {
+            return this.brand + " - " + this.horsePower;
+        }
+}
+```
+In the example above there is not created any constructor so compiler provides a default constructor.
+
+Here **null** for the **brand** and **0** for the **horsePower** are provided by default constructor.
+
+If you want values different from defaults you can set it in the constructor:
+
+```java
+public class Car {
+  String brand;
+  List<Part> parts;
+  
+  public Car(String brand) {
+    this.brand = brand;
+    this.parts = new ArrayList<>();
+  }
+}
+```
+Here, we have a constructor with one parameter "brand" in the body of constructor we set the value of the field **brand** to the given parameter and initialize the **parts** field.
+
+## Constructor Chaining
+
+In Java it is possible to call a constructor from inside another constructor.
+
+When you call a constructor from inside another constructor, you use the `this` keyword to refer to the constructor.
+
+Let's see the following example:
+
+```java
+class Car {
+  private String brand;
+  private int horsePower;
+
+  public Car(String brand, int horsePower) {
+    this.brand = brand;
+    this.horsePower = horsePower;
+  }
+
+  public Car(String brand) {
+    this(brand, -1);
+  }
+}
+```
+The first constructor takes two arguments "brand" and "horsePower".
+
+The second takes only one argument - "brand".
+
+Inside the body of the second constructor we find the following Java statement:
+
+```java
+  this(brand, -1);
+```
+The `this` keyword followed by parentheses and parameters means that another constructor in the same Java class is being called.
+
+Which other constructor is being called depends on the passed parameters to the constructor call(inside the parentheses after the this keyword)
+
+In this example, it is the first constructor in the class that is being called.
+
+
 [/slide]
