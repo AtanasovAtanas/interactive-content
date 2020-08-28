@@ -73,7 +73,6 @@ You should be able to use your **Car** class:
 ```java
 public class Main {
     public static void main (String[] args) {
-        Scanner scanner = new Scanner (System.in);
 
         Car car = new Car();
 
@@ -101,7 +100,6 @@ public class Car {
     String brand;
     String model;
     int horsePower;
-
 }
 ```
 
