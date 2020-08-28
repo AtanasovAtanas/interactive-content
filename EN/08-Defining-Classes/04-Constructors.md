@@ -146,3 +146,122 @@ In this example, it is the first constructor in the class that is being called.
 
 
 [/slide]
+
+[slide]
+
+# Problem: Constructors
+
+Create a Car class with the following properties:
+
+- Fields (**private**):
+  - brand: String
+  - model: String
+  - horsePower: int
+
+- Constructors (**public**):
+  - Car(String brand)
+  - Car(String brand, String model, int horsePower)
+
+- Methods (**public**)
+  - `carInfo()`: String
+
+
+Make proper constructors for the Car class so you can create car objects with different type of input information.
+
+If you miss information about field of type **String** set the value to "**unknown**", and for **integer** field set **-1**.
+
+First declare constructor which takes only **the car brand** as parameter:
+
+```java
+public Car(String brand) {
+    this.brand = brand;
+    this.model = "unknown";
+    this.horsePower = -1;
+}
+```
+
+Also create constructor which sets **all the fields**:
+
+```java
+public Car(String brand, String model, int horsePower) {
+    this.brand = brand;
+    this.model = model;
+    this.horsePower = horsePower;
+}
+```
+Create a `carInfo()` method.
+
+This method should return the info about any car object in the following format:
+
+"The car is: \{brand\} \{model\} – \{horsePower\} HP."
+
+Read information about car the same way as the previous task, however this time use constructors to create the objects, not creating object with the default constructor.
+
+You should be able to handle different types of input, the format will be the same as the previous task, but this time some of the data may be missing. 
+
+For an example you can get only the car brand – which means you have to set the car model to "unknown" and the Horsepower value to -1.
+
+The main method should lool like this:
+
+```java
+Car firstCar = new Car("TESLA");
+
+Car secondCar = new Car("TESLA","MODEL S",503);
+
+System.out.println(firstCar.carInfo());
+System.out.println(secondCar.carInfo());
+```
+
+[/slide]
+
+[slide]
+
+# Solution: Constructors
+
+- Car class:
+
+```java
+public class Car {
+
+    private String brand;
+    private String model;
+    private int horsePower;
+
+    public Car(String brand) {
+        this.brand = brand;
+        this.model = "unknown";
+        this.horsePower = -1;
+    }
+
+    public Car(String brand, String model, int horsePower) {
+        this.brand = brand;
+        this.model = model;
+        this.horsePower = horsePower;
+    }
+
+    public String carInfo() {
+        return String.format("The car is: %s %s - %d HP.",
+                this.brand, this.model, this.horsePower);
+    }
+}
+
+```
+
+- Main class:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        Car firstCar = new Car("TESLA");
+
+        Car secondCar = new Car("TESLA","MODEL S",503);
+
+        System.out.println(firstCar.carInfo());
+        System.out.println(secondCar.carInfo());
+    }
+}
+```
+
+
+[/slide]
