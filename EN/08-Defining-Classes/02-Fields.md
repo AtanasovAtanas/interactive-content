@@ -96,7 +96,7 @@ public class Main {
 
 [html]
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@amasad/PitifulLastingWhoopingcrane?lite=true"></iframe>
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/languages/java"></iframe>
 
 
 [/html]
