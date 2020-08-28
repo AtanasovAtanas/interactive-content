@@ -241,7 +241,7 @@ Create a `carInfo()` method.
 
 This method should return the info about any car object in the following format:
 
-"The car is: {brand} {model} – {horsePower} HP."
+"The car is: \{brand\} \{model\} – \{horsePower\} HP."
 
 You have to figure out how to create a method and to use it in the outside code as shown below:
 
