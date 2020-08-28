@@ -95,8 +95,8 @@ public class Main {
 # Solution: Define Car Class
 
 [html]
+<h1>Hello World</h1>
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/languages/java"></iframe>
 
 
 [/html]
