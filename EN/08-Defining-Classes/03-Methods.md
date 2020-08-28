@@ -154,6 +154,160 @@ int hash = car.hashCode();
 System.out.println(hash); 
 ```
 
+[/slide]
+
+[slide]
+
+# Problem: Car Info
+
+Create a class named Car.
+
+The class should have the following private fields and public methods:
+- brand: String
+- model: String
+- horsePower: String
+
+The class should have the following public methods:
+
+- `getBrand()`: String
+- `setBrand(String brand)`: void
+- `getModel()`: String
+- `setModel(String model)`: void
+- `getHorsePower()`: String
+- `setHorsePower(int horsePower)`: void
+- `carInfo()`: String
+
+Create a new class and **ensure proper naming!**
+
+[image assetsSrc="defining-classes-example(2).png" /]
+
+Create a **Main** class in the same package to test your Car class:
+
+[image assetsSrc="defining-classes-example(1).png" /]
+
+Define the fields:
+
+```java
+public class Car {
+
+    private String brand;
+    private String model;
+    private int horsePower;
+
+}
+```
+Because all fields in the **Car** class are **private**, if you try to access the fields directly through the class you should have a **compilation error**.
+
+To overcome this problem you have to use getters and setters methods.
+
+In the **Car class**, create **getters** and **setters** for each class field.
+
+- Getter for the car brand:
+
+```java
+public String getBrand(){
+    return this.brand;
+}
+```
+
+- Setter for the car brand:
+
+```java
+public void setBrand(String brand) {
+    this.brand = brand;
+}
+```
+Do the same for all the fields.
+
+You should be able to **set** and **get** the field values by using **getter** and **setter** methods.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        Car car = new Car();
+
+        car.setBrand("TESLA");
+        car.setModel("MODEL S");
+        car.setHorsePower(503);
+
+        System.out.printf("The car is: %s %s - %d HP",
+         car.getBrand(), car.getModel(), car.getHorsePower());
+    }
+}
+```
+
+Create a `carInfo()` method.
+
+This method should return the info about any car object in the following format:
+
+"The car is: {brand} {model} – {horsePower} HP."
+
+You have to figure out how to create a method and to use it in the outside code as shown below:
+
+```java
+System.out.println(car.carInfo());
+```
+[/slide]
+
+[slide]
+
+# Solution: Car Info
+
+- Car class:
+```java
+public class Car {
+
+    private String brand;
+    private String model;
+    private int horsePower;
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getHorsePower() {
+        return horsePower;
+    }
+
+    public void setHorsePower(int horsePower) {
+        this.horsePower = horsePower;
+    }
+
+    public String carInfo() {
+        return String.format("The car is: %s %s - %d HP.",
+                this.brand, this.model, this.horsePower);
+    }
+}
+```
+- Main class:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Car car = new Car();
+
+        car.setBrand("TESLA");
+        car.setModel("MODEL S");
+        car.setHorsePower(503);
+
+        System.out.println(car.carInfo());
+    }
+}
+```
+
 
 
 [/slide]
