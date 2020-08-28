@@ -94,11 +94,14 @@ public class Main {
 
 # Solution: Define Car Class
 
-[html]
-<h1>Hello World</h1>
+```java
+public class Car {
 
-
-
-[/html]
+    String brand;
+    String model;
+    int horsePower;
+    
+}
+```
 
 [/slide]
