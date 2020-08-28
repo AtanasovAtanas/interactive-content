@@ -62,9 +62,10 @@ The class should have the following fields:
 - model: String
 - horsePower: int
 
-**Ensure proper naming!**
+Create a new class and **ensure proper naming!**
+[image assetsSrc="defining-classes-example(2).png" /]
 
-Create a **Main** class in the same package:
+Create a **Main** class in the same package to test your Car class:
 [image assetsSrc="defining-classes-example(1).png" /]
 
 You should be able to use your **Car** class:
@@ -100,7 +101,7 @@ public class Car {
     String brand;
     String model;
     int horsePower;
-    
+
 }
 ```
 
