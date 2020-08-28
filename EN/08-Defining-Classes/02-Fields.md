@@ -49,3 +49,56 @@ The **protected** access modifier is accessible within **package** and outside t
 
 
 [/slide]
+
+[slide]
+
+# Problem: Define Car Class
+
+Create a class named Car.
+
+The class should have the following fields:
+
+- brand: String
+- model: String
+- horsePower: int
+
+**Ensure proper naming!**
+
+Create a **Main** class in the same package:
+[image assetsSrc="defining-classes-example(1).png" /]
+
+You should be able to use your **Car** class:
+
+```java
+public class Main {
+    public static void main (String[] args) {
+        Scanner scanner = new Scanner (System.in);
+
+        Car car = new Car();
+
+        car.brand = "TESLA";
+        car.model = "MODEL S";
+        car.horsePower = 503;
+
+        System.out.println(String.format(
+                "The car is: %s %s - %d HP",
+                car.brand, car.model, car.horsePower
+        ));
+    }
+}
+```
+
+[/slide]
+
+[slide]
+
+# Solution: Define Car Class
+
+[html]
+
+<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@amasad/PitifulLastingWhoopingcrane?lite=true"></iframe>
+
+
+[/html]
+
+[/slide]
