@@ -8,7 +8,7 @@ Everything in Java is associated with **classes** and **objects**, along with it
 
 For example: in real life, a **car is an object**. 
 
-The car has **attributes**, such as **weight** and **color**, and **methods**, such as **drive** and **brake**.
+The car has **attributes**, such as **weight** and **colour**, and **methods**, such as **drive** and **brake**.
 
 A **class is a template** that describes the **data** and **behaviour** associated with instances of that class.
 
@@ -16,7 +16,7 @@ When you instantiate a class you create an object that looks and feels like othe
 
 The data (**attributes**) associated with a class or object is stored in **variables**. 
 
-The **behavior** associated with a class or object is implemented with **methods**. 
+The **behaviour** associated with a class or object is implemented with **methods**. 
 
 ## Class components
 
@@ -35,7 +35,7 @@ Not obligatory, but credential, components are:
 - Getters and Setters
 - Class methods
 
-Here is an example of a class Car which have two fields (**brand, model**) and one void method - `start()`.
+Here is an example of a class Car which has two fields (**brand, model**) and one void method - `start()`.
 
 ```java
 class Car {
@@ -88,9 +88,9 @@ A **reference** is an **address** that indicates where an object's variables and
 
 A variable whose type is a class **contains a reference to an object** of the class (the address of the memory location where the object is allocated).
 
-In Java objects are constructed and allocated in the **Heap** memory.
+In Java, objects are constructed and allocated in the **Heap** memory.
 
-So, we cannot store object in variable, we can store only its **reference to this object**.
+So, we cannot store object in a variable, we can store only its **reference to this object**.
 
 Variables whose type is a class are known as **reference variables** and they are stored in the **Stack** memory.
 
@@ -106,6 +106,5 @@ Variables whose type is a class are known as **reference variables** and they ar
 | Class **doesn't allocated memory** when it is created. | Object **allocates memory** when it is created. |
 | There is only one way to define class in java using `class` keyword. | There are many ways to create object in java such as `new` keyword, `newInstance()` method, `clone()` method `factory` method and deserialization. |
 
-
-
 [/slide]
+
