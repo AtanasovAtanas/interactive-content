@@ -14,7 +14,7 @@ Methods are time savers and help us to reuse the code without retyping the code.
 
 The following example defines a method called **increaseHP** inside a class named Car.
 
-When called, this method increase the internal **horsePower** variable with a given value.
+When called, this method increases the internal **horsePower** variable with a given value.
 
 ```java
 class Car {
@@ -53,7 +53,7 @@ class Car {
 }
 ```
 
-First we have a class Car with private field "**horsePower**", because the field has private access we cannot get or modify it.
+First, we have a class Car with private field "**horsePower**" because the field has private access we cannot get or modify it.
 
 To overcome this problem we have to use "**get**" and "**set**" methods.
 
