@@ -39,12 +39,12 @@ The **package-private** access modifier means that only code inside the class it
 
 It provides more accessibility than private. But, it is **more restrictive than protected, and public**.
 
-The **protected** access modifier is accessible within **package** and outside the package but through **\*inheritance** only.
+The **protected** access modifier is accessible within **the package** and outside the package but through **\*inheritance** only.
 
 
 
 
-\*Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. You can find out more about **Inheritance** [here](https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html).
+\*Inheritance in Java is a mechanism in which one object acquires all the properties and behaviours of a parent object. You can find out more about **Inheritance** [here](https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html).
 
 
 
