@@ -61,55 +61,6 @@ public class Car {
 ```
 [/slide]
 
-[slide]
-
-# Problem: Bank Account
-
-Create class BankAccount.
-The class should have private fields for:
-- Id: int (Starts from 1 and increments for every new account)
-- Balance: double
-- Interest rate: double (Shared for all accounts. Default value: 0.02)
-The class should also have public methods for:
-- setInterestRate(double interest): void (static)
-- getInterest(int Years): double
-- deposit(double amount): void
-Create a test client supporting the following commands:
-- Create
-- Deposit {Id} {Amount}
-- SetInterest {Interest}
-- GetInterest {ID} {Years}
-- End
-
-[/slide]
-
-[slide]
-
-# Solution: Bank Account
-
-
-- Create the class as usual and create a constant for the default interest rate:
-```java
-public class BankAccount {
-
-    private final static double DEFAULT_INTEREST_RATE = 0.02;
-}
-```
-
-- Create the static and non-static fields, all private:
-
-```java
-public class BankAccount {
-
-    private final static double DEFAULT_INTEREST_RATE = 0.02;
-    private static double interestRate = DEFAULT_INTEREST_RATE;
-    private static int bankAccountCount = 1;
-    private int id;
-    private double balance;
-}
-```
-
-[/slide]
 
 [slide]
 # Problem: Bank Account
