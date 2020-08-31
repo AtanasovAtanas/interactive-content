@@ -157,11 +157,21 @@ System.out.println(hash);
 [/slide]
 
 [slide]
-
 # Problem: Car Info
+[code-task title="Problem: Car Info" taskId="8bb0524a-5629-4c59-847f-c7b913b41ff3" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
 
-Create a class named Car.
-
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
 The class should have the following private fields and public methods:
 - brand: String
 - model: String
@@ -176,6 +186,8 @@ The class should have the following public methods:
 - `getHorsePower()`: String
 - `setHorsePower(int horsePower)`: void
 - `carInfo()`: String
+
+## Hints
 
 Create a new class and **ensure proper naming!**
 
@@ -222,19 +234,11 @@ Do the same for all the fields.
 You should be able to **set** and **get** the field values by using **getter** and **setter** methods.
 
 ```java
-public class Main {
-    public static void main(String[] args) {
+Car car = new Car();
 
-        Car car = new Car();
-
-        car.setBrand("TESLA");
-        car.setModel("MODEL S");
-        car.setHorsePower(503);
-
-        System.out.printf("The car is: %s %s - %d HP",
-         car.getBrand(), car.getModel(), car.getHorsePower());
-    }
-}
+car.setBrand("TESLA");
+car.setModel("MODEL S");
+car.setHorsePower(503);
 ```
 
 Create a `carInfo()` method.
@@ -248,7 +252,142 @@ You have to figure out how to create a method and to use it in the outside code 
 ```java
 System.out.println(car.carInfo());
 ```
+
+# Examples
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 3 | The car is: Chevrolet Impala - 390 HP. |
+| Chevrolet Impala 390 | The car is: TESLA MODEL-S - 503 HP. |
+| TESLA MODEL-S 503 | The car is: DACIA DUSTER - 149 HP. |
+| DACIA DUSTER 149 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 5 | The car is: This Car - 1 HP. |
+| This Car 1 | The car is: Was Made - 2 HP. |
+| Was Made 2 | The car is: Only For - 3 HP. |
+| Only For 3 | The car is: Test Purposes - 4 HP. |
+| Test Purposes 4 | The car is: No Way - 5 HP. |
+| No Way 5 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+3
+Chevrolet Impala 390
+TESLA MODEL-S 503
+DACIA DUSTER 149
+[/input]
+[output]
+The car is: Chevrolet Impala - 390 HP.
+The car is: TESLA MODEL-S - 503 HP.
+The car is: DACIA DUSTER - 149 HP.
+[/output]
+[/test]
+[test open]
+[input]
+5
+This Car 1
+Was Made 2
+Only For 3
+Test Purposes 4
+No Way 5
+[/input]
+[output]
+The car is: This Car - 1 HP.
+The car is: Was Made - 2 HP.
+The car is: Only For - 3 HP.
+The car is: Test Purposes - 4 HP.
+The car is: No Way - 5 HP.
+[/output]
+[/test]
+[test]
+[input]
+4
+a b 1
+d e 2
+w e 2
+d 2 4
+[/input]
+[output]
+The car is: a b - 1 HP.
+The car is: d e - 2 HP.
+The car is: w e - 2 HP.
+The car is: d 2 - 4 HP.
+[/output]
+[/test]
+[test]
+[input]
+2
+f u 1
+o o 2
+[/input]
+[output]
+The car is: f u - 1 HP.
+The car is: o o - 2 HP.
+[/output]
+[/test]
+[test]
+[input]
+3
+f u 1
+c k 2
+o f 2
+[/input]
+[output]
+The car is: f u - 1 HP.
+The car is: c k - 2 HP.
+The car is: o f - 2 HP.
+[/output]
+[/test]
+[test]
+[input]
+5
+a b 1
+d e 2
+w e 2
+d 2 4
+d 2 4
+[/input]
+[output]
+The car is: a b - 1 HP.
+The car is: d e - 2 HP.
+The car is: w e - 2 HP.
+The car is: d 2 - 4 HP.
+The car is: d 2 - 4 HP.
+[/output]
+[/test]
+[test]
+[input]
+8
+a b 1
+d e 2
+w e 2
+d 2 4
+a b 1
+d e 2
+w e 2
+d 2 4
+[/input]
+[output]
+The car is: a b - 1 HP.
+The car is: d e - 2 HP.
+The car is: w e - 2 HP.
+The car is: d 2 - 4 HP.
+The car is: a b - 1 HP.
+The car is: d e - 2 HP.
+The car is: w e - 2 HP.
+The car is: d 2 - 4 HP.
+[/output]
+[/test]
+[/tests]
+[/code-task]
 [/slide]
+
 
 [slide]
 
