@@ -233,9 +233,6 @@ System.out.println(secondCar.carInfo());
 ```
 
 
-
-# Examples
-
 ## Examples
 | **Input** | **Output** |
 | --- | --- |

@@ -253,7 +253,6 @@ You have to figure out how to create a method and to use it in the outside code 
 System.out.println(car.carInfo());
 ```
 
-# Examples
 
 ## Examples
 | **Input** | **Output** |
