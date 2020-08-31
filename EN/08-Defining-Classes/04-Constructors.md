@@ -12,7 +12,7 @@ It is a special type of method which is used to initialize the object.
 
 Every time an object is created using the `new()` keyword, at least one constructor is called.
 
-Constructor has same name as the class and looks like this in a java code:
+A constructor has the same name as the class and looks like this in java code:
 
 ```java
 public class Car {
@@ -51,17 +51,17 @@ public class Car {
 ```
 In the example above, we have two constructors.
 
-The first one takes only one parameter and the second one takes two paramaters.
+The first one takes only one parameter and the second one takes two parameters.
 
 ## Default Constructor
 
-In Java a constructor is called "Default" when it doesn't have any parameter.
+In Java, a constructor is called "Default" when it doesn't have any parameter.
 
 If you don't have any constructor in your class, the Java compiler will insert a default constructor for you.
 
 You would not find it in your source code(the java file) as it would be inserted into the code during compilation and exists in `.class` file.
 
-The default constructor doesn't have any parameters and look like this:
+The default constructor doesn't have any parameters and looks like this:
 
 ```java
 public Car() {
@@ -75,7 +75,7 @@ If you implement any constructor then you no longer receive a default constructo
 
 Constructors set object's initial state.
 
-For example the default constructor is used to set the default initial state of the object like 0, null, etc., depending on the type.
+For example, the default constructor is used to set the default initial state of the object like 0, null, etc., depending on the type.
 
 ```java
 public class Car {
@@ -108,7 +108,7 @@ Here, we have a constructor with one parameter "brand" in the body of constructo
 
 ## Constructor Chaining
 
-In Java it is possible to call a constructor from inside another constructor.
+In Java, it is possible to call a constructor from inside another constructor.
 
 When you call a constructor from inside another constructor, you use the `this` keyword to refer to the constructor.
 
@@ -133,14 +133,14 @@ The first constructor takes two arguments "brand" and "horsePower".
 
 The second takes only one argument - "brand".
 
-Inside the body of the second constructor we find the following Java statement:
+Inside the body of the second constructor, we find the following Java statement:
 
 ```java
   this(brand, -1);
 ```
 The `this` keyword followed by parentheses and parameters means that another constructor in the same Java class is being called.
 
-Which other constructor is being called depends on the passed parameters to the constructor call(inside the parentheses after the this keyword)
+Which other constructor is being called depends on the passed parameters to the constructor call(inside the parentheses after the `this` keyword)
 
 In this example, it is the first constructor in the class that is being called.
 
