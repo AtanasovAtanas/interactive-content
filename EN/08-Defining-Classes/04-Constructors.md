@@ -147,9 +147,23 @@ In this example, it is the first constructor in the class that is being called.
 
 [/slide]
 
-[slide]
 
-# Problem: Constructors
+[slide]
+# Problem: Car Constructors
+[code-task title="Problem: Car Constructors" taskId="78303c7d-a0e2-46d4-adfa-01d8ff870365" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
 
 Create a Car class with the following properties:
 
@@ -169,6 +183,12 @@ Create a Car class with the following properties:
 Make proper constructors for the Car class so you can create car objects with different type of input information.
 
 If you miss information about field of type **String** set the value to "**unknown**", and for **integer** field set **-1**.
+
+The `carInfo()` method should return the info about any car object in the following format:
+
+"The car is: \{brand\} \{model\} – \{horsePower\} HP."
+
+## Hints
 
 First declare constructor which takes only **the car brand** as parameter:
 
@@ -212,11 +232,141 @@ System.out.println(firstCar.carInfo());
 System.out.println(secondCar.carInfo());
 ```
 
+
+
+# Examples
+
+## Examples
+| **Input** | **Output** |
+| --- | --- |
+| 2 | The car is: Chevrolet unknown - -1 HP. |
+| Chevrolet | The car is: TESLA MODEL-S - 503 HP. |
+| TESLA MODEL-S 503 |  |
+
+| **Input** | **Output** |
+| --- | --- |
+| 4 | The car is: BMW unknown - -1 HP. |
+| BMW | The car is: Dacia Logan - 200 HP. |
+| Dacia Logan 200 | The car is: Renault Clio - 75 HP. |
+| Renault Clio 75 | The car is: Dacia Duster - 350 HP. |
+| Dacia Duster 350 |  |
+
+[/task-description]
+[code-io /]
+[tests]
+[test open]
+[input]
+2
+Chevrolet
+TESLA MODEL-S 503
+[/input]
+[output]
+The car is: Chevrolet unknown - -1 HP.
+The car is: TESLA MODEL-S - 503 HP.
+[/output]
+[/test]
+[test open]
+[input]
+4
+BMW
+Dacia Logan 200
+Renault Clio 75
+Dacia Duster 350
+[/input]
+[output]
+The car is: BMW unknown - -1 HP.
+The car is: Dacia Logan - 200 HP.
+The car is: Renault Clio - 75 HP.
+The car is: Dacia Duster - 350 HP.
+[/output]
+[/test]
+[test]
+[input]
+4
+a
+d
+w
+d
+[/input]
+[output]
+The car is: a unknown - -1 HP.
+The car is: d unknown - -1 HP.
+The car is: w unknown - -1 HP.
+The car is: d unknown - -1 HP.
+[/output]
+[/test]
+[test]
+[input]
+2
+f
+o o 2
+[/input]
+[output]
+The car is: f unknown - -1 HP.
+The car is: o o - 2 HP.
+[/output]
+[/test]
+[test]
+[input]
+3
+f u 1
+c k 2
+o f 2
+[/input]
+[output]
+The car is: f u - 1 HP.
+The car is: c k - 2 HP.
+The car is: o f - 2 HP.
+[/output]
+[/test]
+[test]
+[input]
+5
+a b 1
+d
+w
+d 2 4
+d 2 4
+[/input]
+[output]
+The car is: a b - 1 HP.
+The car is: d unknown - -1 HP.
+The car is: w unknown - -1 HP.
+The car is: d 2 - 4 HP.
+The car is: d 2 - 4 HP.
+[/output]
+[/test]
+[test]
+[input]
+8
+a b 1
+d e 2
+w e 2
+d 2 4
+a
+d
+w
+d
+[/input]
+[output]
+The car is: a b - 1 HP.
+The car is: d e - 2 HP.
+The car is: w e - 2 HP.
+The car is: d 2 - 4 HP.
+The car is: a unknown - -1 HP.
+The car is: d unknown - -1 HP.
+The car is: w unknown - -1 HP.
+The car is: d unknown - -1 HP.
+[/output]
+[/test]
+[/tests]
+[/code-task]
 [/slide]
+
 
 [slide]
 
-# Solution: Constructors
+# Solution: Car Constructors
 
 - Car class:
 
