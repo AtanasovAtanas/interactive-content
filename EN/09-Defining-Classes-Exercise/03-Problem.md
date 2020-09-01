@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Speed Racing
-[code-task title="Speed Racing" taskId="51ee0d4e-daac-43b6-8bde-2477b2e01912" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Raw Data
+[code-task title="Raw Data" taskId="45d1be24-82dd-4ff1-9586-d02e73ff698d" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,58 +14,44 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Your task is to implement a program that keeps track of cars and their fuel and supports methods for moving cars.
+You are the owner of a courier company and you want to make a system for tracking your cars and their cargo.
 
-Define a class **Car** that keeps track of a car information **Model, fuel amount, fuel cost for 1 kilometer**, and **distance traveled**.
+Define a class **Car** that holds information about **model, engine, cargo**, and a **collection of exactly 4 tires**.
 
-A Car Model is **unique** - there will never be 2 cars with the same model.
+The engine, cargo, and tire **should be separate classes**, create a constructor that receives all information about the Car, and creates and initializes its inner components (engine, cargo, and tires).
 
-On the first line of the input you will receive a number **N** - the number of cars you need to track. 
+On the first line of the input you will receive a number **N** - the number of cars you have. 
 
-On **each** of the next **N** lines you will receive information for a car in the following format: 
+On each of the next **N** lines you will receive information about a car in the format: 
 
-`<model> <fuelAmount> <fuelCostFor1km>`
+`<model> <engineSpeed> <enginePower> <cargoWeight> <cargoType> <tire1Pressure> <tire1Age> <tire2Pressure> <tire2Age> <tire3Pressure> <tire3Age> <tire4Pressure> <tire4Age>`
 
-All **cars start at 0 kilometers traveled**.
+Where the speed, power, weight and tire age are **integers**, tire pressure is a **double**.
 
-After the **N** lines until the command `End` is received, you will receive commands in the following format: 
+After the **N** lines you will receive a single line with one of 2 commands `fragile` or `flamable`.
 
-`Drive <carModel> <amountOfKm>`
+If the command is `fragile` print all cars whose **cargoType is** `fragile` with a **tire** whose **pressure is < 1**.
 
-Implement a method in the **Car** class to calculate whether a car **can** move that distance or **not**. 
+If the command is `flamable` print all cars whose **cargoType is** `flamable` and have **enginePower > 250**. 
 
-If it can, the car **fuel amount** should be **reduced** by the amount of used fuel and its **distance traveled** should be increased by the number of kilometers traveled, otherwise the car should not move (its fuel amount and distance traveled should stay the same) and you should print on the console 
-
-`Insufficient fuel for the drive` 
-
-After the `End` command is received, print each car in order of appearing in input and its current fuel amount and distance traveled in the format:
-
-`<model> <fuelAmount> <distanceTraveled>`
-
-Where the fuel amount should be rounded to the **second decimal place**.
+The cars should be printed in order of appearing in the input on a separate lines.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 2 | AudiA4 17.60 18 |
-| AudiA4 23 0.3 | BMW-M2 21.48 56 |
-| BMW-M2 45 0.42 |  |
-| Drive BMW-M2 56 |  |
-| Drive AudiA4 5 |  |
-| Drive AudiA4 13 |  |
-| End |  |
+| 2 | Citroen2CV |
+| ChevroletAstro 200 180 1000 fragile 1.3 1 1.5 2 1.4 2 1.7 4 |  |
+| Citroen2CV 190 165 1200 fragile 0.9 3 0.85 2 0.95 2 1.1 1 |  |
+| fragile |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 3 | Insufficient fuel for the drive |
-| AudiA4 18 0.34 | Insufficient fuel for the drive |
-| BMW-M2 33 0.41 | AudiA4 1.00 50 |
-| Ferrari-488Spider 50 0.47 | BMW-M2 33.00 0 |
-| Drive Ferrari-488Spider 97 | Ferrari-488Spider 4.41 97 |
-| Drive Ferrari-488Spider 35 |  |
-| Drive AudiA4 85 |  |
-| Drive AudiA4 50 |  |
-| End |  |
+| 4 | ChevroletExpress |
+| ChevroletExpress 215 255 1200 flamable 2.5 1 2.4 2 2.7 1 2.8 1 | DaciaDokker |
+| ChevroletAstro 210 230 1000 flamable 2 1 1.9 2 1.7 3 2.1 1 |  |
+| DaciaDokker 230 275 1400 flamable 2.2 1 2.3 1 2.4 1 2 1 |  |
+| Citroen2CV 190 165 1200 fragile 0.8 3 0.85 2 0.7 5 0.95 2 |  |
+| flamable |  |
 
 [/task-description]
 [code-io /]
@@ -73,153 +59,96 @@ Where the fuel amount should be rounded to the **second decimal place**.
 [test open]
 [input]
 2
-AudiA4 23 0.3
-BMW-M2 45 0.42
-Drive BMW-M2 56
-Drive AudiA4 5
-Drive AudiA4 13
-End
+ChevroletAstro 200 180 1000 fragile 1.3 1 1.5 2 1.4 2 1.7 4
+Citroen2CV 190 165 1200 fragile 0.9 3 0.85 2 0.95 2 1.1 1
+fragile
 [/input]
 [output]
-AudiA4 17.60 18
-BMW-M2 21.48 56
+Citroen2CV
 [/output]
 [/test]
 [test open]
 [input]
-3
-AudiA4 18 0.34
-BMW-M2 33 0.41
-Ferrari-488Spider 50 0.47
-Drive Ferrari-488Spider 97
-Drive Ferrari-488Spider 35
-Drive AudiA4 85
-Drive AudiA4 50
-End
+4
+ChevroletExpress 215 255 1200 flamable 2.5 1 2.4 2 2.7 1 2.8 1
+ChevroletAstro 210 230 1000 flamable 2 1 1.9 2 1.7 3 2.1 1
+DaciaDokker 230 275 1400 flamable 2.2 1 2.3 1 2.4 1 2 1
+Citroen2CV 190 165 1200 fragile 0.8 3 0.85 2 0.7 5 0.95 2
+flamable
 [/input]
 [output]
-Insufficient fuel for the drive
-Insufficient fuel for the drive
-AudiA4 1.00 50
-BMW-M2 33.00 0
-Ferrari-488Spider 4.41 97
-[/output]
-[/test]
-[test]
-[input]
-3
-MustangGTR 80 4.9
-FerarriGTR 10 5.5
-Moher 10 0.1
-Drive MustangGTR 25
-Drive MustangGTR 10
-Drive FerarriGTR 100
-Drive FerarriGTR 1
-Drive Moher 101
-End
-[/input]
-[output]
-Insufficient fuel for the drive
-Insufficient fuel for the drive
-Insufficient fuel for the drive
-MustangGTR 31.00 10
-FerarriGTR 4.50 1
-Moher 10.00 0
+ChevroletExpress
+DaciaDokker
 [/output]
 [/test]
 [test]
 [input]
 5
-M1 10 1.1
-M2 20 1.2
-M3 40 2
-M4 40 4
-M 100 5
-Drive M1 5
-Drive M2 20
-Drive M 15
-Drive M1 70
-Drive M3 20
-Drive M4 20
-End
+ChevroletExpress 215 255 1200 flamable 2.5 1 2.4 2 2.7 1 2.8 1
+ChevroletAstro 210 230 1000 flamable 2 1 1.9 2 1.7 3 2.1 1
+DaciaDokker 230 275 1400 flamable 2.2 1 2.3 1 2.4 1 2 1
+Citroen2CV 190 165 1200 fragile 0.8 3 0.85 2 0.7 5 0.95 2
+LaTroca 150 350 1500 flamable 2 1 1.9 2 1.7 3 2.1 1
+flamable
 [/input]
 [output]
-Insufficient fuel for the drive
-Insufficient fuel for the drive
-Insufficient fuel for the drive
-M1 4.50 5
-M2 20.00 0
-M3 0.00 20
-M4 40.00 0
-M 25.00 15
+ChevroletExpress
+DaciaDokker
+LaTroca
 [/output]
 [/test]
 [test]
 [input]
-3
-M100 90 6
-T 100 5
-H 200 7
-Drive M100 15
-Drive M100 10
-Drive T 1000
-Drive T 25
-Drive H 25
-End
+4
+C 200 180 1000 fragile 1.3 1 1.5 2 1.4 2 1.7 4
+C2 190 165 1200 fragile 0.9 3 0.85 2 0.95 2 1.1 1
+M4 300 250 1500 fragile 0.9 4 0.55 2 0.85 2 1.1 2
+M 404 404 4004 fragile 0.9 1 0.9 5 0.9 4 3 5
+fragile
 [/input]
 [output]
-Insufficient fuel for the drive
-Insufficient fuel for the drive
-Insufficient fuel for the drive
-M100 0.00 15
-T 100.00 0
-H 25.00 25
+C2
+M4
+M
 [/output]
 [/test]
 [test]
 [input]
-3
-K 5 0.1
-S 9 10
-T 10 0.2
-Drive K 5
-Drive K 15
-Drive S 100
-Drive T 15
-End
+6
+ChevroletExpress 215 255 1200 flamable 2.5 1 2.4 2 2.7 1 2.8 1
+ChevroletAstro 210 230 1000 flamable 2 1 1.9 2 1.7 3 2.1 1
+DaciaDokker 230 275 1400 flamable 2.2 1 2.3 1 2.4 1 2 1
+Citroen2CV 190 165 1200 fragile 0.8 3 0.85 2 0.7 5 0.95 2
+Chevrolantiq 210 270 1000 flamable 2 1 1.9 2 1.7 3 2.1 1
+KappaMobile 210 330 1000 flamable 2 1 1.9 2 1.7 3 2.1 1
+flamable
 [/input]
 [output]
-Insufficient fuel for the drive
-K 3.00 20
-S 9.00 0
-T 7.00 15
+ChevroletExpress
+DaciaDokker
+Chevrolantiq
+KappaMobile
 [/output]
 [/test]
 [test]
 [input]
-5
-B 50 1
-S 5 0.5
-M 1 0.5
-D 15 2
-K 20 5
-Drive B 49
-Drive S 10
-Drive D 7
-Drive D 1
-Drive K 3
-Drive K 1
-Drive M 100
-End
+2
+ChevroletExpress 215 200 1200 fragile 2.5 1 2.4 2 2.7 1 2.8 1
+ChevroletAstro 210 200 1000 flamable 2 1 1.9 2 1.7 3 2.1 1
+flamable
 [/input]
 [output]
-Insufficient fuel for the drive
-Insufficient fuel for the drive
-B 1.00 49
-S 0.00 10
-M 1.00 0
-D 1.00 7
-K 0.00 4
+
+[/output]
+[/test]
+[test]
+[input]
+1
+T 2000 1800 10000 flamable 1.3 1 1.5 2 1.4 2 1.7 4
+flamable
+[/input]
+[output]
+T
 [/output]
 [/test]
 [/tests]

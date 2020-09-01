@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Personal Information
-[code-task title="Personal Information" taskId="5d118095-25ac-454f-b83d-562694f855fa" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Family Tree
+[code-task title="Family Tree" taskId="102bcf46-b2bb-4218-b78d-86641c10eeec" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,257 +14,294 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-*You and your friends decide to create a Class that holds all the information about all of you, even your pokemon collection. Since you are good at writing code, they asked you to design that Class.*
+*You want to build your family tree, so you went to ask your grandmother. Sadly your grandmother keeps remembering information about your predecessors in pieces, so it falls to you to group the information and build the family tree.*
 
-From the console you will receive lines until the command `End`.
+On the first line of the input, you will receive either a name or a birthdate in the format:
 
-Each of those lines contains information about a person in one of the following formats:
+`<FirstName> <LastName>` or `day/month/year`
 
-- `{personName} company {companyName} {department} {salary}`
+Your task is to find information about the person in the family tree. 
 
-- `{personName} pokemon {pokemonName} {pokemonType}`
+On the next lines, until the command `End`, you will receive information about your predecessors that is needed for the family tree.
 
-- `{personName} parents {parentName} {parentBirthday}`
+The information will be in one of the following formats:
 
-- `{personName} children {childName} {childBirthday}`
+- `firstName lastName - firstName lastName`
+- `firstName lastName - day/month/year`
+- `day/month/year - firstName lastName`
+- `day/month/year - day/month/year`
+- `firstName lastName day/month/year`
 
-- `{personName} car {carModel} {carSpeed}`
+The first 4 formats reveal a family tie: 
 
-You should structure all information about a person in a class with nested subclasses. 
+The person **on the left** is the **parent** to the person **on the right**.
 
-Person names are **unique** - there won't be 2 person with the same name.
+The format can be **without names**. 
 
-A person can have **only one company** and **one car**, but can have **multiple parents, children** and **pokemon**. 
+For example, the 4th format means the person **born on the left date** is the **parent to the person born on the right** date. 
 
-After the command `End` you will receive a **single** name on the next line.
+The last format ties **different** information together – i.e. **the person with that name was born on that date**. 
 
-You should **print** all information about that person. 
+**Names** and **birthdates** are **unique** – there won't be two persons with the same name or birthdate. 
 
-**Note** that the information can change **during** the **input**.
+There will **always** be enough entries to construct the family tree (all people names and birthdates are known and they have **at least one** connection to another person in the tree).
 
-For example, if you receive multiple lines which specify a person company, only the **last one** should be the one remembered. 
+After the command `End` is received you should print all information about the person whose name or birthdate you received on the first line – his **name, birthday, parents, and children** (check the examples for the format). 
 
-The salary must be formatted to **the second decimal place**.
+The people in the parents and children lists should be **ordered** by their **first appearance** in the input.
 
-Print the information in the following format:
+Regardless if they appeared as a birthdate or a name. 
 
-```java
-{personName}
-Company:
-{companyName} {companyDepartment} {salary}
-Car:
-{carModel} {carSpeed}
-Pokemon:
-{pokemonName} {pokemonType}
-Parents:
-{parentName} {parentBirthday}
-Children:
-{childName} {childBirthday}
-```
+For example in the first input Stan is before Jenny because his birthdate appeared first in the second line, while she appeared in the third line.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| Peter company PeshInc Management 1000.00 | Tom |
-| Tom car Volvo 30 | Company: |
-| Peter pokemon Pikachu Electricity | Car: |
-| Peter parents JohnDoe 22/02/1920 | Volvo 30 |
-| Tom pokemon Electrode Electricity | Pokemon: |
-| End | Electrode Electricity |
-| Tom | Parents: |
-|  | Children: |
-
+| John Baker | John Baker 23/05/1980 |
+| 11/11/1951 - 23/05/1980 | Parents: |
+| Jenny Baker - 23/05/1980 | Stan Baker 11/11/1951 |
+| Jenny Baker 09/02/1953 | Jenny Baker 09/02/1953 |
+| John Baker - Garrett Baker | Children: |
+| Garrett Baker 01/01/2005 | Garrett Baker 01/01/2005 |
+| Stan Baker 11/11/1951 |  |
+| John Baker 23/05/1980 |  |
+| End |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| JohnDoe pokemon Onyx Rock | JohnDoe |
-| JohnDoe parents JJ 13/03/1933 | Company: |
-| GeorgeAdams pokemon Moltres Fire | JLtd Jelior 777.77 |
-| JohnDoe company JLtd Jelior 777.77 | Car: |
-| JohnDoe children PJ 01/01/2001 | AudiA4 180 |
-| StanSmith pokemon Blastoise Water | Pokemon: |
-| JohnDoe car AudiA4 180 | Onyx Rock |
-| JohnDoe pokemon Charizard Fire | Charizard Fire |
-| End | Parents: |
-| JohnDoe | JJ 13/03/1933 |
-|  | Children: |
-|  | PJ 01/01/2001 |
+| 13/12/1993 | Christopher Williams 13/12/1993 |
+| 25/03/1934 - 04/04/1961 | Parents: |
+| Leonard Williams 25/03/1934 | Benjamin Williams 04/04/1961 |
+| 04/04/1961 - Christopher Williams | Children: |
+| Benjamin Williams - Edward Williams |  |
+| Christopher Williams 13/12/1993 |  |
+| Edward Williams 07/07/1995 |  |
+| Benjamin Williams 04/04/1961 |  |
+| End |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-Peter company PeshInc Management 1000.00
-Tom car Volvo 30
-Peter pokemon Pikachu Electricity
-Peter parents JohnDoe 22/02/1920
-Tom pokemon Electrode Electricity
+John Baker
+11/11/1951 - 23/05/1980
+Jenny Baker - 23/05/1980
+Jenny Baker 09/02/1953
+John Baker - Garrett Baker
+Garrett Baker 01/01/2005
+Stan Baker 11/11/1951
+John Baker 23/05/1980
 End
-Tom
 [/input]
 [output]
-Tom
-Company:
-Car:
-Volvo 30
-Pokemon:
-Electrode Electricity
+John Baker 23/05/1980
 Parents:
+Stan Baker 11/11/1951
+Jenny Baker 09/02/1953
 Children:
+Garrett Baker 01/01/2005
 [/output]
 [/test]
 [test open]
 [input]
-JohnDoe pokemon Onyx Rock
-JohnDoe parents JJ 13/03/1933
-GeorgeAdams pokemon Moltres Fire
-JohnDoe company JLtd Jelior 777.77
-JohnDoe children PJ 01/01/2001
-StanSmith pokemon Blastoise Water
-JohnDoe car AudiA4 180
-JohnDoe pokemon Charizard Fire
+13/12/1993
+25/03/1934 - 04/04/1961
+Leonard Williams 25/03/1934
+04/04/1961 - Christopher Williams
+Benjamin Williams - Edward Williams
+Christopher Williams 13/12/1993
+Edward Williams 07/07/1995
+Benjamin Williams 04/04/1961
 End
-JohnDoe
 [/input]
 [output]
-JohnDoe
-Company:
-JLtd Jelior 777.77
-Car:
-AudiA4 180
-Pokemon:
-Onyx Rock
-Charizard Fire
+Christopher Williams 13/12/1993
 Parents:
-JJ 13/03/1933
-Children:
-PJ 01/01/2001
-[/output]
-[/test]
-[test]
-[input]
-K company JC CEO 2000.00
-K pokemon P P
-K car Audi 50
-S parents MJ 19/01/1950
-S children KK 20/09/1992
-S pokemon B B
-End
-S
-[/input]
-[output]
-S
-Company:
-Car:
-Pokemon:
-B B
-Parents:
-MJ 19/01/1950
-Children:
-KK 20/09/1992
-[/output]
-[/test]
-[test]
-[input]
-K pokemon C C
-K pokemon S S
-K pokemon S W
-K car L 100
-M car L 99
-M car S 98
-E parents P 19/09/1999
-E children H 19/08/1998
-End
-K
-[/input]
-[output]
-K
-Company:
-Car:
-L 100
-Pokemon:
-C C
-S S
-S W
-Parents:
+Benjamin Williams 04/04/1961
 Children:
 [/output]
 [/test]
 [test]
 [input]
-V children AR 01/05/1995
-A pokemon RA Water
-A children IJ 02/06/1993
-A car BMW 120
-A company SoftUni Janitor 5.00
-A parents SN 06/06/1966
+17/8/1950
+P0 P - P8 P
+P0 P 17/8/1950
+P8 P - P1 P
+P1 P 17/10/2001
+26/5/1948 - P2 P
+P2 P 13/5/1973
+17/2/1952 - P P
+P3 P 17/2/1952
+P11 P - P4 P
+P4 P 16/7/1998
+26/5/1948 - P5 P
+P5 P 21/1/1973
+26/5/1948 - P5 P
+P6 P 26/5/1948
+21/1/1973 - P7 P
+P7 P 18/10/2002
+26/5/1948 - 28/1/1974
+P8 P 28/1/1974
+26/5/1948 - 23/4/1973
+P9 P 23/4/1973
+13/5/1973 - P10 P
+P10 P 16/11/1998
+P6 P - P11 P
+P11 P 24/4/1977
+24/7/1951 - 21/1/1973
+P12 P 24/7/1951
 End
-A
 [/input]
 [output]
-A
-Company:
-SoftUni Janitor 5.00
-Car:
-BMW 120
-Pokemon:
-RA Water
+P0 P 17/8/1950
 Parents:
-SN 06/06/1966
 Children:
-IJ 02/06/1993
+P8 P 28/1/1974
 [/output]
 [/test]
 [test]
 [input]
-D pokemon Z Z
-D parents TB 01/01/1983
-D company DC P 500
-K company NL JD 2000
-K pokemon K K
-K parents P 07/23/1960
-KT company B CG 100
-KT pokemon T T
+6/9/1927
+P7 P - 12/1/1974
+P0 P 12/1/1974
+17/2/1950 - 10/3/1975
+P1 P 10/3/1975
+P10 P - P2 P
+P2 P 26/5/1924
+17/2/1950 - P3 P
+P3 P 28/12/1973
+P1 P - 21/9/1998
+P4 P 21/9/1998
+P1 P - P5 P
+P5 P 27/11/1998
+P10 P - P6 P
+P6 P 6/9/1927
+P2 P - 17/2/1950
+P7 P 17/2/1950
+28/12/1973 - P8 P
+P8 P 12/12/1999
+P10 P - 10/7/1927
+P9 P 10/7/1927
+6/9/1900 - P9 P
+P10 P 6/9/1900
 End
-K
 [/input]
 [output]
-K
-Company:
-NL JD 2000.00
-Car:
-Pokemon:
-K K
+P6 P 6/9/1927
 Parents:
-P 07/23/1960
+P10 P 6/9/1900
 Children:
 [/output]
 [/test]
 [test]
 [input]
-T company H EM 999999.99
-T children H 01/01/1000
-T children A 01/01/1000
-T children LR 01/01/1000
-T parents N 00/00/0000
-T pokemon MR S
+Abc12 Abcde
+3/10/1927 - 23/10/1951
+Abc0 Abcde 3/10/1927
+3/4/1923 - Abc1 Abcde
+Abc1 Abcde 26/8/1951
+3/10/1927 - Abc2 Abcde
+Abc2 Abcde 24/6/1948
+Abc4 Abcde - 5/2/1998
+Abc3 Abcde 5/2/1998
+Abc1 Abcde - 4/3/1977
+Abc4 Abcde 4/3/1977
+3/10/1927 - Abc5 Abcde
+Abc5 Abcde 6/3/1951
+Abc4 Abcde - 16/12/1998
+Abc6 Abcde 16/12/1998
+3/4/1923 - Abc7 Abcde
+Abc7 Abcde 23/10/1951
+Abc4 Abcde - 10/2/1999
+Abc8 Abcde 10/2/1999
+Abc4 Abcde - 23/11/2001
+Abc9 Abcde 23/11/2001
+Abc4 Abcde - 18/8/2000
+Abc10 Abcde 18/8/2000
+Abc4 Abcde - 21/6/2002
+Abc11 Abcde 21/6/2002
+Abc12 Abcde 3/4/1923
+4/3/1977 - Abc13 Abcde
+Abc13 Abcde 2/6/2001
 End
-T
 [/input]
 [output]
-T
-Company:
-H EM 999999.99
-Car:
-Pokemon:
-MR S
+Abc12 Abcde 3/4/1923
 Parents:
-N 00/00/0000
 Children:
-H 01/01/1000
-A 01/01/1000
-LR 01/01/1000
+Abc1 Abcde 26/8/1951
+Abc7 Abcde 23/10/1951
+[/output]
+[/test]
+[test]
+[input]
+9/9/1975
+Abc9 Abcde - 14/12/1948
+Abc0 Abcde 14/12/1948
+Abc9 Abcde - Abc1 Abcde
+Abc1 Abcde 6/11/1952
+Abc9 Abcde - Abc2 Abcde
+Abc2 Abcde 10/6/1951
+Abc6 Abcde - Abc3 Abcde
+Abc3 Abcde 1/5/1999
+Abc9 Abcde - Abc4 Abcde
+Abc4 Abcde 20/8/1949
+10/6/1951 - Abc5 Abcde
+Abc5 Abcde 5/8/1973
+14/12/1948 - Abc6 Abcde
+Abc6 Abcde 9/9/1975
+14/12/1948 - 14/1/1975
+Abc7 Abcde 14/1/1975
+Abc1 Abcde - Abc8 Abcde
+Abc8 Abcde 7/10/1976
+Abc9 Abcde - Abc1 Abcde
+Abc9 Abcde 11/5/1925
+Abc4 Abcde - 9/5/1976
+Abc10 Abcde 9/5/1976
+End
+[/input]
+[output]
+Abc6 Abcde 9/9/1975
+Parents:
+Abc0 Abcde 14/12/1948
+Children:
+Abc3 Abcde 1/5/1999
+[/output]
+[/test]
+[test]
+[input]
+14/6/1950
+21/9/1899 - Abc9 Abcde
+Abc0 Abcde 21/9/1899
+22/2/1898 - 17/12/1924
+Abc1 Abcde 17/12/1924
+21/9/1899 - 11/2/1925
+Abc2 Abcde 11/2/1925
+22/2/1898 - Abc3 Abcde
+Abc3 Abcde 20/7/1927
+22/2/1898 - 11/2/1925
+Abc4 Abcde 22/2/1898
+19/6/1901 - 11/11/1926
+Abc5 Abcde 11/11/1926
+Abc5 Abcde - Abc6 Abcde
+Abc6 Abcde 27/8/1952
+14/6/1950 - 26/9/1974
+Abc7 Abcde 26/9/1974
+Abc2 Abcde - Abc8 Abcde
+Abc8 Abcde 14/6/1950
+Abc4 Abcde - Abc9 Abcde
+Abc9 Abcde 17/3/1923
+Abc10 Abcde - 17/12/1924
+Abc10 Abcde 19/6/1901
+End
+[/input]
+[output]
+Abc8 Abcde 14/6/1950
+Parents:
+Abc2 Abcde 11/2/1925
+Children:
+Abc7 Abcde 26/9/1974
 [/output]
 [/test]
 [/tests]

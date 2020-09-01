@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Company Roster
-[code-task title="Company Roster" taskId="76597424-6663-4f2d-b5d1-cb23dff0383e" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Speed Racing
+[code-task title="Speed Racing" taskId="51ee0d4e-daac-43b6-8bde-2477b2e01912" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,166 +14,212 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Define a class **Employee** that holds the following information: **name, salary, position, department, email** and **age**.
+Your task is to implement a program that keeps track of cars and their fuel and supports methods for moving cars.
 
-The **name, salary, position** and **department** are **mandatory** while the rest are **optional**.
+Define a class **Car** that keeps track of a car information **Model, fuel amount, fuel cost for 1 kilometer**, and **distance traveled**.
 
-Your task is to write a program which takes **N** lines of information about employees from the console and calculates the department with the highest average salary and prints for each employee in that department his **name, salary, email and age** - **sorted by salary in descending order**. 
+A Car Model is **unique** - there will never be 2 cars with the same model.
 
-If an employee **does not have** an **email** – in place of that field you should print **"n/a"** instead, if he does not have an **age** – print **"-1"** instead. 
+On the first line of the input you will receive a number **N** - the number of cars you need to track. 
 
-The **salary** should be printed to **two decimal places** after the separator.
+On **each** of the next **N** lines you will receive information for a car in the following format: 
 
-**Hint**: you can define a **Department** class that holds a list of employees.
+`<model> <fuelAmount> <fuelCostFor1km>`
+
+All **cars start at 0 kilometers traveled**.
+
+After the **N** lines until the command `End` is received, you will receive commands in the following format: 
+
+`Drive <carModel> <amountOfKm>`
+
+Implement a method in the **Car** class to calculate whether a car **can** move that distance or **not**. 
+
+If it can, the car **fuel amount** should be **reduced** by the amount of used fuel and its **distance traveled** should be increased by the number of kilometers traveled, otherwise the car should not move (its fuel amount and distance traveled should stay the same) and you should print on the console 
+
+`Insufficient fuel for the drive` 
+
+After the `End` command is received, print each car in order of appearing in input and its current fuel amount and distance traveled in the format:
+
+`<model> <fuelAmount> <distanceTraveled>`
+
+Where the fuel amount should be rounded to the **second decimal place**.
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 4 | Highest Average Salary: Development |
-| Peter 2200.00 Dev Development peter@softuni.org 28 | John 4400.20 john@john.com -1 |
-| Tom 3300.00 Manager Marketing 33 | Peter 2200.00 peter@softuni.org 28 |
-| John 4400.20 ProjectLeader Development john@john.com |  |
-| Philip 0.20 Freelancer Nowhere 18 |  |
+| 2 | AudiA4 17.60 18 |
+| AudiA4 23 0.3 | BMW-M2 21.48 56 |
+| BMW-M2 45 0.42 |  |
+| Drive BMW-M2 56 |  |
+| Drive AudiA4 5 |  |
+| Drive AudiA4 13 |  |
+| End |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 6 | Highest Average Salary: Sales |
-| Stan 4960.37 Temp Coding stan@yahoo.com | Jimmy 6100.13 n/a -1 |
-| Jimmy 6100.13 Manager Sales | Alex 6090.99 alex@softuni.org 44 |
-| Alex 6090.99 Manager Sales alex@softuni.org 44 |  |
-| Victoria 0.02 Director BeerDrinking victoria@gmail.com 23 |  |
-| Andrew 7000.00 Director Coding |  |
-| Peyton 130.3333 Sailor SpinachGroup peyton@softuni.org |  |
+| 3 | Insufficient fuel for the drive |
+| AudiA4 18 0.34 | Insufficient fuel for the drive |
+| BMW-M2 33 0.41 | AudiA4 1.00 50 |
+| Ferrari-488Spider 50 0.47 | BMW-M2 33.00 0 |
+| Drive Ferrari-488Spider 97 | Ferrari-488Spider 4.41 97 |
+| Drive Ferrari-488Spider 35 |  |
+| Drive AudiA4 85 |  |
+| Drive AudiA4 50 |  |
+| End |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-4
-Peter 2200.00 Dev Development peter@softuni.org 28
-Tom 3300.00 Manager Marketing 33
-John 4400.20 ProjectLeader Development john@john.com
-Philip 0.20 Freelancer Nowhere 18
+2
+AudiA4 23 0.3
+BMW-M2 45 0.42
+Drive BMW-M2 56
+Drive AudiA4 5
+Drive AudiA4 13
+End
 [/input]
 [output]
-Highest Average Salary: Development
-John 4400.20 john@john.com -1
-Peter 2200.00 peter@softuni.org 28
+AudiA4 17.60 18
+BMW-M2 21.48 56
 [/output]
 [/test]
 [test open]
 [input]
-6
-Stan 4960.37 Temp Coding stan@yahoo.com
-Jimmy 6100.13 Manager Sales
-Alex 6090.99 Manager Sales alex@softuni.org 44
-Victoria 0.02 Director BeerDrinking victoria@gmail.com 23
-Andrew 7000.00 Director Coding
-Peyton 130.3333 Sailor SpinachGroup peyton@softuni.org
+3
+AudiA4 18 0.34
+BMW-M2 33 0.41
+Ferrari-488Spider 50 0.47
+Drive Ferrari-488Spider 97
+Drive Ferrari-488Spider 35
+Drive AudiA4 85
+Drive AudiA4 50
+End
 [/input]
 [output]
-Highest Average Salary: Sales
-Jimmy 6100.13 n/a -1
-Alex 6090.99 alex@softuni.org 44
-[/output]
-[/test]
-[test]
-[input]
-6
-Michael 1300.01 Dev Development michael@softuni.org 28
-Jeremy 1200.01 QA Testing jeremy@softuni.org 21
-Trevor 1300.01 QA Testing trevor@gmail.com 23
-Bethany 1300.02 QA Testing bethany@bethany.net 19
-Stiven 1200.43 Dev Development stiven@yahoo.com 28
-Sofia 1200.23 Dev Development sofia@softuni.org 28
-[/input]
-[output]
-Highest Average Salary: Testing
-Bethany 1300.02 bethany@bethany.net 19
-Trevor 1300.01 trevor@gmail.com 23
-Jeremy 1200.01 jeremy@softuni.org 21
-[/output]
-[/test]
-[test]
-[input]
-6
-Jacob 8400.20 ProjectLeader Development jacob@jacob.com
-Bishop 1230.31 Manager Marketing bishop@gmail.com
-Derek 3210.23 QA Testing derek@yahoo.com
-Bobby 310.1 ProjectLeader Testing bobby@bobby.net
-Phil 0.23 NoWhere StreetWork kodko@street.bg
-Ed 11000.33 Dev Development ed@softuni.org
-[/input]
-[output]
-Highest Average Salary: Development
-Ed 11000.33 ed@softuni.org -1
-Jacob 8400.20 jacob@jacob.com -1
-[/output]
-[/test]
-[test]
-[input]
-7
-Ben 8400.20 ProjectLeader Development 123
-Clark 1230.31 Manager Marketing  123
-Wendy 3210.23 QA Testing 22
-Andy 3100.1 ProjectLeader Testing 14
-Sarah 0.23 NoWhere StreetWork 13
-Abbigail 1100.33 Dev Development 12
-Robert 9999.98 QADev Testing 13
-[/input]
-[output]
-Highest Average Salary: Testing
-Robert 9999.98 n/a 13
-Wendy 3210.23 n/a 22
-Andy 3100.10 n/a 14
+Insufficient fuel for the drive
+Insufficient fuel for the drive
+AudiA4 1.00 50
+BMW-M2 33.00 0
+Ferrari-488Spider 4.41 97
 [/output]
 [/test]
 [test]
 [input]
 3
-Ed 1223.32 Dev Development email@email.em
-Edward 1993.32 Dev Development 22
-Edison 1223931.32 Dev Development email@email.em 44
+MustangGTR 80 4.9
+FerarriGTR 10 5.5
+Moher 10 0.1
+Drive MustangGTR 25
+Drive MustangGTR 10
+Drive FerarriGTR 100
+Drive FerarriGTR 1
+Drive Moher 101
+End
 [/input]
 [output]
-Highest Average Salary: Development
-Edison 1223931.32 email@email.em 44
-Edward 1993.32 n/a 22
-Ed 1223.32 email@email.em -1
+Insufficient fuel for the drive
+Insufficient fuel for the drive
+Insufficient fuel for the drive
+MustangGTR 31.00 10
+FerarriGTR 4.50 1
+Moher 10.00 0
 [/output]
 [/test]
 [test]
 [input]
-18
-Stan 49665.37 Temp Coding stan@yahoo.com
-Yasmin 610.1653 Manager Sales
-Teodor 60659.99 Manager Sales teodor@tdr.com 44
-Benjamin 0.0652 Trainer Training benjamin@ben.org 23
-Penny 700.0650 Director Coding
-Popeye 13.335433 Sailor Shipping popeye@pop.eu
-Murphy 496.3734 Temp Coding murphy@yahoo.com
-Kurt 610.13 Manager Sales kurt@gmail.com
-Teodor 609.993 Manager Sales teodor@gmail.com 44
-Victor 0.032 Director Sales sales@uni.eu 23
-Andrew 700.03305 Director Coding
-Popeye2 13.333333 Sailor Shipping popeye@pop.eu
-Simon 496.3437 Temp Coding simon@yahoo.com
-Donald 620.133333 Manager Sales 12
-Duck 609.99 Manager Sales duck@gmail.com 44
-Daffy 0.02 Director Training daffy@uni.eu 23
-Duckk 702.00 Director Coding
-Christopher 13.3333 Sailor SpinachGroup robin@pop.eu
+5
+M1 10 1.1
+M2 20 1.2
+M3 40 2
+M4 40 4
+M 100 5
+Drive M1 5
+Drive M2 20
+Drive M 15
+Drive M1 70
+Drive M3 20
+Drive M4 20
+End
 [/input]
 [output]
-Highest Average Salary: Sales
-Teodor 60659.99 teodor@tdr.com 44
-Donald 620.13 n/a 12
-Yasmin 610.17 n/a -1
-Kurt 610.13 kurt@gmail.com -1
-Teodor 609.99 teodor@gmail.com 44
-Duck 609.99 duck@gmail.com 44
-Victor 0.03 sales@uni.eu 23
+Insufficient fuel for the drive
+Insufficient fuel for the drive
+Insufficient fuel for the drive
+M1 4.50 5
+M2 20.00 0
+M3 0.00 20
+M4 40.00 0
+M 25.00 15
+[/output]
+[/test]
+[test]
+[input]
+3
+M100 90 6
+T 100 5
+H 200 7
+Drive M100 15
+Drive M100 10
+Drive T 1000
+Drive T 25
+Drive H 25
+End
+[/input]
+[output]
+Insufficient fuel for the drive
+Insufficient fuel for the drive
+Insufficient fuel for the drive
+M100 0.00 15
+T 100.00 0
+H 25.00 25
+[/output]
+[/test]
+[test]
+[input]
+3
+K 5 0.1
+S 9 10
+T 10 0.2
+Drive K 5
+Drive K 15
+Drive S 100
+Drive T 15
+End
+[/input]
+[output]
+Insufficient fuel for the drive
+K 3.00 20
+S 9.00 0
+T 7.00 15
+[/output]
+[/test]
+[test]
+[input]
+5
+B 50 1
+S 5 0.5
+M 1 0.5
+D 15 2
+K 20 5
+Drive B 49
+Drive S 10
+Drive D 7
+Drive D 1
+Drive K 3
+Drive K 1
+Drive M 100
+End
+[/input]
+[output]
+Insufficient fuel for the drive
+Insufficient fuel for the drive
+B 1.00 49
+S 0.00 10
+M 1.00 0
+D 1.00 7
+K 0.00 4
 [/output]
 [/test]
 [/tests]

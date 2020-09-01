@@ -1,6 +1,6 @@
 [slide hideTitle]
-# Problem: Car Salesman
-[code-task title="Car Salesman" taskId="bd8337bb-a2b2-4af9-b2db-ab23ef09eb24" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+# Problem: Pokemon Trainer
+[code-task title="Pokemon Trainer" taskId="557a0bbb-06f1-4916-aa67-034874e07cbd" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -14,1111 +14,337 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Define two classes **Car** and **Engine**.
+You wanna be the very best pokemon trainer, like no one ever was, so you set out to catch pokemon.
 
-A **Car** has a **model, engine, weight** and **color**.
+Define a class **Trainer** and a class **Pokemon**.
 
-An Engine has **model, power, displacement** and **efficiency**.
+Trainer has a **name**, **number of badges** and a **collection of pokemon**.
 
-A Car's **weight** and **color** and its Engine's **displacements** and **efficiency** are **optional**.
+Pokemon has a **name**, an **element** and **health**, all values are **mandatory**.
 
-On the first line, you will read a number **N** which will specify how many lines of engines you will receive. 
+Every Trainer **starts with 0 badges**.
 
-On each of the next **N** lines you will receive information about an **Engine** in the following format:
+From the console you will receive an unknown number of lines until you receive the command `Tournament`. 
 
-`<model> <power> <displacement> <efficiency>`
+Each line will carry information about a pokemon and the trainer who caught it in the format:
 
-After the lines with engines, on the next line you will receive a number **M** – specifying the number of Cars that will follow. 
+`<trainerName> <pokemonName> <pokemonElement> <pokemonHealth>` 
 
-On each of the next **M** lines the information about a **Car** will follow in the following format:
+Where **trainerName** is the name of the Trainer who caught the pokemon. 
 
-`<model> <engine> <weight> <color>`
+Names are **unique**, there can not be 2 trainers with the same name. 
 
-Where the engine in the format will be the **model of an existing Engine**. 
+After receiving the command `Tournament` an unknown number of lines containing one of three elements **"Fire"**, **"Water"**, **"Electricity"** will follow until the command `End` is received. 
 
-When creating the object for a **Car**, you should keep a **reference to the real engine** in it, instead of just the engines model, **note** that the optional properties **might be missing** from the formats.
+For every command you must check if a trainer has **at least 1** pokemon with the given element. 
 
-Your task is to print each car (in the **order** you **received** them) and its information in the format defined below. 
+If he does, he receives 1 badge, otherwise all his pokemon **lose 10 health**. 
 
-If any of the optional fields have not been given print **"n/a"** in its place instead of:
+If a pokemon falls **to 0 or less health he dies** and must be deleted from the trainer's collection. 
 
-```java
-<carModel>
-<engineModel>
-Power: <enginePower>
-Displacement: <engineDisplacement>
-Efficiency: <engineEfficiency>
-Weight: <carWeight>
-Color: <carColor>
-```
+After the command `End` is received you should print all trainers **sorted by the number of badges they have in descending order**. 
 
-## Optional
+If two trainers have the same amount of badges they should be sorted by order of appearance in the input. 
 
-Override the classes **toString()** methods to have a reusable way of displaying the objects.
+Print in the format:
+
+`<trainerName> <badges> <numberOfPokemon>`
 
 ## Examples
 | **Input** | **Output** |
 | --- | --- |
-| 2 | FordFocus: |
-| V8-101 220 50 | V4-33: |
-| V4-33 140 28 B | Power: 140 |
-| 3 | Displacement: 28 |
-| FordFocus V4-33 1300 Silver | Efficiency: B |
-| FordMustang V8-101 | Weight: 1300 |
-| VolkswagenGolf V4-33 Orange | Color: Silver |
-|  | FordMustang: |
-|  | V8-101: |
-|  | Power: 220 |
-|  | Displacement: 50 |
-|  | Efficiency: n/a |
-|  | Weight: n/a |
-|  | Color: n/a |
-|  | VolkswagenGolf: |
-|  | V4-33: |
-|  | Power: 140 |
-|  | Displacement: 28 |
-|  | Efficiency: B |
-|  | Weight: n/a |
-|  | Color: Orange |
+| Peter Charizard Fire 100 | Peter 2 2 |
+| John Squirtle Water 38 | John 0 1 |
+| Peter Pikachu Electricity 10 |  |
+| Tournament |  |
+| Fire |  |
+| Electricity |  |
+| End |  |
 
 | **Input** | **Output** |
 | --- | --- |
-| 4 | FordMondeo: |
-| DSL-10 280 B | DSL-13: |
-| V7-55 200 35 | Power: 305 |
-| DSL-13 305 55 A+ | Displacement: 55 |
-| V7-54 190 30 D | Efficiency: A+ |
-| 4 | Weight: n/a |
-| FordMondeo DSL-13 Purple | Color: Purple |
-| VolkswagenPolo V7-54 1200 Yellow | VolkswagenPolo: |
-| VolkswagenPassat DSL-10 1375 Blue | V7-54: |
-| FordFusion DSL-13 | Power: 190 |
-|  | Displacement: 30 |
-|  | Efficiency: D |
-|  | Weight: 1200 |
-|  | Color: Yellow |
-|  | VolkswagenPassat: |
-|  | DSL-10: |
-|  | Power: 280 |
-|  | Displacement: n/a |
-|  | Efficiency: B |
-|  | Weight: 1375 |
-|  | Color: Blue |
-|  | FordFusion: |
-|  | DSL-13: |
-|  | Power: 305 |
-|  | Displacement: 55 |
-|  | Efficiency: A+ |
-|  | Weight: n/a |
-|  | Color: n/a |
+| Stan Blastoise Water 18 | Nick 1 1 |
+| Nick Pikachu Electricity 22 | Stan 0 0 |
+| John Kadabra Psychic 90 | John 0 1 |
+| Tournament |  |
+| Fire |  |
+| Electricity |  |
+| Fire |  |
+| End |  |
 
 [/task-description]
 [code-io /]
 [tests]
 [test open]
 [input]
-2
-V8-101 220 50
-V4-33 140 28 B
-3
-FordFocus V4-33 1300 Silver
-FordMustang V8-101
-VolkswagenGolf V4-33 Orange
+Peter Charizard Fire 100
+John Squirtle Water 38
+Peter Pikachu Electricity 10
+Tournament
+Fire
+Electricity
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: 28
-Efficiency: B
-Weight: 1300
-Color: Silver
-FordMustang:
-V8-101:
-Power: 220
-Displacement: 50
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-VolkswagenGolf:
-V4-33:
-Power: 140
-Displacement: 28
-Efficiency: B
-Weight: n/a
-Color: Orange
+Peter 2 2
+John 0 1
 [/output]
 [/test]
 [test open]
 [input]
-4
-DSL-10 280 B
-V7-55 200 35
-DSL-13 305 55 A+
-V7-54 190 30 D
-4
-FordMondeo DSL-13 Purple
-VolkswagenPolo V7-54 1200 Yellow
-VolkswagenPassat DSL-10 1375 Blue
-FordFusion DSL-13
+Stan Blastoise Water 18
+Nick Pikachu Electricity 22
+John Kadabra Psychic 90
+Tournament
+Fire
+Electricity
+Fire
+End
 [/input]
 [output]
-FordMondeo:
-DSL-13:
-Power: 305
-Displacement: 55
-Efficiency: A+
-Weight: n/a
-Color: Purple
-VolkswagenPolo:
-V7-54:
-Power: 190
-Displacement: 30
-Efficiency: D
-Weight: 1200
-Color: Yellow
-VolkswagenPassat:
-DSL-10:
-Power: 280
-Displacement: n/a
-Efficiency: B
-Weight: 1375
-Color: Blue
-FordFusion:
-DSL-13:
-Power: 305
-Displacement: 55
-Efficiency: A+
-Weight: n/a
-Color: n/a
+Nick 1 1
+Stan 0 0
+John 0 1
 [/output]
 [/test]
 [test]
 [input]
-4
-V8-101 220 50 A
-V4-33 140 28 B
-V6-33 230 28 D
-V7-44 330 35 E
-5
-FordFocus V4-33 1300 Silver
-Opelche V7-44 1550 Gold
-Orel V8-101 1000 Pink
-Nissan V8-101 1050 Yellow
-Jugan V6-33 2001 Red
+P Charizard Fire 100
+G Squirtle Water 38
+P Pikachu Electricity 10
+M Balbazor Fire 101
+Tournament
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: 28
-Efficiency: B
-Weight: 1300
-Color: Silver
-Opelche:
-V7-44:
-Power: 330
-Displacement: 35
-Efficiency: E
-Weight: 1550
-Color: Gold
-Orel:
-V8-101:
-Power: 220
-Displacement: 50
-Efficiency: A
-Weight: 1000
-Color: Pink
-Nissan:
-V8-101:
-Power: 220
-Displacement: 50
-Efficiency: A
-Weight: 1050
-Color: Yellow
-Jugan:
-V6-33:
-Power: 230
-Displacement: 28
-Efficiency: D
-Weight: 2001
-Color: Red
+P 0 2
+G 0 1
+M 0 1
 [/output]
 [/test]
 [test]
 [input]
-5
-V8-101 220 50
-V4-33 140 28
-V6-33 230 28
-V7-44 330 35
-V12-45 450 60 
-7
-FordFocus V4-33 1300 Silver
-Opelche V7-44 1550 Gold
-Orel V8-101 1000 Pink
-Nissan V8-101 1050 Yellow
-Jugan V6-33 2001 Red
-Trabant V12-45 1000 White
-Trabant V7-44 600 Green
+P Charizard Fire 100
+G Squirtle Water 38
+P Pikachu Electricity 10
+P Balbazor Electricity 102
+G Buterfree Fire 11
+Tournament
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: 28
-Efficiency: n/a
-Weight: 1300
-Color: Silver
-Opelche:
-V7-44:
-Power: 330
-Displacement: 35
-Efficiency: n/a
-Weight: 1550
-Color: Gold
-Orel:
-V8-101:
-Power: 220
-Displacement: 50
-Efficiency: n/a
-Weight: 1000
-Color: Pink
-Nissan:
-V8-101:
-Power: 220
-Displacement: 50
-Efficiency: n/a
-Weight: 1050
-Color: Yellow
-Jugan:
-V6-33:
-Power: 230
-Displacement: 28
-Efficiency: n/a
-Weight: 2001
-Color: Red
-Trabant:
-V12-45:
-Power: 450
-Displacement: 60
-Efficiency: n/a
-Weight: 1000
-Color: White
-Trabant:
-V7-44:
-Power: 330
-Displacement: 35
-Efficiency: n/a
-Weight: 600
-Color: Green
+P 0 3
+G 0 2
 [/output]
 [/test]
 [test]
 [input]
-5
-V8-101 220 C
-V4-33 140 B
-V33-33 220 D
-V12-101 340 A
-V10-10 210 E+
-6
-FordFocus V4-33 1300 Silver
-Trabant V10-10 600 Gold
-Jaguar V8-101 1235 Green
-Toyota V33-33 1200 Green
-MercedesSmart V8-101 1100 None
-MiniCooper V12-101 100 YellowBlack
+P Charizard Fire 100
+M MiniCharizard Fire 50
+P BigCharizard Fire 120
+P FirePokemon Fire 101
+M Char Fire 100
+J Turtle Water 100
+J BigTurtle Water 250
+Tournament
+Fire
+Fire
+Fire
+Fire
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: n/a
-Efficiency: B
-Weight: 1300
-Color: Silver
-Trabant:
-V10-10:
-Power: 210
-Displacement: n/a
-Efficiency: E+
-Weight: 600
-Color: Gold
-Jaguar:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: C
-Weight: 1235
-Color: Green
-Toyota:
-V33-33:
-Power: 220
-Displacement: n/a
-Efficiency: D
-Weight: 1200
-Color: Green
-MercedesSmart:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: C
-Weight: 1100
-Color: None
-MiniCooper:
-V12-101:
-Power: 340
-Displacement: n/a
-Efficiency: A
-Weight: 100
-Color: YellowBlack
+P 4 3
+M 4 2
+J 0 2
 [/output]
 [/test]
 [test]
 [input]
-7
-V8-101 220
-V4-33 140
-V33-33 220
-V12-101 340
-V10-10 210
-V11-1110 110
-V01-1011 230
-10
-FordFocus V4-33 1300 Silver
-Trabant V10-10 600 Gold
-Ford V4-33 650 Red
-Jaguar V8-101 1235 Green
-Toyota V33-33 1200 Green
-Trabant V11-1110 1200 BlackYellow
-MercedesSmart V8-101 1100 None
-Tesla V01-1011 1230 PinkGreen
-MiniCooper V12-101 100 YellowBlack
-Motor123 V12-101 1000 JellyBeanColor
+G Golem Water 102
+P Charizard Water 100
+M MiniCharizard Water 50
+P BigCharizard Water 120
+P FirePokemon Water 101
+M Char Fire 100
+J Turtle Electricity 100
+J BigTurtle Fire 250
+Tournament
+Water
+Water
+Water
+Water
+Water
+Water
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: n/a
-Efficiency: n/a
-Weight: 1300
-Color: Silver
-Trabant:
-V10-10:
-Power: 210
-Displacement: n/a
-Efficiency: n/a
-Weight: 600
-Color: Gold
-Ford:
-V4-33:
-Power: 140
-Displacement: n/a
-Efficiency: n/a
-Weight: 650
-Color: Red
-Jaguar:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: 1235
-Color: Green
-Toyota:
-V33-33:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: 1200
-Color: Green
-Trabant:
-V11-1110:
-Power: 110
-Displacement: n/a
-Efficiency: n/a
-Weight: 1200
-Color: BlackYellow
-MercedesSmart:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: 1100
-Color: None
-Tesla:
-V01-1011:
-Power: 230
-Displacement: n/a
-Efficiency: n/a
-Weight: 1230
-Color: PinkGreen
-MiniCooper:
-V12-101:
-Power: 340
-Displacement: n/a
-Efficiency: n/a
-Weight: 100
-Color: YellowBlack
-Motor123:
-V12-101:
-Power: 340
-Displacement: n/a
-Efficiency: n/a
-Weight: 1000
-Color: JellyBeanColor
+G 6 1
+P 6 3
+M 6 2
+J 0 2
 [/output]
 [/test]
 [test]
 [input]
-7
-V8-101 220 220 A
-V4-33 140 110 D
-V33-33 220 323 C
-V12-101 340 325 D
-V10-10 210 121 A+
-V11-1110 110 450 D++
-V01-1011 230 440 B+
-11
-FordFocus V4-33 1300
-Trabant V10-10 600
-Ford V4-33 650
-Jaguar V8-101 1235
-Toyota V33-33 1200
-Trabant V11-1110 1200
-MercedesSmart V8-101 1100
-Tesla V01-1011 1230
-MiniCooper V12-101 100
-Motor123 V12-101 1001
-Kolichka V11-1110 1234
+G Golem Water 102
+P Charizard Water 100
+M MiniCharizard Water 50
+P BigCharizard Water 120
+P FirePokemon Water 101
+M Char Electricity 100
+J Turtle Electricity 100
+J BigTurtle Fire 250
+Tournament
+Electricity
+Electricity
+Electricity
+Electricity
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: 110
-Efficiency: D
-Weight: 1300
-Color: n/a
-Trabant:
-V10-10:
-Power: 210
-Displacement: 121
-Efficiency: A+
-Weight: 600
-Color: n/a
-Ford:
-V4-33:
-Power: 140
-Displacement: 110
-Efficiency: D
-Weight: 650
-Color: n/a
-Jaguar:
-V8-101:
-Power: 220
-Displacement: 220
-Efficiency: A
-Weight: 1235
-Color: n/a
-Toyota:
-V33-33:
-Power: 220
-Displacement: 323
-Efficiency: C
-Weight: 1200
-Color: n/a
-Trabant:
-V11-1110:
-Power: 110
-Displacement: 450
-Efficiency: D++
-Weight: 1200
-Color: n/a
-MercedesSmart:
-V8-101:
-Power: 220
-Displacement: 220
-Efficiency: A
-Weight: 1100
-Color: n/a
-Tesla:
-V01-1011:
-Power: 230
-Displacement: 440
-Efficiency: B+
-Weight: 1230
-Color: n/a
-MiniCooper:
-V12-101:
-Power: 340
-Displacement: 325
-Efficiency: D
-Weight: 100
-Color: n/a
-Motor123:
-V12-101:
-Power: 340
-Displacement: 325
-Efficiency: D
-Weight: 1001
-Color: n/a
-Kolichka:
-V11-1110:
-Power: 110
-Displacement: 450
-Efficiency: D++
-Weight: 1234
-Color: n/a
+M 4 2
+J 4 2
+G 0 1
+P 0 3
 [/output]
 [/test]
 [test]
 [input]
-7
-V8-101 220 220 A
-V4-33 140 110 D
-V33-33 220 323 C
-V12-101 340 325 D
-V10-10 210 121 A+
-V11-1110 110 450 D++
-V01-1011 230 440 B+
-11
-FordFocus V4-33 Yellow
-Trabant V10-10 Green
-Ford V4-33 Black
-Jaguar V8-101 White
-Toyota V33-33 Red
-Trabant V11-1110 None
-MercedesSmart V8-101 GrayMetalic
-Tesla V01-1011 Gray
-MiniCooper V12-101 Purple
-Motor123 V12-101 Pink
-Kolichka V11-1110 Colorless
+G Golem Water 102
+P Charizard Water 100
+M MiniCharizard Water 30
+P BigCharizard Water 120
+P FirePokemon Water 101
+M Char Electricity 100
+J Turtle Electricity 100
+J BigTurtle Water 250
+Tournament
+Fire
+Fire
+Fire
+Fire
+Fire
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: 110
-Efficiency: D
-Weight: n/a
-Color: Yellow
-Trabant:
-V10-10:
-Power: 210
-Displacement: 121
-Efficiency: A+
-Weight: n/a
-Color: Green
-Ford:
-V4-33:
-Power: 140
-Displacement: 110
-Efficiency: D
-Weight: n/a
-Color: Black
-Jaguar:
-V8-101:
-Power: 220
-Displacement: 220
-Efficiency: A
-Weight: n/a
-Color: White
-Toyota:
-V33-33:
-Power: 220
-Displacement: 323
-Efficiency: C
-Weight: n/a
-Color: Red
-Trabant:
-V11-1110:
-Power: 110
-Displacement: 450
-Efficiency: D++
-Weight: n/a
-Color: None
-MercedesSmart:
-V8-101:
-Power: 220
-Displacement: 220
-Efficiency: A
-Weight: n/a
-Color: GrayMetalic
-Tesla:
-V01-1011:
-Power: 230
-Displacement: 440
-Efficiency: B+
-Weight: n/a
-Color: Gray
-MiniCooper:
-V12-101:
-Power: 340
-Displacement: 325
-Efficiency: D
-Weight: n/a
-Color: Purple
-Motor123:
-V12-101:
-Power: 340
-Displacement: 325
-Efficiency: D
-Weight: n/a
-Color: Pink
-Kolichka:
-V11-1110:
-Power: 110
-Displacement: 450
-Efficiency: D++
-Weight: n/a
-Color: Colorless
+G 0 1
+P 0 3
+M 0 1
+J 0 2
 [/output]
 [/test]
 [test]
 [input]
-7
-V8-101 220 220 A
-V4-33 140 110 D
-V33-33 220 323 C
-V12-101 340 325 D
-V10-10 210 121 A+
-V11-1110 110 450 D++
-V01-1011 230 440 B+
-11
-FordFocus V4-33
-Trabant V10-10
-Ford V4-33
-Jaguar V8-101
-Toyota V33-33
-Trabant V11-1110
-MercedesSmart V8-101
-Tesla V01-1011
-MiniCooper V12-101
-Motor123 V12-101
-Kolichka V11-1110
+G Golem Fire 102
+P Charizard Fire 100
+M MiniCharizard Fire 30
+P BigCharizard Fire 120
+P FirePokemon Electricity 101
+M Char Electricity 100
+J Turtle Electricity 10
+J BigTurtle Fire 25
+Tournament
+Water
+Water
+Water
+Water
+Water
+Water
+Water
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: 110
-Efficiency: D
-Weight: n/a
-Color: n/a
-Trabant:
-V10-10:
-Power: 210
-Displacement: 121
-Efficiency: A+
-Weight: n/a
-Color: n/a
-Ford:
-V4-33:
-Power: 140
-Displacement: 110
-Efficiency: D
-Weight: n/a
-Color: n/a
-Jaguar:
-V8-101:
-Power: 220
-Displacement: 220
-Efficiency: A
-Weight: n/a
-Color: n/a
-Toyota:
-V33-33:
-Power: 220
-Displacement: 323
-Efficiency: C
-Weight: n/a
-Color: n/a
-Trabant:
-V11-1110:
-Power: 110
-Displacement: 450
-Efficiency: D++
-Weight: n/a
-Color: n/a
-MercedesSmart:
-V8-101:
-Power: 220
-Displacement: 220
-Efficiency: A
-Weight: n/a
-Color: n/a
-Tesla:
-V01-1011:
-Power: 230
-Displacement: 440
-Efficiency: B+
-Weight: n/a
-Color: n/a
-MiniCooper:
-V12-101:
-Power: 340
-Displacement: 325
-Efficiency: D
-Weight: n/a
-Color: n/a
-Motor123:
-V12-101:
-Power: 340
-Displacement: 325
-Efficiency: D
-Weight: n/a
-Color: n/a
-Kolichka:
-V11-1110:
-Power: 110
-Displacement: 450
-Efficiency: D++
-Weight: n/a
-Color: n/a
+G 0 1
+P 0 3
+M 0 1
+J 0 0
 [/output]
 [/test]
 [test]
 [input]
-7
-V8-101 220
-V4-33 140
-V33-33 220
-V12-101 340
-V10-10 210
-V11-1110 110
-V01-1011 230
-12
-FordFocus V4-33
-Trabant V10-10
-Ford V4-33
-Jaguar V8-101
-Toyota V33-33
-Trabant V11-1110
-MercedesSmart V8-101
-Tesla V01-1011
-MiniCooper V12-101
-Motor123 V12-101
-Kolichka V11-1110
-Tracktorche V8-101
+G Golem Fire 102
+P Charizard Fire 100
+M MiniCharizard Fire 30
+P BigCharizard Fire 120
+P FirePokemon Water 11
+M Char Water 10
+J Turtle Fire 10
+J BigTurtle Fire 2500
+Tournament
+Electricity
+Electricity
+Electricity
+Electricity
+Electricity
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Trabant:
-V10-10:
-Power: 210
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Ford:
-V4-33:
-Power: 140
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Jaguar:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Toyota:
-V33-33:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Trabant:
-V11-1110:
-Power: 110
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-MercedesSmart:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Tesla:
-V01-1011:
-Power: 230
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-MiniCooper:
-V12-101:
-Power: 340
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Motor123:
-V12-101:
-Power: 340
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Kolichka:
-V11-1110:
-Power: 110
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Tracktorche:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
+G 0 1
+P 0 2
+M 0 0
+J 0 1
 [/output]
 [/test]
 [test]
 [input]
-7
-V8-101 220
-V4-33 140 430
-V33-33 220 E+
-V12-101 340 230 A++
-V10-10 210
-V11-1110 110 C
-V01-1011 230 330
-12
-FordFocus V4-33
-Trabant V10-10
-Ford V4-33
-Jaguar V8-101
-Toyota V33-33
-Trabant V11-1110
-MercedesSmart V8-101
-Tesla V01-1011
-MiniCooper V12-101
-Motor123 V12-101
-Kolichka V11-1110
-Tracktorche V8-101
+An Balbazor Water 100
+A Pikachu Electricity 100
+Annie Squirtal Fire 100
+P Balbazor Water 100
+P Electricity Electricity 100
+P Balbazor2 Fire 100
+Tournament
+Fire
+Water
+Electricity
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: 430
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Trabant:
-V10-10:
-Power: 210
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Ford:
-V4-33:
-Power: 140
-Displacement: 430
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Jaguar:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Toyota:
-V33-33:
-Power: 220
-Displacement: n/a
-Efficiency: E+
-Weight: n/a
-Color: n/a
-Trabant:
-V11-1110:
-Power: 110
-Displacement: n/a
-Efficiency: C
-Weight: n/a
-Color: n/a
-MercedesSmart:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Tesla:
-V01-1011:
-Power: 230
-Displacement: 330
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-MiniCooper:
-V12-101:
-Power: 340
-Displacement: 230
-Efficiency: A++
-Weight: n/a
-Color: n/a
-Motor123:
-V12-101:
-Power: 340
-Displacement: 230
-Efficiency: A++
-Weight: n/a
-Color: n/a
-Kolichka:
-V11-1110:
-Power: 110
-Displacement: n/a
-Efficiency: C
-Weight: n/a
-Color: n/a
-Tracktorche:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
+P 3 3
+An 1 1
+A 1 1
+Annie 1 1
 [/output]
 [/test]
 [test]
 [input]
-8
-V8-101 220
-V4-33 140 430
-V33-33 220 E+
-V12-101 340 230 A++
-V10-10 210
-V11-1110 110 C
-V01-1011 230 330
-V22-22 323 100 A-
-13
-FordFocus V4-33
-Trabant V10-10 Yellow
-Ford V4-33 1230
-Jaguar V8-101 1200 Green
-Toyota V33-33 900 Purple
-Trabant V11-1110 1000
-Lambo V22-22 999 Gold
-MercedesSmart V8-101
-Tesla V01-1011 GreenishPurple
-MiniCooper V12-101 9000
-Motor123 V12-101 790 Colorful
-Kolichka V11-1110 Colorless
-Tracktorche V8-101 899 Gray
+S Blastoise Water 18
+N Pikachu Electricity 22
+N Pikachu2 Electricity 200
+N Pikachu3 Electricity 21
+N Pikachu4 Electricity 23
+N Pikachu5 Electricity 230
+J Kadabra Psychic 90
+S Squirtle Water 1200
+P TurtoiseSVN Water 500
+P Charizard Water 50
+G Flower Fire 10
+Tournament
+Electricity
+Fire
+Water
+Fire
+Electricity
+Fire
+Water
+Electricity
+Electricity
+Water
+Water
+Water
+Water
+Electricity
+Fire
+Fire
+End
 [/input]
 [output]
-FordFocus:
-V4-33:
-Power: 140
-Displacement: 430
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Trabant:
-V10-10:
-Power: 210
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: Yellow
-Ford:
-V4-33:
-Power: 140
-Displacement: 430
-Efficiency: n/a
-Weight: 1230
-Color: n/a
-Jaguar:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: 1200
-Color: Green
-Toyota:
-V33-33:
-Power: 220
-Displacement: n/a
-Efficiency: E+
-Weight: 900
-Color: Purple
-Trabant:
-V11-1110:
-Power: 110
-Displacement: n/a
-Efficiency: C
-Weight: 1000
-Color: n/a
-Lambo:
-V22-22:
-Power: 323
-Displacement: 100
-Efficiency: A-
-Weight: 999
-Color: Gold
-MercedesSmart:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: n/a
-Color: n/a
-Tesla:
-V01-1011:
-Power: 230
-Displacement: 330
-Efficiency: n/a
-Weight: n/a
-Color: GreenishPurple
-MiniCooper:
-V12-101:
-Power: 340
-Displacement: 230
-Efficiency: A++
-Weight: 9000
-Color: n/a
-Motor123:
-V12-101:
-Power: 340
-Displacement: 230
-Efficiency: A++
-Weight: 790
-Color: Colorful
-Kolichka:
-V11-1110:
-Power: 110
-Displacement: n/a
-Efficiency: C
-Weight: n/a
-Color: Colorless
-Tracktorche:
-V8-101:
-Power: 220
-Displacement: n/a
-Efficiency: n/a
-Weight: 899
-Color: Gray
+S 6 1
+P 6 1
+N 5 2
+J 0 0
+G 0 0
 [/output]
 [/test]
 [/tests]
