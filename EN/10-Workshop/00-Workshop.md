@@ -122,6 +122,108 @@ public class SmartArray {
     }
 }
 ```
+[/slide]
+
+[slide]
+
+## Implement Void Add(int Element) Method
+
+It is time to create the method which **adds** a new elements to the **end** of our collection.
+
+It looks like an easy task, but keep in mind that if our internal array is **filled**, we have to **increase it by twice** the length it currently has and **add** the **new element**.
+ 
+To make our job easier let's create a `resize()` method first.
+
+The method should be used only **within** the **class** so it must be **private**.
+
+```java
+private void resize() {
+
+}
+```
+
+Here is how the method should work step by step:
+
+- Create a new array with length **twice** the current length of the internal array:
+
+```java
+private void resize(){
+    this.capacity *= 2;
+    int[] copy = new int[this.capacity];
+}
+```
+
+- Iterate through the items in the **internal array** and fill the **newly created array**:
+
+```java
+for (int i = 0; i < this.data.length; i++) {
+    copy[i] = this.data[i];
+}
+```
+
+- Set the newly created array to the field "**data**":
+
+```java
+this.data = copy;
+```
+
+- The whole method should look like this:
+
+```java
+private void resize() {
+    this.capacity *= 2;
+    int[] copy = new int[this.capacity];
+
+    for (int i = 0; i < this.data.length; i++) {
+        copy[i] = this.data[i];
+    }
+
+    this.data = copy; 
+}
+```
+
+Now, we are ready to start implementing the logic behind the `add()` method.
+
+This is how the method should work:
+
+```java
+public void add(int element) {
+
+}
+```
+
+- Check if the **size** of the **actual data** in our **SmartArray** is equal to the **capacity of our collection**.
+
+If it is, this means that the internal array is **filled** and we need to use the **resize()** method.
+
+```java
+if (this.size == this.capacity){
+    this.resize();
+}
+```
+
+- After we have checked that we have empty space in the internal array, we can just **add** the **new** item at the end and update the "**size**" field:
+
+```java 
+this.data[this.size++] = element;
+```
+
+The whole method should look like this:
+
+```java
+public void add(int element) {
+    if (this.size == this.capacity){
+        this.resize();
+    }
+    this.data[this.size++] = element;
+}
+```
+
+Before proceeding with the next tasks, it is a good practice, since you've done so much work, to test if everything is fine.
+
+Use the **debugger** to **test** for bugs.
+
+
 
 
 [/slide]
