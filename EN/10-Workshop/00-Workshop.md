@@ -401,3 +401,49 @@ If everything works fine, proceed with the next task.
 
 
 [/slide]
+
+[slide]
+
+## Implement Void Add(int Index, Int Element) Method
+
+You are already familiar with this method so let's head straight to the implementation.
+
+First of all, we will **split** the logic on **small tasks**:
+- We have an index parameter, so we must **validate the index**
+- We must check if the array should be **resized**
+- We have to **rearrange** the items to **free the space for the required index**
+- Finally **add** the given element on the index and **increase** the **size**
+
+You probably already noticed, that since we have a method to **rearrange** the elements to the left, used to fill up the empty space when we remove an element, we must have method to **rearrange** elements to the right, so let's create it.
+
+Starting from the **end of the actual elements**, this method will **copy** every single element on the **next indexes**.
+
+The loop will **end on the requested index**:
+
+```java
+private shiftRight(int index) {
+    for (int i = this.size - 1; i > index; i--) {
+        this.data[i] = this.data[i - 1];
+    }
+}
+```
+Now complete the **add** method:
+
+```java
+public void add(int index, int element) {
+    checkIndex(index);
+
+    if (index == this.size - 1) {
+        add(this.data[this.size - 1]);
+        this.data[this.size - 2] = element;
+    } else {
+        this.size++;
+        shiftRight(index);
+        this.data[index] = element;
+    }
+}
+```
+
+[/slide]
+
+
