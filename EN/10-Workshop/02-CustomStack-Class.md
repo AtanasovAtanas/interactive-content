@@ -24,3 +24,12 @@ The **CustomStack** class should have the fields listed below:
 - `int capacity` – holds the size of the array
 
 [/slide]
+
+
+[slide]
+
+## Implementation
+
+
+
+[/slide]
