@@ -3,7 +3,7 @@
 
 [slide]
 
-## Implement the SmartArray Class
+## Implement SmartArray Class
 
 ### Details about the Structure
 
