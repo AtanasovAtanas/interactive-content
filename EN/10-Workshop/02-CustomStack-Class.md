@@ -111,3 +111,37 @@ private void resize() {
 ```
 
 [/slide]
+
+[slide]
+
+## Implement Void Pop() Method
+
+The `pop()` method returns the last element form the collection and removes it.
+
+The implementation is easier than the implementation of the `remove(int index)` method of the **SmartArray**.
+
+Try to implement it on your own.
+
+Afterwards, you can look at this implementation:
+
+```java
+public int pop() {
+    // throw NoSuchElementException if the size is zero
+    int element = this.items[this.size - 1];
+    this.size--;
+    return element;
+}
+```
+
+- `checkEmpty()` method checks if the stack size is equal to 0.
+
+```java
+private void checkEmpty() {
+    if (this.size == 0) {
+        throw new NoSuchElementException("CustomStack is empty");
+    }
+}
+```
+
+
+[/slide]
