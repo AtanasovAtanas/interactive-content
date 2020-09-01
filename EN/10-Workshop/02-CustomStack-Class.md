@@ -77,3 +77,37 @@ If you have any difficulties, you can help yourself with the code snippets below
 
 
 [/slide]
+
+
+[slide]
+
+## Implement Void Push(int Element) Method
+
+This method adds an element to the end of the collection, just like the Java **ArrayDeque** `push()` method does.
+
+This is a very easy task. Here is the code you can use, if you meet any difficulties:
+
+```java
+public void push(int element) {
+    // resize if the size is equal to the capacity
+    if (this.size == this.capacity) {
+        this.resize();
+    }
+    this.items[this.size++] = element;
+}
+```
+
+- `resize()` method:
+
+```java
+private void resize() {
+    this.capacity *= 2;
+    int[] copy = new int[this.capacity];
+
+    for (int i = 0; i < this.items.length; i++) {
+        copy[i] = this.items[i];
+    }
+}
+```
+
+[/slide]
