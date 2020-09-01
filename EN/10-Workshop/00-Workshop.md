@@ -1,5 +1,5 @@
 
-# Workshop: Custom Data Structure
+# Workshop: Custom Data Structures
 
 [slide]
 
@@ -282,7 +282,122 @@ public int get(int index) {
 }
 ```
 
+[/slide]
 
+[slide]
+
+## Implement Int Remove(int Index) Method
+
+The `remove()` method has the functionality to **remove an element** on the **given index** and **returns the same element**.
+
+Let's think about how to solve this problem by **dividing it to smaller tasks**.
+
+- First we must check if the index is **valid** and if not, we should throw **IndexOutOfBoundsException**
+- Get the item on the given index and assign it to a variable, which will be **returned** at the end
+- Set the value on the given index to the **default value of int**
+- Now we have an empty element and we need to **shift** the elements
+- Reduce the size and check if the size is **4 times smaller** than the **internal array** capacity
+    - If it is, we have to think about a way to **shrink** the array
+- In the end, return the variable to which we assigned the value of the requested index
+
+So now you already know that we need to implement the other 2 internal methods `shift()` and `shrink()`.
+
+## Void Shift(int Index)
+
+The shift method uses a loop, which moves all of the elements to the left, starting from a given index.
+
+```java
+private void shift(int index) {
+    for (int i = index; i < this.size - 1; i++) {
+        this.data[i] = this.data[i + 1];
+    }
+    this.data[size - 1] = 0;
+}
+```
+
+## Void Shrink()
+
+Decrease the **size** and check if it is **4 times smaller** than the **capacity**.
+
+Probably it is but is not necessarily.
+
+If its smaller, a good idea is to shrink our array, so we can free some memory.
+
+Our **SmartArray** will keep only integers, which makes it pretty easy with the memory consumption.
+
+However, if we had to store complex objects, which would have taken a lot more memory, we would rather think about shrinking it anyway.
+
+The `shrink()` method is exactly the same as the `resize()` method with the small difference that it will **reduce** the length twice, instead of increasing it:
+
+```java
+private void shrink() {
+    this.capacity /= 2;
+    int[] copy = new int[this.capacity]
+    for (int i = 0; i < this.size; i++) {
+        copy[i] = this.data[i];
+    }
+
+    this.data = copy;
+}
+```
+
+
+Now we are ready to proceed with the implementation of the `remove()` method.
+
+```java
+public int  remove(int index) {
+
+}
+```
+
+- First, we need to validate that our index is valid. We can use our **checkIndex** method:
+
+```java
+public int remove(int index) {
+    checkIndex(index);
+}
+```
+
+- Get the value on the given index, assign it to a variable and don’t forget to shift the elements:
+
+```java
+int element = this.data[index];
+shift(index);
+```
+
+- Now we must reduce the size and check if shrinking the array is required:
+
+```java
+this.size--;
+
+if (this.size <= this.capacity / 4) {
+    shrink();
+}
+```
+
+- After all, just return the element that we saved at the start.
+
+The whole method should look like this:
+
+```java
+public int remove(int index) {
+    checkIndex(index);
+
+    int element = this.data[index];
+    shift(index);
+    this.size--;
+
+    if (this.size <= this.capacity / 4) {
+        shrink();
+    }
+
+    return element;
+}
+```
+
+It is time to test out your **SmartArray** again.
+
+If everything works fine, proceed with the next task.
 
 
 [/slide]
