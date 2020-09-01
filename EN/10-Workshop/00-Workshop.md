@@ -224,6 +224,65 @@ Before proceeding with the next tasks, it is a good practice, since you've done 
 Use the **debugger** to **test** for bugs.
 
 
+[/slide]
+
+[slide]
+
+## Implement Int Get(int index) Method
+
+This method has the functionality to **get item** at given **index** from our internal array.
+
+Keep in mind that you have to check if the given index is at the range of our array.
+
+If it's in range return the **element** at our index, if not throw the corresponding exception.
+
+Let's start implementing our method:
+
+```java
+public int get(int index){
+    // TODO: Check index
+
+    return this.data[index];
+}
+```
+
+Checks whether the **index** is **less than zero** or **greater than** the actual **size** of internal array.
+
+If it's true throw **IndexOutOfBoundsException**.
+
+We can create **private method checkIndex** because we can use it again later:
+
+```java
+private void checkIndex(int index) {
+    if (index < 0 || index >= this.size){
+        // throw IndexOutOfBoundsException
+    }
+}
+```
+
+When we throw any kind of exception, we can add our personal message:
+
+```java 
+private void checkIndex(int index) {
+    if (index < 0 || index >= this.size) {
+        String message = String.format("Index %d out of bounds for length %d",
+                index, this.size);
+        throw new IndexOutOfBoundsException(message);
+    }
+}
+```
+
+The whole method should look like this:
+
+```java
+public int get(int index) {
+    checkIndex(index)
+
+    return this.data[index];
+}
+```
+
+
 
 
 [/slide]
