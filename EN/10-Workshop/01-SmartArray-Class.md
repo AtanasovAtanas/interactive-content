@@ -18,12 +18,12 @@ The **SmartArray** class should have the fields listed below:
 - `int size` – holds the size with real data of the array
 - `int capacity` – holds the size of the array
 
-The structure will have internal methods to make managing of the internal collection easier.
+The structure will have internal methods to make the managing of the internal collection easier.
 
 - `resize` – this method will be used to increase the internal collection's length twice
 - `shrink` – this method will help us to decrease the internal collection's length twice
 - `shiftLeft` – this method will help us to rearrange the internal collection's elements after removing one.
-- `shiftRight` – this method we will use when we inset element at specific index
+- `shiftRight` – this method we will use when we inset element at a specific index
 
 [/slide]
 
@@ -45,8 +45,8 @@ public class SmartArray {
 }
 ```
 
-Keep in mind that if the **internal array** has length of **4** this doesn’t mean that our collection holds 4 elements.
-So, we need a field which will keep the information of the actual size of the elements in the structure.
+Keep in mind that if the **internal array** has a length of **4** this doesn’t mean that our collection holds 4 elements.
+So, we need a field which will keep the information about the actual size of the elements in the structure.
 
 This field should be updated **every** single time when we **make changes** related to the **count** of the elements like **adding** or **removing**.
 
@@ -92,7 +92,7 @@ public class SmartArray {
 
 ## Implement Void Add(int Element) Method
 
-It is time to create the method which **adds** a new elements to the **end** of our collection.
+It is time to create the method which **adds** new elements to the **end** of our collection.
 
 It looks like an easy task, but keep in mind that if our internal array is **filled**, we have to **increase it by twice** the length it currently has and **add** the **new element**.
  
@@ -210,7 +210,7 @@ public int get(int index){
 }
 ```
 
-Checks whether the **index** is **less than zero** or **greater than** the actual **size** of internal array.
+Checks, whether the **index**, is **less than zero** or **greater than** the actual **size** of the internal array.
 
 If it's true throw **IndexOutOfBoundsException**.
 
@@ -256,7 +256,7 @@ The `remove()` method has the functionality to **remove an element** on the **gi
 
 Let's think about how to solve this problem by **dividing it to smaller tasks**.
 
-- First we must check if the index is **valid** and if not, we should throw **IndexOutOfBoundsException**
+- First, we must check if the index is **valid** and if not, we should throw **IndexOutOfBoundsException**
 - Get the item on the given index and assign it to a variable, which will be **returned** at the end
 - Set the value on the given index to the **default value of int**
 - Now we have an empty element and we need to **shift** the elements
@@ -285,7 +285,7 @@ Decrease the **size** and check if it is **4 times smaller** than the **capacity
 
 Probably it is but is not necessarily.
 
-If its smaller, a good idea is to shrink our array, so we can free some memory.
+If it's smaller, a good idea is to shrink our array, so we can free some memory.
 
 Our **SmartArray** will keep only integers, which makes it pretty easy with the memory consumption.
 
@@ -375,10 +375,10 @@ You are already familiar with this method so let's head straight to the implemen
 First of all, we will **split** the logic on **small tasks**:
 - We have an index parameter, so we must **validate the index**
 - We must check if the array should be **resized**
-- We have to **rearrange** the items to **free the space for the required index**
+- We have to **rearrange** the items to **free space for the required index**
 - Finally **add** the given element on the index and **increase** the **size**
 
-You probably already noticed, that since we have a method to **rearrange** the elements to the left, used to fill up the empty space when we remove an element, we must have method to **rearrange** elements to the right, so let's create it.
+You probably already noticed, that since we have a method to **rearrange** the elements to the left, used to fill up the empty space when we remove an element, we must have a method to **rearrange** elements to the right, so let's create it.
 
 Starting from the **end of the actual elements**, this method will **copy** every single element on the **next indexes**.
 
