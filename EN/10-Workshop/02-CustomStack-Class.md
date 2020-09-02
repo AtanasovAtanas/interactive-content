@@ -145,3 +145,36 @@ private void checkEmpty() {
 
 
 [/slide]
+
+[slide]
+
+## Implement Void Peek() Method
+
+
+The `peek()` method has the same functionality as the **Java ArrayDeque** - it returns the last element from the collection, but it **doesn't remove it**.
+
+The only thing we need to consider is that you can't get an element from an empty collection, so you must make sure you have the proper **validation**.
+
+For sure, you will be able to implement it on your own.
+
+[/slide]
+
+[slide]
+
+## Implement Void ForEach(Consumer<Integer> Consumer) Method
+
+This method goes through every element from the collection and executes the given action.
+
+The implementation is very easy, but it requires some additional knowledge, so here is what you can do:
+
+```java
+public void forEach(Consumer<Integer> consumer) {
+    for (int i = 0; i < this.size; i++) {
+        consumer.accept(this.items[i]);
+    }
+}
+```
+
+You can add any kind of functionalities to your **CustomStack** and afterwards you can test how it works in your `main()` method.
+
+[/slide]
