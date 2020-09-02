@@ -71,7 +71,7 @@ public int getSize() {
 
 Now you can proceed to the implementation of the methods, which your **CustomStack** is going to have.
 
-All of the functionalites described in the description are very easy to implement, so we strongly recommend for you to try to do it on your own.
+All of the functionalities described in the description are very easy to implement, so we strongly recommend you to try to do it on your own.
 
 If you have any difficulties, you can help yourself with the code snippets below.
 
@@ -116,7 +116,7 @@ private void resize() {
 
 ## Implement Void Pop() Method
 
-The `pop()` method returns the last element form the collection and removes it.
+The `pop()` method returns the last element from the collection and removes it.
 
 The implementation is easier than the implementation of the `remove(int index)` method of the **SmartArray**.
 
@@ -175,6 +175,6 @@ public void forEach(Consumer<Integer> consumer) {
 }
 ```
 
-You can add any kind of functionalities to your **CustomStack** and afterwards you can test how it works in your `main()` method.
+You can add any kind of functionalities to your **CustomStack** and afterwards, you can test how it works in your `main()` method.
 
 [/slide]
