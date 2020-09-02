@@ -5,7 +5,7 @@
 
 ## Overview
 
-In this workshop we will create our own custom data structures – a custom list (**SmartArray**) and a custom stack.
+In this workshop, we will create our own custom data structures – a custom list (**SmartArray**) and a custom stack.
 
 The **SmartArray** will have similar functionality to **Java ArrayList** that you've used before. 
 
@@ -17,7 +17,7 @@ It will have the following functionality:
 - `int get(int index)` - returns the element at the specified position in this list
 - `int remove(int index)` - removes the element at the given index
 - `boolean contains(int element)` - checks if the list contains the given element returns (True or False)
-- `void add(int firstIndex, int secondIndex)` - adds element at the specific index, the element at this index gets shift to the right alongside with any following elements, increasing size
+- `void add(int firstIndex, int secondIndex)` - adds an element at the specific index, the element at this index gets shift to the right alongside with any following elements, increasing size
 - `void forEach(Consumer<Integer> consumer)` - goes through each one of the elements in the list
 
 Feel free to implement your own functionality or to write the methods by yourself.
