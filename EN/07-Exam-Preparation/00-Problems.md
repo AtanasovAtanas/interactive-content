@@ -28,7 +28,6 @@ You can find an example view [here](https://i.imgur.com/mDo24Cv.png)
 
 [/code-task]
 [/slide]
-
 [slide]
 
 # 02 Login Form
@@ -44,20 +43,14 @@ You can find an example view [here](https://i.imgur.com/mDo24Cv.png)
 * You have been given all of the **required resources**
 
 ## Constraints
-* Change the document **title** to **Login Form**
-* Use a **form** tag
-* Each **input** tag should have a **label** and should be inside a **div**
-* For each **input tag** use the corresponding **type** (**email**, **radio**, **tel**, etc...)
-* Use **button** tag of type submit with text: "Login"
-* Use **i** tag to set the icons from Font Awsome
-* Set the color of the **fieldset background** to **rgb(255, 255, 255)**
-* Set the color of the **button background** to **rgb(212, 24, 114)**
-* Use font-family: **'Poppins' - sans serif**
-
+* Use the Google fonts - [**"Poppins"**](https://fonts.google.com/specimen/Poppins)
+* The web page should open correctly in the latest version of Chrome
+* Pixel-perfect implementation is **NOT** required
 
 You can find an example view [here](https://i.imgur.com/ynNo6z2.png)
 
 [/task-description]
+
 
 [/code-task]
 [/slide]
