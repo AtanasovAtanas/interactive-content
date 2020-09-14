@@ -4,11 +4,79 @@
 
 # Generic Classes
 
+We can define our own classes with generics type.
+
+A generic type is a class or interface that is parameterized over types.
+
+In the generic class declarations, the name of the class is followed by the type parameter section. 
+
+The type parameter, also known as the type variable, is an identifier used to specify a generic type name. 
+
+The type parameter section of the generic class can include one or more type parameters that are separated by commas. 
+
+These classes are also known as parameterized classes.
+
+In the following example, we have a generic class Container which accepts one type parameter:
+
+```java
+public class Container<T> {
+
+    private List<T> items;
+
+    public void addItem(T item) {
+        this.items.add(item);
+    }
+
+    public boolean removeItem(T item) {
+        return this.items.remove(item);
+    }
+}
+```
+
+Multiple Type Parameters Example:
+
+```java
+public class Container<K,V> {
+
+    private HashMap<K,V> items;
+
+    public void addItem(K key, V value) {
+        this.items.put(key,value);
+    }
+
+    public boolean removeByKey(K key, V value) {
+        return this.items.remove(key, value);
+    }
+}
+```
 [/slide]
 
 [slide]
 
 # Generic Interfaces
+
+A generic Java interface is an interface which can be typed - meaning it can be specialized to work with a specific type (e.g. interface or class) when used.
+
+Generic interfaces are specified just like generic classes. 
+
+For example:
+
+```java
+public interface Mathematics<T extends Number> {
+
+    int powerOf(T number);
+}
+```
+In the example above, we declare the Mathematics interface which declares the method `powerOf()`.
+
+The type parameter `T` extends Number to restrict the type of objects that can be used in the parameterized type.
+
+The `Number` is a superclass of all numeric classes, such as `Integer`, `Float` and `Double`.
+
+So, if we try to use another class which is **not a subclass of Number**, the compiler will throw `compile-time-error`.
+
+
+
 
 [/slide]
 
