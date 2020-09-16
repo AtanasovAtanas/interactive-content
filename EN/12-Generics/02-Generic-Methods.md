@@ -15,7 +15,7 @@ The main features of generic methods are:
 - Generic methods can have **different** type parameters separated by commas in the method signature
 - Method body for a generic method is just like a normal method
 
-
+Let's see the following example:
 ```java live no-template
 public class Main {
 
@@ -31,6 +31,18 @@ public class Main {
     }
 }
 ```
+To declare a generic method we have to define a type parameter - `<T>` to the method signature.
+
+In the example above, we have a `genericPrinter(T element)` which have a generic type paramater in its signature - `<T>`.   
+
+The `genericPrinter(T element)` can be called with arguments of different types, `Integer`, `String`, `Double` etc.
+
+We don't need explicitly specify type while calling the method,  **Java compiler** is smart enough to determine the type of variable to be used, this facility is called **type inference**. 
+
+
+
+
+
 
 [/slide]
 
