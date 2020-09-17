@@ -146,7 +146,12 @@ yes
 * The web page should open correctly in the latest version of Chrome
 * Pixel-perfect implementation is **NOT** required
 
+## Submission
+* Do **NOT** add the **images folder** inside the archive when submitting
+
 You can find an example view [here](https://i.imgur.com/ynNo6z2.png)
+
+You can download the resources [here](https://mega.nz/file/Td4VQKZb#zYlVI8AUKZLTxyheBnABaRNotmyt-HjYMkpP_tYFAZA)
 
 [/task-description]
 
@@ -253,7 +258,12 @@ yes
 * Pixel-perfect implementation is **NOT** required
 * You are **NOT** permitted to use libraries like Bootstrap
 
+## Submission
+* Do **NOT** add the **images folder** inside the archive when submitting
+
 You can find an example view [here](https://imgur.com/uo2Tz35)
+
+You can download the resources [here](https://mega.nz/file/3V5jASia#NiQq1y9Yg_T4ZHx-n_Ie4YyTMdaiFq2HcSHImnsfrtA)
 
 [/task-description]
 
