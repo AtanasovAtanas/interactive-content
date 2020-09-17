@@ -189,7 +189,7 @@ yes
 [test]
 [input]
 let button = $("body button");
-let text = button.textContent
+let text = button.text();
 expect(button).to.have.lengthOf(1,"Incorrect amount of button tags.");
 expect(text).to.equal("Login","Incorrect text of the button");
 [/input]
@@ -233,7 +233,7 @@ yes
 let html = document.querySelector("html");
 let style = window.getComputedStyle(html);
 let fontFamily = style.getPropertyValue('font-family');
-expect(fontFamily).to.equal("Poppins, sans-serif","Border of the buttons missing");
+expect(fontFamily).to.equal("\"Poppins\", sans-serif","Border of the buttons missing");
 [/input]
 [output]
 yes
