@@ -268,7 +268,7 @@ You can find an example view [here](blob:https://imgur.com/93fdca3a-3ed5-4820-bd
 
 [/task-description]
 
-tests]
+[tests]
 [test]
 [input]
 expect(document.title).to.equal("Travel Blog","Incorrect title name");
