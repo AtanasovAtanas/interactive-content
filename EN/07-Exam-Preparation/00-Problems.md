@@ -150,7 +150,96 @@ You can find an example view [here](https://i.imgur.com/ynNo6z2.png)
 
 [/task-description]
 
-
+[tests]
+[test]
+[input]
+expect(document.title).to.equal("Login Form","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let form = $("body form");
+expect(form).to.have.lengthOf(1,"Incorrect amount of form tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let input = $("body form div input");
+expect(input).to.have.lengthOf(2,"Incorrect amount of input tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let label = $("body form div label");
+expect(label).to.have.lengthOf(2,"Incorrect amount of label tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let button = $("body button");
+let text = button.textContent
+expect(button).to.have.lengthOf(1,"Incorrect amount of button tags.");
+expect(text).to.equal("Login","Incorrect text of the button");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let iTags = $("body i");
+expect(iTags).to.have.lengthOf(2,"Incorrect amount of iTags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let fieldset = document.querySelector("fieldset");
+let style = window.getComputedStyle(fieldset);
+let backGround = style.getPropertyValue('background-color');
+expect(backGround).to.equal("rgb(255, 255, 255)","Incorrect background of fieldset");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let button = document.querySelector("button");
+let style = window.getComputedStyle(button);
+let backGround = style.getPropertyValue('background-color');
+expect(backGround).to.equal("rgb(212, 24, 114)","Incorrect background of button");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let html = document.querySelector("html");
+let style = window.getComputedStyle(html);
+let fontFamily = style.getPropertyValue('font-family');
+expect(fontFamily).to.equal("Poppins, sans-serif","Border of the buttons missing");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 
@@ -179,6 +268,91 @@ You can find an example view [here](blob:https://imgur.com/93fdca3a-3ed5-4820-bd
 
 [/task-description]
 
-
+tests]
+[test]
+[input]
+expect(document.title).to.equal("Travel Blog","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let header = $("body header");
+let main = $("body main");
+let footer = $("body footer");
+expect(header).to.have.lengthOf(1,"Incorrect amount of header tags.");
+expect(main).to.have.lengthOf(1,"Incorrect amount of main tags.");
+expect(footer).to.have.lengthOf(1,"Incorrect amount of footer tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let aTags = $("header a");
+expect(aTags).to.have.lengthOf(3, "Incorrect amount of a tags in header.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+expect($("a").css('text-decoration')).to.equal('none', "Incorrect display property.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let headerButton = $(".header-button");
+expect(headerButton).to.have.lengthOf(1,"Incorrect amount of elements with className header-button tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let headerButton = $(".header-button");
+expect($(".header-button").css('background-color)).to.equal("rgb(20, 101, 148)","Incorrect background color of the headerbutton");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let footerDiv = $("footer>div");
+expect(footerDiv).to.have.lengthOf(1,"Incorrect amount of div tags in the footer.");
+expect($("footer>div").css('display')).to.equal("flex","Incorrect display flex of the div container");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let h3Tags = $("h3");
+expect(h3Tags).to.have.lengthOf(3,"Incorrect amount of h3 tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let h1Text = $("h1").text();
+expect(h1Text).to.equal("Make the most of every trip","Incorrect text content of the h1 tag");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
