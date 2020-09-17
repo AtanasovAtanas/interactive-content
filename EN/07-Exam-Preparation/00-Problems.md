@@ -228,17 +228,6 @@ expect(backGround).to.equal("rgb(212, 24, 114)","Incorrect background of button"
 yes
 [/output]
 [/test]
-[test]
-[input]
-let html = document.querySelector("html");
-let style = window.getComputedStyle(html);
-let fontFamily = style.getPropertyValue('font-family');
-expect(fontFamily).to.equal("\"Poppins\", sans-serif","Border of the buttons missing");
-[/input]
-[output]
-yes
-[/output]
-[/test]
 [/tests]
 [/code-task]
 [/slide]
@@ -293,7 +282,7 @@ yes
 [test]
 [input]
 let aTags = $("header a");
-expect(aTags).to.have.lengthOf(3, "Incorrect amount of a tags in header.");
+expect(aTags).to.have.lengthOf(4, "Incorrect amount of a tags in header.");
 [/input]
 [output]
 yes
@@ -311,15 +300,6 @@ yes
 [input]
 let headerButton = $(".header-button");
 expect(headerButton).to.have.lengthOf(1,"Incorrect amount of elements with className header-button tags.");
-[/input]
-[output]
-yes
-[/output]
-[/test]
-[test]
-[input]
-let headerButton = $(".header-button");
-expect($(".header-button").css('background-color)).to.equal("rgb(20, 101, 148)","Incorrect background color of the headerbutton");
 [/input]
 [output]
 yes
