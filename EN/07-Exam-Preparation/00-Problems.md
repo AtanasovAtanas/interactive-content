@@ -25,7 +25,106 @@ You can find an example view [here](https://i.imgur.com/mDo24Cv.png)
 
 [/task-description]
 
-
+[tests]
+[test]
+[input]
+expect(document.title).to.equal("Register Form","Incorrect title name");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let form = $("body form");
+expect(form).to.have.lengthOf(1,"Incorrect amount of form tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let fieldset = $("body fieldset");
+expect(fieldset).to.have.lengthOf(1,"Incorrect amount of fieldset tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let legend = $("body legend");
+expect(legend).to.have.lengthOf(1,"Incorrect amount of legend tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let input = $("body form div input");
+expect(input).to.have.lengthOf(6,"Incorrect amount of input tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let label = $("body form div label");
+expect(label).to.have.lengthOf(6,"Incorrect amount of label tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let button = $("body button");
+expect(button).to.have.lengthOf(1,"Incorrect amount of button tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let autoFocus = document.querySelectorAll("input")[0].autofocus;
+expect(autoFocus).to.equal(true,"Autofocus on name input missing");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let nameInput = document.querySelectorAll("input[type=text]");
+expect(nameInput).to.have.lengthOf(1,"Incorrect amount of input-name tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let radioInputs = document.querySelectorAll("input[type=radio]");
+expect(radioInputs).to.have.lengthOf(2,"Incorrect amount of input-radio tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[test]
+[input]
+let telInputs = document.querySelectorAll("input[type=tel]");
+expect(telInputs).to.have.lengthOf(1,"Incorrect amount of input-tel tags.");
+[/input]
+[output]
+yes
+[/output]
+[/test]
+[/tests]
 [/code-task]
 [/slide]
 [slide]
