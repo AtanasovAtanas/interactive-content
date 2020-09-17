@@ -253,7 +253,7 @@ yes
 * Pixel-perfect implementation is **NOT** required
 * You are **NOT** permitted to use libraries like Bootstrap
 
-You can find an example view [here](blob:https://imgur.com/93fdca3a-3ed5-4820-bd2e-307b6cd0ffbb)
+You can find an example view [here](https://imgur.com/uo2Tz35)
 
 [/task-description]
 
