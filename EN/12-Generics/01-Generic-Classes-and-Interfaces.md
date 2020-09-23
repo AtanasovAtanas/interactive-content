@@ -52,6 +52,35 @@ public class Container<K,V> {
 [/slide]
 
 [slide]
+# Problem: Jar of T
+[code-task title="Problem: Jar of T" taskId="11709b5a-e400-4da9-8b47-1cb8af706312" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Java - Unit Testing Strategy needed
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Create a class Jar<> that can store anything.
+
+## Examples
+
+
+[/task-description]
+[code-io /]
+[tests]
+
+[/tests]
+[/code-task]
+[/slide]
+
+[slide]
 
 # Generic Interfaces
 
