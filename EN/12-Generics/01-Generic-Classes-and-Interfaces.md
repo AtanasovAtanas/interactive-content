@@ -68,19 +68,185 @@ public class Main {
 [task-description]
 ## Description
 Create a class Jar<> that can store anything.
+It should have two public methods:
+- void add(element)
+- element remove()
+Adding should add on top of its contents. Remove should get the topmost element.
 
 ## Examples
+[image assetsSrc="generics-example(1).png" /]
 
+## Submit
+To submit your solution, **zip** your whole package with the **Jar** and **Main classes**:
+
+[image assetsSrc="generics-example(2).png" /]
+
+If you didn't create **package** just choose your classes and **zip** them.
 
 [/task-description]
 [code-io /]
 [tests]
+[test open]
+[input]
+import org.junit.Assert;
+import org.junit.Test;
 
+public class P01_ZeroTest \{
+
+    @Test
+    public void test() throws NoSuchMethodException \{
+        Assert.assertTrue("Class 'Jar' not found", Classes.allClasses.containsKey("Jar"));
+        Class cl = Classes.allClasses.get("Jar");
+	Assert.assertTrue("Jar class has no type parameters", cl.getTypeParameters().length \> 0);
+        cl.getDeclaredMethod("add", Object.class);
+        cl.getDeclaredMethod("remove");
+    \}
+\}
+[/input]
+[output]
+Test Passed!
+[/output]
+[/test]
+[test]
+[input]
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+public class P01_TestAddInt \{
+
+    @Test
+    public void test() throws NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException \{
+        Class\<?\> cl = Classes.allClasses.get("Jar");
+	Assert.assertTrue(cl.getTypeParameters().length \> 0);
+        Method add = cl.getMethod("add", Object.class);
+        Method remove = cl.getMethod("remove");
+        Object jar = cl.newInstance();
+        add.invoke(jar, 123);
+        Integer result = (Integer) remove.invoke(jar);
+        Assert.assertTrue(result.equals(123));
+    \}
+\}
+[/input]
+[output]
+Test Passed!
+[/output]
+[/test]
+[test]
+[input]
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+public class P01_TestAddString \{
+
+    @Test
+    public void test() throws NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException \{
+        Class\<?\> cl = Classes.allClasses.get("Jar");
+	Assert.assertTrue(cl.getTypeParameters().length \> 0);
+        Method add = cl.getMethod("add", Object.class);
+        Method remove = cl.getMethod("remove");
+        Object jar = cl.newInstance();
+        add.invoke(jar, "123");
+        String result = (String) remove.invoke(jar);
+        Assert.assertTrue(result.equals("123"));
+    \}
+\}
+[/input]
+[output]
+Test Passed!
+[/output]
+[/test]
+[test]
+[input]
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+public class P01_TestAddFloat \{
+
+    @Test
+    public void test() throws NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException \{
+        Class\<?\> cl = Classes.allClasses.get("Jar");
+        Assert.assertTrue(cl.getTypeParameters().length \> 0);
+        Method add = cl.getMethod("add", Object.class);
+        Method remove = cl.getMethod("remove");
+        Object jar = cl.newInstance();
+        add.invoke(jar, 123.2f);
+        Float result = (Float) remove.invoke(jar);
+        Assert.assertTrue(result.equals(123.2f));
+    \}
+\}
+[/input]
+[output]
+Test Passed!
+[/output]
+[/test]
+[test]
+[input]
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+public class P01_TestAddDouble \{
+
+    @Test
+    public void test() throws NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException \{
+        Class\<?\> cl = Classes.allClasses.get("Jar");
+        Assert.assertTrue(cl.getTypeParameters().length \> 0);
+        Method add = cl.getMethod("add", Object.class);
+        Method remove = cl.getMethod("remove");
+        Object jar = cl.newInstance();
+        add.invoke(jar, 123.2);
+        Double result = (Double) remove.invoke(jar);
+        Assert.assertTrue(result.equals(123.2));
+    \}
+\}
+[/input]
+[output]
+Test Passed!
+[/output]
+[/test]
+[test]
+[input]
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+public class P01_TestAddBoolean \{
+
+    @Test
+    public void test() throws NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException \{
+        Class\<?\> cl = Classes.allClasses.get("Jar");
+        Assert.assertTrue(cl.getTypeParameters().length \> 0);
+        Method add = cl.getMethod("add", Object.class);
+        Method remove = cl.getMethod("remove");
+        Object jar = cl.newInstance();
+        add.invoke(jar, false);
+        add.invoke(jar, true);
+        add.invoke(jar, false);
+        boolean result = (boolean) remove.invoke(jar);
+        Assert.assertTrue(!result);
+    \}
+\}
+[/input]
+[output]
+Test Passed!
+[/output]
+[/test]
 [/tests]
 [/code-task]
 [/slide]
-
-[slide]
 
 # Generic Interfaces
 
