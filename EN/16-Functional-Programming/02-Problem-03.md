@@ -40,10 +40,14 @@ expect(document.title).to.equal("NewsPaper","Incorrect title name");
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
-const htmlBoxSizing = $('html').get(0).css('box-sizing');
+const htmlBoxSizing = $('html').css('box-sizing');
+const pagePadding = $('*').css('padding');
+const pageMargin = $('*').css('margin');
 expect(htmlBoxSizing).to.equal('inherit');
+expect(pagePadding).to.equal('0px');
+expect(pageMargin).to.equal('0px');
 [/input]
 [output]
 yes
