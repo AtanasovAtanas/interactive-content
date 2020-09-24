@@ -31,7 +31,7 @@ You can download the resources [here](https://mega.nz/file/mR5D2Ayb#-hV_GOaBo1V9
 [/task-description]
 
 [tests]
-[test]
+[test open]
 [input]
 expect(document.title).to.equal("Simple Article","Incorrect title name");
 [/input]
@@ -39,9 +39,9 @@ expect(document.title).to.equal("Simple Article","Incorrect title name");
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
-let main = $(".main");
+let main = $(".main").get(0);
 let style = window.getComputedStyle(main);
 let dispalyProp = style.getPropertyValue('display');
 expect(dispalyProp).to.equal("flex","Incorrect dispaly property");
@@ -50,9 +50,9 @@ expect(dispalyProp).to.equal("flex","Incorrect dispaly property");
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
-let leftSection = $(".left");
+let leftSection = $(".left").get(0);
 let style = window.getComputedStyle(leftSection);
 let backGround = style.getPropertyValue('background-color');
 expect(backGround).to.equal("rgb(227, 243, 253)","Incorrect background of the left section");
@@ -61,7 +61,7 @@ expect(backGround).to.equal("rgb(227, 243, 253)","Incorrect background of the le
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 let li = $(".left li").get(3);
 let style = window.getComputedStyle(li);
@@ -72,9 +72,9 @@ expect(liStyle).to.equal("none","Incorrect list-style property value");
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
-let iTag = $(".left li i");
+let iTag = $(".left li i").get(0);
 let style = window.getComputedStyle(iTag);
 let color = style.getPropertyValue('color');
 expect(color).to.equal("rgb(129, 197, 251)","Incorrect color of the itags");
@@ -83,10 +83,10 @@ expect(color).to.equal("rgb(129, 197, 251)","Incorrect color of the itags");
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
-let rightPart = $(".right");
-let style = window.getComputedStyle(right);
+let rightPart = $(".right").get(0);
+let style = window.getComputedStyle(rightPart);
 let borderWidth = style.getPropertyValue('border-width');
 let borderStyle = style.getPropertyValue('border-style');
 expect(borderWidth).to.equal("2px","Incorrect border width of the right section");
@@ -96,18 +96,18 @@ expect(borderStyle).to.equal("solid","Incorrect border style of the right sectio
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 let button = $("button").get(0);
 let style = window.getComputedStyle(button);
 let border = style.getPropertyValue('border');
-expect(border).to.equal("none","Incorrect border property value of the button");
+expect(border).to.equal("","Incorrect border property value of the button");
 [/input]
 [output]
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 let button = $("button").get(0);
 let style = window.getComputedStyle(button);
@@ -120,7 +120,7 @@ expect(paddingLeft).to.equal("32px","Incorrect padding value of the button");
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 let button = $("button").get(0);
 let style = window.getComputedStyle(button);
@@ -131,7 +131,7 @@ expect(cursor).to.equal("pointer","Incorrect cursor property value of the button
 yes
 [/output]
 [/test]
-[test]
+[test open]
 [input]
 let button = $("button").get(0);
 let style = window.getComputedStyle(button);
