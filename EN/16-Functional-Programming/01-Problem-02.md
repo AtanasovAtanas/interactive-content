@@ -31,7 +31,7 @@ You can download the resources [here](https://mega.nz/file/mR5D2Ayb#-hV_GOaBo1V9
 [/task-description]
 
 [tests]
-[test open]
+[test]
 [input]
 expect(document.title).to.equal("Simple Article","Incorrect title name");
 [/input]
@@ -39,7 +39,7 @@ expect(document.title).to.equal("Simple Article","Incorrect title name");
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let main = $(".main").get(0);
 let style = window.getComputedStyle(main);
@@ -50,7 +50,7 @@ expect(dispalyProp).to.equal("flex","Incorrect dispaly property");
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let leftSection = $(".left").get(0);
 let style = window.getComputedStyle(leftSection);
@@ -61,7 +61,7 @@ expect(backGround).to.equal("rgb(227, 243, 253)","Incorrect background of the le
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let li = $(".left li").get(3);
 let style = window.getComputedStyle(li);
@@ -72,7 +72,7 @@ expect(liStyle).to.equal("none","Incorrect list-style property value");
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let iTag = $(".left li i").get(0);
 let style = window.getComputedStyle(iTag);
@@ -83,7 +83,7 @@ expect(color).to.equal("rgb(129, 197, 251)","Incorrect color of the itags");
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let rightPart = $(".right").get(0);
 let style = window.getComputedStyle(rightPart);
@@ -96,7 +96,7 @@ expect(borderStyle).to.equal("solid","Incorrect border style of the right sectio
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let button = $("button").get(0);
 let style = window.getComputedStyle(button);
@@ -107,7 +107,7 @@ expect(border).to.equal("","Incorrect border property value of the button");
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let button = $("button").get(0);
 let style = window.getComputedStyle(button);
@@ -120,7 +120,7 @@ expect(paddingLeft).to.equal("32px","Incorrect padding value of the button");
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let button = $("button").get(0);
 let style = window.getComputedStyle(button);
@@ -131,7 +131,7 @@ expect(cursor).to.equal("pointer","Incorrect cursor property value of the button
 yes
 [/output]
 [/test]
-[test open]
+[test]
 [input]
 let button = $("button").get(0);
 let style = window.getComputedStyle(button);

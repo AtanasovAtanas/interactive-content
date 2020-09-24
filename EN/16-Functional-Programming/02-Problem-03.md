@@ -42,12 +42,8 @@ yes
 [/test]
 [test]
 [input]
-const htmlBoxSizing = $('html').css('box-sizing');
-const pagePadding = $('*').css('padding');
-const pageMargin = $('*').css('margin');
+const htmlBoxSizing = $('html').get(0).css('box-sizing');
 expect(htmlBoxSizing).to.equal('inherit');
-expect(pagePadding).to.equal('0px');
-expect(pageMargin).to.equal('0px');
 [/input]
 [output]
 yes
