@@ -99,6 +99,26 @@ Test Passed!
 [/slide]
 
 [slide]
+
+# Solution: Jar of T
+
+- Use the syntax `Jar<T>` to create a generic class:
+
+```java
+public class Jar<T> {
+  private Deque<T> content;
+  public Jar() { this.content = new ArrayDeque<>(); }
+
+  public void add(T entity) {
+    this.content.push(entity);
+  }
+  
+  public T remove() { return this.content.pop(); }
+}
+```
+[/slide]
+
+[slide]
 # Generic Interfaces
 
 A generic Java interface is an interface which can be typed - meaning it can be specialized to work with a specific type (e.g. interface or class) when used.
