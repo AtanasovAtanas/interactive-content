@@ -51,52 +51,7 @@ public class Container<K,V> {
 ```
 [/slide]
 
-[slide]
-# Problem: Jar of T
-[code-task title="Problem: Jar of T" taskId="11709b5a-e400-4da9-8b47-1cb8af706312" executionType="tests-execution" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
-```
-import java.util.*;
 
-public class Main {
-    public static void main(String[] args) {
-        // Java - Unit Testing Strategy needed
-    }
-}
-```
-[/code-editor]
-[task-description]
-## Description
-Create a class Jar<> that can store anything.
-It should have two public methods:
-- void add(element)
-- element remove()
-Adding should add on top of its contents. Remove should get the topmost element.
-
-## Examples
-[image assetsSrc="generics-example(1).png" /]
-
-## Submit
-To submit your solution, **zip** your whole package with the **Jar** and **Main classes**:
-
-[image assetsSrc="generics-example(2).png" /]
-
-If you didn't create **package** just choose your classes and **zip** them.
-
-[/task-description]
-[code-io /]
-[tests]
-[test]
-[input]
-Unit tests!
-[/input]
-[output]
-Test Passed!
-[/output]
-[/test]
-[/tests]
-[/code-task]
-[/slide]
 
 # Generic Interfaces
 
