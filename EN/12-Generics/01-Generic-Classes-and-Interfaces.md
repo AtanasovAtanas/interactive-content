@@ -147,7 +147,7 @@ So, if we try to use another class which is **not a subclass of Number**, the co
 
 # Problem: Generic Array Creator
 
-[code-task title="Problem: Jar of T" taskId="8acb50c5-224b-4e83-b003-2663bdb70de8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Generic Array Creator" taskId="8acb50c5-224b-4e83-b003-2663bdb70de8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -203,7 +203,7 @@ public class ArrayCreator {
     }
 
     public static <T> T[] create(int length, T item) {
-        
+
         T[] array =(T[]) new Object[length];
         for (int i = 0; i < array.length; i++) {
             array[i] = item;
