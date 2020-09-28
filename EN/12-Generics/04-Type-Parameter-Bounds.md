@@ -53,7 +53,7 @@ So, if we try to use another class which is **not a subclass of Number**, the co
 
 # Problem: Generic Scale
 
-[code-task title="Problem: Jar of T" taskId="298eccf5-3f1c-4eca-a299-58012f7ca715" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: Generic Scale" taskId="298eccf5-3f1c-4eca-a299-58012f7ca715" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -138,7 +138,7 @@ public class Scale<T extends Comparable<T>> {
 
 # Problem: List Utilities
 
-[code-task title="Problem: Jar of T" taskId="2fa5d18e-da5d-436e-9860-7b43e847752d" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-task title="Problem: List Utilities" taskId="2fa5d18e-da5d-436e-9860-7b43e847752d" executionType="tests-execution" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
 import java.util.*;
@@ -153,9 +153,13 @@ public class Main {
 [task-description]
 ## Description
 Create a class **ListUtils** that you will use through several other exercises.
+
 The class should have two static methods:
-- T getMin(List<T> list)
-- T getMax(List<T> list)
+
+- `T getMin(List<T> list)`
+
+- `T getMax(List<T> list)`
+
 The methods should throw `IllegalArgumentException` if an empty list is passed.
 
 
