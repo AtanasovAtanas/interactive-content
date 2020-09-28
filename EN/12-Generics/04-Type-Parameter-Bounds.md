@@ -132,3 +132,92 @@ public class Scale<T extends Comparable<T>> {
 
 ```
 [/slide]
+
+
+[slide]
+
+# Problem: List Utilities
+
+[code-task title="Problem: Jar of T" taskId="2fa5d18e-da5d-436e-9860-7b43e847752d" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Java - Unit Testing Strategy needed
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Create a class **ListUtils** that you will use through several other exercises.
+The class should have two static methods:
+- T getMin(List<T> list)
+- T getMax(List<T> list)
+The methods should throw `IllegalArgumentException` if an empty list is passed.
+
+
+
+
+## Examples
+[image assetsSrc="generics-example(5).png" /]
+
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+Unit tests!
+[/input]
+[output]
+Test Passed!
+[/output]
+[/test]
+[/tests]
+[/code-task]
+
+[/slide]
+
+
+[slide]
+
+# Solution: List Utilities
+
+```java
+public class ListUtils {
+
+    public static <T extends Comparable<T>> T getMax(List<T> list){
+        if(list.size() == 0){
+            throw new IllegalArgumentException();
+        }
+
+        T max = list.get(0);
+
+        for (int i = 1; i < list.size() ; i++) {
+            if (max.compareTo(list.get(i)) < 0){
+                max = list.get(i);
+            }
+        }
+        return max;
+    }
+    
+    public static <T extends Comparable<T>> T getMin(List<T> list){
+        if(list.size() == 0){
+            throw new IllegalArgumentException();
+        }
+
+        T min = list.get(0);
+
+        for (int i = 1; i < list.size() ; i++) {
+            if (min.compareTo(list.get(i)) > 0){
+                min = list.get(i);
+            }
+        }
+        return min;
+    }
+}
+
+```
+[/slide]
