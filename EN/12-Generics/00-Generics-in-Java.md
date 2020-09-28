@@ -4,7 +4,7 @@
 
 # The Problem Before Java 5.0
 
-Java Generics were introduced in Java 5.0 to provide compile-time type checking and removing risk of `ClassCastException` that was common while working with collection classes.
+Java Generics were introduced in Java 5.0 to provide compile-time type checking and removing the risk of `ClassCastException` that was common while working with collection classes.
 
 It makes the code stable by detecting the bugs at compile time.
 
