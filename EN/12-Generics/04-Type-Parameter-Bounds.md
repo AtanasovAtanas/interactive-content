@@ -17,7 +17,7 @@ public class PowerOfThree<T>  {
 ```
 The code above will produce compile-time-error - "The method intValue() is undefined for the type T".
 
-The error occurs as there is no way for compiler to know type `T` will always be used for numeric classes.
+The error occurs as there is no way for the compiler to know type `T` will always be used for numeric classes.
 
 So, we need bounded type to restrict the types that can be used for parameterized type.
 
@@ -28,7 +28,7 @@ In our case that will be a Number class.
 ```java
 T extends Number
 ```
-The above code should looks like this:
+The above code should look like this:
 
 ```java
 public class PowerOfThree<T extends Number>  {
