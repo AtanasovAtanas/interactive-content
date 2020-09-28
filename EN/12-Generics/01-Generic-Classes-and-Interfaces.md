@@ -67,7 +67,7 @@ public class Main {
 [/code-editor]
 [task-description]
 ## Description
-Create a class Jar<> that can store anything.
+Create a class `Jar<>` that can store anything.
 It should have two public methods:
 - void add(element)
 - element remove()
@@ -141,8 +141,77 @@ The `Number` is a superclass of all numeric classes, such as `Integer`, `Float` 
 
 So, if we try to use another class which is **not a subclass of Number**, the compiler will throw `compile-time-error`.
 
+[/slide]
+
+[slide]
+
+# Problem: Generic Array Creator
+
+[code-task title="Problem: Jar of T" taskId="8acb50c5-224b-4e83-b003-2663bdb70de8" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Java - Unit Testing Strategy needed
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Create a class `ArrayCreator` with a method and a single overload to it:
+- static T[] create(int length, T item)
+- static T[] create(Class<T> class, int length, T item)
+The method should return an array with the given length and every element should be set to the given default item.
 
 
+## Examples
+[image assetsSrc="generics-example(3).png" /]
 
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+Unit tests!
+[/input]
+[output]
+Test Passed!
+[/output]
+[/test]
+[/tests]
+[/code-task]
+
+[/slide]
+
+[slide]
+
+# Solution: Generic Array Creator
+
+```java
+public class ArrayCreator {
+
+    public static <T> T[] create(Class<T> cl,int length, T item) {
+
+        T[] array = (T[])Array.newInstance(cl,length);
+        for (int i = 0; i < array.length; i++) {
+            array[i] = item;
+        }
+        return array;
+    }
+
+    public static <T> T[] create(int length, T item) {
+        
+        T[] array =(T[]) new Object[length];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = item;
+        }
+        return array;
+    }
+}
+
+```
 [/slide]
 
