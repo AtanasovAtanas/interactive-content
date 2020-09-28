@@ -48,3 +48,87 @@ So, if we try to use another class which is **not a subclass of Number**, the co
 
 
 [/slide]
+
+[slide]
+
+# Problem: Generic Scale
+
+[code-task title="Problem: Jar of T" taskId="298eccf5-3f1c-4eca-a299-58012f7ca715" executionType="tests-execution" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
+```
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Java - Unit Testing Strategy needed
+    }
+}
+```
+[/code-editor]
+[task-description]
+## Description
+Create a class `Scale<T>` that holds two elements - left and right. 
+
+The scale should receive the elements through its single constructor:
+
+- Scale(T left, T right)
+
+The scale should have a single method: 
+
+- T getHeavier()
+
+The greater of the two elements is heavier. 
+
+The method should return null if elements are equal.
+
+
+
+## Examples
+[image assetsSrc="generics-example(4).png" /]
+
+[/task-description]
+[code-io /]
+[tests]
+[test]
+[input]
+Unit tests!
+[/input]
+[output]
+Test Passed!
+[/output]
+[/test]
+[/tests]
+[/code-task]
+
+[/slide]
+
+[slide]
+
+# Solution: Generic Scale
+
+```java
+public class Scale<T extends Comparable<T>> {
+
+    private T left;
+    private T right;
+
+    public Scale(T left, T right) {
+        this.left = left;
+        this.right = right;
+    }
+
+    public T getHeavier() {
+        if (left.compareTo(right) < 0) {
+            return right;
+        }
+
+        if (left.compareTo(right) > 0) {
+            return left;
+        }
+
+        return null;
+    }
+}
+
+```
+[/slide]
