@@ -12,7 +12,7 @@ To overcome this problem, Java 5 introduced varargs.
 
 Varargs stands for variable arguments.
 
-The varrags allows the method to accept zero or multiple arguments.
+The varags allows the method to accept zero or multiple arguments.
 
 Let's see the following example:
 
@@ -49,7 +49,7 @@ Varargs are straightforward to use.
 
 But there're a few rules we have to keep in mind:
 
-- There can be only one variable argument in the method
+- There can be only one **varargs** argument in the method
 
 ```java
 //Compile time error
@@ -62,7 +62,7 @@ void method(String a, int... b){
 } 
 ```
 
-- The varargs argument must be the last parameter
+- The **varargs** argument must be the last parameter
 
 ```java
 //Compile time error
