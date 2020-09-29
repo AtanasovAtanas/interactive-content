@@ -3,8 +3,7 @@
 
 [slide]
 
-# Iterable\<T\>
-
+# Iterable
 ## Iterable Methods
 
 [/slide]
