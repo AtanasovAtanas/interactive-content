@@ -45,5 +45,35 @@ In the example above, the method named `display()` accepts varargs (of type Stri
 
 # Variable Arguments Rules
 
+Varargs are straightforward to use. 
+
+But there're a few rules we have to keep in mind:
+
+- There can be only one variable argument in the method
+
+```java
+//Compile time error
+void method(String... a, int... b){
+
+} 
+// Correct 
+void method(String a, int... b){
+
+} 
+```
+
+- The varargs argument must be the last parameter
+
+```java
+//Compile time error
+void method(int... a, String b){
+
+}  
+// Correct
+void method(String a, int... b){
+  
+}    
+```
+
 
 [/slide]
