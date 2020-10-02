@@ -427,7 +427,7 @@ It's a simple task, so you should do it all on your own.
 
 [slide]
 
-## Implement ForEach(Consumer\<Integer\> Consumer) Method
+## Implement ForEach Method
 
 Implement a method which will allow you to iterate through each element of the **SmartArray**.
 
