@@ -161,7 +161,7 @@ For sure, you will be able to implement it on your own.
 
 [slide]
 
-## Implement Void ForEach(Consumer<Integer> Consumer) Method
+## Implement Void ForEach Method
 
 This method goes through every element from the collection and executes the given action.
 
