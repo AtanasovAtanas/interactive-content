@@ -29,27 +29,67 @@ In the following example, we have a List which extends `Iterable<T>`.
 
 The iterator() method of this List returns Iterator of type String.
 
-So we can use all the Iterator methods.
+So we can use all the Iterator methods to iterate over collection.
 
-```java
-List<String> list = new ArrayList<>();
-list.add("one");
-list.add("two");
-list.add("three");
+The hasNext() - methods returns true if the iterator has more elements, and false if not.
 
-Iterator<String> iterator = list.iterator();
+So, we pass the `iterator.hasNext()` into the while loop and by this way we begin to iterate over the collection.
+
+We use the `iterator.next()` - method to get the next element from the collection.
+
+```java live
+List<String> names = new ArrayList<>();
+list.add("Peter");
+list.add("Maria");
+list.add("Alex");
+
+Iterator<String> iterator = names.iterator();
+
+while(iterator.hasNext()) {
+    String name = iterator.next();
+    System.out.println( name );
+}
 ```
 
 - `forEach(Consumer<? super T> action)`
 
-```java
+Another way to iterate the elements of a Java Iterable is via its forEach() method. 
 
+The forEach() method takes a Java Lambda Expression as parameter. 
+
+This lambda expression is called once for each element in the Iterable. 
+
+In the following example, we have a List which extends `Iterable<T>`.
+
+We use the `forEach()` method to iterate over the collection.
+
+```java
+List<String> names = new ArrayList<>();
+list.add("Peter");
+list.add("Maria");
+list.add("Alex");
+
+names.forEach( (name) -> {
+    System.out.println( name );
+});
 ```
 
 - `spliterator()`
 
-```java
+The iterable `spliterator()` method of this List returns Spliterator of type String.
 
+If you observe the output of the following example, you will find `Spliterator.forEachRemaining()` method works in the same way as `ArrayList.foreach()` but it provides better performance.
+
+
+```java live
+List<String> list = new ArrayList<>();
+list.add("Peter");
+list.add("Maria");
+list.add("Alex");
+
+Spliterator<String> names = list.spliterator();
+
+names.forEachRemaining((name) -> System.out.println(name)); 
 ```
 
 
