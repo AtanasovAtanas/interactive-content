@@ -78,7 +78,7 @@ names.forEach( (name) -> {
 
 The iterable `spliterator()` method of this List returns Spliterator of type String.
 
-If you observe the output of the following example, you will find `Spliterator.forEachRemaining()` method works in the same way as `ArrayList.foreach()` but it provides better performance.
+If you observe the output of the following example, you will find `Spliterator.forEachRemaining()` method works in the same way as `ArrayList.foreach()` but it provides **better performance**.
 
 
 ```java live
@@ -97,7 +97,66 @@ names.forEachRemaining((name) -> System.out.println(name));
 
 [slide]
 
-# Iterator
+# Implement Custom Iterator
+
+There is a way to implement a custom Iterator, let's supose, we want a custom list with names.
+
+We want our NamesList to iterate only the names whose start with "A".
+
+For that reason our NamesList class have to implement Iterable interface.
+
+```java
+public class NamesList implements Iterable<String> {
+
+}
+```
+Let's create a field `String[] names` where we are going to save our names
+
+```java
+public class NamesList implements Iterable<String> {
+
+    private String[] names;
+
+    public NamesList(String... names) {
+        this.names = names;
+    }
+
+    @Override
+    public Iterator<String> iterator() {
+        return new NamesIterator();
+    }
+
+    private class NamesIterator implements Iterator<String> {
+
+        private int counter;
+
+        NamesIterator() {
+            this.counter = 0;
+        }
+
+        @Override
+        public boolean hasNext() {
+            while (this.counter < names.length) {
+
+                String name = names[this.counter];
+
+                if (name.startsWith("A")) {
+                    return true;
+                }
+                counter++;
+            }
+            return false;
+        }
+
+        @Override
+        public String next() {
+            return names[this.counter++];
+        }
+    }
+}
+```
+
+
 
 [/slide]
 
